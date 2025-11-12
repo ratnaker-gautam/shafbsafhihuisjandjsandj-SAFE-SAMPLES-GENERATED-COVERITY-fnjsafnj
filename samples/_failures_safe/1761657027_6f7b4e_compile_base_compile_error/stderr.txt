@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_609f8448.c: In function ‘BFS’:
+./samples/SAFE/__tmp_609f8448.c:185:42: error: expected ‘;’ at end of input
+  185 |                             queue[rear++]
+      |                                          ^
+      |                                          ;
+./samples/SAFE/__tmp_609f8448.c:185:29: error: expected declaration or statement at end of input
+  185 |                             queue[rear++]
+      |                             ^~~~~
+./samples/SAFE/__tmp_609f8448.c:185:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_609f8448.c:185:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_609f8448.c:185:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_609f8448.c:185:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_609f8448.c:185:29: error: expected declaration or statement at end of input

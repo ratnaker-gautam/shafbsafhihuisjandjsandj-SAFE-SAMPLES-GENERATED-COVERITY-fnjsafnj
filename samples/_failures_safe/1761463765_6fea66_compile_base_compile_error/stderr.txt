@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_262952df.c: In function ‘main’:
+./samples/SAFE/__tmp_262952df.c:164:9: error: expected declaration or statement at end of input
+  164 |         if (u < 0 || u >= node_count || v < 0 || v >= node_count) {
+      |         ^~
+./samples/SAFE/__tmp_262952df.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_262952df.c:164:9: error: expected declaration or statement at end of input

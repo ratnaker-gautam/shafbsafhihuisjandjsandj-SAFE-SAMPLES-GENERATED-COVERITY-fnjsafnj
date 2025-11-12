@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_69c92fd2.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_69c92fd2.c:183:9: error: expected declaration or statement at end of input
+  183 |         switch (sm->current_state) {
+      |         ^~~~~~
+./samples/SAFE/__tmp_69c92fd2.c:183:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_69c92fd2.c:183:9: error: expected declaration or statement at end of input

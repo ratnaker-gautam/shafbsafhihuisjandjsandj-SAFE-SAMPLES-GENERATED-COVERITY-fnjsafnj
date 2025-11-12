@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ba4625ee.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_ba4625ee.c:135:32: error: ‘SAFE_M’ undeclared (first use in this function); did you mean ‘SAFE_MULT’?
+  135 |                 long product = SAFE_M
+      |                                ^~~~~~
+      |                                SAFE_MULT
+./samples/SAFE/__tmp_ba4625ee.c:135:32: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ba4625ee.c:135:17: error: expected ‘,’ or ‘;’ at end of input
+  135 |                 long product = SAFE_M
+      |                 ^~~~
+./samples/SAFE/__tmp_ba4625ee.c:135:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ba4625ee.c:135:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ba4625ee.c:135:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ba4625ee.c:135:17: error: expected declaration or statement at end of input

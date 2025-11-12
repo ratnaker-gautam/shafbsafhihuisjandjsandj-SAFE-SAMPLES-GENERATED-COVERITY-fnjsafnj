@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_3c09d365.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_3c09d365.c:118:29: error: ‘val’ undeclared (first use in this function); did you mean ‘val_b’?
+  118 |                         if (val
+      |                             ^~~
+      |                             val_b
+./samples/SAFE/__tmp_3c09d365.c:118:29: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3c09d365.c:118:32: error: expected ‘)’ at end of input
+  118 |                         if (val
+      |                            ~   ^
+      |                                )
+./samples/SAFE/__tmp_3c09d365.c:118:25: error: expected declaration or statement at end of input
+  118 |                         if (val
+      |                         ^~
+./samples/SAFE/__tmp_3c09d365.c:118:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3c09d365.c:118:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3c09d365.c:118:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3c09d365.c:118:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3c09d365.c:118:25: error: expected declaration or statement at end of input

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_ae4abed4.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_ae4abed4.c:139:15: error: expected ‘;’ at end of input
+  139 |             op
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_ae4abed4.c:139:13: error: expected declaration or statement at end of input
+  139 |             op
+      |             ^~
+./samples/SAFE/__tmp_ae4abed4.c:139:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ae4abed4.c:139:13: error: expected declaration or statement at end of input

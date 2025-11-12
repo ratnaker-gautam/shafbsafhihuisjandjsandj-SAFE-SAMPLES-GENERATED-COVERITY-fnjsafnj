@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f589a52b.c: In function ‘analyze_words’:
+./samples/SAFE/__tmp_f589a52b.c:143:37: error: ‘struct TextAnalyzer’ has no member named ‘shortest_word’
+  143 |             if (token_len < analyzer->shortest_word
+      |                                     ^~
+./samples/SAFE/__tmp_f589a52b.c:143:52: error: expected ‘)’ at end of input
+  143 |             if (token_len < analyzer->shortest_word
+      |                ~                                   ^
+      |                                                    )
+./samples/SAFE/__tmp_f589a52b.c:143:13: error: expected declaration or statement at end of input
+  143 |             if (token_len < analyzer->shortest_word
+      |             ^~
+./samples/SAFE/__tmp_f589a52b.c:143:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f589a52b.c:143:13: error: expected declaration or statement at end of input

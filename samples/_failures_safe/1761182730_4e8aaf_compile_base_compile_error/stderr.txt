@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_4330576d.c: In function ‘main’:
+./samples/SAFE/__tmp_4330576d.c:158:9: error: expected declaration or statement at end of input
+  158 |         if (compress_chunk((uint8_t*)input_stack + i, chunk_size, output_chunk, &compressed_size)) {
+      |         ^~
+./samples/SAFE/__tmp_4330576d.c:158:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4330576d.c:158:9: error: expected declaration or statement at end of input

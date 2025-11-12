@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d7c32636.c: In function ‘main’:
+./samples/SAFE/__tmp_d7c32636.c:145:9: error: expected expression at end of input
+  145 |         printf("%-12s\t%d\n", frequency[i].word,
+      |         ^~~~~~
+./samples/SAFE/__tmp_d7c32636.c:145:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d7c32636.c:145:9: error: expected declaration or statement at end of input

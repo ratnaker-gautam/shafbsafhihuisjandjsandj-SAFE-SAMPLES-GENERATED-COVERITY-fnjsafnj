@@ -1,0 +1,53 @@
+
+=================================================================
+==137657==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffcd981eaa0 at pc 0x70e03c8c6f8f bp 0x7ffcd97d4560 sp 0x7ffcd97d3d08
+READ of size 1 at 0x7ffcd981eaa0 thread T0
+    #0 0x70e03c8c6f8e in strcmp ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:470
+    #1 0x5c598df6ef21 in count_level_occurrences samples/SAFE/__tmp_b96b3352.c:58
+    #2 0x5c598df6f178 in print_summary samples/SAFE/__tmp_b96b3352.c:73
+    #3 0x5c598df6f760 in main samples/SAFE/__tmp_b96b3352.c:108
+    #4 0x70e03bc2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x70e03bc2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x5c598df6e364 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_b96b3352.c.san+0x4364) (BuildId: 70d4df92e40c9e755fe48190bebf95d50b1a701c)
+
+Address 0x7ffcd981eaa0 is located in stack of thread T0 at offset 304064 in frame
+    #0 0x5c598df6f362 in main samples/SAFE/__tmp_b96b3352.c:78
+
+  This frame has 2 object(s):
+    [32, 304032) 'entries' (line 79) <== Memory access at offset 304064 overflows this variable
+    [304288, 305312) 'buffer' (line 81)
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:470 in strcmp
+Shadow bytes around the buggy address:
+  0x7ffcd981e800: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffcd981e880: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffcd981e900: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffcd981e980: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffcd981ea00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x7ffcd981ea80: f2 f2 f2 f2[f2]f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x7ffcd981eb00: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x7ffcd981eb80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffcd981ec00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffcd981ec80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffcd981ed00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==137657==ABORTING

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3982fd57.c: In function ‘main’:
+./samples/SAFE/__tmp_3982fd57.c:138:13: error: expected declaration or statement at end of input
+  138 |             MATRIX_PRINT(result, rows1, cols2);
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_3982fd57.c:138:13: error: expected declaration or statement at end of input

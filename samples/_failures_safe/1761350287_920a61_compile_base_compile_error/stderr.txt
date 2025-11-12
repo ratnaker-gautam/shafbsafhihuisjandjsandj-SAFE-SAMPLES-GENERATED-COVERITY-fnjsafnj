@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7171d0c8.c: In function ‘main’:
+./samples/SAFE/__tmp_7171d0c8.c:136:9: error: expected declaration or statement at end of input
+  136 |         char level[16];
+      |         ^~~~
+./samples/SAFE/__tmp_7171d0c8.c:136:9: error: expected declaration or statement at end of input

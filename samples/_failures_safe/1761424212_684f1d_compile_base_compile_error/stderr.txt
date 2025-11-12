@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_892ba2aa.c: In function ‘main’:
+./samples/SAFE/__tmp_892ba2aa.c:153:5: error: expected expression at end of input
+  153 |     double cpu_time = ((double)(end_time -
+      |     ^~~~~~
+./samples/SAFE/__tmp_892ba2aa.c:153:5: error: expected declaration or statement at end of input

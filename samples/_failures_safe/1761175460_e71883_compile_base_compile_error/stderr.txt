@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5239078d.c: In function ‘main’:
+./samples/SAFE/__tmp_5239078d.c:155:9: error: expected expression at end of input
+  155 |         printf("%-12s %-15s %-6d %-6d\n", token_type_to_string(token.type),
+      |         ^~~~~~
+./samples/SAFE/__tmp_5239078d.c:155:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5239078d.c:155:9: error: expected declaration or statement at end of input

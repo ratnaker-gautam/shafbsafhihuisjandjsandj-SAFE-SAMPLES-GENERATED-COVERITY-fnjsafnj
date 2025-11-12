@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_32cb053b.c: In function ‘main’:
+./samples/SAFE/__tmp_32cb053b.c:178:17: error: ‘undo_last_trans’ undeclared (first use in this function); did you mean ‘undo_last_transition’?
+  178 |             if (undo_last_trans
+      |                 ^~~~~~~~~~~~~~~
+      |                 undo_last_transition
+./samples/SAFE/__tmp_32cb053b.c:178:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_32cb053b.c:178:32: error: expected ‘)’ at end of input
+  178 |             if (undo_last_trans
+      |                ~               ^
+      |                                )
+./samples/SAFE/__tmp_32cb053b.c:178:13: error: expected declaration or statement at end of input
+  178 |             if (undo_last_trans
+      |             ^~
+./samples/SAFE/__tmp_32cb053b.c:178:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_32cb053b.c:178:13: error: expected declaration or statement at end of input

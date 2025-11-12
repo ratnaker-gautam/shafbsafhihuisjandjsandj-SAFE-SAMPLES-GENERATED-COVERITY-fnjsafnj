@@ -1,0 +1,10 @@
+
+samples/SAFE/__tmp_d286497e.c:75:9: runtime error: null pointer passed as argument 2, which is declared to never be null
+    #0 0x5b8763591b26 in recursive_compress samples/SAFE/__tmp_d286497e.c:75
+    #1 0x5b87635919ea in recursive_compress samples/SAFE/__tmp_d286497e.c:68
+    #2 0x5b87635919ea in recursive_compress samples/SAFE/__tmp_d286497e.c:68
+    #3 0x5b8763591fb2 in main samples/SAFE/__tmp_d286497e.c:127
+    #4 0x750c37c2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x750c37c2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x5b8763591384 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_d286497e.c.san+0x3384) (BuildId: fa548e1a89748bf8baecf954ec54f974aa1a65f6)
+

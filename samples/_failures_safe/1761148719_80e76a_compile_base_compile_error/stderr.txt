@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4184959c.c: In function ‘tokenize_input’:
+./samples/SAFE/__tmp_4184959c.c:145:50: error: expected ‘;’ at end of input
+  145 |     if (state == NULL || parser == NULL) return 0
+      |                                                  ^
+      |                                                  ;
+./samples/SAFE/__tmp_4184959c.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (state == NULL || parser == NULL) return 0
+      |     ^~

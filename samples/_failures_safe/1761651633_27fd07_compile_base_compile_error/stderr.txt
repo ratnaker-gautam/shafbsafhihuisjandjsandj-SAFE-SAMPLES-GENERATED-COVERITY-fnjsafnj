@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_19fd19c6.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_19fd19c6.c:131:45: error: ‘const struct LogStats’ has no member named ‘w’
+  131 |     printf("Warnings: %d\n", analyzer->stats.w
+      |                                             ^
+./samples/SAFE/__tmp_19fd19c6.c:131:47: error: expected ‘)’ at end of input
+  131 |     printf("Warnings: %d\n", analyzer->stats.w
+      |           ~                                   ^
+      |                                               )
+./samples/SAFE/__tmp_19fd19c6.c:131:5: error: expected declaration or statement at end of input
+  131 |     printf("Warnings: %d\n", analyzer->stats.w
+      |     ^~~~~~

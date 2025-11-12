@@ -1,0 +1,165 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: function_pointers ; Variation: graph_algorithms
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_NODES 100
+
+typedef struct {
+    int adjacency[MAX_NODES][MAX_NODES];
+    int node_count;
+} Graph;
+
+typedef void (*GraphOperation)(Graph*, int, int);
+
+void initialize_graph(Graph *g, int node_count) {
+    if (node_count <= 0 || node_count > MAX_NODES) {
+        fprintf(stderr, "Invalid node count\n");
+        exit(EXIT_FAILURE);
+    }
+    
+    g->node_count = node_count;
+    for (int i = 0; i < node_count; i++) {
+        for (int j = 0; j < node_count; j++) {
+            g->adjacency[i][j] = 0;
+        }
+    }
+}
+
+void add_edge(Graph *g, int from, int to) {
+    if (from < 0 || from >= g->node_count || to < 0 || to >= g->node_count) {
+        fprintf(stderr, "Invalid edge nodes\n");
+        return;
+    }
+    g->adjacency[from][to] = 1;
+    g->adjacency[to][from] = 1;
+}
+
+void dfs_visit(Graph *g, int node, int *visited) {
+    if (node < 0 || node >= g->node_count || visited == NULL) {
+        return;
+    }
+    
+    visited[node] = 1;
+    printf("%d ", node);
+    
+    for (int i = 0; i < g->node_count; i++) {
+        if (g->adjacency[node][i] && !visited[i]) {
+            dfs_visit(g, i, visited);
+        }
+    }
+}
+
+void depth_first_search(Graph *g, int start, int unused) {
+    if (g == NULL || start < 0 || start >= g->node_count) {
+        fprintf(stderr, "Invalid DFS parameters\n");
+        return;
+    }
+    
+    int visited[MAX_NODES] = {0};
+    printf("DFS traversal: ");
+    dfs_visit(g, start, visited);
+    printf("\n");
+}
+
+void breadth_first_search(Graph *g, int start, int unused) {
+    if (g == NULL || start < 0 || start >= g->node_count) {
+        fprintf(stderr, "Invalid BFS parameters\n");
+        return;
+    }
+    
+    int visited[MAX_NODES] = {0};
+    int queue[MAX_NODES];
+    int front = 0, rear = 0;
+    
+    visited[start] = 1;
+    queue[rear++] = start;
+    
+    printf("BFS traversal: ");
+    
+    while (front < rear) {
+        int current = queue[front++];
+        printf("%d ", current);
+        
+        for (int i = 0; i < g->node_count; i++) {
+            if (g->adjacency[current][i] && !visited[i]) {
+                visited[i] = 1;
+                if (rear < MAX_NODES) {
+                    queue[rear++] = i;
+                }
+            }
+        }
+    }
+    printf("\n");
+}
+
+void find_shortest_path(Graph *g, int start, int end) {
+    if (g == NULL || start < 0 || start >= g->node_count || 
+        end < 0 || end >= g->node_count) {
+        fprintf(stderr, "Invalid path parameters\n");
+        return;
+    }
+    
+    if (start == end) {
+        printf("Start and end are the same node: %d\n", start);
+        return;
+    }
+    
+    int visited[MAX_NODES] = {0};
+    int distance[MAX_NODES];
+    int previous[MAX_NODES];
+    
+    for (int i = 0; i < g->node_count; i++) {
+        distance[i] = INT_MAX;
+        previous[i] = -1;
+    }
+    
+    distance[start] = 0;
+    visited[start] = 1;
+    
+    int queue[MAX_NODES];
+    int front = 0, rear = 0;
+    queue[rear++] = start;
+    
+    while (front < rear) {
+        int current = queue[front++];
+        
+        for (int i = 0; i < g->node_count; i++) {
+            if (g->adjacency[current][i] && !visited[i]) {
+                visited[i] = 1;
+                distance[i] = distance[current] + 1;
+                previous[i] = current;
+                
+                if (rear < MAX_NODES) {
+                    queue[rear++] = i;
+                }
+                
+                if (i == end) {
+                    printf("Shortest path from %d to %d: ", start, end);
+                    int path[MAX_NODES];
+                    int path_len = 0;
+                    int node = end;
+                    
+                    while (node != -1) {
+                        path[path_len++] = node;
+                        node = previous[node];
+                    }
+                    
+                    for (int j = path_len - 1; j >= 0; j--) {
+                        printf("%d", path[j]);
+                        if (j > 0) printf(" -> ");
+                    }
+                    printf(" (distance: %d)\n", distance[end]);
+                    return;
+                }
+            }
+        }
+    }
+    
+    printf("No path found from %d to %d\n", start, end);
+}
+
+void execute_graph_operation(Graph *g, GraphOperation op, int param1, int param2) {
+    if (g == NULL || op == NULL) {
+        fprintf(stderr,

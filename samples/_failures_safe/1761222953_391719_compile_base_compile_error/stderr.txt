@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_5b0a8c4b.c: In function ‘transform_inverse’:
+./samples/SAFE/__tmp_5b0a8c4b.c:77:65: error: invalid operands to binary * (have ‘double’ and ‘double (*)[3]’)
+   77 |     result.rotation.elements[1][2] = (t.rotation.elements[0][2] * t.rotation.elements
+      |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+      |                                                             |   |
+      |                                                             |   double (*)[3]
+      |                                                             double
+./samples/SAFE/__tmp_5b0a8c4b.c:77:86: error: expected ‘)’ at end of input
+   77 |     result.rotation.elements[1][2] = (t.rotation.elements[0][2] * t.rotation.elements
+      |                                      ~                                               ^
+      |                                                                                      )
+./samples/SAFE/__tmp_5b0a8c4b.c:77:5: error: expected declaration or statement at end of input
+   77 |     result.rotation.elements[1][2] = (t.rotation.elements[0][2] * t.rotation.elements
+      |     ^~~~~~

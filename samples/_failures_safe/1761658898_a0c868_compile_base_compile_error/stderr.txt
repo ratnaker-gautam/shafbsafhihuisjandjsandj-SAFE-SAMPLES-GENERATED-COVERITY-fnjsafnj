@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ef22b2f5.c: In function ‘main’:
+./samples/SAFE/__tmp_ef22b2f5.c:165:18: error: ‘MAX_TO’ undeclared (first use in this function); did you mean ‘MAX_TOKENS’?
+  165 |     Token tokens[MAX_TO
+      |                  ^~~~~~
+      |                  MAX_TOKENS
+./samples/SAFE/__tmp_ef22b2f5.c:165:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ef22b2f5.c:165:24: error: expected ‘]’ at end of input
+  165 |     Token tokens[MAX_TO
+      |                        ^
+      |                        ]
+./samples/SAFE/__tmp_ef22b2f5.c:165:5: error: expected declaration or statement at end of input
+  165 |     Token tokens[MAX_TO
+      |     ^~~~~

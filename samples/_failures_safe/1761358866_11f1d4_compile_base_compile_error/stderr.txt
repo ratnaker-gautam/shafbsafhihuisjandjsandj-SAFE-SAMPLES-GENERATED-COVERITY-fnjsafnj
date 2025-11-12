@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f3cfe986.c: In function ‘main’:
+./samples/SAFE/__tmp_f3cfe986.c:142:5: error: ‘generate_sample_log’ undeclared (first use in this function); did you mean ‘generate_sample_logs’?
+  142 |     generate_sample_log
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     generate_sample_logs
+./samples/SAFE/__tmp_f3cfe986.c:142:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f3cfe986.c:142:24: error: expected ‘;’ at end of input
+  142 |     generate_sample_log
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_f3cfe986.c:142:5: error: expected declaration or statement at end of input
+  142 |     generate_sample_log
+      |     ^~~~~~~~~~~~~~~~~~~

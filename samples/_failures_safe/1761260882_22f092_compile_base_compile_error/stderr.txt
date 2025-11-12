@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0babfbeb.c: In function ‘freeGraph’:
+./samples/SAFE/__tmp_0babfbeb.c:173:22: error: expected ‘;’ at end of input
+  173 |     for (int i = 0; i
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_0babfbeb.c:173:5: error: expected declaration or statement at end of input
+  173 |     for (int i = 0; i
+      |     ^~~

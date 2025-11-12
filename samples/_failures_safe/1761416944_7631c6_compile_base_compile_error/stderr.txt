@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_431702c6.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_431702c6.c:188:14: error: expected ‘;’ at end of input
+  188 |     add_token
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_431702c6.c:188:5: error: expected declaration or statement at end of input
+  188 |     add_token
+      |     ^~~~~~~~~

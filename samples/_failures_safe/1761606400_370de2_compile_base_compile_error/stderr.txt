@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_36a6b4c0.c: In function ‘main’:
+./samples/SAFE/__tmp_36a6b4c0.c:159: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_36a6b4c0.c:158:8: note: to match this ‘(’
+  158 |     if (len == 0 || len >= MAX_INPUT_LEN
+      |        ^
+./samples/SAFE/__tmp_36a6b4c0.c:158:5: error: expected declaration or statement at end of input
+  158 |     if (len == 0 || len >= MAX_INPUT_LEN
+      |     ^~

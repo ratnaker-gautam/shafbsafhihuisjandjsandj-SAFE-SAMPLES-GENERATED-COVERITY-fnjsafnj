@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_46234c84.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_46234c84.c:155:10: error: ‘is_’ undeclared (first use in this function)
+  155 |     if (!is_
+      |          ^~~
+./samples/SAFE/__tmp_46234c84.c:155:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_46234c84.c:155:13: error: expected ‘)’ at end of input
+  155 |     if (!is_
+      |        ~    ^
+      |             )
+./samples/SAFE/__tmp_46234c84.c:155:5: error: expected declaration or statement at end of input
+  155 |     if (!is_
+      |     ^~

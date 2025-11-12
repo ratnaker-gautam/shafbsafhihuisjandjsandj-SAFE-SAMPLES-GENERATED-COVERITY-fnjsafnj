@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_186cce40.c: In function ‘main’:
+./samples/SAFE/__tmp_186cce40.c:146:13: error: expected expression at end of input
+  146 |             volatile int computation =
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_186cce40.c:146:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_186cce40.c:146:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_186cce40.c:146:13: error: expected declaration or statement at end of input

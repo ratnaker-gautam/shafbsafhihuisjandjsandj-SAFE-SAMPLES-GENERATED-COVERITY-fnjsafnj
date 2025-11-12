@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_cfd234c8.c: In function ‘main’:
+./samples/SAFE/__tmp_cfd234c8.c:164:9: error: expected declaration or statement at end of input
+  164 |         free_matrix(mat1);
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_cfd234c8.c:164:9: error: expected declaration or statement at end of input

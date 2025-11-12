@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_65ac69cc.c: In function ‘main’:
+./samples/SAFE/__tmp_65ac69cc.c:125:13: error: expected declaration or statement at end of input
+  125 |             printf("Error: Matrix 1 columns must equal matrix 2 rows for multiplication.\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_65ac69cc.c:125:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_65ac69cc.c:125:13: error: expected declaration or statement at end of input

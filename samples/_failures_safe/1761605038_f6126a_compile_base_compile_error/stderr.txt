@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_6db58eba.c: In function ‘main’:
+./samples/SAFE/__tmp_6db58eba.c:153:55: error: expected ‘)’ at end of input
+  153 |         apply_operation(rows, cols, matrix, operations
+      |                        ~                              ^
+      |                                                       )
+./samples/SAFE/__tmp_6db58eba.c:153:9: error: expected declaration or statement at end of input
+  153 |         apply_operation(rows, cols, matrix, operations
+      |         ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6db58eba.c:153:9: error: expected declaration or statement at end of input

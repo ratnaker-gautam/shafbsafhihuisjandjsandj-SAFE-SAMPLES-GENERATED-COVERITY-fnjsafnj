@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_7231a7e9.c: In function ‘main’:
+./samples/SAFE/__tmp_7231a7e9.c:152:5: error: expected expression at end of input
+  152 |     mat2.cols = read_int("Columns: ",
+      |     ^~~~
+./samples/SAFE/__tmp_7231a7e9.c:152:17: error: too few arguments to function ‘read_int’
+  152 |     mat2.cols = read_int("Columns: ",
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_7231a7e9.c:20:5: note: declared here
+   20 | int read_int(const char* prompt, int min, int max) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_7231a7e9.c:152:5: error: expected declaration or statement at end of input
+  152 |     mat2.cols = read_int("Columns: ",
+      |     ^~~~

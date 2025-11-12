@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_37e46eaa.c:182:1: error: expected ‘{’ at end of input
+  182 | void graph_reset_visited(struct
+      | ^~~~

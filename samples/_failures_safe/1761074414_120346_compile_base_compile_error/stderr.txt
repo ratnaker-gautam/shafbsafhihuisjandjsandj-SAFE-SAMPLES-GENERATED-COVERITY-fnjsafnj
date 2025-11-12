@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e23419ac.c: In function ‘bfs’:
+./samples/SAFE/__tmp_e23419ac.c:182:5: error: expected expression at end of input
+  182 |     for (int i = 0; i < g->node_count;
+      |     ^~~
+./samples/SAFE/__tmp_e23419ac.c:182:5: error: expected declaration or statement at end of input

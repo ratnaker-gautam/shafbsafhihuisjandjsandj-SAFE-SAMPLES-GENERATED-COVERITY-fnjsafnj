@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_0b84f16e.c: In function ‘main’:
+./samples/SAFE/__tmp_0b84f16e.c:158:18: error: ‘STATE_PROCESS’ undeclared (first use in this function); did you mean ‘STATE_PROCESSING’?
+  158 |             case STATE_PROCESS
+      |                  ^~~~~~~~~~~~~
+      |                  STATE_PROCESSING
+./samples/SAFE/__tmp_0b84f16e.c:158:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0b84f16e.c:158:13: error: expected ‘:’ or ‘...’ at end of input
+  158 |             case STATE_PROCESS
+      |             ^~~~
+./samples/SAFE/__tmp_0b84f16e.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0b84f16e.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0b84f16e.c:158:13: error: expected declaration or statement at end of input

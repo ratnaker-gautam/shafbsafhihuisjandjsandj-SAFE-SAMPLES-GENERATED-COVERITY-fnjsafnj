@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_540d8eeb.c: In function ‘compute_bounds’:
+./samples/SAFE/__tmp_540d8eeb.c:137:83: error: expected ‘;’ at end of input
+  137 |         if (geom->vertices[i].y < bounds.min.y) bounds.min.y = geom->vertices[i].y
+      |                                                                                   ^
+      |                                                                                   ;
+./samples/SAFE/__tmp_540d8eeb.c:137:9: error: expected declaration or statement at end of input
+  137 |         if (geom->vertices[i].y < bounds.min.y) bounds.min.y = geom->vertices[i].y
+      |         ^~
+./samples/SAFE/__tmp_540d8eeb.c:137:9: error: expected declaration or statement at end of input

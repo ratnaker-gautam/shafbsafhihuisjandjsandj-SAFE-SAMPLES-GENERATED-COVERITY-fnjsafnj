@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_21859c24.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_21859c24.c:155:52: error: expected ‘)’ at end of input
+  155 |     strncpy(token->value, lexer->input + start, len
+      |            ~                                       ^
+      |                                                    )
+./samples/SAFE/__tmp_21859c24.c:155:5: error: expected declaration or statement at end of input
+  155 |     strncpy(token->value, lexer->input + start, len
+      |     ^~~~~~~

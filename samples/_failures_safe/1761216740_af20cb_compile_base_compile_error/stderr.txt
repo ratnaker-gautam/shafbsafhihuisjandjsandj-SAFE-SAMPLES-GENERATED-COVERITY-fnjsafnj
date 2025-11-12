@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4700d3bc.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_4700d3bc.c:160:5: error: expected declaration or statement at end of input
+  160 |     if (parse_string(input, pos, token)) return 1;
+      |     ^~

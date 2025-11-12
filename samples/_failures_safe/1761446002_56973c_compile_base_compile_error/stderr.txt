@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_28ff4167.c: In function ‘load_log_file’:
+./samples/SAFE/__tmp_28ff4167.c:134:13: error: expected expression at end of input
+  134 |             update_stats(analyzer,
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_28ff4167.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_28ff4167.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_28ff4167.c:134:13: error: expected declaration or statement at end of input

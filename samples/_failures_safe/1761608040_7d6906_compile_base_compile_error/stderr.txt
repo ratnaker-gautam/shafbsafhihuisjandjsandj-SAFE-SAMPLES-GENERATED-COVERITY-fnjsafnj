@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_74c456c8.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_74c456c8.c:184:17: error: expected identifier at end of input
+  184 |                 neighbor->
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_74c456c8.c:184:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_74c456c8.c:184:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_74c456c8.c:184:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_74c456c8.c:184:17: error: expected declaration or statement at end of input

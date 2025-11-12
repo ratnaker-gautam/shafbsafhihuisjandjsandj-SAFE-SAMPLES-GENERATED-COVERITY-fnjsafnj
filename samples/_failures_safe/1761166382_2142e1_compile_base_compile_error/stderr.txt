@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_cfdbdf16.c: In function ‘main’:
+./samples/SAFE/__tmp_cfdbdf16.c:164:19: error: expected ‘)’ at end of input
+  164 |         if (strcmp
+      |            ~      ^
+      |                   )
+./samples/SAFE/__tmp_cfdbdf16.c:164:9: error: expected declaration or statement at end of input
+  164 |         if (strcmp
+      |         ^~
+./samples/SAFE/__tmp_cfdbdf16.c:164:9: error: expected declaration or statement at end of input

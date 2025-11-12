@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c5ee8468.c: In function ‘init_parser’:
+./samples/SAFE/__tmp_c5ee8468.c:171:32: error: expected ‘;’ at end of input
+  171 |     parser->token_count = count
+      |                                ^
+      |                                ;
+./samples/SAFE/__tmp_c5ee8468.c:171:5: error: expected declaration or statement at end of input
+  171 |     parser->token_count = count
+      |     ^~~~~~

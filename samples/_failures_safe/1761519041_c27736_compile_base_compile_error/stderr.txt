@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_e7b40f40.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_e7b40f40.c:132:13: error: expected declaration or statement at end of input
+  132 |             if (analyzer->words[j].count > analyzer->words[max_index].count) {
+      |             ^~
+./samples/SAFE/__tmp_e7b40f40.c:132:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e7b40f40.c:132:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e7b40f40.c:132:13: error: expected declaration or statement at end of input

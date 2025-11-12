@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_4e77391f.c: In function ‘main’:
+./samples/SAFE/__tmp_4e77391f.c:152:9: error: ‘EVENT_PROCESS’ undeclared (first use in this function); did you mean ‘EVENT_RESET’?
+  152 |         EVENT_PROCESS
+      |         ^~~~~~~~~~~~~
+      |         EVENT_RESET
+./samples/SAFE/__tmp_4e77391f.c:152:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4e77391f.c:153: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_4e77391f.c:146:27: note: to match this ‘{’
+  146 |     enum Event events[] = {
+      |                           ^
+./samples/SAFE/__tmp_4e77391f.c:152:9: error: expected declaration or statement at end of input
+  152 |         EVENT_PROCESS
+      |         ^~~~~~~~~~~~~

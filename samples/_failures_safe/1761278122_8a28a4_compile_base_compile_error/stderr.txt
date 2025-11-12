@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e6d79914.c: In function ‘main’:
+./samples/SAFE/__tmp_e6d79914.c:154:56: error: expected ‘)’ at end of input
+  154 |     if (process_event(&state_machine, EVENT_START) == 0
+      |        ~                                               ^
+      |                                                        )
+./samples/SAFE/__tmp_e6d79914.c:154:5: error: expected declaration or statement at end of input
+  154 |     if (process_event(&state_machine, EVENT_START) == 0
+      |     ^~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_94cdba3c.c: In function ‘update_simulation’:
+./samples/SAFE/__tmp_94cdba3c.c:131:24: error: expected ‘;’ at end of input
+  131 |             total_force
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_94cdba3c.c:131:13: error: expected declaration or statement at end of input
+  131 |             total_force
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_94cdba3c.c:131:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_94cdba3c.c:131:13: error: expected declaration or statement at end of input

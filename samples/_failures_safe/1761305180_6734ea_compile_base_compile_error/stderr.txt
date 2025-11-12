@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5454f690.c: In function ‘main’:
+./samples/SAFE/__tmp_5454f690.c:165:13: error: expected declaration or statement at end of input
+  165 |             printf("Negative weights not allowed\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_5454f690.c:165:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5454f690.c:165:13: error: expected declaration or statement at end of input

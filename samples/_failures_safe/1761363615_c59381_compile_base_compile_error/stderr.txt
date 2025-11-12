@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_934f2a15.c: In function ‘is_in_heap’:
+./samples/SAFE/__tmp_934f2a15.c:150:5: error: expected expression at end of input
+  150 |     if (!
+      |     ^~
+./samples/SAFE/__tmp_934f2a15.c:150:5: error: expected declaration or statement at end of input

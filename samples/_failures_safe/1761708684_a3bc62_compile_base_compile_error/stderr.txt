@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_c92bb437.c: In function ‘transition_state’:
+./samples/SAFE/__tmp_c92bb437.c:171:33: error: ‘handle’ undeclared (first use in this function)
+  171 |         case STATE_IDLE: return handle
+      |                                 ^~~~~~
+./samples/SAFE/__tmp_c92bb437.c:171:33: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c92bb437.c:171:39: error: expected ‘;’ at end of input
+  171 |         case STATE_IDLE: return handle
+      |                                       ^
+      |                                       ;
+./samples/SAFE/__tmp_c92bb437.c:171:9: error: expected declaration or statement at end of input
+  171 |         case STATE_IDLE: return handle
+      |         ^~~~
+./samples/SAFE/__tmp_c92bb437.c:171:9: error: expected declaration or statement at end of input

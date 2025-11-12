@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_be4a3c0b.c: In function ‘main’:
+./samples/SAFE/__tmp_be4a3c0b.c:169:5: error: expected declaration or statement at end of input
+  169 |     destroy_machine_instance(instance);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~

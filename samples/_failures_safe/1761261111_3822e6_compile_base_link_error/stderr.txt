@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccnNDOAq.o: in function `power':
+__tmp_eaf0cc2e.c:(.text+0xf9): undefined reference to `fmod'
+/usr/bin/ld: __tmp_eaf0cc2e.c:(.text+0x9f): undefined reference to `pow'
+/usr/bin/ld: __tmp_eaf0cc2e.c:(.text+0xec): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_4fc3b49c.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_4fc3b49c.c:188:24: error: expected ‘;’ at end of input
+  188 |                 dist[v]
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_4fc3b49c.c:188:17: error: expected declaration or statement at end of input
+  188 |                 dist[v]
+      |                 ^~~~
+./samples/SAFE/__tmp_4fc3b49c.c:188:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4fc3b49c.c:188:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4fc3b49c.c:188:17: error: expected declaration or statement at end of input

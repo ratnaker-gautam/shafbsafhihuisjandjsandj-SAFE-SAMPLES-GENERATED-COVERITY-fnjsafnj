@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_9d5069bc.c: In function ‘main’:
+./samples/SAFE/__tmp_9d5069bc.c:174:68: error: expected ‘)’ at end of input
+  174 |                 if (fread(&info, sizeof(info), 1, result_file) == 1
+      |                    ~                                               ^
+      |                                                                    )
+./samples/SAFE/__tmp_9d5069bc.c:174:17: error: expected declaration or statement at end of input
+  174 |                 if (fread(&info, sizeof(info), 1, result_file) == 1
+      |                 ^~
+./samples/SAFE/__tmp_9d5069bc.c:174:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9d5069bc.c:174:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9d5069bc.c:174:17: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4524e96d.c: In function ‘main’:
+./samples/SAFE/__tmp_4524e96d.c:145: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_4524e96d.c:144:49: note: to match this ‘(’
+  144 |     size_t decompressed_size = simple_decompress(compressed_data, compressed_size, decompressed_data, MAX_INPUT_SIZE
+      |                                                 ^
+./samples/SAFE/__tmp_4524e96d.c:144:5: error: expected declaration or statement at end of input
+  144 |     size_t decompressed_size = simple_decompress(compressed_data, compressed_size, decompressed_data, MAX_INPUT_SIZE
+      |     ^~~~~~

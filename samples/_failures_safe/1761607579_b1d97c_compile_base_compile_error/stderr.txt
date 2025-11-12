@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_eda0a65d.c: In function ‘main’:
+./samples/SAFE/__tmp_eda0a65d.c:126:13: error: expected expression at end of input
+  126 |             if (scanf("%d", &matrix2[i][j]) != 1)
+      |             ^~
+./samples/SAFE/__tmp_eda0a65d.c:126:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eda0a65d.c:126:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eda0a65d.c:126:13: error: expected declaration or statement at end of input

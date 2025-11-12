@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_6db3311c.c: In function ‘generate_report’:
+./samples/SAFE/__tmp_6db3311c.c:137:13: error: expected expression at end of input
+  137 |             printf("%s [%s] - %s\n",
+      |             ^~~~~~
+./samples/SAFE/__tmp_6db3311c.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6db3311c.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6db3311c.c:137:13: error: expected declaration or statement at end of input

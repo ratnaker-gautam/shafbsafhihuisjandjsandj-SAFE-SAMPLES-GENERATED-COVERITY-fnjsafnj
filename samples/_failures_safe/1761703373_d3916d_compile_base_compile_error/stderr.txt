@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_56d74abf.c: In function ‘read_compressed_data’:
+./samples/SAFE/__tmp_56d74abf.c:169:5: error: expected identifier at end of input
+  169 |     ctx->blocks[0].
+      |     ^~~
+./samples/SAFE/__tmp_56d74abf.c:169:5: error: expected declaration or statement at end of input

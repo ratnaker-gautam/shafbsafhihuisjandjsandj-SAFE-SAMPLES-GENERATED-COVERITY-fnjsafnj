@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_596e75df.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_596e75df.c:147:32: error: expected ‘]’ at end of input
+  147 |         token.value[value_index
+      |                                ^
+      |                                ]
+./samples/SAFE/__tmp_596e75df.c:147:9: error: expected declaration or statement at end of input
+  147 |         token.value[value_index
+      |         ^~~~~
+./samples/SAFE/__tmp_596e75df.c:147:9: error: expected declaration or statement at end of input

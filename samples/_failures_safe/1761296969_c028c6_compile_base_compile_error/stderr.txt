@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e689f136.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_e689f136.c:144:9: error: expected expression at end of input
+  144 |         if ((det > 0 && sub > INT_MAX - det) ||
+      |         ^~
+./samples/SAFE/__tmp_e689f136.c:144:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e689f136.c:144:9: error: expected declaration or statement at end of input

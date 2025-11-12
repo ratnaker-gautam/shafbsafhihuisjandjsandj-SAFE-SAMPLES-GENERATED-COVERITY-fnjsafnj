@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_dfbe0ecd.c: In function ‘main’:
+./samples/SAFE/__tmp_dfbe0ecd.c:143:5: error: expected declaration or statement at end of input
+  143 |     int entries_added = 0;
+      |     ^~~

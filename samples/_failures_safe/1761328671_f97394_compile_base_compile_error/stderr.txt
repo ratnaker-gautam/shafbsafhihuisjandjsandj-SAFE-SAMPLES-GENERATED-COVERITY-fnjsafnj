@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_b0d84ce0.c: In function ‘main’:
+./samples/SAFE/__tmp_b0d84ce0.c:103:44: error: unterminated argument list invoking macro "MATRIX_ELEM"
+  103 |             MATRIX_ELEM(matrix2, i, j, cols
+      |                                            ^
+./samples/SAFE/__tmp_b0d84ce0.c:103:13: error: ‘MATRIX_ELEM’ undeclared (first use in this function)
+  103 |             MATRIX_ELEM(matrix2, i, j, cols
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_b0d84ce0.c:103:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b0d84ce0.c:103:24: error: expected ‘;’ at end of input
+  103 |             MATRIX_ELEM(matrix2, i, j, cols
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_b0d84ce0.c:103:13: error: expected declaration or statement at end of input
+  103 |             MATRIX_ELEM(matrix2, i, j, cols
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_b0d84ce0.c:103:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b0d84ce0.c:103:13: error: expected declaration or statement at end of input

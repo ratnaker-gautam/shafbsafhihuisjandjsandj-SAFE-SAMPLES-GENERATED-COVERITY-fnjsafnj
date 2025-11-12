@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7a0af701.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_7a0af701.c:170:13: error: expected declaration or statement at end of input
+  170 |             token.type = TOKEN_PUNCTUATION;
+      |             ^~~~~
+./samples/SAFE/__tmp_7a0af701.c:170:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7a0af701.c:170:13: error: expected declaration or statement at end of input

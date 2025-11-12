@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_6479bb2c.c: In function ‘main’:
+./samples/SAFE/__tmp_6479bb2c.c:142:20: error: missing terminating " character
+  142 |             printf("Input too long
+      |                    ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6479bb2c.c:142:13: error: expected expression at end of input
+  142 |             printf("Input too long
+      |             ^~~~~~
+./samples/SAFE/__tmp_6479bb2c.c:142:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6479bb2c.c:142:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6479bb2c.c:142:13: error: expected declaration or statement at end of input

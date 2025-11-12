@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b2428bd6.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_b2428bd6.c:136:5: error: expected declaration or statement at end of input
+  136 |     printf("Latest timestamp: %s\n", latest_timestamp);
+      |     ^~~~~~

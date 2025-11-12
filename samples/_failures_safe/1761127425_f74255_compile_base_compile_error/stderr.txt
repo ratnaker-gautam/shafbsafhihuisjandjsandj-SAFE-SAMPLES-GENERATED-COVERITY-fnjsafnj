@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_25749cba.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_25749cba.c:177:9: error: ‘skip_wh’ undeclared (first use in this function)
+  177 |         skip_wh
+      |         ^~~~~~~
+./samples/SAFE/__tmp_25749cba.c:177:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_25749cba.c:177:16: error: expected ‘;’ at end of input
+  177 |         skip_wh
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_25749cba.c:177:9: error: expected declaration or statement at end of input
+  177 |         skip_wh
+      |         ^~~~~~~
+./samples/SAFE/__tmp_25749cba.c:177:9: error: expected declaration or statement at end of input

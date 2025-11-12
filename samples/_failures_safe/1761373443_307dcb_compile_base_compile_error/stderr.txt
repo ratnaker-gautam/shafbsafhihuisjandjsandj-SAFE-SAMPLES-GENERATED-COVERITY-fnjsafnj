@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_02007675.c: In function ‘next_token’:
+./samples/SAFE/__tmp_02007675.c:145:20: error: expected ‘;’ at end of input
+  145 |         token.value
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_02007675.c:145:9: error: expected declaration or statement at end of input
+  145 |         token.value
+      |         ^~~~~
+./samples/SAFE/__tmp_02007675.c:145:9: error: expected declaration or statement at end of input

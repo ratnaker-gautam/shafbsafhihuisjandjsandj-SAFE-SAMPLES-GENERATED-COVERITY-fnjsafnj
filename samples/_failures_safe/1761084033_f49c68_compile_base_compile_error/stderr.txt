@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_fac48588.c: In function ‘main’:
+./samples/SAFE/__tmp_fac48588.c:190:5: error: expected declaration or statement at end of input
+  190 |     int token_count = tokenize(input, tokens, MAX_TOKENS);
+      |     ^~~

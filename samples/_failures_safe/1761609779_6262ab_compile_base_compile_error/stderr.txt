@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_7def005c.c: In function ‘update_stats’:
+./samples/SAFE/__tmp_7def005c.c:117:13: error: expected expression at end of input
+  117 |             strncpy(stats->earliest_timestamp, entry->timestamp,
+      |             ^~~~~~~
+./samples/SAFE/__tmp_7def005c.c:117:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7def005c.c:117:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7def005c.c:117:13: error: expected declaration or statement at end of input

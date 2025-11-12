@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6378cd0f.c: In function ‘main’:
+./samples/SAFE/__tmp_6378cd0f.c:138:17: error: expected expression at end of input
+  138 |                 if (entries[i].level ==
+      |                 ^~
+./samples/SAFE/__tmp_6378cd0f.c:138:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6378cd0f.c:138:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6378cd0f.c:138:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6378cd0f.c:138:17: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_d663c3e1.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_d663c3e1.c:127:33: error: ‘most_re’ undeclared (first use in this function)
+  127 |     printf("Most recent: %s\n", most_re
+      |                                 ^~~~~~~
+./samples/SAFE/__tmp_d663c3e1.c:127:33: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d663c3e1.c:127:40: error: expected ‘)’ at end of input
+  127 |     printf("Most recent: %s\n", most_re
+      |           ~                            ^
+      |                                        )
+./samples/SAFE/__tmp_d663c3e1.c:127:5: error: expected declaration or statement at end of input
+  127 |     printf("Most recent: %s\n", most_re
+      |     ^~~~~~

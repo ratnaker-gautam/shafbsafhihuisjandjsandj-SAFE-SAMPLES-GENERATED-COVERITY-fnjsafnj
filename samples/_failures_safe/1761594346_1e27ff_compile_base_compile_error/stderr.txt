@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4f3a60e8.c: In function ‘main’:
+./samples/SAFE/__tmp_4f3a60e8.c:153:5: error: expected declaration or statement at end of input
+  153 |     printf("Symbol sequences found: %d\n", parser.symbol_count);
+      |     ^~~~~~

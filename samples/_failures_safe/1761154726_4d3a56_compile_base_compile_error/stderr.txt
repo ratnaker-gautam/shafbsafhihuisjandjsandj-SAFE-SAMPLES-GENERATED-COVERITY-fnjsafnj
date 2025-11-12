@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_0577fc15.c: In function ‘main’:
+./samples/SAFE/__tmp_0577fc15.c:136:17: error: expected declaration or statement at end of input
+  136 |                 filter_level[strcspn(filter_level, "\n")] = 0;
+      |                 ^~~~~~~~~~~~
+./samples/SAFE/__tmp_0577fc15.c:136:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0577fc15.c:136:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0577fc15.c:136:17: error: expected declaration or statement at end of input

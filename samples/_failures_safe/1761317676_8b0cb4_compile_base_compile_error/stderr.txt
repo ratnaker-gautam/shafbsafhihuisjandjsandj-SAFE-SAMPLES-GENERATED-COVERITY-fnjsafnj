@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_0b9b32d4.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_0b9b32d4.c:154:13: error: expected expression at end of input
+  154 |             analyzer->words[max_index] =
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_0b9b32d4.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0b9b32d4.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0b9b32d4.c:154:13: error: expected declaration or statement at end of input

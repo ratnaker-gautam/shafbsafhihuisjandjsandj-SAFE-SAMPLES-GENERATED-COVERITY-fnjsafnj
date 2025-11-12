@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e06e94bc.c: In function ‘dfs’:
+./samples/SAFE/__tmp_e06e94bc.c:172:13: error: expected ‘;’ at end of input
+  172 |     dfs_util
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_e06e94bc.c:172:5: error: expected declaration or statement at end of input
+  172 |     dfs_util
+      |     ^~~~~~~~

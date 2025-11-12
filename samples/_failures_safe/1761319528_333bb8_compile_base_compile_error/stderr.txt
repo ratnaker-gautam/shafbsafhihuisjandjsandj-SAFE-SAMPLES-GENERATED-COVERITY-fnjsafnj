@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_d871c297.c: In function ‘main’:
+./samples/SAFE/__tmp_d871c297.c:128:30: error: expected ‘;’ at end of input
+  128 |                 for (k = 0; k
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_d871c297.c:128:17: error: expected declaration or statement at end of input
+  128 |                 for (k = 0; k
+      |                 ^~~
+./samples/SAFE/__tmp_d871c297.c:128:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d871c297.c:128:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d871c297.c:128:17: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_5329f301.c: In function ‘main’:
+./samples/SAFE/__tmp_5329f301.c:163:13: error: ‘state_machine_’ undeclared (first use in this function); did you mean ‘StateMachine’?
+  163 |         if (state_machine_
+      |             ^~~~~~~~~~~~~~
+      |             StateMachine
+./samples/SAFE/__tmp_5329f301.c:163:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5329f301.c:163:27: error: expected ‘)’ at end of input
+  163 |         if (state_machine_
+      |            ~              ^
+      |                           )
+./samples/SAFE/__tmp_5329f301.c:163:9: error: expected declaration or statement at end of input
+  163 |         if (state_machine_
+      |         ^~
+./samples/SAFE/__tmp_5329f301.c:163:9: error: expected declaration or statement at end of input

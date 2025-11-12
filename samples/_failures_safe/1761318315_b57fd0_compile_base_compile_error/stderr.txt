@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_965dd921.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_965dd921.c:136:69: error: expected ‘)’ at end of input
+  136 |                (stats->warning_count * 100.0) / stats->total_entries
+      |                                                                     ^
+      |                                                                     )
+./samples/SAFE/__tmp_965dd921.c:135:15: note: to match this ‘(’
+  135 |         printf("Warning percentage: %.1f%%\n",
+      |               ^
+./samples/SAFE/__tmp_965dd921.c:136:16: error: expected declaration or statement at end of input
+  136 |                (stats->warning_count * 100.0) / stats->total_entries
+      |                ^
+./samples/SAFE/__tmp_965dd921.c:136:16: error: expected declaration or statement at end of input

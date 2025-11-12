@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_16443940.c: In function ‘create_rotation_transform’:
+./samples/SAFE/__tmp_16443940.c:140:34: error: expected ‘]’ at end of input
+  140 |     result.rotation.elements[0][2
+      |                                  ^
+      |                                  ]
+./samples/SAFE/__tmp_16443940.c:140:5: error: expected declaration or statement at end of input
+  140 |     result.rotation.elements[0][2
+      |     ^~~~~~

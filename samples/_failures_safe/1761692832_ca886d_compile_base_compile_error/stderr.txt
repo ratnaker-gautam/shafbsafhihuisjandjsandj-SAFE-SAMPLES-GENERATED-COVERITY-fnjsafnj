@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_83e3796f.c: In function ‘main’:
+./samples/SAFE/__tmp_83e3796f.c:141:9: error: expected declaration or statement at end of input
+  141 |         cleanup_context(&ctx);
+      |         ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_83e3796f.c:141:9: error: expected declaration or statement at end of input

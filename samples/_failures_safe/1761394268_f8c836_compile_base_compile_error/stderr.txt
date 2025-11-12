@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_be4621c0.c: In function ‘main’:
+./samples/SAFE/__tmp_be4621c0.c:148:9: error: expected expression at end of input
+  148 |         printf("%02x ",
+      |         ^~~~~~
+./samples/SAFE/__tmp_be4621c0.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_be4621c0.c:148:9: error: expected declaration or statement at end of input

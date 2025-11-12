@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_85bb2ebc.c: In function ‘main’:
+./samples/SAFE/__tmp_85bb2ebc.c:148:56: error: expected ‘)’ at end of input
+  148 |         choice = read_int("Select operation (1-5): ", 1
+      |                          ~                             ^
+      |                                                        )
+./samples/SAFE/__tmp_85bb2ebc.c:148:18: error: too few arguments to function ‘read_int’
+  148 |         choice = read_int("Select operation (1-5): ", 1
+      |                  ^~~~~~~~
+./samples/SAFE/__tmp_85bb2ebc.c:15:5: note: declared here
+   15 | int read_int(const char* prompt, int min, int max) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_85bb2ebc.c:148:9: error: expected declaration or statement at end of input
+  148 |         choice = read_int("Select operation (1-5): ", 1
+      |         ^~~~~~
+./samples/SAFE/__tmp_85bb2ebc.c:148:9: error: expected declaration or statement at end of input

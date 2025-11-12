@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_084c58d6.c: In function ‘display_all_entries’:
+./samples/SAFE/__tmp_084c58d6.c:121:16: error: expected identifier at end of input
+  121 |                analyzer->entries[i].
+      |                ^~~~~~~~
+./samples/SAFE/__tmp_084c58d6.c:121:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_084c58d6.c:121:16: error: expected declaration or statement at end of input

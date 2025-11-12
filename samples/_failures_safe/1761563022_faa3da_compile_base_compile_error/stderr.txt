@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6eb161bf.c: In function ‘main’:
+./samples/SAFE/__tmp_6eb161bf.c:146:12: error: expected expression at end of input
+  146 |            (1.0 - (double)compressed.size / input_data.size) *
+      |            ^
+./samples/SAFE/__tmp_6eb161bf.c:146:12: error: expected declaration or statement at end of input

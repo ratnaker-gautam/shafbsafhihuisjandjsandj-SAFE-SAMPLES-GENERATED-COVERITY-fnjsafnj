@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6235760b.c: In function ‘update_stats’:
+./samples/SAFE/__tmp_6235760b.c:135:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  135 |     for (int i
+      |     ^~~
+./samples/SAFE/__tmp_6235760b.c:135:5: error: expected declaration or statement at end of input

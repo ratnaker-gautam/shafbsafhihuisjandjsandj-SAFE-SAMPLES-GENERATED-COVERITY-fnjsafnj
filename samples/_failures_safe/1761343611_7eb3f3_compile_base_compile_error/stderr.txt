@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_6efe7432.c: In function ‘main’:
+./samples/SAFE/__tmp_6efe7432.c:134:59: error: ‘s’ undeclared (first use in this function)
+  134 |     if (!add_compression_block(&ctx, sample_data1, sizeof(s
+      |                                                           ^
+./samples/SAFE/__tmp_6efe7432.c:134:59: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6efe7432.c:134:60: error: expected ‘)’ at end of input
+  134 |     if (!add_compression_block(&ctx, sample_data1, sizeof(s
+      |                                                          ~ ^
+      |                                                            )
+./samples/SAFE/__tmp_6efe7432.c:134:5: error: expected declaration or statement at end of input
+  134 |     if (!add_compression_block(&ctx, sample_data1, sizeof(s
+      |     ^~

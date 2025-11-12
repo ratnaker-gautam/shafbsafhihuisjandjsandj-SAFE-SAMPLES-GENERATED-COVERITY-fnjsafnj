@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_add74702.c: In function ‘main’:
+./samples/SAFE/__tmp_add74702.c:137:53: error: expected ‘]’ at end of input
+  137 |         printf("%d. [%s] %s: %s\n", i + 1, entries[i
+      |                                                     ^
+      |                                                     ]
+./samples/SAFE/__tmp_add74702.c:137:9: error: expected declaration or statement at end of input
+  137 |         printf("%d. [%s] %s: %s\n", i + 1, entries[i
+      |         ^~~~~~
+./samples/SAFE/__tmp_add74702.c:137:9: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_eb8d1ab5.c: In function ‘main’:
+./samples/SAFE/__tmp_eb8d1ab5.c:148:17: error: ‘compressed_ch’ undeclared (first use in this function); did you mean ‘compressed_chunk’?
+  148 |             if (compressed_ch
+      |                 ^~~~~~~~~~~~~
+      |                 compressed_chunk
+./samples/SAFE/__tmp_eb8d1ab5.c:148:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_eb8d1ab5.c:148:30: error: expected ‘)’ at end of input
+  148 |             if (compressed_ch
+      |                ~             ^
+      |                              )
+./samples/SAFE/__tmp_eb8d1ab5.c:148:13: error: expected declaration or statement at end of input
+  148 |             if (compressed_ch
+      |             ^~
+./samples/SAFE/__tmp_eb8d1ab5.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eb8d1ab5.c:148:13: error: expected declaration or statement at end of input

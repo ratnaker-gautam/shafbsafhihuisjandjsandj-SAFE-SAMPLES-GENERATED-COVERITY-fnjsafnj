@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b832fa55.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_b832fa55.c:160:5: error: expected declaration or statement at end of input
+  160 |     }
+      |     ^

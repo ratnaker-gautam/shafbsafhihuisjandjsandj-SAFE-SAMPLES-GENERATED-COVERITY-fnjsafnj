@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b21afbdb.c: In function ‘main’:
+./samples/SAFE/__tmp_b21afbdb.c:176:9: error: expected declaration or statement at end of input
+  176 |         fprintf(stderr, "Error reading input\n");
+      |         ^~~~~~~
+./samples/SAFE/__tmp_b21afbdb.c:176:9: error: expected declaration or statement at end of input

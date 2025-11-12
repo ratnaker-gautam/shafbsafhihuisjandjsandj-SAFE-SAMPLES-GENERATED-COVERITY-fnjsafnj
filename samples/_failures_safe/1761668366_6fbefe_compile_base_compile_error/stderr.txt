@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8712dbd5.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_8712dbd5.c:170:12: error: expected identifier or ‘(’ at end of input
+  170 |     struct Token
+      |            ^~~~~
+./samples/SAFE/__tmp_8712dbd5.c:170:12: error: expected declaration or statement at end of input

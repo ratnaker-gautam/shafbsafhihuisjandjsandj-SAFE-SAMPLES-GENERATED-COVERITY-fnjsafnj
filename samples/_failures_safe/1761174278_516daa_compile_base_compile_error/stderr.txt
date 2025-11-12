@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f83feaf1.c: In function ‘main’:
+./samples/SAFE/__tmp_f83feaf1.c:141:49: error: missing terminating ' character
+  141 |         if (len > 0 && input_buffer[len - 1] == '\n
+      |                                                 ^~~
+./samples/SAFE/__tmp_f83feaf1.c:141:9: error: expected expression at end of input
+  141 |         if (len > 0 && input_buffer[len - 1] == '\n
+      |         ^~
+./samples/SAFE/__tmp_f83feaf1.c:141:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f83feaf1.c:141:9: error: expected declaration or statement at end of input

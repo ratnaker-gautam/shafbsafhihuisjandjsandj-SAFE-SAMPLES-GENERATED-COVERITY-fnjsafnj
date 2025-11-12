@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_21d2b22b.c: In function ‘main’:
+./samples/SAFE/__tmp_21d2b22b.c:165:18: error: ‘TOKEN_’ undeclared (first use in this function)
+  165 |             case TOKEN_
+      |                  ^~~~~~
+./samples/SAFE/__tmp_21d2b22b.c:165:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_21d2b22b.c:165:13: error: expected ‘:’ or ‘...’ at end of input
+  165 |             case TOKEN_
+      |             ^~~~
+./samples/SAFE/__tmp_21d2b22b.c:165:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_21d2b22b.c:165:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_21d2b22b.c:165:13: error: expected declaration or statement at end of input

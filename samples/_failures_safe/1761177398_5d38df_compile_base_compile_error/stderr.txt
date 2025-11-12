@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_7c93de37.c: In function ‘lex_string’:
+./samples/SAFE/__tmp_7c93de37.c:143:9: error: expected expression at end of input
+  143 |         strncpy(str, &
+      |         ^~~~~~~
+./samples/SAFE/__tmp_7c93de37.c:143:9: error: too few arguments to function ‘strncpy’
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_7c93de37.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:92:1: note: declared here
+   92 | __NTH (strncpy (char *__restrict __dest, const char *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_7c93de37.c:143:9: error: expected declaration or statement at end of input
+  143 |         strncpy(str, &
+      |         ^~~~~~~
+./samples/SAFE/__tmp_7c93de37.c:143:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9cbc41c6.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_9cbc41c6.c:148:16: error: expected expression at end of input
+  148 |         struct MinHeapNode* node = extract_min(
+      |                ^~~~~~~~~~~
+./samples/SAFE/__tmp_9cbc41c6.c:148:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9cbc41c6.c:148:16: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccMYhX5l.o: in function `power':
+__tmp_9bac2d0b.c:(.text+0xe9): undefined reference to `fmod'
+/usr/bin/ld: __tmp_9bac2d0b.c:(.text+0x8f): undefined reference to `pow'
+/usr/bin/ld: __tmp_9bac2d0b.c:(.text+0xdc): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7471c52c.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_7471c52c.c:124: error: expected ‘]’ at end of input
+./samples/SAFE/__tmp_7471c52c.c:123:5: error: expected declaration or statement at end of input
+  123 |     const char* level_descriptions[LOG_LEVELS
+      |     ^~~~~

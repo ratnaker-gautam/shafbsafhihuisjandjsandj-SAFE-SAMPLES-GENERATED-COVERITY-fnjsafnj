@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_939b6735.c: In function ‘main’:
+./samples/SAFE/__tmp_939b6735.c:167:25: error: expected ‘;’ at end of input
+  167 |         print_token_type
+      |                         ^
+      |                         ;
+./samples/SAFE/__tmp_939b6735.c:167:9: error: expected declaration or statement at end of input
+  167 |         print_token_type
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_939b6735.c:167:9: error: expected declaration or statement at end of input

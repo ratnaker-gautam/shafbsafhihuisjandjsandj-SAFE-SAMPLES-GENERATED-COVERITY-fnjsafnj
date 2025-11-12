@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_686b6548.c: In function ‘main’:
+./samples/SAFE/__tmp_686b6548.c:166:43: error: missing terminating " character
+  166 |             default:           type_str = "
+      |                                           ^
+./samples/SAFE/__tmp_686b6548.c:166:13: error: expected expression at end of input
+  166 |             default:           type_str = "
+      |             ^~~~~~~
+./samples/SAFE/__tmp_686b6548.c:166:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_686b6548.c:166:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_686b6548.c:166:13: error: expected declaration or statement at end of input

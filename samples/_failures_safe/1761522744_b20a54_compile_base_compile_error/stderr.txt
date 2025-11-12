@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_2a775645.c: In function ‘tokenize_line’:
+./samples/SAFE/__tmp_2a775645.c:152:72: error: expected ‘)’ at end of input
+  152 |         else if (parse_punctuation(line, &pos, &token, line_num, column
+      |                                   ~                                    ^
+      |                                                                        )
+./samples/SAFE/__tmp_2a775645.c:152:9: error: expected declaration or statement at end of input
+  152 |         else if (parse_punctuation(line, &pos, &token, line_num, column
+      |         ^~~~
+./samples/SAFE/__tmp_2a775645.c:152:9: error: expected declaration or statement at end of input

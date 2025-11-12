@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e727fc65.c: In function ‘main’:
+./samples/SAFE/__tmp_e727fc65.c:165:5: error: expected declaration or statement at end of input
+  165 |     print_hex(decompressed.data, decompressed.size);
+      |     ^~~~~~~~~

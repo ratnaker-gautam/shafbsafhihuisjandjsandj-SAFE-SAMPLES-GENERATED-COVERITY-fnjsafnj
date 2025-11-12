@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_5f89e0f2.c: In function ‘main’:
+./samples/SAFE/__tmp_5f89e0f2.c:158:22: error: ‘std’ undeclared (first use in this function)
+  158 |             if (feof(std
+      |                      ^~~
+./samples/SAFE/__tmp_5f89e0f2.c:158:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5f89e0f2.c:158:25: error: expected ‘)’ at end of input
+  158 |             if (feof(std
+      |                     ~   ^
+      |                         )
+./samples/SAFE/__tmp_5f89e0f2.c:158:13: error: expected declaration or statement at end of input
+  158 |             if (feof(std
+      |             ^~
+./samples/SAFE/__tmp_5f89e0f2.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5f89e0f2.c:158:13: error: expected declaration or statement at end of input

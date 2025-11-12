@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4c3d4572.c: In function ‘main’:
+./samples/SAFE/__tmp_4c3d4572.c:165:5: error: expected declaration or statement at end of input
+  165 |     Graph graph;
+      |     ^~~~~

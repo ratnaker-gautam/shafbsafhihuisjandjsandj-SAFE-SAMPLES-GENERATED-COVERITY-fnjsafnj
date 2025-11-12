@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_db77a61b.c: In function ‘main’:
+./samples/SAFE/__tmp_db77a61b.c:171:5: error: expected expression at end of input
+  171 |     if (len >
+      |     ^~
+./samples/SAFE/__tmp_db77a61b.c:171:5: error: expected declaration or statement at end of input

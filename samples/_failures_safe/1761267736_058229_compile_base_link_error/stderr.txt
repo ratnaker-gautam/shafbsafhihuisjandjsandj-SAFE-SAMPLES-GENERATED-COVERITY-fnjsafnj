@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccwYvdi4.o: in function `safe_power':
+__tmp_487d7b06.c:(.text+0xda): undefined reference to `pow'
+/usr/bin/ld: __tmp_487d7b06.c:(.text+0x11c): undefined reference to `fmod'
+/usr/bin/ld: /tmp/ccwYvdi4.o: in function `main':
+__tmp_487d7b06.c:(.text.startup+0x1d4): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_487d7b06.c:(.text.startup+0x5a4): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

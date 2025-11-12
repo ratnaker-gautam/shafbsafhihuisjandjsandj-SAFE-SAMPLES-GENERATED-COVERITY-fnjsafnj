@@ -1,0 +1,77 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: macros ; Variation: numeric_computation
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_ITERATIONS 1000
+#define EPSILON 1e-10
+#define MAX_INPUT 1000000.0
+#define MIN_INPUT 0.0001
+
+double compute_series(double x, int max_iter) {
+    double result = 0.0;
+    double term = x;
+    int n = 1;
+    
+    while (n <= max_iter && fabs(term) > EPSILON) {
+        result += term;
+        n++;
+        term = term * x / n;
+    }
+    
+    return result;
+}
+
+double validate_input(const char* input) {
+    char* endptr;
+    double value = strtod(input, &endptr);
+    
+    if (endptr == input || *endptr != '\0') {
+        return -1.0;
+    }
+    
+    if (value < MIN_INPUT || value > MAX_INPUT) {
+        return -1.0;
+    }
+    
+    if (value != value) {
+        return -1.0;
+    }
+    
+    return value;
+}
+
+int main(void) {
+    char input_buffer[256];
+    double input_value;
+    
+    printf("Enter a number between %g and %g: ", MIN_INPUT, MAX_INPUT);
+    
+    if (fgets(input_buffer, sizeof(input_buffer), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return EXIT_FAILURE;
+    }
+    
+    size_t len = 0;
+    while (input_buffer[len] != '\0' && input_buffer[len] != '\n') {
+        len++;
+    }
+    input_buffer[len] = '\0';
+    
+    input_value = validate_input(input_buffer);
+    if (input_value < 0.0) {
+        fprintf(stderr, "Invalid input: must be a number between %g and %g\n", MIN_INPUT, MAX_INPUT);
+        return EXIT_FAILURE;
+    }
+    
+    double result = compute_series(input_value, MAX_ITERATIONS);
+    
+    printf("Input value: %g\n", input_value);
+    printf("Series result: %.10g\n", result);
+    printf("Reference exp(x)-1: %.10g\n", exp(input_value) - 1.0);
+    printf("Difference: %.10g\n", fabs(result - (exp(input_value) - 1.0)));
+    
+    return EXIT_SUCCESS;
+}

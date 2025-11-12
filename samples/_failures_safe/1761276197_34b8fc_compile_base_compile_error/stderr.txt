@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1cdd0e39.c: In function ‘print_state_machine_status’:
+./samples/SAFE/__tmp_1cdd0e39.c:172:12: error: missing terminating " character
+  172 |     printf("Error Count: %u
+      |            ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1cdd0e39.c:172:5: error: expected expression at end of input
+  172 |     printf("Error Count: %u
+      |     ^~~~~~
+./samples/SAFE/__tmp_1cdd0e39.c:172:5: error: expected declaration or statement at end of input

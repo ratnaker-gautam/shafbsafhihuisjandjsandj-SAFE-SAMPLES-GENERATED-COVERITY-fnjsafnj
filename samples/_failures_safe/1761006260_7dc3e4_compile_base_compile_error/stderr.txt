@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_4e9a6b1e.c: In function ‘token_type_to_string’:
+./samples/SAFE/__tmp_4e9a6b1e.c:159:14: error: ‘TOKEN_IDENT’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  159 |         case TOKEN_IDENT
+      |              ^~~~~~~~~~~
+      |              TOKEN_EOF
+./samples/SAFE/__tmp_4e9a6b1e.c:159:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4e9a6b1e.c:159:9: error: expected ‘:’ or ‘...’ at end of input
+  159 |         case TOKEN_IDENT
+      |         ^~~~
+./samples/SAFE/__tmp_4e9a6b1e.c:159:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4e9a6b1e.c:159:9: error: expected declaration or statement at end of input

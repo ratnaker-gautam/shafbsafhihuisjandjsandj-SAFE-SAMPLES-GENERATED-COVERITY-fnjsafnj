@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_03b6c688.c: In function ‘read_log_file’:
+./samples/SAFE/__tmp_03b6c688.c:121:5: error: ‘uint’ undeclared (first use in this function); did you mean ‘int’?
+  121 |     uint
+      |     ^~~~
+      |     int
+./samples/SAFE/__tmp_03b6c688.c:121:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_03b6c688.c:121:9: error: expected ‘;’ at end of input
+  121 |     uint
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_03b6c688.c:121:5: error: expected declaration or statement at end of input
+  121 |     uint
+      |     ^~~~

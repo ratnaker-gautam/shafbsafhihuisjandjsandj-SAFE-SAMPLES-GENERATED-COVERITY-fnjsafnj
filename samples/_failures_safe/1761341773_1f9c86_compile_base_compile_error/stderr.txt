@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_bebe2f46.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_bebe2f46.c:176:9: error: expected identifier or ‘(’ at end of input
+  176 |         Token
+      |         ^~~~~
+./samples/SAFE/__tmp_bebe2f46.c:176:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bebe2f46.c:176:9: error: expected declaration or statement at end of input

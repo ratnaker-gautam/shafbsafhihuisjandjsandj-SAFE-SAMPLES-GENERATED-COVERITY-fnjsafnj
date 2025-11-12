@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a55e438c.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_a55e438c.c:148:17: error: expected ‘,’ or ‘;’ at end of input
+  148 |                 int weight = graph->edges
+      |                 ^~~
+./samples/SAFE/__tmp_a55e438c.c:148:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a55e438c.c:148:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a55e438c.c:148:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a55e438c.c:148:17: error: expected declaration or statement at end of input

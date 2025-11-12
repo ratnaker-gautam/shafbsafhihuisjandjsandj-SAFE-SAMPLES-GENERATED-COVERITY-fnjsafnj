@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_a055e69d.c: In function ‘main’:
+./samples/SAFE/__tmp_a055e69d.c:138:12: error: expected expression at end of input
+  138 |     struct Vector3D point = vector3d_create(
+      |            ^~~~~~~~
+./samples/SAFE/__tmp_a055e69d.c:138:29: error: too few arguments to function ‘vector3d_create’
+  138 |     struct Vector3D point = vector3d_create(
+      |                             ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a055e69d.c:21:17: note: declared here
+   21 | struct Vector3D vector3d_create(double x, double y, double z) {
+      |                 ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a055e69d.c:138:12: error: expected declaration or statement at end of input
+  138 |     struct Vector3D point = vector3d_create(
+      |            ^~~~~~~~

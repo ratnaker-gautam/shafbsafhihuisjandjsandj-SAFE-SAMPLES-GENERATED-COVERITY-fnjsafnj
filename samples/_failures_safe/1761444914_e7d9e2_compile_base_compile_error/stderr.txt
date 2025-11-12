@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_35d81e53.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_35d81e53.c:133:13: error: expected identifier at end of input
+  133 |             if (graph->
+      |             ^~
+./samples/SAFE/__tmp_35d81e53.c:133:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_35d81e53.c:133:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_35d81e53.c:133:13: error: expected declaration or statement at end of input

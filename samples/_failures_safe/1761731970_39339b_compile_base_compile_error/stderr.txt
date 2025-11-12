@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_eccfdd9f.c: In function ‘main’:
+./samples/SAFE/__tmp_eccfdd9f.c:158: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_eccfdd9f.c:157:30: note: to match this ‘(’
+  157 |             a.rows = read_int("Enter rows for matrix A (1-10): ", 1, MAX_DIM
+      |                              ^
+./samples/SAFE/__tmp_eccfdd9f.c:157:13: error: expected declaration or statement at end of input
+  157 |             a.rows = read_int("Enter rows for matrix A (1-10): ", 1, MAX_DIM
+      |             ^
+./samples/SAFE/__tmp_eccfdd9f.c:157:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eccfdd9f.c:157:13: error: expected declaration or statement at end of input

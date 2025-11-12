@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_935e5cad.c: In function ‘main’:
+./samples/SAFE/__tmp_935e5cad.c:141: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_935e5cad.c:140:25: note: to match this ‘(’
+  140 |     mat2.cols = read_int("  Columns (1-10): ", 1, MAX_SIZE
+      |                         ^
+./samples/SAFE/__tmp_935e5cad.c:140:5: error: expected declaration or statement at end of input
+  140 |     mat2.cols = read_int("  Columns (1-10): ", 1, MAX_SIZE
+      |     ^~~~

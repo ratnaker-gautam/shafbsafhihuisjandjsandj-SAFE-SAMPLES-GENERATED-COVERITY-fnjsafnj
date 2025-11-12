@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_c5d1d614.c: In function ‘main’:
+./samples/SAFE/__tmp_c5d1d614.c:177:24: error: ‘STATE’ undeclared (first use in this function)
+  177 |     add_transition(sm, STATE
+      |                        ^~~~~
+./samples/SAFE/__tmp_c5d1d614.c:177:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c5d1d614.c:177:29: error: expected ‘)’ at end of input
+  177 |     add_transition(sm, STATE
+      |                   ~         ^
+      |                             )
+./samples/SAFE/__tmp_c5d1d614.c:177:5: error: too few arguments to function ‘add_transition’
+  177 |     add_transition(sm, STATE
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c5d1d614.c:93:5: note: declared here
+   93 | int add_transition(StateMachine *sm, StateType from, EventType event, StateType to) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c5d1d614.c:177:5: error: expected declaration or statement at end of input
+  177 |     add_transition(sm, STATE
+      |     ^~~~~~~~~~~~~~

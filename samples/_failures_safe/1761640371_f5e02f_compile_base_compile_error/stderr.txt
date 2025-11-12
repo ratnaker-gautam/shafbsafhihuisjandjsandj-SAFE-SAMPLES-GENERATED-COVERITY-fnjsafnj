@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6bbb700e.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_6bbb700e.c:170:17: error: expected expression at end of input
+  170 |                 for (int j = 0; j < graph->node_count; j++)
+      |                 ^~~
+./samples/SAFE/__tmp_6bbb700e.c:170:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6bbb700e.c:170:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6bbb700e.c:170:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6bbb700e.c:170:17: error: expected declaration or statement at end of input

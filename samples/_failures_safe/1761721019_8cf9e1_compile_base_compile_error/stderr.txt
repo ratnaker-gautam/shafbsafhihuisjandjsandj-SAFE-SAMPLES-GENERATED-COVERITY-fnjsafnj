@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_af53a6dd.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_af53a6dd.c:159:36: error: expected ‘)’ at end of input
+  159 |     if (parse_identifier(input, pos
+      |                         ~          ^
+      |                                    )
+./samples/SAFE/__tmp_af53a6dd.c:159:9: error: too few arguments to function ‘parse_identifier’
+  159 |     if (parse_identifier(input, pos
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_af53a6dd.c:61:5: note: declared here
+   61 | int parse_identifier(const char *input, int *pos, struct Token *token) {
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_af53a6dd.c:159:5: error: expected declaration or statement at end of input
+  159 |     if (parse_identifier(input, pos
+      |     ^~

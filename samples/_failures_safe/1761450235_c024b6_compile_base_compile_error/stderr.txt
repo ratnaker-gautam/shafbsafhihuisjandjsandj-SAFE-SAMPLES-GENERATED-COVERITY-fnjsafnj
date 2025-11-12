@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_181da52e.c: In function ‘freeGraph’:
+./samples/SAFE/__tmp_181da52e.c:190:5: error: expected identifier or ‘(’ at end of input
+  190 |     for (int
+      |     ^~~
+./samples/SAFE/__tmp_181da52e.c:190:5: error: expected declaration or statement at end of input

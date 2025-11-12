@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_c6a95537.c: In function ‘main’:
+./samples/SAFE/__tmp_c6a95537.c:171:22: error: ‘BUFFER’ undeclared (first use in this function)
+  171 |     if (input_len >= BUFFER
+      |                      ^~~~~~
+./samples/SAFE/__tmp_c6a95537.c:171:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c6a95537.c:171:28: error: expected ‘)’ at end of input
+  171 |     if (input_len >= BUFFER
+      |        ~                   ^
+      |                            )
+./samples/SAFE/__tmp_c6a95537.c:171:5: error: expected declaration or statement at end of input
+  171 |     if (input_len >= BUFFER
+      |     ^~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_2562fa33.c: In function ‘main’:
+./samples/SAFE/__tmp_2562fa33.c:151:14: error: ‘read’ undeclared (first use in this function); did you mean ‘fread’?
+  151 |     choice = read
+      |              ^~~~
+      |              fread
+./samples/SAFE/__tmp_2562fa33.c:151:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2562fa33.c:151:18: error: expected ‘;’ at end of input
+  151 |     choice = read
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_2562fa33.c:151:5: error: expected declaration or statement at end of input
+  151 |     choice = read
+      |     ^~~~~~

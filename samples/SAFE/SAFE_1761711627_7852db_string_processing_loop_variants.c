@@ -1,0 +1,119 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: loop_variants ; Variation: string_processing
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdlib.h>
+
+#define MAX_LENGTH 256
+
+int main() {
+    char input[MAX_LENGTH];
+    char processed[MAX_LENGTH * 2];
+    int i, j, k;
+    
+    printf("Enter a string (max %d characters): ", MAX_LENGTH - 1);
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    size_t len = strlen(input);
+    if (len > 0 && input[len - 1] == '\n') {
+        input[len - 1] = '\0';
+        len--;
+    }
+    
+    if (len == 0) {
+        printf("Empty string provided\n");
+        return 0;
+    }
+    
+    if (len >= MAX_LENGTH) {
+        fprintf(stderr, "Input too long\n");
+        return 1;
+    }
+    
+    j = 0;
+    i = 0;
+    while (i < len) {
+        if (isalpha((unsigned char)input[i])) {
+            char current = input[i];
+            int count = 1;
+            
+            k = i + 1;
+            while (k < len && input[k] == current) {
+                count++;
+                k++;
+            }
+            
+            if (j + 3 >= sizeof(processed)) {
+                fprintf(stderr, "Output buffer overflow\n");
+                return 1;
+            }
+            
+            processed[j++] = current;
+            if (count > 1) {
+                char num_str[16];
+                int written = snprintf(num_str, sizeof(num_str), "%d", count);
+                if (written < 0 || written >= (int)sizeof(num_str)) {
+                    fprintf(stderr, "Number formatting error\n");
+                    return 1;
+                }
+                
+                for (int m = 0; m < written; m++) {
+                    if (j >= sizeof(processed)) {
+                        fprintf(stderr, "Output buffer overflow\n");
+                        return 1;
+                    }
+                    processed[j++] = num_str[m];
+                }
+            }
+            
+            i = k;
+        } else {
+            if (j >= sizeof(processed)) {
+                fprintf(stderr, "Output buffer overflow\n");
+                return 1;
+            }
+            processed[j++] = input[i++];
+        }
+    }
+    
+    processed[j] = '\0';
+    
+    printf("Original: %s\n", input);
+    printf("Processed: %s\n", processed);
+    
+    char reversed[MAX_LENGTH];
+    int rev_idx = 0;
+    for (int idx = len - 1; idx >= 0; idx--) {
+        if (rev_idx >= sizeof(reversed) - 1) {
+            fprintf(stderr, "Reversal buffer overflow\n");
+            return 1;
+        }
+        reversed[rev_idx++] = input[idx];
+    }
+    reversed[rev_idx] = '\0';
+    
+    printf("Reversed: %s\n", reversed);
+    
+    int vowel_count = 0;
+    int consonant_count = 0;
+    for (int idx = 0; idx < len; idx++) {
+        char c = tolower((unsigned char)input[idx]);
+        if (isalpha((unsigned char)input[idx])) {
+            switch (c) {
+                case 'a': case 'e': case 'i': case 'o': case 'u':
+                    vowel_count++;
+                    break;
+                default:
+                    consonant_count++;
+                    break;
+            }
+        }
+    }
+    
+    printf("Vowels: %d, Consonants: %d\n", vowel_count, consonant_count);
+    
+    return 0;
+}

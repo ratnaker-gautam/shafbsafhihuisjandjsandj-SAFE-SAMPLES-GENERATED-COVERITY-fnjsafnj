@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_841a98cd.c: In function ‘main’:
+./samples/SAFE/__tmp_841a98cd.c:158:20: error: ‘level’ undeclared (first use in this function)
+  158 |                    level
+      |                    ^~~~~
+./samples/SAFE/__tmp_841a98cd.c:158:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_841a98cd.c:158:25: error: expected ‘)’ at end of input
+  158 |                    level
+      |                         ^
+      |                         )
+./samples/SAFE/__tmp_841a98cd.c:156:19: note: to match this ‘(’
+  156 |             printf("%s [%s] %s\n",
+      |                   ^
+./samples/SAFE/__tmp_841a98cd.c:158:20: error: expected declaration or statement at end of input
+  158 |                    level
+      |                    ^~~~~
+./samples/SAFE/__tmp_841a98cd.c:158:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_841a98cd.c:158:20: error: expected declaration or statement at end of input

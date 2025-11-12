@@ -1,0 +1,128 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: modular_functions ; Variation: log_analyzer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <ctype.h>
+
+#define MAX_LINE_LENGTH 1024
+#define MAX_ENTRIES 1000
+
+struct LogEntry {
+    char timestamp[32];
+    char level[16];
+    char message[256];
+};
+
+int parse_log_line(const char* line, struct LogEntry* entry) {
+    if (line == NULL || entry == NULL) return 0;
+    
+    char temp_line[MAX_LINE_LENGTH];
+    if (strlen(line) >= MAX_LINE_LENGTH) return 0;
+    strcpy(temp_line, line);
+    
+    char* timestamp = strtok(temp_line, " ");
+    char* level = strtok(NULL, " ");
+    char* message = strtok(NULL, "\n");
+    
+    if (timestamp == NULL || level == NULL || message == NULL) return 0;
+    
+    if (strlen(timestamp) >= 32 || strlen(level) >= 16 || strlen(message) >= 256) return 0;
+    
+    strcpy(entry->timestamp, timestamp);
+    strcpy(entry->level, level);
+    strcpy(entry->message, message);
+    
+    return 1;
+}
+
+int count_log_level(const struct LogEntry* entries, int count, const char* level) {
+    if (entries == NULL || level == NULL || count <= 0) return 0;
+    
+    int level_count = 0;
+    for (int i = 0; i < count; i++) {
+        if (strcmp(entries[i].level, level) == 0) {
+            level_count++;
+        }
+    }
+    return level_count;
+}
+
+void display_summary(const struct LogEntry* entries, int count) {
+    if (entries == NULL || count <= 0) return;
+    
+    printf("Log Analysis Summary:\n");
+    printf("Total entries: %d\n", count);
+    printf("INFO entries: %d\n", count_log_level(entries, count, "INFO"));
+    printf("WARNING entries: %d\n", count_log_level(entries, count, "WARNING"));
+    printf("ERROR entries: %d\n", count_log_level(entries, count, "ERROR"));
+    printf("DEBUG entries: %d\n", count_log_level(entries, count, "DEBUG"));
+}
+
+int read_log_file(const char* filename, struct LogEntry* entries, int max_entries) {
+    if (filename == NULL || entries == NULL || max_entries <= 0) return 0;
+    
+    FILE* file = fopen(filename, "r");
+    if (file == NULL) return 0;
+    
+    char line[MAX_LINE_LENGTH];
+    int entry_count = 0;
+    
+    while (fgets(line, sizeof(line), file) != NULL && entry_count < max_entries) {
+        line[strcspn(line, "\n")] = '\0';
+        
+        if (parse_log_line(line, &entries[entry_count])) {
+            entry_count++;
+        }
+    }
+    
+    fclose(file);
+    return entry_count;
+}
+
+void display_recent_entries(const struct LogEntry* entries, int count, int num_entries) {
+    if (entries == NULL || count <= 0 || num_entries <= 0) return;
+    
+    if (num_entries > count) num_entries = count;
+    
+    printf("\nRecent %d log entries:\n", num_entries);
+    printf("Timestamp          Level     Message\n");
+    printf("------------------------------------\n");
+    
+    int start_index = count - num_entries;
+    for (int i = start_index; i < count; i++) {
+        printf("%-18s %-8s %s\n", entries[i].timestamp, entries[i].level, entries[i].message);
+    }
+}
+
+int main(void) {
+    struct LogEntry entries[MAX_ENTRIES];
+    
+    printf("Log Analyzer\n");
+    printf("Enter log filename: ");
+    
+    char filename[256];
+    if (fgets(filename, sizeof(filename), stdin) == NULL) {
+        printf("Error reading filename\n");
+        return 1;
+    }
+    
+    filename[strcspn(filename, "\n")] = '\0';
+    
+    if (strlen(filename) == 0) {
+        printf("Invalid filename\n");
+        return 1;
+    }
+    
+    int entry_count = read_log_file(filename, entries, MAX_ENTRIES);
+    
+    if (entry_count == 0) {
+        printf("No valid log entries found or file cannot be opened\n");
+        return 1;
+    }
+    
+    display_summary(entries, entry_count);
+    display_recent_entries(entries, entry_count, 5);
+    
+    return 0;
+}

@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_58d2c866.c: In function ‘main’:
+./samples/SAFE/__tmp_58d2c866.c:159:40: error: ‘rows’ undeclared (first use in this function); did you mean ‘rows2’?
+  159 |     struct Matrix matB = create_matrix(rows
+      |                                        ^~~~
+      |                                        rows2
+./samples/SAFE/__tmp_58d2c866.c:159:40: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_58d2c866.c:159:44: error: expected ‘)’ at end of input
+  159 |     struct Matrix matB = create_matrix(rows
+      |                                       ~    ^
+      |                                            )
+./samples/SAFE/__tmp_58d2c866.c:159:26: error: too few arguments to function ‘create_matrix’
+  159 |     struct Matrix matB = create_matrix(rows
+      |                          ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_58d2c866.c:14:15: note: declared here
+   14 | struct Matrix create_matrix(size_t rows, size_t cols) {
+      |               ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_58d2c866.c:159:12: error: expected declaration or statement at end of input
+  159 |     struct Matrix matB = create_matrix(rows
+      |            ^~~~~~

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_4133ecdc.c: In function ‘main’:
+./samples/SAFE/__tmp_4133ecdc.c:163:13: error: expected identifier at end of input
+  163 |             printf("Type: %-12s Value: ''\n", token_type_str(tokens[j].
+      |             ^~~~~~
+./samples/SAFE/__tmp_4133ecdc.c:163:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4133ecdc.c:163:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4133ecdc.c:163:13: error: expected declaration or statement at end of input

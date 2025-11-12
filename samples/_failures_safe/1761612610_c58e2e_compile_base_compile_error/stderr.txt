@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6a7b1440.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_6a7b1440.c:170:11: error: expected ‘;’ at end of input
+  170 |     printf
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_6a7b1440.c:170:5: error: expected declaration or statement at end of input
+  170 |     printf
+      |     ^~~~~~

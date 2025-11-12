@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_668625fc.c: In function ‘main’:
+./samples/SAFE/__tmp_668625fc.c:159:5: error: expected expression at end of input
+  159 |     dfs(&
+      |     ^~~
+./samples/SAFE/__tmp_668625fc.c:159:5: error: too few arguments to function ‘dfs’
+./samples/SAFE/__tmp_668625fc.c:104:6: note: declared here
+  104 | void dfs(struct Graph *g, int start) {
+      |      ^~~
+./samples/SAFE/__tmp_668625fc.c:159:5: error: expected declaration or statement at end of input
+  159 |     dfs(&
+      |     ^~~

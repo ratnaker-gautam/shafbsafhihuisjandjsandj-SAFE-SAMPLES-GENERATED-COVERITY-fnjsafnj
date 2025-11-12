@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5466227f.c: In function ‘main’:
+./samples/SAFE/__tmp_5466227f.c:133:9: error: expected expression at end of input
+  133 |         printf("Log entry %d: ",
+      |         ^~~~~~
+./samples/SAFE/__tmp_5466227f.c:133:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5466227f.c:133:9: error: expected declaration or statement at end of input

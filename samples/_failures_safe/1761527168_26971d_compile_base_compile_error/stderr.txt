@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_431c2c4a.c: In function ‘main’:
+./samples/SAFE/__tmp_431c2c4a.c:141:5: error: expected expression at end of input
+  141 |     if (word_count >
+      |     ^~
+./samples/SAFE/__tmp_431c2c4a.c:141:5: error: expected declaration or statement at end of input

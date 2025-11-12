@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_4064925b.c: In function ‘main’:
+./samples/SAFE/__tmp_4064925b.c:138:23: error: missing terminating " character
+  138 |         fprintf(file, "2024-01-15 10:35:00 CRITICAL System crash imminent
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4064925b.c:138:9: error: expected expression at end of input
+  138 |         fprintf(file, "2024-01-15 10:35:00 CRITICAL System crash imminent
+      |         ^~~~~~~
+./samples/SAFE/__tmp_4064925b.c:138:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4064925b.c:138:9: error: expected declaration or statement at end of input

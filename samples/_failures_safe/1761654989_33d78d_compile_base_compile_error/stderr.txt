@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_a99fb110.c: In function ‘create_parser_node’:
+./samples/SAFE/__tmp_a99fb110.c:156:9: error: ‘strnc’ undeclared (first use in this function); did you mean ‘strncmp’?
+  156 |         strnc
+      |         ^~~~~
+      |         strncmp
+./samples/SAFE/__tmp_a99fb110.c:156:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a99fb110.c:156:14: error: expected ‘;’ at end of input
+  156 |         strnc
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_a99fb110.c:156:9: error: expected declaration or statement at end of input
+  156 |         strnc
+      |         ^~~~~
+./samples/SAFE/__tmp_a99fb110.c:156:9: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f6f1b577.c: In function ‘main’:
+./samples/SAFE/__tmp_f6f1b577.c:147:5: error: expected declaration or statement at end of input
+  147 |     printf("\nDeterminant of B: ");
+      |     ^~~~~~

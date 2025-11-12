@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_7a38095b.c: In function ‘main’:
+./samples/SAFE/__tmp_7a38095b.c:150:9: error: ‘out’ undeclared (first use in this function)
+  150 |         out
+      |         ^~~
+./samples/SAFE/__tmp_7a38095b.c:150:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7a38095b.c:150:12: error: expected ‘;’ at end of input
+  150 |         out
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_7a38095b.c:150:9: error: expected declaration or statement at end of input
+  150 |         out
+      |         ^~~
+./samples/SAFE/__tmp_7a38095b.c:150:9: error: expected declaration or statement at end of input

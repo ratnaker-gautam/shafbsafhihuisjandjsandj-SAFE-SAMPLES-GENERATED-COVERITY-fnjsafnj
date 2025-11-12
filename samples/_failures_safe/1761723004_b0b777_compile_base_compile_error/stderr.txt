@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_dc628cdc.c: In function ‘prim’:
+./samples/SAFE/__tmp_dc628cdc.c:144:5: error: expected expression at end of input
+  144 |     if (!
+      |     ^~
+./samples/SAFE/__tmp_dc628cdc.c:144:5: error: expected declaration or statement at end of input

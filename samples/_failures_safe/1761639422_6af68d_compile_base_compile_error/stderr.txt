@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_cfe1801b.c: In function ‘main’:
+./samples/SAFE/__tmp_cfe1801b.c:171:9: error: expected declaration or statement at end of input
+  171 |         print_matrix(result);
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_cfe1801b.c:171:9: error: expected declaration or statement at end of input

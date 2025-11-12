@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_714ebcf0.c: In function ‘main’:
+./samples/SAFE/__tmp_714ebcf0.c:147:19: error: expected ‘;’ at end of input
+  147 |     graph_add_edge
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_714ebcf0.c:147:5: error: expected declaration or statement at end of input
+  147 |     graph_add_edge
+      |     ^~~~~~~~~~~~~~

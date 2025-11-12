@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_7a159bb6.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_7a159bb6.c:134:13: error: expected identifier at end of input
+  134 |             printf("%s %s %s\n", analyzer->entries[i].
+      |             ^~~~~~
+./samples/SAFE/__tmp_7a159bb6.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7a159bb6.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7a159bb6.c:134:13: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_49f5cfcd.c: In function ‘parse_assignment’:
+./samples/SAFE/__tmp_49f5cfcd.c:150:5: error: expected declaration or statement at end of input
+  150 |     } else {
+      |     ^
+./samples/SAFE/__tmp_49f5cfcd.c:150:5: error: expected declaration or statement at end of input

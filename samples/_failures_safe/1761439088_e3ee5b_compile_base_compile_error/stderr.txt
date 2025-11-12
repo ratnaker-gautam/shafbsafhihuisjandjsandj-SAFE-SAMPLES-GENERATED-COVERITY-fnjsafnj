@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_53ce2094.c: In function ‘main’:
+./samples/SAFE/__tmp_53ce2094.c:134:13: error: expected ‘;’ at end of input
+  134 |     add_edge
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_53ce2094.c:134:5: error: expected declaration or statement at end of input
+  134 |     add_edge
+      |     ^~~~~~~~

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_644f9327.c: In function ‘main’:
+./samples/SAFE/__tmp_644f9327.c:129: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_644f9327.c:128:21: note: to match this ‘(’
+  128 |     cols2 = read_int("Enter number of columns (1-10): ", MIN_DIM
+      |                     ^
+./samples/SAFE/__tmp_644f9327.c:128:13: error: too few arguments to function ‘read_int’
+  128 |     cols2 = read_int("Enter number of columns (1-10): ", MIN_DIM
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_644f9327.c:80:5: note: declared here
+   80 | int read_int(const char* prompt, int min_val, int max_val) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_644f9327.c:128:5: error: expected declaration or statement at end of input
+  128 |     cols2 = read_int("Enter number of columns (1-10): ", MIN_DIM
+      |     ^~~~~

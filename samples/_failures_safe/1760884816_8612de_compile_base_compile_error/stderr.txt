@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_47f8e851.c: In function ‘main’:
+./samples/SAFE/__tmp_47f8e851.c:167:59: error: expected ‘)’ at end of input
+  167 |     Buffer compressed = compress_data(test_data, test_size
+      |                                      ~                    ^
+      |                                                           )
+./samples/SAFE/__tmp_47f8e851.c:167:5: error: expected declaration or statement at end of input
+  167 |     Buffer compressed = compress_data(test_data, test_size
+      |     ^~~~~~

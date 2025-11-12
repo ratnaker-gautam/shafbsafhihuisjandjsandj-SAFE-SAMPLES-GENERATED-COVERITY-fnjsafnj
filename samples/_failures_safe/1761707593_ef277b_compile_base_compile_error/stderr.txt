@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_728d172e.c: In function ‘main’:
+./samples/SAFE/__tmp_728d172e.c:146:37: error: expected ‘]’ at end of input
+  146 |             int start = test_cases[j
+      |                                     ^
+      |                                     ]
+./samples/SAFE/__tmp_728d172e.c:146:13: error: expected declaration or statement at end of input
+  146 |             int start = test_cases[j
+      |             ^~~
+./samples/SAFE/__tmp_728d172e.c:146:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_728d172e.c:146:13: error: expected declaration or statement at end of input

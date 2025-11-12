@@ -1,0 +1,117 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: monolithic_main ; Variation: string_processing
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_INPUT_LEN 1024
+#define MAX_WORDS 512
+
+int main(void) {
+    char input[MAX_INPUT_LEN];
+    char words[MAX_WORDS][64];
+    int word_count = 0;
+    int i, j, k;
+    
+    printf("Enter text to process: ");
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    size_t len = strlen(input);
+    if (len > 0 && input[len - 1] == '\n') {
+        input[len - 1] = '\0';
+        len--;
+    }
+    
+    if (len == 0) {
+        printf("No input provided\n");
+        return 0;
+    }
+    
+    if (len >= MAX_INPUT_LEN - 1) {
+        fprintf(stderr, "Input too long\n");
+        return 1;
+    }
+    
+    i = 0;
+    while (i < len && word_count < MAX_WORDS) {
+        while (i < len && isspace((unsigned char)input[i])) {
+            i++;
+        }
+        
+        if (i >= len) {
+            break;
+        }
+        
+        j = i;
+        while (j < len && !isspace((unsigned char)input[j])) {
+            j++;
+        }
+        
+        int word_len = j - i;
+        if (word_len >= 64) {
+            word_len = 63;
+        }
+        
+        if (word_len > 0) {
+            for (k = 0; k < word_len; k++) {
+                words[word_count][k] = tolower((unsigned char)input[i + k]);
+            }
+            words[word_count][word_len] = '\0';
+            word_count++;
+        }
+        
+        i = j;
+    }
+    
+    if (word_count == 0) {
+        printf("No words found\n");
+        return 0;
+    }
+    
+    printf("Processed %d words:\n", word_count);
+    for (i = 0; i < word_count; i++) {
+        printf("%s\n", words[i]);
+    }
+    
+    int unique_count = 0;
+    for (i = 0; i < word_count; i++) {
+        int is_unique = 1;
+        for (j = 0; j < i; j++) {
+            if (strcmp(words[i], words[j]) == 0) {
+                is_unique = 0;
+                break;
+            }
+        }
+        if (is_unique) {
+            unique_count++;
+        }
+    }
+    
+    printf("Unique words: %d\n", unique_count);
+    
+    int max_len = 0;
+    int min_len = 1000;
+    int total_len = 0;
+    
+    for (i = 0; i < word_count; i++) {
+        int current_len = strlen(words[i]);
+        total_len += current_len;
+        
+        if (current_len > max_len) {
+            max_len = current_len;
+        }
+        if (current_len < min_len) {
+            min_len = current_len;
+        }
+    }
+    
+    printf("Word length statistics:\n");
+    printf("  Longest: %d characters\n", max_len);
+    printf("  Shortest: %d characters\n", min_len);
+    printf("  Average: %.2f characters\n", word_count > 0 ? (double)total_len / word_count : 0.0);
+    
+    return 0;
+}

@@ -1,0 +1,14 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==170688==ERROR: AddressSanitizer: SEGV on unknown address 0x00000f900850 (pc 0x625d5cbdaaa3 bp 0x7ffdc92908c0 sp 0x7ffdc9290350 T0)
+==170688==The signal is caused by a READ memory access.
+    #0 0x625d5cbdaaa3 in process_string samples/SAFE/__tmp_ca595e1e.c:52
+    #1 0x625d5cbdb4b0 in main samples/SAFE/__tmp_ca595e1e.c:108
+    #2 0x765c1182a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x765c1182a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x625d5cbda484 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_ca595e1e.c.san+0x3484) (BuildId: 758df8a8a27fd80ac5baccab6d520ed585ca07a7)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV samples/SAFE/__tmp_ca595e1e.c:52 in process_string
+==170688==ABORTING

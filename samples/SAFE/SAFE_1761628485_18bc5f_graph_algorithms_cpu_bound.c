@@ -1,0 +1,101 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: cpu_bound ; Variation: graph_algorithms
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
+#define MAX_NODES 100
+#define INF INT_MAX
+
+typedef struct {
+    int adjacency[MAX_NODES][MAX_NODES];
+    int node_count;
+} Graph;
+
+void initialize_graph(Graph *g, int n) {
+    if (n <= 0 || n > MAX_NODES) {
+        exit(1);
+    }
+    g->node_count = n;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            g->adjacency[i][j] = (i == j) ? 0 : INF;
+        }
+    }
+}
+
+void add_edge(Graph *g, int u, int v, int weight) {
+    if (u < 0 || u >= g->node_count || v < 0 || v >= g->node_count) {
+        return;
+    }
+    if (weight < 0) {
+        return;
+    }
+    g->adjacency[u][v] = weight;
+    g->adjacency[v][u] = weight;
+}
+
+void floyd_warshall(Graph *g, int dist[MAX_NODES][MAX_NODES]) {
+    for (int i = 0; i < g->node_count; i++) {
+        for (int j = 0; j < g->node_count; j++) {
+            dist[i][j] = g->adjacency[i][j];
+        }
+    }
+    
+    for (int k = 0; k < g->node_count; k++) {
+        for (int i = 0; i < g->node_count; i++) {
+            for (int j = 0; j < g->node_count; j++) {
+                if (dist[i][k] != INF && dist[k][j] != INF) {
+                    if (dist[i][j] > dist[i][k] + dist[k][j]) {
+                        if (dist[i][k] > INF - dist[k][j]) {
+                            continue;
+                        }
+                        dist[i][j] = dist[i][k] + dist[k][j];
+                    }
+                }
+            }
+        }
+    }
+}
+
+int main() {
+    Graph g;
+    int node_count = 6;
+    initialize_graph(&g, node_count);
+    
+    add_edge(&g, 0, 1, 4);
+    add_edge(&g, 0, 2, 2);
+    add_edge(&g, 1, 2, 1);
+    add_edge(&g, 1, 3, 5);
+    add_edge(&g, 2, 3, 8);
+    add_edge(&g, 2, 4, 10);
+    add_edge(&g, 3, 4, 2);
+    add_edge(&g, 3, 5, 6);
+    add_edge(&g, 4, 5, 3);
+    
+    int distances[MAX_NODES][MAX_NODES];
+    floyd_warshall(&g, distances);
+    
+    printf("Shortest path distances between all pairs:\n");
+    for (int i = 0; i < node_count; i++) {
+        for (int j = 0; j < node_count; j++) {
+            if (distances[i][j] == INF) {
+                printf("INF ");
+            } else {
+                printf("%3d ", distances[i][j]);
+            }
+        }
+        printf("\n");
+    }
+    
+    printf("\nSample paths from node 0:\n");
+    for (int i = 0; i < node_count; i++) {
+        printf("0 -> %d: ", i);
+        if (distances[0][i] == INF) {
+            printf("No path\n");
+        } else {
+            printf("%d\n", distances[0][i]);
+        }
+    }
+    
+    return 0;
+}

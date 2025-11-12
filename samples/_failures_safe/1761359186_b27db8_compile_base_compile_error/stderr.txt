@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f1c3dac6.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_f1c3dac6.c:188:17: error: expected declaration or statement at end of input
+  188 |                 if (!neighbor->visited) {
+      |                 ^~
+./samples/SAFE/__tmp_f1c3dac6.c:188:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f1c3dac6.c:188:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f1c3dac6.c:188:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f1c3dac6.c:188:17: error: expected declaration or statement at end of input

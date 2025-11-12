@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_fe2c2a44.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_fe2c2a44.c:174:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  174 |         int success
+      |         ^~~
+./samples/SAFE/__tmp_fe2c2a44.c:174:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fe2c2a44.c:174:9: error: expected declaration or statement at end of input

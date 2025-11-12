@@ -1,0 +1,188 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: enum_switch ; Variation: graph_algorithms
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
+enum GraphType { UNDIRECTED, DIRECTED };
+
+struct Graph {
+    int vertices;
+    int edges;
+    int** adjMatrix;
+    enum GraphType type;
+};
+
+struct Graph* createGraph(int vertices, enum GraphType type) {
+    if (vertices <= 0 || vertices > 100) {
+        return NULL;
+    }
+    
+    struct Graph* graph = malloc(sizeof(struct Graph));
+    if (!graph) {
+        return NULL;
+    }
+    
+    graph->vertices = vertices;
+    graph->edges = 0;
+    graph->type = type;
+    
+    graph->adjMatrix = malloc(vertices * sizeof(int*));
+    if (!graph->adjMatrix) {
+        free(graph);
+        return NULL;
+    }
+    
+    for (int i = 0; i < vertices; i++) {
+        graph->adjMatrix[i] = calloc(vertices, sizeof(int));
+        if (!graph->adjMatrix[i]) {
+            for (int j = 0; j < i; j++) {
+                free(graph->adjMatrix[j]);
+            }
+            free(graph->adjMatrix);
+            free(graph);
+            return NULL;
+        }
+    }
+    
+    return graph;
+}
+
+void freeGraph(struct Graph* graph) {
+    if (!graph) return;
+    
+    for (int i = 0; i < graph->vertices; i++) {
+        free(graph->adjMatrix[i]);
+    }
+    free(graph->adjMatrix);
+    free(graph);
+}
+
+int addEdge(struct Graph* graph, int src, int dest, int weight) {
+    if (!graph || src < 0 || src >= graph->vertices || 
+        dest < 0 || dest >= graph->vertices || weight < 0) {
+        return 0;
+    }
+    
+    graph->adjMatrix[src][dest] = weight;
+    graph->edges++;
+    
+    if (graph->type == UNDIRECTED) {
+        graph->adjMatrix[dest][src] = weight;
+    }
+    
+    return 1;
+}
+
+void dfsUtil(struct Graph* graph, int vertex, int* visited) {
+    if (!graph || !visited || vertex < 0 || vertex >= graph->vertices) {
+        return;
+    }
+    
+    visited[vertex] = 1;
+    printf("%d ", vertex);
+    
+    for (int i = 0; i < graph->vertices; i++) {
+        if (graph->adjMatrix[vertex][i] != 0 && !visited[i]) {
+            dfsUtil(graph, i, visited);
+        }
+    }
+}
+
+void dfs(struct Graph* graph, int start) {
+    if (!graph || start < 0 || start >= graph->vertices) {
+        printf("Invalid input for DFS\n");
+        return;
+    }
+    
+    int* visited = calloc(graph->vertices, sizeof(int));
+    if (!visited) {
+        printf("Memory allocation failed\n");
+        return;
+    }
+    
+    printf("DFS traversal from %d: ", start);
+    dfsUtil(graph, start, visited);
+    printf("\n");
+    
+    free(visited);
+}
+
+void bfs(struct Graph* graph, int start) {
+    if (!graph || start < 0 || start >= graph->vertices) {
+        printf("Invalid input for BFS\n");
+        return;
+    }
+    
+    int* visited = calloc(graph->vertices, sizeof(int));
+    if (!visited) {
+        printf("Memory allocation failed\n");
+        return;
+    }
+    
+    int* queue = malloc(graph->vertices * sizeof(int));
+    if (!queue) {
+        free(visited);
+        printf("Memory allocation failed\n");
+        return;
+    }
+    
+    int front = 0, rear = 0;
+    
+    visited[start] = 1;
+    queue[rear++] = start;
+    
+    printf("BFS traversal from %d: ", start);
+    
+    while (front < rear) {
+        int current = queue[front++];
+        printf("%d ", current);
+        
+        for (int i = 0; i < graph->vertices; i++) {
+            if (graph->adjMatrix[current][i] != 0 && !visited[i]) {
+                visited[i] = 1;
+                queue[rear++] = i;
+            }
+        }
+    }
+    printf("\n");
+    
+    free(visited);
+    free(queue);
+}
+
+enum Algorithm { DFS_TRAVERSAL, BFS_TRAVERSAL, DIJKSTRA };
+
+void performAlgorithm(struct Graph* graph, enum Algorithm algo, int start) {
+    switch (algo) {
+        case DFS_TRAVERSAL:
+            dfs(graph, start);
+            break;
+        case BFS_TRAVERSAL:
+            bfs(graph, start);
+            break;
+        case DIJKSTRA:
+            printf("Dijkstra's algorithm selected (not implemented in this example)\n");
+            break;
+        default:
+            printf("Unknown algorithm\n");
+            break;
+    }
+}
+
+int main() {
+    struct Graph* graph = createGraph(6, UNDIRECTED);
+    if (!graph) {
+        printf("Failed to create graph\n");
+        return 1;
+    }
+    
+    addEdge(graph, 0, 1, 1);
+    addEdge(graph, 0, 2, 1);
+    addEdge(graph, 1, 3, 1);
+    addEdge(graph, 2, 4, 1);
+    addEdge(graph, 3, 5, 1);
+    addEdge(graph, 4, 5, 1);
+    
+    printf("Graph with %d vertices and %d edges created\n", graph->vertices, graph->edges);
+    
+    enum Algorithm algo1 =

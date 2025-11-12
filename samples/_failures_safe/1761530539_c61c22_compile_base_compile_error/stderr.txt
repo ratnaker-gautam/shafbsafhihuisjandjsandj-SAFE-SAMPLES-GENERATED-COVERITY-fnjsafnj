@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a5c6ff72.c: In function ‘main’:
+./samples/SAFE/__tmp_a5c6ff72.c:165:45: error: expected ‘)’ at end of input
+  165 |     double ratio = (input.size > 0) ? (100.0
+      |                                       ~     ^
+      |                                             )
+./samples/SAFE/__tmp_a5c6ff72.c:165:5: error: expected declaration or statement at end of input
+  165 |     double ratio = (input.size > 0) ? (100.0
+      |     ^~~~~~

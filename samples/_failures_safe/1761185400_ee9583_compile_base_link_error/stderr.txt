@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/cc5st3eD.o: in function `main':
+__tmp_15cac130.c:(.text.startup+0x1d5): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_15cac130.c:(.text.startup+0x474): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

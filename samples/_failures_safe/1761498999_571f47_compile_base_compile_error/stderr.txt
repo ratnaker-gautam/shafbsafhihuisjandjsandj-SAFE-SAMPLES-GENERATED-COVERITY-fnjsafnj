@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ba3130c0.c: In function ‘main’:
+./samples/SAFE/__tmp_ba3130c0.c:127:12: error: missing terminating " character
+  127 |     printf("0: Add\n1: Subtract\n2: Multiply\n3: Transpose\n4
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ba3130c0.c:127:5: error: expected expression at end of input
+  127 |     printf("0: Add\n1: Subtract\n2: Multiply\n3: Transpose\n4
+      |     ^~~~~~
+./samples/SAFE/__tmp_ba3130c0.c:127:5: error: expected declaration or statement at end of input

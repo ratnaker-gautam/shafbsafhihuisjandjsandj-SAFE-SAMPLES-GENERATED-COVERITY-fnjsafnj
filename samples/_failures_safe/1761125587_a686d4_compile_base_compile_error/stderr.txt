@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fb410c2e.c: In function ‘main’:
+./samples/SAFE/__tmp_fb410c2e.c:155:40: error: expected ‘)’ at end of input
+  155 |     if (!process_text(&processor, input
+      |                      ~                 ^
+      |                                        )
+./samples/SAFE/__tmp_fb410c2e.c:155:5: error: expected declaration or statement at end of input
+  155 |     if (!process_text(&processor, input
+      |     ^~

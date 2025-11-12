@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5fff9dd2.c: In function ‘main’:
+./samples/SAFE/__tmp_5fff9dd2.c:137:12: error: expected declaration or statement at end of input
+  137 |     struct LogAnalyzer analyzer;
+      |            ^~~~~~~~~~~

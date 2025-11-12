@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_b500044a.c: In function ‘main’:
+./samples/SAFE/__tmp_b500044a.c:160:18: error: ‘EVENT’ undeclared (first use in this function)
+  160 |             case EVENT
+      |                  ^~~~~
+./samples/SAFE/__tmp_b500044a.c:160:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b500044a.c:160:13: error: expected ‘:’ or ‘...’ at end of input
+  160 |             case EVENT
+      |             ^~~~
+./samples/SAFE/__tmp_b500044a.c:160:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b500044a.c:160:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b500044a.c:160:13: error: expected declaration or statement at end of input

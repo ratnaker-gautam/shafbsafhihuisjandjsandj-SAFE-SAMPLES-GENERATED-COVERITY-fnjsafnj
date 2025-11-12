@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_5224efff.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_5224efff.c:183:21: error: expected ‘;’ at end of input
+  183 |                 free
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_5224efff.c:183:17: error: expected declaration or statement at end of input
+  183 |                 free
+      |                 ^~~~
+./samples/SAFE/__tmp_5224efff.c:183:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5224efff.c:183:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5224efff.c:183:17: error: expected declaration or statement at end of input

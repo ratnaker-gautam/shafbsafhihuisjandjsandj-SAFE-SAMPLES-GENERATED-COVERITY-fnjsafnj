@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ae56a16b.c: In function ‘main’:
+./samples/SAFE/__tmp_ae56a16b.c:174:27: error: expected ‘]’ at end of input
+  174 |     char input_buffer[1024
+      |                           ^
+      |                           ]
+./samples/SAFE/__tmp_ae56a16b.c:174:5: error: expected declaration or statement at end of input
+  174 |     char input_buffer[1024
+      |     ^~~~

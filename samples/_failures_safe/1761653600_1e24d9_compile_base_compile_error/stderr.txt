@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_559aedeb.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_559aedeb.c:152:5: error: expected identifier at end of input
+  152 |     parser->
+      |     ^~~~~~
+./samples/SAFE/__tmp_559aedeb.c:152:5: error: expected declaration or statement at end of input

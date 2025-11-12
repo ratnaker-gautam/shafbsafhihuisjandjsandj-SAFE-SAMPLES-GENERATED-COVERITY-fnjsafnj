@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_82ac44e6.c: In function ‘main’:
+./samples/SAFE/__tmp_82ac44e6.c:146:5: error: expected expression at end of input
+  146 |     if (decompressed_size == input_len && memcmp(input_str,
+      |     ^~
+./samples/SAFE/__tmp_82ac44e6.c:146:43: error: too few arguments to function ‘memcmp’
+  146 |     if (decompressed_size == input_len && memcmp(input_str,
+      |                                           ^~~~~~
+In file included from ./samples/SAFE/__tmp_82ac44e6.c:4:
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_82ac44e6.c:146:5: error: expected declaration or statement at end of input
+  146 |     if (decompressed_size == input_len && memcmp(input_str,
+      |     ^~

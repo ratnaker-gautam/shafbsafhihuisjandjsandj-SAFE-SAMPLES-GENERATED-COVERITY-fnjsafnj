@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_b86f5e19.c: In function ‘main’:
+./samples/SAFE/__tmp_b86f5e19.c:185:60: error: ‘EVENT_RES’ undeclared (first use in this function); did you mean ‘EVENT_RESET’?
+  185 |                     ctx.current_state = handle_event(&ctx, EVENT_RES
+      |                                                            ^~~~~~~~~
+      |                                                            EVENT_RESET
+./samples/SAFE/__tmp_b86f5e19.c:185:60: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b86f5e19.c:185:69: error: expected ‘)’ at end of input
+  185 |                     ctx.current_state = handle_event(&ctx, EVENT_RES
+      |                                                     ~               ^
+      |                                                                     )
+./samples/SAFE/__tmp_b86f5e19.c:185:21: error: expected declaration or statement at end of input
+  185 |                     ctx.current_state = handle_event(&ctx, EVENT_RES
+      |                     ^~~
+./samples/SAFE/__tmp_b86f5e19.c:185:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b86f5e19.c:185:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b86f5e19.c:185:21: error: expected declaration or statement at end of input

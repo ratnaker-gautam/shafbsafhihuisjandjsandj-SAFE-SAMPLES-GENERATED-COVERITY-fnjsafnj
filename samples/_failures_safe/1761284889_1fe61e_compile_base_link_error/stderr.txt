@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccTT6NBK.o: in function `main':
+__tmp_353119b0.c:(.text.startup+0x1c9): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

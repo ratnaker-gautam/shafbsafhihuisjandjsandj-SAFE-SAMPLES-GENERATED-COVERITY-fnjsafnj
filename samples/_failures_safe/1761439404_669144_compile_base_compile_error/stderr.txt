@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_bebec303.c: In function ‘main’:
+./samples/SAFE/__tmp_bebec303.c:97:26: error: ‘matrix2’ undeclared (first use in this function); did you mean ‘matrix1’?
+   97 |                     if ((matrix2[i][j] > 0 && matrix1[i][j] > INT_MAX - matrix2[i][j]) ||
+      |                          ^~~~~~~
+      |                          matrix1
+./samples/SAFE/__tmp_bebec303.c:97:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bebec303.c:147: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_bebec303.c:146:25: error: expected declaration or statement at end of input
+  146 |                         if
+      |                         ^~
+./samples/SAFE/__tmp_bebec303.c:146:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bebec303.c:146:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bebec303.c:146:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bebec303.c:146:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bebec303.c:146:25: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_822cfe1f.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_822cfe1f.c:130:10: error: ‘analy’ undeclared (first use in this function); did you mean ‘analyzer’?
+  130 |     if (!analy
+      |          ^~~~~
+      |          analyzer
+./samples/SAFE/__tmp_822cfe1f.c:130:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_822cfe1f.c:130:15: error: expected ‘)’ at end of input
+  130 |     if (!analy
+      |        ~      ^
+      |               )
+./samples/SAFE/__tmp_822cfe1f.c:130:5: error: expected declaration or statement at end of input
+  130 |     if (!analy
+      |     ^~

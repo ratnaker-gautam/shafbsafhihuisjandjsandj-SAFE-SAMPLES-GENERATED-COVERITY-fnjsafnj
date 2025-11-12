@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_ea4f10da.c: In function ‘main’:
+./samples/SAFE/__tmp_ea4f10da.c:143:17: error: expected declaration or statement at end of input
+  143 |                 printf("No logs found for level: %s\n", filter_level);
+      |                 ^~~~~~
+./samples/SAFE/__tmp_ea4f10da.c:143:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ea4f10da.c:143:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ea4f10da.c:143:17: error: expected declaration or statement at end of input

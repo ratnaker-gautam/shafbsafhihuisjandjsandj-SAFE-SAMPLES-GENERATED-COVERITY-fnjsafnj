@@ -1,0 +1,139 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: struct_heavy ; Variation: numeric_computation
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdint.h>
+#include <limits.h>
+
+struct Vector3D {
+    double x;
+    double y;
+    double z;
+};
+
+struct Matrix3x3 {
+    double elements[3][3];
+};
+
+struct Transform {
+    struct Matrix3x3 rotation;
+    struct Vector3D translation;
+};
+
+struct BoundingBox {
+    struct Vector3D min;
+    struct Vector3D max;
+};
+
+struct Geometry {
+    struct Vector3D* vertices;
+    size_t vertex_count;
+    struct BoundingBox bounds;
+};
+
+struct Vector3D vector_add(struct Vector3D a, struct Vector3D b) {
+    struct Vector3D result;
+    result.x = a.x + b.x;
+    result.y = a.y + b.y;
+    result.z = a.z + b.z;
+    return result;
+}
+
+struct Vector3D vector_subtract(struct Vector3D a, struct Vector3D b) {
+    struct Vector3D result;
+    result.x = a.x - b.x;
+    result.y = a.y - b.y;
+    result.z = a.z - b.z;
+    return result;
+}
+
+struct Vector3D vector_scale(struct Vector3D v, double scalar) {
+    struct Vector3D result;
+    result.x = v.x * scalar;
+    result.y = v.y * scalar;
+    result.z = v.z * scalar;
+    return result;
+}
+
+double vector_dot(struct Vector3D a, struct Vector3D b) {
+    return a.x * b.x + a.y * b.y + a.z * b.z;
+}
+
+struct Vector3D vector_cross(struct Vector3D a, struct Vector3D b) {
+    struct Vector3D result;
+    result.x = a.y * b.z - a.z * b.y;
+    result.y = a.z * b.x - a.x * b.z;
+    result.z = a.x * b.y - a.y * b.x;
+    return result;
+}
+
+double vector_length(struct Vector3D v) {
+    return sqrt(v.x * v.x + v.y * v.y + v.z * v.z);
+}
+
+struct Vector3D vector_normalize(struct Vector3D v) {
+    double len = vector_length(v);
+    if (len > 0.0) {
+        return vector_scale(v, 1.0 / len);
+    }
+    return v;
+}
+
+struct Matrix3x3 matrix_multiply(struct Matrix3x3 a, struct Matrix3x3 b) {
+    struct Matrix3x3 result;
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            result.elements[i][j] = 0.0;
+            for (int k = 0; k < 3; k++) {
+                result.elements[i][j] += a.elements[i][k] * b.elements[k][j];
+            }
+        }
+    }
+    return result;
+}
+
+struct Vector3D matrix_transform(struct Matrix3x3 m, struct Vector3D v) {
+    struct Vector3D result;
+    result.x = m.elements[0][0] * v.x + m.elements[0][1] * v.y + m.elements[0][2] * v.z;
+    result.y = m.elements[1][0] * v.x + m.elements[1][1] * v.y + m.elements[1][2] * v.z;
+    result.z = m.elements[2][0] * v.x + m.elements[2][1] * v.y + m.elements[2][2] * v.z;
+    return result;
+}
+
+struct Vector3D transform_apply(struct Transform t, struct Vector3D v) {
+    struct Vector3D rotated = matrix_transform(t.rotation, v);
+    return vector_add(rotated, t.translation);
+}
+
+struct BoundingBox compute_bounds(struct Vector3D* vertices, size_t count) {
+    struct BoundingBox bounds;
+    if (count == 0) {
+        bounds.min.x = bounds.min.y = bounds.min.z = 0.0;
+        bounds.max.x = bounds.max.y = bounds.max.z = 0.0;
+        return bounds;
+    }
+    bounds.min = bounds.max = vertices[0];
+    for (size_t i = 1; i < count; i++) {
+        if (vertices[i].x < bounds.min.x) bounds.min.x = vertices[i].x;
+        if (vertices[i].y < bounds.min.y) bounds.min.y = vertices[i].y;
+        if (vertices[i].z < bounds.min.z) bounds.min.z = vertices[i].z;
+        if (vertices[i].x > bounds.max.x) bounds.max.x = vertices[i].x;
+        if (vertices[i].y > bounds.max.y) bounds.max.y = vertices[i].y;
+        if (vertices[i].z > bounds.max.z) bounds.max.z = vertices[i].z;
+    }
+    return bounds;
+}
+
+int bounding_box_contains(struct BoundingBox box, struct Vector3D point) {
+    return (point.x >= box.min.x && point.x <= box.max.x &&
+            point.y >= box.min.y && point.y <= box.max.y &&
+            point.z >= box.min.z && point.z <= box.max.z);
+}
+
+struct Geometry create_tetrahedron(void) {
+    struct Geometry geom;
+    geom.vertex_count = 4;
+    geom.vertices = malloc(sizeof(struct Vector3D) * 4);
+    if (geom.vertices == NULL) {
+        geom.vertex_count = 0;
+        return

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_ed49bfc3.c: In function ‘hex_to_byte’:
+./samples/SAFE/__tmp_ed49bfc3.c:117:24: error: unterminated argument list invoking macro "isxdigit"
+  117 |     if (!isxdigit(hex[0
+      |                        ^
+./samples/SAFE/__tmp_ed49bfc3.c:117:18: error: expected ‘)’ at end of input
+  117 |     if (!isxdigit(hex[0
+      |        ~         ^
+      |                  )
+./samples/SAFE/__tmp_ed49bfc3.c:117:5: error: expected declaration or statement at end of input
+  117 |     if (!isxdigit(hex[0
+      |     ^~

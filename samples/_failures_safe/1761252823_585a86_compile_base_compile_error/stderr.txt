@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e2d66f3d.c: In function ‘multiply_matrices’:
+./samples/SAFE/__tmp_e2d66f3d.c:114:17: error: expected expression at end of input
+  114 |                 if (product > INT_MAX -
+      |                 ^~
+./samples/SAFE/__tmp_e2d66f3d.c:114:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e2d66f3d.c:114:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e2d66f3d.c:114:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e2d66f3d.c:114:17: error: expected declaration or statement at end of input

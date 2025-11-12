@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c0b1a66f.c: In function ‘main’:
+./samples/SAFE/__tmp_c0b1a66f.c:158:5: error: expected expression at end of input
+  158 |     process_logs(entries, entry_count, processors[choice -
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_c0b1a66f.c:158:5: error: expected declaration or statement at end of input

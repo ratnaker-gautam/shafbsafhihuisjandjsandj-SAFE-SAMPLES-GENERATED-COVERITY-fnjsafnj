@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_d3c4647e.c: In function ‘main’:
+./samples/SAFE/__tmp_d3c4647e.c:146:49: error: expected ‘)’ at end of input
+  146 |                 memcpy(sm.buffer + sm.buffer_pos
+      |                       ~                         ^
+      |                                                 )
+./samples/SAFE/__tmp_d3c4647e.c:146:17: error: too few arguments to function ‘memcpy’
+  146 |                 memcpy(sm.buffer + sm.buffer_pos
+      |                 ^~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_d3c4647e.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:26:1: note: declared here
+   26 | __NTH (memcpy (void *__restrict __dest, const void *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_d3c4647e.c:146:17: error: expected declaration or statement at end of input
+  146 |                 memcpy(sm.buffer + sm.buffer_pos
+      |                 ^~~~~~
+./samples/SAFE/__tmp_d3c4647e.c:146:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d3c4647e.c:146:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d3c4647e.c:146:17: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_aa682f4c.c: In function ‘main’:
+./samples/SAFE/__tmp_aa682f4c.c:170:5: error: expected expression at end of input
+  170 |     TokenList* tokens =
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_aa682f4c.c:170:5: error: expected declaration or statement at end of input

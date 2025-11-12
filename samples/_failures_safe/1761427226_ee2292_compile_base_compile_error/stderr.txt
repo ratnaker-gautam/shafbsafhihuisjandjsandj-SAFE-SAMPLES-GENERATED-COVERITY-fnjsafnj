@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_ecf99b9e.c: In function ‘main’:
+./samples/SAFE/__tmp_ecf99b9e.c:141:41: error: expected ‘)’ at end of input
+  141 |     int count = read_log_entries(entries
+      |                                 ~       ^
+      |                                         )
+./samples/SAFE/__tmp_ecf99b9e.c:141:17: error: too few arguments to function ‘read_log_entries’
+  141 |     int count = read_log_entries(entries
+      |                 ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ecf99b9e.c:58:5: note: declared here
+   58 | int read_log_entries(struct log_entry *entries, int max_entries) {
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ecf99b9e.c:141:5: error: expected declaration or statement at end of input
+  141 |     int count = read_log_entries(entries
+      |     ^~~

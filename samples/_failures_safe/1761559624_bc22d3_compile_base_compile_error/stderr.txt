@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_765a080d.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_765a080d.c:146:54: error: expected declaration or statement at end of input
+  146 | void matrix_transpose(const struct Matrix* a, struct Matrix* result) {
+      |                                                      ^~~~~~

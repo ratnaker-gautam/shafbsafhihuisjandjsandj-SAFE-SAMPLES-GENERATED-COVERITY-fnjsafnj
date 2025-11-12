@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_23c8b45a.c: In function ‘queue_dequeue’:
+./samples/SAFE/__tmp_23c8b45a.c:182:5: error: expected declaration or statement at end of input
+  182 |     queue->size--;
+      |     ^~~~~

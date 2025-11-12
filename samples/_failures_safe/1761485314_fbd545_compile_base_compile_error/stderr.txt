@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_888b8ca9.c: In function ‘main’:
+./samples/SAFE/__tmp_888b8ca9.c:156:32: error: expected ‘)’ at end of input
+  156 |     if (london < 0 || paris < 0
+      |        ~                       ^
+      |                                )
+./samples/SAFE/__tmp_888b8ca9.c:156:5: error: expected declaration or statement at end of input
+  156 |     if (london < 0 || paris < 0
+      |     ^~

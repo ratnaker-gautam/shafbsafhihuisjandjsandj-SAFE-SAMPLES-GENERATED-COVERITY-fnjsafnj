@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ce26221d.c: In function ‘execute_operation’:
+./samples/SAFE/__tmp_ce26221d.c:144:5: error: expected declaration or statement at end of input
+  144 |     }
+      |     ^

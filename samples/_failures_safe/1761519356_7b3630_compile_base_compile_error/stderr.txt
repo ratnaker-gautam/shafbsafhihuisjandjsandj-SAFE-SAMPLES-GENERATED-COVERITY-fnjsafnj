@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2995cd83.c: In function ‘main’:
+./samples/SAFE/__tmp_2995cd83.c:168:17: error: expected expression at end of input
+  168 |                 if (fread(&info, sizeof(file_info_t), 1, result_file) ==
+      |                 ^~
+./samples/SAFE/__tmp_2995cd83.c:168:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2995cd83.c:168:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2995cd83.c:168:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2995cd83.c:168:17: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1fe1b3e1.c: In function ‘main’:
+./samples/SAFE/__tmp_1fe1b3e1.c:136:21: error: expected declaration or statement at end of input
+  136 |                     sum += product;
+      |                     ^~~
+./samples/SAFE/__tmp_1fe1b3e1.c:136:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1fe1b3e1.c:136:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1fe1b3e1.c:136:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1fe1b3e1.c:136:21: error: expected declaration or statement at end of input

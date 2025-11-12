@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_b0dacce5.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_b0dacce5.c:153:31: error: expected ‘]’ at end of input
+  153 |             token_ptr->value[0
+      |                               ^
+      |                               ]
+./samples/SAFE/__tmp_b0dacce5.c:153:13: error: expected declaration or statement at end of input
+  153 |             token_ptr->value[0
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_b0dacce5.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b0dacce5.c:153:13: error: expected declaration or statement at end of input

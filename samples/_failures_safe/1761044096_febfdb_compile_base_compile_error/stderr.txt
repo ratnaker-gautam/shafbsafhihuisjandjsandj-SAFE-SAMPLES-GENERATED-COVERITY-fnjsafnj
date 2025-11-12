@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_85a0a054.c: In function ‘main’:
+./samples/SAFE/__tmp_85a0a054.c:150:9: error: ‘cleanup’ undeclared (first use in this function)
+  150 |         cleanup
+      |         ^~~~~~~
+./samples/SAFE/__tmp_85a0a054.c:150:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_85a0a054.c:150:16: error: expected ‘;’ at end of input
+  150 |         cleanup
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_85a0a054.c:150:9: error: expected declaration or statement at end of input
+  150 |         cleanup
+      |         ^~~~~~~
+./samples/SAFE/__tmp_85a0a054.c:150:9: error: expected declaration or statement at end of input

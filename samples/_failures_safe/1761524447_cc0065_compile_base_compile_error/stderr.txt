@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_bdd44378.c: In function ‘main’:
+./samples/SAFE/__tmp_bdd44378.c:172:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  172 |         struct compression_result res
+      |                ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_bdd44378.c:172:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bdd44378.c:172:16: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ab87c7d8.c: In function ‘init_parser’:
+./samples/SAFE/__tmp_ab87c7d8.c:148:5: error: expected expression at end of input
+  148 |     if (parser ==
+      |     ^~
+./samples/SAFE/__tmp_ab87c7d8.c:148:5: error: expected declaration or statement at end of input

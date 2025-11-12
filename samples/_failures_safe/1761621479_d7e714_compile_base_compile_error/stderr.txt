@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_3389bf02.c: In function ‘main’:
+./samples/SAFE/__tmp_3389bf02.c:142:36: error: missing terminating ' character
+  142 |             search_term[len - 1] = '\
+      |                                    ^~
+./samples/SAFE/__tmp_3389bf02.c:142:13: error: expected expression at end of input
+  142 |             search_term[len - 1] = '\
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_3389bf02.c:142:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3389bf02.c:142:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3389bf02.c:142:13: error: expected declaration or statement at end of input

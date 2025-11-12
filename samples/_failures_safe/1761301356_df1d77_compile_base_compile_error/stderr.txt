@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f36e91ba.c: In function ‘main’:
+./samples/SAFE/__tmp_f36e91ba.c:141:9: error: expected expression at end of input
+  141 |         heap_mat1->data[
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_f36e91ba.c:141:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f36e91ba.c:141:9: error: expected declaration or statement at end of input

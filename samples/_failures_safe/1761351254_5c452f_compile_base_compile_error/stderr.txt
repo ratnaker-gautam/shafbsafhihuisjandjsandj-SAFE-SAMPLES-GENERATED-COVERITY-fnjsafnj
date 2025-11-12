@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_ca0b7848.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_ca0b7848.c:154:71: error: expected ‘)’ at end of input
+  154 |             struct Token token = create_token(TOKEN_NUMBER, num, state
+      |                                              ~                        ^
+      |                                                                       )
+./samples/SAFE/__tmp_ca0b7848.c:154:34: error: too few arguments to function ‘create_token’
+  154 |             struct Token token = create_token(TOKEN_NUMBER, num, state
+      |                                  ^~~~~~~~~~~~
+./samples/SAFE/__tmp_ca0b7848.c:97:14: note: declared here
+   97 | struct Token create_token(enum TokenType type, const char *value, size_t line, size_t column) {
+      |              ^~~~~~~~~~~~
+./samples/SAFE/__tmp_ca0b7848.c:154:20: error: expected declaration or statement at end of input
+  154 |             struct Token token = create_token(TOKEN_NUMBER, num, state
+      |                    ^~~~~
+./samples/SAFE/__tmp_ca0b7848.c:154:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ca0b7848.c:154:20: error: expected declaration or statement at end of input

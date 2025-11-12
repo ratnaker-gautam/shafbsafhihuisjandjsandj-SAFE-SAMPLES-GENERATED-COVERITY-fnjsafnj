@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_b2c5fe5b.c: In function ‘main’:
+./samples/SAFE/__tmp_b2c5fe5b.c:150:39: error: ‘decomp’ undeclared (first use in this function)
+  150 |     if (!decompress_data(&compressed, decomp
+      |                                       ^~~~~~
+./samples/SAFE/__tmp_b2c5fe5b.c:150:39: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b2c5fe5b.c:150:45: error: expected ‘)’ at end of input
+  150 |     if (!decompress_data(&compressed, decomp
+      |                         ~                   ^
+      |                                             )
+./samples/SAFE/__tmp_b2c5fe5b.c:150:10: error: too few arguments to function ‘decompress_data’
+  150 |     if (!decompress_data(&compressed, decomp
+      |          ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b2c5fe5b.c:92:5: note: declared here
+   92 | int decompress_data(const Buffer* compressed, char* output, size_t output_max) {
+      |     ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b2c5fe5b.c:150:5: error: expected declaration or statement at end of input
+  150 |     if (!decompress_data(&compressed, decomp
+      |     ^~

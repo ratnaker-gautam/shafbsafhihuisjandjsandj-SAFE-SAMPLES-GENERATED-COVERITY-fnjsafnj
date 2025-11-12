@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_0b2ed26d.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_0b2ed26d.c:155:56: error: expected ‘]’ at end of input
+  155 |                 new_dist = dist[min_index] + g->edges[i
+      |                                                        ^
+      |                                                        ]
+./samples/SAFE/__tmp_0b2ed26d.c:155:44: error: invalid operands to binary + (have ‘int’ and ‘struct Edge’)
+  155 |                 new_dist = dist[min_index] + g->edges[i
+      |                            ~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~
+      |                                |                     |
+      |                                int                   struct Edge
+./samples/SAFE/__tmp_0b2ed26d.c:155:17: error: expected declaration or statement at end of input
+  155 |                 new_dist = dist[min_index] + g->edges[i
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_0b2ed26d.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0b2ed26d.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0b2ed26d.c:155:17: error: expected declaration or statement at end of input

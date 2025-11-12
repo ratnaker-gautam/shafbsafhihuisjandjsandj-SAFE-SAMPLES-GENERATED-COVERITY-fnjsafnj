@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_99bd6727.c: In function ‘main’:
+./samples/SAFE/__tmp_99bd6727.c:126:5: error: expected declaration or statement at end of input
+  126 |     add_log_entry(&analyzer, "2024-01-15 10:45:30", "INFO", "Backup completed");
+      |     ^~~~~~~~~~~~~

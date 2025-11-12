@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_87a7dd66.c: In function ‘parser_current_token’:
+./samples/SAFE/__tmp_87a7dd66.c:172:37: error: ‘struct Parser’ has no member named ‘current’
+  172 |         return parser->tokens[parser->current
+      |                                     ^~
+./samples/SAFE/__tmp_87a7dd66.c:172:46: error: expected ‘]’ at end of input
+  172 |         return parser->tokens[parser->current
+      |                                              ^
+      |                                              ]
+./samples/SAFE/__tmp_87a7dd66.c:172:9: error: expected declaration or statement at end of input
+  172 |         return parser->tokens[parser->current
+      |         ^~~~~~
+./samples/SAFE/__tmp_87a7dd66.c:172:9: error: expected declaration or statement at end of input

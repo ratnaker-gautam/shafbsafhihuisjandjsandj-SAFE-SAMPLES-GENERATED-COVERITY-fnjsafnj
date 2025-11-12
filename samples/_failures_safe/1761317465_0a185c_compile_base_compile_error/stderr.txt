@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_628dead7.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_628dead7.c:176:19: error: ‘TOKEN_’ undeclared (first use in this function)
+  176 |     token->type = TOKEN_
+      |                   ^~~~~~
+./samples/SAFE/__tmp_628dead7.c:176:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_628dead7.c:176:25: error: expected ‘;’ at end of input
+  176 |     token->type = TOKEN_
+      |                         ^
+      |                         ;
+./samples/SAFE/__tmp_628dead7.c:176:5: error: expected declaration or statement at end of input
+  176 |     token->type = TOKEN_
+      |     ^~~~~

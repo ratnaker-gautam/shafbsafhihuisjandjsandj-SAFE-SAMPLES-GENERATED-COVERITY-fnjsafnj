@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/cc5H3tHe.o: in function `compute_function':
+__tmp_e18af0bd.c:(.text+0x89): undefined reference to `log'
+/usr/bin/ld: /tmp/cc5H3tHe.o: in function `numerical_integration':
+__tmp_e18af0bd.c:(.text+0x147): undefined reference to `log'
+/usr/bin/ld: /tmp/cc5H3tHe.o: in function `safe_log':
+__tmp_e18af0bd.c:(.text+0x3f): undefined reference to `log'
+collect2: error: ld returned 1 exit status

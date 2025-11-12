@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ab5d57e7.c: In function ‘main’:
+./samples/SAFE/__tmp_ab5d57e7.c:141:54: error: ‘compressed_data_t’ has no member named ‘compressed’; did you mean ‘compressed_size’?
+  141 |     printf("Compressed size: %u bytes\n", compressed.compressed
+      |                                                      ^~~~~~~~~~
+      |                                                      compressed_size
+./samples/SAFE/__tmp_ab5d57e7.c:141:64: error: expected ‘)’ at end of input
+  141 |     printf("Compressed size: %u bytes\n", compressed.compressed
+      |           ~                                                    ^
+      |                                                                )
+./samples/SAFE/__tmp_ab5d57e7.c:141:5: error: expected declaration or statement at end of input
+  141 |     printf("Compressed size: %u bytes\n", compressed.compressed
+      |     ^~~~~~

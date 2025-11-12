@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_f47ac594.c: In function ‘main’:
+./samples/SAFE/__tmp_f47ac594.c:135:64: error: expected ‘)’ at end of input
+  135 |                 if (decomp_size == data_len && memcmp(test_data
+      |                                                      ~         ^
+      |                                                                )
+./samples/SAFE/__tmp_f47ac594.c:135:48: error: too few arguments to function ‘memcmp’
+  135 |                 if (decomp_size == data_len && memcmp(test_data
+      |                                                ^~~~~~
+In file included from ./samples/SAFE/__tmp_f47ac594.c:4:
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_f47ac594.c:135:17: error: expected declaration or statement at end of input
+  135 |                 if (decomp_size == data_len && memcmp(test_data
+      |                 ^~
+./samples/SAFE/__tmp_f47ac594.c:135:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f47ac594.c:135:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f47ac594.c:135:17: error: expected declaration or statement at end of input

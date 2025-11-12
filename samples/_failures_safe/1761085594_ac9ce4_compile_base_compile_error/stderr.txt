@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_cb0b1541.c: In function ‘main’:
+./samples/SAFE/__tmp_cb0b1541.c:137:67: error: expected ‘)’ at end of input
+  137 |             if (add_log_entry(&analyzer, timestamp, level, message
+      |                              ~                                    ^
+      |                                                                   )
+./samples/SAFE/__tmp_cb0b1541.c:137:13: error: expected declaration or statement at end of input
+  137 |             if (add_log_entry(&analyzer, timestamp, level, message
+      |             ^~
+./samples/SAFE/__tmp_cb0b1541.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cb0b1541.c:137:13: error: expected declaration or statement at end of input

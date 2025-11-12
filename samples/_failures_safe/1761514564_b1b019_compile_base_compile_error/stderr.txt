@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a6098752.c: In function ‘main’:
+./samples/SAFE/__tmp_a6098752.c:137:35: error: missing terminating " character
+  137 |         int parsed = sscanf(line, "%31
+      |                                   ^~~~
+./samples/SAFE/__tmp_a6098752.c:137:9: error: expected expression at end of input
+  137 |         int parsed = sscanf(line, "%31
+      |         ^~~
+./samples/SAFE/__tmp_a6098752.c:137:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a6098752.c:137:9: error: expected declaration or statement at end of input

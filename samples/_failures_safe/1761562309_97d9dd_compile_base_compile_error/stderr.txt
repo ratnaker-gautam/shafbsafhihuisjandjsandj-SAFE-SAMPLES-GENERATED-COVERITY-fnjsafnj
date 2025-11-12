@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_4a4a84aa.c: In function ‘main’:
+./samples/SAFE/__tmp_4a4a84aa.c:162:23: error: expected ‘;’ at end of input
+  162 |         input[len - 1]
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_4a4a84aa.c:162:9: error: expected declaration or statement at end of input
+  162 |         input[len - 1]
+      |         ^~~~~
+./samples/SAFE/__tmp_4a4a84aa.c:162:9: error: expected declaration or statement at end of input

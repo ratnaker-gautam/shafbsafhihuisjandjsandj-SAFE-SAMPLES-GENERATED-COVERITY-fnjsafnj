@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_b99ca0d3.c: In function ‘main’:
+./samples/SAFE/__tmp_b99ca0d3.c:169:9: error: ‘dfs_t’ undeclared (first use in this function)
+  169 |         dfs_t
+      |         ^~~~~
+./samples/SAFE/__tmp_b99ca0d3.c:169:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b99ca0d3.c:170: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_b99ca0d3.c:167:35: note: to match this ‘{’
+  167 |     GraphAlgorithm algorithms[] = {
+      |                                   ^
+./samples/SAFE/__tmp_b99ca0d3.c:169:9: error: expected declaration or statement at end of input
+  169 |         dfs_t
+      |         ^~~~~

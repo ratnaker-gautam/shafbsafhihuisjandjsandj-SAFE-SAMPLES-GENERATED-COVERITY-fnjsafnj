@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6f4ba4c2.c: In function ‘main’:
+./samples/SAFE/__tmp_6f4ba4c2.c:143:34: error: expected ‘]’ at end of input
+  143 |     decompressed.data[decomp_size
+      |                                  ^
+      |                                  ]
+./samples/SAFE/__tmp_6f4ba4c2.c:143:5: error: expected declaration or statement at end of input
+  143 |     decompressed.data[decomp_size
+      |     ^~~~~~~~~~~~

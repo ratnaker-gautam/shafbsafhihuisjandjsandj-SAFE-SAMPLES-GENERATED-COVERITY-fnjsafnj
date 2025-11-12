@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_7935562f.c: In function ‘main’:
+./samples/SAFE/__tmp_7935562f.c:142:5: error: expected declaration or statement at end of input
+  142 |     mat2.cols = read_integer("Columns: ", 1, MAX_SIZE);
+      |     ^~~~

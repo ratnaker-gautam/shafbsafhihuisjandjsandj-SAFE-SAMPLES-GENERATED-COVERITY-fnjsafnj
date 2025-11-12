@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6b29d573.c: In function ‘main’:
+./samples/SAFE/__tmp_6b29d573.c:155:9: error: expected declaration or statement at end of input
+  155 |         if (process_input(sm, c)) {
+      |         ^~
+./samples/SAFE/__tmp_6b29d573.c:155:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6b29d573.c:155:9: error: expected declaration or statement at end of input

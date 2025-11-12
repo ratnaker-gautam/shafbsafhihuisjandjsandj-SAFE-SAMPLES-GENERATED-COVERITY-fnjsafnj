@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_302486fe.c: In function ‘main’:
+./samples/SAFE/__tmp_302486fe.c:148:12: error: expected ‘;’ at end of input
+  148 |         ret
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_302486fe.c:148:9: error: expected declaration or statement at end of input
+  148 |         ret
+      |         ^~~
+./samples/SAFE/__tmp_302486fe.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_302486fe.c:139:9: error: label ‘cleanup’ used but not defined
+  139 |         goto cleanup;
+      |         ^~~~

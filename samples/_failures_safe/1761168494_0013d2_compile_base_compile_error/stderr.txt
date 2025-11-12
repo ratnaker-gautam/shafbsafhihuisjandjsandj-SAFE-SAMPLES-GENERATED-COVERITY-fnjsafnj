@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4a095dd9.c: In function ‘main’:
+./samples/SAFE/__tmp_4a095dd9.c:167:12: error: missing terminating " character
+  167 |     printf("Enter number of vertices (max %d
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4a095dd9.c:167:5: error: expected expression at end of input
+  167 |     printf("Enter number of vertices (max %d
+      |     ^~~~~~
+./samples/SAFE/__tmp_4a095dd9.c:167:5: error: expected declaration or statement at end of input

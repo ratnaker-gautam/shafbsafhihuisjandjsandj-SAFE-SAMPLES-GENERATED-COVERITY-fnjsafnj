@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_35b71766.c: In function ‘main’:
+./samples/SAFE/__tmp_35b71766.c:165:21: error: ‘add’ undeclared (first use in this function)
+  165 |                 if (add
+      |                     ^~~
+./samples/SAFE/__tmp_35b71766.c:165:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_35b71766.c:165:24: error: expected ‘)’ at end of input
+  165 |                 if (add
+      |                    ~   ^
+      |                        )
+./samples/SAFE/__tmp_35b71766.c:165:17: error: expected declaration or statement at end of input
+  165 |                 if (add
+      |                 ^~
+./samples/SAFE/__tmp_35b71766.c:165:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_35b71766.c:165:17: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a0b8b19b.c: In function ‘main’:
+./samples/SAFE/__tmp_a0b8b19b.c:149:22: error: expected ‘)’ at end of input
+  149 |         if (cycle > 0
+      |            ~         ^
+      |                      )
+./samples/SAFE/__tmp_a0b8b19b.c:149:9: error: expected declaration or statement at end of input
+  149 |         if (cycle > 0
+      |         ^~
+./samples/SAFE/__tmp_a0b8b19b.c:149:9: error: expected declaration or statement at end of input

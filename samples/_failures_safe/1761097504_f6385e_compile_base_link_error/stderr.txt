@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/cc6mWMOi.o: in function `compute_frobenius_norm':
+__tmp_b83668f4.c:(.text+0x20e): undefined reference to `sqrt'
+/usr/bin/ld: /tmp/cc6mWMOi.o: in function `main':
+__tmp_b83668f4.c:(.text.startup+0x108): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

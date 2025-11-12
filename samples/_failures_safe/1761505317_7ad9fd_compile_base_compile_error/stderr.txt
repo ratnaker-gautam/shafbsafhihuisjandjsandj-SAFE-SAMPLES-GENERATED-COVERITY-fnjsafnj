@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3a838e35.c: In function ‘main’:
+./samples/SAFE/__tmp_3a838e35.c:152:40: error: expected ‘)’ at end of input
+  152 |         printf("%d ", decompressed.data
+      |               ~                        ^
+      |                                        )
+./samples/SAFE/__tmp_3a838e35.c:152:9: error: expected declaration or statement at end of input
+  152 |         printf("%d ", decompressed.data
+      |         ^~~~~~
+./samples/SAFE/__tmp_3a838e35.c:152:9: error: expected declaration or statement at end of input

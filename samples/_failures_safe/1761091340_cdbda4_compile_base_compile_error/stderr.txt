@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_142e025d.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_142e025d.c:149:30: error: expected ‘;’ at end of input
+  149 |     token->line = lexer->line
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_142e025d.c:149:5: error: expected declaration or statement at end of input
+  149 |     token->line = lexer->line
+      |     ^~~~~

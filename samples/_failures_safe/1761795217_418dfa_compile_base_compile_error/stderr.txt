@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_451d0083.c: In function ‘main’:
+./samples/SAFE/__tmp_451d0083.c:173:33: error: missing terminating ' character
+  173 |         input_buffer[len - 1] = '\0
+      |                                 ^~~
+./samples/SAFE/__tmp_451d0083.c:173:9: error: expected expression at end of input
+  173 |         input_buffer[len - 1] = '\0
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_451d0083.c:173:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_451d0083.c:173:9: error: expected declaration or statement at end of input

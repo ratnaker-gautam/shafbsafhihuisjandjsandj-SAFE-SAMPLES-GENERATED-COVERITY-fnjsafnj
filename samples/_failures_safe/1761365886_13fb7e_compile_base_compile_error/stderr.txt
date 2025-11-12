@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_01da7619.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_01da7619.c:115:25: error: ‘rows’ undeclared (first use in this function); did you mean ‘rows1’?
+  115 |     for (int i = 0; i < rows
+      |                         ^~~~
+      |                         rows1
+./samples/SAFE/__tmp_01da7619.c:115:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_01da7619.c:115:29: error: expected ‘;’ at end of input
+  115 |     for (int i = 0; i < rows
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_01da7619.c:115:5: error: expected declaration or statement at end of input
+  115 |     for (int i = 0; i < rows
+      |     ^~~

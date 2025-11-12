@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9eedee27.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_9eedee27.c:155:13: error: expected declaration or statement at end of input
+  155 |             if (!write_data(sm)) {
+      |             ^~
+./samples/SAFE/__tmp_9eedee27.c:155:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9eedee27.c:155:13: error: expected declaration or statement at end of input

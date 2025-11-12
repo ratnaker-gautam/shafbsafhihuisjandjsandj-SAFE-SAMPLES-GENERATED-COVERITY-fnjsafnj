@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6a6b00af.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_6a6b00af.c:195:12: error: expected identifier or ‘(’ at end of input
+  195 |     struct Queue*
+      |            ^~~~~
+./samples/SAFE/__tmp_6a6b00af.c:195:12: error: expected declaration or statement at end of input

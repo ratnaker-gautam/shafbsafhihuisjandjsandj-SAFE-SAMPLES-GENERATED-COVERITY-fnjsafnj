@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_37097579.c: In function ‘main’:
+./samples/SAFE/__tmp_37097579.c:180:9: error: used struct type value where scalar is required
+  180 |     if (token
+      |         ^~~~~
+./samples/SAFE/__tmp_37097579.c:180:14: error: expected ‘)’ at end of input
+  180 |     if (token
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_37097579.c:180:5: error: expected declaration or statement at end of input
+  180 |     if (token
+      |     ^~

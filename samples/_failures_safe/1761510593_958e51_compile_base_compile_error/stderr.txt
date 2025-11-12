@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_180e310a.c: In function ‘main’:
+./samples/SAFE/__tmp_180e310a.c:153:9: error: expected expression at end of input
+  153 |         path_end <
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_180e310a.c:153:9: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_52b23721.c: In function ‘main’:
+./samples/SAFE/__tmp_52b23721.c:128:9: error: expected expression at end of input
+  128 |         multiply_matrices(
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_52b23721.c:128:9: error: too few arguments to function ‘multiply_matrices’
+./samples/SAFE/__tmp_52b23721.c:63:6: note: declared here
+   63 | void multiply_matrices(int rows1, int cols1, int cols2, int a[MAX_DIM][MAX_DIM], int b[MAX_DIM][MAX_DIM], int result[MAX_DIM][MAX_DIM]) {
+      |      ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_52b23721.c:128:9: error: expected declaration or statement at end of input
+  128 |         multiply_matrices(
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_52b23721.c:128:9: error: expected declaration or statement at end of input

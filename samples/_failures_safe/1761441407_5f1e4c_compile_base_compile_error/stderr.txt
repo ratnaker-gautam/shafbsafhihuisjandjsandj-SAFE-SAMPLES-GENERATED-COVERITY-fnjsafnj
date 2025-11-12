@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_265d512c.c: In function ‘find_shortest_path’:
+./samples/SAFE/__tmp_265d512c.c:141:5: error: expected declaration or statement at end of input
+  141 |     }
+      |     ^

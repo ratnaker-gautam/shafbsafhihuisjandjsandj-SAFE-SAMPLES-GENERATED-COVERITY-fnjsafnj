@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_f8254f3f.c:145:1: error: expected ‘{’ at end of input
+  145 | int matrix_transpose(struct
+      | ^~~

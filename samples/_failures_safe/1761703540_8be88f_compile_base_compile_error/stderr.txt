@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9ef4a276.c: In function ‘display_high_severity’:
+./samples/SAFE/__tmp_9ef4a276.c:128:5: error: expected expression at end of input
+  128 |     for (
+      |     ^~~
+./samples/SAFE/__tmp_9ef4a276.c:128:5: error: expected declaration or statement at end of input

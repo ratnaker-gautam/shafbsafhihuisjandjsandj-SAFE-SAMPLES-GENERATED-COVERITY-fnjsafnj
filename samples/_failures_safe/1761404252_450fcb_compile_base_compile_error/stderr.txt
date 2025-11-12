@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b802dd78.c: In function ‘print_token_type’:
+./samples/SAFE/__tmp_b802dd78.c:165:9: error: expected declaration or statement at end of input
+  165 |         case TOKEN_OPERATOR: printf("OPERATOR"); break;
+      |         ^~~~
+./samples/SAFE/__tmp_b802dd78.c:165:9: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bbb99c8c.c: In function ‘bounding_box_contains’:
+./samples/SAFE/__tmp_bbb99c8c.c:137:57: error: expected ‘)’ at end of input
+  137 |     return (point.x >= box.min.x && point.x <= box.max.x
+      |            ~                                            ^
+      |                                                         )
+./samples/SAFE/__tmp_bbb99c8c.c:137:5: error: expected declaration or statement at end of input
+  137 |     return (point.x >= box.min.x && point.x <= box.max.x
+      |     ^~~~~~

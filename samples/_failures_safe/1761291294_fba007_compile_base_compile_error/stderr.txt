@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_01ae51e8.c: In function ‘main’:
+./samples/SAFE/__tmp_01ae51e8.c:170:13: error: expected declaration or statement at end of input
+  170 |             data_input[0] = '\0';
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_01ae51e8.c:170:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_01ae51e8.c:170:13: error: expected declaration or statement at end of input

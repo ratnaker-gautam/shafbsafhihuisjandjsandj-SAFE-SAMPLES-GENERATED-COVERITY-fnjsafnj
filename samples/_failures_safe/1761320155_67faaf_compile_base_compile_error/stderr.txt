@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_48399db1.c: In function ‘multiply_matrices’:
+./samples/SAFE/__tmp_48399db1.c:148: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_48399db1.c:147:13: error: expected declaration or statement at end of input
+  147 |             for
+      |             ^~~
+./samples/SAFE/__tmp_48399db1.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_48399db1.c:147:13: error: expected declaration or statement at end of input

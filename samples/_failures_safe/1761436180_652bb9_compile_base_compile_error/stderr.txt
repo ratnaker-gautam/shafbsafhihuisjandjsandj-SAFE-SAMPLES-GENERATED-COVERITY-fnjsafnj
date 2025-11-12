@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_534b7d02.c: In function ‘compute_bounding_box’:
+./samples/SAFE/__tmp_534b7d02.c:128:9: error: expected declaration or statement at end of input
+  128 |         if (geom->vertices[i].z < box.min.z) box.min.z = geom->vertices[i].z;
+      |         ^~
+./samples/SAFE/__tmp_534b7d02.c:128:9: error: expected declaration or statement at end of input

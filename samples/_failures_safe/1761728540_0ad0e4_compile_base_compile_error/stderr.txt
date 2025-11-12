@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_29737f47.c: In function ‘main’:
+./samples/SAFE/__tmp_29737f47.c:146:89: error: ‘decomp’ undeclared (first use in this function)
+  146 |     size_t decompressed_size = decompress_rle(compressed_buf.data, compressed_buf.size, decomp
+      |                                                                                         ^~~~~~
+./samples/SAFE/__tmp_29737f47.c:146:89: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_29737f47.c:146:95: error: expected ‘)’ at end of input
+  146 |     size_t decompressed_size = decompress_rle(compressed_buf.data, compressed_buf.size, decomp
+      |                                              ~                                                ^
+      |                                                                                               )
+./samples/SAFE/__tmp_29737f47.c:146:32: error: too few arguments to function ‘decompress_rle’
+  146 |     size_t decompressed_size = decompress_rle(compressed_buf.data, compressed_buf.size, decomp
+      |                                ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_29737f47.c:78:8: note: declared here
+   78 | size_t decompress_rle(const unsigned char *input, size_t input_len, unsigned char *output, size_t output_capacity) {
+      |        ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_29737f47.c:146:5: error: expected declaration or statement at end of input
+  146 |     size_t decompressed_size = decompress_rle(compressed_buf.data, compressed_buf.size, decomp
+      |     ^~~~~~

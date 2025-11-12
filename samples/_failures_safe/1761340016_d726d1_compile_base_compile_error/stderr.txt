@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_afc6007e.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_afc6007e.c:189:5: error: expected declaration or statement at end of input
+  189 |     }
+      |     ^

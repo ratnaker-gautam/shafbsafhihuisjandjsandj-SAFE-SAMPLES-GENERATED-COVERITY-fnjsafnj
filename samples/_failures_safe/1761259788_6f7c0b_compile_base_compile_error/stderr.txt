@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_d198d3bf.c: In function ‘main’:
+./samples/SAFE/__tmp_d198d3bf.c:151:5: error: ‘di’ undeclared (first use in this function); did you mean ‘div’?
+  151 |     di
+      |     ^~
+      |     div
+./samples/SAFE/__tmp_d198d3bf.c:151:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d198d3bf.c:151:7: error: expected ‘;’ at end of input
+  151 |     di
+      |       ^
+      |       ;
+./samples/SAFE/__tmp_d198d3bf.c:151:5: error: expected declaration or statement at end of input
+  151 |     di
+      |     ^~

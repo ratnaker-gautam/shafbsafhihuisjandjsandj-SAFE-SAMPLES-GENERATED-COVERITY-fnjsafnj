@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b24a5ed7.c: In function ‘main’:
+./samples/SAFE/__tmp_b24a5ed7.c:141:9: error: expected declaration or statement at end of input
+  141 |         if (choice == -1) break;
+      |         ^~
+./samples/SAFE/__tmp_b24a5ed7.c:141:9: error: expected declaration or statement at end of input

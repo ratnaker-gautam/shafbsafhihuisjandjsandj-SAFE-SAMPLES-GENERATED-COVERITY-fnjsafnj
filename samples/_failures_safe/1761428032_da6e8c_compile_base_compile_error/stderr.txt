@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8c799e87.c: In function ‘main’:
+./samples/SAFE/__tmp_8c799e87.c:157:17: error: expected expression at end of input
+  157 |                 matrix_input(&matB,
+      |                 ^~~~~~~~~~~~
+./samples/SAFE/__tmp_8c799e87.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8c799e87.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8c799e87.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8c799e87.c:157:17: error: expected declaration or statement at end of input

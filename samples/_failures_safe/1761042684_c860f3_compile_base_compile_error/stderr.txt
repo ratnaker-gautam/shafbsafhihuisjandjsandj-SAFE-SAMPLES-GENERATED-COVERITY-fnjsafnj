@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_49f4fe58.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_49f4fe58.c:114:20: error: expected identifier at end of input
+  114 |                    analyzer->entries[i].level, analyzer->entries[i].
+      |                    ^~~~~~~~
+./samples/SAFE/__tmp_49f4fe58.c:114:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_49f4fe58.c:114:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_49f4fe58.c:114:20: error: expected declaration or statement at end of input

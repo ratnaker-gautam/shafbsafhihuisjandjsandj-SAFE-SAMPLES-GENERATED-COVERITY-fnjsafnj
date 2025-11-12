@@ -1,0 +1,115 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: pointer_arithmetic ; Variation: log_analyzer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_LINE_LEN 256
+#define MAX_ENTRIES 100
+
+struct LogEntry {
+    char timestamp[20];
+    char level[10];
+    char message[MAX_LINE_LEN - 30];
+};
+
+int parse_log_line(char *line, struct LogEntry *entry) {
+    if (line == NULL || entry == NULL) return 0;
+    
+    char *ptr = line;
+    int field = 0;
+    
+    while (*ptr && field < 3) {
+        while (*ptr && isspace(*ptr)) ptr++;
+        if (!*ptr) break;
+        
+        char *start = ptr;
+        while (*ptr && !isspace(*ptr)) ptr++;
+        
+        size_t len = ptr - start;
+        if (len == 0) break;
+        
+        switch (field) {
+            case 0:
+                if (len >= sizeof(entry->timestamp)) len = sizeof(entry->timestamp) - 1;
+                strncpy(entry->timestamp, start, len);
+                entry->timestamp[len] = '\0';
+                break;
+            case 1:
+                if (len >= sizeof(entry->level)) len = sizeof(entry->level) - 1;
+                strncpy(entry->level, start, len);
+                entry->level[len] = '\0';
+                break;
+            case 2:
+                if (len >= sizeof(entry->message)) len = sizeof(entry->message) - 1;
+                strncpy(entry->message, start, len);
+                entry->message[len] = '\0';
+                break;
+        }
+        field++;
+    }
+    
+    return field == 3;
+}
+
+void count_log_levels(struct LogEntry *entries, int count) {
+    if (entries == NULL || count <= 0) return;
+    
+    int info_count = 0, warn_count = 0, error_count = 0, other_count = 0;
+    
+    for (int i = 0; i < count; i++) {
+        char *level = entries[i].level;
+        if (strcmp(level, "INFO") == 0) info_count++;
+        else if (strcmp(level, "WARN") == 0) warn_count++;
+        else if (strcmp(level, "ERROR") == 0) error_count++;
+        else other_count++;
+    }
+    
+    printf("Log Level Summary:\n");
+    printf("INFO:  %d\n", info_count);
+    printf("WARN:  %d\n", warn_count);
+    printf("ERROR: %d\n", error_count);
+    printf("OTHER: %d\n", other_count);
+}
+
+int main(void) {
+    struct LogEntry entries[MAX_ENTRIES];
+    int entry_count = 0;
+    char buffer[MAX_LINE_LEN];
+    
+    printf("Enter log entries (timestamp level message). Empty line to finish:\n");
+    
+    while (entry_count < MAX_ENTRIES) {
+        if (fgets(buffer, sizeof(buffer), stdin) == NULL) break;
+        
+        char *ptr = buffer;
+        while (*ptr && isspace(*ptr)) ptr++;
+        if (*ptr == '\0' || *ptr == '\n') break;
+        
+        char *newline = ptr;
+        while (*newline && *newline != '\n') newline++;
+        if (*newline == '\n') *newline = '\0';
+        
+        if (parse_log_line(ptr, entries + entry_count)) {
+            entry_count++;
+        } else {
+            printf("Invalid log format. Use: YYYY-MM-DD HH:MM:SS LEVEL Message\n");
+        }
+    }
+    
+    if (entry_count == 0) {
+        printf("No valid log entries provided.\n");
+        return 1;
+    }
+    
+    printf("\nParsed %d log entries:\n", entry_count);
+    for (int i = 0; i < entry_count; i++) {
+        printf("%d: [%s] %s - %s\n", i + 1, 
+               entries[i].timestamp, entries[i].level, entries[i].message);
+    }
+    
+    printf("\n");
+    count_log_levels(entries, entry_count);
+    
+    return 0;
+}

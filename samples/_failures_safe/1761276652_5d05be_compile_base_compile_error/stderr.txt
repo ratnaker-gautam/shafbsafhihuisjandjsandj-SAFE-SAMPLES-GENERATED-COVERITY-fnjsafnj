@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a0ce6eed.c: In function ‘get_user_event’:
+./samples/SAFE/__tmp_a0ce6eed.c:173:34: error: expected ‘;’ at end of input
+  173 |         case 2: return EVENT_DATA
+      |                                  ^
+      |                                  ;
+./samples/SAFE/__tmp_a0ce6eed.c:173:9: error: expected declaration or statement at end of input
+  173 |         case 2: return EVENT_DATA
+      |         ^~~~
+./samples/SAFE/__tmp_a0ce6eed.c:173:9: error: expected declaration or statement at end of input

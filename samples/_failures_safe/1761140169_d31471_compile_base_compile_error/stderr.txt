@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_81d96800.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_81d96800.c:145:9: error: expected declaration or statement at end of input
+  145 |         token.value[0] = lexer->input[lexer->position++];
+      |         ^~~~~
+./samples/SAFE/__tmp_81d96800.c:145:9: error: expected declaration or statement at end of input

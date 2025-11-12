@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_e88c052e.c: In function ‘main’:
+./samples/SAFE/__tmp_e88c052e.c:155:33: error: expected ‘;’ at end of input
+  155 |             result.cols = a.rows
+      |                                 ^
+      |                                 ;
+./samples/SAFE/__tmp_e88c052e.c:155:13: error: expected declaration or statement at end of input
+  155 |             result.cols = a.rows
+      |             ^~~~~~
+./samples/SAFE/__tmp_e88c052e.c:155:13: error: expected declaration or statement at end of input

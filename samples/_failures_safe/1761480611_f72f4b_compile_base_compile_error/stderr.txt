@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fc86e78b.c: In function ‘parse_operator’:
+./samples/SAFE/__tmp_fc86e78b.c:160:5: error: expected expression at end of input
+  160 |     while (
+      |     ^~~~~
+./samples/SAFE/__tmp_fc86e78b.c:160:5: error: expected declaration or statement at end of input

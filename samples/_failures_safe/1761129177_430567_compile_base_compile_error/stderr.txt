@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_236f1c7d.c: In function ‘main’:
+./samples/SAFE/__tmp_236f1c7d.c:150:56: error: ‘bfs’ undeclared (first use in this function)
+  150 |     GraphOperation operations[] = {dijkstra_operation, bfs
+      |                                                        ^~~
+./samples/SAFE/__tmp_236f1c7d.c:150:56: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_236f1c7d.c:151: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_236f1c7d.c:150:35: note: to match this ‘{’
+  150 |     GraphOperation operations[] = {dijkstra_operation, bfs
+      |                                   ^
+./samples/SAFE/__tmp_236f1c7d.c:150:5: error: expected declaration or statement at end of input
+  150 |     GraphOperation operations[] = {dijkstra_operation, bfs
+      |     ^~~~~~~~~~~~~~

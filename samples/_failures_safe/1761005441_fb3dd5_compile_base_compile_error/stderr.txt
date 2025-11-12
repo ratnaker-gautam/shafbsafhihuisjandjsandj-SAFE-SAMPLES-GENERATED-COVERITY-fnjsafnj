@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_64eda802.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_64eda802.c:130:5: error: expected declaration or statement at end of input
+  130 |     int capitalized_count = 0;
+      |     ^~~

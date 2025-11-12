@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_0488af1e.c: In function ‘token_type_name’:
+./samples/SAFE/__tmp_0488af1e.c:150: error: expected ‘{’ at end of input

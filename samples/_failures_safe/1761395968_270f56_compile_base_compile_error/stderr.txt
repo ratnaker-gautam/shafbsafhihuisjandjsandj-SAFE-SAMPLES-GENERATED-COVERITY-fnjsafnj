@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_01dff27c.c: In function ‘determinant_matrix’:
+./samples/SAFE/__tmp_01dff27c.c:144:31: error: expected ‘)’ at end of input
+  144 |     if (mat->rows != mat->cols
+      |        ~                      ^
+      |                               )
+./samples/SAFE/__tmp_01dff27c.c:144:5: error: expected declaration or statement at end of input
+  144 |     if (mat->rows != mat->cols
+      |     ^~

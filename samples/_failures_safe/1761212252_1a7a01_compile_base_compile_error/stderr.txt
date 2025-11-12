@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_20be6bfb.c: In function ‘main’:
+./samples/SAFE/__tmp_20be6bfb.c:137:28: error: missing terminating " character
+  137 |                     printf("Matrix 1 columns must equal matrix 2 rows for multiplication.\n
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_20be6bfb.c:137:21: error: expected expression at end of input
+  137 |                     printf("Matrix 1 columns must equal matrix 2 rows for multiplication.\n
+      |                     ^~~~~~
+./samples/SAFE/__tmp_20be6bfb.c:137:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_20be6bfb.c:137:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_20be6bfb.c:137:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_20be6bfb.c:137:21: error: expected declaration or statement at end of input

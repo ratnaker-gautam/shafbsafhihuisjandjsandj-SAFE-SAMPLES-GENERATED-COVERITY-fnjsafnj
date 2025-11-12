@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_0ee4bcde.c: In function ‘tokenize_operator’:
+./samples/SAFE/__tmp_0ee4bcde.c:155:9: error: expected identifier at end of input
+  155 |         state->
+      |         ^~~~~
+./samples/SAFE/__tmp_0ee4bcde.c:155:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0ee4bcde.c:155:9: error: expected declaration or statement at end of input

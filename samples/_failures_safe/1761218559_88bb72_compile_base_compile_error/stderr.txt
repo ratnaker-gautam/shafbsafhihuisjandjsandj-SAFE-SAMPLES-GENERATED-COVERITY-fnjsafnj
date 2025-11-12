@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_d1bcf29d.c: In function ‘solve_linear_system’:
+./samples/SAFE/__tmp_d1bcf29d.c:87:71: error: ‘struct LinearSystem’ has no member named ‘coe’
+   87 |     inv.elements[2][0] = (system->coefficients.elements[1][0] * system->coe
+      |                                                                       ^~
+./samples/SAFE/__tmp_d1bcf29d.c:87:76: error: expected ‘)’ at end of input
+   87 |     inv.elements[2][0] = (system->coefficients.elements[1][0] * system->coe
+      |                          ~                                                 ^
+      |                                                                            )
+./samples/SAFE/__tmp_d1bcf29d.c:87:5: error: expected declaration or statement at end of input
+   87 |     inv.elements[2][0] = (system->coefficients.elements[1][0] * system->coe
+      |     ^~~

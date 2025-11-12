@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_b2a8b41a.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_b2a8b41a.c:177:17: error: expected declaration or statement at end of input
+  177 |                 buffer[buf_index] = '\0';
+      |                 ^~~~~~
+./samples/SAFE/__tmp_b2a8b41a.c:177:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b2a8b41a.c:177:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b2a8b41a.c:177:17: error: expected declaration or statement at end of input

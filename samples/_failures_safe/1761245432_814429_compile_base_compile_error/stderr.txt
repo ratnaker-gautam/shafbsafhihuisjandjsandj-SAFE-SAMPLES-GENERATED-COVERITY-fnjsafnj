@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e50fa7f9.c: In function ‘main’:
+./samples/SAFE/__tmp_e50fa7f9.c:147:9: error: expected expression at end of input
+  147 |         double compression_ratio = (double)compressed.size / (double)
+      |         ^~~~~~
+./samples/SAFE/__tmp_e50fa7f9.c:147:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e50fa7f9.c:147:9: error: expected declaration or statement at end of input

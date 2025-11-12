@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_fb638db7.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_fb638db7.c:162:55: error: expected ‘)’ at end of input
+  162 |     return recursive_determinant(m, m->rows, used_cols
+      |                                 ~                     ^
+      |                                                       )
+./samples/SAFE/__tmp_fb638db7.c:162:12: error: too few arguments to function ‘recursive_determinant’
+  162 |     return recursive_determinant(m, m->rows, used_cols
+      |            ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_fb638db7.c:100:5: note: declared here
+  100 | int recursive_determinant(const Matrix *m, int size, int *used_cols, int row) {
+      |     ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_fb638db7.c:162:5: error: expected declaration or statement at end of input
+  162 |     return recursive_determinant(m, m->rows, used_cols
+      |     ^~~~~~

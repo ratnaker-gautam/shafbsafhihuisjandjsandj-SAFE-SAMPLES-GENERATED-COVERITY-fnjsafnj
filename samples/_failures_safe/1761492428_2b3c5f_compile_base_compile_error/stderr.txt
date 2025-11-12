@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_cbb847a8.c: In function ‘main’:
+./samples/SAFE/__tmp_cbb847a8.c:146:55: error: ‘stop_’ undeclared (first use in this function); did you mean ‘stop_evt’?
+  146 |     int events[] = {start_evt, pause_evt, resume_evt, stop_
+      |                                                       ^~~~~
+      |                                                       stop_evt
+./samples/SAFE/__tmp_cbb847a8.c:146:55: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cbb847a8.c:147: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_cbb847a8.c:146:20: note: to match this ‘{’
+  146 |     int events[] = {start_evt, pause_evt, resume_evt, stop_
+      |                    ^
+./samples/SAFE/__tmp_cbb847a8.c:146:5: error: expected declaration or statement at end of input
+  146 |     int events[] = {start_evt, pause_evt, resume_evt, stop_
+      |     ^~~

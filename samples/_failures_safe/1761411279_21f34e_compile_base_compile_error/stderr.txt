@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_1cfc5075.c: In function ‘apply_transform_to_mesh’:
+./samples/SAFE/__tmp_1cfc5075.c:129:54: error: expected ‘)’ at end of input
+  129 |         mesh->vertices[i] = transform_point(transform
+      |                                            ~         ^
+      |                                                      )
+./samples/SAFE/__tmp_1cfc5075.c:129:29: error: too few arguments to function ‘transform_point’
+  129 |         mesh->vertices[i] = transform_point(transform
+      |                             ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1cfc5075.c:84:17: note: declared here
+   84 | struct Vector3D transform_point(struct Transform t, struct Vector3D point) {
+      |                 ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1cfc5075.c:129:9: error: expected declaration or statement at end of input
+  129 |         mesh->vertices[i] = transform_point(transform
+      |         ^~~~
+./samples/SAFE/__tmp_1cfc5075.c:129:9: error: expected declaration or statement at end of input

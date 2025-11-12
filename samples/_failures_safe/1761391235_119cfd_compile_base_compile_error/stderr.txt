@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_89536967.c: In function ‘create_parser_node’:
+./samples/SAFE/__tmp_89536967.c:153:5: error: expected identifier at end of input
+  153 |     strncpy(node->
+      |     ^~~~~~~
+./samples/SAFE/__tmp_89536967.c:153:5: error: too few arguments to function ‘strncpy’
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_89536967.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:92:1: note: declared here
+   92 | __NTH (strncpy (char *__restrict __dest, const char *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_89536967.c:153:5: error: expected declaration or statement at end of input
+  153 |     strncpy(node->
+      |     ^~~~~~~

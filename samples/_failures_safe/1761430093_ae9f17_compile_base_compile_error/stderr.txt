@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_b50c524a.c: In function ‘main’:
+./samples/SAFE/__tmp_b50c524a.c:166:9: error: ‘simple_de’ undeclared (first use in this function)
+  166 |         simple_de
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_b50c524a.c:166:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b50c524a.c:166:18: error: expected ‘;’ at end of input
+  166 |         simple_de
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_b50c524a.c:166:9: error: expected declaration or statement at end of input
+  166 |         simple_de
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_b50c524a.c:166:9: error: expected declaration or statement at end of input

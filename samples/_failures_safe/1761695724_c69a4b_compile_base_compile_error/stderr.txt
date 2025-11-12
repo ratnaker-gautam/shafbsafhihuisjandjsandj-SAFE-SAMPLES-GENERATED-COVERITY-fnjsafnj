@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6207f9c0.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_6207f9c0.c:165:13: error: expected declaration or statement at end of input
+  165 |             strcpy(analyzer->stats.most_frequent_level, "INFO");
+      |             ^~~~~~
+./samples/SAFE/__tmp_6207f9c0.c:165:13: error: expected declaration or statement at end of input

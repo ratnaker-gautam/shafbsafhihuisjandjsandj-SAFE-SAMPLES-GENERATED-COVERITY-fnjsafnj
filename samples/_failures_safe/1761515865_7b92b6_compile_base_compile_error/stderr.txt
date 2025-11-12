@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_219cf221.c: In function ‘main’:
+./samples/SAFE/__tmp_219cf221.c:156:10: error: ‘decompress’ undeclared (first use in this function); did you mean ‘decompressed’?
+  156 |     if (!decompress
+      |          ^~~~~~~~~~
+      |          decompressed
+./samples/SAFE/__tmp_219cf221.c:156:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_219cf221.c:156:20: error: expected ‘)’ at end of input
+  156 |     if (!decompress
+      |        ~           ^
+      |                    )
+./samples/SAFE/__tmp_219cf221.c:156:5: error: expected declaration or statement at end of input
+  156 |     if (!decompress
+      |     ^~

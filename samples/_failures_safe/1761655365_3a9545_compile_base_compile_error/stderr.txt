@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_55c68d2f.c: In function ‘main’:
+./samples/SAFE/__tmp_55c68d2f.c:137:13: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols2’?
+  137 |             cols
+      |             ^~~~
+      |             cols2
+./samples/SAFE/__tmp_55c68d2f.c:137:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_55c68d2f.c:137:17: error: expected ‘;’ at end of input
+  137 |             cols
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_55c68d2f.c:137:13: error: expected declaration or statement at end of input
+  137 |             cols
+      |             ^~~~
+./samples/SAFE/__tmp_55c68d2f.c:137:13: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_bf70551f.c: In function ‘main’:
+./samples/SAFE/__tmp_bf70551f.c:147:5: error: expected declaration or statement at end of input
+  147 |     printf("Longest consecutive error sequence: %d\n", max_error_sequence);
+      |     ^~~~~~

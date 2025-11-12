@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_fa6e85db.c: In function ‘decompress_data’:
+./samples/SAFE/__tmp_fa6e85db.c:163:9: error: expected ‘{’ at end of input
+  163 |         const struct
+      |         ^~~~~
+./samples/SAFE/__tmp_fa6e85db.c:163:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fa6e85db.c:163:9: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d1a097e4.c: In function ‘main’:
+./samples/SAFE/__tmp_d1a097e4.c:116: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_d1a097e4.c:115:8: note: to match this ‘(’
+  115 |     if (matrix1 == NULL
+      |        ^
+./samples/SAFE/__tmp_d1a097e4.c:115:5: error: expected declaration or statement at end of input
+  115 |     if (matrix1 == NULL
+      |     ^~

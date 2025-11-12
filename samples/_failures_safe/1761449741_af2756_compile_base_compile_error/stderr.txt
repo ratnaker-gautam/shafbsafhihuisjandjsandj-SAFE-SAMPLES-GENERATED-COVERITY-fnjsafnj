@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_231574b0.c: In function ‘main’:
+./samples/SAFE/__tmp_231574b0.c:138:9: error: expected declaration or statement at end of input
+  138 |         printf("Invalid dimensions\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_231574b0.c:138:9: error: expected declaration or statement at end of input

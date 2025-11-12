@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d58c0468.c: In function ‘main’:
+./samples/SAFE/__tmp_d58c0468.c:155:5: error: expected expression at end of input
+  155 |     for (size_t i = 0; i < compressed_data.size &&
+      |     ^~~
+./samples/SAFE/__tmp_d58c0468.c:155:5: error: expected declaration or statement at end of input

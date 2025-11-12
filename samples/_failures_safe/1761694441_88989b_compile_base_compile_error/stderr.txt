@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_fc643d01.c: In function ‘process_tokens’:
+./samples/SAFE/__tmp_fc643d01.c:136:42: error: expected ‘)’ at end of input
+  136 |         if (token.type >= 0 && token.type
+      |            ~                             ^
+      |                                          )
+./samples/SAFE/__tmp_fc643d01.c:136:9: error: expected declaration or statement at end of input
+  136 |         if (token.type >= 0 && token.type
+      |         ^~
+./samples/SAFE/__tmp_fc643d01.c:136:9: error: expected declaration or statement at end of input

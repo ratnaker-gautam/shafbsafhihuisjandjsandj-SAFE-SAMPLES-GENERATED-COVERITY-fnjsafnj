@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_4f37aaed.c: In function ‘load_log_file’:
+./samples/SAFE/__tmp_4f37aaed.c:118:32: error: expected ‘)’ at end of input
+  118 |     FILE *file = fopen(filename
+      |                       ~        ^
+      |                                )
+./samples/SAFE/__tmp_4f37aaed.c:118:18: error: too few arguments to function ‘fopen’
+  118 |     FILE *file = fopen(filename
+      |                  ^~~~~
+In file included from ./samples/SAFE/__tmp_4f37aaed.c:2:
+/usr/include/stdio.h:264:14: note: declared here
+  264 | extern FILE *fopen (const char *__restrict __filename,
+      |              ^~~~~
+./samples/SAFE/__tmp_4f37aaed.c:118:5: error: expected declaration or statement at end of input
+  118 |     FILE *file = fopen(filename
+      |     ^~~~

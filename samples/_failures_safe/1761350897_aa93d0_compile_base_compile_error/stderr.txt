@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_427215ba.c: In function ‘main’:
+./samples/SAFE/__tmp_427215ba.c:151:28: error: missing terminating " character
+  151 |                     printf("Matrix multiplication successful:\
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_427215ba.c:151:21: error: expected expression at end of input
+  151 |                     printf("Matrix multiplication successful:\
+      |                     ^~~~~~
+./samples/SAFE/__tmp_427215ba.c:151:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_427215ba.c:151:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_427215ba.c:151:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_427215ba.c:151:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_427215ba.c:151:21: error: expected declaration or statement at end of input

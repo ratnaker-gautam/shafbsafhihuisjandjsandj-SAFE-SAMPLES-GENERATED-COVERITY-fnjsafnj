@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5b5a3935.c: In function ‘create_rotation_matrix’:
+./samples/SAFE/__tmp_5b5a3935.c:109:60: error: expected ‘;’ at end of input
+  109 |     result.elements[2][2] = cos_a + uz * uz * one_minus_cos
+      |                                                            ^
+      |                                                            ;
+./samples/SAFE/__tmp_5b5a3935.c:109:5: error: expected declaration or statement at end of input
+  109 |     result.elements[2][2] = cos_a + uz * uz * one_minus_cos
+      |     ^~~~~~

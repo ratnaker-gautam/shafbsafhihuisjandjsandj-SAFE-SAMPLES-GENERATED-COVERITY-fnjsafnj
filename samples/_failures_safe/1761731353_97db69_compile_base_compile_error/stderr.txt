@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_2cbd71ac.c:2:2: error: expected ‘;’ before ‘typedef’
+    2 | c
+      |  ^
+      |  ;
+./samples/SAFE/__tmp_2cbd71ac.c: In function ‘update_stats’:
+./samples/SAFE/__tmp_2cbd71ac.c:117:21: error: expected ‘)’ at end of input
+  117 |         strcmp(entry
+      |               ~     ^
+      |                     )
+./samples/SAFE/__tmp_2cbd71ac.c:117:9: error: too few arguments to function ‘strcmp’
+  117 |         strcmp(entry
+      |         ^~~~~~
+In file included from ./samples/SAFE/__tmp_2cbd71ac.c:5:
+/usr/include/string.h:156:12: note: declared here
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+      |            ^~~~~~
+./samples/SAFE/__tmp_2cbd71ac.c:117:9: error: expected declaration or statement at end of input
+  117 |         strcmp(entry
+      |         ^~~~~~

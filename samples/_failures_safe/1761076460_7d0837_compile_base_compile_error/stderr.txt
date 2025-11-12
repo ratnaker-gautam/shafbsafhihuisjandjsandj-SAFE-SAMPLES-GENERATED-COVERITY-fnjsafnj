@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_3807382a.c: In function ‘main’:
+./samples/SAFE/__tmp_3807382a.c:142:17: error: expected identifier or ‘(’ at end of input
+  142 |                 int
+      |                 ^~~
+./samples/SAFE/__tmp_3807382a.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3807382a.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3807382a.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3807382a.c:142:17: error: expected declaration or statement at end of input

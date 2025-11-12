@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c38dba19.c: In function ‘statistics_compute’:
+./samples/SAFE/__tmp_c38dba19.c:128:22: error: expected ‘;’ at end of input
+  128 |     stats->variance_z
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_c38dba19.c:128:5: error: expected declaration or statement at end of input
+  128 |     stats->variance_z
+      |     ^~~~~

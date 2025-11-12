@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fd7122a1.c: In function ‘main’:
+./samples/SAFE/__tmp_fd7122a1.c:177:12: error: missing terminating " character
+  177 |     printf("Total tokens
+      |            ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_fd7122a1.c:177:5: error: expected expression at end of input
+  177 |     printf("Total tokens
+      |     ^~~~~~
+./samples/SAFE/__tmp_fd7122a1.c:177:5: error: expected declaration or statement at end of input

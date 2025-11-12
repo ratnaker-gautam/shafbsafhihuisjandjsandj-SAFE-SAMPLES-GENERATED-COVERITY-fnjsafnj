@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_fb67ce7f.c: In function ‘topologicalSortUtil’:
+./samples/SAFE/__tmp_fb67ce7f.c:142:32: error: expected declaration or statement at end of input
+  142 | int topologicalSortUtil(struct Graph* graph, int vertex, int* visited, int* stack, int* stack_index) {
+      |                                ^~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_49ea6757.c: In function ‘multiply_matrices’:
+./samples/SAFE/__tmp_49ea6757.c:142:5: error: expected expression at end of input
+  142 |     for (int i = 0; i < a->rows;
+      |     ^~~
+./samples/SAFE/__tmp_49ea6757.c:142:5: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_738d38ca.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_738d38ca.c:144:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  144 |     for (int i
+      |     ^~~
+./samples/SAFE/__tmp_738d38ca.c:144:5: error: expected declaration or statement at end of input

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_5369b32f.c: In function ‘main’:
+./samples/SAFE/__tmp_5369b32f.c:126:5: error: expected expression at end of input
+  126 |     set_element(&mat2,
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_5369b32f.c:126:5: error: too few arguments to function ‘set_element’
+./samples/SAFE/__tmp_5369b32f.c:40:5: note: declared here
+   40 | int set_element(struct Matrix *mat, size_t row, size_t col, double value) {
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_5369b32f.c:126:5: error: expected declaration or statement at end of input
+  126 |     set_element(&mat2,
+      |     ^~~~~~~~~~~

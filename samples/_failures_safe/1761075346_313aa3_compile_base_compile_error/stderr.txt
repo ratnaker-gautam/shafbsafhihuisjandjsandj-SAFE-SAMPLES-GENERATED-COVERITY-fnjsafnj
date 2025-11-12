@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ada18352.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_ada18352.c:173:5: error: expected declaration or statement at end of input
+  173 |     }
+      |     ^

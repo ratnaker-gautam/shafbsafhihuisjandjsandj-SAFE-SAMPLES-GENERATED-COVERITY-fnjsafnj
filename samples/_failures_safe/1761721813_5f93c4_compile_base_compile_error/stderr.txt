@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_08395901.c: In function ‘matrix_mul’:
+./samples/SAFE/__tmp_08395901.c:137:13: error: expected expression at end of input
+  137 |             for (int k = 0; k < a->cols;
+      |             ^~~
+./samples/SAFE/__tmp_08395901.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_08395901.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_08395901.c:137:13: error: expected declaration or statement at end of input

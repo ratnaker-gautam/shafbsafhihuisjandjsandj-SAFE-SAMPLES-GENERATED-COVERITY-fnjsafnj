@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_40be3408.c: In function ‘main’:
+./samples/SAFE/__tmp_40be3408.c:156:41: error: expected ‘)’ at end of input
+  156 |         process_state_machine(&sm, event
+      |                              ~          ^
+      |                                         )
+./samples/SAFE/__tmp_40be3408.c:156:9: error: too few arguments to function ‘process_state_machine’
+  156 |         process_state_machine(&sm, event
+      |         ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_40be3408.c:44:13: note: declared here
+   44 | static void process_state_machine(state_machine_t *sm, int event, char data_char) {
+      |             ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_40be3408.c:156:9: error: expected declaration or statement at end of input
+  156 |         process_state_machine(&sm, event
+      |         ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_40be3408.c:156:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_45f4abc4.c: In function ‘main’:
+./samples/SAFE/__tmp_45f4abc4.c:162:9: error: expected declaration or statement at end of input
+  162 |         free(tokens);
+      |         ^~~~
+./samples/SAFE/__tmp_45f4abc4.c:162:9: error: expected declaration or statement at end of input

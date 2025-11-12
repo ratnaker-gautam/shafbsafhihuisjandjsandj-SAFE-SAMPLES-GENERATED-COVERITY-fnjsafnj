@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_53be0a6e.c: In function ‘main’:
+./samples/SAFE/__tmp_53be0a6e.c:126:65: error: expected ‘)’ at end of input
+  126 |     printf("Cross product: (%.2f, %.2f, %.2f)\n", cross.x, cross
+      |           ~                                                     ^
+      |                                                                 )
+./samples/SAFE/__tmp_53be0a6e.c:126:5: error: expected declaration or statement at end of input
+  126 |     printf("Cross product: (%.2f, %.2f, %.2f)\n", cross.x, cross
+      |     ^~~~~~

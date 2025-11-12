@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_0c60e031.c: In function ‘main’:
+./samples/SAFE/__tmp_0c60e031.c:143:9: error: expected declaration or statement at end of input
+  143 |         buffer_free(&decompressed_buf);
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_0c60e031.c:143:9: error: expected declaration or statement at end of input

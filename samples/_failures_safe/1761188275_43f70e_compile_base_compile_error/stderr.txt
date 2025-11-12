@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_988fda22.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_988fda22.c:150:94: error: expected ‘)’ at end of input
+  150 |                 printf("Identifier: %s at line %d, column %d\n", p->current.value, p->current
+      |                       ~                                                                      ^
+      |                                                                                              )
+./samples/SAFE/__tmp_988fda22.c:150:17: error: expected declaration or statement at end of input
+  150 |                 printf("Identifier: %s at line %d, column %d\n", p->current.value, p->current
+      |                 ^~~~~~
+./samples/SAFE/__tmp_988fda22.c:150:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_988fda22.c:150:17: error: expected declaration or statement at end of input

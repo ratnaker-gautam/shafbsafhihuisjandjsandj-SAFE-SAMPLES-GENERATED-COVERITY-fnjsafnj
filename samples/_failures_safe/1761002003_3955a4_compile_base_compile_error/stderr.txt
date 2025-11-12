@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_22cf2bd3.c: In function ‘main’:
+./samples/SAFE/__tmp_22cf2bd3.c:145:5: error: expected expression at end of input
+  145 |     int word_count = extract_words(input,
+      |     ^~~
+./samples/SAFE/__tmp_22cf2bd3.c:145:22: error: too few arguments to function ‘extract_words’
+  145 |     int word_count = extract_words(input,
+      |                      ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_22cf2bd3.c:30:5: note: declared here
+   30 | int extract_words(const char* text, char words[][MAX_WORD_LEN], int max_words) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_22cf2bd3.c:145:5: error: expected declaration or statement at end of input
+  145 |     int word_count = extract_words(input,
+      |     ^~~

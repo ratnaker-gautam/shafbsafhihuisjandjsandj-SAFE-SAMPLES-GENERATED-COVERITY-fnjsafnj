@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d417d6be.c: In function ‘perform_compression’:
+./samples/SAFE/__tmp_d417d6be.c:153:5: error: expected declaration or statement at end of input
+  153 |     return result;
+      |     ^~~~~~

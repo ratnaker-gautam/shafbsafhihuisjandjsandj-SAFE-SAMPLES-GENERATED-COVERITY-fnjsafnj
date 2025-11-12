@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_369e4d08.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_369e4d08.c:168:20: error: expected ‘,’ or ‘;’ at end of input
+  168 |             struct Token *next = &parser
+      |                    ^~~~~
+./samples/SAFE/__tmp_369e4d08.c:168:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_369e4d08.c:168:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_369e4d08.c:168:20: error: expected declaration or statement at end of input

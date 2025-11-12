@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_85108c10.c: In function ‘main’:
+./samples/SAFE/__tmp_85108c10.c:169:54: error: expected ‘)’ at end of input
+  169 |             printf("Stack overflow at token %zu\n", i
+      |                   ~                                  ^
+      |                                                      )
+./samples/SAFE/__tmp_85108c10.c:169:13: error: expected declaration or statement at end of input
+  169 |             printf("Stack overflow at token %zu\n", i
+      |             ^~~~~~
+./samples/SAFE/__tmp_85108c10.c:169:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_85108c10.c:169:13: error: expected declaration or statement at end of input

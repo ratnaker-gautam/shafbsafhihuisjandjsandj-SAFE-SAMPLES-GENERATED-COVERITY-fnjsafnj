@@ -1,0 +1,9 @@
+/usr/bin/ld: /tmp/cc6l5UMP.o: in function `compute_trigonometric':
+__tmp_10a75ec7.c:(.text+0x5f): undefined reference to `sin'
+/usr/bin/ld: __tmp_10a75ec7.c:(.text+0x77): undefined reference to `cos'
+/usr/bin/ld: /tmp/cc6l5UMP.o: in function `compute_exponential':
+__tmp_10a75ec7.c:(.text+0x3d): undefined reference to `exp'
+/usr/bin/ld: /tmp/cc6l5UMP.o: in function `main':
+__tmp_10a75ec7.c:(.text.startup+0x18e): undefined reference to `exp'
+/usr/bin/ld: __tmp_10a75ec7.c:(.text.startup+0x294): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

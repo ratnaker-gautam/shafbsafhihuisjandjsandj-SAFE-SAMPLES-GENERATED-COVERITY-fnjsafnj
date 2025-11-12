@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_266f067e.c: In function ‘main’:
+./samples/SAFE/__tmp_266f067e.c:135:9: error: expected declaration or statement at end of input
+  135 |         char timestamp[32] = {0};
+      |         ^~~~
+./samples/SAFE/__tmp_266f067e.c:135:9: error: expected declaration or statement at end of input

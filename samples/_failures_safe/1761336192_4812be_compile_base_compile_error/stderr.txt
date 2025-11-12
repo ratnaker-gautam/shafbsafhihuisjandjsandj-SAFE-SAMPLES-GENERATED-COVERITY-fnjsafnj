@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fedeab14.c: In function ‘create_sample_graph’:
+./samples/SAFE/__tmp_fedeab14.c:153:24: error: expected ‘)’ at end of input
+  153 |     add_edge(g, 3, 4, 2
+      |             ~          ^
+      |                        )
+./samples/SAFE/__tmp_fedeab14.c:153:5: error: expected declaration or statement at end of input
+  153 |     add_edge(g, 3, 4, 2
+      |     ^~~~~~~~

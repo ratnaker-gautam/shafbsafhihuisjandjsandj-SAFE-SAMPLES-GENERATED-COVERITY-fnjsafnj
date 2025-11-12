@@ -1,0 +1,9 @@
+/usr/bin/ld: /tmp/ccWa0Fih.o: in function `safe_power':
+__tmp_6beb4cb2.c:(.text+0xda): undefined reference to `pow'
+/usr/bin/ld: __tmp_6beb4cb2.c:(.text+0x11c): undefined reference to `fmod'
+/usr/bin/ld: /tmp/ccWa0Fih.o: in function `main':
+__tmp_6beb4cb2.c:(.text.startup+0x148): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_6beb4cb2.c:(.text.startup+0x166): undefined reference to `sin'
+/usr/bin/ld: __tmp_6beb4cb2.c:(.text.startup+0x1b9): undefined reference to `log'
+/usr/bin/ld: __tmp_6beb4cb2.c:(.text.startup+0x1c9): undefined reference to `sin'
+collect2: error: ld returned 1 exit status

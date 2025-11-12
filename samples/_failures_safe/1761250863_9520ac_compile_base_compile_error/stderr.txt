@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_2084f13b.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_2084f13b.c:138:56: error: ‘const struct LogStats’ has no member named ‘m’
+  138 |     printf("Most frequent level: %s\n", analyzer->stats.m
+      |                                                        ^
+./samples/SAFE/__tmp_2084f13b.c:138:58: error: expected ‘)’ at end of input
+  138 |     printf("Most frequent level: %s\n", analyzer->stats.m
+      |           ~                                              ^
+      |                                                          )
+./samples/SAFE/__tmp_2084f13b.c:138:5: error: expected declaration or statement at end of input
+  138 |     printf("Most frequent level: %s\n", analyzer->stats.m
+      |     ^~~~~~

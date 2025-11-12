@@ -1,0 +1,13 @@
+/usr/bin/ld: /tmp/ccU0jpJs.o: in function `power':
+__tmp_c0361527.c:(.text+0xe9): undefined reference to `fmod'
+/usr/bin/ld: /tmp/ccU0jpJs.o: in function `math_op1':
+__tmp_c0361527.c:(.text+0x10f): undefined reference to `sin'
+/usr/bin/ld: __tmp_c0361527.c:(.text+0x11f): undefined reference to `cos'
+/usr/bin/ld: /tmp/ccU0jpJs.o: in function `math_op2':
+__tmp_c0361527.c:(.text+0x15f): undefined reference to `log'
+/usr/bin/ld: /tmp/ccU0jpJs.o: in function `power':
+__tmp_c0361527.c:(.text+0x8f): undefined reference to `pow'
+/usr/bin/ld: __tmp_c0361527.c:(.text+0xdc): undefined reference to `pow'
+/usr/bin/ld: /tmp/ccU0jpJs.o: in function `math_op3':
+__tmp_c0361527.c:(.text+0x181): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

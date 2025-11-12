@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_96ac1b86.c: In function ‘main’:
+./samples/SAFE/__tmp_96ac1b86.c:146:47: error: expected ‘)’ at end of input
+  146 |     print_hex(compressed.data, compressed.size
+      |              ~                                ^
+      |                                               )
+./samples/SAFE/__tmp_96ac1b86.c:146:5: error: expected declaration or statement at end of input
+  146 |     print_hex(compressed.data, compressed.size
+      |     ^~~~~~~~~

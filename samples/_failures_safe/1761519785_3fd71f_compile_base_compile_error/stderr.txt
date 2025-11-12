@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_6ff90f2e.c: In function ‘calculate_stats’:
+./samples/SAFE/__tmp_6ff90f2e.c:122:16: error: expected ‘;’ at end of input
+  122 |         strncpy
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_6ff90f2e.c:122:9: error: expected declaration or statement at end of input
+  122 |         strncpy
+      |         ^~~~~~~
+./samples/SAFE/__tmp_6ff90f2e.c:122:9: error: expected declaration or statement at end of input

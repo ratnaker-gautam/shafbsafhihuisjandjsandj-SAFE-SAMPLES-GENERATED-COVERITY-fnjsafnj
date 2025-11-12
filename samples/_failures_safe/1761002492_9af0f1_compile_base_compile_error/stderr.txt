@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c158fc6e.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_c158fc6e.c:153:36: error: ‘type’ undeclared (first use in this function)
+  153 |             case TOKEN_IDENTIFIER: type
+      |                                    ^~~~
+./samples/SAFE/__tmp_c158fc6e.c:153:36: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c158fc6e.c:153:40: error: expected ‘;’ at end of input
+  153 |             case TOKEN_IDENTIFIER: type
+      |                                        ^
+      |                                        ;
+./samples/SAFE/__tmp_c158fc6e.c:153:13: error: expected declaration or statement at end of input
+  153 |             case TOKEN_IDENTIFIER: type
+      |             ^~~~
+./samples/SAFE/__tmp_c158fc6e.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c158fc6e.c:153:13: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_cc7b75c1.c: In function ‘generate_sample_logs’:
+./samples/SAFE/__tmp_cc7b75c1.c:121: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_cc7b75c1.c:120:5: error: expected declaration or statement at end of input
+  120 |     for
+      |     ^~~

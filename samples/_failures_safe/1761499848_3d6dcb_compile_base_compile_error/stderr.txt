@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_76271159.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_76271159.c:172:9: error: expected expression at end of input
+  172 |         if (
+      |         ^~
+./samples/SAFE/__tmp_76271159.c:172:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_76271159.c:172:9: error: expected declaration or statement at end of input

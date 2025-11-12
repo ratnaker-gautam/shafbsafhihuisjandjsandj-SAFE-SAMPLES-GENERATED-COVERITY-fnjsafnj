@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_bf42aa4e.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_bf42aa4e.c:156:1: error: expected declaration or statement at end of input
+  156 | void print_tokens(Lexer* lexer) {
+      | ^~~~

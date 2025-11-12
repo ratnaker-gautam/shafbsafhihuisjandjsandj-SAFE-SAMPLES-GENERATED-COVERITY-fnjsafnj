@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c41ac980.c: In function ‘display_sorted_logs’:
+./samples/SAFE/__tmp_c41ac980.c:136: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_c41ac980.c:135:8: note: to match this ‘(’
+  135 |     if (sorted == NULL
+      |        ^
+./samples/SAFE/__tmp_c41ac980.c:135:5: error: expected declaration or statement at end of input
+  135 |     if (sorted == NULL
+      |     ^~

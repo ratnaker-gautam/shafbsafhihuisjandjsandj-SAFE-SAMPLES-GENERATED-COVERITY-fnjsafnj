@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1f70b1b8.c: In function ‘main’:
+./samples/SAFE/__tmp_1f70b1b8.c:146:5: error: expected declaration or statement at end of input
+  146 |     filter[strcspn(filter, "\n")] = '\0';
+      |     ^~~~~~

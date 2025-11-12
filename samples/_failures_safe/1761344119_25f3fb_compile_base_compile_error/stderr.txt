@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_24f68d3d.c: In function ‘main’:
+./samples/SAFE/__tmp_24f68d3d.c:165:33: error: expected ‘)’ at end of input
+  165 |     print_word_frequencies(words
+      |                           ~     ^
+      |                                 )
+./samples/SAFE/__tmp_24f68d3d.c:165:5: error: too few arguments to function ‘print_word_frequencies’
+  165 |     print_word_frequencies(words
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_24f68d3d.c:114:6: note: declared here
+  114 | void print_word_frequencies(struct WordCount words[], int count) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_24f68d3d.c:165:5: error: expected declaration or statement at end of input
+  165 |     print_word_frequencies(words
+      |     ^~~~~~~~~~~~~~~~~~~~~~

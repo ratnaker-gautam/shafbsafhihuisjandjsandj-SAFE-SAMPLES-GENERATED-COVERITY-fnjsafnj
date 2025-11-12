@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_72a26f23.c: In function ‘main’:
+./samples/SAFE/__tmp_72a26f23.c:151:43: error: expected ‘)’ at end of input
+  151 |     print_log_summary(entries, entry_count
+      |                      ~                    ^
+      |                                           )
+./samples/SAFE/__tmp_72a26f23.c:151:5: error: expected declaration or statement at end of input
+  151 |     print_log_summary(entries, entry_count
+      |     ^~~~~~~~~~~~~~~~~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ffe7223c.c: In function ‘read_delimiter’:
+./samples/SAFE/__tmp_ffe7223c.c:138:5: error: expected declaration or statement at end of input
+  138 |     token->line = state->line;
+      |     ^~~~~

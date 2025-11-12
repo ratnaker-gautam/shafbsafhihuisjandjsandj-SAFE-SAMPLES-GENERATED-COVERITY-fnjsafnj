@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2353d0c8.c: In function ‘main’:
+./samples/SAFE/__tmp_2353d0c8.c:150:17: error: expected declaration or statement at end of input
+  150 |                 next_state = state_writing(&ctx);
+      |                 ^~~~~~~~~~
+./samples/SAFE/__tmp_2353d0c8.c:150:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2353d0c8.c:150:17: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ae344095.c: In function ‘get_user_event’:
+./samples/SAFE/__tmp_ae344095.c:185:9: error: expected expression at end of input
+  185 |         case 3: return
+      |         ^~~~
+./samples/SAFE/__tmp_ae344095.c:185:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ae344095.c:185:9: error: expected declaration or statement at end of input

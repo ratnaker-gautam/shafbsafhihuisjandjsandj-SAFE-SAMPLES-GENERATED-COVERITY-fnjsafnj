@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_50bc5236.c: In function ‘main’:
+./samples/SAFE/__tmp_50bc5236.c:148:5: error: ‘perform’ undeclared (first use in this function); did you mean ‘perror’?
+  148 |     perform
+      |     ^~~~~~~
+      |     perror
+./samples/SAFE/__tmp_50bc5236.c:148:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_50bc5236.c:148:12: error: expected ‘;’ at end of input
+  148 |     perform
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_50bc5236.c:148:5: error: expected declaration or statement at end of input
+  148 |     perform
+      |     ^~~~~~~

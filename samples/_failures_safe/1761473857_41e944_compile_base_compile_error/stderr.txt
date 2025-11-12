@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_281632c0.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_281632c0.c:129:16: error: expected expression at end of input
+  129 |                matrix_at(a, 0, 1) * matrix_at(a,
+      |                ^~~~~~~~~
+./samples/SAFE/__tmp_281632c0.c:129:37: error: too few arguments to function ‘matrix_at’
+  129 |                matrix_at(a, 0, 1) * matrix_at(a,
+      |                                     ^~~~~~~~~
+./samples/SAFE/__tmp_281632c0.c:39:8: note: declared here
+   39 | double matrix_at(struct Matrix *m, int row, int col) {
+      |        ^~~~~~~~~
+./samples/SAFE/__tmp_281632c0.c:129:16: error: expected declaration or statement at end of input
+  129 |                matrix_at(a, 0, 1) * matrix_at(a,
+      |                ^~~~~~~~~
+./samples/SAFE/__tmp_281632c0.c:129:16: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d9332c34.c: In function ‘generate_sample_logs’:
+./samples/SAFE/__tmp_d9332c34.c:135:5: error: expected declaration or statement at end of input
+  135 |     add_log_entry(analyzer, "2024-01-15 10:31:10", "DEBUG", "Initializing modules");
+      |     ^~~~~~~~~~~~~

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_fcfcadb1.c: In function ‘main’:
+./samples/SAFE/__tmp_fcfcadb1.c:139:25: error: missing terminating " character
+  139 |         fprintf(stderr, "Data mismatch
+      |                         ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_fcfcadb1.c:139:9: error: expected expression at end of input
+  139 |         fprintf(stderr, "Data mismatch
+      |         ^~~~~~~
+./samples/SAFE/__tmp_fcfcadb1.c:139:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fcfcadb1.c:139:9: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_44f3f522.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_44f3f522.c:178:29: error: ‘lex’ undeclared (first use in this function); did you mean ‘lexer’?
+  178 |             read_identifier(lex
+      |                             ^~~
+      |                             lexer
+./samples/SAFE/__tmp_44f3f522.c:178:29: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_44f3f522.c:178:32: error: expected ‘)’ at end of input
+  178 |             read_identifier(lex
+      |                            ~   ^
+      |                                )
+./samples/SAFE/__tmp_44f3f522.c:178:13: error: expected declaration or statement at end of input
+  178 |             read_identifier(lex
+      |             ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_44f3f522.c:178:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_44f3f522.c:178:13: error: expected declaration or statement at end of input

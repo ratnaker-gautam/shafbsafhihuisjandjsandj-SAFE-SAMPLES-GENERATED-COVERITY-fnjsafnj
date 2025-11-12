@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_b0498383.c: In function ‘main’:
+./samples/SAFE/__tmp_b0498383.c:165:9: error: ‘comp’ undeclared (first use in this function)
+  165 |     if (comp
+      |         ^~~~
+./samples/SAFE/__tmp_b0498383.c:165:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b0498383.c:165:13: error: expected ‘)’ at end of input
+  165 |     if (comp
+      |        ~    ^
+      |             )
+./samples/SAFE/__tmp_b0498383.c:165:5: error: expected declaration or statement at end of input
+  165 |     if (comp
+      |     ^~

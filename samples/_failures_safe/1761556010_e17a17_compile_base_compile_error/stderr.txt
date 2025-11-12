@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_ca36331b.c: In function ‘main’:
+./samples/SAFE/__tmp_ca36331b.c:168:20: error: ‘compute_t’ undeclared (first use in this function); did you mean ‘compute_trace’?
+  168 |     long trace_b = compute_t
+      |                    ^~~~~~~~~
+      |                    compute_trace
+./samples/SAFE/__tmp_ca36331b.c:168:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ca36331b.c:168:5: error: expected ‘,’ or ‘;’ at end of input
+  168 |     long trace_b = compute_t
+      |     ^~~~
+./samples/SAFE/__tmp_ca36331b.c:168:5: error: expected declaration or statement at end of input

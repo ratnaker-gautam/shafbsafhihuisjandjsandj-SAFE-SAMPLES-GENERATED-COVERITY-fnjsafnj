@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1dd55efa.c: In function ‘handle_reading’:
+./samples/SAFE/__tmp_1dd55efa.c:172:13: error: expected identifier at end of input
+  172 |             safe_input(ctx->buffer, sizeof(ctx->
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_1dd55efa.c:172:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1dd55efa.c:172:13: error: expected declaration or statement at end of input

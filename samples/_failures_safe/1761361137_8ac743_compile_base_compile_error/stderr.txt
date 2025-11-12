@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ef1ef7a8.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_ef1ef7a8.c:170:5: error: expected declaration or statement at end of input
+  170 |     }
+      |     ^

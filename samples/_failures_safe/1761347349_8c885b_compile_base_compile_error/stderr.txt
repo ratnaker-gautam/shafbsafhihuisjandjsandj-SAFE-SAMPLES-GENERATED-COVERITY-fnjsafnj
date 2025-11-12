@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_73dced13.c: In function ‘main’:
+./samples/SAFE/__tmp_73dced13.c:140:65: error: expected ‘)’ at end of input
+  140 |     size_t decompressed_len = decompress_chunk(compressed_buffer
+      |                                               ~                 ^
+      |                                                                 )
+./samples/SAFE/__tmp_73dced13.c:140:31: error: too few arguments to function ‘decompress_chunk’
+  140 |     size_t decompressed_len = decompress_chunk(compressed_buffer
+      |                               ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_73dced13.c:69:15: note: declared here
+   69 | static size_t decompress_chunk(const uint8_t *input, size_t len, uint8_t *output) {
+      |               ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_73dced13.c:140:5: error: expected declaration or statement at end of input
+  140 |     size_t decompressed_len = decompress_chunk(compressed_buffer
+      |     ^~~~~~

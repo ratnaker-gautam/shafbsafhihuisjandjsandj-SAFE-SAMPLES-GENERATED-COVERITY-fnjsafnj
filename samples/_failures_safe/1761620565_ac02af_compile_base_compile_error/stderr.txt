@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ee98432f.c: In function ‘compute_bounds’:
+./samples/SAFE/__tmp_ee98432f.c:113:9: error: expected expression at end of input
+  113 |         if (mesh->vertices[i].z >
+      |         ^~
+./samples/SAFE/__tmp_ee98432f.c:113:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ee98432f.c:113:9: error: expected declaration or statement at end of input

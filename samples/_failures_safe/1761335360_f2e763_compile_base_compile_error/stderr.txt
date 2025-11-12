@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1253912a.c: In function ‘bounding_box_volume’:
+./samples/SAFE/__tmp_1253912a.c:135:17: error: incompatible types when initializing type ‘double’ using type ‘struct BoundingBox’
+  135 |     double dx = box
+      |                 ^~~
+./samples/SAFE/__tmp_1253912a.c:135:5: error: expected ‘,’ or ‘;’ at end of input
+  135 |     double dx = box
+      |     ^~~~~~
+./samples/SAFE/__tmp_1253912a.c:135:5: error: expected declaration or statement at end of input

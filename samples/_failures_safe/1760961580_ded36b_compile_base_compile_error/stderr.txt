@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_05467134.c: In function ‘print_token’:
+./samples/SAFE/__tmp_05467134.c:162:80: error: expected ‘]’ at end of input
+  162 |     printf("Line %d, Column %d: %s", token.line, token.column, type_names[token
+      |                                                                                ^
+      |                                                                                ]
+./samples/SAFE/__tmp_05467134.c:162:74: error: array subscript is not an integer
+  162 |     printf("Line %d, Column %d: %s", token.line, token.column, type_names[token
+      |                                                                          ^
+./samples/SAFE/__tmp_05467134.c:162:5: error: expected declaration or statement at end of input
+  162 |     printf("Line %d, Column %d: %s", token.line, token.column, type_names[token
+      |     ^~~~~~

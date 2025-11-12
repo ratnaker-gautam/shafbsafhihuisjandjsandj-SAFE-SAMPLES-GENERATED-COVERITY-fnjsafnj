@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_298ac6f4.c: In function ‘main’:
+./samples/SAFE/__tmp_298ac6f4.c:183:35: error: expected ‘)’ at end of input
+  183 |             printf("Token %d: ", j
+      |                   ~               ^
+      |                                   )
+./samples/SAFE/__tmp_298ac6f4.c:183:13: error: expected declaration or statement at end of input
+  183 |             printf("Token %d: ", j
+      |             ^~~~~~
+./samples/SAFE/__tmp_298ac6f4.c:183:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_298ac6f4.c:183:13: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9af5cba0.c: In function ‘main’:
+./samples/SAFE/__tmp_9af5cba0.c:168:5: error: expected expression at end of input
+  168 |     if (fgets(input, sizeof(input), stdin) == NULL)
+      |     ^~
+./samples/SAFE/__tmp_9af5cba0.c:168:5: error: expected declaration or statement at end of input

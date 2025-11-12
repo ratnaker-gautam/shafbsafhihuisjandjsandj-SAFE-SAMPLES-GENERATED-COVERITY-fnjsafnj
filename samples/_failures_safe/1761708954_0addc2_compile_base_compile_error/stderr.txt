@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_91b464d3.c: In function ‘main’:
+./samples/SAFE/__tmp_91b464d3.c:149:5: error: ‘init’ undeclared (first use in this function); did you mean ‘int’?
+  149 |     init
+      |     ^~~~
+      |     int
+./samples/SAFE/__tmp_91b464d3.c:149:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_91b464d3.c:149:9: error: expected ‘;’ at end of input
+  149 |     init
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_91b464d3.c:149:5: error: expected declaration or statement at end of input
+  149 |     init
+      |     ^~~~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b83aa96c.c: In function ‘main’:
+./samples/SAFE/__tmp_b83aa96c.c:160:66: error: expected ‘)’ at end of input
+  160 |     printf("Final state: %s\n", state_to_string(sm->current_state
+      |                                                ~                 ^
+      |                                                                  )
+./samples/SAFE/__tmp_b83aa96c.c:160:5: error: expected declaration or statement at end of input
+  160 |     printf("Final state: %s\n", state_to_string(sm->current_state
+      |     ^~~~~~

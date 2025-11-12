@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_47b9c022.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_47b9c022.c:172:5: error: expected declaration or statement at end of input
+  172 |     printf("---\n");
+      |     ^~~~~~

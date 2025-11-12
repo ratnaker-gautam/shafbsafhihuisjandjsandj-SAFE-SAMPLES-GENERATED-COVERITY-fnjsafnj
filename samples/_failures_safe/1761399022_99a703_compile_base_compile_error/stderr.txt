@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5706f172.c: In function ‘main’:
+./samples/SAFE/__tmp_5706f172.c:166:5: error: expected declaration or statement at end of input
+  166 |     free_log_collection(&collection);
+      |     ^~~~~~~~~~~~~~~~~~~

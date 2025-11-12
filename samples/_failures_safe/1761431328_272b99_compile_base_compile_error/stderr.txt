@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_d0954432.c: In function ‘process_compression’:
+./samples/SAFE/__tmp_d0954432.c:154:10: error: ‘decomp’ undeclared (first use in this function)
+  154 |     free(decomp
+      |          ^~~~~~
+./samples/SAFE/__tmp_d0954432.c:154:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d0954432.c:154:16: error: expected ‘)’ at end of input
+  154 |     free(decomp
+      |         ~      ^
+      |                )
+./samples/SAFE/__tmp_d0954432.c:154:5: error: expected declaration or statement at end of input
+  154 |     free(decomp
+      |     ^~~~

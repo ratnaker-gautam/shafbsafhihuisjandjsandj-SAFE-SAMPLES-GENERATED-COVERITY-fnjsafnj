@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_31ebc096.c: In function ‘main’:
+./samples/SAFE/__tmp_31ebc096.c:143:5: error: expected declaration or statement at end of input
+  143 |     printf("Successfully loaded %d log entries\n\n", entry_count);
+      |     ^~~~~~

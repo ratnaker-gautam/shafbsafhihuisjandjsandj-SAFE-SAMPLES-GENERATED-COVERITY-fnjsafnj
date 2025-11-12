@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_6557b46e.c: In function ‘matrix_operations’:
+./samples/SAFE/__tmp_6557b46e.c:122:5: error: ‘PRINT’ undeclared (first use in this function)
+  122 |     PRINT
+      |     ^~~~~
+./samples/SAFE/__tmp_6557b46e.c:122:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6557b46e.c:122:10: error: expected ‘;’ at end of input
+  122 |     PRINT
+      |          ^
+      |          ;
+./samples/SAFE/__tmp_6557b46e.c:122:5: error: expected declaration or statement at end of input
+  122 |     PRINT
+      |     ^~~~~

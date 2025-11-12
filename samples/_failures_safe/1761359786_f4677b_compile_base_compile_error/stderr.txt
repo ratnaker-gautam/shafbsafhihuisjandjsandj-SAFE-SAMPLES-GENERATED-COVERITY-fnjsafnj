@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ad1a692e.c: In function ‘generate_sample_logs’:
+./samples/SAFE/__tmp_ad1a692e.c:144:9: error: missing terminating " character
+  144 |         "192.168.1.2 - - [10/Oct
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ad1a692e.c:144:9: error: expected expression at end of input
+./samples/SAFE/__tmp_ad1a692e.c:144:9: error: expected declaration or statement at end of input

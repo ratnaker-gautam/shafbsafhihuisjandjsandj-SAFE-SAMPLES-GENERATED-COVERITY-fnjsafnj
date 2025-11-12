@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_de5b75b8.c: In function ‘main’:
+./samples/SAFE/__tmp_de5b75b8.c:151:17: error: expected declaration or statement at end of input
+  151 |                 printf("Error: Matrices must have same dimensions for addition or overflow occurred.\n");
+      |                 ^~~~~~
+./samples/SAFE/__tmp_de5b75b8.c:151:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_de5b75b8.c:151:17: error: expected declaration or statement at end of input

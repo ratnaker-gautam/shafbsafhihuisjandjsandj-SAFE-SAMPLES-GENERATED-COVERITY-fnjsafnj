@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d0a359c5.c: In function ‘main’:
+./samples/SAFE/__tmp_d0a359c5.c:168:13: error: expected declaration or statement at end of input
+  168 |             case TOKEN_UNKNOWN:
+      |             ^~~~
+./samples/SAFE/__tmp_d0a359c5.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d0a359c5.c:168:13: error: expected declaration or statement at end of input

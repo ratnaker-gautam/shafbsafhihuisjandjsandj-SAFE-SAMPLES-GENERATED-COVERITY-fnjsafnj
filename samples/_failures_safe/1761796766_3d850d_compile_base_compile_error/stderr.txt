@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ed3ffa66.c: In function ‘main’:
+./samples/SAFE/__tmp_ed3ffa66.c:166:9: error: expected declaration or statement at end of input
+  166 |         if (!push_token(stack, tokens[i])) {
+      |         ^~
+./samples/SAFE/__tmp_ed3ffa66.c:166:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ed3ffa66.c:166:9: error: expected declaration or statement at end of input

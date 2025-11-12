@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_49e185fa.c: In function ‘main’:
+./samples/SAFE/__tmp_49e185fa.c:137:52: error: invalid suffix "x" on integer constant
+  137 |     uint8_t test_data[] = {0x41, 0x42, 0x43, 0x44, 0x
+      |                                                    ^~
+./samples/SAFE/__tmp_49e185fa.c:138: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_49e185fa.c:137:27: note: to match this ‘{’
+  137 |     uint8_t test_data[] = {0x41, 0x42, 0x43, 0x44, 0x
+      |                           ^
+./samples/SAFE/__tmp_49e185fa.c:137:5: error: expected declaration or statement at end of input
+  137 |     uint8_t test_data[] = {0x41, 0x42, 0x43, 0x44, 0x
+      |     ^~~~~~~

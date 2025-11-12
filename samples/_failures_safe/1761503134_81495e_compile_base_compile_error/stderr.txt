@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_3514a617.c: In function ‘main’:
+./samples/SAFE/__tmp_3514a617.c:142:13: error: ‘MATRIX_PRINT’ undeclared (first use in this function)
+  142 |             MATRIX_PRINT
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_3514a617.c:142:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3514a617.c:142:25: error: expected ‘;’ at end of input
+  142 |             MATRIX_PRINT
+      |                         ^
+      |                         ;
+./samples/SAFE/__tmp_3514a617.c:142:13: error: expected declaration or statement at end of input
+  142 |             MATRIX_PRINT
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_3514a617.c:142:13: error: expected declaration or statement at end of input

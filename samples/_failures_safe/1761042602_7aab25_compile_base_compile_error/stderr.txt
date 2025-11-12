@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_659ca5c3.c: In function ‘main’:
+./samples/SAFE/__tmp_659ca5c3.c:159:17: error: ‘de’ undeclared (first use in this function)
+  159 |         putchar(de
+      |                 ^~
+./samples/SAFE/__tmp_659ca5c3.c:159:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_659ca5c3.c:159:19: error: expected ‘)’ at end of input
+  159 |         putchar(de
+      |                ~  ^
+      |                   )
+./samples/SAFE/__tmp_659ca5c3.c:159:9: error: expected declaration or statement at end of input
+  159 |         putchar(de
+      |         ^~~~~~~
+./samples/SAFE/__tmp_659ca5c3.c:159:9: error: expected declaration or statement at end of input

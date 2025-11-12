@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_45e72988.c: In function ‘main’:
+./samples/SAFE/__tmp_45e72988.c:148:5: error: expected declaration or statement at end of input
+  148 |     printf("Enter text to analyze (max %d characters):\n", MAX_TEXT_LEN - 1);
+      |     ^~~~~~

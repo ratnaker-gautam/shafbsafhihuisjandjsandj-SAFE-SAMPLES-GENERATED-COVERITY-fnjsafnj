@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_677a597a.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_677a597a.c:190:17: error: expected ‘{’ at end of input
+  190 |                 struct
+      |                 ^~~~~~
+./samples/SAFE/__tmp_677a597a.c:190:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_677a597a.c:190:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_677a597a.c:190:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_677a597a.c:190:17: error: expected declaration or statement at end of input

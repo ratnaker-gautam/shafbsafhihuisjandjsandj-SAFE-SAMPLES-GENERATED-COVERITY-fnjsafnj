@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_3adae0a7.c: In function ‘main’:
+./samples/SAFE/__tmp_3adae0a7.c:166:64: error: expected ‘]’ at end of input
+  166 |         printf("  %s: '%s'\n", token_type_name(tokens->tokens[i
+      |                                                                ^
+      |                                                                ]
+./samples/SAFE/__tmp_3adae0a7.c:166:62: error: incompatible type for argument 1 of ‘token_type_name’
+  166 |         printf("  %s: '%s'\n", token_type_name(tokens->tokens[i
+      |                                                ~~~~~~~~~~~~~~^~
+      |                                                              |
+      |                                                              Token
+./samples/SAFE/__tmp_3adae0a7.c:128:39: note: expected ‘TokenType’ but argument is of type ‘Token’
+  128 | const char* token_type_name(TokenType type) {
+      |                             ~~~~~~~~~~^~~~
+./samples/SAFE/__tmp_3adae0a7.c:166:9: error: expected declaration or statement at end of input
+  166 |         printf("  %s: '%s'\n", token_type_name(tokens->tokens[i
+      |         ^~~~~~
+./samples/SAFE/__tmp_3adae0a7.c:166:9: error: expected declaration or statement at end of input

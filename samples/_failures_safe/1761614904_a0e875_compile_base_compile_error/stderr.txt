@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7ed37350.c: In function ‘get_user_input’:
+./samples/SAFE/__tmp_7ed37350.c:161:48: error: expected ‘)’ at end of input
+  161 |     } else if (strncmp(input_buffer, "error", 5
+      |                       ~                        ^
+      |                                                )
+./samples/SAFE/__tmp_7ed37350.c:161:5: error: expected declaration or statement at end of input
+  161 |     } else if (strncmp(input_buffer, "error", 5
+      |     ^

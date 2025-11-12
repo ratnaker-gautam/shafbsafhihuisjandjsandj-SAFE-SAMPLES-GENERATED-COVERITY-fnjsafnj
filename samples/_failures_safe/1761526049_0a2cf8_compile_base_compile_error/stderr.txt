@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f6f25e6f.c: In function ‘main’:
+./samples/SAFE/__tmp_f6f25e6f.c:153:17: error: expected ‘;’ at end of input
+  153 |     print_matrix
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_f6f25e6f.c:153:5: error: expected declaration or statement at end of input
+  153 |     print_matrix
+      |     ^~~~~~~~~~~~

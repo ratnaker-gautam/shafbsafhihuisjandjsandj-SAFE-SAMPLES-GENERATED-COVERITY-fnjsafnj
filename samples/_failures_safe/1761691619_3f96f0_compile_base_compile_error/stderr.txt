@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_dcdb80a3.c: In function ‘main’:
+./samples/SAFE/__tmp_dcdb80a3.c:165:16: error: expected ‘;’ at end of input
+  165 |     init_parser
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_dcdb80a3.c:165:5: error: expected declaration or statement at end of input
+  165 |     init_parser
+      |     ^~~~~~~~~~~

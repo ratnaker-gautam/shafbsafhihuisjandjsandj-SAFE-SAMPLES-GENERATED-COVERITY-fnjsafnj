@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_11f0fd7a.c: In function ‘main’:
+./samples/SAFE/__tmp_11f0fd7a.c:151:10: error: ‘is’ undeclared (first use in this function)
+  151 |     if (!is
+      |          ^~
+./samples/SAFE/__tmp_11f0fd7a.c:151:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_11f0fd7a.c:151:12: error: expected ‘)’ at end of input
+  151 |     if (!is
+      |        ~   ^
+      |            )
+./samples/SAFE/__tmp_11f0fd7a.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (!is
+      |     ^~

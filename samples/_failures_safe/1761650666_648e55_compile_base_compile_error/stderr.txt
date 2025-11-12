@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_0e9c08cb.c: In function ‘process_token’:
+./samples/SAFE/__tmp_0e9c08cb.c:168:13: error: expected declaration or statement at end of input
+  168 |             break;
+      |             ^~~~~
+./samples/SAFE/__tmp_0e9c08cb.c:168:13: error: expected declaration or statement at end of input

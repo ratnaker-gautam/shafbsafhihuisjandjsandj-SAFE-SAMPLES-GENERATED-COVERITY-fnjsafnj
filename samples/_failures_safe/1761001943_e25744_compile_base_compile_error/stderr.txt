@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d9eb037f.c: In function ‘main’:
+./samples/SAFE/__tmp_d9eb037f.c:155:5: error: expected declaration or statement at end of input
+  155 |     printf("Matrix 1 dimensions:\n");
+      |     ^~~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ccd05df1.c: In function ‘main’:
+./samples/SAFE/__tmp_ccd05df1.c:152:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  152 |         State new
+      |         ^~~~~
+./samples/SAFE/__tmp_ccd05df1.c:152:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ccd05df1.c:152:9: error: expected declaration or statement at end of input

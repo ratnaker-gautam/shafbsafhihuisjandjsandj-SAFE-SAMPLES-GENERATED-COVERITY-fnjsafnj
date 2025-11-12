@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_2cbf9613.c: In function ‘main’:
+./samples/SAFE/__tmp_2cbf9613.c:150:25: error: expected ‘)’ at end of input
+  150 |                closest_i
+      |                         ^
+      |                         )
+./samples/SAFE/__tmp_2cbf9613.c:149:15: note: to match this ‘(’
+  149 |         printf("\nClosest pair: Point %zu (%.2f, %.2f) and Point %zu (%.2f, %.2f)\n",
+      |               ^
+./samples/SAFE/__tmp_2cbf9613.c:150:16: error: expected declaration or statement at end of input
+  150 |                closest_i
+      |                ^~~~~~~~~
+./samples/SAFE/__tmp_2cbf9613.c:150:16: error: expected declaration or statement at end of input

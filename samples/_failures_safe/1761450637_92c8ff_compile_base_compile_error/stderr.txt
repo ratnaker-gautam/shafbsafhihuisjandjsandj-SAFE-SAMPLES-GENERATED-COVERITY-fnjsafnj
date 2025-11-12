@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_1b22ecb0.c: In function ‘main’:
+./samples/SAFE/__tmp_1b22ecb0.c:153:24: error: missing terminating " character
+  153 |                 printf("No transition for input '%c
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1b22ecb0.c:153:17: error: expected expression at end of input
+  153 |                 printf("No transition for input '%c
+      |                 ^~~~~~
+./samples/SAFE/__tmp_1b22ecb0.c:153:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1b22ecb0.c:153:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1b22ecb0.c:153:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1b22ecb0.c:153:17: error: expected declaration or statement at end of input

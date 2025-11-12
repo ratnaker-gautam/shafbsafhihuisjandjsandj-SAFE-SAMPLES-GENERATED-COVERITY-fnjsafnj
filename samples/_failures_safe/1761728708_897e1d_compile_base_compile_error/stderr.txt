@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0d8f1320.c: In function ‘main’:
+./samples/SAFE/__tmp_0d8f1320.c:123:5: error: expected declaration or statement at end of input
+  123 |     printf("3. Show all ERROR entries\n");
+      |     ^~~~~~

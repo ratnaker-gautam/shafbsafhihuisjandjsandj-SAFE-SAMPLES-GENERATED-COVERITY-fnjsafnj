@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_48b46c23.c: In function ‘main’:
+./samples/SAFE/__tmp_48b46c23.c:160:20: error: missing terminating " character
+  160 |             printf("Matrix to transpose:\n
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_48b46c23.c:160:13: error: expected expression at end of input
+  160 |             printf("Matrix to transpose:\n
+      |             ^~~~~~
+./samples/SAFE/__tmp_48b46c23.c:160:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_48b46c23.c:160:13: error: expected declaration or statement at end of input

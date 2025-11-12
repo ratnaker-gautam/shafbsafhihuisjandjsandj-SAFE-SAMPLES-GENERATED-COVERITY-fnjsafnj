@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f3fd019d.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_f3fd019d.c:180:40: error: expected ‘;’ at end of input
+  180 |     for (int i = 0; i < graph->vertices
+      |                                        ^
+      |                                        ;
+./samples/SAFE/__tmp_f3fd019d.c:180:5: error: expected declaration or statement at end of input
+  180 |     for (int i = 0; i < graph->vertices
+      |     ^~~

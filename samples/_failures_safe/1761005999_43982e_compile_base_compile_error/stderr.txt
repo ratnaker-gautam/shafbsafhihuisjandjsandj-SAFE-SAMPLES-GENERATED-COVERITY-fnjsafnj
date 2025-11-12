@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_82b44117.c: In function ‘main’:
+./samples/SAFE/__tmp_82b44117.c:174:5: error: expected expression at end of input
+  174 |     if (token_count ==
+      |     ^~
+./samples/SAFE/__tmp_82b44117.c:174:5: error: expected declaration or statement at end of input

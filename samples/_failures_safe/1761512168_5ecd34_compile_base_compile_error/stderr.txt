@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_188050ee.c: In function ‘main’:
+./samples/SAFE/__tmp_188050ee.c:144: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_188050ee.c:143:16: note: to match this ‘(’
+  143 |         fprintf(stderr
+      |                ^
+./samples/SAFE/__tmp_188050ee.c:143:9: error: too few arguments to function ‘fprintf’
+  143 |         fprintf(stderr
+      |         ^~~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from ./samples/SAFE/__tmp_188050ee.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:77:1: note: declared here
+   77 | fprintf (FILE *__restrict __stream, const char *__restrict __fmt, ...)
+      | ^~~~~~~
+./samples/SAFE/__tmp_188050ee.c:143:9: error: expected declaration or statement at end of input
+  143 |         fprintf(stderr
+      |         ^~~~~~~
+./samples/SAFE/__tmp_188050ee.c:143:9: error: expected declaration or statement at end of input

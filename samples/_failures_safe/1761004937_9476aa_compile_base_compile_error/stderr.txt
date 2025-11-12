@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_b198e4f7.c: In function ‘main’:
+./samples/SAFE/__tmp_b198e4f7.c:149:37: error: ‘Graph’ has no member named ‘ed’
+  149 |         if (g.edges[i].from < 0 || g.ed
+      |                                     ^
+./samples/SAFE/__tmp_b198e4f7.c:149:40: error: expected ‘)’ at end of input
+  149 |         if (g.edges[i].from < 0 || g.ed
+      |            ~                           ^
+      |                                        )
+./samples/SAFE/__tmp_b198e4f7.c:149:9: error: expected declaration or statement at end of input
+  149 |         if (g.edges[i].from < 0 || g.ed
+      |         ^~
+./samples/SAFE/__tmp_b198e4f7.c:149:9: error: expected declaration or statement at end of input

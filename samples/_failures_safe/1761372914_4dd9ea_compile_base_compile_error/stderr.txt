@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_d88d6450.c: In function ‘main’:
+./samples/SAFE/__tmp_d88d6450.c:167:39: error: expected ‘)’ at end of input
+  167 |     if (decompress_rle(compressed.data
+      |                       ~               ^
+      |                                       )
+./samples/SAFE/__tmp_d88d6450.c:167:9: error: too few arguments to function ‘decompress_rle’
+  167 |     if (decompress_rle(compressed.data
+      |         ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_d88d6450.c:95:5: note: declared here
+   95 | int decompress_rle(const unsigned char *input, size_t input_size, Buffer *output) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_d88d6450.c:167:5: error: expected declaration or statement at end of input
+  167 |     if (decompress_rle(compressed.data
+      |     ^~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_4757a011.c: In function ‘main’:
+./samples/SAFE/__tmp_4757a011.c:146:5: error: ‘kruskal_m’ undeclared (first use in this function); did you mean ‘kruskal_mst’?
+  146 |     kruskal_m
+      |     ^~~~~~~~~
+      |     kruskal_mst
+./samples/SAFE/__tmp_4757a011.c:146:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4757a011.c:146:14: error: expected ‘;’ at end of input
+  146 |     kruskal_m
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_4757a011.c:146:5: error: expected declaration or statement at end of input
+  146 |     kruskal_m
+      |     ^~~~~~~~~

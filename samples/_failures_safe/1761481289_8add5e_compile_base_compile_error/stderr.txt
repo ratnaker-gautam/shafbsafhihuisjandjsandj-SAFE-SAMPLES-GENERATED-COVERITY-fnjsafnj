@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_9fa9facf.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_9fa9facf.c:185: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_9fa9facf.c:184:23: note: to match this ‘{’
+  184 |     Token eof_token = {TOKEN_EOF
+      |                       ^
+./samples/SAFE/__tmp_9fa9facf.c:184:5: error: expected declaration or statement at end of input
+  184 |     Token eof_token = {TOKEN_EOF
+      |     ^~~~~

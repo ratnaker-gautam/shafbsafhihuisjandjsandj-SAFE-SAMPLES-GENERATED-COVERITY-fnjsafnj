@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_39705125.c: In function ‘main’:
+./samples/SAFE/__tmp_39705125.c:137:5: error: expected declaration or statement at end of input
+  137 |     size_t compressed_size = compress_data(&params, input_buffer, input_len, output_buffer, sizeof(output_buffer));
+      |     ^~~~~~

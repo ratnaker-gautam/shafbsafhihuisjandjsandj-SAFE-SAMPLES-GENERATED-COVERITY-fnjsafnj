@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_764b1696.c: In function ‘main’:
+./samples/SAFE/__tmp_764b1696.c:158:21: error: expected ‘;’ at end of input
+  158 |     sm.current_state
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_764b1696.c:158:5: error: expected declaration or statement at end of input
+  158 |     sm.current_state
+      |     ^~

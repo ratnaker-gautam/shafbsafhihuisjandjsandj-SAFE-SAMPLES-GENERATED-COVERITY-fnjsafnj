@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_cfcc2b71.c: In function ‘main’:
+./samples/SAFE/__tmp_cfcc2b71.c:149:25: error: expected expression at end of input
+  149 |                         if (!safe_multiply(matrix1[i][k], matrix2[k][
+      |                         ^~
+./samples/SAFE/__tmp_cfcc2b71.c:149:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cfcc2b71.c:149:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cfcc2b71.c:149:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cfcc2b71.c:149:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cfcc2b71.c:149:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cfcc2b71.c:149:25: error: expected declaration or statement at end of input

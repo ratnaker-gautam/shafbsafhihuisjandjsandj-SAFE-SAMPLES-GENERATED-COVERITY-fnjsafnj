@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5784bd43.c: In function ‘main’:
+./samples/SAFE/__tmp_5784bd43.c:149:84: error: expected ‘)’ at end of input
+  149 |         compression_ratio = 100.0 * (double)(data_size - compressed_size) / (double
+      |                                                                             ~      ^
+      |                                                                                    )
+./samples/SAFE/__tmp_5784bd43.c:149:9: error: expected declaration or statement at end of input
+  149 |         compression_ratio = 100.0 * (double)(data_size - compressed_size) / (double
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5784bd43.c:149:9: error: expected declaration or statement at end of input

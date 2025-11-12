@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_388bc312.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_388bc312.c:150: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_388bc312.c:149:5: error: expected declaration or statement at end of input
+  149 |     if
+      |     ^~

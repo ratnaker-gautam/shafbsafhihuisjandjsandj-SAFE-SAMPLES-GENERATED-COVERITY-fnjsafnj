@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_7bdfabc7.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_7bdfabc7.c:156:19: error: ‘TO’ undeclared (first use in this function)
+  156 |         if (op == TO
+      |                   ^~
+./samples/SAFE/__tmp_7bdfabc7.c:156:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7bdfabc7.c:156:21: error: expected ‘)’ at end of input
+  156 |         if (op == TO
+      |            ~        ^
+      |                     )
+./samples/SAFE/__tmp_7bdfabc7.c:156:9: error: expected declaration or statement at end of input
+  156 |         if (op == TO
+      |         ^~
+./samples/SAFE/__tmp_7bdfabc7.c:156:9: error: expected declaration or statement at end of input

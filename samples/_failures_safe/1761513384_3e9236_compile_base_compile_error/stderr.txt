@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_2bcd69e9.c: In function ‘read_matrix’:
+./samples/SAFE/__tmp_2bcd69e9.c:111:13: error: expected expression at end of input
+  111 |             snprintf(prompt, sizeof(prompt), "Element [%d][%d]: ", i,
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_2bcd69e9.c:111:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2bcd69e9.c:111:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2bcd69e9.c:111:13: error: expected declaration or statement at end of input

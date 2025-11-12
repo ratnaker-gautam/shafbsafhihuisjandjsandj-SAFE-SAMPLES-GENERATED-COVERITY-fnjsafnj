@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_82bb363e.c: In function ‘lex’:
+./samples/SAFE/__tmp_82bb363e.c:166:44: error: expected ‘)’ at end of input
+  166 |                     (current == '<' && next
+      |                     ~                      ^
+      |                                            )
+./samples/SAFE/__tmp_82bb363e.c:166:21: error: expected declaration or statement at end of input
+  166 |                     (current == '<' && next
+      |                     ^
+./samples/SAFE/__tmp_82bb363e.c:166:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_82bb363e.c:166:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_82bb363e.c:166:21: error: expected declaration or statement at end of input

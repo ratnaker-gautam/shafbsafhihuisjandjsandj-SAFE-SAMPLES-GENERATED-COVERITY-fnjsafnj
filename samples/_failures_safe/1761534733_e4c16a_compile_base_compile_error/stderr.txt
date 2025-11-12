@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_242bb7b4.c: In function ‘main’:
+./samples/SAFE/__tmp_242bb7b4.c:151:5: error: expected expression at end of input
+  151 |     if (handle_event(&sm, &
+      |     ^~
+./samples/SAFE/__tmp_242bb7b4.c:151:9: error: too few arguments to function ‘handle_event’
+  151 |     if (handle_event(&sm, &
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_242bb7b4.c:84:5: note: declared here
+   84 | int handle_event(struct StateMachine *sm, const struct TransitionTable *tt, enum Event event) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_242bb7b4.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (handle_event(&sm, &
+      |     ^~

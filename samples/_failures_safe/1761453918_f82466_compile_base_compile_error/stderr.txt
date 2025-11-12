@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_94dbff7e.c: In function ‘compress_data’:
+./samples/SAFE/__tmp_94dbff7e.c:151:13: error: expected expression at end of input
+  151 |             return compress_lzw(input,
+      |             ^~~~~~
+./samples/SAFE/__tmp_94dbff7e.c:151:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_94dbff7e.c:151:13: error: expected declaration or statement at end of input

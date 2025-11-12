@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f18069b6.c: In function ‘main’:
+./samples/SAFE/__tmp_f18069b6.c:146:5: error: ‘uint’ undeclared (first use in this function); did you mean ‘int’?
+  146 |     uint
+      |     ^~~~
+      |     int
+./samples/SAFE/__tmp_f18069b6.c:146:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f18069b6.c:146:9: error: expected ‘;’ at end of input
+  146 |     uint
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_f18069b6.c:146:5: error: expected declaration or statement at end of input
+  146 |     uint
+      |     ^~~~

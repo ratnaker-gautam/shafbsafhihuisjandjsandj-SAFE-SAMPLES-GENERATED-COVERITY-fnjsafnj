@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccx8UieJ.o: in function `main':
+__tmp_48e30a4b.c:(.text.startup+0x93): undefined reference to `sin'
+/usr/bin/ld: __tmp_48e30a4b.c:(.text.startup+0xb4): undefined reference to `cos'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_61afde62.c: In function ‘simulate_data_input’:
+./samples/SAFE/__tmp_61afde62.c:145:13: error: expected declaration or statement at end of input
+  145 |             sm->buffer[sizeof(sm->buffer) - 1] = '\0';
+      |             ^~
+./samples/SAFE/__tmp_61afde62.c:145:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_61afde62.c:145:13: error: expected declaration or statement at end of input

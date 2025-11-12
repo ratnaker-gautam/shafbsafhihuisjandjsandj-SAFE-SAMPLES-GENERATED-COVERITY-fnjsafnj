@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_e16a4de9.c: In function ‘main’:
+./samples/SAFE/__tmp_e16a4de9.c:151:5: error: cannot convert to a pointer type
+  151 |     printf("Original data: %s\n", (char*)ctx
+      |     ^~~~~~
+./samples/SAFE/__tmp_e16a4de9.c:151:45: error: expected ‘)’ at end of input
+  151 |     printf("Original data: %s\n", (char*)ctx
+      |           ~                                 ^
+      |                                             )
+./samples/SAFE/__tmp_e16a4de9.c:151:5: error: expected declaration or statement at end of input
+  151 |     printf("Original data: %s\n", (char*)ctx
+      |     ^~~~~~

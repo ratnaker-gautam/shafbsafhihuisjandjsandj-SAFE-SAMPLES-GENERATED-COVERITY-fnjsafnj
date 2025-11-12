@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_24feeafe.c: In function ‘print_shortest_path’:
+./samples/SAFE/__tmp_24feeafe.c:156:18: error: expected ‘]’ at end of input
+  156 |         path[path
+      |                  ^
+      |                  ]
+./samples/SAFE/__tmp_24feeafe.c:156:13: error: array subscript is not an integer
+  156 |         path[path
+      |             ^
+./samples/SAFE/__tmp_24feeafe.c:156:9: error: expected declaration or statement at end of input
+  156 |         path[path
+      |         ^~~~
+./samples/SAFE/__tmp_24feeafe.c:156:9: error: expected declaration or statement at end of input

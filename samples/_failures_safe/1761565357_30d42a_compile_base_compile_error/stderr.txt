@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_05387e16.c: In function ‘main’:
+./samples/SAFE/__tmp_05387e16.c:153:49: error: ‘s’ undeclared (first use in this function); did you mean ‘sm’?
+  153 |     printf("Final state: %s\n", state_to_string(s
+      |                                                 ^
+      |                                                 sm
+./samples/SAFE/__tmp_05387e16.c:153:49: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_05387e16.c:153:50: error: expected ‘)’ at end of input
+  153 |     printf("Final state: %s\n", state_to_string(s
+      |                                                ~ ^
+      |                                                  )
+./samples/SAFE/__tmp_05387e16.c:153:5: error: expected declaration or statement at end of input
+  153 |     printf("Final state: %s\n", state_to_string(s
+      |     ^~~~~~

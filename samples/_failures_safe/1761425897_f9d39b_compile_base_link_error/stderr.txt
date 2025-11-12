@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccD8uTJc.o: in function `safe_pow':
+__tmp_1562f5a6.c:(.text+0x92): undefined reference to `fmod'
+/usr/bin/ld: __tmp_1562f5a6.c:(.text+0x2d): undefined reference to `pow'
+/usr/bin/ld: __tmp_1562f5a6.c:(.text+0x7c): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

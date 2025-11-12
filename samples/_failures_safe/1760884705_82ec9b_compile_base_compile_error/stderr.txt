@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_55ea293d.c: In function ‘main’:
+./samples/SAFE/__tmp_55ea293d.c:180:9: error: expected declaration or statement at end of input
+  180 |         current_state = handle_event(current_state, event, &ctx);
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_55ea293d.c:180:9: error: expected declaration or statement at end of input

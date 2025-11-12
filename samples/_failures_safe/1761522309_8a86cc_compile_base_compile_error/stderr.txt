@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_93714522.c: In function ‘main’:
+./samples/SAFE/__tmp_93714522.c:138:5: error: expected expression at end of input
+  138 |     if (!compressor_process(&
+      |     ^~
+./samples/SAFE/__tmp_93714522.c:138:10: error: too few arguments to function ‘compressor_process’
+  138 |     if (!compressor_process(&
+      |          ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_93714522.c:98:5: note: declared here
+   98 | int compressor_process(Compressor *comp, const uint8_t *input, size_t input_size) {
+      |     ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_93714522.c:138:5: error: expected declaration or statement at end of input
+  138 |     if (!compressor_process(&
+      |     ^~

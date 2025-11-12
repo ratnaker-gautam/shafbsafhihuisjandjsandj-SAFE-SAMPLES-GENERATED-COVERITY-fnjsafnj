@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_282336e9.c: In function ‘matrix_read’:
+./samples/SAFE/__tmp_282336e9.c:132:13: error: expected declaration or statement at end of input
+  132 |             mat->data[i][j] = val;
+      |             ^~~
+./samples/SAFE/__tmp_282336e9.c:132:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_282336e9.c:132:13: error: expected declaration or statement at end of input

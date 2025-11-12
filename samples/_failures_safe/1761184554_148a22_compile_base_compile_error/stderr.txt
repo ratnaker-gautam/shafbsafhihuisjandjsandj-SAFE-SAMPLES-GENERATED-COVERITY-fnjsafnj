@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b690f933.c:151:62: error: unknown type name ‘size’; did you mean ‘size_t’?
+  151 | int tokenize(struct LexerState *lexer, struct Token *tokens, size
+      |                                                              ^~~~
+      |                                                              size_t

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_90d08314.c: In function ‘parser_expect_operator’:
+./samples/SAFE/__tmp_90d08314.c:146:36: error: expected declaration or statement at end of input
+  146 | void parser_expect_operator(struct Parser *parser, const char *op) {
+      |                                    ^~~~~~

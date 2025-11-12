@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1dd33ddf.c: In function ‘main’:
+./samples/SAFE/__tmp_1dd33ddf.c:144:5: error: expected declaration or statement at end of input
+  144 |     tokenize(input, tokens, &token_count);
+      |     ^~~~~~~~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d37a2373.c: In function ‘main’:
+./samples/SAFE/__tmp_d37a2373.c:158:5: error: expected declaration or statement at end of input
+  158 |     printf("Compressed size: %zu bytes\n", compressed_size);
+      |     ^~~~~~

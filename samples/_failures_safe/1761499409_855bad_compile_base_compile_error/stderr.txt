@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_ac439d8b.c: In function ‘parse_input’:
+./samples/SAFE/__tmp_ac439d8b.c:169:23: error: expected ‘;’ at end of input
+  169 |                 printf
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_ac439d8b.c:169:17: error: expected declaration or statement at end of input
+  169 |                 printf
+      |                 ^~~~~~
+./samples/SAFE/__tmp_ac439d8b.c:169:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ac439d8b.c:169:17: error: expected declaration or statement at end of input

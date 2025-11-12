@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_c518731c.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_c518731c.c:154:57: error: ‘to’ undeclared (first use in this function)
+  154 |                     if (new_dist > 0 && new_dist < dist[to
+      |                                                         ^~
+./samples/SAFE/__tmp_c518731c.c:154:57: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c518731c.c:154:59: error: expected ‘]’ at end of input
+  154 |                     if (new_dist > 0 && new_dist < dist[to
+      |                                                           ^
+      |                                                           ]
+./samples/SAFE/__tmp_c518731c.c:154:21: error: expected declaration or statement at end of input
+  154 |                     if (new_dist > 0 && new_dist < dist[to
+      |                     ^~
+./samples/SAFE/__tmp_c518731c.c:154:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c518731c.c:154:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c518731c.c:154:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c518731c.c:154:21: error: expected declaration or statement at end of input

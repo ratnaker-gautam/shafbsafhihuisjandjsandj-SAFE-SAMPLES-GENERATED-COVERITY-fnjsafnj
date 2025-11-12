@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_8abdf3f8.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_8abdf3f8.c:148:12: error: expected ‘;’ at end of input
+  148 |         src
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_8abdf3f8.c:148:9: error: expected declaration or statement at end of input
+  148 |         src
+      |         ^~~
+./samples/SAFE/__tmp_8abdf3f8.c:148:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b2834a98.c: In function ‘main’:
+./samples/SAFE/__tmp_b2834a98.c:187:9: error: expected expression at end of input
+  187 |         } else if (strcmp(input, "reset") == 0)
+      |         ^
+./samples/SAFE/__tmp_b2834a98.c:187:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b2834a98.c:187:9: error: expected declaration or statement at end of input

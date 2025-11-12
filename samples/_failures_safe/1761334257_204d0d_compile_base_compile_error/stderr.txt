@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_c3e5aea0.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_c3e5aea0.c:152:29: error: incompatible types when assigning to type ‘struct Token’ from type ‘struct Lexer *’
+  152 |     parser->current_token = lexer
+      |                             ^~~~~
+./samples/SAFE/__tmp_c3e5aea0.c:152:34: error: expected ‘;’ at end of input
+  152 |     parser->current_token = lexer
+      |                                  ^
+      |                                  ;
+./samples/SAFE/__tmp_c3e5aea0.c:152:5: error: expected declaration or statement at end of input
+  152 |     parser->current_token = lexer
+      |     ^~~~~~

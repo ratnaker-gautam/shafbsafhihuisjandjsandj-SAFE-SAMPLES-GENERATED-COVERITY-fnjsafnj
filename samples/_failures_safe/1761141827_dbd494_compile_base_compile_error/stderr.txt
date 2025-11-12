@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1ffdc15c.c: In function ‘main’:
+./samples/SAFE/__tmp_1ffdc15c.c:147:5: error: expected declaration or statement at end of input
+  147 |     uint8_t test_data3[] = "Final test data block to complete the compression example.";
+      |     ^~~~~~~

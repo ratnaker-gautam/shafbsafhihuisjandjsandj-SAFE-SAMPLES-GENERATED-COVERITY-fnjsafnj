@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_ae517b2e.c: In function ‘main’:
+./samples/SAFE/__tmp_ae517b2e.c:193:55: error: expected ‘)’ at end of input
+  193 |         if (current_state < 0 || current_state >= (int
+      |                                                   ~   ^
+      |                                                       )
+./samples/SAFE/__tmp_ae517b2e.c:193:9: error: expected declaration or statement at end of input
+  193 |         if (current_state < 0 || current_state >= (int
+      |         ^~
+./samples/SAFE/__tmp_ae517b2e.c:193:9: error: expected declaration or statement at end of input

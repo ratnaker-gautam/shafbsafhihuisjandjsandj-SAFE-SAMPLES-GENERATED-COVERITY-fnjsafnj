@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b93550ed.c: In function ‘process_event’:
+./samples/SAFE/__tmp_b93550ed.c:176:30: error: expected ‘;’ at end of input
+  176 |             sm->current_state
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_b93550ed.c:176:13: error: expected declaration or statement at end of input
+  176 |             sm->current_state
+      |             ^~
+./samples/SAFE/__tmp_b93550ed.c:176:13: error: expected declaration or statement at end of input

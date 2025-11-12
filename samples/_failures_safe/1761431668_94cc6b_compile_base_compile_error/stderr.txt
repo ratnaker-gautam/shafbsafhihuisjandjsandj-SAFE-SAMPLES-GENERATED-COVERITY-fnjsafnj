@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_13d589c6.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_13d589c6.c:163:58: error: expected ‘)’ at end of input
+  163 |     while (input[pos] != '\0' && token_count < max_tokens
+      |           ~                                              ^
+      |                                                          )
+./samples/SAFE/__tmp_13d589c6.c:163:5: error: expected declaration or statement at end of input
+  163 |     while (input[pos] != '\0' && token_count < max_tokens
+      |     ^~~~~

@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccGRSeu6.o: in function `compute_statistics':
+__tmp_1a593510.c:(.text+0x137): undefined reference to `sqrt'
+/usr/bin/ld: /tmp/ccGRSeu6.o: in function `main':
+__tmp_1a593510.c:(.text.startup+0x1f6): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

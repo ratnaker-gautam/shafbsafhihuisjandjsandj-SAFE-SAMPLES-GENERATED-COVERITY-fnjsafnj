@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a50ba249.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_a50ba249.c:149:9: error: expected expression at end of input
+  149 |         for (int i = 0; i < g->edge_count; i++)
+      |         ^~~
+./samples/SAFE/__tmp_a50ba249.c:149:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a50ba249.c:149:9: error: expected declaration or statement at end of input

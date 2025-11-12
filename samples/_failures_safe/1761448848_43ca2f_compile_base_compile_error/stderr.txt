@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_a20c7b97.c: In function ‘main’:
+./samples/SAFE/__tmp_a20c7b97.c:163:18: error: ‘TOKEN_ID’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  163 |             case TOKEN_ID
+      |                  ^~~~~~~~
+      |                  TOKEN_EOF
+./samples/SAFE/__tmp_a20c7b97.c:163:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a20c7b97.c:163:13: error: expected ‘:’ or ‘...’ at end of input
+  163 |             case TOKEN_ID
+      |             ^~~~
+./samples/SAFE/__tmp_a20c7b97.c:163:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a20c7b97.c:163:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a20c7b97.c:163:13: error: expected declaration or statement at end of input

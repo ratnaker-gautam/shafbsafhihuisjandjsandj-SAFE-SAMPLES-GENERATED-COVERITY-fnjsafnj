@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_46cb32ec.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_46cb32ec.c:162:19: error: expected ‘)’ at end of input
+  162 |     if (start_node
+      |        ~          ^
+      |                   )
+./samples/SAFE/__tmp_46cb32ec.c:162:5: error: expected declaration or statement at end of input
+  162 |     if (start_node
+      |     ^~

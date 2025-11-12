@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_d1e7ad27.c: In function ‘main’:
+./samples/SAFE/__tmp_d1e7ad27.c:162:43: error: expected ‘)’ at end of input
+  162 |             print_compression_info(&result
+      |                                   ~       ^
+      |                                           )
+./samples/SAFE/__tmp_d1e7ad27.c:162:13: error: expected declaration or statement at end of input
+  162 |             print_compression_info(&result
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_d1e7ad27.c:162:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d1e7ad27.c:162:13: error: expected declaration or statement at end of input

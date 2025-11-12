@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_417696d5.c: In function ‘main’:
+./samples/SAFE/__tmp_417696d5.c:196:25: error: expected ‘)’ at end of input
+  196 |     if (token_count == 0
+      |        ~                ^
+      |                         )
+./samples/SAFE/__tmp_417696d5.c:196:5: error: expected declaration or statement at end of input
+  196 |     if (token_count == 0
+      |     ^~

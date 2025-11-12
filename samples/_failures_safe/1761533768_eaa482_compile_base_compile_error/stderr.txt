@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c99e497e.c: In function ‘main’:
+./samples/SAFE/__tmp_c99e497e.c:145: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_c99e497e.c:144:9: note: to match this ‘{’
+  144 |         {EVENT_RESET, 0
+      |         ^
+./samples/SAFE/__tmp_c99e497e.c:144:9: error: expected declaration or statement at end of input

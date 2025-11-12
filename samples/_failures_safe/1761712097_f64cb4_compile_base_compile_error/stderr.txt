@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3159c7de.c: In function ‘main’:
+./samples/SAFE/__tmp_3159c7de.c:179:25: error: missing terminating " character
+  179 |         fprintf(stderr, "Warning: Input too large
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_3159c7de.c:179:9: error: expected expression at end of input
+  179 |         fprintf(stderr, "Warning: Input too large
+      |         ^~~~~~~
+./samples/SAFE/__tmp_3159c7de.c:179:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3159c7de.c:179:9: error: expected declaration or statement at end of input

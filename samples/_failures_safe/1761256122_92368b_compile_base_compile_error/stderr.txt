@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_4c9f661c.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_4c9f661c.c:157:13: error: expected expression at end of input
+  157 |             token.line =
+      |             ^~~~~
+./samples/SAFE/__tmp_4c9f661c.c:157:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4c9f661c.c:157:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4c9f661c.c:157:13: error: expected declaration or statement at end of input

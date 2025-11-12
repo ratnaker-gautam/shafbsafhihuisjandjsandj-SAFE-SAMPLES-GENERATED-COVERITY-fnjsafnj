@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_4d84c426.c: In function ‘parse_string’:
+./samples/SAFE/__tmp_4d84c426.c:170:9: error: expected identifier at end of input
+  170 |         tokenizer->
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_4d84c426.c:170:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4d84c426.c:170:9: error: expected declaration or statement at end of input

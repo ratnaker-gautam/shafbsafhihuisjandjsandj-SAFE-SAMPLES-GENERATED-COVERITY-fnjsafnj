@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_05b68e52.c: In function ‘parser_expression’:
+./samples/SAFE/__tmp_05b68e52.c:175:13: error: expected expression at end of input
+  175 |             if (result < INT_MIN + right)
+      |             ^~
+./samples/SAFE/__tmp_05b68e52.c:175:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_05b68e52.c:175:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_05b68e52.c:175:13: error: expected declaration or statement at end of input

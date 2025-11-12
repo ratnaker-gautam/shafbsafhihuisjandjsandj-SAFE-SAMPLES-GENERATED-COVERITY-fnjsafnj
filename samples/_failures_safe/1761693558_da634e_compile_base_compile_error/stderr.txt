@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5fd54ede.c: In function ‘main’:
+./samples/SAFE/__tmp_5fd54ede.c:136:113: error: expected ‘)’ at end of input
+  136 |     size_t compressed_size = compress_data(&params, input_buffer, input_len, output_buffer, sizeof(output_buffer
+      |                                                                                                   ~             ^
+      |                                                                                                                 )
+./samples/SAFE/__tmp_5fd54ede.c:136:5: error: expected declaration or statement at end of input
+  136 |     size_t compressed_size = compress_data(&params, input_buffer, input_len, output_buffer, sizeof(output_buffer
+      |     ^~~~~~

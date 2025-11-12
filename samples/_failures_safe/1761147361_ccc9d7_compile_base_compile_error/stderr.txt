@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_da8c3b42.c: In function ‘main’:
+./samples/SAFE/__tmp_da8c3b42.c:204:18: error: ‘MAX’ undeclared (first use in this function)
+  204 |     Token tokens[MAX
+      |                  ^~~
+./samples/SAFE/__tmp_da8c3b42.c:204:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_da8c3b42.c:204:21: error: expected ‘]’ at end of input
+  204 |     Token tokens[MAX
+      |                     ^
+      |                     ]
+./samples/SAFE/__tmp_da8c3b42.c:204:5: error: expected declaration or statement at end of input
+  204 |     Token tokens[MAX
+      |     ^~~~~

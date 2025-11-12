@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_75c8fbe2.c: In function ‘main’:
+./samples/SAFE/__tmp_75c8fbe2.c:160:5: error: expected expression at end of input
+  160 |     if (compressed.size > 0 && input.size > 0)
+      |     ^~
+./samples/SAFE/__tmp_75c8fbe2.c:160:5: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_75c8fbe2.c:155:9: error: label ‘cleanup’ used but not defined
+  155 |         goto cleanup;
+      |         ^~~~

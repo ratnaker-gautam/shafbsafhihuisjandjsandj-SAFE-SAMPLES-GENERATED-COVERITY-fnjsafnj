@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_b244a3a7.c: In function ‘main’:
+./samples/SAFE/__tmp_b244a3a7.c:141:10: error: ‘read_matrix’ undeclared (first use in this function); did you mean ‘create_matrix’?
+  141 |     if (!read_matrix
+      |          ^~~~~~~~~~~
+      |          create_matrix
+./samples/SAFE/__tmp_b244a3a7.c:141:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b244a3a7.c:141:21: error: expected ‘)’ at end of input
+  141 |     if (!read_matrix
+      |        ~            ^
+      |                     )
+./samples/SAFE/__tmp_b244a3a7.c:141:5: error: expected declaration or statement at end of input
+  141 |     if (!read_matrix
+      |     ^~

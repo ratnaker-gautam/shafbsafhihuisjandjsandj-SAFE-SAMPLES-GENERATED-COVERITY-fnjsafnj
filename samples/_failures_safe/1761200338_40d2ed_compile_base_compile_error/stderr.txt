@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a8f974a1.c: In function ‘main’:
+./samples/SAFE/__tmp_a8f974a1.c:178:65: error: expected ‘)’ at end of input
+  178 |     if (!compress_run_length(input.data, input.size, &compressed
+      |                             ~                                   ^
+      |                                                                 )
+./samples/SAFE/__tmp_a8f974a1.c:178:5: error: expected declaration or statement at end of input
+  178 |     if (!compress_run_length(input.data, input.size, &compressed
+      |     ^~

@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_88a1717c.c: In function ‘determinant_3x3’:
+./samples/SAFE/__tmp_88a1717c.c:145: error: expected ‘{’ at end of input

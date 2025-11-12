@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_50d36bc1.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_50d36bc1.c:159:23: error: ‘MAX’ undeclared (first use in this function)
+  159 |         if (buf_pos < MAX
+      |                       ^~~
+./samples/SAFE/__tmp_50d36bc1.c:159:23: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_50d36bc1.c:159:26: error: expected ‘)’ at end of input
+  159 |         if (buf_pos < MAX
+      |            ~             ^
+      |                          )
+./samples/SAFE/__tmp_50d36bc1.c:159:9: error: expected declaration or statement at end of input
+  159 |         if (buf_pos < MAX
+      |         ^~
+./samples/SAFE/__tmp_50d36bc1.c:159:9: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f1de1f1c.c: In function ‘main’:
+./samples/SAFE/__tmp_f1de1f1c.c:166:5: error: expected declaration or statement at end of input
+  166 |     free_matrix(mat1);
+      |     ^~~~~~~~~~~

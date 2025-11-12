@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4766ff16.c: In function ‘main’:
+./samples/SAFE/__tmp_4766ff16.c:183:5: error: expected declaration or statement at end of input
+  183 |     printf("Total characters processed: %d\n", context.total_chars);
+      |     ^~~~~~

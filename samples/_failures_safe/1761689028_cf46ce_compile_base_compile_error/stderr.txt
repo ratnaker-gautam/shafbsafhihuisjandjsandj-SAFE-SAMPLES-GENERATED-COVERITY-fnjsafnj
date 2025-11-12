@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_932df0ab.c: In function ‘main’:
+./samples/SAFE/__tmp_932df0ab.c:148:52: error: ‘LOG’ undeclared (first use in this function)
+  148 |         if (logs[i].level >= 0 && logs[i].level <= LOG
+      |                                                    ^~~
+./samples/SAFE/__tmp_932df0ab.c:148:52: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_932df0ab.c:148:55: error: expected ‘)’ at end of input
+  148 |         if (logs[i].level >= 0 && logs[i].level <= LOG
+      |            ~                                          ^
+      |                                                       )
+./samples/SAFE/__tmp_932df0ab.c:148:9: error: expected declaration or statement at end of input
+  148 |         if (logs[i].level >= 0 && logs[i].level <= LOG
+      |         ^~
+./samples/SAFE/__tmp_932df0ab.c:148:9: error: expected declaration or statement at end of input

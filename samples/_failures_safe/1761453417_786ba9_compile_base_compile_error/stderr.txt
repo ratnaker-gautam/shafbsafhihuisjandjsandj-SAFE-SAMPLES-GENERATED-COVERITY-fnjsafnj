@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_f86eb797.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_f86eb797.c:123:27: error: expected ‘)’ at end of input
+  123 |                 if (j == p
+      |                    ~      ^
+      |                           )
+./samples/SAFE/__tmp_f86eb797.c:123:17: error: expected declaration or statement at end of input
+  123 |                 if (j == p
+      |                 ^~
+./samples/SAFE/__tmp_f86eb797.c:123:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f86eb797.c:123:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f86eb797.c:123:17: error: expected declaration or statement at end of input

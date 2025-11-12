@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7f492112.c: In function ‘process_event’:
+./samples/SAFE/__tmp_7f492112.c:194:5: error: expected expression at end of input
+  194 |     if (sm ==
+      |     ^~
+./samples/SAFE/__tmp_7f492112.c:194:5: error: expected declaration or statement at end of input

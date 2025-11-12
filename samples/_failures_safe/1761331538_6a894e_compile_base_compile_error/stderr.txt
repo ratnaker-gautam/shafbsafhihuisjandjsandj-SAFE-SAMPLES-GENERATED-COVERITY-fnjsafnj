@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_33dbf120.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_33dbf120.c:154:14: error: ‘MAX_VERT’ undeclared (first use in this function); did you mean ‘MAX_VERTICES’?
+  154 |     int dist[MAX_VERT
+      |              ^~~~~~~~
+      |              MAX_VERTICES
+./samples/SAFE/__tmp_33dbf120.c:154:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_33dbf120.c:154:22: error: expected ‘]’ at end of input
+  154 |     int dist[MAX_VERT
+      |                      ^
+      |                      ]
+./samples/SAFE/__tmp_33dbf120.c:154:5: error: expected declaration or statement at end of input
+  154 |     int dist[MAX_VERT
+      |     ^~~

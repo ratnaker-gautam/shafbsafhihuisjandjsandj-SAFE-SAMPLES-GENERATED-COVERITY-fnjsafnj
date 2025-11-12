@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccuJubO2.o: in function `main':
+__tmp_a0d3c515.c:(.text.startup+0xdd): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

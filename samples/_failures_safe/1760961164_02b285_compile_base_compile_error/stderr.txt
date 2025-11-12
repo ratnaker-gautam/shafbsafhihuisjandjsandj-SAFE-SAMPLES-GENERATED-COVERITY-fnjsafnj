@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bea1932c.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_bea1932c.c:116:17: error: expected expression at end of input
+  116 |                 long product =
+      |                 ^~~~
+./samples/SAFE/__tmp_bea1932c.c:116:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bea1932c.c:116:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bea1932c.c:116:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bea1932c.c:116:17: error: expected declaration or statement at end of input

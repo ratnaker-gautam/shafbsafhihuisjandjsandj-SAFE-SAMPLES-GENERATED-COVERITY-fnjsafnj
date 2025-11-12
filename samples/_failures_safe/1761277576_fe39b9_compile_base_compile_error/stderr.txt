@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_bf1e1e50.c: In function ‘main’:
+./samples/SAFE/__tmp_bf1e1e50.c:165:17: error: expected declaration or statement at end of input
+  165 |                 result = compress_none(test_data, data_size);
+      |                 ^~~~~~
+./samples/SAFE/__tmp_bf1e1e50.c:165:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bf1e1e50.c:165:17: error: expected declaration or statement at end of input

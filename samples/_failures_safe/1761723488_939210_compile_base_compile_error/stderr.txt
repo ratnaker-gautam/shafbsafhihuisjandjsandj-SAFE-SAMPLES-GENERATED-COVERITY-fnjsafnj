@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_411b7474.c: In function ‘main’:
+./samples/SAFE/__tmp_411b7474.c:157:45: error: expected ‘)’ at end of input
+  157 |     mat2.rows = read_int("Rows (1-100): ", 1
+      |                         ~                   ^
+      |                                             )
+./samples/SAFE/__tmp_411b7474.c:157:17: error: too few arguments to function ‘read_int’
+  157 |     mat2.rows = read_int("Rows (1-100): ", 1
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_411b7474.c:16:5: note: declared here
+   16 | int read_int(const char* prompt, int min, int max) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_411b7474.c:157:5: error: expected declaration or statement at end of input
+  157 |     mat2.rows = read_int("Rows (1-100): ", 1
+      |     ^~~~

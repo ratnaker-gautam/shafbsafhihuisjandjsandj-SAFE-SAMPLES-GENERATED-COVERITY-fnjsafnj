@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_a8ce8c2d.c: In function ‘scan_string’:
+./samples/SAFE/__tmp_a8ce8c2d.c:144:13: error: expected declaration or statement at end of input
+  144 |             if (lexer->input[lexer->position] == '\n') {
+      |             ^~
+./samples/SAFE/__tmp_a8ce8c2d.c:144:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8ce8c2d.c:144:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8ce8c2d.c:144:13: error: expected declaration or statement at end of input

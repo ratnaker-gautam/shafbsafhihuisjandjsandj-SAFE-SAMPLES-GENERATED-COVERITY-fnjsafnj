@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_c859c166.c: In function ‘main’:
+./samples/SAFE/__tmp_c859c166.c:158:29: error: expected ‘)’ at end of input
+  158 |         free(compressed.data
+      |             ~               ^
+      |                             )
+./samples/SAFE/__tmp_c859c166.c:158:9: error: expected declaration or statement at end of input
+  158 |         free(compressed.data
+      |         ^~~~
+./samples/SAFE/__tmp_c859c166.c:158:9: error: expected declaration or statement at end of input

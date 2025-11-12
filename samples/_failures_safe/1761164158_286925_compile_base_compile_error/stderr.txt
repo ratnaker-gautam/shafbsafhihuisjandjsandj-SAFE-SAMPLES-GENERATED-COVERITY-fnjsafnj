@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_fda50440.c: In function ‘main’:
+./samples/SAFE/__tmp_fda50440.c:187:58: error: expected ‘;’ at end of input
+  187 |             case TOKEN_NUMBER: type_str = "NUMBER"; break
+      |                                                          ^
+      |                                                          ;
+./samples/SAFE/__tmp_fda50440.c:187:13: error: expected declaration or statement at end of input
+  187 |             case TOKEN_NUMBER: type_str = "NUMBER"; break
+      |             ^~~~
+./samples/SAFE/__tmp_fda50440.c:187:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fda50440.c:187:13: error: expected declaration or statement at end of input

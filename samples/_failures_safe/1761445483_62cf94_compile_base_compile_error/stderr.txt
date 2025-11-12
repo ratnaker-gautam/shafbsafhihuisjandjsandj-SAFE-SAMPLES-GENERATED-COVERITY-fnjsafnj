@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_d20ff020.c: In function ‘main’:
+./samples/SAFE/__tmp_d20ff020.c:146:74: error: expected ‘)’ at end of input
+  146 |                 printf("No entries found for level %s\n", level_to_string
+      |                       ~                                                  ^
+      |                                                                          )
+./samples/SAFE/__tmp_d20ff020.c:146:17: error: expected declaration or statement at end of input
+  146 |                 printf("No entries found for level %s\n", level_to_string
+      |                 ^~~~~~
+./samples/SAFE/__tmp_d20ff020.c:146:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d20ff020.c:146:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d20ff020.c:146:17: error: expected declaration or statement at end of input

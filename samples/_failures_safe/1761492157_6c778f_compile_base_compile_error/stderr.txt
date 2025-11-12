@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/ccToYhXT.o: in function `main':
+__tmp_2e887bca.c:(.text.startup+0x15c): undefined reference to `fmod'
+/usr/bin/ld: __tmp_2e887bca.c:(.text.startup+0x27d): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_2e887bca.c:(.text.startup+0x2cf): undefined reference to `pow'
+/usr/bin/ld: __tmp_2e887bca.c:(.text.startup+0x373): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

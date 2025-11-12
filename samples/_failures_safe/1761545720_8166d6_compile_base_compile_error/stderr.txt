@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_a835b510.c: In function ‘main’:
+./samples/SAFE/__tmp_a835b510.c:124:36: error: expected ‘)’ at end of input
+  124 |     if (!read_matrix(matrix1, rows1
+      |                     ~              ^
+      |                                    )
+./samples/SAFE/__tmp_a835b510.c:124:10: error: too few arguments to function ‘read_matrix’
+  124 |     if (!read_matrix(matrix1, rows1
+      |          ^~~~~~~~~~~
+./samples/SAFE/__tmp_a835b510.c:68:5: note: declared here
+   68 | int read_matrix(int matrix[MAX_ROWS][MAX_COLS], int rows, int cols) {
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_a835b510.c:124:5: error: expected declaration or statement at end of input
+  124 |     if (!read_matrix(matrix1, rows1
+      |     ^~

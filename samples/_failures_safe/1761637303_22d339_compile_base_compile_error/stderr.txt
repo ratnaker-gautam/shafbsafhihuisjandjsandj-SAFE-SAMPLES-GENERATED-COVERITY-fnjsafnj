@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_86fab2f2.c: In function ‘handle_done_state’:
+./samples/SAFE/__tmp_86fab2f2.c:169:5: error: expected declaration or statement at end of input
+  169 |     switch (event) {
+      |     ^~~~~~
+./samples/SAFE/__tmp_86fab2f2.c:169:5: error: expected declaration or statement at end of input

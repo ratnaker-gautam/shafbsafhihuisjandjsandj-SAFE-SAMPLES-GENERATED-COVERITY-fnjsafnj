@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_9deeb40f.c:182:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  182 | void print_tokens
+      | ^~~~

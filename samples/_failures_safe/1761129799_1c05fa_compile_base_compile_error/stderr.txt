@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_a5e932b9.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_a5e932b9.c:175:22: error: ‘TO’ undeclared (first use in this function)
+  175 |     add_token(lexer, TO
+      |                      ^~
+./samples/SAFE/__tmp_a5e932b9.c:175:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a5e932b9.c:175:24: error: expected ‘)’ at end of input
+  175 |     add_token(lexer, TO
+      |              ~         ^
+      |                        )
+./samples/SAFE/__tmp_a5e932b9.c:175:5: error: too few arguments to function ‘add_token’
+  175 |     add_token(lexer, TO
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_a5e932b9.c:46:6: note: declared here
+   46 | void add_token(Lexer* lexer, TokenType type, const char* value) {
+      |      ^~~~~~~~~
+./samples/SAFE/__tmp_a5e932b9.c:175:5: error: expected declaration or statement at end of input
+  175 |     add_token(lexer, TO
+      |     ^~~~~~~~~

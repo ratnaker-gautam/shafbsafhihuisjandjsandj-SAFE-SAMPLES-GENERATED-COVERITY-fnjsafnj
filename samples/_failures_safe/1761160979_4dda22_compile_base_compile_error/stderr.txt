@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_5846a35b.c: In function ‘main’:
+./samples/SAFE/__tmp_5846a35b.c:168:42: error: expected ‘)’ at end of input
+  168 |                 analyze_log_level(entries
+      |                                  ~       ^
+      |                                          )
+./samples/SAFE/__tmp_5846a35b.c:168:17: error: too few arguments to function ‘analyze_log_level’
+  168 |                 analyze_log_level(entries
+      |                 ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5846a35b.c:63:6: note: declared here
+   63 | void analyze_log_level(struct LogEntry* entries, int count, enum LogLevel target_level) {
+      |      ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5846a35b.c:168:17: error: expected declaration or statement at end of input
+  168 |                 analyze_log_level(entries
+      |                 ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5846a35b.c:168:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5846a35b.c:168:17: error: expected declaration or statement at end of input

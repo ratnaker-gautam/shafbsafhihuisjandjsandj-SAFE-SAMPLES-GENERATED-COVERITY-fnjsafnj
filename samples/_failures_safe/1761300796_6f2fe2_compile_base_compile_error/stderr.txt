@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_919aebad.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_919aebad.c:166:40: error: expected ‘)’ at end of input
+  166 |         lexer_read_number(lexer, &token
+      |                          ~             ^
+      |                                        )
+./samples/SAFE/__tmp_919aebad.c:166:9: error: expected declaration or statement at end of input
+  166 |         lexer_read_number(lexer, &token
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_919aebad.c:166:9: error: expected declaration or statement at end of input

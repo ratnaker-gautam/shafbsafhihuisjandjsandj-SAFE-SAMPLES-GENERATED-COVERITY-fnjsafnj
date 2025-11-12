@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_1008d7da.c: In function ‘main’:
+./samples/SAFE/__tmp_1008d7da.c:148:103: error: ‘MAX_INPUT’ undeclared (first use in this function); did you mean ‘MAX_INPUT_SIZE’?
+  148 |     size_t decompressed_size = simple_decompress(compressed_data, compressed_size, decompressed_data, MAX_INPUT
+      |                                                                                                       ^~~~~~~~~
+      |                                                                                                       MAX_INPUT_SIZE
+./samples/SAFE/__tmp_1008d7da.c:148:103: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1008d7da.c:148:112: error: expected ‘)’ at end of input
+  148 |     size_t decompressed_size = simple_decompress(compressed_data, compressed_size, decompressed_data, MAX_INPUT
+      |                                                 ~                                                              ^
+      |                                                                                                                )
+./samples/SAFE/__tmp_1008d7da.c:148:5: error: expected declaration or statement at end of input
+  148 |     size_t decompressed_size = simple_decompress(compressed_data, compressed_size, decompressed_data, MAX_INPUT
+      |     ^~~~~~

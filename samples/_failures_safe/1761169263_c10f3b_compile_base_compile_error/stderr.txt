@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_00573e1f.c: In function ‘subtract_matrices’:
+./samples/SAFE/__tmp_00573e1f.c:154:13: error: expected expression at end of input
+  154 |             if ((b->data[i][j] > 0 && a->data[i][j] <
+      |             ^~
+./samples/SAFE/__tmp_00573e1f.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_00573e1f.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_00573e1f.c:154:13: error: expected declaration or statement at end of input

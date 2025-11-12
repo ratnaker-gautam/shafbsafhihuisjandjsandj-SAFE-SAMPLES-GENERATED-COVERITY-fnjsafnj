@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_5b3cbb29.c: In function ‘main’:
+./samples/SAFE/__tmp_5b3cbb29.c:163:23: error: invalid operands to binary < (have ‘int’ and ‘Graph’)
+  163 |     for (int i = 0; i < g
+      |                       ^
+./samples/SAFE/__tmp_5b3cbb29.c:163:26: error: expected ‘;’ at end of input
+  163 |     for (int i = 0; i < g
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_5b3cbb29.c:163:5: error: expected declaration or statement at end of input
+  163 |     for (int i = 0; i < g
+      |     ^~~

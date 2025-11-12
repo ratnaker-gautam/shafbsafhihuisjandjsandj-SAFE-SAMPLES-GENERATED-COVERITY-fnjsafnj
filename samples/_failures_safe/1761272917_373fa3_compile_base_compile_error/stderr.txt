@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_7c2fcdb9.c: In function ‘print_distances’:
+./samples/SAFE/__tmp_7c2fcdb9.c:168:41: error: ‘INT’ undeclared (first use in this function)
+  168 |         if (graph->nodes[i].distance == INT
+      |                                         ^~~
+./samples/SAFE/__tmp_7c2fcdb9.c:168:41: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7c2fcdb9.c:168:44: error: expected ‘)’ at end of input
+  168 |         if (graph->nodes[i].distance == INT
+      |            ~                               ^
+      |                                            )
+./samples/SAFE/__tmp_7c2fcdb9.c:168:9: error: expected declaration or statement at end of input
+  168 |         if (graph->nodes[i].distance == INT
+      |         ^~
+./samples/SAFE/__tmp_7c2fcdb9.c:168:9: error: expected declaration or statement at end of input

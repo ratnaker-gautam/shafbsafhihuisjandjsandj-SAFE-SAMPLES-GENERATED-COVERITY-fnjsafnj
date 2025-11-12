@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_38528f7e.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_38528f7e.c:135:17: error: expected ‘)’ at end of input
+  135 |     if (analyzer
+      |        ~        ^
+      |                 )
+./samples/SAFE/__tmp_38528f7e.c:135:5: error: expected declaration or statement at end of input
+  135 |     if (analyzer
+      |     ^~

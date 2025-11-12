@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b6d97587.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_b6d97587.c:153:10: error: expected ‘;’ at end of input
+  153 |     state
+      |          ^
+      |          ;
+./samples/SAFE/__tmp_b6d97587.c:153:5: error: expected declaration or statement at end of input
+  153 |     state
+      |     ^~~~~

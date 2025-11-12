@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_9c3ac219.c: In function ‘main’:
+./samples/SAFE/__tmp_9c3ac219.c:163:17: error: expected expression at end of input
+  163 |                 if (transition_state(&
+      |                 ^~
+./samples/SAFE/__tmp_9c3ac219.c:163:21: error: too few arguments to function ‘transition_state’
+  163 |                 if (transition_state(&
+      |                     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_9c3ac219.c:36:12: note: declared here
+   36 | static int transition_state(StateMachine* sm, int new_state) {
+      |            ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_9c3ac219.c:163:17: error: expected declaration or statement at end of input
+  163 |                 if (transition_state(&
+      |                 ^~
+./samples/SAFE/__tmp_9c3ac219.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9c3ac219.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9c3ac219.c:163:17: error: expected declaration or statement at end of input

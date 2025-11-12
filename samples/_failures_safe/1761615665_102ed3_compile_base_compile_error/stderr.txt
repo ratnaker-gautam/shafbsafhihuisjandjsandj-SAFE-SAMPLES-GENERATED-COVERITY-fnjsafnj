@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8de3fd72.c: In function ‘main’:
+./samples/SAFE/__tmp_8de3fd72.c:154:5: error: expected ‘,’ or ‘;’ at end of input
+  154 |     size_t num_events = sizeof(events)
+      |     ^~~~~~
+./samples/SAFE/__tmp_8de3fd72.c:154:5: error: expected declaration or statement at end of input

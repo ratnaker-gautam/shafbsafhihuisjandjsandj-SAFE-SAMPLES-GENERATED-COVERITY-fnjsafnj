@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_547db9a2.c: In function ‘main’:
+./samples/SAFE/__tmp_547db9a2.c:135: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_547db9a2.c:134:9: error: expected declaration or statement at end of input
+  134 |         if
+      |         ^~
+./samples/SAFE/__tmp_547db9a2.c:134:9: error: expected declaration or statement at end of input

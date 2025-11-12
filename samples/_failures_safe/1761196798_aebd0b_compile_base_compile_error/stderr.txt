@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_78200acb.c: In function ‘print_compression_info’:
+./samples/SAFE/__tmp_78200acb.c:133:51: error: expected ‘;’ at end of input
+  133 |     for (uint32_t i = 0; i < ctx->block_count && i
+      |                                                   ^
+      |                                                   ;
+./samples/SAFE/__tmp_78200acb.c:133:5: error: expected declaration or statement at end of input
+  133 |     for (uint32_t i = 0; i < ctx->block_count && i
+      |     ^~~

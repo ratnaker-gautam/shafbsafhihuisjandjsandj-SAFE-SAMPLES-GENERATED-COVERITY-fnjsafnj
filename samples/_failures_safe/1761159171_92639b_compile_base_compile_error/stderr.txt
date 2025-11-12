@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_7102cd00.c: In function ‘create_rotation_transform’:
+./samples/SAFE/__tmp_7102cd00.c:134:5: error: expected declaration or statement at end of input
+  134 |     return t;
+      |     ^~~~~~

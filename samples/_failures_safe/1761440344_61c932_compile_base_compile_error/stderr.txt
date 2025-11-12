@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ae19c98b.c: In function ‘main’:
+./samples/SAFE/__tmp_ae19c98b.c:170:9: error: expected declaration or statement at end of input
+  170 |         printf("Failed to initialize decompression buffer.\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_ae19c98b.c:170:9: error: expected declaration or statement at end of input

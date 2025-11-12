@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f591abf6.c: In function ‘handle_done_state’:
+./samples/SAFE/__tmp_f591abf6.c:171:20: error: ‘STATE’ undeclared (first use in this function)
+  171 |             return STATE
+      |                    ^~~~~
+./samples/SAFE/__tmp_f591abf6.c:171:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f591abf6.c:171:25: error: expected ‘;’ at end of input
+  171 |             return STATE
+      |                         ^
+      |                         ;
+./samples/SAFE/__tmp_f591abf6.c:171:13: error: expected declaration or statement at end of input
+  171 |             return STATE
+      |             ^~~~~~
+./samples/SAFE/__tmp_f591abf6.c:171:13: error: expected declaration or statement at end of input

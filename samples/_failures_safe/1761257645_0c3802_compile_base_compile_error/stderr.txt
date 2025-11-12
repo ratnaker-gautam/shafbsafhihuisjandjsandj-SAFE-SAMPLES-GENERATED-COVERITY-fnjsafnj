@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_67e41705.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_67e41705.c:171:5: error: expected identifier at end of input
+  171 |     int num_nodes = graph->
+      |     ^~~
+./samples/SAFE/__tmp_67e41705.c:171:5: error: expected declaration or statement at end of input

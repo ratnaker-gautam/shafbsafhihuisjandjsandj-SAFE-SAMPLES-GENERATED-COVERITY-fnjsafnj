@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7b13e015.c: In function ‘compute_point_cloud_volume’:
+./samples/SAFE/__tmp_7b13e015.c:144:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  144 |         struct Vector3D v
+      |                ^~~~~~~~
+./samples/SAFE/__tmp_7b13e015.c:144:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7b13e015.c:144:16: error: expected declaration or statement at end of input

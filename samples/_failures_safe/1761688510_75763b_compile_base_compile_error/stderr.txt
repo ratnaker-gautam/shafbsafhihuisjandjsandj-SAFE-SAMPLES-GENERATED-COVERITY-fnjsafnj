@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_162cebcc.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_162cebcc.c:182:48: error: expected ‘]’ at end of input
+  182 |             printf("Vertex %d: %d\n", i, dist[i
+      |                                                ^
+      |                                                ]
+./samples/SAFE/__tmp_162cebcc.c:182:13: error: expected declaration or statement at end of input
+  182 |             printf("Vertex %d: %d\n", i, dist[i
+      |             ^~~~~~
+./samples/SAFE/__tmp_162cebcc.c:182:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_162cebcc.c:182:13: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_08f38f6b.c: In function ‘main’:
+./samples/SAFE/__tmp_08f38f6b.c:138:24: error: expected ‘)’ at end of input
+  138 |         if (cols2 == -1
+      |            ~           ^
+      |                        )
+./samples/SAFE/__tmp_08f38f6b.c:138:9: error: expected declaration or statement at end of input
+  138 |         if (cols2 == -1
+      |         ^~
+./samples/SAFE/__tmp_08f38f6b.c:138:9: error: expected declaration or statement at end of input

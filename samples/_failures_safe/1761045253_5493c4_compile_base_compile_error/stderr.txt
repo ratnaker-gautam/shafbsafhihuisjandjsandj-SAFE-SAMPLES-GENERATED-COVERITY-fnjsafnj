@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_ad5b774f.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_ad5b774f.c:171:54: error: expected ‘)’ at end of input
+  171 |             add_token(lexer, TOKEN_PUNCTUATION, punct
+      |                      ~                               ^
+      |                                                      )
+./samples/SAFE/__tmp_ad5b774f.c:171:13: error: expected declaration or statement at end of input
+  171 |             add_token(lexer, TOKEN_PUNCTUATION, punct
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_ad5b774f.c:171:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ad5b774f.c:171:13: error: expected declaration or statement at end of input

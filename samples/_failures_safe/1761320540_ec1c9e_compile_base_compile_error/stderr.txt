@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_79ddcc76.c: In function ‘update_stats’:
+./samples/SAFE/__tmp_79ddcc76.c:130:46: error: expected ‘;’ at end of input
+  130 |     for (int i = 0; i < analyzer->entry_count
+      |                                              ^
+      |                                              ;
+./samples/SAFE/__tmp_79ddcc76.c:130:5: error: expected declaration or statement at end of input
+  130 |     for (int i = 0; i < analyzer->entry_count
+      |     ^~~

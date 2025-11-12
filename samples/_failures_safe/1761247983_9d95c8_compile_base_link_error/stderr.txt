@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccAllV9C.o: in function `main':
+__tmp_54551adc.c:(.text.startup+0x20c): undefined reference to `pow'
+/usr/bin/ld: __tmp_54551adc.c:(.text.startup+0x503): undefined reference to `pow'
+/usr/bin/ld: __tmp_54551adc.c:(.text.startup+0x574): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

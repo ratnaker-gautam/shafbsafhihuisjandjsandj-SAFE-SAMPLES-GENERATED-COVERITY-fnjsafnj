@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cc4frKGF.o: in function `compute_pi_bisection':
+__tmp_1738a29f.c:(.text+0x105): undefined reference to `sin'
+collect2: error: ld returned 1 exit status

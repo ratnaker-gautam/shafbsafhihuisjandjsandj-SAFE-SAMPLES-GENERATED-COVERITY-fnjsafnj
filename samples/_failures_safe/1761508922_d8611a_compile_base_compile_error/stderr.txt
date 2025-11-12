@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_69ef6a7e.c: In function ‘print_compression_info’:
+./samples/SAFE/__tmp_69ef6a7e.c:145:5: error: expected expression at end of input
+  145 |     printf("  Algorithm: %u\n",
+      |     ^~~~~~
+./samples/SAFE/__tmp_69ef6a7e.c:145:5: error: expected declaration or statement at end of input

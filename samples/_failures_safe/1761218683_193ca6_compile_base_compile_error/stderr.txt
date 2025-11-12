@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_e4791727.c: In function ‘main’:
+./samples/SAFE/__tmp_e4791727.c:160:17: error: ‘st’ undeclared (first use in this function)
+  160 |         fprintf(st
+      |                 ^~
+./samples/SAFE/__tmp_e4791727.c:160:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e4791727.c:160:19: error: expected ‘)’ at end of input
+  160 |         fprintf(st
+      |                ~  ^
+      |                   )
+./samples/SAFE/__tmp_e4791727.c:160:9: error: too few arguments to function ‘fprintf’
+  160 |         fprintf(st
+      |         ^~~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from ./samples/SAFE/__tmp_e4791727.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:77:1: note: declared here
+   77 | fprintf (FILE *__restrict __stream, const char *__restrict __fmt, ...)
+      | ^~~~~~~
+./samples/SAFE/__tmp_e4791727.c:160:9: error: expected declaration or statement at end of input
+  160 |         fprintf(st
+      |         ^~~~~~~
+./samples/SAFE/__tmp_e4791727.c:160:9: error: expected declaration or statement at end of input

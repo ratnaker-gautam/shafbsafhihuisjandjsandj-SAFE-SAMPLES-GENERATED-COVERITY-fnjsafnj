@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_acbe413b.c: In function ‘find_shortest_path’:
+./samples/SAFE/__tmp_acbe413b.c:147:5: error: expected declaration or statement at end of input
+  147 |     for (int i = path_len - 1; i >= 0; i--) {
+      |     ^~~
+./samples/SAFE/__tmp_acbe413b.c:147:5: error: expected declaration or statement at end of input

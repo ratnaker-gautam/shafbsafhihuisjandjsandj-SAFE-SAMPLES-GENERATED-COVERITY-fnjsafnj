@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0ba71f8e.c: In function ‘main’:
+./samples/SAFE/__tmp_0ba71f8e.c:154:5: error: expected expression at end of input
+  154 |     size_t decompressed_size = decompress_rle(compressed, compressed_size,
+      |     ^~~~~~
+./samples/SAFE/__tmp_0ba71f8e.c:154:32: error: too few arguments to function ‘decompress_rle’
+  154 |     size_t decompressed_size = decompress_rle(compressed, compressed_size,
+      |                                ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_0ba71f8e.c:93:8: note: declared here
+   93 | size_t decompress_rle(const unsigned char *input, size_t input_size, unsigned char *output, size_t output_capacity) {
+      |        ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_0ba71f8e.c:154:5: error: expected declaration or statement at end of input
+  154 |     size_t decompressed_size = decompress_rle(compressed, compressed_size,
+      |     ^~~~~~

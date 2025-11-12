@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a28c072d.c: In function ‘main’:
+./samples/SAFE/__tmp_a28c072d.c:151:44: error: expected ‘)’ at end of input
+  151 |         printf("\nDeterminant: %.2f\n", det
+      |               ~                            ^
+      |                                            )
+./samples/SAFE/__tmp_a28c072d.c:151:9: error: expected declaration or statement at end of input
+  151 |         printf("\nDeterminant: %.2f\n", det
+      |         ^~~~~~
+./samples/SAFE/__tmp_a28c072d.c:151:9: error: expected declaration or statement at end of input

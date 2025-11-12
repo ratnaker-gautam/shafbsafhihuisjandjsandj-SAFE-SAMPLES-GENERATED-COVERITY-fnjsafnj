@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_69bff5a4.c: In function ‘main’:
+./samples/SAFE/__tmp_69bff5a4.c:153:28: error: ‘matrix’ undeclared (first use in this function); did you mean ‘Matrix’?
+  153 |     struct Matrix result = matrix
+      |                            ^~~~~~
+      |                            Matrix
+./samples/SAFE/__tmp_69bff5a4.c:153:28: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_69bff5a4.c:153:12: error: expected ‘,’ or ‘;’ at end of input
+  153 |     struct Matrix result = matrix
+      |            ^~~~~~
+./samples/SAFE/__tmp_69bff5a4.c:153:12: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_265c31bd.c: In function ‘main’:
+./samples/SAFE/__tmp_265c31bd.c:147:5: error: expected expression at end of input
+  147 |     display_statistics(entries,
+      |     ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_265c31bd.c:147:5: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ab72bfc6.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_ab72bfc6.c:167:12: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  167 |     return token
+      |            ^~~~~
+      |            Token
+./samples/SAFE/__tmp_ab72bfc6.c:167:12: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ab72bfc6.c:167:17: error: expected ‘;’ at end of input
+  167 |     return token
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_ab72bfc6.c:167:5: error: expected declaration or statement at end of input
+  167 |     return token
+      |     ^~~~~~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_c3703ce0.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_c3703ce0.c:165:39: error: ‘TOKEN_N’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  165 |     if (parser->current_token.type == TOKEN_N
+      |                                       ^~~~~~~
+      |                                       TOKEN_EOF
+./samples/SAFE/__tmp_c3703ce0.c:165:39: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c3703ce0.c:165:46: error: expected ‘)’ at end of input
+  165 |     if (parser->current_token.type == TOKEN_N
+      |        ~                                     ^
+      |                                              )
+./samples/SAFE/__tmp_c3703ce0.c:165:5: error: expected declaration or statement at end of input
+  165 |     if (parser->current_token.type == TOKEN_N
+      |     ^~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0395157f.c: In function ‘main’:
+./samples/SAFE/__tmp_0395157f.c:142:5: error: expected declaration or statement at end of input
+  142 |     int word_count = extract_words(input, words, MAX_WORDS);
+      |     ^~~

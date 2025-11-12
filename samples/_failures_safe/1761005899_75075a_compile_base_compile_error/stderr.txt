@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_80055c83.c: In function ‘main’:
+./samples/SAFE/__tmp_80055c83.c:165:5: error: ‘token_list_d’ undeclared (first use in this function); did you mean ‘token_list_add’?
+  165 |     token_list_d
+      |     ^~~~~~~~~~~~
+      |     token_list_add
+./samples/SAFE/__tmp_80055c83.c:165:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_80055c83.c:165:17: error: expected ‘;’ at end of input
+  165 |     token_list_d
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_80055c83.c:165:5: error: expected declaration or statement at end of input
+  165 |     token_list_d
+      |     ^~~~~~~~~~~~

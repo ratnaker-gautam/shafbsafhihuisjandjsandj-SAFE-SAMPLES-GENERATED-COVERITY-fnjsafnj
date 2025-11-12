@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_81713447.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_81713447.c:115:39: error: expected ‘)’ at end of input
+  115 |         for (int j = 0; j < b->cols; j
+      |             ~                         ^
+      |                                       )
+./samples/SAFE/__tmp_81713447.c:115:9: error: expected declaration or statement at end of input
+  115 |         for (int j = 0; j < b->cols; j
+      |         ^~~
+./samples/SAFE/__tmp_81713447.c:115:9: error: expected declaration or statement at end of input

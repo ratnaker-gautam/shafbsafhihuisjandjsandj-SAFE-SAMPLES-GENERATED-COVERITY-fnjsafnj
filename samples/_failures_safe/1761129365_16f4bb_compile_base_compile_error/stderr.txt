@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_7388bba3.c: In function ‘print_token’:
+./samples/SAFE/__tmp_7388bba3.c:173:12: error: expected declaration or statement at end of input
+  173 |            token.line, token.column, type_names[token.type], token.value);
+      |            ^~~~~

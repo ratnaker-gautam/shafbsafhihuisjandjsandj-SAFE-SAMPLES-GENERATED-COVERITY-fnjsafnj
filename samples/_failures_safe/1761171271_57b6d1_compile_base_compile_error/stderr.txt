@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_becd351d.c: In function ‘main’:
+./samples/SAFE/__tmp_becd351d.c:147:16: error: invalid operands to binary == (have ‘int’ and ‘Matrix’)
+  147 |     if (a.rows == a
+      |         ~~~~~~ ^~
+      |          |
+      |          int
+./samples/SAFE/__tmp_becd351d.c:147:20: error: expected ‘)’ at end of input
+  147 |     if (a.rows == a
+      |        ~           ^
+      |                    )
+./samples/SAFE/__tmp_becd351d.c:147:5: error: expected declaration or statement at end of input
+  147 |     if (a.rows == a
+      |     ^~

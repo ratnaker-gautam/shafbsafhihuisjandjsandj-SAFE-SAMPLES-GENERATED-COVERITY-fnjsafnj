@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4480f71d.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_4480f71d.c:157:1: error: expected declaration or statement at end of input
+  157 | void tokenize(Lexer* lexer) {
+      | ^~~~

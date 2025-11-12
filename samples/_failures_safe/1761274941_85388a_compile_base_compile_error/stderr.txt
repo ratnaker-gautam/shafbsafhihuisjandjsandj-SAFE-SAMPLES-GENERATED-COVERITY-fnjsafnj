@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5f60ce00.c: In function ‘main’:
+./samples/SAFE/__tmp_5f60ce00.c:175:44: error: expected ‘)’ at end of input
+  175 |     int result = evaluate_expression(buffer
+      |                                     ~      ^
+      |                                            )
+./samples/SAFE/__tmp_5f60ce00.c:175:5: error: expected declaration or statement at end of input
+  175 |     int result = evaluate_expression(buffer
+      |     ^~~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_fbd1da3f.c: In function ‘fill_matrix’:
+./samples/SAFE/__tmp_fbd1da3f.c:136:41: error: expected ‘)’ at end of input
+  136 |             set_element(mat, i, j, value
+      |                        ~                ^
+      |                                         )
+./samples/SAFE/__tmp_fbd1da3f.c:136:13: error: expected declaration or statement at end of input
+  136 |             set_element(mat, i, j, value
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_fbd1da3f.c:136:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fbd1da3f.c:136:13: error: expected declaration or statement at end of input

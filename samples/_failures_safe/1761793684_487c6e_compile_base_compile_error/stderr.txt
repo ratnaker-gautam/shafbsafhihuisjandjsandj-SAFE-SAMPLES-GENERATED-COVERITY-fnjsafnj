@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c9315743.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_c9315743.c:143:9: error: expected expression at end of input
+  143 |         if (!matrix_init(&sub,
+      |         ^~
+./samples/SAFE/__tmp_c9315743.c:143:14: error: too few arguments to function ‘matrix_init’
+  143 |         if (!matrix_init(&sub,
+      |              ^~~~~~~~~~~
+./samples/SAFE/__tmp_c9315743.c:22:5: note: declared here
+   22 | int matrix_init(struct matrix *m, size_t rows, size_t cols) {
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_c9315743.c:143:9: error: expected declaration or statement at end of input
+  143 |         if (!matrix_init(&sub,
+      |         ^~
+./samples/SAFE/__tmp_c9315743.c:143:9: error: expected declaration or statement at end of input

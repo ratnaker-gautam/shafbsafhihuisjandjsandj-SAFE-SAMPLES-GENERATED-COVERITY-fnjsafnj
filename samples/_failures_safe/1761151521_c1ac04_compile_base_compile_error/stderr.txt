@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_8ff9e39c.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_8ff9e39c.c:133:9: error: expected expression at end of input
+  133 |         if (strcmp(
+      |         ^~
+./samples/SAFE/__tmp_8ff9e39c.c:133:13: error: too few arguments to function ‘strcmp’
+  133 |         if (strcmp(
+      |             ^~~~~~
+In file included from ./samples/SAFE/__tmp_8ff9e39c.c:4:
+/usr/include/string.h:156:12: note: declared here
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+      |            ^~~~~~
+./samples/SAFE/__tmp_8ff9e39c.c:133:9: error: expected declaration or statement at end of input
+  133 |         if (strcmp(
+      |         ^~
+./samples/SAFE/__tmp_8ff9e39c.c:133:9: error: expected declaration or statement at end of input

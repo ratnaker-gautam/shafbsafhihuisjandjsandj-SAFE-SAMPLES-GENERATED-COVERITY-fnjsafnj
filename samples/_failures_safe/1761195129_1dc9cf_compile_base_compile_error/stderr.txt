@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_98d8c831.c: In function ‘main’:
+./samples/SAFE/__tmp_98d8c831.c:183:25: error: ‘compress’ undeclared (first use in this function); did you mean ‘compressors’?
+  183 |     process_compression(compress
+      |                         ^~~~~~~~
+      |                         compressors
+./samples/SAFE/__tmp_98d8c831.c:183:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_98d8c831.c:183:33: error: expected ‘)’ at end of input
+  183 |     process_compression(compress
+      |                        ~        ^
+      |                                 )
+./samples/SAFE/__tmp_98d8c831.c:183:5: error: too few arguments to function ‘process_compression’
+  183 |     process_compression(compress
+      |     ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_98d8c831.c:107:6: note: declared here
+  107 | void process_compression(CompressionFunc compress, DecompressionFunc decompress) {
+      |      ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_98d8c831.c:183:5: error: expected declaration or statement at end of input
+  183 |     process_compression(compress
+      |     ^~~~~~~~~~~~~~~~~~~

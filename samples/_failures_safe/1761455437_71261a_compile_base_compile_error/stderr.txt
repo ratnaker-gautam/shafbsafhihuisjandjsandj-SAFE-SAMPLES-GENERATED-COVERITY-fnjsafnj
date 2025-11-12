@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9a18e4c6.c: In function ‘main’:
+./samples/SAFE/__tmp_9a18e4c6.c:162:9: error: expected declaration or statement at end of input
+  162 |         if (collection->size >= MAX_ENTRIES) {
+      |         ^~
+./samples/SAFE/__tmp_9a18e4c6.c:162:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9a18e4c6.c:162:9: error: expected declaration or statement at end of input

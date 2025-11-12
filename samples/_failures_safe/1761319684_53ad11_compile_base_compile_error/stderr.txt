@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_910e2b6f.c: In function ‘print_state’:
+./samples/SAFE/__tmp_910e2b6f.c:160:5: error: expected expression at end of input
+  160 |     if (state >=
+      |     ^~
+./samples/SAFE/__tmp_910e2b6f.c:160:5: error: expected declaration or statement at end of input

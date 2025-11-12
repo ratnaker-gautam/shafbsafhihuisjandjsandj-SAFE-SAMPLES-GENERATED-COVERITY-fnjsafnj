@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8cc72240.c: In function ‘initialize_simulation’:
+./samples/SAFE/__tmp_8cc72240.c:121: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_8cc72240.c:120:9: error: expected declaration or statement at end of input
+  120 |         if
+      |         ^~
+./samples/SAFE/__tmp_8cc72240.c:120:9: error: expected declaration or statement at end of input

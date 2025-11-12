@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_b3520277.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_b3520277.c:187: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_b3520277.c:186:17: error: expected declaration or statement at end of input
+  186 |                 while
+      |                 ^~~~~
+./samples/SAFE/__tmp_b3520277.c:186:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b3520277.c:186:17: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9cc027b5.c: In function ‘main’:
+./samples/SAFE/__tmp_9cc027b5.c:145:69: error: ‘COMP_HU’ undeclared (first use in this function)
+  145 |     enum compression_type types[] = {COMP_NONE, COMP_RLE, COMP_LZW, COMP_HU
+      |                                                                     ^~~~~~~
+./samples/SAFE/__tmp_9cc027b5.c:145:69: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9cc027b5.c:146: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_9cc027b5.c:145:37: note: to match this ‘{’
+  145 |     enum compression_type types[] = {COMP_NONE, COMP_RLE, COMP_LZW, COMP_HU
+      |                                     ^
+./samples/SAFE/__tmp_9cc027b5.c:145:10: error: expected declaration or statement at end of input
+  145 |     enum compression_type types[] = {COMP_NONE, COMP_RLE, COMP_LZW, COMP_HU
+      |          ^~~~~~~~~~~~~~~~

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_08502bcc.c: In function ‘main’:
+./samples/SAFE/__tmp_08502bcc.c:151:17: error: ‘print_sum’ undeclared (first use in this function); did you mean ‘print_summary’?
+  151 |                 print_sum
+      |                 ^~~~~~~~~
+      |                 print_summary
+./samples/SAFE/__tmp_08502bcc.c:151:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_08502bcc.c:151:26: error: expected ‘;’ at end of input
+  151 |                 print_sum
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_08502bcc.c:151:17: error: expected declaration or statement at end of input
+  151 |                 print_sum
+      |                 ^~~~~~~~~
+./samples/SAFE/__tmp_08502bcc.c:151:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_08502bcc.c:151:17: error: expected declaration or statement at end of input

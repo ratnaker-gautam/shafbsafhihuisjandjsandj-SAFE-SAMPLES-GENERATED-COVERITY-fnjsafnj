@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_20529b56.c: In function ‘main’:
+./samples/SAFE/__tmp_20529b56.c:133:73: error: expected ‘)’ at end of input
+  133 |            entry_count > 0 ? (warning_count * 100.0) / entry_count : 0.0
+      |                                                                         ^
+      |                                                                         )
+./samples/SAFE/__tmp_20529b56.c:132:11: note: to match this ‘(’
+  132 |     printf("WARNING entries: %d (%.1f%%)\n", warning_count,
+      |           ^
+./samples/SAFE/__tmp_20529b56.c:133:12: error: expected declaration or statement at end of input
+  133 |            entry_count > 0 ? (warning_count * 100.0) / entry_count : 0.0
+      |            ^~~~~~~~~~~

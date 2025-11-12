@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_8b401025.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_8b401025.c:178:74: error: ‘TO’ undeclared (first use in this function)
+  178 |     while (parser->current.type == TOKEN_PLUS || parser->current.type == TO
+      |                                                                          ^~
+./samples/SAFE/__tmp_8b401025.c:178:74: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8b401025.c:178:76: error: expected ‘)’ at end of input
+  178 |     while (parser->current.type == TOKEN_PLUS || parser->current.type == TO
+      |           ~                                                                ^
+      |                                                                            )
+./samples/SAFE/__tmp_8b401025.c:178:5: error: expected declaration or statement at end of input
+  178 |     while (parser->current.type == TOKEN_PLUS || parser->current.type == TO
+      |     ^~~~~

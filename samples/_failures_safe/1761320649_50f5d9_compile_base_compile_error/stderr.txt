@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_1793c5c0.c: In function ‘main’:
+./samples/SAFE/__tmp_1793c5c0.c:131:5: error: expected expression at end of input
+  131 |     size_t compressed_size = compress_data(&params, input_data, 256,
+      |     ^~~~~~
+./samples/SAFE/__tmp_1793c5c0.c:131:30: error: too few arguments to function ‘compress_data’
+  131 |     size_t compressed_size = compress_data(&params, input_data, 256,
+      |                              ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_1793c5c0.c:92:8: note: declared here
+   92 | size_t compress_data(const struct compression_params *params, const uint8_t *input, size_t input_len, uint8_t *output, size_t output_len) {
+      |        ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_1793c5c0.c:131:5: error: expected declaration or statement at end of input
+  131 |     size_t compressed_size = compress_data(&params, input_data, 256,
+      |     ^~~~~~

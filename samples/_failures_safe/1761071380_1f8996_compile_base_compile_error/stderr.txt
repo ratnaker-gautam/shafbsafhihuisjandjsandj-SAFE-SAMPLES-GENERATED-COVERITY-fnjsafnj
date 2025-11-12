@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_d4929b1b.c: In function ‘main’:
+./samples/SAFE/__tmp_d4929b1b.c:143:18: error: ‘STATE’ undeclared (first use in this function)
+  143 |             case STATE
+      |                  ^~~~~
+./samples/SAFE/__tmp_d4929b1b.c:143:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d4929b1b.c:143:13: error: expected ‘:’ or ‘...’ at end of input
+  143 |             case STATE
+      |             ^~~~
+./samples/SAFE/__tmp_d4929b1b.c:143:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d4929b1b.c:143:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d4929b1b.c:143:13: error: expected declaration or statement at end of input

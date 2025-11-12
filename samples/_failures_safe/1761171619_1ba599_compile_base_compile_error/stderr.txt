@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8cfcc1a0.c: In function ‘validate_mesh’:
+./samples/SAFE/__tmp_8cfcc1a0.c:136:5: error: expected expression at end of input
+  136 |     if (mesh->vertex_count >
+      |     ^~
+./samples/SAFE/__tmp_8cfcc1a0.c:136:5: error: expected declaration or statement at end of input

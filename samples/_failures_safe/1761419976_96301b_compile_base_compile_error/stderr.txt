@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_42f456da.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_42f456da.c:172:11: error: expected ‘)’ at end of input
+  172 |     if (sm
+      |        ~  ^
+      |           )
+./samples/SAFE/__tmp_42f456da.c:172:5: error: expected declaration or statement at end of input
+  172 |     if (sm
+      |     ^~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1c7184f7.c: In function ‘freeGraph’:
+./samples/SAFE/__tmp_1c7184f7.c:168:9: error: expected declaration or statement at end of input
+  168 |         free(graph->matrix[i]);
+      |         ^~~~
+./samples/SAFE/__tmp_1c7184f7.c:168:9: error: expected declaration or statement at end of input

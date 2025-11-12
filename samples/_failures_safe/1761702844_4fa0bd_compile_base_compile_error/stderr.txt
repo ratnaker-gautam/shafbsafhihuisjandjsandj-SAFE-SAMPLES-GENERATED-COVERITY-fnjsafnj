@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_5c338c6b.c: In function ‘main’:
+./samples/SAFE/__tmp_5c338c6b.c:145:44: error: ‘entry’ undeclared (first use in this function); did you mean ‘entries’?
+  145 |     if (!read_log_file(filename, entries, &entry
+      |                                            ^~~~~
+      |                                            entries
+./samples/SAFE/__tmp_5c338c6b.c:145:44: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5c338c6b.c:145:49: error: expected ‘)’ at end of input
+  145 |     if (!read_log_file(filename, entries, &entry
+      |                       ~                         ^
+      |                                                 )
+./samples/SAFE/__tmp_5c338c6b.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (!read_log_file(filename, entries, &entry
+      |     ^~

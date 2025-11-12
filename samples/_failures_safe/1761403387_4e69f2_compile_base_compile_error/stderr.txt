@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_a0952c34.c: In function ‘main’:
+./samples/SAFE/__tmp_a0952c34.c:141:5: error: expected expression at end of input
+  141 |     add_node(&g,
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_a0952c34.c:141:5: error: too few arguments to function ‘add_node’
+./samples/SAFE/__tmp_a0952c34.c:36:5: note: declared here
+   36 | int add_node(struct Graph *g, int id, const char *label) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_a0952c34.c:141:5: error: expected declaration or statement at end of input
+  141 |     add_node(&g,
+      |     ^~~~~~~~

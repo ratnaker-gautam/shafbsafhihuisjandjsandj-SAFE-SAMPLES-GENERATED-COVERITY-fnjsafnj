@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_c980c364.c: In function ‘lex’:
+./samples/SAFE/__tmp_c980c364.c:160:13: error: expected expression at end of input
+  160 |             tokens[token_index++] = create_token(TOKEN_OPERATOR,
+      |             ^~~~~~
+./samples/SAFE/__tmp_c980c364.c:160:37: error: too few arguments to function ‘create_token’
+  160 |             tokens[token_index++] = create_token(TOKEN_OPERATOR,
+      |                                     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_c980c364.c:63:14: note: declared here
+   63 | struct Token create_token(enum TokenType type, const char *value, int line, int column) {
+      |              ^~~~~~~~~~~~
+./samples/SAFE/__tmp_c980c364.c:160:13: error: expected declaration or statement at end of input
+  160 |             tokens[token_index++] = create_token(TOKEN_OPERATOR,
+      |             ^~~~~~
+./samples/SAFE/__tmp_c980c364.c:160:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c980c364.c:160:13: error: expected declaration or statement at end of input

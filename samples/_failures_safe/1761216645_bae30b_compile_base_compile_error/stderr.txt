@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_835f0cc3.c: In function ‘main’:
+./samples/SAFE/__tmp_835f0cc3.c:156:13: error: expected identifier at end of input
+  156 |             for (int j = 0; j < sm->
+      |             ^~~
+./samples/SAFE/__tmp_835f0cc3.c:156:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_835f0cc3.c:156:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_835f0cc3.c:156:13: error: expected declaration or statement at end of input

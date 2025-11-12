@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d3bbd2e3.c: In function ‘event_to_string’:
+./samples/SAFE/__tmp_d3bbd2e3.c:145: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_d3bbd2e3.c:143:34: note: to match this ‘{’
+  143 |     static const char* names[] = {
+      |                                  ^
+./samples/SAFE/__tmp_d3bbd2e3.c:144:9: error: expected declaration or statement at end of input
+  144 |         "START", "DATA_READY", "PROCESS_COMPLETE", "WRITE_COMPLETE", "ERROR", "RESET"
+      |         ^~~~~~~

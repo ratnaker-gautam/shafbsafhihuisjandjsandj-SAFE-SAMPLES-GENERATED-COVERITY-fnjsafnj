@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_5893bb36.c: In function ‘main’:
+./samples/SAFE/__tmp_5893bb36.c:153:13: error: expected declaration or statement at end of input
+  153 |             if (add_log_entry(&collection, &entry)) {
+      |             ^~
+./samples/SAFE/__tmp_5893bb36.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5893bb36.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5893bb36.c:153:13: error: expected declaration or statement at end of input

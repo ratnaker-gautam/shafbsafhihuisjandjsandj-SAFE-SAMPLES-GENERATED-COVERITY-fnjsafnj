@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4c201759.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_4c201759.c:151:26: error: expected ‘;’ at end of input
+  151 |     for (int i = 0; i < g
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_4c201759.c:151:5: error: expected declaration or statement at end of input
+  151 |     for (int i = 0; i < g
+      |     ^~~

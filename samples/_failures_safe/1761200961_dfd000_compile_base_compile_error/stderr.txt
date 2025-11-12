@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_4c4deb51.c: In function ‘remove_edge_list’:
+./samples/SAFE/__tmp_4c4deb51.c:144:30: error: expected ‘;’ at end of input
+  144 |             for (int j = i; j
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_4c4deb51.c:144:13: error: expected declaration or statement at end of input
+  144 |             for (int j = i; j
+      |             ^~~
+./samples/SAFE/__tmp_4c4deb51.c:144:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4c4deb51.c:144:13: error: expected declaration or statement at end of input

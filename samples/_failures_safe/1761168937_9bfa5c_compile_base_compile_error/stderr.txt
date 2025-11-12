@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fc557bb0.c: In function ‘main’:
+./samples/SAFE/__tmp_fc557bb0.c:152:30: error: expected ‘)’ at end of input
+  152 |     buffer_free(&decompressed
+      |                ~             ^
+      |                              )
+./samples/SAFE/__tmp_fc557bb0.c:152:5: error: expected declaration or statement at end of input
+  152 |     buffer_free(&decompressed
+      |     ^~~~~~~~~~~

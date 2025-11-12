@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f24ce181.c: In function ‘transform_bounds’:
+./samples/SAFE/__tmp_f24ce181.c:134:5: error: expected expression at end of input
+  134 |     corners[6] =
+      |     ^~~~~~~
+./samples/SAFE/__tmp_f24ce181.c:134:5: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f8d1a24b.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_f8d1a24b.c:160:5: error: expected declaration or statement at end of input
+  160 |     graph_reset(graph);
+      |     ^~~~~~~~~~~

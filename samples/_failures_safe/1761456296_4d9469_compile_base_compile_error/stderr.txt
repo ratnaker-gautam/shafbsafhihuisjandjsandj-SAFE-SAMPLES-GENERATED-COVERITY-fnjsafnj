@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f8a51609.c: In function ‘compute_bounding_box’:
+./samples/SAFE/__tmp_f8a51609.c:130:15: error: expected ‘;’ at end of input
+  130 |     return box
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_f8a51609.c:130:5: error: expected declaration or statement at end of input
+  130 |     return box
+      |     ^~~~~~

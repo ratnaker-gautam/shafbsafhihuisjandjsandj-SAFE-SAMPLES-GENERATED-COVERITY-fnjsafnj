@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4fc825ee.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_4fc825ee.c:150:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  150 |     const char *type
+      |     ^~~~~
+./samples/SAFE/__tmp_4fc825ee.c:150:5: error: expected declaration or statement at end of input

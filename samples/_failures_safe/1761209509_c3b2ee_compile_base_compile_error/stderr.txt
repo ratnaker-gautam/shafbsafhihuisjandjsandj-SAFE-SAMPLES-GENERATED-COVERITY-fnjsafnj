@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5a380c1b.c: In function ‘main’:
+./samples/SAFE/__tmp_5a380c1b.c:156:9: error: expected expression at end of input
+  156 |         for (size_t i = 0; i < decompressed.size;
+      |         ^~~
+./samples/SAFE/__tmp_5a380c1b.c:156:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5a380c1b.c:156:9: error: expected declaration or statement at end of input

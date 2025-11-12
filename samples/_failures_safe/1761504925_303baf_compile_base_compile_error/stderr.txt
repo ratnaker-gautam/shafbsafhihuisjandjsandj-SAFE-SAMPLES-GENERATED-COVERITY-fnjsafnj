@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_07e5e34b.c: In function ‘main’:
+./samples/SAFE/__tmp_07e5e34b.c:198:9: error: expected declaration or statement at end of input
+  198 |         fprintf(stderr, "No tokens found\n");
+      |         ^~~~~~~
+./samples/SAFE/__tmp_07e5e34b.c:198:9: error: expected declaration or statement at end of input

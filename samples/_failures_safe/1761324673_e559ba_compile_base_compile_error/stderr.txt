@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_ac9c8497.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_ac9c8497.c:163:72: error: expected ‘)’ at end of input
+  163 |         return create_token(TOKEN_STRING, buffer, start_line, start_col
+      |                            ~                                           ^
+      |                                                                        )
+./samples/SAFE/__tmp_ac9c8497.c:163:9: error: expected declaration or statement at end of input
+  163 |         return create_token(TOKEN_STRING, buffer, start_line, start_col
+      |         ^~~~~~
+./samples/SAFE/__tmp_ac9c8497.c:163:9: error: expected declaration or statement at end of input

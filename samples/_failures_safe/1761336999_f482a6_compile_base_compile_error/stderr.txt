@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_229a98a2.c: In function ‘main’:
+./samples/SAFE/__tmp_229a98a2.c:143:5: error: expected declaration or statement at end of input
+  143 |     size_t decompressed_size = decompress_rle(compressed, compressed_size, decompressed, sizeof(decompressed));
+      |     ^~~~~~

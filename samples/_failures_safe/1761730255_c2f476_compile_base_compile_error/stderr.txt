@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a9903436.c: In function ‘main’:
+./samples/SAFE/__tmp_a9903436.c:147: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_a9903436.c:146:22: note: to match this ‘(’
+  146 |     a.cols = read_int("Columns: ", 1, MAX_DIM
+      |                      ^
+./samples/SAFE/__tmp_a9903436.c:146:5: error: expected declaration or statement at end of input
+  146 |     a.cols = read_int("Columns: ", 1, MAX_DIM
+      |     ^

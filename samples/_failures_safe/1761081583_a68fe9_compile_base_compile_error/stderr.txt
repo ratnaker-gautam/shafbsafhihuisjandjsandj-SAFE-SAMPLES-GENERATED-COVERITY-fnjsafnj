@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7c6555b4.c: In function ‘main’:
+./samples/SAFE/__tmp_7c6555b4.c:165:35: error: expected ‘)’ at end of input
+  165 |         test_data[i] = (uint8_t)(i
+      |                                 ~ ^
+      |                                   )
+./samples/SAFE/__tmp_7c6555b4.c:165:9: error: expected declaration or statement at end of input
+  165 |         test_data[i] = (uint8_t)(i
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_7c6555b4.c:165:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_59e275a1.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_59e275a1.c:136:13: error: expected expression at end of input
+  136 |             !matrix_get(a, 1, 0, &a21) || !matrix_get(a, 1, 1, &a22)) return
+      |             ^
+./samples/SAFE/__tmp_59e275a1.c:136:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_59e275a1.c:136:13: error: expected declaration or statement at end of input

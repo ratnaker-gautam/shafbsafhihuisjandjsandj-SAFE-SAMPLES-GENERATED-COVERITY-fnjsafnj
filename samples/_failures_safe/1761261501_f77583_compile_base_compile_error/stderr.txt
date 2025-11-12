@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_9faac88d.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_9faac88d.c:163:27: error: invalid type argument of unary ‘*’ (have ‘Token’)
+  163 |                 (*tokens)[*token
+      |                           ^~~~~~
+./samples/SAFE/__tmp_9faac88d.c:163:33: error: expected ‘]’ at end of input
+  163 |                 (*tokens)[*token
+      |                                 ^
+      |                                 ]
+./samples/SAFE/__tmp_9faac88d.c:163:17: error: expected declaration or statement at end of input
+  163 |                 (*tokens)[*token
+      |                 ^
+./samples/SAFE/__tmp_9faac88d.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9faac88d.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9faac88d.c:163:17: error: expected declaration or statement at end of input

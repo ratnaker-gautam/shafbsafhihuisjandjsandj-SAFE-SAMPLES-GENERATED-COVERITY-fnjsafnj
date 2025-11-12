@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6321e380.c: In function ‘solve_linear_system’:
+./samples/SAFE/__tmp_6321e380.c:87:137: error: expected ‘]’ at end of input
+   87 |     inv.elements[1][1] = (system->coefficients.elements[0][0] * system->coefficients.elements[2][2] - system->coefficients.elements[0][2
+      |                                                                                                                                         ^
+      |                                                                                                                                         ]
+./samples/SAFE/__tmp_6321e380.c:87:5: error: expected declaration or statement at end of input
+   87 |     inv.elements[1][1] = (system->coefficients.elements[0][0] * system->coefficients.elements[2][2] - system->coefficients.elements[0][2
+      |     ^~~

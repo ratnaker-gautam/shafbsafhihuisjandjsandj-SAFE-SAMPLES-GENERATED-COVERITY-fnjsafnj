@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a457de68.c: In function ‘prim’:
+./samples/SAFE/__tmp_a457de68.c:151:5: error: expected declaration or statement at end of input
+  151 |     }
+      |     ^

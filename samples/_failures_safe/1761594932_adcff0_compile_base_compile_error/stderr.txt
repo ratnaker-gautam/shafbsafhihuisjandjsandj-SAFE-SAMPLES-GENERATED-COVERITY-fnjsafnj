@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_3bbf4a0a.c: In function ‘main’:
+./samples/SAFE/__tmp_3bbf4a0a.c:155:17: error: expected declaration or statement at end of input
+  155 |                 printf("Sum of first %d terms: %.10f\n", terms, result);
+      |                 ^~~~~~
+./samples/SAFE/__tmp_3bbf4a0a.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3bbf4a0a.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3bbf4a0a.c:155:17: error: expected declaration or statement at end of input

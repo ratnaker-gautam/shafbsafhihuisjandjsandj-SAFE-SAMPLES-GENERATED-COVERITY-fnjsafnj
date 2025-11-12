@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a3ab4247.c: In function ‘prim’:
+./samples/SAFE/__tmp_a3ab4247.c:180:5: error: expected expression at end of input
+  180 |     if (!graph || graph->type !=
+      |     ^~
+./samples/SAFE/__tmp_a3ab4247.c:180:5: error: expected declaration or statement at end of input

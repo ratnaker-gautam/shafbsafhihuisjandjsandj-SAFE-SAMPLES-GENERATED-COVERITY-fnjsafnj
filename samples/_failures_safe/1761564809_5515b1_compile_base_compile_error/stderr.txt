@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_bdca5c31.c: In function ‘bfs’:
+./samples/SAFE/__tmp_bdca5c31.c:193:9: error: expected declaration or statement at end of input
+  193 |         graph->nodes[i]->parent = NULL;
+      |         ^~~~~
+./samples/SAFE/__tmp_bdca5c31.c:193:9: error: expected declaration or statement at end of input

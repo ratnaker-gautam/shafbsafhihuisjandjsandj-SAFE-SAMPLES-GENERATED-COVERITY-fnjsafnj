@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8d9b6624.c: In function ‘main’:
+./samples/SAFE/__tmp_8d9b6624.c:172:5: error: expected expression at end of input
+  172 |     print_tokens(tokens,
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_8d9b6624.c:172:5: error: expected declaration or statement at end of input

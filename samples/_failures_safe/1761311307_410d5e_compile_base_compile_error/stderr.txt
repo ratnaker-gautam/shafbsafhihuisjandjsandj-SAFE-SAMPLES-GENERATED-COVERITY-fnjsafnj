@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_a60d1201.c: In function ‘main’:
+./samples/SAFE/__tmp_a60d1201.c:147:97: error: ‘decomp’ undeclared (first use in this function)
+  147 |     size_t decompressed_size = decompress_rle(compressed, compressed_size, decompressed, sizeof(decomp
+      |                                                                                                 ^~~~~~
+./samples/SAFE/__tmp_a60d1201.c:147:97: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a60d1201.c:147:103: error: expected ‘)’ at end of input
+  147 |     size_t decompressed_size = decompress_rle(compressed, compressed_size, decompressed, sizeof(decomp
+      |                                                                                                ~      ^
+      |                                                                                                       )
+./samples/SAFE/__tmp_a60d1201.c:147:5: error: expected declaration or statement at end of input
+  147 |     size_t decompressed_size = decompress_rle(compressed, compressed_size, decompressed, sizeof(decomp
+      |     ^~~~~~

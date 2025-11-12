@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_4caba4cc.c: In function ‘main’:
+./samples/SAFE/__tmp_4caba4cc.c:151:9: error: used struct type value where scalar is required
+  151 |     if (result
+      |         ^~~~~~
+./samples/SAFE/__tmp_4caba4cc.c:151:15: error: expected ‘)’ at end of input
+  151 |     if (result
+      |        ~      ^
+      |               )
+./samples/SAFE/__tmp_4caba4cc.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (result
+      |     ^~

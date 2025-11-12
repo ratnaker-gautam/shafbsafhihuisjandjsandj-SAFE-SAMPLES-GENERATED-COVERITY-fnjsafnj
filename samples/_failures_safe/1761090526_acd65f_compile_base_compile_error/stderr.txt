@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4055fcdb.c: In function ‘main’:
+./samples/SAFE/__tmp_4055fcdb.c:183:42: error: expected ‘)’ at end of input
+  183 |     double ratio = (compressed.size * 100
+      |                    ~                     ^
+      |                                          )
+./samples/SAFE/__tmp_4055fcdb.c:183:5: error: expected declaration or statement at end of input
+  183 |     double ratio = (compressed.size * 100
+      |     ^~~~~~

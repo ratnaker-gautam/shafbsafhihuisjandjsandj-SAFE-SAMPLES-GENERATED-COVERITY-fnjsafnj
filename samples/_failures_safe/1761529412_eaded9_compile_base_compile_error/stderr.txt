@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d0792749.c: In function ‘matrix_subtract’:
+./samples/SAFE/__tmp_d0792749.c:164:59: error: expected ‘)’ at end of input
+  164 |         result->data[i] = malloc(result->cols * sizeof(int
+      |                                                       ~   ^
+      |                                                           )
+./samples/SAFE/__tmp_d0792749.c:164:9: error: expected declaration or statement at end of input
+  164 |         result->data[i] = malloc(result->cols * sizeof(int
+      |         ^~~~~~
+./samples/SAFE/__tmp_d0792749.c:164:9: error: expected declaration or statement at end of input

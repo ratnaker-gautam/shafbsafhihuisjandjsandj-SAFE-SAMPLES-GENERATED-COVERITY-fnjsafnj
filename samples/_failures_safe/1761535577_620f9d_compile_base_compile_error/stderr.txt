@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_74cfa824.c:158:28: error: expected declaration specifiers or ‘...’ at end of input
+  158 | int read_identifier(struct LexerState *lexer,
+      |                            ^~~~~~~~~~

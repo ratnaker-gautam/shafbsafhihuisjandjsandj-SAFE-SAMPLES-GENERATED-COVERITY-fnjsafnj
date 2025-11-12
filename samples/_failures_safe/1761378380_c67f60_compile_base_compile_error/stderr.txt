@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8c31e267.c: In function ‘main’:
+./samples/SAFE/__tmp_8c31e267.c:150:36: error: expected ‘)’ at end of input
+  150 |     initialize_transition_table(&tt
+      |                                ~   ^
+      |                                    )
+./samples/SAFE/__tmp_8c31e267.c:150:5: error: expected declaration or statement at end of input
+  150 |     initialize_transition_table(&tt
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~

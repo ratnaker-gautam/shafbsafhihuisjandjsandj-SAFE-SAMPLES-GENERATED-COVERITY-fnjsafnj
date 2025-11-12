@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_94e139b7.c: In function ‘main’:
+./samples/SAFE/__tmp_94e139b7.c:145:56: error: ‘input_b’ undeclared (first use in this function); did you mean ‘input_buf’?
+  145 |     if (decompressed_size == 0 || decompressed_size != input_b
+      |                                                        ^~~~~~~
+      |                                                        input_buf
+./samples/SAFE/__tmp_94e139b7.c:145:56: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_94e139b7.c:145:63: error: expected ‘)’ at end of input
+  145 |     if (decompressed_size == 0 || decompressed_size != input_b
+      |        ~                                                      ^
+      |                                                               )
+./samples/SAFE/__tmp_94e139b7.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (decompressed_size == 0 || decompressed_size != input_b
+      |     ^~

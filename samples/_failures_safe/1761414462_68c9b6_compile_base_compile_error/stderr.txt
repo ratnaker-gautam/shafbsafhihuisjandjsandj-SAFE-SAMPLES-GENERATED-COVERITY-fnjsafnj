@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2eddf27c.c: In function ‘main’:
+./samples/SAFE/__tmp_2eddf27c.c:146:5: error: expected declaration or statement at end of input
+  146 |     if (sum.data != NULL) {
+      |     ^~
+./samples/SAFE/__tmp_2eddf27c.c:146:5: error: expected declaration or statement at end of input

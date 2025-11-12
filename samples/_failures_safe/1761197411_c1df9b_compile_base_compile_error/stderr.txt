@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_39b7e65a.c: In function ‘main’:
+./samples/SAFE/__tmp_39b7e65a.c:145:36: error: expected ‘)’ at end of input
+  145 |     if (!validate_filename(filename
+      |                           ~        ^
+      |                                    )
+./samples/SAFE/__tmp_39b7e65a.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (!validate_filename(filename
+      |     ^~

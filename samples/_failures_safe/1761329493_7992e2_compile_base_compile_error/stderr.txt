@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ac8eb737.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_ac8eb737.c:159:19: error: expected ‘;’ at end of input
+  159 |     start->visited
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_ac8eb737.c:159:5: error: expected declaration or statement at end of input
+  159 |     start->visited
+      |     ^~~~~

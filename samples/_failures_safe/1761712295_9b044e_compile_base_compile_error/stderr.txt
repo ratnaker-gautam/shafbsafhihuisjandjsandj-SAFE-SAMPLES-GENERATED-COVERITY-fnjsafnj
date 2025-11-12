@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_c93533e1.c: In function ‘main’:
+./samples/SAFE/__tmp_c93533e1.c:130:53: error: invalid operands to binary / (have ‘int’ and ‘int (*)[10]’)
+  130 |                         if (matrix1[i][j] < INT_MAX / matrix2
+      |                                                     ^
+      |                                                     |
+      |                                                     int (*)[10]
+./samples/SAFE/__tmp_c93533e1.c:130:62: error: expected ‘)’ at end of input
+  130 |                         if (matrix1[i][j] < INT_MAX / matrix2
+      |                            ~                                 ^
+      |                                                              )
+./samples/SAFE/__tmp_c93533e1.c:130:25: error: expected declaration or statement at end of input
+  130 |                         if (matrix1[i][j] < INT_MAX / matrix2
+      |                         ^~
+./samples/SAFE/__tmp_c93533e1.c:130:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c93533e1.c:130:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c93533e1.c:130:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c93533e1.c:130:25: error: expected declaration or statement at end of input

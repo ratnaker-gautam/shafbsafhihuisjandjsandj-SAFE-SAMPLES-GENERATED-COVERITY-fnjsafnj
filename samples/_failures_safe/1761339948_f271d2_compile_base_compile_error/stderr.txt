@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_7767f253.c: In function ‘get_user_data’:
+./samples/SAFE/__tmp_7767f253.c:176:5: error: expected declaration or statement at end of input
+  176 |     }
+      |     ^

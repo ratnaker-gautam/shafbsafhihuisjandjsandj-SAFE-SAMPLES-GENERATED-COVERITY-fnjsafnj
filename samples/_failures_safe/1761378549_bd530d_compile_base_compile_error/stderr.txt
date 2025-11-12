@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c9d597ac.c: In function ‘main’:
+./samples/SAFE/__tmp_c9d597ac.c:127:28: error: expected ‘)’ at end of input
+  127 |     add_log_entry(&analyzer
+      |                  ~         ^
+      |                            )
+./samples/SAFE/__tmp_c9d597ac.c:127:5: error: too few arguments to function ‘add_log_entry’
+  127 |     add_log_entry(&analyzer
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_c9d597ac.c:50:5: note: declared here
+   50 | int add_log_entry(struct LogAnalyzer *analyzer, const char *timestamp, const char *level, const char *message) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_c9d597ac.c:127:5: error: expected declaration or statement at end of input
+  127 |     add_log_entry(&analyzer
+      |     ^~~~~~~~~~~~~

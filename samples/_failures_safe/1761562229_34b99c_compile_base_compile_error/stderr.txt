@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_30a0ea8c.c: In function ‘read_log_file’:
+./samples/SAFE/__tmp_30a0ea8c.c:120: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_30a0ea8c.c:119:8: note: to match this ‘(’
+  119 |     if (analyzer == NULL
+      |        ^
+./samples/SAFE/__tmp_30a0ea8c.c:119:5: error: expected declaration or statement at end of input
+  119 |     if (analyzer == NULL
+      |     ^~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_90e85a17.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_90e85a17.c:142:12: error: missing terminating " character
+  142 |     printf("
+      |            ^
+./samples/SAFE/__tmp_90e85a17.c:142:5: error: expected expression at end of input
+  142 |     printf("
+      |     ^~~~~~
+./samples/SAFE/__tmp_90e85a17.c:142:5: error: expected declaration or statement at end of input

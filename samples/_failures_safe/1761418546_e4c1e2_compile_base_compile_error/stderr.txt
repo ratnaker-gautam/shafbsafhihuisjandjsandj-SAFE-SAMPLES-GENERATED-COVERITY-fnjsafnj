@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d368cb6a.c: In function ‘main’:
+./samples/SAFE/__tmp_d368cb6a.c:166:9: error: expected declaration or statement at end of input
+  166 |         State new_state = process_event(sm, event);
+      |         ^~~~~
+./samples/SAFE/__tmp_d368cb6a.c:166:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_cf4f228a.c: In function ‘tokenize_and_parse’:
+./samples/SAFE/__tmp_cf4f228a.c:176:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  176 |         struct Token token
+      |                ^~~~~
+./samples/SAFE/__tmp_cf4f228a.c:176:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cf4f228a.c:176:16: error: expected declaration or statement at end of input

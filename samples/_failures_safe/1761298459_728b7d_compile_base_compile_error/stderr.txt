@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_ffe64164.c: In function ‘main’:
+./samples/SAFE/__tmp_ffe64164.c:150:32: error: expected ‘)’ at end of input
+  150 |                 if (status == 1
+      |                    ~           ^
+      |                                )
+./samples/SAFE/__tmp_ffe64164.c:150:17: error: expected declaration or statement at end of input
+  150 |                 if (status == 1
+      |                 ^~
+./samples/SAFE/__tmp_ffe64164.c:150:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ffe64164.c:150:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ffe64164.c:150:17: error: expected declaration or statement at end of input

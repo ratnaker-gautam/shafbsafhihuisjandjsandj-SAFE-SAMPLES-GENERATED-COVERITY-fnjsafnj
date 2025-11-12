@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ead5968d.c: In function ‘main’:
+./samples/SAFE/__tmp_ead5968d.c:182:9: error: expected declaration or statement at end of input
+  182 |         printf("Invalid choice\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_ead5968d.c:182:9: error: expected declaration or statement at end of input

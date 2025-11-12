@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f25660d3.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_f25660d3.c:149:9: error: expected declaration or statement at end of input
+  149 |         column += advance;
+      |         ^~~~~~
+./samples/SAFE/__tmp_f25660d3.c:149:9: error: expected declaration or statement at end of input

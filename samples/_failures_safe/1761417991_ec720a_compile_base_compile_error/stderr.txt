@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b67e2b21.c: In function ‘main’:
+./samples/SAFE/__tmp_b67e2b21.c:116:13: error: expected declaration or statement at end of input
+  116 |             printf("Invalid byte input\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_b67e2b21.c:116:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b67e2b21.c:116:13: error: expected declaration or statement at end of input

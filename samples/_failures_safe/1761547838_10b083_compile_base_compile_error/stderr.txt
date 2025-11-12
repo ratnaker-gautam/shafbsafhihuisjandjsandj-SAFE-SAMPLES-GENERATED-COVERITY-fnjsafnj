@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d79e2bdb.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_d79e2bdb.c:164:9: error: expected identifier at end of input
+  164 |         tokens[token_count].
+      |         ^~~~~~
+./samples/SAFE/__tmp_d79e2bdb.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d79e2bdb.c:164:9: error: expected declaration or statement at end of input

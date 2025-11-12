@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_42256f80.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_42256f80.c:129:67: error: expected ‘]’ at end of input
+  129 |                    analyzer->entries[i].level, analyzer->entries[i
+      |                                                                   ^
+      |                                                                   ]
+./samples/SAFE/__tmp_42256f80.c:129:20: error: expected declaration or statement at end of input
+  129 |                    analyzer->entries[i].level, analyzer->entries[i
+      |                    ^~~~~~~~
+./samples/SAFE/__tmp_42256f80.c:129:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_42256f80.c:129:20: error: expected declaration or statement at end of input

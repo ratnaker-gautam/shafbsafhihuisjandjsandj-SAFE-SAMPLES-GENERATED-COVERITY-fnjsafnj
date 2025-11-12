@@ -1,0 +1,23 @@
+./samples/SAFE/__tmp_0c3db799.c: In function ‘main’:
+./samples/SAFE/__tmp_0c3db799.c:148:45: error: ‘s’ undeclared (first use in this function); did you mean ‘sm’?
+  148 |                     sm.buffer_pos = strcspn(s
+      |                                             ^
+      |                                             sm
+./samples/SAFE/__tmp_0c3db799.c:148:45: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0c3db799.c:148:46: error: expected ‘)’ at end of input
+  148 |                     sm.buffer_pos = strcspn(s
+      |                                            ~ ^
+      |                                              )
+./samples/SAFE/__tmp_0c3db799.c:148:37: error: too few arguments to function ‘strcspn’
+  148 |                     sm.buffer_pos = strcspn(s
+      |                                     ^~~~~~~
+In file included from ./samples/SAFE/__tmp_0c3db799.c:4:
+/usr/include/string.h:293:15: note: declared here
+  293 | extern size_t strcspn (const char *__s, const char *__reject)
+      |               ^~~~~~~
+./samples/SAFE/__tmp_0c3db799.c:148:21: error: expected declaration or statement at end of input
+  148 |                     sm.buffer_pos = strcspn(s
+      |                     ^~
+./samples/SAFE/__tmp_0c3db799.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c3db799.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c3db799.c:148:21: error: expected declaration or statement at end of input

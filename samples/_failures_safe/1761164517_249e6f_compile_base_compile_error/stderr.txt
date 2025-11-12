@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ff542474.c: In function ‘main’:
+./samples/SAFE/__tmp_ff542474.c:137: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_ff542474.c:130:33: note: to match this ‘{’
+  130 |     struct EventData events[] = {
+      |                                 ^
+./samples/SAFE/__tmp_ff542474.c:136:9: error: expected declaration or statement at end of input
+  136 |         {EVENT_RESET, "Reset command", 13}
+      |         ^

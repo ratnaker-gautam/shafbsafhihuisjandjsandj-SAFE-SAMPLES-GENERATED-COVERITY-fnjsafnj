@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_2f3e3358.c: In function ‘main’:
+./samples/SAFE/__tmp_2f3e3358.c:164:9: error: ‘decomp’ undeclared (first use in this function)
+  164 |     if (decomp
+      |         ^~~~~~
+./samples/SAFE/__tmp_2f3e3358.c:164:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2f3e3358.c:164:15: error: expected ‘)’ at end of input
+  164 |     if (decomp
+      |        ~      ^
+      |               )
+./samples/SAFE/__tmp_2f3e3358.c:164:5: error: expected declaration or statement at end of input
+  164 |     if (decomp
+      |     ^~

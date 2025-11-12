@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_09c863d8.c: In function ‘tokenize_next’:
+./samples/SAFE/__tmp_09c863d8.c:167:34: error: expected ‘)’ at end of input
+  167 |         if (!read_number(t, token
+      |                         ~        ^
+      |                                  )
+./samples/SAFE/__tmp_09c863d8.c:167:9: error: expected declaration or statement at end of input
+  167 |         if (!read_number(t, token
+      |         ^~
+./samples/SAFE/__tmp_09c863d8.c:167:9: error: expected declaration or statement at end of input

@@ -1,0 +1,167 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: monolithic_main ; Variation: parser_tokenizer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_TOKENS 100
+#define MAX_TOKEN_LEN 64
+
+enum TokenType {
+    TOKEN_NUMBER,
+    TOKEN_IDENTIFIER,
+    TOKEN_OPERATOR,
+    TOKEN_STRING,
+    TOKEN_EOF,
+    TOKEN_ERROR
+};
+
+struct Token {
+    enum TokenType type;
+    char value[MAX_TOKEN_LEN];
+    int line;
+    int column;
+};
+
+int is_operator_char(char c) {
+    return strchr("+-*/=<>!&|", c) != NULL;
+}
+
+int parse_operator(const char *input, int pos, char *output) {
+    int len = 0;
+    char c = input[pos];
+    
+    if (c == '&' && input[pos + 1] == '&') {
+        strcpy(output, "&&");
+        len = 2;
+    } else if (c == '|' && input[pos + 1] == '|') {
+        strcpy(output, "||");
+        len = 2;
+    } else if (c == '=' && input[pos + 1] == '=') {
+        strcpy(output, "==");
+        len = 2;
+    } else if (c == '!' && input[pos + 1] == '=') {
+        strcpy(output, "!=");
+        len = 2;
+    } else if (c == '<' && input[pos + 1] == '=') {
+        strcpy(output, "<=");
+        len = 2;
+    } else if (c == '>' && input[pos + 1] == '=') {
+        strcpy(output, ">=");
+        len = 2;
+    } else {
+        output[0] = c;
+        output[1] = '\0';
+        len = 1;
+    }
+    
+    return len;
+}
+
+int tokenize(const char *input, struct Token *tokens, int max_tokens) {
+    int pos = 0;
+    int line = 1;
+    int column = 1;
+    int token_count = 0;
+    int input_len = strlen(input);
+    
+    while (pos < input_len && token_count < max_tokens - 1) {
+        char current = input[pos];
+        
+        if (isspace(current)) {
+            if (current == '\n') {
+                line++;
+                column = 1;
+            } else {
+                column++;
+            }
+            pos++;
+            continue;
+        }
+        
+        struct Token *token = &tokens[token_count];
+        token->line = line;
+        token->column = column;
+        
+        if (isdigit(current)) {
+            token->type = TOKEN_NUMBER;
+            int i = 0;
+            while (pos < input_len && i < MAX_TOKEN_LEN - 1 && 
+                   (isdigit(input[pos]) || input[pos] == '.')) {
+                token->value[i++] = input[pos++];
+                column++;
+            }
+            token->value[i] = '\0';
+            token_count++;
+        } else if (isalpha(current) || current == '_') {
+            token->type = TOKEN_IDENTIFIER;
+            int i = 0;
+            while (pos < input_len && i < MAX_TOKEN_LEN - 1 && 
+                   (isalnum(input[pos]) || input[pos] == '_')) {
+                token->value[i++] = input[pos++];
+                column++;
+            }
+            token->value[i] = '\0';
+            token_count++;
+        } else if (current == '"') {
+            token->type = TOKEN_STRING;
+            int i = 0;
+            pos++;
+            column++;
+            
+            while (pos < input_len && i < MAX_TOKEN_LEN - 1 && input[pos] != '"') {
+                if (input[pos] == '\\' && pos + 1 < input_len) {
+                    token->value[i++] = input[pos++];
+                    column++;
+                }
+                token->value[i++] = input[pos++];
+                column++;
+            }
+            
+            if (pos < input_len && input[pos] == '"') {
+                pos++;
+                column++;
+            }
+            token->value[i] = '\0';
+            token_count++;
+        } else if (is_operator_char(current)) {
+            token->type = TOKEN_OPERATOR;
+            int op_len = parse_operator(input, pos, token->value);
+            pos += op_len;
+            column += op_len;
+            token_count++;
+        } else {
+            token->type = TOKEN_ERROR;
+            token->value[0] = current;
+            token->value[1] = '\0';
+            pos++;
+            column++;
+            token_count++;
+        }
+    }
+    
+    if (token_count < max_tokens) {
+        tokens[token_count].type = TOKEN_EOF;
+        tokens[token_count].value[0] = '\0';
+        tokens[token_count].line = line;
+        tokens[token_count].column = column;
+        token_count++;
+    }
+    
+    return token_count;
+}
+
+void print_token_type(enum TokenType type) {
+    switch (type) {
+        case TOKEN_NUMBER: printf("NUMBER"); break;
+        case TOKEN_IDENTIFIER: printf("IDENTIFIER"); break;
+        case TOKEN_OPERATOR: printf("OPERATOR"); break;
+        case TOKEN_STRING: printf("STRING"); break;
+        case TOKEN_EOF: printf("EOF"); break;
+        case TOKEN_ERROR: printf("ERROR"); break;
+    }
+}
+
+int main(void) {
+    char input[1024];
+    struct Token

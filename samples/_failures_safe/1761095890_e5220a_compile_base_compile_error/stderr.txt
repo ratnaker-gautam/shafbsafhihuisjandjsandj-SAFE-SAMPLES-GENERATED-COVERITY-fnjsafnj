@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_3aaf138a.c: In function ‘main’:
+./samples/SAFE/__tmp_3aaf138a.c:130:13: error: expected declaration or statement at end of input
+  130 |             input_matrix(rows, cols, matrix2);
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_3aaf138a.c:130:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3aaf138a.c:130:13: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_860140f6.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_860140f6.c:165:51: error: expected ‘)’ at end of input
+  165 |     while (parser->current_token.type != TOKEN_EOF
+      |           ~                                       ^
+      |                                                   )
+./samples/SAFE/__tmp_860140f6.c:165:5: error: expected declaration or statement at end of input
+  165 |     while (parser->current_token.type != TOKEN_EOF
+      |     ^~~~~

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_4aed2def.c: In function ‘main’:
+./samples/SAFE/__tmp_4aed2def.c:162:38: error: invalid operands to binary >= (have ‘int’ and ‘Graph’)
+  162 |     if (start_node < 0 || start_node >= graph
+      |                                      ^~
+./samples/SAFE/__tmp_4aed2def.c:162:46: error: expected ‘)’ at end of input
+  162 |     if (start_node < 0 || start_node >= graph
+      |        ~                                     ^
+      |                                              )
+./samples/SAFE/__tmp_4aed2def.c:162:5: error: expected declaration or statement at end of input
+  162 |     if (start_node < 0 || start_node >= graph
+      |     ^~

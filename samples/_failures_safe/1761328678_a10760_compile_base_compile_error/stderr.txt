@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_dd8b3280.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_dd8b3280.c:137:21: error: expected expression at end of input
+  137 |                     (a->data[i][k] < 0 && result->data[i][j] < INT_MIN - product))
+      |                     ^
+./samples/SAFE/__tmp_dd8b3280.c:137:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dd8b3280.c:137:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dd8b3280.c:137:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dd8b3280.c:137:21: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_711fbf8e.c: In function ‘display_results’:
+./samples/SAFE/__tmp_711fbf8e.c:153:25: error: expected ‘;’ at end of input
+  153 |     for (size_t i = 0; i
+      |                         ^
+      |                         ;
+./samples/SAFE/__tmp_711fbf8e.c:153:5: error: expected declaration or statement at end of input
+  153 |     for (size_t i = 0; i
+      |     ^~~

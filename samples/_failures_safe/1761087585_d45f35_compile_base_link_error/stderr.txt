@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccTXGJ7E.o: in function `calculate_expression':
+__tmp_4b04bf12.c:(.text+0x19): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

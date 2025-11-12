@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_eddb553c.c: In function ‘main’:
+./samples/SAFE/__tmp_eddb553c.c:134:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  134 |         int rows_b
+      |         ^~~
+./samples/SAFE/__tmp_eddb553c.c:134:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eddb553c.c:134:9: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_e9940bb8.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_e9940bb8.c:181:13: error: expected declaration or statement at end of input
+  181 |             if (strncmp(input, "quit", 4) == 0) {
+      |             ^~
+./samples/SAFE/__tmp_e9940bb8.c:181:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e9940bb8.c:181:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e9940bb8.c:181:13: error: expected declaration or statement at end of input

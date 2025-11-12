@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2640a21c.c: In function ‘main’:
+./samples/SAFE/__tmp_2640a21c.c:158:9: error: expected declaration or statement at end of input
+  158 |         if (sm.current_state == STATE_IDLE) {
+      |         ^~
+./samples/SAFE/__tmp_2640a21c.c:158:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2640a21c.c:158:9: error: expected declaration or statement at end of input

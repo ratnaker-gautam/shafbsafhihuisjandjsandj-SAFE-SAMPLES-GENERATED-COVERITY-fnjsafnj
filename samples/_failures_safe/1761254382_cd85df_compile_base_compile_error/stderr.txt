@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_3843bdef.c: In function ‘main’:
+./samples/SAFE/__tmp_3843bdef.c:161:21: error: expected ‘)’ at end of input
+  161 |     if (!buffer_init
+      |        ~            ^
+      |                     )
+./samples/SAFE/__tmp_3843bdef.c:161:5: error: expected declaration or statement at end of input
+  161 |     if (!buffer_init
+      |     ^~

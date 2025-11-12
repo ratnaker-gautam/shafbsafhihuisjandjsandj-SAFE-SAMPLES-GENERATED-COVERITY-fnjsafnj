@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f452b32d.c: In function ‘main’:
+./samples/SAFE/__tmp_f452b32d.c:142:17: error: expected expression at end of input
+  142 |                 sum[i][j] = (
+      |                 ^~~
+./samples/SAFE/__tmp_f452b32d.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f452b32d.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f452b32d.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f452b32d.c:142:17: error: expected declaration or statement at end of input

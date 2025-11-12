@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_d8b296c8.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_d8b296c8.c:161:37: error: ‘queue’ undeclared (first use in this function); did you mean ‘Queue’?
+  161 |         struct GraphNode *current = queue
+      |                                     ^~~~~
+      |                                     Queue
+./samples/SAFE/__tmp_d8b296c8.c:161:37: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d8b296c8.c:161:16: error: expected ‘,’ or ‘;’ at end of input
+  161 |         struct GraphNode *current = queue
+      |                ^~~~~~~~~
+./samples/SAFE/__tmp_d8b296c8.c:161:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d8b296c8.c:161:16: error: expected declaration or statement at end of input

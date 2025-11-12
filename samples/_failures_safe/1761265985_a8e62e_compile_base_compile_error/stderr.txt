@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_cf63b437.c: In function ‘main’:
+./samples/SAFE/__tmp_cf63b437.c:139:9: error: expected identifier at end of input
+  139 |         float ratio = (float)compressed.
+      |         ^~~~~
+./samples/SAFE/__tmp_cf63b437.c:139:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cf63b437.c:139:9: error: expected declaration or statement at end of input

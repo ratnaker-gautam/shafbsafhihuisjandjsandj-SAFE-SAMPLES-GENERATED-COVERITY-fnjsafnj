@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_02f3eff1.c: In function ‘main’:
+./samples/SAFE/__tmp_02f3eff1.c:159:46: error: expected ‘;’ at end of input
+  159 |                     for (int k = 0; k < cols1
+      |                                              ^
+      |                                              ;
+./samples/SAFE/__tmp_02f3eff1.c:159:21: error: expected declaration or statement at end of input
+  159 |                     for (int k = 0; k < cols1
+      |                     ^~~
+./samples/SAFE/__tmp_02f3eff1.c:159:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_02f3eff1.c:159:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_02f3eff1.c:159:21: error: expected declaration or statement at end of input

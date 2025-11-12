@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_cfc7b887.c: In function ‘decreaseKey’:
+./samples/SAFE/__tmp_cfc7b887.c:145:42: error: expected ‘]’ at end of input
+  145 |         minHeap->positions[minHeap->array
+      |                                          ^
+      |                                          ]
+./samples/SAFE/__tmp_cfc7b887.c:145:27: error: array subscript is not an integer
+  145 |         minHeap->positions[minHeap->array
+      |                           ^
+./samples/SAFE/__tmp_cfc7b887.c:145:9: error: expected declaration or statement at end of input
+  145 |         minHeap->positions[minHeap->array
+      |         ^~~~~~~
+./samples/SAFE/__tmp_cfc7b887.c:145:9: error: expected declaration or statement at end of input

@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_77aca322.c:120:33: error: expected ‘{’ at end of input
+  120 | void run_simulation_step(struct SimulationState* sim, const struct
+      |                                 ^~~~~~~~~~~~~~~

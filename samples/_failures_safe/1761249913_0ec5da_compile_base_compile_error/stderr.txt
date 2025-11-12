@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ca5c00a4.c: In function ‘main’:
+./samples/SAFE/__tmp_ca5c00a4.c:172:34: error: expected ‘)’ at end of input
+  172 |     if (len > 0 && input[len - 1]
+      |        ~                         ^
+      |                                  )
+./samples/SAFE/__tmp_ca5c00a4.c:172:5: error: expected declaration or statement at end of input
+  172 |     if (len > 0 && input[len - 1]
+      |     ^~

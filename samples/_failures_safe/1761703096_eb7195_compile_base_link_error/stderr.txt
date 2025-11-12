@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccCh7MZm.o: in function `handle_processing':
+__tmp_0960b0af.c:(.text+0xd5): undefined reference to `process_data'
+collect2: error: ld returned 1 exit status

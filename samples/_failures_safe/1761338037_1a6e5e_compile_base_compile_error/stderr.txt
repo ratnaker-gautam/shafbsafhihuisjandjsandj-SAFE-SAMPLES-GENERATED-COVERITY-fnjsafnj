@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_e2986581.c: In function ‘main’:
+./samples/SAFE/__tmp_e2986581.c:179:26: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  179 |     if (!init_file_data(&input
+      |                          ^~~~~
+      |                          int
+./samples/SAFE/__tmp_e2986581.c:179:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e2986581.c:179:31: error: expected ‘)’ at end of input
+  179 |     if (!init_file_data(&input
+      |                        ~      ^
+      |                               )
+./samples/SAFE/__tmp_e2986581.c:179:10: error: too few arguments to function ‘init_file_data’
+  179 |     if (!init_file_data(&input
+      |          ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e2986581.c:20:5: note: declared here
+   20 | int init_file_data(struct file_data *fd, size_t initial_size) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e2986581.c:179:5: error: expected declaration or statement at end of input
+  179 |     if (!init_file_data(&input
+      |     ^~

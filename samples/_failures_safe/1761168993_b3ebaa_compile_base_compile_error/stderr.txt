@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fc0e3322.c: In function ‘main’:
+./samples/SAFE/__tmp_fc0e3322.c:153:9: error: expected expression at end of input
+  153 |         {EVENT_RESET, "",
+      |         ^
+./samples/SAFE/__tmp_fc0e3322.c:153:9: error: expected declaration or statement at end of input

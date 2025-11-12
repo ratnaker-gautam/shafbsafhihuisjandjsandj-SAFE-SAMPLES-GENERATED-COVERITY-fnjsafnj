@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_201d6464.c: In function ‘main’:
+./samples/SAFE/__tmp_201d6464.c:145: error: expected ‘]’ at end of input
+./samples/SAFE/__tmp_201d6464.c:144:5: error: expected declaration or statement at end of input
+  144 |     uint8_t decompressed_data[MAX_INPUT_SIZE
+      |     ^~~~~~~

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_26a27c23.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_26a27c23.c:171:19: error: ‘TOKEN_PL’ undeclared (first use in this function); did you mean ‘TOKEN_PLUS’?
+  171 |         if (op == TOKEN_PL
+      |                   ^~~~~~~~
+      |                   TOKEN_PLUS
+./samples/SAFE/__tmp_26a27c23.c:171:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_26a27c23.c:171:27: error: expected ‘)’ at end of input
+  171 |         if (op == TOKEN_PL
+      |            ~              ^
+      |                           )
+./samples/SAFE/__tmp_26a27c23.c:171:9: error: expected declaration or statement at end of input
+  171 |         if (op == TOKEN_PL
+      |         ^~
+./samples/SAFE/__tmp_26a27c23.c:171:9: error: expected declaration or statement at end of input

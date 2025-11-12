@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_f06537ca.c: In function ‘main’:
+./samples/SAFE/__tmp_f06537ca.c:132:17: error: expected expression at end of input
+  132 |                 matrix_add(rows, cols, matrixA,
+      |                 ^~~~~~~~~~
+./samples/SAFE/__tmp_f06537ca.c:132:17: error: too few arguments to function ‘matrix_add’
+./samples/SAFE/__tmp_f06537ca.c:54:6: note: declared here
+   54 | void matrix_add(int rows, int cols, int A[rows][cols], int B[rows][cols], int result[rows][cols]) {
+      |      ^~~~~~~~~~
+./samples/SAFE/__tmp_f06537ca.c:132:17: error: expected declaration or statement at end of input
+  132 |                 matrix_add(rows, cols, matrixA,
+      |                 ^~~~~~~~~~
+./samples/SAFE/__tmp_f06537ca.c:132:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f06537ca.c:132:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f06537ca.c:132:17: error: expected declaration or statement at end of input

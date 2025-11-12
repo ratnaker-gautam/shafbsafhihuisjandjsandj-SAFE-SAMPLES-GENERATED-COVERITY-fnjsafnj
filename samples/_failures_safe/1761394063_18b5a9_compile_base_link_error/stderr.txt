@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/cc6Fjg1k.o: in function `trigonometric':
+__tmp_4af9016d.c:(.text+0x81): undefined reference to `sincos'
+/usr/bin/ld: /tmp/cc6Fjg1k.o: in function `exponential':
+__tmp_4af9016d.c:(.text+0x5d): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

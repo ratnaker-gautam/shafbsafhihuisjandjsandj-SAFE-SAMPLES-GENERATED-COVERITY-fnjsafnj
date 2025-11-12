@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_9b862a9d.c: In function ‘main’:
+./samples/SAFE/__tmp_9b862a9d.c:122:16: error: missing terminating " character
+  122 |         printf("Cannot add matrices: dimensions must match.\n
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_9b862a9d.c:122:9: error: expected expression at end of input
+  122 |         printf("Cannot add matrices: dimensions must match.\n
+      |         ^~~~~~
+./samples/SAFE/__tmp_9b862a9d.c:122:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9b862a9d.c:122:9: error: expected declaration or statement at end of input

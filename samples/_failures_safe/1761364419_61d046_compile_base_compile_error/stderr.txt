@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_79dc6b36.c: In function ‘main’:
+./samples/SAFE/__tmp_79dc6b36.c:175:17: error: expected expression at end of input
+  175 |                 handled = handle_error(&machine,
+      |                 ^~~~~~~
+./samples/SAFE/__tmp_79dc6b36.c:175:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_79dc6b36.c:175:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_79dc6b36.c:175:17: error: expected declaration or statement at end of input

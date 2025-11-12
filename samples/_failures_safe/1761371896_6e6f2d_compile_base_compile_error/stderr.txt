@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_3f7e6736.c: In function ‘main’:
+./samples/SAFE/__tmp_3f7e6736.c:165:17: error: expected expression at end of input
+  165 |                 state_error(&
+      |                 ^~~~~~~~~~~
+./samples/SAFE/__tmp_3f7e6736.c:165:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3f7e6736.c:165:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3f7e6736.c:165:17: error: expected declaration or statement at end of input

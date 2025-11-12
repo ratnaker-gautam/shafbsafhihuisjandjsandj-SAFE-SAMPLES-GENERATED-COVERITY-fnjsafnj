@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8ee7e7bf.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_8ee7e7bf.c:133:9: error: expected identifier at end of input
+  133 |         for (int j = 0; j < m->
+      |         ^~~
+./samples/SAFE/__tmp_8ee7e7bf.c:133:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8ee7e7bf.c:133:9: error: expected declaration or statement at end of input

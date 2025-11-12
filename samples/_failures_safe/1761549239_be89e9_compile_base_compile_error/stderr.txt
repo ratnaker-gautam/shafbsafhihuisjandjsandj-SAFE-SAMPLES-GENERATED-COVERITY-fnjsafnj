@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c12bc5fe.c: In function ‘main’:
+./samples/SAFE/__tmp_c12bc5fe.c:153:44: error: expected ‘)’ at end of input
+  153 |     int operation_count = sizeof(operations
+      |                                 ~          ^
+      |                                            )
+./samples/SAFE/__tmp_c12bc5fe.c:153:5: error: expected declaration or statement at end of input
+  153 |     int operation_count = sizeof(operations
+      |     ^~~

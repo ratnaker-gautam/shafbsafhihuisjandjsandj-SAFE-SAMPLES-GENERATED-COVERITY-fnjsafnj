@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_658ef90d.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_658ef90d.c:146:21: error: expected expression at end of input
+  146 |                     (result[i][j] <
+      |                     ^
+./samples/SAFE/__tmp_658ef90d.c:146:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_658ef90d.c:146:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_658ef90d.c:146:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_658ef90d.c:146:21: error: expected declaration or statement at end of input

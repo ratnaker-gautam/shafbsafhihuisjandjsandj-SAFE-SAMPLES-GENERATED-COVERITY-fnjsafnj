@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b3b0975b.c: In function ‘main’:
+./samples/SAFE/__tmp_b3b0975b.c:148:5: error: expected declaration or statement at end of input
+  148 |     if (!read_input(&input)) {
+      |     ^~
+./samples/SAFE/__tmp_b3b0975b.c:148:5: error: expected declaration or statement at end of input

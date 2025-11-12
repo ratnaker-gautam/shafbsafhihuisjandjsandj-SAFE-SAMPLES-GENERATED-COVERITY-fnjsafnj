@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f8508731.c: In function ‘reset_machine’:
+./samples/SAFE/__tmp_f8508731.c:158:32: error: expected ‘)’ at end of input
+  158 |     initialize_state_machine(sm
+      |                             ~  ^
+      |                                )
+./samples/SAFE/__tmp_f8508731.c:158:5: error: expected declaration or statement at end of input
+  158 |     initialize_state_machine(sm
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~

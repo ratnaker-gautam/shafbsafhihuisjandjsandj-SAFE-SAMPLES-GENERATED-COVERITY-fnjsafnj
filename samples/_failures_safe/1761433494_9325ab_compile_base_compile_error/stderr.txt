@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9efb4d0e.c: In function ‘main’:
+./samples/SAFE/__tmp_9efb4d0e.c:189:9: error: ‘EVENT’ undeclared (first use in this function)
+  189 |         EVENT
+      |         ^~~~~
+./samples/SAFE/__tmp_9efb4d0e.c:189:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9efb4d0e.c:190: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_9efb4d0e.c:180:27: note: to match this ‘{’
+  180 |     enum event events[] = {
+      |                           ^
+./samples/SAFE/__tmp_9efb4d0e.c:189:9: error: expected declaration or statement at end of input
+  189 |         EVENT
+      |         ^~~~~

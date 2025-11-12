@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7f96034f.c: In function ‘print_token’:
+./samples/SAFE/__tmp_7f96034f.c:165: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_7f96034f.c:163:32: note: to match this ‘{’
+  163 |     const char *type_names[] = {
+      |                                ^
+./samples/SAFE/__tmp_7f96034f.c:164:9: error: expected declaration or statement at end of input
+  164 |         "NUMBER", "IDENTIFIER", "OPERATOR", "STRING", "EOF"
+      |         ^~~~~~~~

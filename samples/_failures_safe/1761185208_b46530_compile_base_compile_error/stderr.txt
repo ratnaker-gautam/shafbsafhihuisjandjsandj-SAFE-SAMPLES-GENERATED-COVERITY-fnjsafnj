@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b269cd30.c: In function ‘statistics_compute’:
+./samples/SAFE/__tmp_b269cd30.c:137:5: error: expected declaration or statement at end of input
+  137 |     stats->mean_z /= pc->count;
+      |     ^~~~~

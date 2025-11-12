@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_13c720c6.c: In function ‘topologicalSortUtil’:
+./samples/SAFE/__tmp_13c720c6.c:141:5: error: expected expression at end of input
+  141 |     for (int i = 0; i < graph->vertices;
+      |     ^~~
+./samples/SAFE/__tmp_13c720c6.c:141:5: error: expected declaration or statement at end of input

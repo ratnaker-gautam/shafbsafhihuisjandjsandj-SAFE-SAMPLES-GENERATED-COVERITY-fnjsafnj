@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_1fc97605.c: In function ‘cleanup_compression_context’:
+./samples/SAFE/__tmp_1fc97605.c:142:8: error: ‘struct CompressionContext’ has no member named ‘max’
+  142 |     ctx->max
+      |        ^~
+./samples/SAFE/__tmp_1fc97605.c:142:13: error: expected ‘;’ at end of input
+  142 |     ctx->max
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_1fc97605.c:142:5: error: expected declaration or statement at end of input
+  142 |     ctx->max
+      |     ^~~

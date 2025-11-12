@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6c708664.c: In function ‘matrix_determinant_3x3’:
+./samples/SAFE/__tmp_6c708664.c:126:5: error: expected expression at end of input
+  126 |     long term1 = (long)matrix[0][0] * ((long)matrix[1][1] * (long)
+      |     ^~~~
+./samples/SAFE/__tmp_6c708664.c:126:5: error: expected declaration or statement at end of input

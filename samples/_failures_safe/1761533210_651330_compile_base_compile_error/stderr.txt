@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_482ab7d1.c: In function ‘transform_bounds’:
+./samples/SAFE/__tmp_482ab7d1.c:128:47: error: incompatible types when initializing type ‘double’ using type ‘struct BoundingBox’
+  128 |     corners[6] = (struct Vector3D){box.max.x, box
+      |                                               ^~~
+./samples/SAFE/__tmp_482ab7d1.c:129: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_482ab7d1.c:128:35: note: to match this ‘{’
+  128 |     corners[6] = (struct Vector3D){box.max.x, box
+      |                                   ^
+./samples/SAFE/__tmp_482ab7d1.c:128:26: error: expected declaration or statement at end of input
+  128 |     corners[6] = (struct Vector3D){box.max.x, box
+      |                          ^~~~~~~~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_02acc00a.c: In function ‘main’:
+./samples/SAFE/__tmp_02acc00a.c:137:5: error: expected declaration or statement at end of input
+  137 |     add_log_entry(&analyzer, "2024-01-15 10:30:00", "INFO", "System started successfully");
+      |     ^~~~~~~~~~~~~

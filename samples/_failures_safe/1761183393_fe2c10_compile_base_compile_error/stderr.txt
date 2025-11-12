@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_b1380ba1.c: In function ‘print_result’:
+./samples/SAFE/__tmp_b1380ba1.c:151:14: error: ‘STATUS_IN’ undeclared (first use in this function); did you mean ‘STATUS_OK’?
+  151 |         case STATUS_IN
+      |              ^~~~~~~~~
+      |              STATUS_OK
+./samples/SAFE/__tmp_b1380ba1.c:151:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b1380ba1.c:151:9: error: expected ‘:’ or ‘...’ at end of input
+  151 |         case STATUS_IN
+      |         ^~~~
+./samples/SAFE/__tmp_b1380ba1.c:151:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b1380ba1.c:151:9: error: expected declaration or statement at end of input

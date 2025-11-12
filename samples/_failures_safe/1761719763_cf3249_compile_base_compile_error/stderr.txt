@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_fef44d2b.c: In function ‘main’:
+./samples/SAFE/__tmp_fef44d2b.c:173:5: error: expected declaration or statement at end of input
+  173 |     printf("Enter expression to tokenize: ");
+      |     ^~~~~~

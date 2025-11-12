@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f03ba5e7.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_f03ba5e7.c:137:43: error: expected ‘]’ at end of input
+  137 |     printf("ERROR: %d\n", severity_count[3
+      |                                           ^
+      |                                           ]
+./samples/SAFE/__tmp_f03ba5e7.c:137:5: error: expected declaration or statement at end of input
+  137 |     printf("ERROR: %d\n", severity_count[3
+      |     ^~~~~~

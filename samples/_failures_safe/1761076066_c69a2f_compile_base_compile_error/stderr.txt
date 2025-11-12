@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_5fd8d920.c: In function ‘print_entries_by_level’:
+./samples/SAFE/__tmp_5fd8d920.c:129:13: error: expected identifier at end of input
+  129 |             printf("%s - %s\n", entries[i].timestamp, entries[i].
+      |             ^~~~~~
+./samples/SAFE/__tmp_5fd8d920.c:129:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5fd8d920.c:129:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5fd8d920.c:129:13: error: expected declaration or statement at end of input

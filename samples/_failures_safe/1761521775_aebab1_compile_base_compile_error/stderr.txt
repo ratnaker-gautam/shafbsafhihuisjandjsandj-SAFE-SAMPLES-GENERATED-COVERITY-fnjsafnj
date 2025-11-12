@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_51b17442.c: In function ‘main’:
+./samples/SAFE/__tmp_51b17442.c:134:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  134 |             double val
+      |             ^~~~~~
+./samples/SAFE/__tmp_51b17442.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_51b17442.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_51b17442.c:134:13: error: expected declaration or statement at end of input

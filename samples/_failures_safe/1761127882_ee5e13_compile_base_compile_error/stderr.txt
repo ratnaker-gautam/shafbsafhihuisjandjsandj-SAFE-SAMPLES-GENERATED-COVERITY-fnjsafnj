@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_07fabb2a.c: In function ‘read_string’:
+./samples/SAFE/__tmp_07fabb2a.c:164:20: error: expected ‘;’ at end of input
+  164 |             advance
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_07fabb2a.c:164:13: error: expected declaration or statement at end of input
+  164 |             advance
+      |             ^~~~~~~
+./samples/SAFE/__tmp_07fabb2a.c:164:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_07fabb2a.c:164:13: error: expected declaration or statement at end of input

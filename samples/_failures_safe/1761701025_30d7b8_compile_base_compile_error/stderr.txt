@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_ed08e240.c: In function ‘main’:
+./samples/SAFE/__tmp_ed08e240.c:191:9: error: expected expression at end of input
+  191 |         if (!process_event(sm,
+      |         ^~
+./samples/SAFE/__tmp_ed08e240.c:191:14: error: too few arguments to function ‘process_event’
+  191 |         if (!process_event(sm,
+      |              ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_ed08e240.c:128:5: note: declared here
+  128 | int process_event(StateMachine* sm, Event event, const char* data, size_t len) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_ed08e240.c:191:9: error: expected declaration or statement at end of input
+  191 |         if (!process_event(sm,
+      |         ^~
+./samples/SAFE/__tmp_ed08e240.c:191:9: error: expected declaration or statement at end of input

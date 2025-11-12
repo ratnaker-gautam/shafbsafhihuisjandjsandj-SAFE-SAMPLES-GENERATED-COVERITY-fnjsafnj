@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2bad71b5.c: In function ‘main’:
+./samples/SAFE/__tmp_2bad71b5.c:143:5: error: expected declaration or statement at end of input
+  143 |     analyze_logs(logs, log_count);
+      |     ^~~~~~~~~~~~

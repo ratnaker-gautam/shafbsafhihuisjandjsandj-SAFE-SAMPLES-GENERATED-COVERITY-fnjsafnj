@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c221e5b8.c: In function ‘state_to_string’:
+./samples/SAFE/__tmp_c221e5b8.c:148:9: error: expected declaration or statement at end of input
+  148 |         case STATE_READING: return "READING";
+      |         ^~~~
+./samples/SAFE/__tmp_c221e5b8.c:148:9: error: expected declaration or statement at end of input

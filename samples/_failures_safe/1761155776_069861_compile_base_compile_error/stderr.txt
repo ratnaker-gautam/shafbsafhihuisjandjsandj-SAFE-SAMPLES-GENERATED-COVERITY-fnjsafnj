@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ec0b5827.c: In function ‘process_user_input’:
+./samples/SAFE/__tmp_ec0b5827.c:143:61: error: expected ‘)’ at end of input
+  143 |     while ((c = getchar()) != EOF && c != '\n' && input_size
+      |           ~                                                 ^
+      |                                                             )
+./samples/SAFE/__tmp_ec0b5827.c:143:5: error: expected declaration or statement at end of input
+  143 |     while ((c = getchar()) != EOF && c != '\n' && input_size
+      |     ^~~~~

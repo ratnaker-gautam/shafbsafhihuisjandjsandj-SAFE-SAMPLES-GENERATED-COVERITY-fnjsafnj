@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e2554168.c: In function ‘compress_data’:
+./samples/SAFE/__tmp_e2554168.c:139:13: error: expected expression at end of input
+  139 |             return compress_none(input, input_len, output,
+      |             ^~~~~~
+./samples/SAFE/__tmp_e2554168.c:139:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e2554168.c:139:13: error: expected declaration or statement at end of input

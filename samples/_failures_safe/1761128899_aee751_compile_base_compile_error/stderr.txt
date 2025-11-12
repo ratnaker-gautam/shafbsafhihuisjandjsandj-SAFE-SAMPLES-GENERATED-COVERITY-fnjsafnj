@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a1a956d2.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_a1a956d2.c:148:5: error: expected expression at end of input
+  148 |     if (event <
+      |     ^~
+./samples/SAFE/__tmp_a1a956d2.c:148:5: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_bdeed9ad.c: In function ‘main’:
+./samples/SAFE/__tmp_bdeed9ad.c:138:40: error: ‘matrix’ undeclared (first use in this function); did you mean ‘matrix2’?
+  138 |             input_matrix(rows2, cols2, matrix
+      |                                        ^~~~~~
+      |                                        matrix2
+./samples/SAFE/__tmp_bdeed9ad.c:138:40: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bdeed9ad.c:138:46: error: expected ‘)’ at end of input
+  138 |             input_matrix(rows2, cols2, matrix
+      |                         ~                    ^
+      |                                              )
+./samples/SAFE/__tmp_bdeed9ad.c:138:13: error: expected declaration or statement at end of input
+  138 |             input_matrix(rows2, cols2, matrix
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_bdeed9ad.c:138:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bdeed9ad.c:138:13: error: expected declaration or statement at end of input

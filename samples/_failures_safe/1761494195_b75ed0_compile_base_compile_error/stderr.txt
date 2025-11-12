@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f71fbda7.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_f71fbda7.c:170:32: error: expected ‘]’ at end of input
+  170 |             free(graph->nodes[i
+      |                                ^
+      |                                ]
+./samples/SAFE/__tmp_f71fbda7.c:170:13: error: expected declaration or statement at end of input
+  170 |             free(graph->nodes[i
+      |             ^~~~
+./samples/SAFE/__tmp_f71fbda7.c:170:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f71fbda7.c:170:13: error: expected declaration or statement at end of input

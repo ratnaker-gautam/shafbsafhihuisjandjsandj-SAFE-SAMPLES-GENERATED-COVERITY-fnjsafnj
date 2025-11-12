@@ -1,0 +1,57 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: pointer_arithmetic ; Variation: string_processing
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_INPUT 1024
+
+int main() {
+    char input[MAX_INPUT + 1];
+    char output[MAX_INPUT + 1];
+    char *src, *dst;
+    size_t len;
+    
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    len = strlen(input);
+    if (len == 0 || len > MAX_INPUT) {
+        fprintf(stderr, "Invalid input length\n");
+        return 1;
+    }
+    
+    src = input;
+    dst = output;
+    
+    while (*src != '\0' && (size_t)(dst - output) < MAX_INPUT) {
+        if (isalpha((unsigned char)*src)) {
+            if (islower((unsigned char)*src)) {
+                *dst = (char)toupper((unsigned char)*src);
+            } else {
+                *dst = (char)tolower((unsigned char)*src);
+            }
+            dst++;
+        } else if (isdigit((unsigned char)*src)) {
+            *dst = *src;
+            dst++;
+        }
+        src++;
+    }
+    
+    if ((size_t)(dst - output) >= MAX_INPUT) {
+        fprintf(stderr, "Output buffer overflow\n");
+        return 1;
+    }
+    
+    *dst = '\0';
+    
+    if (fputs(output, stdout) == EOF) {
+        fprintf(stderr, "Error writing output\n");
+        return 1;
+    }
+    
+    return 0;
+}

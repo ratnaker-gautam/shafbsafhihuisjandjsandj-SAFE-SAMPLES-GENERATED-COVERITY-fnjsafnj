@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_57dd3ab6.c: In function ‘main’:
+./samples/SAFE/__tmp_57dd3ab6.c:196:5: error: expected expression at end of input
+  196 |     if (strlen(input) == 0)
+      |     ^~
+./samples/SAFE/__tmp_57dd3ab6.c:196:5: error: expected declaration or statement at end of input

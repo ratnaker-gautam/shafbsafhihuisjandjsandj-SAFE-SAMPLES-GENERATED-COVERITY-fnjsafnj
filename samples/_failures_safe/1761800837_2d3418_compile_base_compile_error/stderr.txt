@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e2816dcd.c: In function ‘print_shortest_path’:
+./samples/SAFE/__tmp_e2816dcd.c:159:9: error: expected declaration or statement at end of input
+  159 |         printf("Invalid target node\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_e2816dcd.c:159:9: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_8e254e6f.c: In function ‘main’:
+./samples/SAFE/__tmp_8e254e6f.c:160:59: error: expected ‘)’ at end of input
+  160 |     if (decompressed_len != input_len || memcmp(input_data
+      |                                                ~          ^
+      |                                                           )
+./samples/SAFE/__tmp_8e254e6f.c:160:42: error: too few arguments to function ‘memcmp’
+  160 |     if (decompressed_len != input_len || memcmp(input_data
+      |                                          ^~~~~~
+In file included from ./samples/SAFE/__tmp_8e254e6f.c:4:
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_8e254e6f.c:160:5: error: expected declaration or statement at end of input
+  160 |     if (decompressed_len != input_len || memcmp(input_data
+      |     ^~

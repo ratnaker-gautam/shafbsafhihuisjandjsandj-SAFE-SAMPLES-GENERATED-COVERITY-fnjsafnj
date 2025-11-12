@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_77ee5322.c: In function ‘main’:
+./samples/SAFE/__tmp_77ee5322.c:129:37: error: expected ‘]’ at end of input
+  129 |             printf("%3d ", matrix1[j
+      |                                     ^
+      |                                     ]
+./samples/SAFE/__tmp_77ee5322.c:129:13: error: expected declaration or statement at end of input
+  129 |             printf("%3d ", matrix1[j
+      |             ^~~~~~
+./samples/SAFE/__tmp_77ee5322.c:129:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_77ee5322.c:129:13: error: expected declaration or statement at end of input

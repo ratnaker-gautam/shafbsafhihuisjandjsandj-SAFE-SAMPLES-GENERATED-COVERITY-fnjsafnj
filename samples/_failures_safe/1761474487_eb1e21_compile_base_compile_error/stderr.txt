@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c234dd37.c: In function ‘print_state’:
+./samples/SAFE/__tmp_c234dd37.c:157:5: error: expected declaration or statement at end of input
+  157 |     };
+      |     ^

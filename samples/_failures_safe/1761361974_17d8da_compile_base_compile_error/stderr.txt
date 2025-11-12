@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_4d9865e7.c: In function ‘main’:
+./samples/SAFE/__tmp_4d9865e7.c:168:49: error: expected ‘)’ at end of input
+  168 |         printf(", Value='%s'\n", tokens[i].value
+      |               ~                                 ^
+      |                                                 )
+./samples/SAFE/__tmp_4d9865e7.c:168:9: error: expected declaration or statement at end of input
+  168 |         printf(", Value='%s'\n", tokens[i].value
+      |         ^~~~~~
+./samples/SAFE/__tmp_4d9865e7.c:168:9: error: expected declaration or statement at end of input

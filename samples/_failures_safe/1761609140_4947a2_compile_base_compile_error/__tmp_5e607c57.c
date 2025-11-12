@@ -1,0 +1,165 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: enum_switch ; Variation: compression_stub
+#include <stdio.h>
+#include <stdint.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+enum compression_type {
+    COMPRESS_NONE,
+    COMPRESS_RLE,
+    COMPRESS_LZW,
+    COMPRESS_HUFFMAN
+};
+
+struct compression_result {
+    size_t original_size;
+    size_t compressed_size;
+    enum compression_type type;
+};
+
+size_t compress_rle(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_len) {
+    if (input == NULL || output == NULL || output_len < input_len * 2) {
+        return 0;
+    }
+    
+    size_t out_idx = 0;
+    size_t in_idx = 0;
+    
+    while (in_idx < input_len) {
+        uint8_t current = input[in_idx];
+        size_t count = 1;
+        
+        while (in_idx + count < input_len && input[in_idx + count] == current && count < 255) {
+            count++;
+        }
+        
+        if (out_idx + 2 > output_len) {
+            return 0;
+        }
+        
+        output[out_idx++] = current;
+        output[out_idx++] = (uint8_t)count;
+        in_idx += count;
+    }
+    
+    return out_idx;
+}
+
+size_t compress_lzw_stub(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_len) {
+    if (input == NULL || output == NULL || output_len < input_len) {
+        return 0;
+    }
+    
+    if (input_len > 0 && output_len >= input_len) {
+        memcpy(output, input, input_len);
+        return input_len;
+    }
+    
+    return 0;
+}
+
+size_t compress_huffman_stub(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_len) {
+    if (input == NULL || output == NULL || output_len < input_len) {
+        return 0;
+    }
+    
+    if (input_len > 0 && output_len >= input_len) {
+        for (size_t i = 0; i < input_len; i++) {
+            output[i] = input[i] ^ 0x55;
+        }
+        return input_len;
+    }
+    
+    return 0;
+}
+
+struct compression_result compress_data(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_len, enum compression_type type) {
+    struct compression_result result = {0, 0, COMPRESS_NONE};
+    
+    if (input == NULL || output == NULL || input_len == 0 || output_len == 0) {
+        return result;
+    }
+    
+    result.original_size = input_len;
+    result.type = type;
+    
+    switch (type) {
+        case COMPRESS_RLE:
+            result.compressed_size = compress_rle(input, input_len, output, output_len);
+            break;
+        case COMPRESS_LZW:
+            result.compressed_size = compress_lzw_stub(input, input_len, output, output_len);
+            break;
+        case COMPRESS_HUFFMAN:
+            result.compressed_size = compress_huffman_stub(input, input_len, output, output_len);
+            break;
+        case COMPRESS_NONE:
+        default:
+            if (output_len >= input_len) {
+                memcpy(output, input, input_len);
+                result.compressed_size = input_len;
+            }
+            break;
+    }
+    
+    return result;
+}
+
+void print_compression_menu(void) {
+    printf("Available compression methods:\n");
+    printf("1. No compression\n");
+    printf("2. Run-Length Encoding (RLE)\n");
+    printf("3. LZW (stub)\n");
+    printf("4. Huffman (stub)\n");
+    printf("Enter choice (1-4): ");
+}
+
+int main(void) {
+    uint8_t input_buffer[1024];
+    uint8_t output_buffer[2048];
+    char user_input[1024];
+    int choice;
+    
+    printf("Enter text to compress (max 1023 characters): ");
+    if (fgets(user_input, sizeof(user_input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    size_t input_len = strlen(user_input);
+    if (input_len > 0 && user_input[input_len - 1] == '\n') {
+        user_input[--input_len] = '\0';
+    }
+    
+    if (input_len == 0) {
+        fprintf(stderr, "No input provided\n");
+        return 1;
+    }
+    
+    if (input_len >= sizeof(input_buffer)) {
+        fprintf(stderr, "Input too long\n");
+        return 1;
+    }
+    
+    memcpy(input_buffer, user_input, input_len);
+    
+    print_compression_menu();
+    
+    if (scanf("%d", &choice) != 1) {
+        fprintf(stderr, "Invalid choice\n");
+        return 1;
+    }
+    
+    while (getchar() != '\n');
+    
+    enum compression_type comp_type;
+    switch (choice) {
+        case 1: comp_type = COMPRESS_NONE; break;
+        case 2: comp_type = COMPRESS_RLE; break;
+        case 3: comp_type = COMPRESS_LZW; break;
+        case 4: comp_type = COMPRESS_HUFFMAN; break;
+        default:
+            fprintf(stderr, "Invalid compression type\n");
+            return 1;
+    }

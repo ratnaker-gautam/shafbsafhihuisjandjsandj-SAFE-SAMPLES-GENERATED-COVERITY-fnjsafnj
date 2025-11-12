@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b4e0a12c.c: In function ‘main’:
+./samples/SAFE/__tmp_b4e0a12c.c:174:9: error: expected declaration or statement at end of input
+  174 |         if (k >= token_count) break;
+      |         ^~
+./samples/SAFE/__tmp_b4e0a12c.c:174:9: error: expected declaration or statement at end of input

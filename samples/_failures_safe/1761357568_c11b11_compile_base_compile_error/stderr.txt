@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a180c3a2.c: In function ‘main’:
+./samples/SAFE/__tmp_a180c3a2.c:152:13: error: expected declaration or statement at end of input
+  152 |             printf("Element [%zu][%zu]: ", i, j);
+      |             ^~~~~~
+./samples/SAFE/__tmp_a180c3a2.c:152:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a180c3a2.c:152:13: error: expected declaration or statement at end of input

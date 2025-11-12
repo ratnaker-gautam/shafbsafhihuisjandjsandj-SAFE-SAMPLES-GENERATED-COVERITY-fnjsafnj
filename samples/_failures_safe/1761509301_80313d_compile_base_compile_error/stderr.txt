@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_b56f5cb2.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_b56f5cb2.c:151:11: error: ‘struct Parser’ has no member named ‘has’
+  151 |     parser->has
+      |           ^~
+./samples/SAFE/__tmp_b56f5cb2.c:151:16: error: expected ‘;’ at end of input
+  151 |     parser->has
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_b56f5cb2.c:151:5: error: expected declaration or statement at end of input
+  151 |     parser->has
+      |     ^~~~~~

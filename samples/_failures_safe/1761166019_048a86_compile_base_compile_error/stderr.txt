@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_a1085915.c: In function ‘main’:
+./samples/SAFE/__tmp_a1085915.c:138:21: error: expected declaration or statement at end of input
+  138 |                     printf("Matrix multiplication failed: dimension mismatch or integer overflow.\n");
+      |                     ^~~~~~
+./samples/SAFE/__tmp_a1085915.c:138:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a1085915.c:138:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a1085915.c:138:21: error: expected declaration or statement at end of input

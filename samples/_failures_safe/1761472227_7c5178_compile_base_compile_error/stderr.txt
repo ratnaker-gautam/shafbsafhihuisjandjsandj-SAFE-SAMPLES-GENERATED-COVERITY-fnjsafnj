@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_0d29628a.c: In function ‘main’:
+./samples/SAFE/__tmp_0d29628a.c:148:9: error: expected declaration or statement at end of input
+  148 |         printf("Matrix must be square\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_0d29628a.c:148:9: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b0ef2ea4.c: In function ‘main’:
+./samples/SAFE/__tmp_b0ef2ea4.c:176:16: error: missing terminating " character
+  176 |         printf("Failed to read filename\n
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b0ef2ea4.c:176:9: error: expected expression at end of input
+  176 |         printf("Failed to read filename\n
+      |         ^~~~~~
+./samples/SAFE/__tmp_b0ef2ea4.c:176:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b0ef2ea4.c:176:9: error: expected declaration or statement at end of input

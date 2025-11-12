@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_5976955e.c: In function ‘main’:
+./samples/SAFE/__tmp_5976955e.c:124:17: error: expected expression at end of input
+  124 |                 if (removeEdge(graph, src,
+      |                 ^~
+./samples/SAFE/__tmp_5976955e.c:124:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5976955e.c:124:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5976955e.c:124:17: error: expected declaration or statement at end of input

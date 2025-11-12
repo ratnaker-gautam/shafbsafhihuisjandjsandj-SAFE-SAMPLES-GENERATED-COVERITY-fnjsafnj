@@ -1,0 +1,9 @@
+/usr/bin/ld: /tmp/ccG8uVjX.o: in function `main':
+__tmp_ef782c7b.c:(.text.startup+0x1f1): undefined reference to `sin'
+/usr/bin/ld: __tmp_ef782c7b.c:(.text.startup+0x20c): undefined reference to `cos'
+/usr/bin/ld: __tmp_ef782c7b.c:(.text.startup+0x3b4): undefined reference to `sin'
+/usr/bin/ld: __tmp_ef782c7b.c:(.text.startup+0x3d1): undefined reference to `cos'
+/usr/bin/ld: __tmp_ef782c7b.c:(.text.startup+0x42e): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_ef782c7b.c:(.text.startup+0x4c2): undefined reference to `sin'
+/usr/bin/ld: __tmp_ef782c7b.c:(.text.startup+0x4dd): undefined reference to `cos'
+collect2: error: ld returned 1 exit status

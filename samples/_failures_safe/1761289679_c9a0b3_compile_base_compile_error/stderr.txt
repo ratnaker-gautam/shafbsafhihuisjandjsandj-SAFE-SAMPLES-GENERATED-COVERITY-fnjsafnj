@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d2d3e97c.c: In function ‘main’:
+./samples/SAFE/__tmp_d2d3e97c.c:145:5: error: expected declaration or statement at end of input
+  145 |     printf("Decompressed data (%zu bytes):\n", decompressed_size);
+      |     ^~~~~~

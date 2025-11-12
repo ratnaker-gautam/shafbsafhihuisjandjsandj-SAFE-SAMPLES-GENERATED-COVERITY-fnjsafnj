@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_13d16525.c: In function ‘dfs’:
+./samples/SAFE/__tmp_13d16525.c:202:12: error: missing terminating " character
+  202 |     printf("
+      |            ^
+./samples/SAFE/__tmp_13d16525.c:202:5: error: expected expression at end of input
+  202 |     printf("
+      |     ^~~~~~
+./samples/SAFE/__tmp_13d16525.c:202:5: error: expected declaration or statement at end of input

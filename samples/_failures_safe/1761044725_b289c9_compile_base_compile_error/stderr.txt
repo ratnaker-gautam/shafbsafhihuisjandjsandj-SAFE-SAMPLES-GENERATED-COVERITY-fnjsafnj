@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_db598723.c: In function ‘main’:
+./samples/SAFE/__tmp_db598723.c:159:5: error: expected expression at end of input
+  159 |     print_matrix(&
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_db598723.c:159:5: error: too few arguments to function ‘print_matrix’
+./samples/SAFE/__tmp_db598723.c:70:6: note: declared here
+   70 | void print_matrix(const Matrix* mat, const char* name) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_db598723.c:159:5: error: expected declaration or statement at end of input
+  159 |     print_matrix(&
+      |     ^~~~~~~~~~~~

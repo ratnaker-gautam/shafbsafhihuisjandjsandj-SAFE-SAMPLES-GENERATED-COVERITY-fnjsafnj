@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_739c68f2.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_739c68f2.c:180:9: error: expected declaration or statement at end of input
+  180 |         char current = peek(lexer);
+      |         ^~~~
+./samples/SAFE/__tmp_739c68f2.c:180:9: error: expected declaration or statement at end of input

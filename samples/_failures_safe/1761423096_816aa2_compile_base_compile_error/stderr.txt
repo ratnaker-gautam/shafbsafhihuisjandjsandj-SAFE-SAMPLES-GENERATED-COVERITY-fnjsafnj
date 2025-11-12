@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_7a30b5ff.c: In function ‘main’:
+./samples/SAFE/__tmp_7a30b5ff.c:150:77: error: expected ‘)’ at end of input
+  150 |                     decompressed_size = decompress_delta(compressed, (size_t
+      |                                                                      ~      ^
+      |                                                                             )
+./samples/SAFE/__tmp_7a30b5ff.c:150:41: error: too few arguments to function ‘decompress_delta’
+  150 |                     decompressed_size = decompress_delta(compressed, (size_t
+      |                                         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_7a30b5ff.c:89:5: note: declared here
+   89 | int decompress_delta(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_size) {
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_7a30b5ff.c:150:21: error: expected declaration or statement at end of input
+  150 |                     decompressed_size = decompress_delta(compressed, (size_t
+      |                     ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_7a30b5ff.c:150:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7a30b5ff.c:150:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7a30b5ff.c:150:21: error: expected declaration or statement at end of input

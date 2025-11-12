@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_66d83279.c: In function ‘main’:
+./samples/SAFE/__tmp_66d83279.c:145:13: error: ‘state_machine_handle’ undeclared (first use in this function); did you mean ‘state_machine_init’?
+  145 |             state_machine_handle
+      |             ^~~~~~~~~~~~~~~~~~~~
+      |             state_machine_init
+./samples/SAFE/__tmp_66d83279.c:145:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_66d83279.c:145:33: error: expected ‘;’ at end of input
+  145 |             state_machine_handle
+      |                                 ^
+      |                                 ;
+./samples/SAFE/__tmp_66d83279.c:145:13: error: expected declaration or statement at end of input
+  145 |             state_machine_handle
+      |             ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_66d83279.c:145:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_66d83279.c:145:13: error: expected declaration or statement at end of input

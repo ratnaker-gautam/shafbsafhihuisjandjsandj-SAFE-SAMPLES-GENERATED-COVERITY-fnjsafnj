@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_93a2e4e3.c: In function ‘main’:
+./samples/SAFE/__tmp_93a2e4e3.c:142:5: error: expected ‘,’ or ‘;’ at end of input
+  142 |     int token_count = tokenize
+      |     ^~~
+./samples/SAFE/__tmp_93a2e4e3.c:142:5: error: expected declaration or statement at end of input

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_55b41699.c: In function ‘find_min_distance’:
+./samples/SAFE/__tmp_55b41699.c:173:26: error: expected ‘;’ at end of input
+  173 |             min_index = i
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_55b41699.c:173:13: error: expected declaration or statement at end of input
+  173 |             min_index = i
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_55b41699.c:173:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_55b41699.c:173:13: error: expected declaration or statement at end of input

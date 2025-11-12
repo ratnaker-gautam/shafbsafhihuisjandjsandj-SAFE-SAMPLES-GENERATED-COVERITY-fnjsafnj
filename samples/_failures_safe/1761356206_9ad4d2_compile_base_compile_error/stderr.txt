@@ -1,0 +1,22 @@
+./samples/SAFE/__tmp_bbb7a6a4.c: In function ‘main’:
+./samples/SAFE/__tmp_bbb7a6a4.c:131:50: error: ‘matrix’ undeclared (first use in this function); did you mean ‘matrix_b’?
+  131 |                 matrix_add(rows, cols, matrix_a, matrix
+      |                                                  ^~~~~~
+      |                                                  matrix_b
+./samples/SAFE/__tmp_bbb7a6a4.c:131:50: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bbb7a6a4.c:131:56: error: expected ‘)’ at end of input
+  131 |                 matrix_add(rows, cols, matrix_a, matrix
+      |                           ~                            ^
+      |                                                        )
+./samples/SAFE/__tmp_bbb7a6a4.c:131:17: error: too few arguments to function ‘matrix_add’
+  131 |                 matrix_add(rows, cols, matrix_a, matrix
+      |                 ^~~~~~~~~~
+./samples/SAFE/__tmp_bbb7a6a4.c:55:6: note: declared here
+   55 | void matrix_add(int rows, int cols, int a[rows][cols], int b[rows][cols], int result[rows][cols]) {
+      |      ^~~~~~~~~~
+./samples/SAFE/__tmp_bbb7a6a4.c:131:17: error: expected declaration or statement at end of input
+  131 |                 matrix_add(rows, cols, matrix_a, matrix
+      |                 ^~~~~~~~~~
+./samples/SAFE/__tmp_bbb7a6a4.c:131:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bbb7a6a4.c:131:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bbb7a6a4.c:131:17: error: expected declaration or statement at end of input

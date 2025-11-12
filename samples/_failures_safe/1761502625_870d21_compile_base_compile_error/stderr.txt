@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_9e220f0a.c: In function ‘print_shortest_paths’:
+./samples/SAFE/__tmp_9e220f0a.c:177:12: error: missing terminating " character
+  177 |     printf("Short
+      |            ^~~~~~
+./samples/SAFE/__tmp_9e220f0a.c:177:5: error: expected expression at end of input
+  177 |     printf("Short
+      |     ^~~~~~
+./samples/SAFE/__tmp_9e220f0a.c:177:5: error: expected declaration or statement at end of input

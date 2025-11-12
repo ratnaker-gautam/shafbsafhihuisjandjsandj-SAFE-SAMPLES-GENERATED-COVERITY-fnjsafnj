@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_91752c30.c: In function ‘matrix_print’:
+./samples/SAFE/__tmp_91752c30.c:131:10: error: ‘size’ undeclared (first use in this function); did you mean ‘size_t’?
+  131 |     for (size
+      |          ^~~~
+      |          size_t
+./samples/SAFE/__tmp_91752c30.c:131:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_91752c30.c:131:14: error: expected ‘;’ at end of input
+  131 |     for (size
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_91752c30.c:131:5: error: expected declaration or statement at end of input
+  131 |     for (size
+      |     ^~~

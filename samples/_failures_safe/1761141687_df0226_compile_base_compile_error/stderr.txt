@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_49213433.c: In function ‘main’:
+./samples/SAFE/__tmp_49213433.c:179:41: error: ‘STATE_PROC’ undeclared (first use in this function); did you mean ‘STATE_ERROR’?
+  179 |                 if (sm.current_state == STATE_PROC
+      |                                         ^~~~~~~~~~
+      |                                         STATE_ERROR
+./samples/SAFE/__tmp_49213433.c:179:41: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_49213433.c:179:51: error: expected ‘)’ at end of input
+  179 |                 if (sm.current_state == STATE_PROC
+      |                    ~                              ^
+      |                                                   )
+./samples/SAFE/__tmp_49213433.c:179:17: error: expected declaration or statement at end of input
+  179 |                 if (sm.current_state == STATE_PROC
+      |                 ^~
+./samples/SAFE/__tmp_49213433.c:179:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_49213433.c:179:17: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_e679d9b8.c: In function ‘main’:
+./samples/SAFE/__tmp_e679d9b8.c:153:45: error: expected ‘;’ at end of input
+  153 |         for (int j = 0; j < graph.node_count
+      |                                             ^
+      |                                             ;
+./samples/SAFE/__tmp_e679d9b8.c:153:9: error: expected declaration or statement at end of input
+  153 |         for (int j = 0; j < graph.node_count
+      |         ^~~
+./samples/SAFE/__tmp_e679d9b8.c:153:9: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+
+samples/SAFE/__tmp_8d62e443.c:92:42: runtime error: index 18446744073709551615 out of bounds for type 'char [1025]'
+    #0 0x6487fa88b6e3 in main samples/SAFE/__tmp_8d62e443.c:92
+    #1 0x7c860682a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #2 0x7c860682a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x6487fa88a344 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_8d62e443.c.san+0x3344) (BuildId: 84e9e6bb054a71eec51e67043c703a9b439de9d1)
+

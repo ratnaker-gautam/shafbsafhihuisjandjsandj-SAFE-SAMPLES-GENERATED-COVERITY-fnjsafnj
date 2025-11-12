@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_2a91f3d2.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_2a91f3d2.c:165:15: error: expected ‘;’ at end of input
+  165 |         tokens
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_2a91f3d2.c:165:9: error: expected declaration or statement at end of input
+  165 |         tokens
+      |         ^~~~~~
+./samples/SAFE/__tmp_2a91f3d2.c:165:9: error: expected declaration or statement at end of input

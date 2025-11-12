@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_7e58a9b5.c: In function ‘main’:
+./samples/SAFE/__tmp_7e58a9b5.c:178:5: error: expected declaration or statement at end of input
+  178 |     size_t len = strlen(input);
+      |     ^~~~~~

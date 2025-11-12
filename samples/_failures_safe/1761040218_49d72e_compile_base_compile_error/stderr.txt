@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ff53c111.c: In function ‘main’:
+./samples/SAFE/__tmp_ff53c111.c:168:12: error: expected declaration or statement at end of input
+  168 |     struct Token tokens[MAX_TOKENS];
+      |            ^~~~~

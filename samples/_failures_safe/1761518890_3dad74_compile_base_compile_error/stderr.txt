@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_4be5fe11.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_4be5fe11.c:176:23: error: ‘struct Tokenizer’ has no member named ‘token’; did you mean ‘tokens’?
+  176 |     return tokenizer->token
+      |                       ^~~~~
+      |                       tokens
+./samples/SAFE/__tmp_4be5fe11.c:176:28: error: expected ‘;’ at end of input
+  176 |     return tokenizer->token
+      |                            ^
+      |                            ;
+./samples/SAFE/__tmp_4be5fe11.c:176:5: error: expected declaration or statement at end of input
+  176 |     return tokenizer->token
+      |     ^~~~~~

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_61912dbb.c: In function ‘token_type_to_string’:
+./samples/SAFE/__tmp_61912dbb.c:141:35: error: missing terminating " character
+  141 |         case TOKEN_STRING: return "
+      |                                   ^
+./samples/SAFE/__tmp_61912dbb.c:141:9: error: expected expression at end of input
+  141 |         case TOKEN_STRING: return "
+      |         ^~~~
+./samples/SAFE/__tmp_61912dbb.c:141:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_61912dbb.c:141:9: error: expected declaration or statement at end of input

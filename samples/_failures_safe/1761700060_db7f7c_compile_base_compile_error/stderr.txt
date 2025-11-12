@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_abe3e666.c: In function ‘main’:
+./samples/SAFE/__tmp_abe3e666.c:131:17: error: expected expression at end of input
+  131 |                 add_matrices(
+      |                 ^~~~~~~~~~~~
+./samples/SAFE/__tmp_abe3e666.c:131:17: error: too few arguments to function ‘add_matrices’
+./samples/SAFE/__tmp_abe3e666.c:55:6: note: declared here
+   55 | void add_matrices(int rows, int cols, int a[rows][cols], int b[rows][cols], int result[rows][cols]) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_abe3e666.c:131:17: error: expected declaration or statement at end of input
+  131 |                 add_matrices(
+      |                 ^~~~~~~~~~~~
+./samples/SAFE/__tmp_abe3e666.c:131:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_abe3e666.c:131:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_abe3e666.c:131:17: error: expected declaration or statement at end of input

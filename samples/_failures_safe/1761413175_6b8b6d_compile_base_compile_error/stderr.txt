@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_fa617b60.c: In function ‘main’:
+./samples/SAFE/__tmp_fa617b60.c:180:9: error: expected expression at end of input
+  180 |         printf(" | Data: %d | Error: %d\n", sm.data_value,
+      |         ^~~~~~
+./samples/SAFE/__tmp_fa617b60.c:180:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fa617b60.c:180:9: error: expected declaration or statement at end of input

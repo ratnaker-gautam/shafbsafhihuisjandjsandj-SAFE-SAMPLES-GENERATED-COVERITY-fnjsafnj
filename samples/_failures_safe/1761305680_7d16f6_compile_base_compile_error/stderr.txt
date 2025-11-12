@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_677736e7.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_677736e7.c:163:23: error: expected ‘;’ at end of input
+  163 |         parser_advance
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_677736e7.c:163:9: error: expected declaration or statement at end of input
+  163 |         parser_advance
+      |         ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_677736e7.c:163:9: error: expected declaration or statement at end of input

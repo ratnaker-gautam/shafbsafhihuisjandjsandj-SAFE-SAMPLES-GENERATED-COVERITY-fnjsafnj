@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e83cd655.c: In function ‘main’:
+./samples/SAFE/__tmp_e83cd655.c:141:5: error: expected declaration or statement at end of input
+  141 |     if (!validate_log_data(entries, entry_count)) {
+      |     ^~
+./samples/SAFE/__tmp_e83cd655.c:141:5: error: expected declaration or statement at end of input

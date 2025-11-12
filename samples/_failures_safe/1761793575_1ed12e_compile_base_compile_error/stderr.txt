@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4381e50b.c: In function ‘main’:
+./samples/SAFE/__tmp_4381e50b.c:139:9: error: expected declaration or statement at end of input
+  139 |         execute_operation(&g, operations[i], 0, 0);
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4381e50b.c:139:9: error: expected declaration or statement at end of input

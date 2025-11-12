@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_6a97d92c.c: In function ‘show_high_severity_logs’:
+./samples/SAFE/__tmp_6a97d92c.c:138:86: error: expected ‘)’ at end of input
+  138 |             printf("%s [%s] %s\n", filtered[i].timestamp, filtered[i].level, filtered
+      |                   ~                                                                  ^
+      |                                                                                      )
+./samples/SAFE/__tmp_6a97d92c.c:138:13: error: expected declaration or statement at end of input
+  138 |             printf("%s [%s] %s\n", filtered[i].timestamp, filtered[i].level, filtered
+      |             ^~~~~~
+./samples/SAFE/__tmp_6a97d92c.c:138:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6a97d92c.c:138:13: error: expected declaration or statement at end of input

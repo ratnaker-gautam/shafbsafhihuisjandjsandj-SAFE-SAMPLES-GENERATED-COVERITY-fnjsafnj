@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_ecff2807.c: In function ‘main’:
+./samples/SAFE/__tmp_ecff2807.c:133:34: error: expected ‘)’ at end of input
+  133 |                 read_matrix(rows1
+      |                            ~     ^
+      |                                  )
+./samples/SAFE/__tmp_ecff2807.c:133:17: error: too few arguments to function ‘read_matrix’
+  133 |                 read_matrix(rows1
+      |                 ^~~~~~~~~~~
+./samples/SAFE/__tmp_ecff2807.c:30:6: note: declared here
+   30 | void read_matrix(int rows, int cols, int matrix[MAX_DIM][MAX_DIM]) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_ecff2807.c:133:17: error: expected declaration or statement at end of input
+  133 |                 read_matrix(rows1
+      |                 ^~~~~~~~~~~
+./samples/SAFE/__tmp_ecff2807.c:133:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ecff2807.c:133:17: error: expected declaration or statement at end of input

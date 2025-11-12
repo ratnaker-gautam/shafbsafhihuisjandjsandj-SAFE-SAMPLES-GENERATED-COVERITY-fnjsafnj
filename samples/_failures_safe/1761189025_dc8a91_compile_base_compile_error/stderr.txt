@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_dd3b6db2.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_dd3b6db2.c:157:25: error: ‘TOKEN’ undeclared (first use in this function)
+  157 |     if (current.type == TOKEN
+      |                         ^~~~~
+./samples/SAFE/__tmp_dd3b6db2.c:157:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_dd3b6db2.c:157:30: error: expected ‘)’ at end of input
+  157 |     if (current.type == TOKEN
+      |        ~                     ^
+      |                              )
+./samples/SAFE/__tmp_dd3b6db2.c:157:5: error: expected declaration or statement at end of input
+  157 |     if (current.type == TOKEN
+      |     ^~

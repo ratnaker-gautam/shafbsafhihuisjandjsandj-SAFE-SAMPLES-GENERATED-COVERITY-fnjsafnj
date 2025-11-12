@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_231d6455.c: In function ‘main’:
+./samples/SAFE/__tmp_231d6455.c:155:9: error: ‘find_shortest’ undeclared (first use in this function); did you mean ‘find_shortest_path’?
+  155 |     if (find_shortest
+      |         ^~~~~~~~~~~~~
+      |         find_shortest_path
+./samples/SAFE/__tmp_231d6455.c:155:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_231d6455.c:155:22: error: expected ‘)’ at end of input
+  155 |     if (find_shortest
+      |        ~             ^
+      |                      )
+./samples/SAFE/__tmp_231d6455.c:155:5: error: expected declaration or statement at end of input
+  155 |     if (find_shortest
+      |     ^~

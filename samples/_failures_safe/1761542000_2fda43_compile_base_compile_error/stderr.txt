@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1a19d304.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_1a19d304.c:126:9: error: expected expression at end of input
+  126 |         long long product1 =
+      |         ^~~~
+./samples/SAFE/__tmp_1a19d304.c:126:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1a19d304.c:126:9: error: expected declaration or statement at end of input

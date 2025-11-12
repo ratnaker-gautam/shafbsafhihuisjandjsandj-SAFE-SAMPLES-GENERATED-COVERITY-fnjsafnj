@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_b08bbb04.c: In function ‘main’:
+./samples/SAFE/__tmp_b08bbb04.c:146:22: error: ‘de’ undeclared (first use in this function)
+  146 |     print_buffer_hex(de
+      |                      ^~
+./samples/SAFE/__tmp_b08bbb04.c:146:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b08bbb04.c:146:24: error: expected ‘)’ at end of input
+  146 |     print_buffer_hex(de
+      |                     ~  ^
+      |                        )
+./samples/SAFE/__tmp_b08bbb04.c:146:5: error: too few arguments to function ‘print_buffer_hex’
+  146 |     print_buffer_hex(de
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b08bbb04.c:71:6: note: declared here
+   71 | void print_buffer_hex(const uint8_t* data, size_t size) {
+      |      ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b08bbb04.c:146:5: error: expected declaration or statement at end of input
+  146 |     print_buffer_hex(de
+      |     ^~~~~~~~~~~~~~~~

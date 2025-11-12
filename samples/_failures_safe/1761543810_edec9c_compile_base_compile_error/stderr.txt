@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9e6a62af.c: In function ‘load_log_file’:
+./samples/SAFE/__tmp_9e6a62af.c:127:5: error: expected declaration or statement at end of input
+  127 |     if (!analyzer || !filename) return 0;
+      |     ^~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ae32bbbc.c: In function ‘display_recent_logs’:
+./samples/SAFE/__tmp_ae32bbbc.c:150:9: error: expected declaration or statement at end of input
+  150 |         return;
+      |         ^~~~~~
+./samples/SAFE/__tmp_ae32bbbc.c:150:9: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_ad5fe427.c: In function ‘tokenize_operator’:
+./samples/SAFE/__tmp_ad5fe427.c:161:36: error: expected ‘)’ at end of input
+  161 |     add_token(lexer, TOKEN_OPERATOR
+      |              ~                     ^
+      |                                    )
+./samples/SAFE/__tmp_ad5fe427.c:161:5: error: too few arguments to function ‘add_token’
+  161 |     add_token(lexer, TOKEN_OPERATOR
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_ad5fe427.c:51:6: note: declared here
+   51 | void add_token(Lexer* lexer, TokenType type, const char* value) {
+      |      ^~~~~~~~~
+./samples/SAFE/__tmp_ad5fe427.c:161:5: error: expected declaration or statement at end of input
+  161 |     add_token(lexer, TOKEN_OPERATOR
+      |     ^~~~~~~~~

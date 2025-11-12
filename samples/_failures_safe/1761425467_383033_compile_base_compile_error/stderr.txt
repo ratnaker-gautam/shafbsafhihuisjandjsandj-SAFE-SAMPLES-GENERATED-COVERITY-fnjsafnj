@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7f09550f.c: In function ‘main’:
+./samples/SAFE/__tmp_7f09550f.c:145:18: error: expected ‘;’ at end of input
+  145 |     buffer_append
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_7f09550f.c:145:5: error: expected declaration or statement at end of input
+  145 |     buffer_append
+      |     ^~~~~~~~~~~~~

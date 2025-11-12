@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_1b06be5c.c:145:45: error: expected declaration specifiers or ‘...’ at end of input
+  145 | struct Matrix *matrix_multiply(const struct Matrix *a,
+      |                                             ^~~~~~

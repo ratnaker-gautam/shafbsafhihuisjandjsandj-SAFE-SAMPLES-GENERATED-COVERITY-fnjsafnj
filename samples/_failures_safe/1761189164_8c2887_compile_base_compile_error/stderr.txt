@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_975abd35.c: In function ‘decompress_data’:
+./samples/SAFE/__tmp_975abd35.c:176:40: error: expected ‘)’ at end of input
+  176 |     while (data_remaining > 0 && output
+      |           ~                            ^
+      |                                        )
+./samples/SAFE/__tmp_975abd35.c:176:5: error: expected declaration or statement at end of input
+  176 |     while (data_remaining > 0 && output
+      |     ^~~~~

@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_659d14d5.c: In function ‘main’:
+./samples/SAFE/__tmp_659d14d5.c:155:74: error: ‘comp’ undeclared (first use in this function)
+  155 |                     decomp_result = decompress_delta(compressed, (size_t)comp
+      |                                                                          ^~~~
+./samples/SAFE/__tmp_659d14d5.c:155:74: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_659d14d5.c:155:78: error: expected ‘)’ at end of input
+  155 |                     decomp_result = decompress_delta(compressed, (size_t)comp
+      |                                                     ~                        ^
+      |                                                                              )
+./samples/SAFE/__tmp_659d14d5.c:155:37: error: too few arguments to function ‘decompress_delta’
+  155 |                     decomp_result = decompress_delta(compressed, (size_t)comp
+      |                                     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_659d14d5.c:92:5: note: declared here
+   92 | int decompress_delta(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_size) {
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_659d14d5.c:155:21: error: expected declaration or statement at end of input
+  155 |                     decomp_result = decompress_delta(compressed, (size_t)comp
+      |                     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_659d14d5.c:155:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_659d14d5.c:155:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_659d14d5.c:155:21: error: expected declaration or statement at end of input

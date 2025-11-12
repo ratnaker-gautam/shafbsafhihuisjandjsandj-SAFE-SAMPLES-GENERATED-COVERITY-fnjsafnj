@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_35e9618b.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_35e9618b.c:159:19: error: ‘TOKEN_UN’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  159 |     token->type = TOKEN_UN
+      |                   ^~~~~~~~
+      |                   TOKEN_EOF
+./samples/SAFE/__tmp_35e9618b.c:159:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_35e9618b.c:159:27: error: expected ‘;’ at end of input
+  159 |     token->type = TOKEN_UN
+      |                           ^
+      |                           ;
+./samples/SAFE/__tmp_35e9618b.c:159:5: error: expected declaration or statement at end of input
+  159 |     token->type = TOKEN_UN
+      |     ^~~~~

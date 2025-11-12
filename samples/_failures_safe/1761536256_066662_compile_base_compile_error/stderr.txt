@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9ed05100.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_9ed05100.c:153:13: error: expected declaration or statement at end of input
+  153 |             long new_dist = (long)dist[u] + weight;
+      |             ^~~~
+./samples/SAFE/__tmp_9ed05100.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9ed05100.c:153:13: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_beac244f.c: In function ‘main’:
+./samples/SAFE/__tmp_beac244f.c:178:13: error: expected declaration or statement at end of input
+  178 |             case DISPENSING:
+      |             ^~~~
+./samples/SAFE/__tmp_beac244f.c:178:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_beac244f.c:178:13: error: expected declaration or statement at end of input

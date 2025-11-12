@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_4de40575.c: In function ‘main’:
+./samples/SAFE/__tmp_4de40575.c:164:26: error: invalid operands to binary < (have ‘size_t’ {aka ‘long unsigned int’} and ‘struct Matrix’)
+  164 |     for (size_t i = 0; i < a
+      |                          ^
+./samples/SAFE/__tmp_4de40575.c:164:29: error: expected ‘;’ at end of input
+  164 |     for (size_t i = 0; i < a
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_4de40575.c:164:5: error: expected declaration or statement at end of input
+  164 |     for (size_t i = 0; i < a
+      |     ^~~

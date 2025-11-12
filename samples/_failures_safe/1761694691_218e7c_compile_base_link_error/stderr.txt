@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccyFgQfm.o: in function `main':
+__tmp_9b0983af.c:(.text.startup+0x15e): undefined reference to `sincos'
+collect2: error: ld returned 1 exit status

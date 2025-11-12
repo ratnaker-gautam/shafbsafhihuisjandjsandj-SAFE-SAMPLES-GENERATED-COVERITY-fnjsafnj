@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8da638d2.c: In function ‘create_parser_node’:
+./samples/SAFE/__tmp_8da638d2.c:176:5: error: expected expression at end of input
+  176 |     node->right =
+      |     ^~~~
+./samples/SAFE/__tmp_8da638d2.c:176:5: error: expected declaration or statement at end of input

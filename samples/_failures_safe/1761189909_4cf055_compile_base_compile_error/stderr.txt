@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f87c1e68.c: In function ‘main’:
+./samples/SAFE/__tmp_f87c1e68.c:144: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_f87c1e68.c:143:30: note: to match this ‘{’
+  143 |     struct Vector3D point2 = {4.0, 5.0, 6
+      |                              ^
+./samples/SAFE/__tmp_f87c1e68.c:143:12: error: expected declaration or statement at end of input
+  143 |     struct Vector3D point2 = {4.0, 5.0, 6
+      |            ^~~~~~~~

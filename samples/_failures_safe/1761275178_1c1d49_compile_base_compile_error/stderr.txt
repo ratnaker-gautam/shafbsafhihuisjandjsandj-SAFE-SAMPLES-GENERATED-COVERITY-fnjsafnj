@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_e4f75968.c: In function ‘main’:
+./samples/SAFE/__tmp_e4f75968.c:150:75: error: ‘MAX’ undeclared (first use in this function)
+  150 |     int unique_count = count_unique_words(words, word_count, word_counts, MAX
+      |                                                                           ^~~
+./samples/SAFE/__tmp_e4f75968.c:150:75: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e4f75968.c:150:78: error: expected ‘)’ at end of input
+  150 |     int unique_count = count_unique_words(words, word_count, word_counts, MAX
+      |                                          ~                                   ^
+      |                                                                              )
+./samples/SAFE/__tmp_e4f75968.c:150:5: error: expected declaration or statement at end of input
+  150 |     int unique_count = count_unique_words(words, word_count, word_counts, MAX
+      |     ^~~

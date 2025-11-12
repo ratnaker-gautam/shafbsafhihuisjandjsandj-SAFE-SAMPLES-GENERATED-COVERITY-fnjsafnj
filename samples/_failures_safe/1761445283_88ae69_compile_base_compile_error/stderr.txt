@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_887f0cb5.c: In function ‘graph_dijkstra’:
+./samples/SAFE/__tmp_887f0cb5.c:150:33: error: expected ‘)’ at end of input
+  150 |             if (g->edges[i].from
+      |                ~                ^
+      |                                 )
+./samples/SAFE/__tmp_887f0cb5.c:150:13: error: expected declaration or statement at end of input
+  150 |             if (g->edges[i].from
+      |             ^~
+./samples/SAFE/__tmp_887f0cb5.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_887f0cb5.c:150:13: error: expected declaration or statement at end of input

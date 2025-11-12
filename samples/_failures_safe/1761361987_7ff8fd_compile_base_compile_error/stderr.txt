@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_359a8545.c: In function ‘main’:
+./samples/SAFE/__tmp_359a8545.c:171:15: error: expected ‘;’ at end of input
+  171 |         printf
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_359a8545.c:171:9: error: expected declaration or statement at end of input
+  171 |         printf
+      |         ^~~~~~
+./samples/SAFE/__tmp_359a8545.c:171:9: error: expected declaration or statement at end of input

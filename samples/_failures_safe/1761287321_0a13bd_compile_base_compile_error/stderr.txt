@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_cb3fe392.c: In function ‘main’:
+./samples/SAFE/__tmp_cb3fe392.c:131:27: error: unterminated argument list invoking macro "MATRIX_ADD"
+  131 |         MATRIX_ADD(result,
+      |                           ^
+./samples/SAFE/__tmp_cb3fe392.c:131:9: error: ‘MATRIX_ADD’ undeclared (first use in this function)
+  131 |         MATRIX_ADD(result,
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_cb3fe392.c:131:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cb3fe392.c:131:19: error: expected ‘;’ at end of input
+  131 |         MATRIX_ADD(result,
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_cb3fe392.c:131:9: error: expected declaration or statement at end of input
+  131 |         MATRIX_ADD(result,
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_cb3fe392.c:131:9: error: expected declaration or statement at end of input

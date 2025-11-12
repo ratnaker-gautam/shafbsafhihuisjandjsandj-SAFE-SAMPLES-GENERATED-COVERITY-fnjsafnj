@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a088b306.c: In function ‘process_text’:
+./samples/SAFE/__tmp_a088b306.c:141:5: error: expected expression at end of input
+  141 |     processed[
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_a088b306.c:141:5: error: expected declaration or statement at end of input

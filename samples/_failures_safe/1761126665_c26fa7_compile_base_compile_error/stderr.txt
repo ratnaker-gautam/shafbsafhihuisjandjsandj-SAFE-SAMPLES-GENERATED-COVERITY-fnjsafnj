@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e13be236.c: In function ‘state_machine_step’:
+./samples/SAFE/__tmp_e13be236.c:173:21: error: expected declaration or statement at end of input
+  173 |                     break;
+      |                     ^~~~~
+./samples/SAFE/__tmp_e13be236.c:173:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e13be236.c:173:21: error: expected declaration or statement at end of input

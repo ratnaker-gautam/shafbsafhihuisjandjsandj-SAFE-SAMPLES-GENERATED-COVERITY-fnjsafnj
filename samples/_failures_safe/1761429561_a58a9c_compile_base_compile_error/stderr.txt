@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_ec9cdcf8.c: In function ‘main’:
+./samples/SAFE/__tmp_ec9cdcf8.c:150:29: error: ‘EVENT_DATA_READ’ undeclared (first use in this function); did you mean ‘EVENT_DATA_READY’?
+  150 |                     event = EVENT_DATA_READ
+      |                             ^~~~~~~~~~~~~~~
+      |                             EVENT_DATA_READY
+./samples/SAFE/__tmp_ec9cdcf8.c:150:29: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ec9cdcf8.c:150:44: error: expected ‘;’ at end of input
+  150 |                     event = EVENT_DATA_READ
+      |                                            ^
+      |                                            ;
+./samples/SAFE/__tmp_ec9cdcf8.c:150:21: error: expected declaration or statement at end of input
+  150 |                     event = EVENT_DATA_READ
+      |                     ^~~~~
+./samples/SAFE/__tmp_ec9cdcf8.c:150:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ec9cdcf8.c:150:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ec9cdcf8.c:150:21: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_2c28a7a1.c: In function ‘main’:
+./samples/SAFE/__tmp_2c28a7a1.c:130:46: error: ‘MAX’ undeclared (first use in this function)
+  130 |     int entry_count = read_log_file(entries, MAX
+      |                                              ^~~
+./samples/SAFE/__tmp_2c28a7a1.c:130:46: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2c28a7a1.c:130:49: error: expected ‘)’ at end of input
+  130 |     int entry_count = read_log_file(entries, MAX
+      |                                    ~            ^
+      |                                                 )
+./samples/SAFE/__tmp_2c28a7a1.c:130:5: error: expected declaration or statement at end of input
+  130 |     int entry_count = read_log_file(entries, MAX
+      |     ^~~

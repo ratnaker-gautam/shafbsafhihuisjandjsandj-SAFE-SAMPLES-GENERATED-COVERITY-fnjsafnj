@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b1d536bb.c: In function ‘main’:
+./samples/SAFE/__tmp_b1d536bb.c:150:5: error: expected expression at end of input
+  150 |     if (!add_compression_block(&ctx, test_data2,
+      |     ^~
+./samples/SAFE/__tmp_b1d536bb.c:150:5: error: expected declaration or statement at end of input

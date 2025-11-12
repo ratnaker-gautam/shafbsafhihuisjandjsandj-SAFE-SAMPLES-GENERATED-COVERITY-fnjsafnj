@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_3dab9ecb.c: In function ‘token_type_name’:
+./samples/SAFE/__tmp_3dab9ecb.c:164:9: error: expected ‘:’ or ‘...’ at end of input
+  164 |         case TOKEN_OPERATOR
+      |         ^~~~
+./samples/SAFE/__tmp_3dab9ecb.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3dab9ecb.c:164:9: error: expected declaration or statement at end of input

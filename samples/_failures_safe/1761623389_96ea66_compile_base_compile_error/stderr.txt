@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_a8ad21d1.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_a8ad21d1.c:171:23: error: expected ‘;’ at end of input
+  171 |                 printf
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_a8ad21d1.c:171:17: error: expected declaration or statement at end of input
+  171 |                 printf
+      |                 ^~~~~~
+./samples/SAFE/__tmp_a8ad21d1.c:171:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8ad21d1.c:171:17: error: expected declaration or statement at end of input

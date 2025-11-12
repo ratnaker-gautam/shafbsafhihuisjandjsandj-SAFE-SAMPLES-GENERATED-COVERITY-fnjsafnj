@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_308e020d.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_308e020d.c:167:5: error: expected expression at end of input
+  167 |     if (!queue_enqueue(&
+      |     ^~
+./samples/SAFE/__tmp_308e020d.c:167:10: error: too few arguments to function ‘queue_enqueue’
+  167 |     if (!queue_enqueue(&
+      |          ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_308e020d.c:124:5: note: declared here
+  124 | int queue_enqueue(struct Queue *q, struct GraphNode *node) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_308e020d.c:167:5: error: expected declaration or statement at end of input
+  167 |     if (!queue_enqueue(&
+      |     ^~

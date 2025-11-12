@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_e770abdb.c: In function ‘main’:
+./samples/SAFE/__tmp_e770abdb.c:180:17: error: expected declaration or statement at end of input
+  180 |                 size_t len = strlen(data_input);
+      |                 ^~~~~~
+./samples/SAFE/__tmp_e770abdb.c:180:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e770abdb.c:180:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e770abdb.c:180:17: error: expected declaration or statement at end of input

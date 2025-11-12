@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_80eb72fc.c: In function ‘main’:
+./samples/SAFE/__tmp_80eb72fc.c:145:57: error: expected ‘)’ at end of input
+  145 |         printf("%-15s%d\n", frequency[i].word, frequency
+      |               ~                                         ^
+      |                                                         )
+./samples/SAFE/__tmp_80eb72fc.c:145:9: error: expected declaration or statement at end of input
+  145 |         printf("%-15s%d\n", frequency[i].word, frequency
+      |         ^~~~~~
+./samples/SAFE/__tmp_80eb72fc.c:145:9: error: expected declaration or statement at end of input

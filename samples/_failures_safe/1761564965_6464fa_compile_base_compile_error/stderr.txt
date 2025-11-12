@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_20d19bee.c: In function ‘main’:
+./samples/SAFE/__tmp_20d19bee.c:173:9: error: expected declaration or statement at end of input
+  173 |         print_token_type(tokens[i].type);
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_20d19bee.c:173:9: error: expected declaration or statement at end of input

@@ -1,0 +1,53 @@
+
+=================================================================
+==21637==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffda25d8000 at pc 0x7be19bcc6f8f bp 0x7ffda24dde40 sp 0x7ffda24dd5e8
+READ of size 1 at 0x7ffda25d8000 thread T0
+    #0 0x7be19bcc6f8e in strcmp ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:470
+    #1 0x5d9e04d1002f in count_level_occurrences samples/SAFE/__tmp_90e2b447.c:62
+    #2 0x5d9e04d10286 in print_summary samples/SAFE/__tmp_90e2b447.c:77
+    #3 0x5d9e04d10895 in main samples/SAFE/__tmp_90e2b447.c:107
+    #4 0x7be19b02a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x7be19b02a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x5d9e04d0f364 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_90e2b447.c.san+0x4364) (BuildId: 5e2078889048027dcc6fbd86f3c20209752ab6c7)
+
+Address 0x7ffda25d8000 is located in stack of thread T0 at offset 1024064 in frame
+    #0 0x5d9e04d10470 in main samples/SAFE/__tmp_90e2b447.c:82
+
+  This frame has 2 object(s):
+    [32, 1024032) 'entries' (line 83) <== Memory access at offset 1024064 overflows this variable
+    [1024288, 1025312) 'line' (line 85)
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:470 in strcmp
+Shadow bytes around the buggy address:
+  0x7ffda25d7d80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffda25d7e00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffda25d7e80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffda25d7f00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffda25d7f80: 00 00 00 00 00 00 00 00 00 00 00 00 f2 f2 f2 f2
+=>0x7ffda25d8000:[f2]f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x7ffda25d8080: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 00 00 00 00
+  0x7ffda25d8100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffda25d8180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffda25d8200: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffda25d8280: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==21637==ABORTING

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_a1dd9a07.c: In function ‘main’:
+./samples/SAFE/__tmp_a1dd9a07.c:158:5: error: ‘execute_’ undeclared (first use in this function)
+  158 |     execute_
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_a1dd9a07.c:158:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a1dd9a07.c:158:13: error: expected ‘;’ at end of input
+  158 |     execute_
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_a1dd9a07.c:158:5: error: expected declaration or statement at end of input
+  158 |     execute_
+      |     ^~~~~~~~

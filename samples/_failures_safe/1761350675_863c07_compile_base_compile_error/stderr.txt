@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ac827705.c: In function ‘process_tokens’:
+./samples/SAFE/__tmp_ac827705.c:155:9: error: expected expression at end of input
+  155 |         if (tokens[i].type == TOKEN_NUMBER || tokens[i].type == TOKEN_STRING)
+      |         ^~
+./samples/SAFE/__tmp_ac827705.c:155:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ac827705.c:155:9: error: expected declaration or statement at end of input

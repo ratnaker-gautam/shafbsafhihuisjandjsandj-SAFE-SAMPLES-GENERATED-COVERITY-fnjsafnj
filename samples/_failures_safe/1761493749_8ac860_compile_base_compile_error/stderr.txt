@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_b6fe25bf.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_b6fe25bf.c:139:38: error: ‘lex’ undeclared (first use in this function); did you mean ‘lexer’?
+  139 |         Token token = get_next_token(lex
+      |                                      ^~~
+      |                                      lexer
+./samples/SAFE/__tmp_b6fe25bf.c:139:38: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b6fe25bf.c:139:41: error: expected ‘)’ at end of input
+  139 |         Token token = get_next_token(lex
+      |                                     ~   ^
+      |                                         )
+./samples/SAFE/__tmp_b6fe25bf.c:139:9: error: expected declaration or statement at end of input
+  139 |         Token token = get_next_token(lex
+      |         ^~~~~
+./samples/SAFE/__tmp_b6fe25bf.c:139:9: error: expected declaration or statement at end of input

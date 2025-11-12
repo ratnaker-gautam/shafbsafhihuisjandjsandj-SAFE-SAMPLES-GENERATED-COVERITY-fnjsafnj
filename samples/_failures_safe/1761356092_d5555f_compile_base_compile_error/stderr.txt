@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_4d77ef3c.c: In function ‘main’:
+./samples/SAFE/__tmp_4d77ef3c.c:133:10: error: ‘read_size’ undeclared (first use in this function); did you mean ‘read_size_t’?
+  133 |     if (!read_size
+      |          ^~~~~~~~~
+      |          read_size_t
+./samples/SAFE/__tmp_4d77ef3c.c:133:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4d77ef3c.c:133:19: error: expected ‘)’ at end of input
+  133 |     if (!read_size
+      |        ~          ^
+      |                   )
+./samples/SAFE/__tmp_4d77ef3c.c:133:5: error: expected declaration or statement at end of input
+  133 |     if (!read_size
+      |     ^~

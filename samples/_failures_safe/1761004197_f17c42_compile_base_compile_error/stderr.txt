@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_c95459c5.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_c95459c5.c:150:24: error: expected ‘)’ at end of input
+  150 |                analyzer
+      |                        ^
+      |                        )
+./samples/SAFE/__tmp_c95459c5.c:145:15: note: to match this ‘(’
+  145 |         printf("%d. '%s' (count: %d, length: %d, %s)\n",
+      |               ^
+./samples/SAFE/__tmp_c95459c5.c:150:16: error: expected declaration or statement at end of input
+  150 |                analyzer
+      |                ^~~~~~~~
+./samples/SAFE/__tmp_c95459c5.c:150:16: error: expected declaration or statement at end of input

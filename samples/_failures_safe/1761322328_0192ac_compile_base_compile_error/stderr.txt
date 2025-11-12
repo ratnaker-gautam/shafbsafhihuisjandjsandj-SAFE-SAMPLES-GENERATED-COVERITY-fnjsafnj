@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_b7eb5e3c.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_b7eb5e3c.c:141:17: error: expected ‘;’ at end of input
+  141 |             heap
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_b7eb5e3c.c:141:13: error: expected declaration or statement at end of input
+  141 |             heap
+      |             ^~~~
+./samples/SAFE/__tmp_b7eb5e3c.c:141:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b7eb5e3c.c:141:13: error: expected declaration or statement at end of input

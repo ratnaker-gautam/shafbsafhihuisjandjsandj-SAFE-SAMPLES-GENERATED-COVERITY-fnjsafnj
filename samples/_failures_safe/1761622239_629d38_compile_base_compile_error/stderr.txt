@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_fbc28460.c: In function ‘next_token’:
+./samples/SAFE/__tmp_fbc28460.c:182:9: error: expected expression at end of input
+  182 |         token->type =
+      |         ^~~~~
+./samples/SAFE/__tmp_fbc28460.c:182:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fbc28460.c:182:9: error: expected declaration or statement at end of input

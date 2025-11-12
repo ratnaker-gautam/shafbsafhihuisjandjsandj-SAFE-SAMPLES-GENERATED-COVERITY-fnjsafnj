@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d22cccf6.c: In function ‘main’:
+./samples/SAFE/__tmp_d22cccf6.c:143:5: error: expected declaration or statement at end of input
+  143 |     time_t earliest = 0, latest = 0;
+      |     ^~~~~~

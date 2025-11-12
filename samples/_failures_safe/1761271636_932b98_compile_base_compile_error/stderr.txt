@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5cda44c9.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_5cda44c9.c:154:19: error: missing terminating " character
+  154 |         "NUMBER", "IDENTIFI
+      |                   ^~~~~~~~~
+./samples/SAFE/__tmp_5cda44c9.c:154:9: error: expected expression at end of input
+  154 |         "NUMBER", "IDENTIFI
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_5cda44c9.c:154:9: error: expected declaration or statement at end of input

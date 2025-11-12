@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c7c700bb.c: In function ‘display_compression_result’:
+./samples/SAFE/__tmp_c7c700bb.c:132:12: error: missing terminating " character
+  132 |     printf("Checksum:
+      |            ^~~~~~~~~~
+./samples/SAFE/__tmp_c7c700bb.c:132:5: error: expected expression at end of input
+  132 |     printf("Checksum:
+      |     ^~~~~~
+./samples/SAFE/__tmp_c7c700bb.c:132:5: error: expected declaration or statement at end of input

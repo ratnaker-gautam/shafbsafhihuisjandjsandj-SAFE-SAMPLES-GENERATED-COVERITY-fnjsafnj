@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ef67fa92.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_ef67fa92.c:144:5: error: expected declaration or statement at end of input
+  144 |     if (a->cols != b->rows) return NULL;
+      |     ^~

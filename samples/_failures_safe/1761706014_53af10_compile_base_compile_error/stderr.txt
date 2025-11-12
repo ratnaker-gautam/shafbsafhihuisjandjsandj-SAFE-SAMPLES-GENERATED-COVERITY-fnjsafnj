@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5a6c28e7.c: In function ‘main’:
+./samples/SAFE/__tmp_5a6c28e7.c:147:9: error: expected declaration or statement at end of input
+  147 |         input[len - 1] = '\0';
+      |         ^~~~~
+./samples/SAFE/__tmp_5a6c28e7.c:147:9: error: expected declaration or statement at end of input

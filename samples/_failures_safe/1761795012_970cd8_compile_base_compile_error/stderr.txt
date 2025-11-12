@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5eaa796b.c: In function ‘bfs_traversal’:
+./samples/SAFE/__tmp_5eaa796b.c:168:5: error: expected expression at end of input
+  168 |     printf("BFS traversal from node %d: ",
+      |     ^~~~~~
+./samples/SAFE/__tmp_5eaa796b.c:168:5: error: expected declaration or statement at end of input

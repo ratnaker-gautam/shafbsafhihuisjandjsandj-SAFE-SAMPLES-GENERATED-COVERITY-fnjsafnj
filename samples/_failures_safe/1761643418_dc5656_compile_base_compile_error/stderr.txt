@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_44d67e9e.c:2:2: error: expected ‘;’ before ‘typedef’
+    2 | c
+      |  ^
+      |  ;
+./samples/SAFE/__tmp_44d67e9e.c:174: error: expected ‘;’, ‘,’ or ‘)’ at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_67f24a63.c: In function ‘parse_operator’:
+./samples/SAFE/__tmp_67f24a63.c:158:13: error: expected identifier at end of input
+  158 |             lexer->
+      |             ^~~~~
+./samples/SAFE/__tmp_67f24a63.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_67f24a63.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_67f24a63.c:158:13: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_2cf8f5c5.c: In function ‘main’:
+./samples/SAFE/__tmp_2cf8f5c5.c:151:22: error: ‘comp’ undeclared (first use in this function)
+  151 |         buffer_free(&comp
+      |                      ^~~~
+./samples/SAFE/__tmp_2cf8f5c5.c:151:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2cf8f5c5.c:151:26: error: expected ‘)’ at end of input
+  151 |         buffer_free(&comp
+      |                    ~     ^
+      |                          )
+./samples/SAFE/__tmp_2cf8f5c5.c:151:9: error: expected declaration or statement at end of input
+  151 |         buffer_free(&comp
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_2cf8f5c5.c:151:9: error: expected declaration or statement at end of input

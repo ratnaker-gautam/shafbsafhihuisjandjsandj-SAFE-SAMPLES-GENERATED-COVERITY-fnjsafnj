@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_49b44e5e.c: In function ‘main’:
+./samples/SAFE/__tmp_49b44e5e.c:166:33: error: ‘STATE_D’ undeclared (first use in this function); did you mean ‘STATE_DONE’?
+  166 |     while (sm->current_state != STATE_D
+      |                                 ^~~~~~~
+      |                                 STATE_DONE
+./samples/SAFE/__tmp_49b44e5e.c:166:33: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_49b44e5e.c:166:40: error: expected ‘)’ at end of input
+  166 |     while (sm->current_state != STATE_D
+      |           ~                            ^
+      |                                        )
+./samples/SAFE/__tmp_49b44e5e.c:166:5: error: expected declaration or statement at end of input
+  166 |     while (sm->current_state != STATE_D
+      |     ^~~~~

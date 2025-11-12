@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_a85d5422.c: In function ‘main’:
+./samples/SAFE/__tmp_a85d5422.c:140:60: error: expected ‘)’ at end of input
+  140 |                     printf("Invalid level: %s\n", level_str
+      |                           ~                                ^
+      |                                                            )
+./samples/SAFE/__tmp_a85d5422.c:140:21: error: expected declaration or statement at end of input
+  140 |                     printf("Invalid level: %s\n", level_str
+      |                     ^~~~~~
+./samples/SAFE/__tmp_a85d5422.c:140:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a85d5422.c:140:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a85d5422.c:140:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a85d5422.c:140:21: error: expected declaration or statement at end of input

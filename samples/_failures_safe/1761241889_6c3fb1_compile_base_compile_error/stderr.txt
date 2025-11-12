@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f7d12765.c: In function ‘main’:
+./samples/SAFE/__tmp_f7d12765.c:157:21: error: expected declaration or statement at end of input
+  157 |                     printf("Error: Integer overflow during addition.\n");
+      |                     ^~~~~~
+./samples/SAFE/__tmp_f7d12765.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f7d12765.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f7d12765.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f7d12765.c:157:21: error: expected declaration or statement at end of input

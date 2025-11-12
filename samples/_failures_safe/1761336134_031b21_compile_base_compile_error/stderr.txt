@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_dfa2ea8b.c: In function ‘main’:
+./samples/SAFE/__tmp_dfa2ea8b.c:153:40: error: expected ‘)’ at end of input
+  153 |         if (input[0] == 'q' || input[0]
+      |            ~                           ^
+      |                                        )
+./samples/SAFE/__tmp_dfa2ea8b.c:153:9: error: expected declaration or statement at end of input
+  153 |         if (input[0] == 'q' || input[0]
+      |         ^~
+./samples/SAFE/__tmp_dfa2ea8b.c:153:9: error: expected declaration or statement at end of input

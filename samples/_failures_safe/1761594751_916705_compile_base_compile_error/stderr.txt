@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ab605b04.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_ab605b04.c:178:16: error: expected expression at end of input
+  178 |                token->line,
+      |                ^~~~~
+./samples/SAFE/__tmp_ab605b04.c:178:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ab605b04.c:178:16: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2f00cc5a.c: In function ‘determinant_matrix’:
+./samples/SAFE/__tmp_2f00cc5a.c:134:9: error: expected ‘,’ or ‘;’ at end of input
+  134 |         long long term = (long long)matrix[0][x]
+      |         ^~~~
+./samples/SAFE/__tmp_2f00cc5a.c:134:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2f00cc5a.c:134:9: error: expected declaration or statement at end of input

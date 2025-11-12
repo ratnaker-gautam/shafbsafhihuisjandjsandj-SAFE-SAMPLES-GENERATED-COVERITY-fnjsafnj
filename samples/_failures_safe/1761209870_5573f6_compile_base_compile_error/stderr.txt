@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_2b9402fe.c: In function ‘main’:
+./samples/SAFE/__tmp_2b9402fe.c:172:17: error: expected expression at end of input
+  172 |                 if (!safe_str_to_int(input, &sm.number))
+      |                 ^~
+./samples/SAFE/__tmp_2b9402fe.c:172:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2b9402fe.c:172:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2b9402fe.c:172:17: error: expected declaration or statement at end of input

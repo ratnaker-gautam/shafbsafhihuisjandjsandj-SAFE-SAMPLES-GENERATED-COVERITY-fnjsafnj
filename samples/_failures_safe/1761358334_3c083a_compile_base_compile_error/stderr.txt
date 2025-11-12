@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8f6bd56c.c: In function ‘pointcloud_compute_stats’:
+./samples/SAFE/__tmp_8f6bd56c.c:139:9: error: expected identifier at end of input
+  139 |         stats.mean_x += pc->points[i].
+      |         ^~~~~
+./samples/SAFE/__tmp_8f6bd56c.c:139:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8f6bd56c.c:139:9: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0c97c8a7.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_0c97c8a7.c:173:22: error: ‘TOKEN_PUNCT’ undeclared (first use in this function)
+  173 |         token.type = TOKEN_PUNCT
+      |                      ^~~~~~~~~~~
+./samples/SAFE/__tmp_0c97c8a7.c:173:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0c97c8a7.c:173:33: error: expected ‘;’ at end of input
+  173 |         token.type = TOKEN_PUNCT
+      |                                 ^
+      |                                 ;
+./samples/SAFE/__tmp_0c97c8a7.c:173:9: error: expected declaration or statement at end of input
+  173 |         token.type = TOKEN_PUNCT
+      |         ^~~~~
+./samples/SAFE/__tmp_0c97c8a7.c:173:9: error: expected declaration or statement at end of input

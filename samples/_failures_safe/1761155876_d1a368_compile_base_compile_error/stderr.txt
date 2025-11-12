@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_23bea979.c: In function ‘main’:
+./samples/SAFE/__tmp_23bea979.c:158:62: error: ‘decomp’ undeclared (first use in this function)
+  158 |     if (decompressed_size != input_len || memcmp(input_data, decomp
+      |                                                              ^~~~~~
+./samples/SAFE/__tmp_23bea979.c:158:62: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_23bea979.c:158:68: error: expected ‘)’ at end of input
+  158 |     if (decompressed_size != input_len || memcmp(input_data, decomp
+      |                                                 ~                  ^
+      |                                                                    )
+./samples/SAFE/__tmp_23bea979.c:158:43: error: too few arguments to function ‘memcmp’
+  158 |     if (decompressed_size != input_len || memcmp(input_data, decomp
+      |                                           ^~~~~~
+In file included from ./samples/SAFE/__tmp_23bea979.c:4:
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_23bea979.c:158:5: error: expected declaration or statement at end of input
+  158 |     if (decompressed_size != input_len || memcmp(input_data, decomp
+      |     ^~

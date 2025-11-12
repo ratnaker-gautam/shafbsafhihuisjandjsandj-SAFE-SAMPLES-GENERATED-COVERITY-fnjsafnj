@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_e8752afb.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_e8752afb.c:164:21: error: ‘graph_f’ undeclared (first use in this function); did you mean ‘graph_bfs’?
+  164 |     int start_idx = graph_f
+      |                     ^~~~~~~
+      |                     graph_bfs
+./samples/SAFE/__tmp_e8752afb.c:164:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e8752afb.c:164:5: error: expected ‘,’ or ‘;’ at end of input
+  164 |     int start_idx = graph_f
+      |     ^~~
+./samples/SAFE/__tmp_e8752afb.c:164:5: error: expected declaration or statement at end of input

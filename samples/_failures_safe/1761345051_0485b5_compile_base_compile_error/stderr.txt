@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_65b05019.c:122:1: error: expected ‘{’ at end of input
+  122 | void print_vector(struct
+      | ^~~~

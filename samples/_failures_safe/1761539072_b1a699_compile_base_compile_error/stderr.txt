@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f4a8aaa1.c: In function ‘main’:
+./samples/SAFE/__tmp_f4a8aaa1.c:167:13: error: expected expression at end of input
+  167 |             if (sscanf(input, "%d", &int_val) !=
+      |             ^~
+./samples/SAFE/__tmp_f4a8aaa1.c:167:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f4a8aaa1.c:167:13: error: expected declaration or statement at end of input

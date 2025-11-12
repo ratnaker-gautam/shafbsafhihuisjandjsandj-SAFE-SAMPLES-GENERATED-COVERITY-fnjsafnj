@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_58d0f322.c: In function ‘print_distances’:
+./samples/SAFE/__tmp_58d0f322.c:163:13: error: expected expression at end of input
+  163 |             printf("Node %d: distance %d\n",
+      |             ^~~~~~
+./samples/SAFE/__tmp_58d0f322.c:163:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_58d0f322.c:163:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_58d0f322.c:163:13: error: expected declaration or statement at end of input

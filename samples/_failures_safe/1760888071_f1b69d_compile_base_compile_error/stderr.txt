@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_e42f5bf4.c: In function ‘main’:
+./samples/SAFE/__tmp_e42f5bf4.c:168:13: error: expected declaration or statement at end of input
+  168 |             } else if (sm.current_state == STATE_ERROR) {
+      |             ^
+./samples/SAFE/__tmp_e42f5bf4.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e42f5bf4.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e42f5bf4.c:168:13: error: expected declaration or statement at end of input

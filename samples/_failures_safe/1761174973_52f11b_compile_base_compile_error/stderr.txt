@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_72ece9c3.c: In function ‘main’:
+./samples/SAFE/__tmp_72ece9c3.c:168:23: error: expected ‘)’ at end of input
+  168 |             switch (vm
+      |                    ~  ^
+      |                       )
+./samples/SAFE/__tmp_72ece9c3.c:168:21: error: switch quantity not an integer
+  168 |             switch (vm
+      |                     ^~
+./samples/SAFE/__tmp_72ece9c3.c:168:13: error: expected declaration or statement at end of input
+  168 |             switch (vm
+      |             ^~~~~~
+./samples/SAFE/__tmp_72ece9c3.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_72ece9c3.c:168:13: error: expected declaration or statement at end of input

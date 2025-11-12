@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_96e1a7e2.c: In function ‘main’:
+./samples/SAFE/__tmp_96e1a7e2.c:154:5: error: expected declaration or statement at end of input
+  154 |     int unique_count = count_unique_words(words, word_count, unique_words);
+      |     ^~~

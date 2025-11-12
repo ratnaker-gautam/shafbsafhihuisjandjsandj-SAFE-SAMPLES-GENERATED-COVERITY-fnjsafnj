@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5a532a72.c: In function ‘main’:
+./samples/SAFE/__tmp_5a532a72.c:140:12: error: expected declaration or statement at end of input
+  140 |            (input.size > 0) ? (100.0 * compressed.size / input.size) : 0.0);
+      |            ^

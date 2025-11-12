@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_cdb85286.c: In function ‘main’:
+./samples/SAFE/__tmp_cdb85286.c:175:5: error: expected declaration or statement at end of input
+  175 |     int choice = atoi(choice_str);
+      |     ^~~

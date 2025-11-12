@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_80ecaaf1.c: In function ‘mesh_calculate_bounds’:
+./samples/SAFE/__tmp_80ecaaf1.c:136:9: error: expected identifier at end of input
+  136 |         if (mesh->vertices[i].y > mesh->
+      |         ^~
+./samples/SAFE/__tmp_80ecaaf1.c:136:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_80ecaaf1.c:136:9: error: expected declaration or statement at end of input

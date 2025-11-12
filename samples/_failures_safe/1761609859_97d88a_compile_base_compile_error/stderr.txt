@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5926267b.c: In function ‘main’:
+./samples/SAFE/__tmp_5926267b.c:171:70: error: expected ‘)’ at end of input
+  171 |         printf("Point %zu: (%.2f, %.2f)\n", i + 1, points.points[i].x
+      |               ~                                                      ^
+      |                                                                      )
+./samples/SAFE/__tmp_5926267b.c:171:9: error: expected declaration or statement at end of input
+  171 |         printf("Point %zu: (%.2f, %.2f)\n", i + 1, points.points[i].x
+      |         ^~~~~~
+./samples/SAFE/__tmp_5926267b.c:171:9: error: expected declaration or statement at end of input

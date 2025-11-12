@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_29df6027.c: In function ‘main’:
+./samples/SAFE/__tmp_29df6027.c:149:12: error: expected identifier or ‘(’ at end of input
+  149 |     struct TextAnaly
+      |            ^~~~~~~~~
+./samples/SAFE/__tmp_29df6027.c:149:12: error: expected declaration or statement at end of input

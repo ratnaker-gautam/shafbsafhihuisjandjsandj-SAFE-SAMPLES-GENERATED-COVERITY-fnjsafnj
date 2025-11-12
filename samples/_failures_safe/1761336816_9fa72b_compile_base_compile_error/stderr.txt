@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5ac9f597.c: In function ‘transform_bounds’:
+./samples/SAFE/__tmp_5ac9f597.c:123:49: error: expected ‘;’ at end of input
+  123 |         if (transformed.y > result.max.y) result
+      |                                                 ^
+      |                                                 ;
+./samples/SAFE/__tmp_5ac9f597.c:123:9: error: expected declaration or statement at end of input
+  123 |         if (transformed.y > result.max.y) result
+      |         ^~
+./samples/SAFE/__tmp_5ac9f597.c:123:9: error: expected declaration or statement at end of input

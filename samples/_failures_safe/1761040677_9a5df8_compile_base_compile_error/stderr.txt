@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_56e068ce.c: In function ‘print_status’:
+./samples/SAFE/__tmp_56e068ce.c:179:16: error: missing terminating " character
+  179 |         printf("  %d: Price %d, Stock %d
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_56e068ce.c:179:9: error: expected expression at end of input
+  179 |         printf("  %d: Price %d, Stock %d
+      |         ^~~~~~
+./samples/SAFE/__tmp_56e068ce.c:179:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_56e068ce.c:179:9: error: expected declaration or statement at end of input

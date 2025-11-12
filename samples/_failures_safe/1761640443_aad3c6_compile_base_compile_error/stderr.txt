@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0944fcc1.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_0944fcc1.c:143:58: error: expected ‘)’ at end of input
+  143 |     while (lexer->input[lexer->position] != '\0' && lexer
+      |           ~                                              ^
+      |                                                          )
+./samples/SAFE/__tmp_0944fcc1.c:143:5: error: expected declaration or statement at end of input
+  143 |     while (lexer->input[lexer->position] != '\0' && lexer
+      |     ^~~~~

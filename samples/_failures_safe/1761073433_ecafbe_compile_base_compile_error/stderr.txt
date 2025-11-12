@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_b064fbc3.c: In function ‘main’:
+./samples/SAFE/__tmp_b064fbc3.c:158:21: error: expected declaration or statement at end of input
+  158 |                     printf("Error: Cannot add matrices - dimension mismatch or integer overflow.\n");
+      |                     ^~~~~~
+./samples/SAFE/__tmp_b064fbc3.c:158:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b064fbc3.c:158:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b064fbc3.c:158:21: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_fa6eed93.c: In function ‘bfs’:
+./samples/SAFE/__tmp_fa6eed93.c:171:5: error: expected declaration or statement at end of input
+  171 |     }
+      |     ^

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_8e83e115.c: In function ‘main’:
+./samples/SAFE/__tmp_8e83e115.c:153:5: error: expected declaration or statement at end of input
+  153 |     size_t num_events = sizeof(events) / sizeof(events[0]);
+      |     ^~~~~~

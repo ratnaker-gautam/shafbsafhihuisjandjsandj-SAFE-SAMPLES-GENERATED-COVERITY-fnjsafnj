@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a4706ba0.c: In function ‘main’:
+./samples/SAFE/__tmp_a4706ba0.c:189:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  189 |     struct Graph *graph
+      |            ^~~~~
+./samples/SAFE/__tmp_a4706ba0.c:189:12: error: expected declaration or statement at end of input

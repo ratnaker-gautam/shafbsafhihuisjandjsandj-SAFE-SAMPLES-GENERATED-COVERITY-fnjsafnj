@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8d81fe26.c:2:2: error: expected ‘;’ before ‘typedef’
+    2 | c
+      |  ^
+      |  ;
+./samples/SAFE/__tmp_8d81fe26.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_8d81fe26.c:175:5: error: expected declaration or statement at end of input
+  175 |     eof_token.type = TOKEN_EOF;
+      |     ^~~~~~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1d9e98c1.c: In function ‘main’:
+./samples/SAFE/__tmp_1d9e98c1.c:134:13: error: expected declaration or statement at end of input
+  134 |             printf("Invalid log format: %s\n", line);
+      |             ^~~~~~
+./samples/SAFE/__tmp_1d9e98c1.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1d9e98c1.c:134:13: error: expected declaration or statement at end of input

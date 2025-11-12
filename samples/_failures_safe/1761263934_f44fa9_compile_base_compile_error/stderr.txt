@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0e3c93d3.c: In function ‘multiply_matrices’:
+./samples/SAFE/__tmp_0e3c93d3.c:114:17: error: expected expression at end of input
+  114 |                 long long product = (long long)a->data[i][k] * (
+      |                 ^~~~
+./samples/SAFE/__tmp_0e3c93d3.c:114:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0e3c93d3.c:114:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0e3c93d3.c:114:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0e3c93d3.c:114:17: error: expected declaration or statement at end of input

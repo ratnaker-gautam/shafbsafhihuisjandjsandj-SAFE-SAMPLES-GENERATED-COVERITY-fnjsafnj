@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_d1001b70.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_d1001b70.c:170:86: error: ‘MAX’ undeclared (first use in this function)
+  170 |     while (tokenizer->input[tokenizer->position] != '\0' && tokenizer->token_count < MAX
+      |                                                                                      ^~~
+./samples/SAFE/__tmp_d1001b70.c:170:86: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d1001b70.c:170:89: error: expected ‘)’ at end of input
+  170 |     while (tokenizer->input[tokenizer->position] != '\0' && tokenizer->token_count < MAX
+      |           ~                                                                             ^
+      |                                                                                         )
+./samples/SAFE/__tmp_d1001b70.c:170:5: error: expected declaration or statement at end of input
+  170 |     while (tokenizer->input[tokenizer->position] != '\0' && tokenizer->token_count < MAX
+      |     ^~~~~

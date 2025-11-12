@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_1ba38072.c: In function ‘main’:
+./samples/SAFE/__tmp_1ba38072.c:161:20: error: missing terminating " character
+  161 |             printf("Invalid edge format\n
+      |                    ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1ba38072.c:161:13: error: expected expression at end of input
+  161 |             printf("Invalid edge format\n
+      |             ^~~~~~
+./samples/SAFE/__tmp_1ba38072.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1ba38072.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1ba38072.c:161:13: error: expected declaration or statement at end of input

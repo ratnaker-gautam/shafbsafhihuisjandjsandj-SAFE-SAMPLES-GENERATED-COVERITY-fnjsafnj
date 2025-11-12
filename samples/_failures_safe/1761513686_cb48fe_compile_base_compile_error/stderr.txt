@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_708a778d.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_708a778d.c:153:16: error: ‘is_delim’ undeclared (first use in this function)
+  153 |     } else if (is_delim
+      |                ^~~~~~~~
+./samples/SAFE/__tmp_708a778d.c:153:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_708a778d.c:153:24: error: expected ‘)’ at end of input
+  153 |     } else if (is_delim
+      |               ~        ^
+      |                        )
+./samples/SAFE/__tmp_708a778d.c:153:5: error: expected declaration or statement at end of input
+  153 |     } else if (is_delim
+      |     ^

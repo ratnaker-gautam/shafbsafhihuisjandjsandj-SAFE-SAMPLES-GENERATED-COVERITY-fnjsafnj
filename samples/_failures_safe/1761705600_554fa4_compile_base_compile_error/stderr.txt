@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_43424399.c: In function ‘main’:
+./samples/SAFE/__tmp_43424399.c:153:23: error: invalid operands to binary != (have ‘size_t’ {aka ‘long unsigned int’} and ‘Buffer’)
+  153 |     if (bytes_written != output_buf
+      |                       ^~
+./samples/SAFE/__tmp_43424399.c:153:36: error: expected ‘)’ at end of input
+  153 |     if (bytes_written != output_buf
+      |        ~                           ^
+      |                                    )
+./samples/SAFE/__tmp_43424399.c:153:5: error: expected declaration or statement at end of input
+  153 |     if (bytes_written != output_buf
+      |     ^~

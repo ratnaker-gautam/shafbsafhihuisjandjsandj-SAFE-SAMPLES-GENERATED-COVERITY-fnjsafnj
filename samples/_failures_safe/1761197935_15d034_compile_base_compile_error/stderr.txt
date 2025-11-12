@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_4a7aa4a1.c: In function ‘main’:
+./samples/SAFE/__tmp_4a7aa4a1.c:152:34: error: expected ‘)’ at end of input
+  152 |     print_word_counts(word_counts
+      |                      ~           ^
+      |                                  )
+./samples/SAFE/__tmp_4a7aa4a1.c:152:5: error: too few arguments to function ‘print_word_counts’
+  152 |     print_word_counts(word_counts
+      |     ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4a7aa4a1.c:107:6: note: declared here
+  107 | void print_word_counts(const struct WordCount *word_counts, int count) {
+      |      ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4a7aa4a1.c:152:5: error: expected declaration or statement at end of input
+  152 |     print_word_counts(word_counts
+      |     ^~~~~~~~~~~~~~~~~

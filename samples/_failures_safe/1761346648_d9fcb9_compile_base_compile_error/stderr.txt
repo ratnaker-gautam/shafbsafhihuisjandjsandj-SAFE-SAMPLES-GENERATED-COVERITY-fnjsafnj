@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_285136f2.c: In function ‘main’:
+./samples/SAFE/__tmp_285136f2.c:154:34: error: expected ‘)’ at end of input
+  154 |     sort_word_counts(unique_words
+      |                     ~            ^
+      |                                  )
+./samples/SAFE/__tmp_285136f2.c:154:5: error: too few arguments to function ‘sort_word_counts’
+  154 |     sort_word_counts(unique_words
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_285136f2.c:96:6: note: declared here
+   96 | void sort_word_counts(struct WordCount* word_counts, int count) {
+      |      ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_285136f2.c:154:5: error: expected declaration or statement at end of input
+  154 |     sort_word_counts(unique_words
+      |     ^~~~~~~~~~~~~~~~

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_aa4aa9d4.c: In function ‘main’:
+./samples/SAFE/__tmp_aa4aa9d4.c:168:46: error: expected ‘)’ at end of input
+  168 |     Token* tokens = tokenize_expression(input
+      |                                        ~     ^
+      |                                              )
+./samples/SAFE/__tmp_aa4aa9d4.c:168:21: error: too few arguments to function ‘tokenize_expression’
+  168 |     Token* tokens = tokenize_expression(input
+      |                     ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_aa4aa9d4.c:65:8: note: declared here
+   65 | Token* tokenize_expression(const char* input, size_t* token_count) {
+      |        ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_aa4aa9d4.c:168:5: error: expected declaration or statement at end of input
+  168 |     Token* tokens = tokenize_expression(input
+      |     ^~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d6593ded.c: In function ‘parser_parse_statement’:
+./samples/SAFE/__tmp_d6593ded.c:163:5: error: expected declaration or statement at end of input
+  163 |     if (token.type == TOKEN_IDENTIFIER) {
+      |     ^~
+./samples/SAFE/__tmp_d6593ded.c:163:5: error: expected declaration or statement at end of input

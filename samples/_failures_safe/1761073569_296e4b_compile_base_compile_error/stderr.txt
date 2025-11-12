@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f499989b.c: In function ‘print_high_severity_entries’:
+./samples/SAFE/__tmp_f499989b.c:133:39: error: expected ‘]’ at end of input
+  133 |                    analyzer->entries[i
+      |                                       ^
+      |                                       ]
+./samples/SAFE/__tmp_f499989b.c:133:20: error: expected declaration or statement at end of input
+  133 |                    analyzer->entries[i
+      |                    ^~~~~~~~
+./samples/SAFE/__tmp_f499989b.c:133:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f499989b.c:133:20: error: expected declaration or statement at end of input

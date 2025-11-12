@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_54a1154b.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_54a1154b.c:162:13: error: expected expression at end of input
+  162 |             case
+      |             ^~~~
+./samples/SAFE/__tmp_54a1154b.c:162:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_54a1154b.c:162:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_54a1154b.c:162:13: error: expected declaration or statement at end of input

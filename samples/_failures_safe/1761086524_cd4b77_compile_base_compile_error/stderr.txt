@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_914b0774.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_914b0774.c:140:23: error: expected ‘;’ at end of input
+  140 |         case 3: printf
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_914b0774.c:140:9: error: expected declaration or statement at end of input
+  140 |         case 3: printf
+      |         ^~~~
+./samples/SAFE/__tmp_914b0774.c:140:9: error: expected declaration or statement at end of input

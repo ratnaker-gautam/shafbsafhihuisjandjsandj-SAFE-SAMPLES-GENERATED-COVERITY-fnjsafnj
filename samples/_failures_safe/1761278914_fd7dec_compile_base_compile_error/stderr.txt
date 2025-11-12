@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_8c8a42c8.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_8c8a42c8.c:149:17: error: expected identifier at end of input
+  149 |                 sm->
+      |                 ^~
+./samples/SAFE/__tmp_8c8a42c8.c:149:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8c8a42c8.c:149:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8c8a42c8.c:149:17: error: expected declaration or statement at end of input

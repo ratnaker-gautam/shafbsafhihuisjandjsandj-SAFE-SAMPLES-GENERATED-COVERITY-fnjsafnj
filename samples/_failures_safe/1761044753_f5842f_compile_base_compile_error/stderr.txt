@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_662daae3.c: In function ‘next_token’:
+./samples/SAFE/__tmp_662daae3.c:158:17: error: expected declaration or statement at end of input
+  158 |                 lexer->line++;
+      |                 ^~~~~
+./samples/SAFE/__tmp_662daae3.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_662daae3.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_662daae3.c:158:17: error: expected declaration or statement at end of input

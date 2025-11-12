@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_d2161d19.c:189:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  189 | void print
+      | ^~~~

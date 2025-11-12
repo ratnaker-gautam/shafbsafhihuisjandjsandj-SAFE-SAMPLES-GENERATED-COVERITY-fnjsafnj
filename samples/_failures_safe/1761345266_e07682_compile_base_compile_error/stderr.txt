@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7533be89.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_7533be89.c:186:17: error: expected expression at end of input
+  186 |                 dist[v] =
+      |                 ^~~~
+./samples/SAFE/__tmp_7533be89.c:186:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7533be89.c:186:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7533be89.c:186:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7533be89.c:186:17: error: expected declaration or statement at end of input

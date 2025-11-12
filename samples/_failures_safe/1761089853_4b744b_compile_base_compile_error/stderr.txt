@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_91b3deaf.c: In function ‘main’:
+./samples/SAFE/__tmp_91b3deaf.c:132:32: error: ‘compressed’ undeclared (first use in this function); did you mean ‘compressed_size’?
+  132 |     print_hex(compressed_data, compressed
+      |                                ^~~~~~~~~~
+      |                                compressed_size
+./samples/SAFE/__tmp_91b3deaf.c:132:32: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_91b3deaf.c:132:42: error: expected ‘)’ at end of input
+  132 |     print_hex(compressed_data, compressed
+      |              ~                           ^
+      |                                          )
+./samples/SAFE/__tmp_91b3deaf.c:132:5: error: expected declaration or statement at end of input
+  132 |     print_hex(compressed_data, compressed
+      |     ^~~~~~~~~

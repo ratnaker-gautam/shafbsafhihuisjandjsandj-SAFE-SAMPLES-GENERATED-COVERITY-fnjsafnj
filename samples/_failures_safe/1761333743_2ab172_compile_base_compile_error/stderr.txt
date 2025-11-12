@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2d46d2f5.c: In function ‘main’:
+./samples/SAFE/__tmp_2d46d2f5.c:153:5: error: expected declaration or statement at end of input
+  153 |     int startNode;
+      |     ^~~

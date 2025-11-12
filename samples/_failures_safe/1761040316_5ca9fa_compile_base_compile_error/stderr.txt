@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5d057941.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_5d057941.c:176:33: error: expected ‘)’ at end of input
+  176 |     if (token_count < max_tokens
+      |        ~                        ^
+      |                                 )
+./samples/SAFE/__tmp_5d057941.c:176:5: error: expected declaration or statement at end of input
+  176 |     if (token_count < max_tokens
+      |     ^~

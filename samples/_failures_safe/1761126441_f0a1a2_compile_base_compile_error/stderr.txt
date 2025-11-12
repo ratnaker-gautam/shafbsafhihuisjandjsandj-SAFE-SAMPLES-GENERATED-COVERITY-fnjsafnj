@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_495a0c94.c: In function ‘main’:
+./samples/SAFE/__tmp_495a0c94.c:160:21: error: expected declaration or statement at end of input
+  160 |                     data_index++;
+      |                     ^~~~~~~~~~
+./samples/SAFE/__tmp_495a0c94.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_495a0c94.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_495a0c94.c:160:21: error: expected declaration or statement at end of input

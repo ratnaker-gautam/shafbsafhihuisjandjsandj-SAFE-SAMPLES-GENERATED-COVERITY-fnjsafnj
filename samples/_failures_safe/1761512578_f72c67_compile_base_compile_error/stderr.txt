@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_4119cad5.c: In function ‘write_compressed_data’:
+./samples/SAFE/__tmp_4119cad5.c:190:13: error: ‘f’ undeclared (first use in this function)
+  190 |         if (f
+      |             ^
+./samples/SAFE/__tmp_4119cad5.c:190:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4119cad5.c:190:14: error: expected ‘)’ at end of input
+  190 |         if (f
+      |            ~ ^
+      |              )
+./samples/SAFE/__tmp_4119cad5.c:190:9: error: expected declaration or statement at end of input
+  190 |         if (f
+      |         ^~
+./samples/SAFE/__tmp_4119cad5.c:190:9: error: expected declaration or statement at end of input

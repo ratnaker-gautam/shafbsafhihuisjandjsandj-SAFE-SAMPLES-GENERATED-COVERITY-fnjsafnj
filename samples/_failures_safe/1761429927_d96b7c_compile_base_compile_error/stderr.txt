@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_3d685e4b.c: In function ‘main’:
+./samples/SAFE/__tmp_3d685e4b.c:158:5: error: ‘krus’ undeclared (first use in this function)
+  158 |     krus
+      |     ^~~~
+./samples/SAFE/__tmp_3d685e4b.c:158:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3d685e4b.c:158:9: error: expected ‘;’ at end of input
+  158 |     krus
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_3d685e4b.c:158:5: error: expected declaration or statement at end of input
+  158 |     krus
+      |     ^~~~

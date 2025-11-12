@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_06246c4e.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_06246c4e.c:161:9: error: expected expression at end of input
+  161 |         queue_destroy(&
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_06246c4e.c:161:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_06246c4e.c:161:9: error: expected declaration or statement at end of input

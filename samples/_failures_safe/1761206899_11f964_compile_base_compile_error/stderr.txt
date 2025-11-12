@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_7c80b5c1.c: In function ‘bfs’:
+./samples/SAFE/__tmp_7c80b5c1.c:154:35: error: expected ‘]’ at end of input
+  154 |             start = graph->nodes[i
+      |                                   ^
+      |                                   ]
+./samples/SAFE/__tmp_7c80b5c1.c:154:13: error: expected declaration or statement at end of input
+  154 |             start = graph->nodes[i
+      |             ^~~~~
+./samples/SAFE/__tmp_7c80b5c1.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7c80b5c1.c:154:13: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f7638341.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_f7638341.c:153:9: error: expected expression at end of input
+  153 |         strncpy(value, &lexer->input[start_pos],
+      |         ^~~~~~~
+./samples/SAFE/__tmp_f7638341.c:153:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f7638341.c:153:9: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_90e4d715.c: In function ‘main’:
+./samples/SAFE/__tmp_90e4d715.c:136:20: error: expected ‘)’ at end of input
+  136 |         if (strncmp
+      |            ~       ^
+      |                    )
+./samples/SAFE/__tmp_90e4d715.c:136:9: error: expected declaration or statement at end of input
+  136 |         if (strncmp
+      |         ^~
+./samples/SAFE/__tmp_90e4d715.c:136:9: error: expected declaration or statement at end of input

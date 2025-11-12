@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_6aa36a46.c: In function ‘main’:
+./samples/SAFE/__tmp_6aa36a46.c:163:10: error: ‘test_data’ undeclared (first use in this function); did you mean ‘test_data2’?
+  163 |         {test_data
+      |          ^~~~~~~~~
+      |          test_data2
+./samples/SAFE/__tmp_6aa36a46.c:163:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6aa36a46.c:164: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_6aa36a46.c:163:9: note: to match this ‘{’
+  163 |         {test_data
+      |         ^
+./samples/SAFE/__tmp_6aa36a46.c:163:9: error: expected declaration or statement at end of input

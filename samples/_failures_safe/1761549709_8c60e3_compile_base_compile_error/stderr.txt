@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_d05160c9.c: In function ‘main’:
+./samples/SAFE/__tmp_d05160c9.c:174:66: error: expected ‘)’ at end of input
+  174 |             memcmp(decompressed.data, input_data.data, input_data
+      |                   ~                                              ^
+      |                                                                  )
+./samples/SAFE/__tmp_d05160c9.c:174:56: error: incompatible type for argument 3 of ‘memcmp’
+  174 |             memcmp(decompressed.data, input_data.data, input_data
+      |                                                        ^~~~~~~~~~
+      |                                                        |
+      |                                                        Buffer
+In file included from ./samples/SAFE/__tmp_d05160c9.c:4:
+/usr/include/string.h:64:63: note: expected ‘size_t’ {aka ‘long unsigned int’} but argument is of type ‘Buffer’
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |                                                        ~~~~~~~^~~
+./samples/SAFE/__tmp_d05160c9.c:174:13: error: expected declaration or statement at end of input
+  174 |             memcmp(decompressed.data, input_data.data, input_data
+      |             ^~~~~~
+./samples/SAFE/__tmp_d05160c9.c:174:13: error: expected declaration or statement at end of input

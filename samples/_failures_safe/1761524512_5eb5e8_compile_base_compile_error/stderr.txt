@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f3e8542c.c: In function ‘main’:
+./samples/SAFE/__tmp_f3e8542c.c:173:5: error: expected expression at end of input
+  173 |     while (token_count <
+      |     ^~~~~
+./samples/SAFE/__tmp_f3e8542c.c:173:5: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccNROKeE.o: in function `compute_exponential':
+__tmp_aeadc90c.c:(.text+0x3f): undefined reference to `exp'
+/usr/bin/ld: /tmp/ccNROKeE.o: in function `main':
+__tmp_aeadc90c.c:(.text.startup+0x13d): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

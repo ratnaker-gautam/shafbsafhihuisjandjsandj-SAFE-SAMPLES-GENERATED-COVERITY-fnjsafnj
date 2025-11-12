@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_b1aa0477.c: In function ‘main’:
+./samples/SAFE/__tmp_b1aa0477.c:138:13: error: expected expression at end of input
+  138 |             strncpy(high_severity_stack[high_count].level, entries[i].level,
+      |             ^~~~~~~
+./samples/SAFE/__tmp_b1aa0477.c:138:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b1aa0477.c:138:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b1aa0477.c:138:13: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_57302a5f.c: In function ‘bfs’:
+./samples/SAFE/__tmp_57302a5f.c:159:5: error: ‘reset’ undeclared (first use in this function)
+  159 |     reset
+      |     ^~~~~
+./samples/SAFE/__tmp_57302a5f.c:159:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_57302a5f.c:159:10: error: expected ‘;’ at end of input
+  159 |     reset
+      |          ^
+      |          ;
+./samples/SAFE/__tmp_57302a5f.c:159:5: error: expected declaration or statement at end of input
+  159 |     reset
+      |     ^~~~~

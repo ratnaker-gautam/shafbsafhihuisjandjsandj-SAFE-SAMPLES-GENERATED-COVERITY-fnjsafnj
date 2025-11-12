@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_46ea15ee.c: In function ‘print_compression_info’:
+./samples/SAFE/__tmp_46ea15ee.c:152:5: error: expected declaration or statement at end of input
+  152 |     printf("  Magic: 0x%08X\n", ctx->header.magic);
+      |     ^~~~~~

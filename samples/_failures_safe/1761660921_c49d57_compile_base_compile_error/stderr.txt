@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_067693be.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_067693be.c:147:5: error: expected declaration or statement at end of input
+  147 |     } else {
+      |     ^
+./samples/SAFE/__tmp_067693be.c:147:5: error: expected declaration or statement at end of input

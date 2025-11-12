@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d63b2d00.c: In function ‘multiply_matrices’:
+./samples/SAFE/__tmp_d63b2d00.c:121:16: error: expected ‘)’ at end of input
+  121 |     if (a->cols
+      |        ~       ^
+      |                )
+./samples/SAFE/__tmp_d63b2d00.c:121:5: error: expected declaration or statement at end of input
+  121 |     if (a->cols
+      |     ^~

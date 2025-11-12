@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_3dfb9900.c: In function ‘main’:
+./samples/SAFE/__tmp_3dfb9900.c:165:24: error: missing terminating " character
+  165 |     if (!read_safe_int("Enter columns for matrix A (1-100):
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_3dfb9900.c:165:5: error: expected expression at end of input
+  165 |     if (!read_safe_int("Enter columns for matrix A (1-100):
+      |     ^~
+./samples/SAFE/__tmp_3dfb9900.c:165:10: error: too few arguments to function ‘read_safe_int’
+  165 |     if (!read_safe_int("Enter columns for matrix A (1-100):
+      |          ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_3dfb9900.c:112:5: note: declared here
+  112 | int read_safe_int(const char *prompt, int *value) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_3dfb9900.c:165:5: error: expected declaration or statement at end of input
+  165 |     if (!read_safe_int("Enter columns for matrix A (1-100):
+      |     ^~

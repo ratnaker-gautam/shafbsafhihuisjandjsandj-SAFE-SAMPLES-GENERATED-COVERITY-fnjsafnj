@@ -1,0 +1,124 @@
+//DeepSeek-V3 SAFE v1.4 Category: Safe ; Style: monolithic_main ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+enum State {
+    INIT,
+    READING_NUMBER,
+    READING_WORD,
+    ERROR,
+    DONE
+};
+
+int main(void) {
+    char buffer[256];
+    int numbers[50];
+    char words[50][50];
+    int num_count = 0;
+    int word_count = 0;
+    enum State current_state = INIT;
+    int pos = 0;
+    int ch;
+    
+    printf("Enter text (max 255 chars): ");
+    if (fgets(buffer, sizeof(buffer), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    buffer[strcspn(buffer, "\n")] = '\0';
+    
+    while (buffer[pos] != '\0' && current_state != ERROR && current_state != DONE) {
+        ch = buffer[pos];
+        
+        switch (current_state) {
+            case INIT:
+                if (isdigit(ch)) {
+                    if (num_count < 50) {
+                        numbers[num_count] = ch - '0';
+                        current_state = READING_NUMBER;
+                    } else {
+                        current_state = ERROR;
+                    }
+                } else if (isalpha(ch)) {
+                    if (word_count < 50) {
+                        words[word_count][0] = ch;
+                        words[word_count][1] = '\0';
+                        current_state = READING_WORD;
+                    } else {
+                        current_state = ERROR;
+                    }
+                } else if (isspace(ch)) {
+                    pos++;
+                } else {
+                    current_state = ERROR;
+                }
+                break;
+                
+            case READING_NUMBER:
+                if (isdigit(ch)) {
+                    numbers[num_count] = numbers[num_count] * 10 + (ch - '0');
+                    pos++;
+                } else if (isspace(ch)) {
+                    num_count++;
+                    current_state = INIT;
+                    pos++;
+                } else if (ch == '\0') {
+                    num_count++;
+                    current_state = DONE;
+                } else {
+                    current_state = ERROR;
+                }
+                break;
+                
+            case READING_WORD:
+                if (isalnum(ch)) {
+                    size_t len = strlen(words[word_count]);
+                    if (len < 49) {
+                        words[word_count][len] = ch;
+                        words[word_count][len + 1] = '\0';
+                        pos++;
+                    } else {
+                        current_state = ERROR;
+                    }
+                } else if (isspace(ch)) {
+                    word_count++;
+                    current_state = INIT;
+                    pos++;
+                } else if (ch == '\0') {
+                    word_count++;
+                    current_state = DONE;
+                } else {
+                    current_state = ERROR;
+                }
+                break;
+                
+            case ERROR:
+                break;
+                
+            case DONE:
+                break;
+        }
+    }
+    
+    if (current_state == ERROR) {
+        printf("Error: Invalid input format\n");
+        return 1;
+    }
+    
+    printf("Numbers found: ");
+    for (int i = 0; i < num_count; i++) {
+        printf("%d ", numbers[i]);
+    }
+    printf("\n");
+    
+    printf("Words found: ");
+    for (int i = 0; i < word_count; i++) {
+        printf("%s ", words[i]);
+    }
+    printf("\n");
+    
+    return 0;
+}

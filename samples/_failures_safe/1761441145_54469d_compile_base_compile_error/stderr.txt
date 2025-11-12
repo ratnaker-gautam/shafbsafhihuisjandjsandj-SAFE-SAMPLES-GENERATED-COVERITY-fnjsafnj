@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_0a2c3f96.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_0a2c3f96.c:150:51: error: expected ‘]’ at end of input
+  150 |                 if (isInMinHeap(heap, v) && dist[u
+      |                                                   ^
+      |                                                   ]
+./samples/SAFE/__tmp_0a2c3f96.c:150:17: error: expected declaration or statement at end of input
+  150 |                 if (isInMinHeap(heap, v) && dist[u
+      |                 ^~
+./samples/SAFE/__tmp_0a2c3f96.c:150:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0a2c3f96.c:150:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0a2c3f96.c:150:17: error: expected declaration or statement at end of input

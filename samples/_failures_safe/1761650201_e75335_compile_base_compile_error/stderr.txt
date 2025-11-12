@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_64a320e3.c: In function ‘addEdge’:
+./samples/SAFE/__tmp_64a320e3.c:151:9: error: expected declaration or statement at end of input
+  151 |         graph->adjList[dest] = newList;
+      |         ^~~~~
+./samples/SAFE/__tmp_64a320e3.c:151:9: error: expected declaration or statement at end of input

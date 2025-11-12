@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b1668b1a.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_b1668b1a.c:159:69: error: expected ‘)’ at end of input
+  159 |         } else if (isalpha((unsigned char)peek(lexer)) || peek(lexer
+      |                                                               ~     ^
+      |                                                                     )
+./samples/SAFE/__tmp_b1668b1a.c:159:9: error: expected declaration or statement at end of input
+  159 |         } else if (isalpha((unsigned char)peek(lexer)) || peek(lexer
+      |         ^
+./samples/SAFE/__tmp_b1668b1a.c:159:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_73e32baa.c: In function ‘process_event’:
+./samples/SAFE/__tmp_73e32baa.c:144:13: error: expected declaration or statement at end of input
+  144 |             break;
+      |             ^~~~~
+./samples/SAFE/__tmp_73e32baa.c:144:13: error: expected declaration or statement at end of input

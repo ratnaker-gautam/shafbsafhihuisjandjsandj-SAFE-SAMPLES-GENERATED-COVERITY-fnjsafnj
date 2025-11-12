@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ae19fa35.c: In function ‘main’:
+./samples/SAFE/__tmp_ae19fa35.c:151:20: error: expected declaration or statement at end of input
+  151 |                    names[i], result.original_size, result.compressed_size, ratio);
+      |                    ^~~~~
+./samples/SAFE/__tmp_ae19fa35.c:151:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ae19fa35.c:151:20: error: expected declaration or statement at end of input

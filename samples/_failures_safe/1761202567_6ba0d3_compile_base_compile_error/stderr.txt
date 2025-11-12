@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4ec97602.c: In function ‘main’:
+./samples/SAFE/__tmp_4ec97602.c:148:5: error: expected declaration or statement at end of input
+  148 |     dijkstra(graph, n, src, dist);
+      |     ^~~~~~~~

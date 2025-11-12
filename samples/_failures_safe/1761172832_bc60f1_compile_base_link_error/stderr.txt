@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccMacDf9.o: in function `main':
+__tmp_dde013d8.c:(.text.startup+0x1be): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_49fa92fc.c: In function ‘determinant’:
+./samples/SAFE/__tmp_49fa92fc.c:154:17: error: expected expression at end of input
+  154 |                 minor[i - 1][
+      |                 ^~~~~
+./samples/SAFE/__tmp_49fa92fc.c:154:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_49fa92fc.c:154:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_49fa92fc.c:154:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_49fa92fc.c:154:17: error: expected declaration or statement at end of input

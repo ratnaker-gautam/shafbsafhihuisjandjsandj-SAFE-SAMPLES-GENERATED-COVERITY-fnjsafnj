@@ -1,0 +1,23 @@
+./samples/SAFE/__tmp_f88c85c1.c: In function ‘main’:
+./samples/SAFE/__tmp_f88c85c1.c:180:43: error: ‘EVENT_COMP’ undeclared (first use in this function); did you mean ‘EVENT_COMPLETE’?
+  180 |                         handle_event(&sm, EVENT_COMP
+      |                                           ^~~~~~~~~~
+      |                                           EVENT_COMPLETE
+./samples/SAFE/__tmp_f88c85c1.c:180:43: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f88c85c1.c:180:53: error: expected ‘)’ at end of input
+  180 |                         handle_event(&sm, EVENT_COMP
+      |                                     ~               ^
+      |                                                     )
+./samples/SAFE/__tmp_f88c85c1.c:180:25: error: too few arguments to function ‘handle_event’
+  180 |                         handle_event(&sm, EVENT_COMP
+      |                         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_f88c85c1.c:63:7: note: declared here
+   63 | State handle_event(StateMachine* sm, Event event, const char* data) {
+      |       ^~~~~~~~~~~~
+./samples/SAFE/__tmp_f88c85c1.c:180:25: error: expected declaration or statement at end of input
+  180 |                         handle_event(&sm, EVENT_COMP
+      |                         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_f88c85c1.c:180:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f88c85c1.c:180:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f88c85c1.c:180:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f88c85c1.c:180:25: error: expected declaration or statement at end of input

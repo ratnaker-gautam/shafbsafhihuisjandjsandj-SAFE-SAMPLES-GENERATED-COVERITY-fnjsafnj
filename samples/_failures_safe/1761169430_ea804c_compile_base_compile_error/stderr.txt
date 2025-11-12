@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ad1d2d0d.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_ad1d2d0d.c:138:35: error: ‘state’ undeclared (first use in this function); did you mean ‘State’?
+  138 |     printf("Current State: %s\n", state
+      |                                   ^~~~~
+      |                                   State
+./samples/SAFE/__tmp_ad1d2d0d.c:138:35: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ad1d2d0d.c:138:40: error: expected ‘)’ at end of input
+  138 |     printf("Current State: %s\n", state
+      |           ~                            ^
+      |                                        )
+./samples/SAFE/__tmp_ad1d2d0d.c:138:5: error: expected declaration or statement at end of input
+  138 |     printf("Current State: %s\n", state
+      |     ^~~~~~

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_876022a9.c: In function ‘main’:
+./samples/SAFE/__tmp_876022a9.c:147:26: error: ‘MAX’ undeclared (first use in this function)
+  147 |     uint8_t decompressed[MAX
+      |                          ^~~
+./samples/SAFE/__tmp_876022a9.c:147:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_876022a9.c:147:29: error: expected ‘]’ at end of input
+  147 |     uint8_t decompressed[MAX
+      |                             ^
+      |                             ]
+./samples/SAFE/__tmp_876022a9.c:147:5: error: expected declaration or statement at end of input
+  147 |     uint8_t decompressed[MAX
+      |     ^~~~~~~

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_f5ddd507.c: In function ‘main’:
+./samples/SAFE/__tmp_f5ddd507.c:156:9: error: ‘de’ undeclared (first use in this function)
+  156 |     if (de
+      |         ^~
+./samples/SAFE/__tmp_f5ddd507.c:156:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f5ddd507.c:156:11: error: expected ‘)’ at end of input
+  156 |     if (de
+      |        ~  ^
+      |           )
+./samples/SAFE/__tmp_f5ddd507.c:156:5: error: expected declaration or statement at end of input
+  156 |     if (de
+      |     ^~

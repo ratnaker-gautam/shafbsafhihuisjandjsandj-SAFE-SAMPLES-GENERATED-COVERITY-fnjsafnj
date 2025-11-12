@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_4baa69dd.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_4baa69dd.c:167:23: error: ‘max_t’ undeclared (first use in this function)
+  167 |     if (token_count < max_t
+      |                       ^~~~~
+./samples/SAFE/__tmp_4baa69dd.c:167:23: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4baa69dd.c:167:28: error: expected ‘)’ at end of input
+  167 |     if (token_count < max_t
+      |        ~                   ^
+      |                            )
+./samples/SAFE/__tmp_4baa69dd.c:167:5: error: expected declaration or statement at end of input
+  167 |     if (token_count < max_t
+      |     ^~

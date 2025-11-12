@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ce7f09e3.c: In function ‘primMST’:
+./samples/SAFE/__tmp_ce7f09e3.c:144:34: error: expected ‘;’ at end of input
+  144 |                     parent[v] = u
+      |                                  ^
+      |                                  ;
+./samples/SAFE/__tmp_ce7f09e3.c:144:21: error: expected declaration or statement at end of input
+  144 |                     parent[v] = u
+      |                     ^~~~~~
+./samples/SAFE/__tmp_ce7f09e3.c:144:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ce7f09e3.c:144:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ce7f09e3.c:144:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ce7f09e3.c:144:21: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f7e0ef00.c: In function ‘main’:
+./samples/SAFE/__tmp_f7e0ef00.c:169:21: error: expected expression at end of input
+  169 |                     printf("%d! = %.0f\n",
+      |                     ^~~~~~
+./samples/SAFE/__tmp_f7e0ef00.c:169:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f7e0ef00.c:169:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f7e0ef00.c:169:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f7e0ef00.c:169:21: error: expected declaration or statement at end of input

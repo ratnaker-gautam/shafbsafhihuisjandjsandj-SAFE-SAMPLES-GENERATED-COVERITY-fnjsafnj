@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9d2156f2.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_9d2156f2.c:182:9: error: expected expression at end of input
+  182 |         switch (token->type)
+      |         ^~~~~~
+./samples/SAFE/__tmp_9d2156f2.c:182:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9d2156f2.c:182:9: error: expected declaration or statement at end of input

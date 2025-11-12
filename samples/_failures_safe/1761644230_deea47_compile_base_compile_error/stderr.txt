@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_9964a884.c: In function ‘main’:
+./samples/SAFE/__tmp_9964a884.c:133:21: error: expected ‘)’ at end of input
+  133 |     if (!read_size_t
+      |        ~            ^
+      |                     )
+./samples/SAFE/__tmp_9964a884.c:133:5: error: expected declaration or statement at end of input
+  133 |     if (!read_size_t
+      |     ^~

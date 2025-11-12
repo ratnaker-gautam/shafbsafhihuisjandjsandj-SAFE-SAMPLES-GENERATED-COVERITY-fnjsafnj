@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_848c195d.c: In function ‘main’:
+./samples/SAFE/__tmp_848c195d.c:122:32: error: expected ‘)’ at end of input
+  122 |     set_element(&mat3, 1, 0, 3.
+      |                ~               ^
+      |                                )
+./samples/SAFE/__tmp_848c195d.c:122:5: error: expected declaration or statement at end of input
+  122 |     set_element(&mat3, 1, 0, 3.
+      |     ^~~~~~~~~~~

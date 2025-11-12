@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_66788bae.c: In function ‘main’:
+./samples/SAFE/__tmp_66788bae.c:173:9: error: expected declaration or statement at end of input
+  173 |         printf("Compression ratio: 0.00%%\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_66788bae.c:173:9: error: expected declaration or statement at end of input

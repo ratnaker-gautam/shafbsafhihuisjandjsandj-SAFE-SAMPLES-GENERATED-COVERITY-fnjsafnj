@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_9db05886.c: In function ‘main’:
+./samples/SAFE/__tmp_9db05886.c:149:13: error: ‘ss’ undeclared (first use in this function)
+  149 |         if (ss
+      |             ^~
+./samples/SAFE/__tmp_9db05886.c:149:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9db05886.c:149:15: error: expected ‘)’ at end of input
+  149 |         if (ss
+      |            ~  ^
+      |               )
+./samples/SAFE/__tmp_9db05886.c:149:9: error: expected declaration or statement at end of input
+  149 |         if (ss
+      |         ^~
+./samples/SAFE/__tmp_9db05886.c:149:9: error: expected declaration or statement at end of input

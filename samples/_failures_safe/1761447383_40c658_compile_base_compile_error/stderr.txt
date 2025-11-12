@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_1301260c.c: In function ‘main’:
+./samples/SAFE/__tmp_1301260c.c:153:16: error: ‘decompressed’ undeclared (first use in this function); did you mean ‘decompress_rle’?
+  153 |         memcmp(decompressed
+      |                ^~~~~~~~~~~~
+      |                decompress_rle
+./samples/SAFE/__tmp_1301260c.c:153:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1301260c.c:153:28: error: expected ‘)’ at end of input
+  153 |         memcmp(decompressed
+      |               ~            ^
+      |                            )
+./samples/SAFE/__tmp_1301260c.c:153:9: error: too few arguments to function ‘memcmp’
+  153 |         memcmp(decompressed
+      |         ^~~~~~
+In file included from ./samples/SAFE/__tmp_1301260c.c:4:
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_1301260c.c:153:9: error: expected declaration or statement at end of input
+  153 |         memcmp(decompressed
+      |         ^~~~~~

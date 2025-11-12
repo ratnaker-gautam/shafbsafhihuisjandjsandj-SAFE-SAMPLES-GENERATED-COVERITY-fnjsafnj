@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ca090a59.c: In function ‘display_summary’:
+./samples/SAFE/__tmp_ca090a59.c:141:5: error: expected declaration or statement at end of input
+  141 |     printf("Total entries: %d\n", analyzer->count);
+      |     ^~~~~~

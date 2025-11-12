@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_8dbc44ad.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_8dbc44ad.c:166:9: error: expected expression at end of input
+  166 |         else if (parse_operator(input, &pos, &
+      |         ^~~~
+./samples/SAFE/__tmp_8dbc44ad.c:166:18: error: too few arguments to function ‘parse_operator’
+  166 |         else if (parse_operator(input, &pos, &
+      |                  ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8dbc44ad.c:76:5: note: declared here
+   76 | int parse_operator(const char *input, int *pos, struct Token *token, int line, int col) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8dbc44ad.c:166:9: error: expected declaration or statement at end of input
+  166 |         else if (parse_operator(input, &pos, &
+      |         ^~~~
+./samples/SAFE/__tmp_8dbc44ad.c:166:9: error: expected declaration or statement at end of input

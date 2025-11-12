@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_a883f6f6.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_a883f6f6.c:175:26: error: expected ‘;’ at end of input
+  175 |             start = graph
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_a883f6f6.c:175:13: error: expected declaration or statement at end of input
+  175 |             start = graph
+      |             ^~~~~
+./samples/SAFE/__tmp_a883f6f6.c:175:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a883f6f6.c:175:13: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_10bebb35.c: In function ‘main’:
+./samples/SAFE/__tmp_10bebb35.c:128:5: error: expected declaration or statement at end of input
+  128 |     printf("\nError rate: %.2f%%\n", error_rate);
+      |     ^~~~~~

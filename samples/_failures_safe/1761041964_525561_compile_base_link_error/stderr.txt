@@ -1,0 +1,9 @@
+/usr/bin/ld: /tmp/ccw5m45H.o: in function `safe_power':
+__tmp_95f4489b.c:(.text+0x120): undefined reference to `fmod'
+/usr/bin/ld: __tmp_95f4489b.c:(.text+0xee): undefined reference to `pow'
+/usr/bin/ld: __tmp_95f4489b.c:(.text+0x101): undefined reference to `pow'
+/usr/bin/ld: /tmp/ccw5m45H.o: in function `main':
+__tmp_95f4489b.c:(.text.startup+0x1ce): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_95f4489b.c:(.text.startup+0x2a2): undefined reference to `pow'
+/usr/bin/ld: __tmp_95f4489b.c:(.text.startup+0x3b6): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

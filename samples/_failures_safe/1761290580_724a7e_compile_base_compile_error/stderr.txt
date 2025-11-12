@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_9c19d9d4.c: In function ‘main’:
+./samples/SAFE/__tmp_9c19d9d4.c:174:25: error: missing terminating " character
+  174 |         fprintf(stderr, "
+      |                         ^
+./samples/SAFE/__tmp_9c19d9d4.c:174:9: error: expected expression at end of input
+  174 |         fprintf(stderr, "
+      |         ^~~~~~~
+./samples/SAFE/__tmp_9c19d9d4.c:174:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9c19d9d4.c:174:9: error: expected declaration or statement at end of input

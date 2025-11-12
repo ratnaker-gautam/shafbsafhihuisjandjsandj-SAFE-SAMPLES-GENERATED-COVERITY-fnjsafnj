@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b232b64a.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_b232b64a.c:151:10: error: expected expression at end of input
+  151 |          (buffer[0] == '>' && lexer->input[lexer->position] ==
+      |          ^
+./samples/SAFE/__tmp_b232b64a.c:151:10: error: expected declaration or statement at end of input

@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_f7e271a6.c:160:6: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  160 | enum compression_type get_compression
+      |      ^~~~~~~~~~~~~~~~

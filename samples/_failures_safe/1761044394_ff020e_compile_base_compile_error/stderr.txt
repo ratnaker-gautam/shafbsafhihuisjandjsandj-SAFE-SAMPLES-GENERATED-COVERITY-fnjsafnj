@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d75dc567.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_d75dc567.c:185:9: error: expected declaration or statement at end of input
+  185 |         graph->nodes[i]->distance = INT_MAX;
+      |         ^~~~~
+./samples/SAFE/__tmp_d75dc567.c:185:9: error: expected declaration or statement at end of input

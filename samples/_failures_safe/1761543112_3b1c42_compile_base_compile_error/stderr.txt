@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2aa0d85c.c: In function ‘main’:
+./samples/SAFE/__tmp_2aa0d85c.c:145:5: error: expected expression at end of input
+  145 |     entry_count =
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_2aa0d85c.c:145:5: error: expected declaration or statement at end of input

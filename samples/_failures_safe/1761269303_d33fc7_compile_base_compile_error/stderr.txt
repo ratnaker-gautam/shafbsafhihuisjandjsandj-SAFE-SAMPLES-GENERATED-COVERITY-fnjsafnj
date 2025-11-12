@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c114bff5.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_c114bff5.c:182:13: error: expected declaration or statement at end of input
+  182 |             invalid_token.type = TOKEN_INVALID;
+      |             ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_c114bff5.c:182:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c114bff5.c:182:13: error: expected declaration or statement at end of input

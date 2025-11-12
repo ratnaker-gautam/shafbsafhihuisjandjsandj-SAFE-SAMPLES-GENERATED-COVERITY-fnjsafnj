@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a71f69b8.c: In function ‘main’:
+./samples/SAFE/__tmp_a71f69b8.c:139:5: error: expected declaration or statement at end of input
+  139 |     if (!read_matrix_from_input(&mat1)) {
+      |     ^~
+./samples/SAFE/__tmp_a71f69b8.c:139:5: error: expected declaration or statement at end of input

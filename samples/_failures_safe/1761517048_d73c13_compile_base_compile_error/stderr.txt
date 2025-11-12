@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_37cbeccb.c: In function ‘print_shortest_paths’:
+./samples/SAFE/__tmp_37cbeccb.c:173: error: expected ‘{’ at end of input

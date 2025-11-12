@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c86f5a1a.c: In function ‘main’:
+./samples/SAFE/__tmp_c86f5a1a.c:156:5: error: expected declaration or statement at end of input
+  156 |     transpose_matrix(&b, &result);
+      |     ^~~~~~~~~~~~~~~~

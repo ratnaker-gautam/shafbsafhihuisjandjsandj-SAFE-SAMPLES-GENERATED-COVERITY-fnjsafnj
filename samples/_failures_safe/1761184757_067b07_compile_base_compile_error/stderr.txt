@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_decc1fb1.c: In function ‘main’:
+./samples/SAFE/__tmp_decc1fb1.c:162:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  162 |         int from, to, weight
+      |         ^~~
+./samples/SAFE/__tmp_decc1fb1.c:162:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_decc1fb1.c:162:9: error: expected declaration or statement at end of input

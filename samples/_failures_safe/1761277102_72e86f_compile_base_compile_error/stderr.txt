@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_04dd9863.c: In function ‘main’:
+./samples/SAFE/__tmp_04dd9863.c:145:10: error: expected ‘;’ at end of input
+  145 |     clock
+      |          ^
+      |          ;
+./samples/SAFE/__tmp_04dd9863.c:145:5: error: expected declaration or statement at end of input
+  145 |     clock
+      |     ^~~~~

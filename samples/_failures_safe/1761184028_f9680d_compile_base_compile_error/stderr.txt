@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8e2cda63.c: In function ‘subtract_matrices’:
+./samples/SAFE/__tmp_8e2cda63.c:131:9: error: expected expression at end of input
+  131 |         for (
+      |         ^~~
+./samples/SAFE/__tmp_8e2cda63.c:131:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8e2cda63.c:131:9: error: expected declaration or statement at end of input

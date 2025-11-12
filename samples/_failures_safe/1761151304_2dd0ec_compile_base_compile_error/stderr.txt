@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_a68cc9a9.c: In function ‘main’:
+./samples/SAFE/__tmp_a68cc9a9.c:145:17: error: expected expression at end of input
+  145 |                 int result = execute_graph_operation(
+      |                 ^~~
+./samples/SAFE/__tmp_a68cc9a9.c:145:30: error: too few arguments to function ‘execute_graph_operation’
+  145 |                 int result = execute_graph_operation(
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a68cc9a9.c:113:5: note: declared here
+  113 | int execute_graph_operation(GraphOperation op, Graph *g, int start, int end) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a68cc9a9.c:145:17: error: expected declaration or statement at end of input
+  145 |                 int result = execute_graph_operation(
+      |                 ^~~
+./samples/SAFE/__tmp_a68cc9a9.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a68cc9a9.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a68cc9a9.c:145:17: error: expected declaration or statement at end of input

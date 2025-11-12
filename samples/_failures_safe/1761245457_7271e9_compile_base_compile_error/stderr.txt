@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_2ac9752d.c: In function ‘main’:
+./samples/SAFE/__tmp_2ac9752d.c:138:23: error: expected ‘)’ at end of input
+  138 |         if (a.rows > 3
+      |            ~          ^
+      |                       )
+./samples/SAFE/__tmp_2ac9752d.c:138:9: error: expected declaration or statement at end of input
+  138 |         if (a.rows > 3
+      |         ^~
+./samples/SAFE/__tmp_2ac9752d.c:138:9: error: expected declaration or statement at end of input

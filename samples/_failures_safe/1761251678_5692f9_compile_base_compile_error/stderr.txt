@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_35e14513.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_35e14513.c:175:51: error: expected ‘)’ at end of input
+  175 |         for (int i = 0; i < graph->vertex_count; i
+      |             ~                                     ^
+      |                                                   )
+./samples/SAFE/__tmp_35e14513.c:175:9: error: expected declaration or statement at end of input
+  175 |         for (int i = 0; i < graph->vertex_count; i
+      |         ^~~
+./samples/SAFE/__tmp_35e14513.c:175:9: error: expected declaration or statement at end of input

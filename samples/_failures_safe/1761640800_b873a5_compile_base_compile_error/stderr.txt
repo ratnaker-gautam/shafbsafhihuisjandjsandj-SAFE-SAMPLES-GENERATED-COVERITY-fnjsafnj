@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_45fa6f23.c: In function ‘transform_bounding_box’:
+./samples/SAFE/__tmp_45fa6f23.c:122:13: error: ‘trans’ undeclared (first use in this function)
+  122 |         if (trans
+      |             ^~~~~
+./samples/SAFE/__tmp_45fa6f23.c:122:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_45fa6f23.c:122:18: error: expected ‘)’ at end of input
+  122 |         if (trans
+      |            ~     ^
+      |                  )
+./samples/SAFE/__tmp_45fa6f23.c:122:9: error: expected declaration or statement at end of input
+  122 |         if (trans
+      |         ^~
+./samples/SAFE/__tmp_45fa6f23.c:122:9: error: expected declaration or statement at end of input

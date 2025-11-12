@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_bac2fdcc.c: In function ‘main’:
+./samples/SAFE/__tmp_bac2fdcc.c:197:30: error: expected ‘]’ at end of input
+  197 |         print_token(&tokens[i
+      |                              ^
+      |                              ]
+./samples/SAFE/__tmp_bac2fdcc.c:197:9: error: expected declaration or statement at end of input
+  197 |         print_token(&tokens[i
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_bac2fdcc.c:197:9: error: expected declaration or statement at end of input

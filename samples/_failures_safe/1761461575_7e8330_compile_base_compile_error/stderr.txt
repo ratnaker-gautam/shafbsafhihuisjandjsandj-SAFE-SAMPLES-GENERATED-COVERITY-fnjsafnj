@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_06d6f45f.c: In function ‘read_compressed_file’:
+./samples/SAFE/__tmp_06d6f45f.c:143:9: error: expected declaration or statement at end of input
+  143 |         free(compressed_data);
+      |         ^~~~
+./samples/SAFE/__tmp_06d6f45f.c:143:9: error: expected declaration or statement at end of input

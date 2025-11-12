@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_ce55c1e3.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_ce55c1e3.c:126:17: error: expected declaration or statement at end of input
+  126 |                 if (j == x) continue;
+      |                 ^~
+./samples/SAFE/__tmp_ce55c1e3.c:126:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ce55c1e3.c:126:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ce55c1e3.c:126:17: error: expected declaration or statement at end of input

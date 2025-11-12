@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fe9d3d67.c: In function ‘main’:
+./samples/SAFE/__tmp_fe9d3d67.c:179:45: error: expected ‘)’ at end of input
+  179 |     if (token_count >= MAX_TOKENS && *cursor
+      |        ~                                    ^
+      |                                             )
+./samples/SAFE/__tmp_fe9d3d67.c:179:5: error: expected declaration or statement at end of input
+  179 |     if (token_count >= MAX_TOKENS && *cursor
+      |     ^~

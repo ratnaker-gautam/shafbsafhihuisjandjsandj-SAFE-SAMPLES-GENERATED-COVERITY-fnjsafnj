@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f9edc5db.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_f9edc5db.c:185:24: error: ‘INT’ undeclared (first use in this function)
+  185 |         if (dist[i] == INT
+      |                        ^~~
+./samples/SAFE/__tmp_f9edc5db.c:185:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f9edc5db.c:185:27: error: expected ‘)’ at end of input
+  185 |         if (dist[i] == INT
+      |            ~              ^
+      |                           )
+./samples/SAFE/__tmp_f9edc5db.c:185:9: error: expected declaration or statement at end of input
+  185 |         if (dist[i] == INT
+      |         ^~
+./samples/SAFE/__tmp_f9edc5db.c:185:9: error: expected declaration or statement at end of input

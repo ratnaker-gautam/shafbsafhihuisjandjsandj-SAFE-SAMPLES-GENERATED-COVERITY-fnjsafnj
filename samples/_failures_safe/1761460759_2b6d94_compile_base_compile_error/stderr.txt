@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d366a950.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_d366a950.c:162:14: error: expected ‘)’ at end of input
+  162 |     free(heap
+      |         ~    ^
+      |              )
+./samples/SAFE/__tmp_d366a950.c:162:5: error: expected declaration or statement at end of input
+  162 |     free(heap
+      |     ^~~~

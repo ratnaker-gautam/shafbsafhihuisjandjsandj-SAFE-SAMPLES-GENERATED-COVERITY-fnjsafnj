@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_54fecf46.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_54fecf46.c:167:44: error: expected ‘)’ at end of input
+  167 |                     (current == '>' && next
+      |                     ~                      ^
+      |                                            )
+./samples/SAFE/__tmp_54fecf46.c:167:21: error: expected declaration or statement at end of input
+  167 |                     (current == '>' && next
+      |                     ^
+./samples/SAFE/__tmp_54fecf46.c:167:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_54fecf46.c:167:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_54fecf46.c:167:21: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b0b42537.c: In function ‘main’:
+./samples/SAFE/__tmp_b0b42537.c:128:12: error: expected declaration or statement at end of input
+  128 |     struct SimulationState sim = {0};
+      |            ^~~~~~~~~~~~~~~

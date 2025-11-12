@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccerkgPd.o: in function `main':
+__tmp_1529df84.c:(.text.startup+0x1c4): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a58cbbe7.c: In function ‘main’:
+./samples/SAFE/__tmp_a58cbbe7.c:151:5: error: expected declaration or statement at end of input
+  151 |     sort_word_counts(word_counts, unique_count);
+      |     ^~~~~~~~~~~~~~~~

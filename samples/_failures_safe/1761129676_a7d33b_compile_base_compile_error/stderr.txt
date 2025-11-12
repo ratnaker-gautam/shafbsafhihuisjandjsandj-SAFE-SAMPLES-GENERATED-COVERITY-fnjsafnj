@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2aad2893.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_2aad2893.c:166:5: error: expected expression at end of input
+  166 |     if (parser->current_token.type ==
+      |     ^~
+./samples/SAFE/__tmp_2aad2893.c:166:5: error: expected declaration or statement at end of input

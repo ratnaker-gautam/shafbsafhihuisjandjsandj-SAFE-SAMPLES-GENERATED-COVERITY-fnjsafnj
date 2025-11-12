@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_cde8ffaf.c: In function ‘main’:
+./samples/SAFE/__tmp_cde8ffaf.c:194:9: error: expected expression at end of input
+  194 |         "world",
+      |         ^~~~~~~
+./samples/SAFE/__tmp_cde8ffaf.c:194:9: error: expected declaration or statement at end of input

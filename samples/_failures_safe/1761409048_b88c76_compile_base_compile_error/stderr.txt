@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_83cfb295.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_83cfb295.c:127:9: error: expected expression at end of input
+  127 |         int a21 = matrix_get(a,
+      |         ^~~
+./samples/SAFE/__tmp_83cfb295.c:127:19: error: too few arguments to function ‘matrix_get’
+  127 |         int a21 = matrix_get(a,
+      |                   ^~~~~~~~~~
+./samples/SAFE/__tmp_83cfb295.c:36:5: note: declared here
+   36 | int matrix_get(const struct matrix *m, size_t row, size_t col) {
+      |     ^~~~~~~~~~
+./samples/SAFE/__tmp_83cfb295.c:127:9: error: expected declaration or statement at end of input
+  127 |         int a21 = matrix_get(a,
+      |         ^~~
+./samples/SAFE/__tmp_83cfb295.c:127:9: error: expected declaration or statement at end of input

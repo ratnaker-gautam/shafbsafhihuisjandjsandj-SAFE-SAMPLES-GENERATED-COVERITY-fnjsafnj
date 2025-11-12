@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_83ba882d.c: In function ‘matrix_mul’:
+./samples/SAFE/__tmp_83ba882d.c:160:28: error: expected ‘;’ at end of input
+  160 |     for (i = 0; i < a->rows
+      |                            ^
+      |                            ;
+./samples/SAFE/__tmp_83ba882d.c:160:5: error: expected declaration or statement at end of input
+  160 |     for (i = 0; i < a->rows
+      |     ^~~

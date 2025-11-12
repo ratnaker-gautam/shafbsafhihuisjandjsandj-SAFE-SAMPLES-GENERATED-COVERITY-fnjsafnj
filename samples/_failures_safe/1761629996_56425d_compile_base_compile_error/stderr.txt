@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_66ef3612.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_66ef3612.c:123:5: error: expected declaration or statement at end of input
+  123 |     }
+      |     ^

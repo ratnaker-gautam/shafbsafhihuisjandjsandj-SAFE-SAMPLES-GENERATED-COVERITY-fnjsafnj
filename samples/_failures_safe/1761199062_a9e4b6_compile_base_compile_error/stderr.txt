@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4b1ecdba.c: In function ‘main’:
+./samples/SAFE/__tmp_4b1ecdba.c:174:5: error: expected declaration or statement at end of input
+  174 |     char buffer[1024] = {0};
+      |     ^~~~

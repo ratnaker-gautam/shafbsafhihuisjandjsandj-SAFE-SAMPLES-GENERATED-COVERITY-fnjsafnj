@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_dc130311.c: In function ‘main’:
+./samples/SAFE/__tmp_dc130311.c:131:53: error: ‘MAX’ undeclared (first use in this function)
+  131 |     int heap_count = read_log_entries(entries_heap, MAX
+      |                                                     ^~~
+./samples/SAFE/__tmp_dc130311.c:131:53: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_dc130311.c:131:56: error: expected ‘)’ at end of input
+  131 |     int heap_count = read_log_entries(entries_heap, MAX
+      |                                      ~                 ^
+      |                                                        )
+./samples/SAFE/__tmp_dc130311.c:131:5: error: expected declaration or statement at end of input
+  131 |     int heap_count = read_log_entries(entries_heap, MAX
+      |     ^~~

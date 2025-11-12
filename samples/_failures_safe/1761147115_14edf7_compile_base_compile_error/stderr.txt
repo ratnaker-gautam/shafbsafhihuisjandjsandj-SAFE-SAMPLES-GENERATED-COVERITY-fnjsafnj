@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_8144c453.c: In function ‘main’:
+./samples/SAFE/__tmp_8144c453.c:160:12: error: used struct type value where scalar is required
+  160 |     while (ctx
+      |            ^~~
+./samples/SAFE/__tmp_8144c453.c:160:15: error: expected ‘)’ at end of input
+  160 |     while (ctx
+      |           ~   ^
+      |               )
+./samples/SAFE/__tmp_8144c453.c:160:5: error: expected declaration or statement at end of input
+  160 |     while (ctx
+      |     ^~~~~

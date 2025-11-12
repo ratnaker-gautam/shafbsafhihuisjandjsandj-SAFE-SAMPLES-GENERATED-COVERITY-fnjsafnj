@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_adba70dd.c: In function ‘main’:
+./samples/SAFE/__tmp_adba70dd.c:169:9: error: expected expression at end of input
+  169 |         test_data[i] = (uint8_t)(i %
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_adba70dd.c:169:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_adba70dd.c:169:9: error: expected declaration or statement at end of input

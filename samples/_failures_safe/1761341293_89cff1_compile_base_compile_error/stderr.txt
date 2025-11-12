@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_156dbd26.c: In function ‘main’:
+./samples/SAFE/__tmp_156dbd26.c:141:10: error: ‘cl’ undeclared (first use in this function); did you mean ‘cosl’?
+  141 |     free(cl
+      |          ^~
+      |          cosl
+./samples/SAFE/__tmp_156dbd26.c:141:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_156dbd26.c:141:12: error: expected ‘)’ at end of input
+  141 |     free(cl
+      |         ~  ^
+      |            )
+./samples/SAFE/__tmp_156dbd26.c:141:5: error: expected declaration or statement at end of input
+  141 |     free(cl
+      |     ^~~~

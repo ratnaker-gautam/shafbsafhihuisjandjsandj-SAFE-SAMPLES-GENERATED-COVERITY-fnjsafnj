@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_884e1428.c: In function ‘main’:
+./samples/SAFE/__tmp_884e1428.c:164:101: error: ‘output’ undeclared (first use in this function)
+  164 |     struct compression_result result = compress_data(input_buffer, input_len, output_buffer, sizeof(output
+      |                                                                                                     ^~~~~~
+./samples/SAFE/__tmp_884e1428.c:164:101: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_884e1428.c:164:107: error: expected ‘)’ at end of input
+  164 |     struct compression_result result = compress_data(input_buffer, input_len, output_buffer, sizeof(output
+      |                                                                                                    ~      ^
+      |                                                                                                           )
+./samples/SAFE/__tmp_884e1428.c:164:40: error: too few arguments to function ‘compress_data’
+  164 |     struct compression_result result = compress_data(input_buffer, input_len, output_buffer, sizeof(output
+      |                                        ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_884e1428.c:75:27: note: declared here
+   75 | struct compression_result compress_data(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_len, enum compression_type type) {
+      |                           ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_884e1428.c:164:12: error: expected declaration or statement at end of input
+  164 |     struct compression_result result = compress_data(input_buffer, input_len, output_buffer, sizeof(output
+      |            ^~~~~~~~~~~~~~~~~~

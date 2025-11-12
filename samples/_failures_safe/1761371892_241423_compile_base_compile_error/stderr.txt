@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_247f4be1.c: In function ‘runAlgorithm’:
+./samples/SAFE/__tmp_247f4be1.c:155:13: error: expected declaration or statement at end of input
+  155 |             break;
+      |             ^~~~~
+./samples/SAFE/__tmp_247f4be1.c:155:13: error: expected declaration or statement at end of input

@@ -1,0 +1,25 @@
+./samples/SAFE/__tmp_9a33ea1c.c: In function ‘main’:
+./samples/SAFE/__tmp_9a33ea1c.c:162:50: error: ‘state’ undeclared (first use in this function); did you mean ‘State’?
+  162 |             int len = snprintf(state_msg, sizeof(state
+      |                                                  ^~~~~
+      |                                                  State
+./samples/SAFE/__tmp_9a33ea1c.c:162:50: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9a33ea1c.c:162:55: error: expected ‘)’ at end of input
+  162 |             int len = snprintf(state_msg, sizeof(state
+      |                                                 ~     ^
+      |                                                       )
+./samples/SAFE/__tmp_9a33ea1c.c:162:23: error: too few arguments to function ‘snprintf’
+  162 |             int len = snprintf(state_msg, sizeof(state
+      |                       ^~~~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_9a33ea1c.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:51:1: note: declared here
+   51 | __NTH (snprintf (char *__restrict __s, size_t __n,
+      | ^~~~~
+./samples/SAFE/__tmp_9a33ea1c.c:162:13: error: expected declaration or statement at end of input
+  162 |             int len = snprintf(state_msg, sizeof(state
+      |             ^~~
+./samples/SAFE/__tmp_9a33ea1c.c:162:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9a33ea1c.c:162:13: error: expected declaration or statement at end of input

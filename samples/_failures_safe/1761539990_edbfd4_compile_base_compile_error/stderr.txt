@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_89c84b7f.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_89c84b7f.c:126:5: error: expected declaration or statement at end of input
+  126 |     matrix_free(&sub);
+      |     ^~~~~~~~~~~

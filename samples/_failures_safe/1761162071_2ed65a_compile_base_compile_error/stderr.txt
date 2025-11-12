@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_485a36e7.c: In function ‘bfs’:
+./samples/SAFE/__tmp_485a36e7.c:160:26: error: expected ‘;’ at end of input
+  160 |     for (int i = 0; i < g
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_485a36e7.c:160:5: error: expected declaration or statement at end of input
+  160 |     for (int i = 0; i < g
+      |     ^~~

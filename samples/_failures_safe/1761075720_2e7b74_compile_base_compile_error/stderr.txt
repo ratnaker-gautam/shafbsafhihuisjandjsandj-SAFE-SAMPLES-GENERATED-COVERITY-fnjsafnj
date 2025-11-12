@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9050def9.c: In function ‘main’:
+./samples/SAFE/__tmp_9050def9.c:128:1: error: expected declaration or statement at end of input
+  128 | int main() {
+      | ^~~

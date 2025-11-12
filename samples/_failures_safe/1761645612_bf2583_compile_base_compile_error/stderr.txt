@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_182b47f5.c: In function ‘main’:
+./samples/SAFE/__tmp_182b47f5.c:171:58: error: expected ‘)’ at end of input
+  171 |     if (current_token < token_count - 1 || (current_token
+      |                                            ~             ^
+      |                                                          )
+./samples/SAFE/__tmp_182b47f5.c:171:5: error: expected declaration or statement at end of input
+  171 |     if (current_token < token_count - 1 || (current_token
+      |     ^~

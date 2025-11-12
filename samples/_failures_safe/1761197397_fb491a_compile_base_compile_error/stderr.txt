@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3ee7fa5a.c: In function ‘generate_sample_log’:
+./samples/SAFE/__tmp_3ee7fa5a.c:136:23: error: missing terminating " character
+  136 |         fprintf(file, "%s|%s
+      |                       ^~~~~~
+./samples/SAFE/__tmp_3ee7fa5a.c:136:9: error: expected expression at end of input
+  136 |         fprintf(file, "%s|%s
+      |         ^~~~~~~
+./samples/SAFE/__tmp_3ee7fa5a.c:136:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3ee7fa5a.c:136:9: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ed6bd52b.c: In function ‘main’:
+./samples/SAFE/__tmp_ed6bd52b.c:148:28: error: missing terminating " character
+  148 |                     printf("Compression successful: %zu -> %zu -> %zu bytes\n
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ed6bd52b.c:148:21: error: expected expression at end of input
+  148 |                     printf("Compression successful: %zu -> %zu -> %zu bytes\n
+      |                     ^~~~~~
+./samples/SAFE/__tmp_ed6bd52b.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ed6bd52b.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ed6bd52b.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ed6bd52b.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ed6bd52b.c:148:21: error: expected declaration or statement at end of input

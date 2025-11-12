@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_774c361b.c: In function ‘main’:
+./samples/SAFE/__tmp_774c361b.c:144:9: error: ‘mem’ undeclared (first use in this function)
+  144 |         mem
+      |         ^~~
+./samples/SAFE/__tmp_774c361b.c:144:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_774c361b.c:144:12: error: expected ‘)’ at end of input
+  144 |         mem
+      |            ^
+      |            )
+./samples/SAFE/__tmp_774c361b.c:143:8: note: to match this ‘(’
+  143 |     if (decompressed_buffer.size != input_buffer.size ||
+      |        ^
+./samples/SAFE/__tmp_774c361b.c:144:9: error: expected declaration or statement at end of input
+  144 |         mem
+      |         ^~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8b89bf5f.c: In function ‘initialize_state_machine’:
+./samples/SAFE/__tmp_8b89bf5f.c:151:5: error: expected expression at end of input
+  151 |     sm->transitions[STATE_ERROR][EVENT_RESET].action =
+      |     ^~
+./samples/SAFE/__tmp_8b89bf5f.c:151:5: error: expected declaration or statement at end of input

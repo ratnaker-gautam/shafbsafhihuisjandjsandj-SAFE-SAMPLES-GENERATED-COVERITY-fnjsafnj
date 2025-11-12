@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_dc239b7b.c: In function ‘main’:
+./samples/SAFE/__tmp_dc239b7b.c:174:40: error: ‘node’ undeclared (first use in this function)
+  174 |     if (edge_count < 0 || edge_count > node
+      |                                        ^~~~
+./samples/SAFE/__tmp_dc239b7b.c:174:40: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_dc239b7b.c:174:44: error: expected ‘)’ at end of input
+  174 |     if (edge_count < 0 || edge_count > node
+      |        ~                                   ^
+      |                                            )
+./samples/SAFE/__tmp_dc239b7b.c:174:5: error: expected declaration or statement at end of input
+  174 |     if (edge_count < 0 || edge_count > node
+      |     ^~

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_258742e6.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_258742e6.c:178:13: error: expected declaration or statement at end of input
+  178 |             if (result > INT_MAX - right) {
+      |             ^~
+./samples/SAFE/__tmp_258742e6.c:178:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_258742e6.c:178:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_258742e6.c:178:13: error: expected declaration or statement at end of input

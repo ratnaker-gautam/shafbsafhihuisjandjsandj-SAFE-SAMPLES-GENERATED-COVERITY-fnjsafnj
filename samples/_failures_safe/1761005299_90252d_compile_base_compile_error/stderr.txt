@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_bd0cf67d.c: In function ‘process_compression_demo’:
+./samples/SAFE/__tmp_bd0cf67d.c:150:17: error: expected ‘;’ at end of input
+  150 |             free
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_bd0cf67d.c:150:13: error: expected declaration or statement at end of input
+  150 |             free
+      |             ^~~~
+./samples/SAFE/__tmp_bd0cf67d.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bd0cf67d.c:150:13: error: expected declaration or statement at end of input

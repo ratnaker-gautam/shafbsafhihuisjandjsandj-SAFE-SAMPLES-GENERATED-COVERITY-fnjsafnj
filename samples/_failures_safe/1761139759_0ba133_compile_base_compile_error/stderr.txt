@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_f973a174.c: In function ‘main’:
+./samples/SAFE/__tmp_f973a174.c:134:33: error: expected ‘)’ at end of input
+  134 |         int result = sscanf(line
+      |                            ~    ^
+      |                                 )
+./samples/SAFE/__tmp_f973a174.c:134:22: error: too few arguments to function ‘sscanf’
+  134 |         int result = sscanf(line
+      |                      ^~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_f973a174.c:2:
+/usr/include/stdio.h:468:12: note: declared here
+  468 | extern int __REDIRECT_NTH (sscanf, (const char *__restrict __s,
+      |            ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f973a174.c:134:9: error: expected declaration or statement at end of input
+  134 |         int result = sscanf(line
+      |         ^~~
+./samples/SAFE/__tmp_f973a174.c:134:9: error: expected declaration or statement at end of input

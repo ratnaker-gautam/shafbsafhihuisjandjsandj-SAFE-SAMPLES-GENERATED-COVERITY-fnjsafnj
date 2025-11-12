@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_95793b24.c: In function ‘main’:
+./samples/SAFE/__tmp_95793b24.c:148:5: error: expected declaration or statement at end of input
+  148 |     char input[MAX_TEXT_LEN];
+      |     ^~~~

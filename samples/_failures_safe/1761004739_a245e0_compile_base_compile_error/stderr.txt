@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_64785102.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_64785102.c:128:40: error: expected ‘)’ at end of input
+  128 |         long long product2 = (long long
+      |                              ~         ^
+      |                                        )
+./samples/SAFE/__tmp_64785102.c:128:9: error: expected declaration or statement at end of input
+  128 |         long long product2 = (long long
+      |         ^~~~
+./samples/SAFE/__tmp_64785102.c:128:9: error: expected declaration or statement at end of input

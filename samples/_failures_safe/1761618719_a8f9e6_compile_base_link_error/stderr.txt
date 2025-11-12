@@ -1,0 +1,9 @@
+/usr/bin/ld: /tmp/ccsGBRE7.o: in function `safe_power':
+__tmp_43108392.c:(.text+0xda): undefined reference to `pow'
+/usr/bin/ld: __tmp_43108392.c:(.text+0x11c): undefined reference to `fmod'
+/usr/bin/ld: /tmp/ccsGBRE7.o: in function `main':
+__tmp_43108392.c:(.text.startup+0x1b9): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_43108392.c:(.text.startup+0x3c4): undefined reference to `pow'
+/usr/bin/ld: __tmp_43108392.c:(.text.startup+0x41e): undefined reference to `pow'
+/usr/bin/ld: __tmp_43108392.c:(.text.startup+0x5b8): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

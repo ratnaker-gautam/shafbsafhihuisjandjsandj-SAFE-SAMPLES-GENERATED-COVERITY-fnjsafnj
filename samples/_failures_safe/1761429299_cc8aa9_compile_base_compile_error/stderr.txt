@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_63dd975e.c: In function ‘main’:
+./samples/SAFE/__tmp_63dd975e.c:182:9: error: expected declaration or statement at end of input
+  182 |         Event event = get_event_from_input(input[0]);
+      |         ^~~~~
+./samples/SAFE/__tmp_63dd975e.c:182:9: error: expected declaration or statement at end of input

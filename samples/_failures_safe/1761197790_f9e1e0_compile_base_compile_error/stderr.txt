@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_84b4da87.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_84b4da87.c:147:62: error: expected ‘)’ at end of input
+  147 |                entry->timestamp, entry->level, entry->message
+      |                                                              ^
+      |                                                              )
+./samples/SAFE/__tmp_84b4da87.c:146:15: note: to match this ‘(’
+  146 |         printf("[%s] %s: %s (line %u)\n",
+      |               ^
+./samples/SAFE/__tmp_84b4da87.c:147:16: error: expected declaration or statement at end of input
+  147 |                entry->timestamp, entry->level, entry->message
+      |                ^~~~~
+./samples/SAFE/__tmp_84b4da87.c:147:16: error: expected declaration or statement at end of input

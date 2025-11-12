@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_bab595c0.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_bab595c0.c:160:14: error: ‘is’ undeclared (first use in this function)
+  160 |     else if (is
+      |              ^~
+./samples/SAFE/__tmp_bab595c0.c:160:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bab595c0.c:160:16: error: expected ‘)’ at end of input
+  160 |     else if (is
+      |             ~  ^
+      |                )
+./samples/SAFE/__tmp_bab595c0.c:160:5: error: expected declaration or statement at end of input
+  160 |     else if (is
+      |     ^~~~

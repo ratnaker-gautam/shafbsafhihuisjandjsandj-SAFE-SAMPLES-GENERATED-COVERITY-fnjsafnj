@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2041aedb.c: In function ‘skip_whitespace_and_comments’:
+./samples/SAFE/__tmp_2041aedb.c:149:21: error: expected declaration or statement at end of input
+  149 |                     (*column)++;
+      |                     ^
+./samples/SAFE/__tmp_2041aedb.c:149:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2041aedb.c:149:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2041aedb.c:149:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2041aedb.c:149:21: error: expected declaration or statement at end of input

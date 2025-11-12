@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_ea3d2cf9.c: In function ‘main’:
+./samples/SAFE/__tmp_ea3d2cf9.c:147:110: error: ‘Buffer’ has no member named ‘c’
+  147 |     size_t compressed_size = compress_rle(input_buf.data, input_buf.size, compressed_buf.data, compressed_buf.c
+      |                                                                                                              ^
+./samples/SAFE/__tmp_ea3d2cf9.c:147:112: error: expected ‘)’ at end of input
+  147 |     size_t compressed_size = compress_rle(input_buf.data, input_buf.size, compressed_buf.data, compressed_buf.c
+      |                                          ~                                                                     ^
+      |                                                                                                                )
+./samples/SAFE/__tmp_ea3d2cf9.c:147:5: error: expected declaration or statement at end of input
+  147 |     size_t compressed_size = compress_rle(input_buf.data, input_buf.size, compressed_buf.data, compressed_buf.c
+      |     ^~~~~~

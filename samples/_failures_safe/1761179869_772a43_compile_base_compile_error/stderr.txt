@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_6d2ee013.c: In function ‘main’:
+./samples/SAFE/__tmp_6d2ee013.c:189:5: error: expected declaration or statement at end of input
+  189 |     context_t ctx;
+      |     ^~~~~~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d3de3325.c: In function ‘main’:
+./samples/SAFE/__tmp_d3de3325.c:147:9: error: expected declaration or statement at end of input
+  147 |         for (int i = 0; i < log_count; i++) {
+      |         ^~~
+./samples/SAFE/__tmp_d3de3325.c:147:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d3de3325.c:147:9: error: expected declaration or statement at end of input

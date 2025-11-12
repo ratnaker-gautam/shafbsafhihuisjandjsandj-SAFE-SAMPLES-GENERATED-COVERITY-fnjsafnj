@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_b2c37d99.c: In function ‘next_token’:
+./samples/SAFE/__tmp_b2c37d99.c:163:17: error: expected declaration or statement at end of input
+  163 |                 char next = lexer->input[lexer->position];
+      |                 ^~~~
+./samples/SAFE/__tmp_b2c37d99.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b2c37d99.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b2c37d99.c:163:17: error: expected declaration or statement at end of input

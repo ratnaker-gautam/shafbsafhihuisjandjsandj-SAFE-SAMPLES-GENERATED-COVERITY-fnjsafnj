@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccXuWtKl.o: in function `main':
+__tmp_3ba11617.c:(.text.startup+0x338): undefined reference to `sincos'
+/usr/bin/ld: __tmp_3ba11617.c:(.text.startup+0x36f): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

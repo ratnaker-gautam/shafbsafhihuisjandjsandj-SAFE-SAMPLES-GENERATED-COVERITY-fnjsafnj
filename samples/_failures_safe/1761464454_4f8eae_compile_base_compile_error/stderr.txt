@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_70728cbb.c: In function ‘main’:
+./samples/SAFE/__tmp_70728cbb.c:157:41: error: ‘struct StateMachine’ has no member named ‘max’
+  157 |     while (running && sm.data_count < sm.max
+      |                                         ^
+./samples/SAFE/__tmp_70728cbb.c:157:45: error: expected ‘)’ at end of input
+  157 |     while (running && sm.data_count < sm.max
+      |           ~                                 ^
+      |                                             )
+./samples/SAFE/__tmp_70728cbb.c:157:5: error: expected declaration or statement at end of input
+  157 |     while (running && sm.data_count < sm.max
+      |     ^~~~~

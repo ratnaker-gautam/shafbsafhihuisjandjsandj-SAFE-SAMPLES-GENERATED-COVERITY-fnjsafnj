@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9b483d53.c: In function ‘main’:
+./samples/SAFE/__tmp_9b483d53.c:173:5: error: expected expression at end of input
+  173 |     printf("Tokens found: %zu\n",
+      |     ^~~~~~
+./samples/SAFE/__tmp_9b483d53.c:173:5: error: expected declaration or statement at end of input

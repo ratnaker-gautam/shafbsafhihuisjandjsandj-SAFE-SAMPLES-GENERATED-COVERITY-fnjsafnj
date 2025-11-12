@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_618cd67e.c: In function ‘main’:
+./samples/SAFE/__tmp_618cd67e.c:150:5: error: expected expression at end of input
+  150 |     for (size_t i = 0; i < sizeof(
+      |     ^~~
+./samples/SAFE/__tmp_618cd67e.c:150:5: error: expected declaration or statement at end of input

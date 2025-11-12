@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_effe397c.c: In function ‘main’:
+./samples/SAFE/__tmp_effe397c.c:172:16: error: incompatible types when assigning to type ‘int’ from type ‘struct Token’
+  172 |         line = token
+      |                ^~~~~
+./samples/SAFE/__tmp_effe397c.c:172:21: error: expected ‘;’ at end of input
+  172 |         line = token
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_effe397c.c:172:9: error: expected declaration or statement at end of input
+  172 |         line = token
+      |         ^~~~
+./samples/SAFE/__tmp_effe397c.c:172:9: error: expected declaration or statement at end of input

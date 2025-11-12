@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0c0d2592.c: In function ‘main’:
+./samples/SAFE/__tmp_0c0d2592.c:146:5: error: ‘uint8’ undeclared (first use in this function); did you mean ‘uint8_t’?
+  146 |     uint8
+      |     ^~~~~
+      |     uint8_t
+./samples/SAFE/__tmp_0c0d2592.c:146:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0c0d2592.c:146:10: error: expected ‘;’ at end of input
+  146 |     uint8
+      |          ^
+      |          ;
+./samples/SAFE/__tmp_0c0d2592.c:146:5: error: expected declaration or statement at end of input
+  146 |     uint8
+      |     ^~~~~

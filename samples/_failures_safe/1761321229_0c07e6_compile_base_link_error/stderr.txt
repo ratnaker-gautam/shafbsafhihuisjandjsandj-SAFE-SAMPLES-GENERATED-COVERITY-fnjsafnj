@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccaMcFrF.o: in function `main':
+__tmp_bc7924dd.c:(.text.startup+0xd0): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

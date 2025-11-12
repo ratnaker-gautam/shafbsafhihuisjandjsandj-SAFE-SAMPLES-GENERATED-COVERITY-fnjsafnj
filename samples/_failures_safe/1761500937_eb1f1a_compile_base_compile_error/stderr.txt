@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_4ea22ba5.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_4ea22ba5.c:149:13: error: expected expression at end of input
+  149 |             token.value[1] =
+      |             ^~~~~
+./samples/SAFE/__tmp_4ea22ba5.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4ea22ba5.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4ea22ba5.c:149:13: error: expected declaration or statement at end of input

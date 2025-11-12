@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_fbf76a22.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_fbf76a22.c:170:17: error: expected declaration or statement at end of input
+  170 |                 break;
+      |                 ^~~~~
+./samples/SAFE/__tmp_fbf76a22.c:170:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fbf76a22.c:170:17: error: expected declaration or statement at end of input

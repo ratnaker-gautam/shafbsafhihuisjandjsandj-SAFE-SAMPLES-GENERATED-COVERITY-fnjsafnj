@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_99ba18ed.c: In function ‘main’:
+./samples/SAFE/__tmp_99ba18ed.c:153:10: error: ‘EVENT_DATA_READ’ undeclared (first use in this function); did you mean ‘EVENT_DATA_READY’?
+  153 |         {EVENT_DATA_READ
+      |          ^~~~~~~~~~~~~~~
+      |          EVENT_DATA_READY
+./samples/SAFE/__tmp_99ba18ed.c:153:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_99ba18ed.c:154: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_99ba18ed.c:153:9: note: to match this ‘{’
+  153 |         {EVENT_DATA_READ
+      |         ^
+./samples/SAFE/__tmp_99ba18ed.c:153:9: error: expected declaration or statement at end of input

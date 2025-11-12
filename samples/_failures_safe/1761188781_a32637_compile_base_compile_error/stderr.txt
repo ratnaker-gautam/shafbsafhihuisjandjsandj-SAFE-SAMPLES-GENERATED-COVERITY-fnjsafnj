@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_d777b7f8.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_d777b7f8.c:152:29: error: ‘lexer_next’ undeclared (first use in this function); did you mean ‘lexer_peek’?
+  152 |     parser->current_token = lexer_next
+      |                             ^~~~~~~~~~
+      |                             lexer_peek
+./samples/SAFE/__tmp_d777b7f8.c:152:29: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d777b7f8.c:152:39: error: expected ‘;’ at end of input
+  152 |     parser->current_token = lexer_next
+      |                                       ^
+      |                                       ;
+./samples/SAFE/__tmp_d777b7f8.c:152:5: error: expected declaration or statement at end of input
+  152 |     parser->current_token = lexer_next
+      |     ^~~~~~

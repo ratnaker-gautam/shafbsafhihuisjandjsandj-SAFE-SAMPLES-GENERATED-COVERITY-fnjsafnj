@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e2378060.c: In function ‘main’:
+./samples/SAFE/__tmp_e2378060.c:168:5: error: expected declaration or statement at end of input
+  168 |     char input[1024];
+      |     ^~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_70f2239e.c: In function ‘token_type_to_string’:
+./samples/SAFE/__tmp_70f2239e.c:192:9: error: expected declaration or statement at end of input
+  192 |         case TOKEN_EOF:
+      |         ^~~~
+./samples/SAFE/__tmp_70f2239e.c:192:9: error: expected declaration or statement at end of input

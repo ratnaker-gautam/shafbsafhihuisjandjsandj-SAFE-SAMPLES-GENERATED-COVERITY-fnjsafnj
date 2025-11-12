@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_3260cb23.c: In function ‘main’:
+./samples/SAFE/__tmp_3260cb23.c:137:13: error: expected declaration or statement at end of input
+  137 |             int rows2 = get_int_input("Enter rows for second matrix: ", 1, 10);
+      |             ^~~
+./samples/SAFE/__tmp_3260cb23.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3260cb23.c:137:13: error: expected declaration or statement at end of input

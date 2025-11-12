@@ -1,0 +1,121 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: cpu_bound ; Variation: log_analyzer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <time.h>
+
+#define MAX_LINE_LENGTH 1024
+#define MAX_ENTRIES 10000
+
+typedef struct {
+    char timestamp[32];
+    char level[16];
+    char message[256];
+} LogEntry;
+
+int parse_log_line(const char* line, LogEntry* entry) {
+    if (!line || !entry) return 0;
+    
+    char temp[MAX_LINE_LENGTH];
+    if (strlen(line) >= MAX_LINE_LENGTH - 1) return 0;
+    strcpy(temp, line);
+    
+    char* token = strtok(temp, " ");
+    if (!token) return 0;
+    
+    if (strlen(token) >= sizeof(entry->timestamp)) return 0;
+    strcpy(entry->timestamp, token);
+    
+    token = strtok(NULL, " ");
+    if (!token) return 0;
+    
+    if (strlen(token) >= sizeof(entry->level)) return 0;
+    strcpy(entry->level, token);
+    
+    token = strtok(NULL, "\n");
+    if (!token) return 0;
+    
+    if (strlen(token) >= sizeof(entry->message)) return 0;
+    strcpy(entry->message, token);
+    
+    return 1;
+}
+
+int is_valid_level(const char* level) {
+    return strcmp(level, "INFO") == 0 || 
+           strcmp(level, "WARN") == 0 || 
+           strcmp(level, "ERROR") == 0;
+}
+
+void analyze_logs(LogEntry* logs, int count) {
+    int info_count = 0, warn_count = 0, error_count = 0;
+    int total_length = 0;
+    
+    for (int i = 0; i < count; i++) {
+        if (strcmp(logs[i].level, "INFO") == 0) {
+            info_count++;
+        } else if (strcmp(logs[i].level, "WARN") == 0) {
+            warn_count++;
+        } else if (strcmp(logs[i].level, "ERROR") == 0) {
+            error_count++;
+        }
+        total_length += strlen(logs[i].message);
+    }
+    
+    printf("Log Analysis Results:\n");
+    printf("Total entries: %d\n", count);
+    printf("INFO: %d\n", info_count);
+    printf("WARN: %d\n", warn_count);
+    printf("ERROR: %d\n", error_count);
+    
+    if (count > 0) {
+        double avg_length = (double)total_length / count;
+        printf("Average message length: %.2f characters\n", avg_length);
+    }
+}
+
+int main() {
+    LogEntry logs[MAX_ENTRIES];
+    int log_count = 0;
+    char line[MAX_LINE_LENGTH];
+    
+    printf("Enter log entries (format: TIMESTAMP LEVEL MESSAGE):\n");
+    printf("Type 'END' on a separate line to finish input.\n");
+    
+    while (log_count < MAX_ENTRIES) {
+        if (!fgets(line, sizeof(line), stdin)) {
+            break;
+        }
+        
+        line[strcspn(line, "\n")] = 0;
+        
+        if (strcmp(line, "END") == 0) {
+            break;
+        }
+        
+        if (strlen(line) == 0) {
+            continue;
+        }
+        
+        LogEntry entry;
+        if (parse_log_line(line, &entry)) {
+            if (is_valid_level(entry.level)) {
+                logs[log_count] = entry;
+                log_count++;
+            } else {
+                printf("Invalid log level in: %s\n", line);
+            }
+        } else {
+            printf("Failed to parse: %s\n", line);
+        }
+    }
+    
+    if (log_count > 0) {
+        analyze_logs(logs, log_count);
+    } else {
+        printf("No valid log entries to analyze.\n");
+    }
+    
+    return 0;
+}

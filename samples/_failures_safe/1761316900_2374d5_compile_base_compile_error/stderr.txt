@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_0de83d8e.c: In function ‘execute_operation’:
+./samples/SAFE/__tmp_0de83d8e.c:157:16: error: expected ‘;’ at end of input
+  157 |         fprintf
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_0de83d8e.c:157:9: error: expected declaration or statement at end of input
+  157 |         fprintf
+      |         ^~~~~~~
+./samples/SAFE/__tmp_0de83d8e.c:157:9: error: expected declaration or statement at end of input

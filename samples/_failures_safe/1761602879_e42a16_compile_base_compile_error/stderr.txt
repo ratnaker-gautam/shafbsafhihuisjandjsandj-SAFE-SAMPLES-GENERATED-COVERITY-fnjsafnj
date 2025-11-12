@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_60424287.c: In function ‘main’:
+./samples/SAFE/__tmp_60424287.c:162:5: error: expected expression at end of input
+  162 |     mat2.rows =
+      |     ^~~~
+./samples/SAFE/__tmp_60424287.c:162:5: error: expected declaration or statement at end of input

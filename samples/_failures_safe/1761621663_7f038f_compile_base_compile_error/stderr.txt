@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_de395c59.c: In function ‘main’:
+./samples/SAFE/__tmp_de395c59.c:142:32: error: expected ‘)’ at end of input
+  142 |     print_hex(decompressed.data
+      |              ~                 ^
+      |                                )
+./samples/SAFE/__tmp_de395c59.c:142:5: error: too few arguments to function ‘print_hex’
+  142 |     print_hex(decompressed.data
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_de395c59.c:86:13: note: declared here
+   86 | static void print_hex(const uint8_t *data, size_t len) {
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_de395c59.c:142:5: error: expected declaration or statement at end of input
+  142 |     print_hex(decompressed.data
+      |     ^~~~~~~~~

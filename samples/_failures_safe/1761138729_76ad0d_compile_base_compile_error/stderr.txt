@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_47bcb585.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_47bcb585.c:150:5: error: expected declaration or statement at end of input
+  150 |     }
+      |     ^

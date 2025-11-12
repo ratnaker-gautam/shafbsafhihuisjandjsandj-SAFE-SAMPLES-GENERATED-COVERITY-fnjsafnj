@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_da058cab.c: In function ‘token_type_name’:
+./samples/SAFE/__tmp_da058cab.c:173:9: error: expected expression at end of input
+  173 |         case TOKEN_STRING: return
+      |         ^~~~
+./samples/SAFE/__tmp_da058cab.c:173:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_da058cab.c:173:9: error: expected declaration or statement at end of input

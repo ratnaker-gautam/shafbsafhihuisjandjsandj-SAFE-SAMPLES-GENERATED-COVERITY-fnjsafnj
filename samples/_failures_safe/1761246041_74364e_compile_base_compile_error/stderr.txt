@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_1114cca7.c: In function ‘main’:
+./samples/SAFE/__tmp_1114cca7.c:143:5: error: expected expression at end of input
+  143 |     if (add_compression_block(&ctx,
+      |     ^~
+./samples/SAFE/__tmp_1114cca7.c:143:9: error: too few arguments to function ‘add_compression_block’
+  143 |     if (add_compression_block(&ctx,
+      |         ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1114cca7.c:72:5: note: declared here
+   72 | int add_compression_block(struct CompressionContext *ctx, const uint8_t *data, uint32_t size) {
+      |     ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1114cca7.c:143:5: error: expected declaration or statement at end of input
+  143 |     if (add_compression_block(&ctx,
+      |     ^~

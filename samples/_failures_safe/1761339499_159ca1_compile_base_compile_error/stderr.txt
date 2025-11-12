@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f46faaf2.c: In function ‘mesh_calculate_volume’:
+./samples/SAFE/__tmp_f46faaf2.c:135: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_f46faaf2.c:134:30: note: to match this ‘{’
+  134 |     struct Vector3D center = {0.0, 0.0, 0.
+      |                              ^
+./samples/SAFE/__tmp_f46faaf2.c:134:12: error: expected declaration or statement at end of input
+  134 |     struct Vector3D center = {0.0, 0.0, 0.
+      |            ^~~~~~~~

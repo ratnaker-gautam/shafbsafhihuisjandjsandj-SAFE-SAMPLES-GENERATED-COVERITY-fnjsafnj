@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_94e25f7c.c: In function ‘main’:
+./samples/SAFE/__tmp_94e25f7c.c:151:70: error: expected ‘)’ at end of input
+  151 |             printf("%s: %zu -> %zu bytes (%.1f%%)\n", algorithm_names
+      |                   ~                                                  ^
+      |                                                                      )
+./samples/SAFE/__tmp_94e25f7c.c:151:13: error: expected declaration or statement at end of input
+  151 |             printf("%s: %zu -> %zu bytes (%.1f%%)\n", algorithm_names
+      |             ^~~~~~
+./samples/SAFE/__tmp_94e25f7c.c:151:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_94e25f7c.c:151:13: error: expected declaration or statement at end of input

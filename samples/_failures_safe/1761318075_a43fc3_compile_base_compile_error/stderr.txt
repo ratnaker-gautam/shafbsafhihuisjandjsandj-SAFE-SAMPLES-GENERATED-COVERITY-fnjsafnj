@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0fff7b62.c: In function ‘main’:
+./samples/SAFE/__tmp_0fff7b62.c:175:59: error: expected ‘)’ at end of input
+  175 |     if (edges < 0 || edges > vertices * (vertices - 1) / 2
+      |        ~                                                  ^
+      |                                                           )
+./samples/SAFE/__tmp_0fff7b62.c:175:5: error: expected declaration or statement at end of input
+  175 |     if (edges < 0 || edges > vertices * (vertices - 1) / 2
+      |     ^~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ee004ef9.c: In function ‘main’:
+./samples/SAFE/__tmp_ee004ef9.c:134:13: error: expected declaration or statement at end of input
+  134 |             printf("Enter rows and columns for second matrix: ");
+      |             ^~~~~~
+./samples/SAFE/__tmp_ee004ef9.c:134:13: error: expected declaration or statement at end of input

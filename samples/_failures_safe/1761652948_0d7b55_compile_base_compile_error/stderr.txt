@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_cb235a85.c: In function ‘main’:
+./samples/SAFE/__tmp_cb235a85.c:166:5: error: expected declaration or statement at end of input
+  166 |     printf("Processing time: %u ms\n", stats.processing_time_ms);
+      |     ^~~~~~

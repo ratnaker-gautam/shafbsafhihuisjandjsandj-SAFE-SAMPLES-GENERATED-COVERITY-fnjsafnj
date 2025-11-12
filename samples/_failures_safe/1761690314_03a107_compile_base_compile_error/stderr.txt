@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0cd5dd93.c: In function ‘main’:
+./samples/SAFE/__tmp_0cd5dd93.c:146:25: error: ‘log’ undeclared (first use in this function); did you mean ‘logs’?
+  146 |     for (int i = 0; i < log
+      |                         ^~~
+      |                         logs
+./samples/SAFE/__tmp_0cd5dd93.c:146:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0cd5dd93.c:146:28: error: expected ‘;’ at end of input
+  146 |     for (int i = 0; i < log
+      |                            ^
+      |                            ;
+./samples/SAFE/__tmp_0cd5dd93.c:146:5: error: expected declaration or statement at end of input
+  146 |     for (int i = 0; i < log
+      |     ^~~

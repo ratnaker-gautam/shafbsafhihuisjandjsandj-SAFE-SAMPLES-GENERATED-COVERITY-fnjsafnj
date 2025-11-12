@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1d23087a.c: In function ‘dfs’:
+./samples/SAFE/__tmp_1d23087a.c:179:48: error: expected ‘)’ at end of input
+  179 |     struct Node* start = find_node(graph, start
+      |                                   ~            ^
+      |                                                )
+./samples/SAFE/__tmp_1d23087a.c:179:12: error: expected declaration or statement at end of input
+  179 |     struct Node* start = find_node(graph, start
+      |            ^~~~

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_bdec7886.c: In function ‘main’:
+./samples/SAFE/__tmp_bdec7886.c:133:79: error: ‘de’ undeclared (first use in this function)
+  133 |     if (decompress_data(compressed_data, compressed_size, decompressed_data, &de
+      |                                                                               ^~
+./samples/SAFE/__tmp_bdec7886.c:133:79: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bdec7886.c:133:81: error: expected ‘)’ at end of input
+  133 |     if (decompress_data(compressed_data, compressed_size, decompressed_data, &de
+      |                        ~                                                        ^
+      |                                                                                 )
+./samples/SAFE/__tmp_bdec7886.c:133:5: error: expected declaration or statement at end of input
+  133 |     if (decompress_data(compressed_data, compressed_size, decompressed_data, &de
+      |     ^~

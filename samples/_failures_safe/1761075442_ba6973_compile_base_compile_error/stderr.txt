@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_48c6d0fa.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_48c6d0fa.c:147:22: error: expected ‘]’ at end of input
+  147 |         token.value[1
+      |                      ^
+      |                      ]
+./samples/SAFE/__tmp_48c6d0fa.c:147:9: error: expected declaration or statement at end of input
+  147 |         token.value[1
+      |         ^~~~~
+./samples/SAFE/__tmp_48c6d0fa.c:147:9: error: expected declaration or statement at end of input

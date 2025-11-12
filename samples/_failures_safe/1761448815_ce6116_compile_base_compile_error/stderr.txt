@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0a4af515.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_0a4af515.c:157:45: error: expected ‘;’ at end of input
+  157 |     for (int i = 0; i < analyzer->word_count
+      |                                             ^
+      |                                             ;
+./samples/SAFE/__tmp_0a4af515.c:157:5: error: expected declaration or statement at end of input
+  157 |     for (int i = 0; i < analyzer->word_count
+      |     ^~~

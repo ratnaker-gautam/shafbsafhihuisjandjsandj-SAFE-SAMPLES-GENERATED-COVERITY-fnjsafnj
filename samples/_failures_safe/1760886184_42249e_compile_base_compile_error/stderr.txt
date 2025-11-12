@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6dcbf0b4.c: In function ‘main’:
+./samples/SAFE/__tmp_6dcbf0b4.c:139:5: error: expected declaration or statement at end of input
+  139 |     if (mat2.data == NULL) {
+      |     ^~
+./samples/SAFE/__tmp_6dcbf0b4.c:139:5: error: expected declaration or statement at end of input

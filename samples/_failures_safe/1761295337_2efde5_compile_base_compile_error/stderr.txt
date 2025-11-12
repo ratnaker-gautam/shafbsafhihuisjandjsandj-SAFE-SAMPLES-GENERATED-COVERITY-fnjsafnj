@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_ef15e996.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_ef15e996.c:153:60: error: expected ‘)’ at end of input
+  153 |         printf("Token %zu: %s -> '%s'\n", i, type_str, list
+      |               ~                                            ^
+      |                                                            )
+./samples/SAFE/__tmp_ef15e996.c:153:9: error: expected declaration or statement at end of input
+  153 |         printf("Token %zu: %s -> '%s'\n", i, type_str, list
+      |         ^~~~~~
+./samples/SAFE/__tmp_ef15e996.c:153:9: error: expected declaration or statement at end of input

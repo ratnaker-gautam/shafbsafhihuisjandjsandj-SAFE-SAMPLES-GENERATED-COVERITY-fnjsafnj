@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_e1208461.c: In function ‘main’:
+./samples/SAFE/__tmp_e1208461.c:154:35: error: ‘unique’ undeclared (first use in this function)
+  154 |     sort_word_counts(word_counts, unique
+      |                                   ^~~~~~
+./samples/SAFE/__tmp_e1208461.c:154:35: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e1208461.c:154:41: error: expected ‘)’ at end of input
+  154 |     sort_word_counts(word_counts, unique
+      |                     ~                   ^
+      |                                         )
+./samples/SAFE/__tmp_e1208461.c:154:5: error: expected declaration or statement at end of input
+  154 |     sort_word_counts(word_counts, unique
+      |     ^~~~~~~~~~~~~~~~

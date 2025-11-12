@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_cc79aa25.c: In function ‘main’:
+./samples/SAFE/__tmp_cc79aa25.c:145:9: error: expected ‘{’ at end of input
+  145 |         struct
+      |         ^~~~~~
+./samples/SAFE/__tmp_cc79aa25.c:145:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cc79aa25.c:145:9: error: expected declaration or statement at end of input

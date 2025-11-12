@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_aae2bf4b.c: In function ‘compare_timestamps’:
+./samples/SAFE/__tmp_aae2bf4b.c:141:22: error: expected ‘)’ at end of input
+  141 |     if (a->month != b
+      |        ~             ^
+      |                      )
+./samples/SAFE/__tmp_aae2bf4b.c:141:5: error: expected declaration or statement at end of input
+  141 |     if (a->month != b
+      |     ^~

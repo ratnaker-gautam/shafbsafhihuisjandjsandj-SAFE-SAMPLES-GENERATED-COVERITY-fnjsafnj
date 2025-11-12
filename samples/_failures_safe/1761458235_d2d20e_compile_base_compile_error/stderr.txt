@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fb678240.c: In function ‘primMST’:
+./samples/SAFE/__tmp_fb678240.c:154:9: error: expected declaration or statement at end of input
+  154 |         free(key);
+      |         ^~~~
+./samples/SAFE/__tmp_fb678240.c:154:9: error: expected declaration or statement at end of input

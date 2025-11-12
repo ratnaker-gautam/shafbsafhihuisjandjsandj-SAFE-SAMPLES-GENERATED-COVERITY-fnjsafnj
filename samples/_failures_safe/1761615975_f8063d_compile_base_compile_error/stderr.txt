@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2b12e2cd.c: In function ‘main’:
+./samples/SAFE/__tmp_2b12e2cd.c:175:5: error: expected declaration or statement at end of input
+  175 |     while (getchar() != '\n');
+      |     ^~~~~

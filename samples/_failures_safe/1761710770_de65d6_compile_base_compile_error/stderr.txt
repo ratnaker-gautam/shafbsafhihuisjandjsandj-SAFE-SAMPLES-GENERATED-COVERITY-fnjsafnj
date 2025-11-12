@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_e90d495d.c: In function ‘main’:
+./samples/SAFE/__tmp_e90d495d.c:161:60: error: ‘comp’ undeclared (first use in this function)
+  161 |     struct compression_result result = perform_compression(comp
+      |                                                            ^~~~
+./samples/SAFE/__tmp_e90d495d.c:161:60: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e90d495d.c:161:64: error: expected ‘)’ at end of input
+  161 |     struct compression_result result = perform_compression(comp
+      |                                                           ~    ^
+      |                                                                )
+./samples/SAFE/__tmp_e90d495d.c:161:40: error: too few arguments to function ‘perform_compression’
+  161 |     struct compression_result result = perform_compression(comp
+      |                                        ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e90d495d.c:83:27: note: declared here
+   83 | struct compression_result perform_compression(enum compression_type type, const uint8_t *input, size_t input_size, uint8_t *output, size_t output_size) {
+      |                           ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e90d495d.c:161:12: error: expected declaration or statement at end of input
+  161 |     struct compression_result result = perform_compression(comp
+      |            ^~~~~~~~~~~~~~~~~~

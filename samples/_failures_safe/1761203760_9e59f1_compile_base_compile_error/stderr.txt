@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_328d5d7b.c: In function ‘tokenize_line’:
+./samples/SAFE/__tmp_328d5d7b.c:156:54: error: expected ‘)’ at end of input
+  156 |         else if (parse_punctuation(line, &pos, &token
+      |                                   ~                  ^
+      |                                                      )
+./samples/SAFE/__tmp_328d5d7b.c:156:18: error: too few arguments to function ‘parse_punctuation’
+  156 |         else if (parse_punctuation(line, &pos, &token
+      |                  ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_328d5d7b.c:125:5: note: declared here
+  125 | int parse_punctuation(const char *input, int *pos, struct token *token, int line, int column) {
+      |     ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_328d5d7b.c:156:9: error: expected declaration or statement at end of input
+  156 |         else if (parse_punctuation(line, &pos, &token
+      |         ^~~~
+./samples/SAFE/__tmp_328d5d7b.c:156:9: error: expected declaration or statement at end of input

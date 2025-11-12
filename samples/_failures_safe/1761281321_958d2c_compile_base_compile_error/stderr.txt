@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_00ed7beb.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_00ed7beb.c:174:9: error: expected declaration or statement at end of input
+  174 |         }
+      |         ^
+./samples/SAFE/__tmp_00ed7beb.c:174:9: error: expected declaration or statement at end of input

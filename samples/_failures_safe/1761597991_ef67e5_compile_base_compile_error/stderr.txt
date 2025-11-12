@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_fc96d517.c: In function ‘main’:
+./samples/SAFE/__tmp_fc96d517.c:130:29: error: expected ‘)’ at end of input
+  130 |             if (op == OP_ADD
+      |                ~            ^
+      |                             )
+./samples/SAFE/__tmp_fc96d517.c:130:13: error: expected declaration or statement at end of input
+  130 |             if (op == OP_ADD
+      |             ^~
+./samples/SAFE/__tmp_fc96d517.c:130:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fc96d517.c:130:13: error: expected declaration or statement at end of input

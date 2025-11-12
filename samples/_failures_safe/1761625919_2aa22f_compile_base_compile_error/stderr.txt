@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f0d8cac9.c: In function ‘main’:
+./samples/SAFE/__tmp_f0d8cac9.c:155:25: error: expected declaration or statement at end of input
+  155 |                         if (temp2_idx >= MAX_WORD_LEN) {
+      |                         ^~
+./samples/SAFE/__tmp_f0d8cac9.c:155:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0d8cac9.c:155:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0d8cac9.c:155:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0d8cac9.c:155:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0d8cac9.c:155:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0d8cac9.c:155:25: error: expected declaration or statement at end of input

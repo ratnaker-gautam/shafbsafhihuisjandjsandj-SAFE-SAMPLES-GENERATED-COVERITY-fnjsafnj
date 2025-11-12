@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cct6TgBO.o: in function `calculate_polynomial':
+__tmp_b33ab841.c:(.text+0x47): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

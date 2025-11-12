@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_41e42887.c: In function ‘main’:
+./samples/SAFE/__tmp_41e42887.c:167:51: error: ‘file’ undeclared (first use in this function)
+  167 |             if (fseek(output_file, -((long)sizeof(file
+      |                                                   ^~~~
+./samples/SAFE/__tmp_41e42887.c:167:51: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_41e42887.c:167:55: error: expected ‘)’ at end of input
+  167 |             if (fseek(output_file, -((long)sizeof(file
+      |                                                  ~    ^
+      |                                                       )
+./samples/SAFE/__tmp_41e42887.c:167:17: error: too few arguments to function ‘fseek’
+  167 |             if (fseek(output_file, -((long)sizeof(file
+      |                 ^~~~~
+In file included from ./samples/SAFE/__tmp_41e42887.c:2:
+/usr/include/stdio.h:779:12: note: declared here
+  779 | extern int fseek (FILE *__stream, long int __off, int __whence)
+      |            ^~~~~
+./samples/SAFE/__tmp_41e42887.c:167:13: error: expected declaration or statement at end of input
+  167 |             if (fseek(output_file, -((long)sizeof(file
+      |             ^~
+./samples/SAFE/__tmp_41e42887.c:167:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_41e42887.c:167:13: error: expected declaration or statement at end of input

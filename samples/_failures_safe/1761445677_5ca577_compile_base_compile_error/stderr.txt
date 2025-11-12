@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_784c6d1c.c: In function ‘main’:
+./samples/SAFE/__tmp_784c6d1c.c:148:9: error: expected declaration or statement at end of input
+  148 |         if (strlen(keyword) > 0) {
+      |         ^~
+./samples/SAFE/__tmp_784c6d1c.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_784c6d1c.c:148:9: error: expected declaration or statement at end of input

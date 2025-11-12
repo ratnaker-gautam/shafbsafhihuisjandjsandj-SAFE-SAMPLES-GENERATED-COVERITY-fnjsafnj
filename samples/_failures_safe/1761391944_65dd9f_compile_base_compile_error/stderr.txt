@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_e1875469.c: In function ‘main’:
+./samples/SAFE/__tmp_e1875469.c:177:70: error: expected ‘)’ at end of input
+  177 |         printf("  %s: '%s'\n", token_type_name(tokens->tokens[i].type
+      |                                               ~                      ^
+      |                                                                      )
+./samples/SAFE/__tmp_e1875469.c:177:9: error: expected declaration or statement at end of input
+  177 |         printf("  %s: '%s'\n", token_type_name(tokens->tokens[i].type
+      |         ^~~~~~
+./samples/SAFE/__tmp_e1875469.c:177:9: error: expected declaration or statement at end of input

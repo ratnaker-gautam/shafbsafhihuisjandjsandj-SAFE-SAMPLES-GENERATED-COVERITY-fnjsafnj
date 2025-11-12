@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8a17a9ac.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_8a17a9ac.c:170:55: error: expected ‘)’ at end of input
+  170 |     if (parser->current_token.type == TOKEN_IDENTIFIER
+      |        ~                                              ^
+      |                                                       )
+./samples/SAFE/__tmp_8a17a9ac.c:170:5: error: expected declaration or statement at end of input
+  170 |     if (parser->current_token.type == TOKEN_IDENTIFIER
+      |     ^~

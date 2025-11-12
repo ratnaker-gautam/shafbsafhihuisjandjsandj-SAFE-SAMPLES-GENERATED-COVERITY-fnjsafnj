@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8fddcfaf.c: In function ‘primMST’:
+./samples/SAFE/__tmp_8fddcfaf.c:126:17: error: expected identifier at end of input
+  126 |                 int v = (graph->edges[i].src == u) ? graph->edges[i].
+      |                 ^~~
+./samples/SAFE/__tmp_8fddcfaf.c:126:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8fddcfaf.c:126:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8fddcfaf.c:126:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8fddcfaf.c:126:17: error: expected declaration or statement at end of input

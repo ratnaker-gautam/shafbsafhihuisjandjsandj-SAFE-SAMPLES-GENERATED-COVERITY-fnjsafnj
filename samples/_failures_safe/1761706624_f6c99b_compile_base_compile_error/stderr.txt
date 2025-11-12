@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_76154f17.c: In function ‘handle_error_state’:
+./samples/SAFE/__tmp_76154f17.c:150:19: error: ‘const struct EventData’ has no member named ‘event’
+  150 |     if (event_data->event
+      |                   ^~
+./samples/SAFE/__tmp_76154f17.c:150:26: error: expected ‘)’ at end of input
+  150 |     if (event_data->event
+      |        ~                 ^
+      |                          )
+./samples/SAFE/__tmp_76154f17.c:150:5: error: expected declaration or statement at end of input
+  150 |     if (event_data->event
+      |     ^~

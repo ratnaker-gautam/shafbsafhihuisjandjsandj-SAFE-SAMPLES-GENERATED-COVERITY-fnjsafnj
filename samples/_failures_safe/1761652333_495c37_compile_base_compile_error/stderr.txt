@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_5c8ed843.c: In function ‘process_binary_number’:
+./samples/SAFE/__tmp_5c8ed843.c:77:27: error: ‘INT_MAX’ undeclared (first use in this function)
+   77 |         if (sm->result > (INT_MAX >> 1)) {
+      |                           ^~~~~~~
+./samples/SAFE/__tmp_5c8ed843.c:7:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    6 | #include <ctype.h>
+  +++ |+#include <limits.h>
+    7 | 
+./samples/SAFE/__tmp_5c8ed843.c:77:27: note: each undeclared identifier is reported only once for each function it appears in
+   77 |         if (sm->result > (INT_MAX >> 1)) {
+      |                           ^~~~~~~
+./samples/SAFE/__tmp_5c8ed843.c: In function ‘main’:
+./samples/SAFE/__tmp_5c8ed843.c:152:9: error: expected expression at end of input
+  152 |         if (sm.current_state == STATE_IDLE && sm.input_len >
+      |         ^~
+./samples/SAFE/__tmp_5c8ed843.c:152:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5c8ed843.c:152:9: error: expected declaration or statement at end of input

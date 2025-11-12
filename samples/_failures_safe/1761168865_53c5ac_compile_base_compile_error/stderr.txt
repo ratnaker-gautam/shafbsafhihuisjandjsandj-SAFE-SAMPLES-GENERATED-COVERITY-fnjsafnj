@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0c5fdd2d.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_0c5fdd2d.c:151:31: error: expected ‘]’ at end of input
+  151 |             if (graph->edges[i
+      |                               ^
+      |                               ]
+./samples/SAFE/__tmp_0c5fdd2d.c:151:17: error: used struct type value where scalar is required
+  151 |             if (graph->edges[i
+      |                 ^~~~~
+./samples/SAFE/__tmp_0c5fdd2d.c:151:13: error: expected declaration or statement at end of input
+  151 |             if (graph->edges[i
+      |             ^~
+./samples/SAFE/__tmp_0c5fdd2d.c:151:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c5fdd2d.c:151:13: error: expected declaration or statement at end of input

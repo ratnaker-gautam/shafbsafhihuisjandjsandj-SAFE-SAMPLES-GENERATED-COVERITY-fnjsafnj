@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccu9ekw7.o: in function `compute_matrix_norm':
+__tmp_9237b895.c:(.text+0x21e): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

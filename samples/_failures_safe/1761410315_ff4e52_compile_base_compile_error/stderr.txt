@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_310ac4b2.c: In function ‘main’:
+./samples/SAFE/__tmp_310ac4b2.c:152:24: error: missing terminating " character
+  152 |                 printf("Error: Matrices must have same dimensions for
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_310ac4b2.c:152:17: error: expected expression at end of input
+  152 |                 printf("Error: Matrices must have same dimensions for
+      |                 ^~~~~~
+./samples/SAFE/__tmp_310ac4b2.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_310ac4b2.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_310ac4b2.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_310ac4b2.c:152:17: error: expected declaration or statement at end of input

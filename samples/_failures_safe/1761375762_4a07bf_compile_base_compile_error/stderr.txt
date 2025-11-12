@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_38c7f77b.c: In function ‘main’:
+./samples/SAFE/__tmp_38c7f77b.c:155:5: error: expected expression at end of input
+  155 |     if (multiply_matrices(&mat1, &
+      |     ^~
+./samples/SAFE/__tmp_38c7f77b.c:155:9: error: too few arguments to function ‘multiply_matrices’
+  155 |     if (multiply_matrices(&mat1, &
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_38c7f77b.c:78:5: note: declared here
+   78 | int multiply_matrices(const Matrix* a, const Matrix* b, Matrix* result) {
+      |     ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_38c7f77b.c:155:5: error: expected declaration or statement at end of input
+  155 |     if (multiply_matrices(&mat1, &
+      |     ^~

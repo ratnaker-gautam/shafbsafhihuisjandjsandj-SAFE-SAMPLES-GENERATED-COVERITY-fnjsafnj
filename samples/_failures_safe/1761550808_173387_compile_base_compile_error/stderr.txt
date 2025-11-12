@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_df7c42c9.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_df7c42c9.c:181:17: error: expected declaration or statement at end of input
+  181 |                 min_index = id;
+      |                 ^~~~~~~~~
+./samples/SAFE/__tmp_df7c42c9.c:181:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_df7c42c9.c:181:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_df7c42c9.c:181:17: error: expected declaration or statement at end of input

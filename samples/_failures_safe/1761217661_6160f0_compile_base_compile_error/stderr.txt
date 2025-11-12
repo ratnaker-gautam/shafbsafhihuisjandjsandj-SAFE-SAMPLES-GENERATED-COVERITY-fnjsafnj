@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_baa09aed.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_baa09aed.c:156:46: error: expected ‘)’ at end of input
+  156 |     printf("Current State: %s\n", state_names
+      |           ~                                  ^
+      |                                              )
+./samples/SAFE/__tmp_baa09aed.c:156:5: error: expected declaration or statement at end of input
+  156 |     printf("Current State: %s\n", state_names
+      |     ^~~~~~

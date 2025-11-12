@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_a9b33906.c: In function ‘input_matrix’:
+./samples/SAFE/__tmp_a9b33906.c:137:13: error: expected expression at end of input
+  137 |             if (!read_double(&value))
+      |             ^~
+./samples/SAFE/__tmp_a9b33906.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a9b33906.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a9b33906.c:137:13: error: expected declaration or statement at end of input

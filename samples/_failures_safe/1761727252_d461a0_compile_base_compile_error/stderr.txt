@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_eecc5b73.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_eecc5b73.c:143:9: error: expected identifier at end of input
+  143 |         printf("  WARNING: %.1f%%\n", (stats->
+      |         ^~~~~~
+./samples/SAFE/__tmp_eecc5b73.c:143:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eecc5b73.c:143:9: error: expected declaration or statement at end of input

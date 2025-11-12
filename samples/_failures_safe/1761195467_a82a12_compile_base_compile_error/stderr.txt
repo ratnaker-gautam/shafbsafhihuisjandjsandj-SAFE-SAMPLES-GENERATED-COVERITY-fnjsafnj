@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_0d3590be.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_0d3590be.c:172:13: error: ‘read’ undeclared (first use in this function); did you mean ‘fread’?
+  172 |             read
+      |             ^~~~
+      |             fread
+./samples/SAFE/__tmp_0d3590be.c:172:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0d3590be.c:172:17: error: expected ‘;’ at end of input
+  172 |             read
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_0d3590be.c:172:13: error: expected declaration or statement at end of input
+  172 |             read
+      |             ^~~~
+./samples/SAFE/__tmp_0d3590be.c:172:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0d3590be.c:172:13: error: expected declaration or statement at end of input

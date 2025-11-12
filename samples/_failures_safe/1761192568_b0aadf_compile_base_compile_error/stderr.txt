@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c052995c.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_c052995c.c:166:9: error: expected expression at end of input
+  166 |         for (int i = 0; i <
+      |         ^~~
+./samples/SAFE/__tmp_c052995c.c:166:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c052995c.c:166:9: error: expected declaration or statement at end of input

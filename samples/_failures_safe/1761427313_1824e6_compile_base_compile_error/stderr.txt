@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5eae0f64.c: In function ‘main’:
+./samples/SAFE/__tmp_5eae0f64.c:141:17: error: expected expression at end of input
+  141 |                 if (!add_entry(heap_buffer, timestamp, level,
+      |                 ^~
+./samples/SAFE/__tmp_5eae0f64.c:141:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5eae0f64.c:141:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5eae0f64.c:141:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5eae0f64.c:141:17: error: expected declaration or statement at end of input

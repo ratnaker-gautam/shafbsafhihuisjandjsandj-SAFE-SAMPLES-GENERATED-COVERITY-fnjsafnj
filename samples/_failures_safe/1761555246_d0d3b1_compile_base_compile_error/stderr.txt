@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_baf6c6ab.c: In function ‘validate_timestamp’:
+./samples/SAFE/__tmp_baf6c6ab.c:138:13: error: expected expression at end of input
+  138 |             if (timestamp[i] != ':') return
+      |             ^~
+./samples/SAFE/__tmp_baf6c6ab.c:138:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_baf6c6ab.c:138:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_baf6c6ab.c:138:13: error: expected declaration or statement at end of input

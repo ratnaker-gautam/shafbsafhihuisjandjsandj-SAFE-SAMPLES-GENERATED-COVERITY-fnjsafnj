@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1a4c5cf3.c: In function ‘main’:
+./samples/SAFE/__tmp_1a4c5cf3.c:158: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_1a4c5cf3.c:148:27: note: to match this ‘{’
+  148 |     enum Event events[] = {
+      |                           ^
+./samples/SAFE/__tmp_1a4c5cf3.c:157:9: error: expected declaration or statement at end of input
+  157 |         EVENT_START
+      |         ^~~~~~~~~~~

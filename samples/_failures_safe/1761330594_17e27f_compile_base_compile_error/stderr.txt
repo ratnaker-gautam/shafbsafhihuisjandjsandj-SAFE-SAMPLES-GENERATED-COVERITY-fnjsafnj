@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_91ee7f7c.c: In function ‘main’:
+./samples/SAFE/__tmp_91ee7f7c.c:158:55: error: expected ‘)’ at end of input
+  158 |                 int status = add_matrices(&mat1, &mat2
+      |                                          ~            ^
+      |                                                       )
+./samples/SAFE/__tmp_91ee7f7c.c:158:30: error: too few arguments to function ‘add_matrices’
+  158 |                 int status = add_matrices(&mat1, &mat2
+      |                              ^~~~~~~~~~~~
+./samples/SAFE/__tmp_91ee7f7c.c:88:5: note: declared here
+   88 | int add_matrices(const Matrix* a, const Matrix* b, Matrix* result) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_91ee7f7c.c:158:17: error: expected declaration or statement at end of input
+  158 |                 int status = add_matrices(&mat1, &mat2
+      |                 ^~~
+./samples/SAFE/__tmp_91ee7f7c.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_91ee7f7c.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_91ee7f7c.c:158:17: error: expected declaration or statement at end of input

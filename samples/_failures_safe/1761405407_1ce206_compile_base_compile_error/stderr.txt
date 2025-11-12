@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_d90be18e.c: In function ‘parse_string’:
+./samples/SAFE/__tmp_d90be18e.c:172:36: error: expected ‘)’ at end of input
+  172 |         strncpy(token->value, token
+      |                ~                   ^
+      |                                    )
+./samples/SAFE/__tmp_d90be18e.c:172:9: error: too few arguments to function ‘strncpy’
+  172 |         strncpy(token->value, token
+      |         ^~~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_d90be18e.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:92:1: note: declared here
+   92 | __NTH (strncpy (char *__restrict __dest, const char *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_d90be18e.c:172:9: error: expected declaration or statement at end of input
+  172 |         strncpy(token->value, token
+      |         ^~~~~~~
+./samples/SAFE/__tmp_d90be18e.c:172:9: error: expected declaration or statement at end of input

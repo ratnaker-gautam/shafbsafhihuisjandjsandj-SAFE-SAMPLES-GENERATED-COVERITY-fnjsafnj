@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_38019cc2.c: In function ‘queue_enqueue’:
+./samples/SAFE/__tmp_38019cc2.c:177:22: error: expected ‘;’ at end of input
+  177 |         q->rear->next
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_38019cc2.c:177:9: error: expected declaration or statement at end of input
+  177 |         q->rear->next
+      |         ^
+./samples/SAFE/__tmp_38019cc2.c:177:9: error: expected declaration or statement at end of input

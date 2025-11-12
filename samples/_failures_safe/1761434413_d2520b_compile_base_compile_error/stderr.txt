@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_da5249e8.c: In function ‘main’:
+./samples/SAFE/__tmp_da5249e8.c:113:79: error: ‘decompressed’ undeclared (first use in this function); did you mean ‘decompress_data’?
+  113 |     if (decompress_data(compressed_data, compressed_size, decompressed_data, &decompressed
+      |                                                                               ^~~~~~~~~~~~
+      |                                                                               decompress_data
+./samples/SAFE/__tmp_da5249e8.c:113:79: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_da5249e8.c:113:91: error: expected ‘)’ at end of input
+  113 |     if (decompress_data(compressed_data, compressed_size, decompressed_data, &decompressed
+      |                        ~                                                                  ^
+      |                                                                                           )
+./samples/SAFE/__tmp_da5249e8.c:113:5: error: expected declaration or statement at end of input
+  113 |     if (decompress_data(compressed_data, compressed_size, decompressed_data, &decompressed
+      |     ^~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d0461e5d.c: In function ‘main’:
+./samples/SAFE/__tmp_d0461e5d.c:139:5: error: expected expression at end of input
+  139 |     char choice_str[
+      |     ^~~~
+./samples/SAFE/__tmp_d0461e5d.c:139:5: error: expected declaration or statement at end of input

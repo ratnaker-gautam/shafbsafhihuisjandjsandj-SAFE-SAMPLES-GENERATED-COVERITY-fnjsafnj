@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_98f9b683.c: In function ‘print_high_severity_entries’:
+./samples/SAFE/__tmp_98f9b683.c:150:5: error: expected declaration or statement at end of input
+  150 |     int found = 0;
+      |     ^~~

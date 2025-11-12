@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_ab13419f.c: In function ‘main’:
+./samples/SAFE/__tmp_ab13419f.c:179:44: error: expected ‘)’ at end of input
+  179 |             printf("Result: %.6f\n", result
+      |                   ~                        ^
+      |                                            )
+./samples/SAFE/__tmp_ab13419f.c:179:13: error: expected declaration or statement at end of input
+  179 |             printf("Result: %.6f\n", result
+      |             ^~~~~~
+./samples/SAFE/__tmp_ab13419f.c:179:13: error: expected declaration or statement at end of input

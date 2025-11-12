@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2b2e4e1b.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_2b2e4e1b.c:160:51: error: expected ‘)’ at end of input
+  160 |     printf("INFO entries: %u\n", stats->info_count
+      |           ~                                       ^
+      |                                                   )
+./samples/SAFE/__tmp_2b2e4e1b.c:160:5: error: expected declaration or statement at end of input
+  160 |     printf("INFO entries: %u\n", stats->info_count
+      |     ^~~~~~

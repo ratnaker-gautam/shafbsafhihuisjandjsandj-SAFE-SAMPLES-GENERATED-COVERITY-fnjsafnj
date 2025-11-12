@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ca651b2a.c: In function ‘main’:
+./samples/SAFE/__tmp_ca651b2a.c:163:5: error: expected declaration or statement at end of input
+  163 |     printf("Enter input characters (a-f) or 'q' to quit:\n");
+      |     ^~~~~~

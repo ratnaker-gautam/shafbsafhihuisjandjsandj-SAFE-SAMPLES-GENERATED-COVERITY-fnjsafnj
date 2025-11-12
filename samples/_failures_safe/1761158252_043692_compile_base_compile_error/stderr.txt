@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_89de1350.c: In function ‘main’:
+./samples/SAFE/__tmp_89de1350.c:169:65: error: expected ‘)’ at end of input
+  169 |             if (memcmp(test_data, decompressed, sizeof(test_data
+      |                                                       ~         ^
+      |                                                                 )
+./samples/SAFE/__tmp_89de1350.c:169:13: error: expected declaration or statement at end of input
+  169 |             if (memcmp(test_data, decompressed, sizeof(test_data
+      |             ^~
+./samples/SAFE/__tmp_89de1350.c:169:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_89de1350.c:169:13: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d29fbbb3.c: In function ‘handle_error’:
+./samples/SAFE/__tmp_d29fbbb3.c:174:5: error: expected declaration or statement at end of input
+  174 |     }
+      |     ^

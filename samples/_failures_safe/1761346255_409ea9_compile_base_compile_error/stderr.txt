@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_031de9f3.c: In function ‘graph_print_bfs’:
+./samples/SAFE/__tmp_031de9f3.c:159:29: error: expected declaration or statement at end of input
+  159 | void graph_print_bfs(struct Graph* graph, int start_id) {
+      |                             ^~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b61fa166.c: In function ‘main’:
+./samples/SAFE/__tmp_b61fa166.c:179:13: error: expected declaration or statement at end of input
+  179 |             case STATE_WRITING: printf("WRITING"); break;
+      |             ^~~~
+./samples/SAFE/__tmp_b61fa166.c:179:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b61fa166.c:179:13: error: expected declaration or statement at end of input

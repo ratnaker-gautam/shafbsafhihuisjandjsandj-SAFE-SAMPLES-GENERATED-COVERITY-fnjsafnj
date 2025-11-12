@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccHGi56L.o: in function `main':
+__tmp_f23ac4c4.c:(.text.startup+0xd7): undefined reference to `sin'
+/usr/bin/ld: __tmp_f23ac4c4.c:(.text.startup+0xf2): undefined reference to `cos'
+/usr/bin/ld: __tmp_f23ac4c4.c:(.text.startup+0x2ab): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

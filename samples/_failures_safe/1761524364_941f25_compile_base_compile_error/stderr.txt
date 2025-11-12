@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1a9a8731.c: In function ‘multiply_matrices’:
+./samples/SAFE/__tmp_1a9a8731.c:116:17: error: expected identifier or ‘(’ at end of input
+  116 |                 long long
+      |                 ^~~~
+./samples/SAFE/__tmp_1a9a8731.c:116:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1a9a8731.c:116:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1a9a8731.c:116:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1a9a8731.c:116:17: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9ef4f5fe.c: In function ‘queue_enqueue’:
+./samples/SAFE/__tmp_9ef4f5fe.c:190:5: error: expected declaration or statement at end of input
+  190 |     }
+      |     ^

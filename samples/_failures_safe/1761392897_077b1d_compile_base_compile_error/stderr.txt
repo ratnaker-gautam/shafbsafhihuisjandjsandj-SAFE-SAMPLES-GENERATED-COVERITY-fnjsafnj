@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_09bc788b.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_09bc788b.c:150:13: error: expected ‘,’ or ‘;’ at end of input
+  150 |             for (int k = 0
+      |             ^~~
+./samples/SAFE/__tmp_09bc788b.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_09bc788b.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_09bc788b.c:150:13: error: expected declaration or statement at end of input

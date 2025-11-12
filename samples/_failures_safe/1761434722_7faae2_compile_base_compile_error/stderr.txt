@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4928895f.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_4928895f.c:191:5: error: expected expression at end of input
+  191 |     while (1)
+      |     ^~~~~
+./samples/SAFE/__tmp_4928895f.c:191:5: error: expected declaration or statement at end of input

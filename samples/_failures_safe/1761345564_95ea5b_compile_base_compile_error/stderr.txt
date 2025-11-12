@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6bb79f67.c: In function ‘main’:
+./samples/SAFE/__tmp_6bb79f67.c:137:13: error: expected expression at end of input
+  137 |             matrix_add_wrapper(mat1, mat2, &
+      |             ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6bb79f67.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6bb79f67.c:137:13: error: expected declaration or statement at end of input

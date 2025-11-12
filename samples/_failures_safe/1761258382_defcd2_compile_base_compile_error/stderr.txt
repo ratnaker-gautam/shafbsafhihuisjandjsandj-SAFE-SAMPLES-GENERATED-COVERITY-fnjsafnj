@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_6314cb90.c: In function ‘main’:
+./samples/SAFE/__tmp_6314cb90.c:153:60: error: ‘decomp’ undeclared (first use in this function)
+  153 |     if (!decompress_rle(compressed.data, compressed.size, &decomp
+      |                                                            ^~~~~~
+./samples/SAFE/__tmp_6314cb90.c:153:60: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6314cb90.c:153:66: error: expected ‘)’ at end of input
+  153 |     if (!decompress_rle(compressed.data, compressed.size, &decomp
+      |                        ~                                         ^
+      |                                                                  )
+./samples/SAFE/__tmp_6314cb90.c:153:5: error: expected declaration or statement at end of input
+  153 |     if (!decompress_rle(compressed.data, compressed.size, &decomp
+      |     ^~

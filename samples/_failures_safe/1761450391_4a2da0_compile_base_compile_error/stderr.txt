@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_ae14595d.c: In function ‘main’:
+./samples/SAFE/__tmp_ae14595d.c:158:57: error: expected ‘]’ at end of input
+  158 |             printf("Failed to add edge %d-%d\n", edges[i
+      |                                                         ^
+      |                                                         ]
+./samples/SAFE/__tmp_ae14595d.c:158:13: error: expected declaration or statement at end of input
+  158 |             printf("Failed to add edge %d-%d\n", edges[i
+      |             ^~~~~~
+./samples/SAFE/__tmp_ae14595d.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ae14595d.c:158:13: error: expected declaration or statement at end of input

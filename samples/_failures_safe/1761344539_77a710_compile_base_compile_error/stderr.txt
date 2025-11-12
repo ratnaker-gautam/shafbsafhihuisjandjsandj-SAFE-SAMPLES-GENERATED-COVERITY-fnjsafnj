@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4c954c98.c: In function ‘main’:
+./samples/SAFE/__tmp_4c954c98.c:148:9: error: expected declaration or statement at end of input
+  148 |         ratio = 100.0 * total_compressed / total_original;
+      |         ^~~~~
+./samples/SAFE/__tmp_4c954c98.c:148:9: error: expected declaration or statement at end of input

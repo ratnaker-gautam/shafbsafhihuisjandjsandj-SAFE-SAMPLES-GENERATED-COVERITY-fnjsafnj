@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_72265de9.c: In function ‘main’:
+./samples/SAFE/__tmp_72265de9.c:176:68: error: expected ‘)’ at end of input
+  176 |     if (edge_count < 0 || edge_count > node_count * (node_count - 1
+      |                                                     ~              ^
+      |                                                                    )
+./samples/SAFE/__tmp_72265de9.c:176:5: error: expected declaration or statement at end of input
+  176 |     if (edge_count < 0 || edge_count > node_count * (node_count - 1
+      |     ^~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c66e1e61.c: In function ‘state_machine_step’:
+./samples/SAFE/__tmp_c66e1e61.c:166:13: error: expected expression at end of input
+  166 |             return
+      |             ^~~~~~
+./samples/SAFE/__tmp_c66e1e61.c:166:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c66e1e61.c:166:13: error: expected declaration or statement at end of input

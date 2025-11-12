@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_a8c3de8a.c: In function ‘main’:
+./samples/SAFE/__tmp_a8c3de8a.c:179:34: error: ‘TO’ undeclared (first use in this function)
+  179 |         } else if (token.type != TO
+      |                                  ^~
+./samples/SAFE/__tmp_a8c3de8a.c:179:34: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a8c3de8a.c:179:36: error: expected ‘)’ at end of input
+  179 |         } else if (token.type != TO
+      |                   ~                ^
+      |                                    )
+./samples/SAFE/__tmp_a8c3de8a.c:179:9: error: expected declaration or statement at end of input
+  179 |         } else if (token.type != TO
+      |         ^
+./samples/SAFE/__tmp_a8c3de8a.c:179:9: error: expected declaration or statement at end of input

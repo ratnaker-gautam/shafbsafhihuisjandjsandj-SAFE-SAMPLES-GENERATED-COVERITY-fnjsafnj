@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_83700adc.c: In function ‘main’:
+./samples/SAFE/__tmp_83700adc.c:134:9: error: expected expression at end of input
+  134 |         buffer_free(&
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_83700adc.c:134:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_83700adc.c:134:9: error: expected declaration or statement at end of input

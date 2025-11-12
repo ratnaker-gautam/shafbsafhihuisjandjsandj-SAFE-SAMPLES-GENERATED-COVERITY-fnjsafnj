@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0e0783ed.c: In function ‘solve_linear_system’:
+./samples/SAFE/__tmp_0e0783ed.c:104:73: error: invalid operands to binary - (have ‘double’ and ‘struct Matrix3x3 *’)
+  104 |     inv_mat.elements[1][1] = (mat->elements[0][0] * mat->elements[2][2] - mat
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+      |                                                   |
+      |                                                   double
+./samples/SAFE/__tmp_0e0783ed.c:104:78: error: expected ‘)’ at end of input
+  104 |     inv_mat.elements[1][1] = (mat->elements[0][0] * mat->elements[2][2] - mat
+      |                              ~                                               ^
+      |                                                                              )
+./samples/SAFE/__tmp_0e0783ed.c:104:5: error: expected declaration or statement at end of input
+  104 |     inv_mat.elements[1][1] = (mat->elements[0][0] * mat->elements[2][2] - mat
+      |     ^~~~~~~

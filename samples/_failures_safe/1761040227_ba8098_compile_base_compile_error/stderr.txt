@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a73f40c2.c: In function ‘main’:
+./samples/SAFE/__tmp_a73f40c2.c:156:40: error: expected ‘)’ at end of input
+  156 |         if (strlen(input) != 2 || input
+      |            ~                           ^
+      |                                        )
+./samples/SAFE/__tmp_a73f40c2.c:156:9: error: expected declaration or statement at end of input
+  156 |         if (strlen(input) != 2 || input
+      |         ^~
+./samples/SAFE/__tmp_a73f40c2.c:156:9: error: expected declaration or statement at end of input

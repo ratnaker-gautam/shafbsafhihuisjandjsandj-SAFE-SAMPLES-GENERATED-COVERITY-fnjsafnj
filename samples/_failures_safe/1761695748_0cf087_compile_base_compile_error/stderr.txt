@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b4007c4e.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_b4007c4e.c:169:5: error: expected declaration or statement at end of input
+  169 |     int pos = 0;
+      |     ^~~

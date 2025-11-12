@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_57fccd79.c: In function ‘main’:
+./samples/SAFE/__tmp_57fccd79.c:148:21: error: ‘Matrix’ has no member named ‘col’; did you mean ‘cols’?
+  148 |     if (a.rows == a.col
+      |                     ^~~
+      |                     cols
+./samples/SAFE/__tmp_57fccd79.c:148:24: error: expected ‘)’ at end of input
+  148 |     if (a.rows == a.col
+      |        ~               ^
+      |                        )
+./samples/SAFE/__tmp_57fccd79.c:148:5: error: expected declaration or statement at end of input
+  148 |     if (a.rows == a.col
+      |     ^~

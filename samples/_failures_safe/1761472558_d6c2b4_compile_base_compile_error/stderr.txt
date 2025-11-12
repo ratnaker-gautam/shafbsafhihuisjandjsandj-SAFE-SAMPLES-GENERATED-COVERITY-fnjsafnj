@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8cd78663.c: In function ‘print_compression_stats’:
+./samples/SAFE/__tmp_8cd78663.c:141:54: error: expected ‘)’ at end of input
+  141 |     printf("Checksum: 0x%02X\n", ctx->header.checksum
+      |           ~                                          ^
+      |                                                      )
+./samples/SAFE/__tmp_8cd78663.c:141:5: error: expected declaration or statement at end of input
+  141 |     printf("Checksum: 0x%02X\n", ctx->header.checksum
+      |     ^~~~~~

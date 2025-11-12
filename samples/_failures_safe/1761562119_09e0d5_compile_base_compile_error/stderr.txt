@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_948f96e3.c: In function ‘find_minimum_spanning_tree’:
+./samples/SAFE/__tmp_948f96e3.c:145:17: error: expected identifier at end of input
+  145 |                 if ((graph->edges[j].from == parent[i] && graph->edges[j].
+      |                 ^~
+./samples/SAFE/__tmp_948f96e3.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_948f96e3.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_948f96e3.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_948f96e3.c:145:17: error: expected declaration or statement at end of input

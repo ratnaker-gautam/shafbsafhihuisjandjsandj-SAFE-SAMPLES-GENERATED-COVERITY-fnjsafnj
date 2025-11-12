@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1d9ea416.c: In function ‘main’:
+./samples/SAFE/__tmp_1d9ea416.c:159: error: expected ‘]’ at end of input
+./samples/SAFE/__tmp_1d9ea416.c:158:5: error: expected declaration or statement at end of input
+  158 |     int dist[MAX_NODES
+      |     ^~~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7a236fef.c: In function ‘main’:
+./samples/SAFE/__tmp_7a236fef.c:149:22: error: expected ‘)’ at end of input
+  149 |     print_matrix(mat2
+      |                 ~    ^
+      |                      )
+./samples/SAFE/__tmp_7a236fef.c:149:5: error: expected declaration or statement at end of input
+  149 |     print_matrix(mat2
+      |     ^~~~~~~~~~~~

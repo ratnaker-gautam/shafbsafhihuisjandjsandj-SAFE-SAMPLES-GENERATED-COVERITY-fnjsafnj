@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9e319e9d.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_9e319e9d.c:123:5: error: expected identifier at end of input
+  123 |     for (int i = 0; i < analyzer->
+      |     ^~~
+./samples/SAFE/__tmp_9e319e9d.c:123:5: error: expected declaration or statement at end of input

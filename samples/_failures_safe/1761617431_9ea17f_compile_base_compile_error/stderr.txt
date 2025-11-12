@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9ebb343e.c: In function ‘main’:
+./samples/SAFE/__tmp_9ebb343e.c:147:5: error: expected ‘,’ or ‘;’ at end of input
+  147 |     size_t len = strlen
+      |     ^~~~~~
+./samples/SAFE/__tmp_9ebb343e.c:147:5: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_2db9164f.c: In function ‘main’:
+./samples/SAFE/__tmp_2db9164f.c:157:64: error: expected ‘)’ at end of input
+  157 |         size_t compressed_size = simple_compress(input_buf.data
+      |                                                 ~              ^
+      |                                                                )
+./samples/SAFE/__tmp_2db9164f.c:157:34: error: too few arguments to function ‘simple_compress’
+  157 |         size_t compressed_size = simple_compress(input_buf.data
+      |                                  ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2db9164f.c:67:8: note: declared here
+   67 | size_t simple_compress(const unsigned char *input, size_t input_len, unsigned char *output, size_t output_capacity) {
+      |        ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2db9164f.c:157:9: error: expected declaration or statement at end of input
+  157 |         size_t compressed_size = simple_compress(input_buf.data
+      |         ^~~~~~
+./samples/SAFE/__tmp_2db9164f.c:157:9: error: expected declaration or statement at end of input

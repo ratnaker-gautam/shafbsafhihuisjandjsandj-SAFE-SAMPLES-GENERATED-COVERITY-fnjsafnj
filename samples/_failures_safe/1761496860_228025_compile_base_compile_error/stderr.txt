@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_6afb20f7.c: In function ‘main’:
+./samples/SAFE/__tmp_6afb20f7.c:158:50: error: expected ‘)’ at end of input
+  158 |         operations[choice - 1](rows, cols, matrix
+      |                               ~                  ^
+      |                                                  )
+./samples/SAFE/__tmp_6afb20f7.c:158:9: error: expected declaration or statement at end of input
+  158 |         operations[choice - 1](rows, cols, matrix
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_6afb20f7.c:158:9: error: expected declaration or statement at end of input

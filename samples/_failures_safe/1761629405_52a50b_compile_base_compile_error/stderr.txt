@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_eaf294b9.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_eaf294b9.c:142:27: error: expected ‘]’ at end of input
+  142 |             result->data[j
+      |                           ^
+      |                           ]
+./samples/SAFE/__tmp_eaf294b9.c:142:13: error: expected declaration or statement at end of input
+  142 |             result->data[j
+      |             ^~~~~~
+./samples/SAFE/__tmp_eaf294b9.c:142:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eaf294b9.c:142:13: error: expected declaration or statement at end of input

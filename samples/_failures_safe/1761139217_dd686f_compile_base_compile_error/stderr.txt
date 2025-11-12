@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_270392d6.c: In function ‘main’:
+./samples/SAFE/__tmp_270392d6.c:147:12: error: expected expression at end of input
+  147 |     struct NumericalResult root2 = newton_raphson(poly, -2.0,
+      |            ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_270392d6.c:147:36: error: too few arguments to function ‘newton_raphson’
+  147 |     struct NumericalResult root2 = newton_raphson(poly, -2.0,
+      |                                    ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_270392d6.c:83:24: note: declared here
+   83 | struct NumericalResult newton_raphson(struct Polynomial poly, double initial_guess, double tolerance, int max_iterations) {
+      |                        ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_270392d6.c:147:12: error: expected declaration or statement at end of input
+  147 |     struct NumericalResult root2 = newton_raphson(poly, -2.0,
+      |            ^~~~~~~~~~~~~~~

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_644d0e9d.c: In function ‘main’:
+./samples/SAFE/__tmp_644d0e9d.c:157:5: error: ‘add’ undeclared (first use in this function)
+  157 |     add
+      |     ^~~
+./samples/SAFE/__tmp_644d0e9d.c:157:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_644d0e9d.c:157:8: error: expected ‘;’ at end of input
+  157 |     add
+      |        ^
+      |        ;
+./samples/SAFE/__tmp_644d0e9d.c:157:5: error: expected declaration or statement at end of input
+  157 |     add
+      |     ^~~

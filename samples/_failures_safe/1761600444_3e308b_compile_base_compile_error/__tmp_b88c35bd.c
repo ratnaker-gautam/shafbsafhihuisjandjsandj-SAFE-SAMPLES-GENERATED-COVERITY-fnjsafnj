@@ -1,0 +1,139 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: macros ; Variation: string_processing
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <limits.h>
+
+#define MAX_INPUT_LEN 1024
+#define MAX_WORDS 256
+#define MAX_WORD_LEN 64
+#define IS_WHITESPACE(c) ((c) == ' ' || (c) == '\t' || (c) == '\n')
+#define TO_LOWER(c) ((c) >= 'A' && (c) <= 'Z' ? (c) + 32 : (c))
+
+typedef struct {
+    char word[MAX_WORD_LEN];
+    int count;
+} WordCount;
+
+int safe_strncpy(char *dest, const char *src, size_t n) {
+    if (dest == NULL || src == NULL || n == 0) return -1;
+    size_t i;
+    for (i = 0; i < n - 1 && src[i] != '\0'; i++) {
+        dest[i] = src[i];
+    }
+    dest[i] = '\0';
+    return 0;
+}
+
+int is_valid_input(const char *str) {
+    if (str == NULL) return 0;
+    size_t len = strlen(str);
+    if (len == 0 || len >= MAX_INPUT_LEN) return 0;
+    for (size_t i = 0; i < len; i++) {
+        if (!isprint((unsigned char)str[i])) return 0;
+    }
+    return 1;
+}
+
+int find_word(WordCount *words, int count, const char *word) {
+    if (words == NULL || word == NULL) return -1;
+    for (int i = 0; i < count; i++) {
+        if (strcmp(words[i].word, word) == 0) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+void normalize_word(char *dest, const char *src, size_t max_len) {
+    if (dest == NULL || src == NULL || max_len == 0) return;
+    size_t i, j = 0;
+    for (i = 0; src[i] != '\0' && j < max_len - 1; i++) {
+        unsigned char c = (unsigned char)src[i];
+        if (isalpha(c)) {
+            dest[j++] = TO_LOWER(c);
+        }
+    }
+    dest[j] = '\0';
+}
+
+int process_input(const char *input, WordCount *words, int *word_count) {
+    if (!is_valid_input(input) || words == NULL || word_count == NULL) return -1;
+    
+    char buffer[MAX_INPUT_LEN];
+    if (safe_strncpy(buffer, input, sizeof(buffer)) != 0) return -1;
+    
+    int count = 0;
+    char *token = buffer;
+    char *end = buffer + strlen(buffer);
+    
+    while (token < end && count < MAX_WORDS) {
+        while (token < end && IS_WHITESPACE(*token)) token++;
+        if (token >= end) break;
+        
+        char *word_start = token;
+        while (token < end && !IS_WHITESPACE(*token)) token++;
+        char *word_end = token;
+        
+        if (word_start < word_end) {
+            char normalized[MAX_WORD_LEN];
+            size_t word_len = (size_t)(word_end - word_start);
+            if (word_len >= MAX_WORD_LEN) word_len = MAX_WORD_LEN - 1;
+            
+            char temp_word[MAX_WORD_LEN];
+            if (safe_strncpy(temp_word, word_start, word_len + 1) != 0) continue;
+            
+            normalize_word(normalized, temp_word, sizeof(normalized));
+            if (strlen(normalized) == 0) continue;
+            
+            int idx = find_word(words, count, normalized);
+            if (idx >= 0) {
+                if (words[idx].count < INT_MAX) words[idx].count++;
+            } else {
+                if (safe_strncpy(words[count].word, normalized, sizeof(words[count].word)) == 0) {
+                    words[count].count = 1;
+                    count++;
+                }
+            }
+        }
+    }
+    
+    *word_count = count;
+    return 0;
+}
+
+void print_word_counts(const WordCount *words, int count) {
+    if (words == NULL || count <= 0) return;
+    for (int i = 0; i < count; i++) {
+        printf("Word: %-20s Count: %d\n", words[i].word, words[i].count);
+    }
+}
+
+int main(void) {
+    char input[MAX_INPUT_LEN];
+    WordCount words[MAX_WORDS];
+    int word_count = 0;
+    
+    printf("Enter text to analyze (max %d characters): ", MAX_INPUT_LEN - 1);
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return EXIT_FAILURE;
+    }
+    
+    size_t len = strlen(input);
+    if (len > 0 && input[len - 1] == '\n') {
+        input[len - 1] = '\0';
+    }
+    
+    if (!is_valid_input(input)) {
+        fprintf(stderr, "Invalid input\n");
+        return EXIT_FAILURE;
+    }
+    
+    if (process_input(input, words, &word_count) != 0) {
+        fprintf(stderr, "Error processing input\n");
+        return EXIT_FAILURE;
+    }
+    
+    if (word

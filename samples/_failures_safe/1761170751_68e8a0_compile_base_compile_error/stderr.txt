@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_8b475d96.c: In function ‘main’:
+./samples/SAFE/__tmp_8b475d96.c:134:5: error: expected declaration or statement at end of input
+  134 |     add_log_entry(&analyzer, "2024-01-15 10:32:45", "WARN", "High memory usage detected");
+      |     ^~~~~~~~~~~~~

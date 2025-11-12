@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_0b3452db.c: In function ‘main’:
+./samples/SAFE/__tmp_0b3452db.c:141:5: error: expected expression at end of input
+  141 |     long c = strtol(buffer, &endptr,
+      |     ^~~~
+./samples/SAFE/__tmp_0b3452db.c:141:5: error: expected declaration or statement at end of input

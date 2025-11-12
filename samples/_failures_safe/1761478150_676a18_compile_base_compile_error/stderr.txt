@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_52008f00.c: In function ‘main’:
+./samples/SAFE/__tmp_52008f00.c:127:10: error: expected declaration or statement at end of input
+  127 |     enum MatrixOp op;
+      |          ^~~~~~~~

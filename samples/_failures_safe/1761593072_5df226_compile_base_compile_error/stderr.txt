@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_acd5a45e.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_acd5a45e.c:131:134: error: expected ‘]’ at end of input
+  131 |                 if (v >= 0 && v < num_nodes && isInMinHeap(heap, v) && dist[u] != INT_MAX && weight >= 0 && weight < INT_MAX - dist[u
+      |                                                                                                                                      ^
+      |                                                                                                                                      ]
+./samples/SAFE/__tmp_acd5a45e.c:131:17: error: expected declaration or statement at end of input
+  131 |                 if (v >= 0 && v < num_nodes && isInMinHeap(heap, v) && dist[u] != INT_MAX && weight >= 0 && weight < INT_MAX - dist[u
+      |                 ^~
+./samples/SAFE/__tmp_acd5a45e.c:131:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_acd5a45e.c:131:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_acd5a45e.c:131:17: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2d3f66e0.c: In function ‘main’:
+./samples/SAFE/__tmp_2d3f66e0.c:132:5: error: expected declaration or statement at end of input
+  132 |     initialize_analyzer(&analyzer);
+      |     ^~~~~~~~~~~~~~~~~~~

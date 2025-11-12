@@ -1,0 +1,118 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: cpu_bound ; Variation: matrix_ops
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+#define MAX_SIZE 100
+
+typedef struct {
+    int rows;
+    int cols;
+    double data[MAX_SIZE][MAX_SIZE];
+} Matrix;
+
+int validate_matrix_size(int rows, int cols) {
+    return (rows > 0 && rows <= MAX_SIZE && cols > 0 && cols <= MAX_SIZE);
+}
+
+void initialize_matrix(Matrix *m, int rows, int cols) {
+    m->rows = rows;
+    m->cols = cols;
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            m->data[i][j] = (double)(i * cols + j + 1);
+        }
+    }
+}
+
+void multiply_matrices(const Matrix *a, const Matrix *b, Matrix *result) {
+    if (a->cols != b->rows) {
+        printf("Matrix dimensions incompatible for multiplication\n");
+        return;
+    }
+    
+    result->rows = a->rows;
+    result->cols = b->cols;
+    
+    for (int i = 0; i < a->rows; i++) {
+        for (int j = 0; j < b->cols; j++) {
+            double sum = 0.0;
+            for (int k = 0; k < a->cols; k++) {
+                sum += a->data[i][k] * b->data[k][j];
+            }
+            result->data[i][j] = sum;
+        }
+    }
+}
+
+void transpose_matrix(const Matrix *input, Matrix *result) {
+    result->rows = input->cols;
+    result->cols = input->rows;
+    
+    for (int i = 0; i < input->rows; i++) {
+        for (int j = 0; j < input->cols; j++) {
+            result->data[j][i] = input->data[i][j];
+        }
+    }
+}
+
+void print_matrix(const Matrix *m) {
+    for (int i = 0; i < m->rows; i++) {
+        for (int j = 0; j < m->cols; j++) {
+            printf("%8.2f", m->data[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+int main() {
+    int rows1, cols1, rows2, cols2;
+    
+    printf("Enter dimensions for first matrix (rows cols): ");
+    if (scanf("%d %d", &rows1, &cols1) != 2) {
+        printf("Invalid input\n");
+        return 1;
+    }
+    
+    if (!validate_matrix_size(rows1, cols1)) {
+        printf("Invalid matrix dimensions (max %dx%d)\n", MAX_SIZE, MAX_SIZE);
+        return 1;
+    }
+    
+    printf("Enter dimensions for second matrix (rows cols): ");
+    if (scanf("%d %d", &rows2, &cols2) != 2) {
+        printf("Invalid input\n");
+        return 1;
+    }
+    
+    if (!validate_matrix_size(rows2, cols2)) {
+        printf("Invalid matrix dimensions (max %dx%d)\n", MAX_SIZE, MAX_SIZE);
+        return 1;
+    }
+    
+    Matrix mat1, mat2, result;
+    
+    initialize_matrix(&mat1, rows1, cols1);
+    initialize_matrix(&mat2, rows2, cols2);
+    
+    printf("\nMatrix 1:\n");
+    print_matrix(&mat1);
+    
+    printf("\nMatrix 2:\n");
+    print_matrix(&mat2);
+    
+    printf("\nMatrix 1 transpose:\n");
+    transpose_matrix(&mat1, &result);
+    print_matrix(&result);
+    
+    if (mat1.cols == mat2.rows) {
+        printf("\nMatrix multiplication result:\n");
+        multiply_matrices(&mat1, &mat2, &result);
+        print_matrix(&result);
+    } else {
+        printf("\nCannot multiply matrices: incompatible dimensions\n");
+    }
+    
+    return 0;
+}

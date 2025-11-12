@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cciQoMKg.o: in function `analyze_logs_recursive':
+__tmp_91faf735.c:(.text+0x246): undefined reference to `parse_log_entry'
+collect2: error: ld returned 1 exit status

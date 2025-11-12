@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0bce25c2.c: In function ‘main’:
+./samples/SAFE/__tmp_0bce25c2.c:139:55: error: ‘compress’ undeclared (first use in this function); did you mean ‘compressors’?
+  139 |     size_t num_methods = sizeof(compressors) / sizeof(compress
+      |                                                       ^~~~~~~~
+      |                                                       compressors
+./samples/SAFE/__tmp_0bce25c2.c:139:55: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0bce25c2.c:139:63: error: expected ‘)’ at end of input
+  139 |     size_t num_methods = sizeof(compressors) / sizeof(compress
+      |                                                      ~        ^
+      |                                                               )
+./samples/SAFE/__tmp_0bce25c2.c:139:5: error: expected declaration or statement at end of input
+  139 |     size_t num_methods = sizeof(compressors) / sizeof(compress
+      |     ^~~~~~

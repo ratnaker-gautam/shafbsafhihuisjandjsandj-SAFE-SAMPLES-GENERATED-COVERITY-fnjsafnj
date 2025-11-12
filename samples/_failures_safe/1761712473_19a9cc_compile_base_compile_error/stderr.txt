@@ -1,0 +1,24 @@
+./samples/SAFE/__tmp_f08f1578.c: In function ‘main’:
+./samples/SAFE/__tmp_f08f1578.c:152:25: error: ‘entry’ undeclared (first use in this function); did you mean ‘entries’?
+  152 |         strncpy(entries[entry
+      |                         ^~~~~
+      |                         entries
+./samples/SAFE/__tmp_f08f1578.c:152:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f08f1578.c:152:30: error: expected ‘]’ at end of input
+  152 |         strncpy(entries[entry
+      |                              ^
+      |                              ]
+./samples/SAFE/__tmp_f08f1578.c:152:9: error: too few arguments to function ‘strncpy’
+  152 |         strncpy(entries[entry
+      |         ^~~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_f08f1578.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:92:1: note: declared here
+   92 | __NTH (strncpy (char *__restrict __dest, const char *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_f08f1578.c:152:9: error: expected declaration or statement at end of input
+  152 |         strncpy(entries[entry
+      |         ^~~~~~~
+./samples/SAFE/__tmp_f08f1578.c:152:9: error: expected declaration or statement at end of input

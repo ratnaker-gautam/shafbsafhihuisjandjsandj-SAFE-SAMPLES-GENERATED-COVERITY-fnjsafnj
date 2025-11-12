@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ad22ff26.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_ad22ff26.c:141:9: error: expected expression at end of input
+  141 |         for (int j = 0; j < V; j++) free(
+      |         ^~~
+./samples/SAFE/__tmp_ad22ff26.c:141:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ad22ff26.c:141:9: error: expected declaration or statement at end of input

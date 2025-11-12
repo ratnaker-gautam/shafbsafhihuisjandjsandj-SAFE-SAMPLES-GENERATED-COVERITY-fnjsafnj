@@ -1,0 +1,24 @@
+./samples/SAFE/__tmp_bb9b2c16.c: In function ‘read_matrix’:
+./samples/SAFE/__tmp_bb9b2c16.c:110:22: error: ‘p’ undeclared (first use in this function)
+  110 |             snprintf(p
+      |                      ^
+./samples/SAFE/__tmp_bb9b2c16.c:110:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bb9b2c16.c:110:23: error: expected ‘)’ at end of input
+  110 |             snprintf(p
+      |                     ~ ^
+      |                       )
+./samples/SAFE/__tmp_bb9b2c16.c:110:13: error: too few arguments to function ‘snprintf’
+  110 |             snprintf(p
+      |             ^~~~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_bb9b2c16.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:51:1: note: declared here
+   51 | __NTH (snprintf (char *__restrict __s, size_t __n,
+      | ^~~~~
+./samples/SAFE/__tmp_bb9b2c16.c:110:13: error: expected declaration or statement at end of input
+  110 |             snprintf(p
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_bb9b2c16.c:110:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bb9b2c16.c:110:13: error: expected declaration or statement at end of input

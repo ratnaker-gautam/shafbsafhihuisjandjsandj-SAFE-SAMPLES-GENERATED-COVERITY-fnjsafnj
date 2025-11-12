@@ -1,0 +1,946 @@
+State Machine Demo
+Enter numbers to process. Enter 0 to finish input.
+Enter -1 to exit program.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine started. Enter numbers (0 to finish):
+No numbers entered.
+Error state cleared. Resetting.
+State machine st

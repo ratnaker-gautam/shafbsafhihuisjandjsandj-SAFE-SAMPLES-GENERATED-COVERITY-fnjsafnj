@@ -1,0 +1,22 @@
+./samples/SAFE/__tmp_e7ca43de.c: In function ‘main’:
+./samples/SAFE/__tmp_e7ca43de.c:176:52: error: expected ‘)’ at end of input
+  176 |     if (!decompress_rle(compressed.data, compressed
+      |                        ~                           ^
+      |                                                    )
+./samples/SAFE/__tmp_e7ca43de.c:176:42: error: incompatible type for argument 2 of ‘decompress_rle’
+  176 |     if (!decompress_rle(compressed.data, compressed
+      |                                          ^~~~~~~~~~
+      |                                          |
+      |                                          Buffer
+./samples/SAFE/__tmp_e7ca43de.c:101:55: note: expected ‘size_t’ {aka ‘long unsigned int’} but argument is of type ‘Buffer’
+  101 | int decompress_rle(const unsigned char *input, size_t input_len, Buffer *output) {
+      |                                                ~~~~~~~^~~~~~~~~
+./samples/SAFE/__tmp_e7ca43de.c:176:10: error: too few arguments to function ‘decompress_rle’
+  176 |     if (!decompress_rle(compressed.data, compressed
+      |          ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e7ca43de.c:101:5: note: declared here
+  101 | int decompress_rle(const unsigned char *input, size_t input_len, Buffer *output) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e7ca43de.c:176:5: error: expected declaration or statement at end of input
+  176 |     if (!decompress_rle(compressed.data, compressed
+      |     ^~

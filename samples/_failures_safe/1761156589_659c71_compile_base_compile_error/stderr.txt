@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_63513891.c: In function ‘dfs’:
+./samples/SAFE/__tmp_63513891.c:163:12: error: expected identifier or ‘(’ at end of input
+  163 |     struct Node*
+      |            ^~~~
+./samples/SAFE/__tmp_63513891.c:163:12: error: expected declaration or statement at end of input

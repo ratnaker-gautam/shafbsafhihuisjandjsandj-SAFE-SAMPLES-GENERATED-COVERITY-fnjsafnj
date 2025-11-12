@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_3861cfc2.c: In function ‘main’:
+./samples/SAFE/__tmp_3861cfc2.c:141:26: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols2’?
+  141 |     print_matrix(result, cols
+      |                          ^~~~
+      |                          cols2
+./samples/SAFE/__tmp_3861cfc2.c:141:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3861cfc2.c:141:30: error: expected ‘)’ at end of input
+  141 |     print_matrix(result, cols
+      |                 ~            ^
+      |                              )
+./samples/SAFE/__tmp_3861cfc2.c:141:5: error: too few arguments to function ‘print_matrix’
+  141 |     print_matrix(result, cols
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_3861cfc2.c:9:6: note: declared here
+    9 | void print_matrix(int matrix[MAX_SIZE][MAX_SIZE], int rows, int cols) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_3861cfc2.c:141:5: error: expected declaration or statement at end of input
+  141 |     print_matrix(result, cols
+      |     ^~~~~~~~~~~~

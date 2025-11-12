@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/cct9OmnN.o: in function `compute_statistics':
+__tmp_f83aedfe.c:(.text+0x140): undefined reference to `sqrt'
+/usr/bin/ld: /tmp/cct9OmnN.o: in function `main':
+__tmp_f83aedfe.c:(.text.startup+0x128): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

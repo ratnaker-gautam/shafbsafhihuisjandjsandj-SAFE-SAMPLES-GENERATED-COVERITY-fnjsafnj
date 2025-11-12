@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0125e5ef.c: In function ‘pointcloud_free’:
+./samples/SAFE/__tmp_0125e5ef.c:122:5: error: expected declaration or statement at end of input
+  122 |     cloud->count = 0;
+      |     ^~~~~

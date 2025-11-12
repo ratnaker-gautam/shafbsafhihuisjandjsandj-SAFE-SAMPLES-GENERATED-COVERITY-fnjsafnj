@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_b0ca49fb.c: In function ‘main’:
+./samples/SAFE/__tmp_b0ca49fb.c:148:5: error: aggregate value used where an integer was expected
+  148 |     printf("Decompressed text: %.*s\n", (int)decompressed
+      |     ^~~~~~
+./samples/SAFE/__tmp_b0ca49fb.c:148:58: error: expected ‘)’ at end of input
+  148 |     printf("Decompressed text: %.*s\n", (int)decompressed
+      |           ~                                              ^
+      |                                                          )
+./samples/SAFE/__tmp_b0ca49fb.c:148:5: error: expected declaration or statement at end of input
+  148 |     printf("Decompressed text: %.*s\n", (int)decompressed
+      |     ^~~~~~

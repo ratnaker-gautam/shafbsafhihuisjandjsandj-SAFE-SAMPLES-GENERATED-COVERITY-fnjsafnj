@@ -1,0 +1,137 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: pointer_arithmetic ; Variation: graph_algorithms
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_NODES 100
+#define MAX_EDGES 1000
+
+struct Edge {
+    int src;
+    int dest;
+    int weight;
+};
+
+struct Graph {
+    int num_nodes;
+    int num_edges;
+    struct Edge edges[MAX_EDGES];
+};
+
+void init_graph(struct Graph *g, int nodes, int edges) {
+    if (g == NULL || nodes <= 0 || nodes > MAX_NODES || edges < 0 || edges > MAX_EDGES) {
+        fprintf(stderr, "Invalid graph parameters\n");
+        exit(1);
+    }
+    g->num_nodes = nodes;
+    g->num_edges = edges;
+}
+
+void add_edge(struct Graph *g, int idx, int src, int dest, int weight) {
+    if (g == NULL || idx < 0 || idx >= g->num_edges || src < 0 || src >= g->num_nodes || 
+        dest < 0 || dest >= g->num_nodes || weight < 0) {
+        fprintf(stderr, "Invalid edge parameters\n");
+        exit(1);
+    }
+    (g->edges + idx)->src = src;
+    (g->edges + idx)->dest = dest;
+    (g->edges + idx)->weight = weight;
+}
+
+int find_parent(int parent[], int node) {
+    if (parent == NULL || node < 0) return -1;
+    if (*(parent + node) != node) {
+        *(parent + node) = find_parent(parent, *(parent + node));
+    }
+    return *(parent + node);
+}
+
+void union_sets(int parent[], int rank[], int x, int y) {
+    if (parent == NULL || rank == NULL || x < 0 || y < 0) return;
+    int xroot = find_parent(parent, x);
+    int yroot = find_parent(parent, y);
+    if (xroot == yroot) return;
+    if (*(rank + xroot) < *(rank + yroot)) {
+        *(parent + xroot) = yroot;
+    } else if (*(rank + xroot) > *(rank + yroot)) {
+        *(parent + yroot) = xroot;
+    } else {
+        *(parent + yroot) = xroot;
+        *(rank + xroot) = *(rank + xroot) + 1;
+    }
+}
+
+int compare_edges(const void *a, const void *b) {
+    const struct Edge *edge_a = (const struct Edge *)a;
+    const struct Edge *edge_b = (const struct Edge *)b;
+    if (edge_a->weight < edge_b->weight) return -1;
+    if (edge_a->weight > edge_b->weight) return 1;
+    return 0;
+}
+
+void kruskal_mst(struct Graph *g) {
+    if (g == NULL || g->num_nodes <= 0 || g->num_edges < 0) {
+        fprintf(stderr, "Invalid graph for MST\n");
+        return;
+    }
+    
+    struct Edge result[MAX_NODES];
+    int parent[MAX_NODES];
+    int rank[MAX_NODES];
+    int e = 0;
+    int i = 0;
+    
+    for (int v = 0; v < g->num_nodes; v++) {
+        *(parent + v) = v;
+        *(rank + v) = 0;
+    }
+    
+    qsort(g->edges, g->num_edges, sizeof(struct Edge), compare_edges);
+    
+    while (e < g->num_nodes - 1 && i < g->num_edges) {
+        struct Edge next_edge = *(g->edges + i);
+        i++;
+        
+        int x = find_parent(parent, next_edge.src);
+        int y = find_parent(parent, next_edge.dest);
+        
+        if (x != y) {
+            *(result + e) = next_edge;
+            e++;
+            union_sets(parent, rank, x, y);
+        }
+    }
+    
+    printf("Minimum Spanning Tree edges:\n");
+    int total_weight = 0;
+    for (int j = 0; j < e; j++) {
+        printf("%d -- %d : %d\n", (result + j)->src, (result + j)->dest, (result + j)->weight);
+        total_weight += (result + j)->weight;
+    }
+    printf("Total weight: %d\n", total_weight);
+}
+
+int main() {
+    struct Graph graph;
+    int nodes, edges;
+    
+    printf("Enter number of nodes (1-100): ");
+    if (scanf("%d", &nodes) != 1 || nodes < 1 || nodes > MAX_NODES) {
+        fprintf(stderr, "Invalid number of nodes\n");
+        return 1;
+    }
+    
+    printf("Enter number of edges (0-1000): ");
+    if (scanf("%d", &edges) != 1 || edges < 0 || edges > MAX_EDGES) {
+        fprintf(stderr, "Invalid number of edges\n");
+        return 1;
+    }
+    
+    init_graph(&graph, nodes, edges);
+    
+    printf("Enter edges (source destination weight):\n");
+    for (int i = 0; i < edges; i++) {
+        int src, dest, weight;
+        if (scanf("%d %d %d", &src, &dest, &weight) != 3 || src < 0 || src >= nodes || 
+            dest < 0 || dest >= nodes || weight < 0) {
+            fprintf(stderr, "

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b32c9f26.c: In function ‘determinant’:
+./samples/SAFE/__tmp_b32c9f26.c:145:9: error: expected expression at end of input
+  145 |         if (minor == NULL)
+      |         ^~
+./samples/SAFE/__tmp_b32c9f26.c:145:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b32c9f26.c:145:9: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c2dceb3e.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_c2dceb3e.c:172:5: error: expected declaration or statement at end of input
+  172 |     }
+      |     ^

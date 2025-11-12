@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9e4cd976.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_9e4cd976.c:158:22: error: expected declaration or statement at end of input
+  158 | void tokenize(struct Tokenizer *tokenizer) {
+      |                      ^~~~~~~~~

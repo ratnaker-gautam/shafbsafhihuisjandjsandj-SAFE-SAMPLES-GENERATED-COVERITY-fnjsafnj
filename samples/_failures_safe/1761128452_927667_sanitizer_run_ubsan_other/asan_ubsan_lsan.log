@@ -1,0 +1,9 @@
+
+samples/SAFE/__tmp_eec82617.c:38:16: runtime error: signed integer overflow: 3463321 + 2146682110 cannot be represented in type 'int'
+    #0 0x6280c5518a49 in process_state_a samples/SAFE/__tmp_eec82617.c:38
+    #1 0x6280c5518a49 in execute_state samples/SAFE/__tmp_eec82617.c:77
+    #2 0x6280c5518a49 in main samples/SAFE/__tmp_eec82617.c:124
+    #3 0x75b15462a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x75b15462a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x6280c55182c4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_eec82617.c.san+0x32c4) (BuildId: 8936104c5c479369d0134972c587689dbdf3f815)
+

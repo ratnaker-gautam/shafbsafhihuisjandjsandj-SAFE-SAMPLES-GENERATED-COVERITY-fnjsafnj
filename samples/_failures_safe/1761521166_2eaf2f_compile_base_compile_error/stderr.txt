@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_51ce5dd6.c: In function ‘transform_mesh’:
+./samples/SAFE/__tmp_51ce5dd6.c:114:28: error: expected ‘)’ at end of input
+  114 |     if (input->vertex_count
+      |        ~                   ^
+      |                            )
+./samples/SAFE/__tmp_51ce5dd6.c:114:5: error: expected declaration or statement at end of input
+  114 |     if (input->vertex_count
+      |     ^~

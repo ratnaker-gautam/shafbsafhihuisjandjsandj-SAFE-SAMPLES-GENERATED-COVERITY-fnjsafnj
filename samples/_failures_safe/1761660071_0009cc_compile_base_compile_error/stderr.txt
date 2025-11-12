@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1e246fbf.c: In function ‘initialize_sample_points’:
+./samples/SAFE/__tmp_1e246fbf.c:143:40: error: expected ‘;’ at end of input
+  143 |     for (size_t i = 0; i < cloud->count
+      |                                        ^
+      |                                        ;
+./samples/SAFE/__tmp_1e246fbf.c:143:5: error: expected declaration or statement at end of input
+  143 |     for (size_t i = 0; i < cloud->count
+      |     ^~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1a126854.c: In function ‘state_to_string’:
+./samples/SAFE/__tmp_1a126854.c:160:9: error: expected ‘:’ or ‘...’ at end of input
+  160 |         case STATE_COMPLETE
+      |         ^~~~
+./samples/SAFE/__tmp_1a126854.c:160:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1a126854.c:160:9: error: expected declaration or statement at end of input

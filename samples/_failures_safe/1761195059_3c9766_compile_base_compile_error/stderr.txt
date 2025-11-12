@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4683c85b.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_4683c85b.c:163:14: error: expected ‘;’ at end of input
+  163 |     add_token
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_4683c85b.c:163:5: error: expected declaration or statement at end of input
+  163 |     add_token
+      |     ^~~~~~~~~

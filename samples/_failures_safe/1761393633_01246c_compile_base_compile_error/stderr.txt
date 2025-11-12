@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_bfa2d6fc.c: In function ‘main’:
+./samples/SAFE/__tmp_bfa2d6fc.c:134:5: error: expected declaration or statement at end of input
+  134 |     int choice;
+      |     ^~~

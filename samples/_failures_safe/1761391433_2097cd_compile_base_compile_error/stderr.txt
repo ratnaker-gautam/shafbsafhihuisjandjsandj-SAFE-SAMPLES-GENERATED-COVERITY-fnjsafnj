@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a8340fa7.c: In function ‘main’:
+./samples/SAFE/__tmp_a8340fa7.c:145:17: error: expected expression at end of input
+  145 |                 if (out_idx2 > 0 && strcmp(temp, temp2) ==
+      |                 ^~
+./samples/SAFE/__tmp_a8340fa7.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8340fa7.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8340fa7.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8340fa7.c:145:17: error: expected declaration or statement at end of input

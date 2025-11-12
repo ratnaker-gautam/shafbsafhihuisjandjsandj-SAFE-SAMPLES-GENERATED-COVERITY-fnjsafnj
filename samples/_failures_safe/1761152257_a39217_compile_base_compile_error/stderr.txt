@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ae7141b7.c: In function ‘main’:
+./samples/SAFE/__tmp_ae7141b7.c:152:38: error: expected ‘;’ at end of input
+  152 |     transitions_stack[3].to_state = 0
+      |                                      ^
+      |                                      ;
+./samples/SAFE/__tmp_ae7141b7.c:152:5: error: expected declaration or statement at end of input
+  152 |     transitions_stack[3].to_state = 0
+      |     ^~~~~~~~~~~~~~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2513baa7.c: In function ‘main’:
+./samples/SAFE/__tmp_2513baa7.c:142:9: error: expected expression at end of input
+  142 |         printf("INFO: %.1f%%\n", (info_count *
+      |         ^~~~~~
+./samples/SAFE/__tmp_2513baa7.c:142:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2513baa7.c:142:9: error: expected declaration or statement at end of input

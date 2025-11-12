@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_45dbcf5e.c: In function ‘main’:
+./samples/SAFE/__tmp_45dbcf5e.c:164:9: error: expected declaration or statement at end of input
+  164 |         printf("Stack creation failed\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_45dbcf5e.c:164:9: error: expected declaration or statement at end of input

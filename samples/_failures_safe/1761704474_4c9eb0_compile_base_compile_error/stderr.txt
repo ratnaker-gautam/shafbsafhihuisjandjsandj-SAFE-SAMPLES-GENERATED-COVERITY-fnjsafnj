@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_08a22a2d.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_08a22a2d.c:132:9: error: expected expression at end of input
+  132 |         int sign = (x % 2 ==
+      |         ^~~
+./samples/SAFE/__tmp_08a22a2d.c:132:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_08a22a2d.c:132:9: error: expected declaration or statement at end of input

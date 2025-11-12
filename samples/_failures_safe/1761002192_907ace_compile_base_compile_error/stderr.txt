@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_4c2a58c2.c: In function ‘main’:
+./samples/SAFE/__tmp_4c2a58c2.c:132:9: error: expected expression at end of input
+  132 |         if (sscanf(line, "%31s %15s %255[^\n]",
+      |         ^~
+./samples/SAFE/__tmp_4c2a58c2.c:132:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4c2a58c2.c:132:9: error: expected declaration or statement at end of input

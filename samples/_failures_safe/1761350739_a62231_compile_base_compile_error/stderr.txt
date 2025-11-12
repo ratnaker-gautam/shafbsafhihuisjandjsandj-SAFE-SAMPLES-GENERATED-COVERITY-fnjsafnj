@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bd24aea6.c: In function ‘main’:
+./samples/SAFE/__tmp_bd24aea6.c:157:13: error: expected ‘)’ at end of input
+  157 |     while (1
+      |           ~ ^
+      |             )
+./samples/SAFE/__tmp_bd24aea6.c:157:5: error: expected declaration or statement at end of input
+  157 |     while (1
+      |     ^~~~~

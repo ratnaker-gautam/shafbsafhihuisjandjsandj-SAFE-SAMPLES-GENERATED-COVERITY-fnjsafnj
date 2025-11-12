@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccvmDwvu.o: in function `main':
+__tmp_370b828d.c:(.text.startup+0x251): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_370b828d.c:(.text.startup+0x466): undefined reference to `sincos'
+/usr/bin/ld: __tmp_370b828d.c:(.text.startup+0x4dd): undefined reference to `tan'
+collect2: error: ld returned 1 exit status

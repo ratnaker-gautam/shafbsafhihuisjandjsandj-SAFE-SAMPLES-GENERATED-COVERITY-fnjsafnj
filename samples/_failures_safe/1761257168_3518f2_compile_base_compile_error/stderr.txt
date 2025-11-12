@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ee02d90e.c: In function ‘transform_bounding_box’:
+./samples/SAFE/__tmp_ee02d90e.c:123:9: error: expected expression at end of input
+  123 |         if (
+      |         ^~
+./samples/SAFE/__tmp_ee02d90e.c:123:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ee02d90e.c:123:9: error: expected declaration or statement at end of input

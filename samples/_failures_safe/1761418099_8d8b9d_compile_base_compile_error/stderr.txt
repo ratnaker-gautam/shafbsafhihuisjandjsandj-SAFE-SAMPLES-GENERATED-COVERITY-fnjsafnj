@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_86e66c53.c: In function ‘main’:
+./samples/SAFE/__tmp_86e66c53.c:182:21: error: expected ‘)’ at end of input
+  182 |     while (getchar()
+      |           ~         ^
+      |                     )
+./samples/SAFE/__tmp_86e66c53.c:182:5: error: expected declaration or statement at end of input
+  182 |     while (getchar()
+      |     ^~~~~

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_804168c8.c: In function ‘main’:
+./samples/SAFE/__tmp_804168c8.c:153:48: error: expected ‘)’ at end of input
+  153 |     if (!decompress_data(compressed, compressed
+      |                         ~                      ^
+      |                                                )
+./samples/SAFE/__tmp_804168c8.c:153:10: error: too few arguments to function ‘decompress_data’
+  153 |     if (!decompress_data(compressed, compressed
+      |          ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_804168c8.c:77:5: note: declared here
+   77 | int decompress_data(const unsigned char* input, size_t input_size, unsigned char** output, size_t* output_size) {
+      |     ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_804168c8.c:153:5: error: expected declaration or statement at end of input
+  153 |     if (!decompress_data(compressed, compressed
+      |     ^~

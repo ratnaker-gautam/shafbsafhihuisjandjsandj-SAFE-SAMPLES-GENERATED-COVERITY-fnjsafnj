@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_befae853.c: In function ‘display_recent_entries’:
+./samples/SAFE/__tmp_befae853.c:132:5: error: expected expression at end of input
+  132 |     for (int i = start_index; i < count; i++)
+      |     ^~~
+./samples/SAFE/__tmp_befae853.c:132:5: error: expected declaration or statement at end of input

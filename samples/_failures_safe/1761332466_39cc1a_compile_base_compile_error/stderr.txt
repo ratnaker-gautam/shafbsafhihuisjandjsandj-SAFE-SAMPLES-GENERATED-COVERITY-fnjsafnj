@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_06cd3115.c: In function ‘main’:
+./samples/SAFE/__tmp_06cd3115.c:141:9: error: expected declaration or statement at end of input
+  141 |         print_results(words, word_count);
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_06cd3115.c:141:9: error: expected declaration or statement at end of input

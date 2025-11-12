@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_70f0aac4.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_70f0aac4.c:165:30: error: ‘TOKEN_P’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  165 |             add_token(lexer, TOKEN_P
+      |                              ^~~~~~~
+      |                              TOKEN_EOF
+./samples/SAFE/__tmp_70f0aac4.c:165:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_70f0aac4.c:165:37: error: expected ‘)’ at end of input
+  165 |             add_token(lexer, TOKEN_P
+      |                      ~              ^
+      |                                     )
+./samples/SAFE/__tmp_70f0aac4.c:165:13: error: too few arguments to function ‘add_token’
+  165 |             add_token(lexer, TOKEN_P
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_70f0aac4.c:51:6: note: declared here
+   51 | void add_token(Lexer* lexer, TokenType type, const char* value) {
+      |      ^~~~~~~~~
+./samples/SAFE/__tmp_70f0aac4.c:165:13: error: expected declaration or statement at end of input
+  165 |             add_token(lexer, TOKEN_P
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_70f0aac4.c:165:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_70f0aac4.c:165:13: error: expected declaration or statement at end of input

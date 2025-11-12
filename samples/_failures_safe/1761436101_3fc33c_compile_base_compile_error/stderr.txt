@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_2c7d35da.c: In function ‘main’:
+./samples/SAFE/__tmp_2c7d35da.c:149:25: error: ‘entry’ undeclared (first use in this function); did you mean ‘entries’?
+  149 |     for (int i = 0; i < entry
+      |                         ^~~~~
+      |                         entries
+./samples/SAFE/__tmp_2c7d35da.c:149:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2c7d35da.c:149:30: error: expected ‘;’ at end of input
+  149 |     for (int i = 0; i < entry
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_2c7d35da.c:149:5: error: expected declaration or statement at end of input
+  149 |     for (int i = 0; i < entry
+      |     ^~~

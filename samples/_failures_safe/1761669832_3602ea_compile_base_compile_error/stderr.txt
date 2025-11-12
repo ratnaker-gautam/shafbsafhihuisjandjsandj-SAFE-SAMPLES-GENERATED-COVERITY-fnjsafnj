@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_4ecd91ba.c:2:2: error: expected ‘;’ before ‘typedef’
+    2 | c
+      |  ^
+      |  ;
+./samples/SAFE/__tmp_4ecd91ba.c: In function ‘detectCycle’:
+./samples/SAFE/__tmp_4ecd91ba.c:174:28: error: ‘detect’ undeclared (first use in this function)
+  174 |         if (!visited[i] && detect
+      |                            ^~~~~~
+./samples/SAFE/__tmp_4ecd91ba.c:174:28: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4ecd91ba.c:174:34: error: expected ‘)’ at end of input
+  174 |         if (!visited[i] && detect
+      |            ~                     ^
+      |                                  )
+./samples/SAFE/__tmp_4ecd91ba.c:174:9: error: expected declaration or statement at end of input
+  174 |         if (!visited[i] && detect
+      |         ^~
+./samples/SAFE/__tmp_4ecd91ba.c:174:9: error: expected declaration or statement at end of input

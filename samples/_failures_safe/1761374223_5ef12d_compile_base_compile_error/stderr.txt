@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_3c8b46fb.c: In function ‘main’:
+./samples/SAFE/__tmp_3c8b46fb.c:126:31: error: expected ‘)’ at end of input
+  126 |     double cpu_time = ((double
+      |                        ~      ^
+      |                               )
+./samples/SAFE/__tmp_3c8b46fb.c:126:5: error: expected declaration or statement at end of input
+  126 |     double cpu_time = ((double
+      |     ^~~~~~

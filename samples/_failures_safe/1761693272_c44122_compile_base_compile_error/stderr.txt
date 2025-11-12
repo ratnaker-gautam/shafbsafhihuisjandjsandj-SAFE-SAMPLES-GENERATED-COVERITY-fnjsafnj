@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e3d36b1a.c: In function ‘tokenize_input’:
+./samples/SAFE/__tmp_e3d36b1a.c:156:13: error: expected declaration or statement at end of input
+  156 |             count++;
+      |             ^~~~~
+./samples/SAFE/__tmp_e3d36b1a.c:156:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e3d36b1a.c:156:13: error: expected declaration or statement at end of input

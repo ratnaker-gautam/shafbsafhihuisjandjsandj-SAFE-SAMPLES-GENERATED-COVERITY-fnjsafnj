@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_e4fbbef4.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_e4fbbef4.c:169: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_e4fbbef4.c:168:16: note: to match this ‘(’
+  168 |             if (result < INT_MIN
+      |                ^
+./samples/SAFE/__tmp_e4fbbef4.c:168:13: error: expected declaration or statement at end of input
+  168 |             if (result < INT_MIN
+      |             ^~
+./samples/SAFE/__tmp_e4fbbef4.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e4fbbef4.c:168:13: error: expected declaration or statement at end of input

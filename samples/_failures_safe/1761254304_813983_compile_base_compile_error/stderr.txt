@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e1d9ade1.c: In function ‘main’:
+./samples/SAFE/__tmp_e1d9ade1.c:161:5: error: expected identifier or ‘(’ at end of input
+  161 |     GraphOperation
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e1d9ade1.c:161:5: error: expected declaration or statement at end of input

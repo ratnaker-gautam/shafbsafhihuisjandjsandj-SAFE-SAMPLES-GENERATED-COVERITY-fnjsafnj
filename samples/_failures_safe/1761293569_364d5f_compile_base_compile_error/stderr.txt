@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d90f18c3.c: In function ‘main’:
+./samples/SAFE/__tmp_d90f18c3.c:178:30: error: expected ‘)’ at end of input
+  178 |         switch (machine.state
+      |                ~             ^
+      |                              )
+./samples/SAFE/__tmp_d90f18c3.c:178:9: error: expected declaration or statement at end of input
+  178 |         switch (machine.state
+      |         ^~~~~~
+./samples/SAFE/__tmp_d90f18c3.c:178:9: error: expected declaration or statement at end of input

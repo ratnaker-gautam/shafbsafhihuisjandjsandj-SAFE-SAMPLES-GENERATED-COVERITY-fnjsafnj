@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_bce41b25.c: In function ‘main’:
+./samples/SAFE/__tmp_bce41b25.c:130:36: error: expected ‘)’ at end of input
+  130 |             input_matrix(rows, cols
+      |                         ~          ^
+      |                                    )
+./samples/SAFE/__tmp_bce41b25.c:130:13: error: too few arguments to function ‘input_matrix’
+  130 |             input_matrix(rows, cols
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_bce41b25.c:44:6: note: declared here
+   44 | void input_matrix(int rows, int cols, int matrix[rows][cols]) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_bce41b25.c:130:13: error: expected declaration or statement at end of input
+  130 |             input_matrix(rows, cols
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_bce41b25.c:130:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bce41b25.c:130:13: error: expected declaration or statement at end of input

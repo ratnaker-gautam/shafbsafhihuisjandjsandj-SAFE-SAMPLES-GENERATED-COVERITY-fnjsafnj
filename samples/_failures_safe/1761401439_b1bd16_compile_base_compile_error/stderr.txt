@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_18ea3a47.c: In function ‘scan_delimiter’:
+./samples/SAFE/__tmp_18ea3a47.c:148:9: error: expected identifier at end of input
+  148 |         token->line = lexer->
+      |         ^~~~~
+./samples/SAFE/__tmp_18ea3a47.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_18ea3a47.c:148:9: error: expected declaration or statement at end of input

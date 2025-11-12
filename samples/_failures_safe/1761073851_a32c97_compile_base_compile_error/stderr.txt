@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_ede39e18.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_ede39e18.c:186: error: expected ‘{’ at end of input

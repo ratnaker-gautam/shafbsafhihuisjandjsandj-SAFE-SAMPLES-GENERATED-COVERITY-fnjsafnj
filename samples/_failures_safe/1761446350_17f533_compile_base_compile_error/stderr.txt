@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b356ff8a.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_b356ff8a.c:163:5: error: expected declaration or statement at end of input
+  163 |     printf("Current State: %s\n", state_names[sm->current_state]);
+      |     ^~~~~~

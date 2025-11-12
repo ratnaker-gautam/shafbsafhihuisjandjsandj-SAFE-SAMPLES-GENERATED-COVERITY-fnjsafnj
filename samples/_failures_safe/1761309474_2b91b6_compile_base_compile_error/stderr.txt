@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_70cd84fd.c: In function ‘main’:
+./samples/SAFE/__tmp_70cd84fd.c:162:10: error: ‘size’ undeclared (first use in this function)
+  162 |     for (size
+      |          ^~~~
+./samples/SAFE/__tmp_70cd84fd.c:162:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_70cd84fd.c:162:14: error: expected ‘;’ at end of input
+  162 |     for (size
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_70cd84fd.c:162:5: error: expected declaration or statement at end of input
+  162 |     for (size
+      |     ^~~

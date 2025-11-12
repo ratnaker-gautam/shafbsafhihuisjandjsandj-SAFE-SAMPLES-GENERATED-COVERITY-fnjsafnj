@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b8a21d96.c: In function ‘main’:
+./samples/SAFE/__tmp_b8a21d96.c:148:21: error: expected declaration or statement at end of input
+  148 |                     if (!safe_add(matrix1[i][j], -matrix2[i][j])) {
+      |                     ^~
+./samples/SAFE/__tmp_b8a21d96.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b8a21d96.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b8a21d96.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b8a21d96.c:148:21: error: expected declaration or statement at end of input

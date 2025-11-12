@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6a870aab.c: In function ‘main’:
+./samples/SAFE/__tmp_6a870aab.c:169:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  169 |         enum State new
+      |              ^~~~~
+./samples/SAFE/__tmp_6a870aab.c:169:14: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6a870aab.c:169:14: error: expected declaration or statement at end of input

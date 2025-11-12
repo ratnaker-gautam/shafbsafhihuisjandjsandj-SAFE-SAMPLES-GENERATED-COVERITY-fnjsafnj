@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e1a48806.c: In function ‘main’:
+./samples/SAFE/__tmp_e1a48806.c:156:5: error: expected declaration or statement at end of input
+  156 |     printf("\nWord frequency analysis:\n");
+      |     ^~~~~~

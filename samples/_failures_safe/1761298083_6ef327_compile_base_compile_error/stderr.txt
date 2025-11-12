@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_3710568e.c: In function ‘print_entries_by_level’:
+./samples/SAFE/__tmp_3710568e.c:140:19: error: expected ‘;’ at end of input
+  140 |             printf
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_3710568e.c:140:13: error: expected declaration or statement at end of input
+  140 |             printf
+      |             ^~~~~~
+./samples/SAFE/__tmp_3710568e.c:140:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3710568e.c:140:13: error: expected declaration or statement at end of input

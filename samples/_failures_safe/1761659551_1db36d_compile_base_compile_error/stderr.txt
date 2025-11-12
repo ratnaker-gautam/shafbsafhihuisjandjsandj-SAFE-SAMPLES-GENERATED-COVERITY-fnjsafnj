@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4ef33f31.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_4ef33f31.c:139:12: error: missing terminating " character
+  139 |     printf("Total entries: %u
+      |            ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4ef33f31.c:139:5: error: expected expression at end of input
+  139 |     printf("Total entries: %u
+      |     ^~~~~~
+./samples/SAFE/__tmp_4ef33f31.c:139:5: error: expected declaration or statement at end of input

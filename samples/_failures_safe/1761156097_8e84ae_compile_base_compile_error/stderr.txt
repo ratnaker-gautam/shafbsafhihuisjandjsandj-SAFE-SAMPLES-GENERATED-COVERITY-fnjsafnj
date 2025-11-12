@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fef2989c.c: In function ‘main’:
+./samples/SAFE/__tmp_fef2989c.c:146:16: error: expected ‘;’ at end of input
+  146 |     token_count
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_fef2989c.c:146:5: error: expected declaration or statement at end of input
+  146 |     token_count
+      |     ^~~~~~~~~~~

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_54565cc2.c: In function ‘main’:
+./samples/SAFE/__tmp_54565cc2.c:140:22: error: expected ‘)’ at end of input
+  140 |     graph_add_node(&g
+      |                   ~  ^
+      |                      )
+./samples/SAFE/__tmp_54565cc2.c:140:5: error: too few arguments to function ‘graph_add_node’
+  140 |     graph_add_node(&g
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_54565cc2.c:35:5: note: declared here
+   35 | int graph_add_node(struct Graph *g, int id, const char *label) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_54565cc2.c:140:5: error: expected declaration or statement at end of input
+  140 |     graph_add_node(&g
+      |     ^~~~~~~~~~~~~~

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_12572fcd.c: In function ‘main’:
+./samples/SAFE/__tmp_12572fcd.c:158:10: error: ‘EVENT_WRITE_COMPL’ undeclared (first use in this function); did you mean ‘EVENT_WRITE_COMPLETE’?
+  158 |         {EVENT_WRITE_COMPL
+      |          ^~~~~~~~~~~~~~~~~
+      |          EVENT_WRITE_COMPLETE
+./samples/SAFE/__tmp_12572fcd.c:158:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_12572fcd.c:159: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_12572fcd.c:158:9: note: to match this ‘{’
+  158 |         {EVENT_WRITE_COMPL
+      |         ^
+./samples/SAFE/__tmp_12572fcd.c:158:9: error: expected declaration or statement at end of input

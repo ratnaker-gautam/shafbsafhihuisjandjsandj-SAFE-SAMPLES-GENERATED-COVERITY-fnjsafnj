@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6f9fd197.c: In function ‘main’:
+./samples/SAFE/__tmp_6f9fd197.c:146:9: error: expected declaration or statement at end of input
+  146 |         printf("Decompression size mismatch: expected %zu, got %zu\n", input_length, decompressed_size);
+      |         ^~~~~~
+./samples/SAFE/__tmp_6f9fd197.c:146:9: error: expected declaration or statement at end of input

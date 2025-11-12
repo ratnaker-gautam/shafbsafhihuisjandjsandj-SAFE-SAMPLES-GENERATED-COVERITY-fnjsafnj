@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c0fcf5ff.c: In function ‘main’:
+./samples/SAFE/__tmp_c0fcf5ff.c:137:22: error: ‘rows’ undeclared (first use in this function); did you mean ‘rows2’?
+  137 |         if (cols1 != rows
+      |                      ^~~~
+      |                      rows2
+./samples/SAFE/__tmp_c0fcf5ff.c:137:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c0fcf5ff.c:137:26: error: expected ‘)’ at end of input
+  137 |         if (cols1 != rows
+      |            ~             ^
+      |                          )
+./samples/SAFE/__tmp_c0fcf5ff.c:137:9: error: expected declaration or statement at end of input
+  137 |         if (cols1 != rows
+      |         ^~
+./samples/SAFE/__tmp_c0fcf5ff.c:137:9: error: expected declaration or statement at end of input

@@ -1,0 +1,22 @@
+./samples/SAFE/__tmp_c58e637d.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_c58e637d.c:130:33: error: ‘min’ undeclared (first use in this function)
+  130 |                     decreaseKey(min
+      |                                 ^~~
+./samples/SAFE/__tmp_c58e637d.c:130:33: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c58e637d.c:130:36: error: expected ‘)’ at end of input
+  130 |                     decreaseKey(min
+      |                                ~   ^
+      |                                    )
+./samples/SAFE/__tmp_c58e637d.c:130:21: error: too few arguments to function ‘decreaseKey’
+  130 |                     decreaseKey(min
+      |                     ^~~~~~~~~~~
+./samples/SAFE/__tmp_c58e637d.c:92:6: note: declared here
+   92 | void decreaseKey(struct MinHeap* minHeap, int v, int dist) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_c58e637d.c:130:21: error: expected declaration or statement at end of input
+  130 |                     decreaseKey(min
+      |                     ^~~~~~~~~~~
+./samples/SAFE/__tmp_c58e637d.c:130:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c58e637d.c:130:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c58e637d.c:130:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c58e637d.c:130:21: error: expected declaration or statement at end of input

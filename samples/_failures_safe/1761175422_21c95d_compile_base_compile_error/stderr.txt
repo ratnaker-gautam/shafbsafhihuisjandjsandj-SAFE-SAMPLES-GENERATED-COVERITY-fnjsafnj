@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_10f7f7ec.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_10f7f7ec.c:160:21: error: expected declaration or statement at end of input
+  160 |                     graph->nodes[neighbor].predecessor = current;
+      |                     ^~~~~
+./samples/SAFE/__tmp_10f7f7ec.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_10f7f7ec.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_10f7f7ec.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_10f7f7ec.c:160:21: error: expected declaration or statement at end of input

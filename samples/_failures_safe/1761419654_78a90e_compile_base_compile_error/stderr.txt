@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1cf2420a.c: In function ‘main’:
+./samples/SAFE/__tmp_1cf2420a.c:199: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_1cf2420a.c:198:8: note: to match this ‘(’
+  198 |     if (token_count >= MAX_TOKENS
+      |        ^
+./samples/SAFE/__tmp_1cf2420a.c:198:5: error: expected declaration or statement at end of input
+  198 |     if (token_count >= MAX_TOKENS
+      |     ^~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_37fcadb7.c: In function ‘handle_finished’:
+./samples/SAFE/__tmp_37fcadb7.c:169:20: error: ‘STATE_F’ undeclared (first use in this function)
+  169 |             return STATE_F
+      |                    ^~~~~~~
+./samples/SAFE/__tmp_37fcadb7.c:169:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_37fcadb7.c:169:27: error: expected ‘;’ at end of input
+  169 |             return STATE_F
+      |                           ^
+      |                           ;
+./samples/SAFE/__tmp_37fcadb7.c:169:13: error: expected declaration or statement at end of input
+  169 |             return STATE_F
+      |             ^~~~~~
+./samples/SAFE/__tmp_37fcadb7.c:169:13: error: expected declaration or statement at end of input

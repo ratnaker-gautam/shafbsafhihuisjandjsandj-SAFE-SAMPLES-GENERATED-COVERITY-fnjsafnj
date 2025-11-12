@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_ee94d27c.c: In function ‘main’:
+./samples/SAFE/__tmp_ee94d27c.c:134:48: error: ‘INT’ undeclared (first use in this function)
+  134 |                     if (sum > INT_MAX || sum < INT
+      |                                                ^~~
+./samples/SAFE/__tmp_ee94d27c.c:134:48: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ee94d27c.c:134:51: error: expected ‘)’ at end of input
+  134 |                     if (sum > INT_MAX || sum < INT
+      |                        ~                          ^
+      |                                                   )
+./samples/SAFE/__tmp_ee94d27c.c:134:21: error: expected declaration or statement at end of input
+  134 |                     if (sum > INT_MAX || sum < INT
+      |                     ^~
+./samples/SAFE/__tmp_ee94d27c.c:134:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ee94d27c.c:134:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ee94d27c.c:134:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ee94d27c.c:134:21: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccgBk8bX.o: in function `calculate_expression':
+__tmp_9f94f2c1.c:(.text+0x155): undefined reference to `log'
+/usr/bin/ld: __tmp_9f94f2c1.c:(.text+0x2ed): undefined reference to `fmod'
+/usr/bin/ld: __tmp_9f94f2c1.c:(.text+0x1a3): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

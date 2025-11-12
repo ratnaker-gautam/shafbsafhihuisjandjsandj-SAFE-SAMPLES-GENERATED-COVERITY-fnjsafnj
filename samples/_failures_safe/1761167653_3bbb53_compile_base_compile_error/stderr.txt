@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_0f79ac5a.c: In function ‘main’:
+./samples/SAFE/__tmp_0f79ac5a.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (!count_word_frequency(words, word_count, frequency, &freq_count)) {
+      |     ^~
+./samples/SAFE/__tmp_0f79ac5a.c:145:5: error: expected declaration or statement at end of input

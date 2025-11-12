@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_a7b8cc5c.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_a7b8cc5c.c:142:20: error: expected ‘;’ at end of input
+  142 |                 sum
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_a7b8cc5c.c:142:17: error: expected declaration or statement at end of input
+  142 |                 sum
+      |                 ^~~
+./samples/SAFE/__tmp_a7b8cc5c.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a7b8cc5c.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a7b8cc5c.c:142:17: error: expected declaration or statement at end of input

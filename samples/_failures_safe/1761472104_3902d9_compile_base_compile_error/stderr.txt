@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f03aee9f.c: In function ‘main’:
+./samples/SAFE/__tmp_f03aee9f.c:125:62: error: missing terminating " character
+  125 |                strcmp(filter, "INFO") == 0 || strcmp(filter, "DEBUG
+      |                                                              ^~~~~~
+./samples/SAFE/__tmp_f03aee9f.c:125:16: error: expected expression at end of input
+  125 |                strcmp(filter, "INFO") == 0 || strcmp(filter, "DEBUG
+      |                ^~~~~~
+./samples/SAFE/__tmp_f03aee9f.c:125:16: error: expected declaration or statement at end of input

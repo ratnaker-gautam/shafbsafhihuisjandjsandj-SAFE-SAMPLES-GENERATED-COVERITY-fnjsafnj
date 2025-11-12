@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_76eb4f3a.c: In function ‘main’:
+./samples/SAFE/__tmp_76eb4f3a.c:146:46: error: expected ‘)’ at end of input
+  146 |     if (!buffer_init(&decompressed, input_len
+      |                     ~                        ^
+      |                                              )
+./samples/SAFE/__tmp_76eb4f3a.c:146:5: error: expected declaration or statement at end of input
+  146 |     if (!buffer_init(&decompressed, input_len
+      |     ^~

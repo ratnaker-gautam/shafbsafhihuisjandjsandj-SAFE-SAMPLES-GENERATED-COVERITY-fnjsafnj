@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c0e019a5.c: In function ‘update_stats’:
+./samples/SAFE/__tmp_c0e019a5.c:111:9: error: expected expression at end of input
+  111 |         analyzer->stats.latest_timestamp[sizeof(
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_c0e019a5.c:111:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c0e019a5.c:111:9: error: expected declaration or statement at end of input

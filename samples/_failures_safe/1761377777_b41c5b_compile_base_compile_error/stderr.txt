@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_c937c65f.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_c937c65f.c:167:45: error: expected ‘)’ at end of input
+  167 |         if (parse_number(input, &pos, &token
+      |                         ~                   ^
+      |                                             )
+./samples/SAFE/__tmp_c937c65f.c:167:13: error: too few arguments to function ‘parse_number’
+  167 |         if (parse_number(input, &pos, &token
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_c937c65f.c:38:5: note: declared here
+   38 | int parse_number(const char *input, int *pos, struct Token *token, int line, int column) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_c937c65f.c:167:9: error: expected declaration or statement at end of input
+  167 |         if (parse_number(input, &pos, &token
+      |         ^~
+./samples/SAFE/__tmp_c937c65f.c:167:9: error: expected declaration or statement at end of input

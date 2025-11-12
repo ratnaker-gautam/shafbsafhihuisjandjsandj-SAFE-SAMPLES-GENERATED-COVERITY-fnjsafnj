@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_bd3f813d.c: In function ‘pointcloud_compute_stats’:
+./samples/SAFE/__tmp_bd3f813d.c:140:10: error: ‘struct Statistics’ has no member named ‘cent’
+  140 |     stats.cent
+      |          ^
+./samples/SAFE/__tmp_bd3f813d.c:140:15: error: expected ‘;’ at end of input
+  140 |     stats.cent
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_bd3f813d.c:140:5: error: expected declaration or statement at end of input
+  140 |     stats.cent
+      |     ^~~~~

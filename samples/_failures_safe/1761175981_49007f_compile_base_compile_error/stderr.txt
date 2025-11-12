@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_179d1b8f.c: In function ‘main’:
+./samples/SAFE/__tmp_179d1b8f.c:161:22: error: ‘input_b’ undeclared (first use in this function); did you mean ‘input_buf’?
+  161 |         buffer_free(&input_b
+      |                      ^~~~~~~
+      |                      input_buf
+./samples/SAFE/__tmp_179d1b8f.c:161:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_179d1b8f.c:161:29: error: expected ‘)’ at end of input
+  161 |         buffer_free(&input_b
+      |                    ~        ^
+      |                             )
+./samples/SAFE/__tmp_179d1b8f.c:161:9: error: expected declaration or statement at end of input
+  161 |         buffer_free(&input_b
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_179d1b8f.c:161:9: error: expected declaration or statement at end of input

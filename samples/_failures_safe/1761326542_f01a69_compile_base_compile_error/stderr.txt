@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1969e2a9.c: In function ‘main’:
+./samples/SAFE/__tmp_1969e2a9.c:138:5: error: expected declaration or statement at end of input
+  138 |     if (memcmp(input_data, decompressed_data, size) != 0) {
+      |     ^~
+./samples/SAFE/__tmp_1969e2a9.c:138:5: error: expected declaration or statement at end of input

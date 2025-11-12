@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5e2d49da.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_5e2d49da.c:163:5: error: expected declaration or statement at end of input
+  163 |     printf("BFS traversal: ");
+      |     ^~~~~~

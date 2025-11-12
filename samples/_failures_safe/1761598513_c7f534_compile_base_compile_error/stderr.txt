@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_46d1df34.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_46d1df34.c:174: error: expected ‘;’ at end of input
+./samples/SAFE/__tmp_46d1df34.c:173:5: error: expected declaration or statement at end of input
+  173 |     for (int i = 0; i < MAX_VERTICES
+      |     ^~~

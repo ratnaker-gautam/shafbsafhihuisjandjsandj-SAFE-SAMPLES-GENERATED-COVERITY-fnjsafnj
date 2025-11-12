@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_db41ce38.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_db41ce38.c:168:13: error: expected declaration or statement at end of input
+  168 |             token_count++;
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_db41ce38.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_db41ce38.c:168:13: error: expected declaration or statement at end of input

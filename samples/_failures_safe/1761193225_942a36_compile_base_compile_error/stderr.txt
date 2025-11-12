@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_dd2f4072.c: In function ‘main’:
+./samples/SAFE/__tmp_dd2f4072.c:141:5: error: expected expression at end of input
+  141 |     mat2 = create_matrix(rows2,
+      |     ^~~~
+./samples/SAFE/__tmp_dd2f4072.c:141:5: error: expected declaration or statement at end of input

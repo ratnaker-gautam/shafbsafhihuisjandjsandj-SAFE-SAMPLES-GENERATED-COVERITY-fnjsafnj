@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_08febda5.c: In function ‘main’:
+./samples/SAFE/__tmp_08febda5.c:165:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  165 |     double factorial
+      |     ^~~~~~
+./samples/SAFE/__tmp_08febda5.c:165:5: error: expected declaration or statement at end of input

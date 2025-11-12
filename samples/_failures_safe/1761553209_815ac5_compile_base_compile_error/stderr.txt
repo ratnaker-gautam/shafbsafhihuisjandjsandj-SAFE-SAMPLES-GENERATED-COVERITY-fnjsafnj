@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c9e8de06.c: In function ‘execute_operation’:
+./samples/SAFE/__tmp_c9e8de06.c:143:5: error: expected declaration or statement at end of input
+  143 |     if (g == NULL || op == NULL) {
+      |     ^~
+./samples/SAFE/__tmp_c9e8de06.c:143:5: error: expected declaration or statement at end of input

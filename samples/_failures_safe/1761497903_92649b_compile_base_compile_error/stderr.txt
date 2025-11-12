@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_018d981d.c: In function ‘main’:
+./samples/SAFE/__tmp_018d981d.c:163:20: error: missing terminating " character
+  163 |             printf("Decompression failed for %s
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_018d981d.c:163:13: error: expected expression at end of input
+  163 |             printf("Decompression failed for %s
+      |             ^~~~~~
+./samples/SAFE/__tmp_018d981d.c:163:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_018d981d.c:163:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_018d981d.c:163:13: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_97d02ca7.c: In function ‘main’:
+./samples/SAFE/__tmp_97d02ca7.c:149:73: error: ‘MAX’ undeclared (first use in this function)
+  149 |             mat1.rows = read_int("Enter rows for matrix 1 (1-10): ", 1, MAX
+      |                                                                         ^~~
+./samples/SAFE/__tmp_97d02ca7.c:149:73: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_97d02ca7.c:149:76: error: expected ‘)’ at end of input
+  149 |             mat1.rows = read_int("Enter rows for matrix 1 (1-10): ", 1, MAX
+      |                                 ~                                          ^
+      |                                                                            )
+./samples/SAFE/__tmp_97d02ca7.c:149:13: error: expected declaration or statement at end of input
+  149 |             mat1.rows = read_int("Enter rows for matrix 1 (1-10): ", 1, MAX
+      |             ^~~~
+./samples/SAFE/__tmp_97d02ca7.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_97d02ca7.c:149:13: error: expected declaration or statement at end of input

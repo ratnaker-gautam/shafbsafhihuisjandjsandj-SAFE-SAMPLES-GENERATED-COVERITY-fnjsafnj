@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ae5b4b5a.c: In function ‘main’:
+./samples/SAFE/__tmp_ae5b4b5a.c:141:12: error: expected declaration or statement at end of input
+  141 |     struct Vector3D transformed = matrix_vector_multiply(mat, vec1);
+      |            ^~~~~~~~

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7ca88507.c: In function ‘main’:
+./samples/SAFE/__tmp_7ca88507.c:127:33: error: expected ‘;’ at end of input
+  127 |     if (a.data == NULL) { printf
+      |                                 ^
+      |                                 ;
+./samples/SAFE/__tmp_7ca88507.c:127:5: error: expected declaration or statement at end of input
+  127 |     if (a.data == NULL) { printf
+      |     ^~
+./samples/SAFE/__tmp_7ca88507.c:127:5: error: expected declaration or statement at end of input

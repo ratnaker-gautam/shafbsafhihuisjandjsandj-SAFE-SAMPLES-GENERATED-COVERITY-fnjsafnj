@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2e62993f.c: In function ‘graph_reset_visited’:
+./samples/SAFE/__tmp_2e62993f.c:161:5: error: expected declaration or statement at end of input
+  161 |     }
+      |     ^

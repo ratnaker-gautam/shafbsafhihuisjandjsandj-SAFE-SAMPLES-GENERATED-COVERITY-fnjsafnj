@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9de0d465.c: In function ‘main’:
+./samples/SAFE/__tmp_9de0d465.c:178:9: error: expected expression at end of input
+  178 |         printf("%-12s %-15s %-6d %-6d\n",
+      |         ^~~~~~
+./samples/SAFE/__tmp_9de0d465.c:178:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9de0d465.c:178:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_87734713.c: In function ‘main’:
+./samples/SAFE/__tmp_87734713.c:181:5: error: expected expression at end of input
+  181 |     char input[
+      |     ^~~~
+./samples/SAFE/__tmp_87734713.c:181:5: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_32f3de9e.c: In function ‘main’:
+./samples/SAFE/__tmp_32f3de9e.c:151:13: error: ‘destroy_state’ undeclared (first use in this function)
+  151 |             destroy_state
+      |             ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_32f3de9e.c:151:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_32f3de9e.c:151:26: error: expected ‘;’ at end of input
+  151 |             destroy_state
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_32f3de9e.c:151:13: error: expected declaration or statement at end of input
+  151 |             destroy_state
+      |             ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_32f3de9e.c:151:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_32f3de9e.c:151:13: error: expected declaration or statement at end of input

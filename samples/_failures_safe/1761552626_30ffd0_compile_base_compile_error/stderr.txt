@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_36a41496.c: In function ‘bfs’:
+./samples/SAFE/__tmp_36a41496.c:159:5: error: expected expression at end of input
+  159 |     int front = 0, rear =
+      |     ^~~
+./samples/SAFE/__tmp_36a41496.c:159:5: error: expected declaration or statement at end of input

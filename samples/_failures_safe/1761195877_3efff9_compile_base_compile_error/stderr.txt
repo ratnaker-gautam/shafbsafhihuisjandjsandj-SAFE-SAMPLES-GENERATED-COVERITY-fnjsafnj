@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_aa2e0cc4.c: In function ‘main’:
+./samples/SAFE/__tmp_aa2e0cc4.c:132:5: error: ‘add_log’ undeclared (first use in this function)
+  132 |     add_log
+      |     ^~~~~~~
+./samples/SAFE/__tmp_aa2e0cc4.c:132:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_aa2e0cc4.c:132:12: error: expected ‘;’ at end of input
+  132 |     add_log
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_aa2e0cc4.c:132:5: error: expected declaration or statement at end of input
+  132 |     add_log
+      |     ^~~~~~~

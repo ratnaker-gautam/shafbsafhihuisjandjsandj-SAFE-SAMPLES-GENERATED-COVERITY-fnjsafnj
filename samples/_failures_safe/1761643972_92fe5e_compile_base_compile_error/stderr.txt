@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_afc61dfc.c: In function ‘compress_data’:
+./samples/SAFE/__tmp_afc61dfc.c:169:21: error: expected ‘)’ at end of input
+  169 |         switch (type
+      |                ~    ^
+      |                     )
+./samples/SAFE/__tmp_afc61dfc.c:169:9: error: expected declaration or statement at end of input
+  169 |         switch (type
+      |         ^~~~~~
+./samples/SAFE/__tmp_afc61dfc.c:169:9: error: expected declaration or statement at end of input

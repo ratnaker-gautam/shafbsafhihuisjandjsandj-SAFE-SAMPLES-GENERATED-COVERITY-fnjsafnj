@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b9275845.c: In function ‘main’:
+./samples/SAFE/__tmp_b9275845.c:189:5: error: expected declaration or statement at end of input
+  189 |     executeAlgorithm(graph, BFS_TRAVERSAL, 0);
+      |     ^~~~~~~~~~~~~~~~

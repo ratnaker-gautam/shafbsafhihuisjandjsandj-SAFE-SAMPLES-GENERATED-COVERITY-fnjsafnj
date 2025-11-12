@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a7593a0f.c: In function ‘main’:
+./samples/SAFE/__tmp_a7593a0f.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (unique_count == 0) {
+      |     ^~
+./samples/SAFE/__tmp_a7593a0f.c:151:5: error: expected declaration or statement at end of input

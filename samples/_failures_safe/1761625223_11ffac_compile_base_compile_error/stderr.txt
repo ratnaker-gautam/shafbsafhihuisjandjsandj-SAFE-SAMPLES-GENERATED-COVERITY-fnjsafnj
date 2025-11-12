@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_31f2b31f.c: In function ‘main’:
+./samples/SAFE/__tmp_31f2b31f.c:143:15: error: ‘MAX_LINE’ undeclared (first use in this function); did you mean ‘MAX_LINE_LEN’?
+  143 |     char line[MAX_LINE
+      |               ^~~~~~~~
+      |               MAX_LINE_LEN
+./samples/SAFE/__tmp_31f2b31f.c:143:15: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_31f2b31f.c:143:23: error: expected ‘]’ at end of input
+  143 |     char line[MAX_LINE
+      |                       ^
+      |                       ]
+./samples/SAFE/__tmp_31f2b31f.c:143:5: error: expected declaration or statement at end of input
+  143 |     char line[MAX_LINE
+      |     ^~~~

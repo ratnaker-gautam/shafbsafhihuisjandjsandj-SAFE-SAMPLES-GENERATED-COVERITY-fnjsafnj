@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_3f8aab2e.c: In function ‘main’:
+./samples/SAFE/__tmp_3f8aab2e.c:153:26: error: invalid operands to binary < (have ‘size_t’ {aka ‘long unsigned int’} and ‘ChunkList’)
+  153 |     for (size_t i = 0; i < compressed_list
+      |                          ^
+./samples/SAFE/__tmp_3f8aab2e.c:153:43: error: expected ‘;’ at end of input
+  153 |     for (size_t i = 0; i < compressed_list
+      |                                           ^
+      |                                           ;
+./samples/SAFE/__tmp_3f8aab2e.c:153:5: error: expected declaration or statement at end of input
+  153 |     for (size_t i = 0; i < compressed_list
+      |     ^~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_47fa6580.c: In function ‘fill_matrix’:
+./samples/SAFE/__tmp_47fa6580.c:150:9: error: expected identifier or ‘(’ at end of input
+  150 |         for (size_t
+      |         ^~~
+./samples/SAFE/__tmp_47fa6580.c:150:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_47fa6580.c:150:9: error: expected declaration or statement at end of input

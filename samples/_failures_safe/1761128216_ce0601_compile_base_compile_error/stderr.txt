@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_51e937b0.c: In function ‘decompress_file’:
+./samples/SAFE/__tmp_51e937b0.c:161:13: error: expected expression at end of input
+  161 |             if (
+      |             ^~
+./samples/SAFE/__tmp_51e937b0.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_51e937b0.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_51e937b0.c:161:13: error: expected declaration or statement at end of input

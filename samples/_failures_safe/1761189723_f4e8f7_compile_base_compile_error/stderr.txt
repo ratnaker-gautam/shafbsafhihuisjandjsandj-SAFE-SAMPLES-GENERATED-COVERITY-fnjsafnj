@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_736c1542.c: In function ‘main’:
+./samples/SAFE/__tmp_736c1542.c:147:24: error: expected expression at end of input
+  147 |                        level_to_string(logs[i].level),
+      |                        ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_736c1542.c:147:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_736c1542.c:147:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_736c1542.c:147:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_736c1542.c:147:24: error: expected declaration or statement at end of input

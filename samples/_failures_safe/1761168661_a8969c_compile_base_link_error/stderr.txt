@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccipty4k.o: in function `main':
+__tmp_e8ff0b00.c:(.text.startup+0x141): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_e8ff0b00.c:(.text.startup+0x2a7): undefined reference to `floor'
+/usr/bin/ld: __tmp_e8ff0b00.c:(.text.startup+0x2c7): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

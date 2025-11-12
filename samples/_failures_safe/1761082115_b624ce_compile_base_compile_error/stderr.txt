@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_90288734.c: In function ‘generate_report’:
+./samples/SAFE/__tmp_90288734.c:142:11: error: expected ‘;’ at end of input
+  142 |     printf
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_90288734.c:142:5: error: expected declaration or statement at end of input
+  142 |     printf
+      |     ^~~~~~

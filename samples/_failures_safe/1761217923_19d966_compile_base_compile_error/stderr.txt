@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_1082a05c.c: In function ‘main’:
+./samples/SAFE/__tmp_1082a05c.c:160:16: error: missing terminating " character
+  160 |         printf("Graph is not connected
+      |                ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1082a05c.c:160:9: error: expected expression at end of input
+  160 |         printf("Graph is not connected
+      |         ^~~~~~
+./samples/SAFE/__tmp_1082a05c.c:160:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1082a05c.c:160:9: error: expected declaration or statement at end of input

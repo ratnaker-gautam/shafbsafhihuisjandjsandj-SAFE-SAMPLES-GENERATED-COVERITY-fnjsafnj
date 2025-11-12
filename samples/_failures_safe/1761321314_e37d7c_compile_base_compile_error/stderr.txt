@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_90011c53.c: In function ‘main’:
+./samples/SAFE/__tmp_90011c53.c:156:5: error: ‘free_’ undeclared (first use in this function); did you mean ‘free’?
+  156 |     free_
+      |     ^~~~~
+      |     free
+./samples/SAFE/__tmp_90011c53.c:156:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_90011c53.c:156:10: error: expected ‘;’ at end of input
+  156 |     free_
+      |          ^
+      |          ;
+./samples/SAFE/__tmp_90011c53.c:156:5: error: expected declaration or statement at end of input
+  156 |     free_
+      |     ^~~~~

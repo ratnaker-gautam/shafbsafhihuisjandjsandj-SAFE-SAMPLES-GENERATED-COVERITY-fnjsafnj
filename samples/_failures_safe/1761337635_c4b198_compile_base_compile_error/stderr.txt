@@ -1,0 +1,23 @@
+./samples/SAFE/__tmp_fa064740.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_fa064740.c:166:16: error: ‘t’ undeclared (first use in this function)
+  166 |         strcpy(t
+      |                ^
+./samples/SAFE/__tmp_fa064740.c:166:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fa064740.c:166:17: error: expected ‘)’ at end of input
+  166 |         strcpy(t
+      |               ~ ^
+      |                 )
+./samples/SAFE/__tmp_fa064740.c:166:9: error: too few arguments to function ‘strcpy’
+  166 |         strcpy(t
+      |         ^~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_fa064740.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:77:1: note: declared here
+   77 | __NTH (strcpy (char *__restrict __dest, const char *__restrict __src))
+      | ^~~~~
+./samples/SAFE/__tmp_fa064740.c:166:9: error: expected declaration or statement at end of input
+  166 |         strcpy(t
+      |         ^~~~~~
+./samples/SAFE/__tmp_fa064740.c:166:9: error: expected declaration or statement at end of input

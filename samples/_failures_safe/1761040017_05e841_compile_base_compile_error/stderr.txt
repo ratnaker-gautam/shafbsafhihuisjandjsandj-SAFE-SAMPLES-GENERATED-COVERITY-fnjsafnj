@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c99654ae.c: In function ‘main’:
+./samples/SAFE/__tmp_c99654ae.c:172:9: error: expected declaration or statement at end of input
+  172 |         State next_state = get_next_state(sm.current_state, event);
+      |         ^~~~~
+./samples/SAFE/__tmp_c99654ae.c:172:9: error: expected declaration or statement at end of input

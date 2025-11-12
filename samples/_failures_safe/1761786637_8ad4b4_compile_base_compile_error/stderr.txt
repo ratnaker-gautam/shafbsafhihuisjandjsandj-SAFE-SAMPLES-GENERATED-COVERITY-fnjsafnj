@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_fa542c1a.c: In function ‘main’:
+./samples/SAFE/__tmp_fa542c1a.c:142:14: error: expected ‘;’ at end of input
+  142 |         qsort
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_fa542c1a.c:142:9: error: expected declaration or statement at end of input
+  142 |         qsort
+      |         ^~~~~
+./samples/SAFE/__tmp_fa542c1a.c:142:9: error: expected declaration or statement at end of input

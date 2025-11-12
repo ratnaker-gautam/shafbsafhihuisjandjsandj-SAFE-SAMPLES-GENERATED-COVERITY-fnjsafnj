@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_7c09f4b9.c: In function ‘main’:
+./samples/SAFE/__tmp_7c09f4b9.c:141:16: error: ‘EX’ undeclared (first use in this function)
+  141 |         return EX
+      |                ^~
+./samples/SAFE/__tmp_7c09f4b9.c:141:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7c09f4b9.c:141:18: error: expected ‘;’ at end of input
+  141 |         return EX
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_7c09f4b9.c:141:9: error: expected declaration or statement at end of input
+  141 |         return EX
+      |         ^~~~~~
+./samples/SAFE/__tmp_7c09f4b9.c:141:9: error: expected declaration or statement at end of input

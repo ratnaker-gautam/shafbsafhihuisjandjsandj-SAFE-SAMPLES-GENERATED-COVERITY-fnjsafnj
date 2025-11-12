@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_15f9c0f3.c: In function ‘main’:
+./samples/SAFE/__tmp_15f9c0f3.c:178:64: error: ‘TokenList’ has no member named ‘t’
+  178 |         printf("%zu: %s (%s)\n", i, token_type_to_string(tokens->t
+      |                                                                ^~
+./samples/SAFE/__tmp_15f9c0f3.c:178:67: error: expected ‘)’ at end of input
+  178 |         printf("%zu: %s (%s)\n", i, token_type_to_string(tokens->t
+      |                                                         ~         ^
+      |                                                                   )
+./samples/SAFE/__tmp_15f9c0f3.c:178:9: error: expected declaration or statement at end of input
+  178 |         printf("%zu: %s (%s)\n", i, token_type_to_string(tokens->t
+      |         ^~~~~~
+./samples/SAFE/__tmp_15f9c0f3.c:178:9: error: expected declaration or statement at end of input

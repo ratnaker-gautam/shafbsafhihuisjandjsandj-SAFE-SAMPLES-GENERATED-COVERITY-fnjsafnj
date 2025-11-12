@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a279fdd5.c: In function ‘subtract_matrices’:
+./samples/SAFE/__tmp_a279fdd5.c:165:9: error: expected expression at end of input
+  165 |         result->data[i] =
+      |         ^~~~~~
+./samples/SAFE/__tmp_a279fdd5.c:165:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a279fdd5.c:165:9: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_d5295c0b.c: In function ‘main’:
+./samples/SAFE/__tmp_d5295c0b.c:134:9: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  134 |         input
+      |         ^~~~~
+      |         int
+./samples/SAFE/__tmp_d5295c0b.c:134:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d5295c0b.c:134:14: error: expected ‘;’ at end of input
+  134 |         input
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_d5295c0b.c:134:9: error: expected declaration or statement at end of input
+  134 |         input
+      |         ^~~~~
+./samples/SAFE/__tmp_d5295c0b.c:134:9: error: expected declaration or statement at end of input

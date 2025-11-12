@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1a2834e8.c: In function ‘main’:
+./samples/SAFE/__tmp_1a2834e8.c:157:5: error: expected declaration or statement at end of input
+  157 |     Buffer decompressed = {NULL, 0};
+      |     ^~~~~~

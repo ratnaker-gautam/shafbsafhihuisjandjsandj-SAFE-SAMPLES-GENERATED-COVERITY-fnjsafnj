@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1abeea2f.c: In function ‘main’:
+./samples/SAFE/__tmp_1abeea2f.c:131:5: error: expected expression at end of input
+  131 |     int edges[][2] = {{0,1}, {0,2}, {
+      |     ^~~
+./samples/SAFE/__tmp_1abeea2f.c:131:5: error: expected declaration or statement at end of input

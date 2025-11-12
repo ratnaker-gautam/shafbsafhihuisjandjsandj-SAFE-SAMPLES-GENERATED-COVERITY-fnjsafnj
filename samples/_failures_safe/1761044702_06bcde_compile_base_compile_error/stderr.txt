@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4887768f.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_4887768f.c:128:5: error: expected declaration or statement at end of input
+  128 |     printf("\nEntries with level %s:\n", level);
+      |     ^~~~~~

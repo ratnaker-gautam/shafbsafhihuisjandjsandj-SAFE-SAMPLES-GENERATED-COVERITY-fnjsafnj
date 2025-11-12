@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0f596d66.c: In function ‘main’:
+./samples/SAFE/__tmp_0f596d66.c:154:5: error: expected declaration or statement at end of input
+  154 |     printf("\nFilter by level (DEBUG/INFO/WARNING/ERROR/CRITICAL/ALL): ");
+      |     ^~~~~~

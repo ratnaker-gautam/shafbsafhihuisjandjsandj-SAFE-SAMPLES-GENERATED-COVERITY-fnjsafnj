@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_edfedb44.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_edfedb44.c:145:9: error: expected declaration or statement at end of input
+  145 |         token.type = TOKEN_DELIMITER;
+      |         ^~~~~
+./samples/SAFE/__tmp_edfedb44.c:145:9: error: expected declaration or statement at end of input

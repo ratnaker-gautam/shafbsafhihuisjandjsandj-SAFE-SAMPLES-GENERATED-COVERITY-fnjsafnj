@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_dce759a6.c:2:2: error: expected ‘;’ before ‘typedef’
+    2 | c
+      |  ^
+      |  ;
+./samples/SAFE/__tmp_dce759a6.c: In function ‘main’:
+./samples/SAFE/__tmp_dce759a6.c:174:5: error: expected identifier or ‘(’ at end of input
+  174 |     char
+      |     ^~~~
+./samples/SAFE/__tmp_dce759a6.c:174:5: error: expected declaration or statement at end of input

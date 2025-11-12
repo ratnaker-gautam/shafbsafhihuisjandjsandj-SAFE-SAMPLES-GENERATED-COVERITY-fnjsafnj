@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_3d2f8121.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_3d2f8121.c:187:5: error: expected declaration or statement at end of input
+  187 |     free(dist);
+      |     ^~~~

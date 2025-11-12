@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f55cdc5c.c: In function ‘main’:
+./samples/SAFE/__tmp_f55cdc5c.c:179:13: error: expected declaration or statement at end of input
+  179 |             printf("Event processing failed\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_f55cdc5c.c:179:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f55cdc5c.c:179:13: error: expected declaration or statement at end of input

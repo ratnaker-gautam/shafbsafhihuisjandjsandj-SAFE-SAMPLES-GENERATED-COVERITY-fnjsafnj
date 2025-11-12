@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_44cb52f2.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_44cb52f2.c:127:5: error: expected expression at end of input
+  127 |     if (severity == 3)
+      |     ^~
+./samples/SAFE/__tmp_44cb52f2.c:127:5: error: expected declaration or statement at end of input

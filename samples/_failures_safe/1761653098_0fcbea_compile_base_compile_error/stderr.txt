@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_89e27084.c: In function ‘main’:
+./samples/SAFE/__tmp_89e27084.c:120:64: error: expected ‘)’ at end of input
+  120 |     int sample_count = sizeof(sample_logs) / sizeof(sample_logs
+      |                                                    ~           ^
+      |                                                                )
+./samples/SAFE/__tmp_89e27084.c:120:5: error: expected declaration or statement at end of input
+  120 |     int sample_count = sizeof(sample_logs) / sizeof(sample_logs
+      |     ^~~

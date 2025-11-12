@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5d996c42.c: In function ‘main’:
+./samples/SAFE/__tmp_5d996c42.c:146: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_5d996c42.c:145:8: note: to match this ‘(’
+  145 |     if (sum.data != NULL
+      |        ^
+./samples/SAFE/__tmp_5d996c42.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (sum.data != NULL
+      |     ^~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_3dea0fde.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_3dea0fde.c:145:17: error: expected declaration or statement at end of input
+  145 |                 printf("OPERATOR: %s\n", token->value);
+      |                 ^~~~~~
+./samples/SAFE/__tmp_3dea0fde.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3dea0fde.c:145:17: error: expected declaration or statement at end of input

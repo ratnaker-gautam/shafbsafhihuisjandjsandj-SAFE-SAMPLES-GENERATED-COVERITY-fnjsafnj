@@ -1,0 +1,124 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: monolithic_main ; Variation: string_processing
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_INPUT_LEN 1024
+#define MAX_WORDS 512
+
+int main(void) {
+    char input[MAX_INPUT_LEN + 1];
+    char words[MAX_WORDS][64];
+    int word_count = 0;
+    int char_count = 0;
+    int line_count = 0;
+    
+    printf("Enter text (max %d characters): ", MAX_INPUT_LEN);
+    
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    size_t input_len = strlen(input);
+    if (input_len > 0 && input[input_len - 1] == '\n') {
+        input[input_len - 1] = '\0';
+        input_len--;
+    }
+    
+    if (input_len == 0) {
+        printf("No input provided\n");
+        return 0;
+    }
+    
+    if (input_len > MAX_INPUT_LEN) {
+        fprintf(stderr, "Input too long\n");
+        return 1;
+    }
+    
+    char *ptr = input;
+    int in_word = 0;
+    int current_word_len = 0;
+    
+    while (*ptr != '\0' && word_count < MAX_WORDS) {
+        if (isspace((unsigned char)*ptr)) {
+            if (in_word) {
+                if (current_word_len < 63) {
+                    words[word_count][current_word_len] = '\0';
+                    word_count++;
+                }
+                in_word = 0;
+                current_word_len = 0;
+            }
+            if (*ptr == '\n') {
+                line_count++;
+            }
+        } else {
+            if (!in_word) {
+                in_word = 1;
+            }
+            if (current_word_len < 63) {
+                words[word_count][current_word_len] = *ptr;
+                current_word_len++;
+            }
+        }
+        char_count++;
+        ptr++;
+    }
+    
+    if (in_word && word_count < MAX_WORDS && current_word_len < 63) {
+        words[word_count][current_word_len] = '\0';
+        word_count++;
+    }
+    
+    if (line_count == 0 && char_count > 0) {
+        line_count = 1;
+    }
+    
+    printf("\nText analysis results:\n");
+    printf("Characters: %d\n", char_count);
+    printf("Words: %d\n", word_count);
+    printf("Lines: %d\n", line_count);
+    
+    if (word_count > 0) {
+        printf("\nWords found:\n");
+        for (int i = 0; i < word_count; i++) {
+            if (i < 20) {
+                printf("%d: %s\n", i + 1, words[i]);
+            } else if (i == 20) {
+                printf("... (showing first 20 of %d words)\n", word_count);
+                break;
+            }
+        }
+        
+        int longest_index = 0;
+        int shortest_index = 0;
+        for (int i = 1; i < word_count; i++) {
+            if (strlen(words[i]) > strlen(words[longest_index])) {
+                longest_index = i;
+            }
+            if (strlen(words[i]) < strlen(words[shortest_index])) {
+                shortest_index = i;
+            }
+        }
+        
+        printf("\nLongest word: %s (%zu characters)\n", 
+               words[longest_index], strlen(words[longest_index]));
+        printf("Shortest word: %s (%zu characters)\n", 
+               words[shortest_index], strlen(words[shortest_index]));
+    }
+    
+    char reversed[MAX_INPUT_LEN + 1];
+    if (input_len > 0) {
+        for (size_t i = 0; i < input_len; i++) {
+            if (i < MAX_INPUT_LEN) {
+                reversed[i] = input[input_len - 1 - i];
+            }
+        }
+        reversed[input_len] = '\0';
+        printf("\nReversed text: %s\n", reversed);
+    }
+    
+    return 0;
+}

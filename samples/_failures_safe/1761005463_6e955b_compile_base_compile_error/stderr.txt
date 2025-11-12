@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_0c14d4a6.c: In function ‘next_token’:
+./samples/SAFE/__tmp_0c14d4a6.c:156:9: error: expected declaration or statement at end of input
+  156 |         while (lexer->input[lexer->position] != '"' && lexer->input[lexer->position] != '\0') {
+      |         ^~~~~
+./samples/SAFE/__tmp_0c14d4a6.c:156:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c14d4a6.c:156:9: error: expected declaration or statement at end of input

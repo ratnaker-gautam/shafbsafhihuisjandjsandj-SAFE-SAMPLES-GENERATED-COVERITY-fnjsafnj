@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ccdb2cca.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_ccdb2cca.c:170:1: error: expected declaration or statement at end of input
+  170 | int evaluate_expression(const char* input) {
+      | ^~~

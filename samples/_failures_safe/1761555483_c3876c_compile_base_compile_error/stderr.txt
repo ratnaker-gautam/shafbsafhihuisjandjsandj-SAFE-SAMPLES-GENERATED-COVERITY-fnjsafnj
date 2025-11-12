@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_13b9b433.c: In function ‘next_token’:
+./samples/SAFE/__tmp_13b9b433.c:152:61: error: expected ‘]’ at end of input
+  152 |                is_operator_char(lexer->input[lexer->position
+      |                                                             ^
+      |                                                             ]
+./samples/SAFE/__tmp_13b9b433.c:152:16: error: expected declaration or statement at end of input
+  152 |                is_operator_char(lexer->input[lexer->position
+      |                ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_13b9b433.c:152:16: error: expected declaration or statement at end of input

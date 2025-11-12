@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7bf6a745.c: In function ‘print_shortest_paths’:
+./samples/SAFE/__tmp_7bf6a745.c:160:13: error: expected declaration or statement at end of input
+  160 |             printf("Node %d: unreachable\n", i);
+      |             ^~~~~~
+./samples/SAFE/__tmp_7bf6a745.c:160:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7bf6a745.c:160:13: error: expected declaration or statement at end of input

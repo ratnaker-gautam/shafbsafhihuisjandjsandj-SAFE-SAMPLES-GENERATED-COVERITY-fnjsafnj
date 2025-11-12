@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_c1769145.c: In function ‘main’:
+./samples/SAFE/__tmp_c1769145.c:171:40: error: expected ‘)’ at end of input
+  171 |         if (process_trigger(sm, trigger
+      |                            ~           ^
+      |                                        )
+./samples/SAFE/__tmp_c1769145.c:171:9: error: expected declaration or statement at end of input
+  171 |         if (process_trigger(sm, trigger
+      |         ^~
+./samples/SAFE/__tmp_c1769145.c:171:9: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_5befb5e6.c: In function ‘main’:
+./samples/SAFE/__tmp_5befb5e6.c:173:9: error: ‘size’ undeclared (first use in this function); did you mean ‘size_t’?
+  173 |         size
+      |         ^~~~
+      |         size_t
+./samples/SAFE/__tmp_5befb5e6.c:173:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5befb5e6.c:173:13: error: expected ‘;’ at end of input
+  173 |         size
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_5befb5e6.c:173:9: error: expected declaration or statement at end of input
+  173 |         size
+      |         ^~~~
+./samples/SAFE/__tmp_5befb5e6.c:173:9: error: expected declaration or statement at end of input

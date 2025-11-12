@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_2aa6a090.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_2aa6a090.c:158:34: error: expected ‘)’ at end of input
+  158 |                 heap_push(heap, v
+      |                          ~       ^
+      |                                  )
+./samples/SAFE/__tmp_2aa6a090.c:158:17: error: too few arguments to function ‘heap_push’
+  158 |                 heap_push(heap, v
+      |                 ^~~~~~~~~
+./samples/SAFE/__tmp_2aa6a090.c:81:6: note: declared here
+   81 | void heap_push(MinHeap* heap, int node, int dist) {
+      |      ^~~~~~~~~
+./samples/SAFE/__tmp_2aa6a090.c:158:17: error: expected declaration or statement at end of input
+  158 |                 heap_push(heap, v
+      |                 ^~~~~~~~~
+./samples/SAFE/__tmp_2aa6a090.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2aa6a090.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2aa6a090.c:158:17: error: expected declaration or statement at end of input

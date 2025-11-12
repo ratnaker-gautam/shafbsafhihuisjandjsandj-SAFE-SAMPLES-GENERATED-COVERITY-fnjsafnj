@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_f3e6eaaf.c: In function ‘main’:
+./samples/SAFE/__tmp_f3e6eaaf.c:129:28: error: expected ‘)’ at end of input
+  129 |     if (transpose_matrix(&a
+      |                         ~  ^
+      |                            )
+./samples/SAFE/__tmp_f3e6eaaf.c:129:9: error: too few arguments to function ‘transpose_matrix’
+  129 |     if (transpose_matrix(&a
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f3e6eaaf.c:84:5: note: declared here
+   84 | int transpose_matrix(const Matrix *m, Matrix *result) {
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f3e6eaaf.c:129:5: error: expected declaration or statement at end of input
+  129 |     if (transpose_matrix(&a
+      |     ^~

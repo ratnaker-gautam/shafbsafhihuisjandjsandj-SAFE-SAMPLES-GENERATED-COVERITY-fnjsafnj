@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_a090220e.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_a090220e.c:185:56: error: expected ‘)’ at end of input
+  185 |                 printf("STRING: \"%s\"\n", token->value
+      |                       ~                                ^
+      |                                                        )
+./samples/SAFE/__tmp_a090220e.c:185:17: error: expected declaration or statement at end of input
+  185 |                 printf("STRING: \"%s\"\n", token->value
+      |                 ^~~~~~
+./samples/SAFE/__tmp_a090220e.c:185:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a090220e.c:185:17: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_af98e63c.c: In function ‘main’:
+./samples/SAFE/__tmp_af98e63c.c:131:16: error: missing terminating " character
+  131 |         printf("No valid log
+      |                ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_af98e63c.c:131:9: error: expected expression at end of input
+  131 |         printf("No valid log
+      |         ^~~~~~
+./samples/SAFE/__tmp_af98e63c.c:131:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_af98e63c.c:131:9: error: expected declaration or statement at end of input

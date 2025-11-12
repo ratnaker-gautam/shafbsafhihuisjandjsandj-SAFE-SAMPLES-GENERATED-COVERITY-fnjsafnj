@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_cb07bdf0.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_cb07bdf0.c:168:9: error: expected expression at end of input
+  168 |         printf("%-12s ",
+      |         ^~~~~~
+./samples/SAFE/__tmp_cb07bdf0.c:168:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cb07bdf0.c:168:9: error: expected declaration or statement at end of input

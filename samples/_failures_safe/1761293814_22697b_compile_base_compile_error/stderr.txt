@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f6f249f9.c: In function ‘main’:
+./samples/SAFE/__tmp_f6f249f9.c:156:5: error: expected expression at end of input
+  156 |     int op_count = sizeof(operations) / sizeof(operations[
+      |     ^~~
+./samples/SAFE/__tmp_f6f249f9.c:156:5: error: expected declaration or statement at end of input

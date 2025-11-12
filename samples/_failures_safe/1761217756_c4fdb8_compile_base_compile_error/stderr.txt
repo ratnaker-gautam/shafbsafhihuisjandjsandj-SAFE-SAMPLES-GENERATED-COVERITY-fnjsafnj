@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_eaf7595e.c: In function ‘main’:
+./samples/SAFE/__tmp_eaf7595e.c:186:5: error: expected declaration or statement at end of input
+  186 |     print_state_info(&sm);
+      |     ^~~~~~~~~~~~~~~~

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_993dc3e8.c: In function ‘print_compression_results’:
+./samples/SAFE/__tmp_993dc3e8.c:154:9: error: used struct type value where scalar is required
+  154 |     if (ctx->header
+      |         ^~~
+./samples/SAFE/__tmp_993dc3e8.c:154:20: error: expected ‘)’ at end of input
+  154 |     if (ctx->header
+      |        ~           ^
+      |                    )
+./samples/SAFE/__tmp_993dc3e8.c:154:5: error: expected declaration or statement at end of input
+  154 |     if (ctx->header
+      |     ^~

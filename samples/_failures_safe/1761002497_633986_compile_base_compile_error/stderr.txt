@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7f498749.c: In function ‘print_token_type’:
+./samples/SAFE/__tmp_7f498749.c:174:17: error: expected ‘)’ at end of input
+  174 |     switch (type
+      |            ~    ^
+      |                 )
+./samples/SAFE/__tmp_7f498749.c:174:5: error: expected declaration or statement at end of input
+  174 |     switch (type
+      |     ^~~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ebd0679a.c: In function ‘next_token’:
+./samples/SAFE/__tmp_ebd0679a.c:164:9: error: expected identifier at end of input
+  164 |         if (lexer->position < lexer->input_length && lexer->
+      |         ^~
+./samples/SAFE/__tmp_ebd0679a.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ebd0679a.c:164:9: error: expected declaration or statement at end of input

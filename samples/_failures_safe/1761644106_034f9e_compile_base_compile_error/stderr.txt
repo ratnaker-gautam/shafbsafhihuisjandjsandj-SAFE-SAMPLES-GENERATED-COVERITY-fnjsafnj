@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_807fcba9.c: In function ‘process_event’:
+./samples/SAFE/__tmp_807fcba9.c:170:20: error: incompatible types when returning type ‘State (*)(StateMachine *, Event,  const char *, size_t)’ {aka ‘State (*)(StateMachine *, Event,  const char *, long unsigned int)’} but ‘State’ was expected
+  170 |             return handle_done_state
+      |                    ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_807fcba9.c:170:37: error: expected ‘;’ at end of input
+  170 |             return handle_done_state
+      |                                     ^
+      |                                     ;
+./samples/SAFE/__tmp_807fcba9.c:170:13: error: expected declaration or statement at end of input
+  170 |             return handle_done_state
+      |             ^~~~~~
+./samples/SAFE/__tmp_807fcba9.c:170:13: error: expected declaration or statement at end of input

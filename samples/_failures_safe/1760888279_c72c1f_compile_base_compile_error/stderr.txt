@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_cca02dbf.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_cca02dbf.c:168:5: error: expected declaration or statement at end of input
+  168 |     return left;
+      |     ^~~~~~

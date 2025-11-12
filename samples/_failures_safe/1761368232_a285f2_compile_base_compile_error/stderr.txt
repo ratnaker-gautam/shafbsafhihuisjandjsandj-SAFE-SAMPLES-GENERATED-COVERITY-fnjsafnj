@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_ff7735ab.c: In function ‘main’:
+./samples/SAFE/__tmp_ff7735ab.c:169:20: error: expected ‘;’ at end of input
+  169 |         free_matrix
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_ff7735ab.c:169:9: error: expected declaration or statement at end of input
+  169 |         free_matrix
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_ff7735ab.c:169:9: error: expected declaration or statement at end of input

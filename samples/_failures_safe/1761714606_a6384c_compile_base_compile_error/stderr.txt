@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_1258501f.c: In function ‘main’:
+./samples/SAFE/__tmp_1258501f.c:155:26: error: expected ‘]’ at end of input
+  155 |                 visited[i
+      |                          ^
+      |                          ]
+./samples/SAFE/__tmp_1258501f.c:155:17: error: expected declaration or statement at end of input
+  155 |                 visited[i
+      |                 ^~~~~~~
+./samples/SAFE/__tmp_1258501f.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1258501f.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1258501f.c:155:17: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+
+samples/SAFE/__tmp_258c22d9.c:27:18: runtime error: index -1 out of bounds for type 'char [256]'
+    #0 0x56abed428797 in main samples/SAFE/__tmp_258c22d9.c:27
+    #1 0x7f1d6782a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #2 0x7f1d6782a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x56abed427364 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_258c22d9.c.san+0x4364) (BuildId: 66b81ad0f4a6618bddb4a7ac39093f33f6bad2d5)
+

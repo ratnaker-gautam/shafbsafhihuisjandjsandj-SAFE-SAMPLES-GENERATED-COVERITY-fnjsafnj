@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_85f262fd.c: In function ‘main’:
+./samples/SAFE/__tmp_85f262fd.c:147:5: error: expected declaration or statement at end of input
+  147 |     if (op == OP_INVALID) {
+      |     ^~
+./samples/SAFE/__tmp_85f262fd.c:147:5: error: expected declaration or statement at end of input

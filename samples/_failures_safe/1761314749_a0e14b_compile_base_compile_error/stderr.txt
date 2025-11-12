@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_9f24f2f3.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_9f24f2f3.c:157:19: error: expected ‘;’ at end of input
+  157 |             printf
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_9f24f2f3.c:157:13: error: expected declaration or statement at end of input
+  157 |             printf
+      |             ^~~~~~
+./samples/SAFE/__tmp_9f24f2f3.c:157:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9f24f2f3.c:157:13: error: expected declaration or statement at end of input

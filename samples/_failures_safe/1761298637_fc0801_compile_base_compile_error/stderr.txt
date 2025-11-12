@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f89fb717.c: In function ‘main’:
+./samples/SAFE/__tmp_f89fb717.c:177:87: error: expected ‘)’ at end of input
+  177 |             printf("State: %d -> %d (Event: %d)\n", sm.current_state, new_state, event
+      |                   ~                                                                   ^
+      |                                                                                       )
+./samples/SAFE/__tmp_f89fb717.c:177:13: error: expected declaration or statement at end of input
+  177 |             printf("State: %d -> %d (Event: %d)\n", sm.current_state, new_state, event
+      |             ^~~~~~
+./samples/SAFE/__tmp_f89fb717.c:177:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f89fb717.c:177:13: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1843e7a4.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_1843e7a4.c:164:5: error: expected declaration or statement at end of input
+  164 |     (*column)++;
+      |     ^

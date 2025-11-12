@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_4e07626e.c: In function ‘tokenize_input’:
+./samples/SAFE/__tmp_4e07626e.c:175:6: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  175 |     *token
+      |      ^~~~~
+      |      Token
+./samples/SAFE/__tmp_4e07626e.c:175:6: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4e07626e.c:175:11: error: expected ‘;’ at end of input
+  175 |     *token
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_4e07626e.c:175:5: error: expected declaration or statement at end of input
+  175 |     *token
+      |     ^

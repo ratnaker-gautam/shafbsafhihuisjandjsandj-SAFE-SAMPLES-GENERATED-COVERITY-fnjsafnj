@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_1af3b391.c: In function ‘main’:
+./samples/SAFE/__tmp_1af3b391.c:161:16: error: ‘token_type’ undeclared (first use in this function); did you mean ‘TokenType’?
+  161 |                token_type
+      |                ^~~~~~~~~~
+      |                TokenType
+./samples/SAFE/__tmp_1af3b391.c:161:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1af3b391.c:161:26: error: expected ‘)’ at end of input
+  161 |                token_type
+      |                          ^
+      |                          )
+./samples/SAFE/__tmp_1af3b391.c:160:15: note: to match this ‘(’
+  160 |         printf("%-12s %-15s %-6d %-6d\n",
+      |               ^
+./samples/SAFE/__tmp_1af3b391.c:161:16: error: expected declaration or statement at end of input
+  161 |                token_type
+      |                ^~~~~~~~~~
+./samples/SAFE/__tmp_1af3b391.c:161:16: error: expected declaration or statement at end of input

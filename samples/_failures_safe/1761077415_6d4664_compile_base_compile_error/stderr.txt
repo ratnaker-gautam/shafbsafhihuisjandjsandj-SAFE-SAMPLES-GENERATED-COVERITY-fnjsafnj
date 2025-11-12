@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_75c614bd.c: In function ‘main’:
+./samples/SAFE/__tmp_75c614bd.c:151:31: error: ‘computation’ undeclared (first use in this function)
+  151 |         computation_result = (computation
+      |                               ^~~~~~~~~~~
+./samples/SAFE/__tmp_75c614bd.c:151:31: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_75c614bd.c:151:42: error: expected ‘)’ at end of input
+  151 |         computation_result = (computation
+      |                              ~           ^
+      |                                          )
+./samples/SAFE/__tmp_75c614bd.c:151:9: error: expected declaration or statement at end of input
+  151 |         computation_result = (computation
+      |         ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_75c614bd.c:151:9: error: expected declaration or statement at end of input

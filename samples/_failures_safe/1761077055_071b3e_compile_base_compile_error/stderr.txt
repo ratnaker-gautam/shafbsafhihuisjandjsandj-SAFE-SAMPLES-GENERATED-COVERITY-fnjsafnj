@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_81685a88.c:134:29: error: expected declaration specifiers or ‘...’ at end of input
+  134 | int matrix_transpose(struct matrix *a,
+      |                             ^~~~~~

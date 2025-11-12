@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ec5c1c9f.c: In function ‘event_to_string’:
+./samples/SAFE/__tmp_ec5c1c9f.c:138: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_ec5c1c9f.c:137:5: error: expected declaration or statement at end of input
+  137 |     if
+      |     ^~

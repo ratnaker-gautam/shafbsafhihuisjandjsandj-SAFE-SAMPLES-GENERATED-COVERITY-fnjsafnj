@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_a28329a8.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_a28329a8.c:130:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  130 |             for (int k
+      |             ^~~
+./samples/SAFE/__tmp_a28329a8.c:130:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a28329a8.c:130:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a28329a8.c:130:13: error: expected declaration or statement at end of input

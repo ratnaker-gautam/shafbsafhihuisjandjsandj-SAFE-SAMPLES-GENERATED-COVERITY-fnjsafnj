@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c3e6b21c.c: In function ‘compress_data’:
+./samples/SAFE/__tmp_c3e6b21c.c:158:20: error: ‘compress_h’ undeclared (first use in this function); did you mean ‘compress_lzw’?
+  158 |             return compress_h
+      |                    ^~~~~~~~~~
+      |                    compress_lzw
+./samples/SAFE/__tmp_c3e6b21c.c:158:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c3e6b21c.c:158:30: error: expected ‘;’ at end of input
+  158 |             return compress_h
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_c3e6b21c.c:158:13: error: expected declaration or statement at end of input
+  158 |             return compress_h
+      |             ^~~~~~
+./samples/SAFE/__tmp_c3e6b21c.c:158:13: error: expected declaration or statement at end of input

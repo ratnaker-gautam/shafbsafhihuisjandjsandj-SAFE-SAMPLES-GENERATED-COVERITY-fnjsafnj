@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccJrHVya.o: in function `main':
+__tmp_2294b128.c:(.text.startup+0x2e1): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_2294b128.c:(.text.startup+0x30d): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

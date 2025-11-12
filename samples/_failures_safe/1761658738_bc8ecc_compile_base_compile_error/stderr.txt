@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e117458e.c: In function ‘main’:
+./samples/SAFE/__tmp_e117458e.c:148:13: error: expected declaration or statement at end of input
+  148 |             printf("No entries found.\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_e117458e.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e117458e.c:148:13: error: expected declaration or statement at end of input

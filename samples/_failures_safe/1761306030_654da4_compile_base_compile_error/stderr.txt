@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7fd3444f.c: In function ‘main’:
+./samples/SAFE/__tmp_7fd3444f.c:153:13: error: expected declaration or statement at end of input
+  153 |             for (int j = 0; j < n; j++) freeAdjList(&graph[j]);
+      |             ^~~
+./samples/SAFE/__tmp_7fd3444f.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7fd3444f.c:153:13: error: expected declaration or statement at end of input

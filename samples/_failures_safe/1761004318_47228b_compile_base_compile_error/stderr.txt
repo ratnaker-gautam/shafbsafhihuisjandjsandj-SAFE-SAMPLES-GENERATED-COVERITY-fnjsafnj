@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_8e165ff4.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_8e165ff4.c:147: error: expected ‘{’ at end of input

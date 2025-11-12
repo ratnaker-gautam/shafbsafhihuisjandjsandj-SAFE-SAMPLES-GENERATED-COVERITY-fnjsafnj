@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_e3ea640d.c: In function ‘main’:
+./samples/SAFE/__tmp_e3ea640d.c:150:43: error: ‘CompressionResult’ has no member named ‘compressed’; did you mean ‘compressed_size’?
+  150 |             double ratio = (double)result.compressed
+      |                                           ^~~~~~~~~~
+      |                                           compressed_size
+./samples/SAFE/__tmp_e3ea640d.c:150:13: error: expected ‘,’ or ‘;’ at end of input
+  150 |             double ratio = (double)result.compressed
+      |             ^~~~~~
+./samples/SAFE/__tmp_e3ea640d.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e3ea640d.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e3ea640d.c:150:13: error: expected declaration or statement at end of input

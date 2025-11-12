@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_314447d3.c: In function ‘dfs’:
+./samples/SAFE/__tmp_314447d3.c:180:11: error: expected ‘;’ at end of input
+  180 |     printf
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_314447d3.c:180:5: error: expected declaration or statement at end of input
+  180 |     printf
+      |     ^~~~~~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_da98485d.c: In function ‘main’:
+./samples/SAFE/__tmp_da98485d.c:197:24: error: ‘MAX_TOK’ undeclared (first use in this function); did you mean ‘MAX_TOKENS’?
+  197 |     if (token_count >= MAX_TOK
+      |                        ^~~~~~~
+      |                        MAX_TOKENS
+./samples/SAFE/__tmp_da98485d.c:197:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_da98485d.c:197:31: error: expected ‘)’ at end of input
+  197 |     if (token_count >= MAX_TOK
+      |        ~                      ^
+      |                               )
+./samples/SAFE/__tmp_da98485d.c:197:5: error: expected declaration or statement at end of input
+  197 |     if (token_count >= MAX_TOK
+      |     ^~

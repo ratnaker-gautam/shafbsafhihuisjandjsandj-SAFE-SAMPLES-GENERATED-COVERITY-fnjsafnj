@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_43f76fc1.c: In function ‘main’:
+./samples/SAFE/__tmp_43f76fc1.c:149:27: error: expected ‘)’ at end of input
+  149 |         if (!is_valid_char
+      |            ~              ^
+      |                           )
+./samples/SAFE/__tmp_43f76fc1.c:149:9: error: expected declaration or statement at end of input
+  149 |         if (!is_valid_char
+      |         ^~
+./samples/SAFE/__tmp_43f76fc1.c:149:9: error: expected declaration or statement at end of input

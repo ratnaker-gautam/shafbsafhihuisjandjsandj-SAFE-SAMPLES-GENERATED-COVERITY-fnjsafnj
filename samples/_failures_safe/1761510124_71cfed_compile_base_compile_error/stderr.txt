@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_649a2df8.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_649a2df8.c:155:13: error: expected expression at end of input
+  155 |             strcmp(p->current.value, "*") == 0 || strcmp(p->current.value, "/") ==
+      |             ^~~~~~
+./samples/SAFE/__tmp_649a2df8.c:155:13: error: expected declaration or statement at end of input

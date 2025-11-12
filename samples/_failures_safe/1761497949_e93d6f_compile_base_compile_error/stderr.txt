@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_9ced82cc.c: In function ‘initialize_simulation’:
+./samples/SAFE/__tmp_9ced82cc.c:121:8: error: expected ‘;’ at end of input
+  121 |     sim
+      |        ^
+      |        ;
+./samples/SAFE/__tmp_9ced82cc.c:121:5: error: expected declaration or statement at end of input
+  121 |     sim
+      |     ^~~

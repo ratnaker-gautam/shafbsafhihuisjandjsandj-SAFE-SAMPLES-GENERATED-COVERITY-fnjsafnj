@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_c8d93a3f.c: In function ‘main’:
+./samples/SAFE/__tmp_c8d93a3f.c:165:13: error: ‘dist’ undeclared (first use in this function)
+  165 |         if (dist
+      |             ^~~~
+./samples/SAFE/__tmp_c8d93a3f.c:165:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c8d93a3f.c:165:17: error: expected ‘)’ at end of input
+  165 |         if (dist
+      |            ~    ^
+      |                 )
+./samples/SAFE/__tmp_c8d93a3f.c:165:9: error: expected declaration or statement at end of input
+  165 |         if (dist
+      |         ^~
+./samples/SAFE/__tmp_c8d93a3f.c:165:9: error: expected declaration or statement at end of input

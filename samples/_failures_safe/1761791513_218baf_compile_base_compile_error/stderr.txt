@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_1224990e.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_1224990e.c:122:36: error: expected ‘)’ at end of input
+  122 |             matrix_set(result, i, j
+      |                       ~            ^
+      |                                    )
+./samples/SAFE/__tmp_1224990e.c:122:13: error: too few arguments to function ‘matrix_set’
+  122 |             matrix_set(result, i, j
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_1224990e.c:39:6: note: declared here
+   39 | void matrix_set(struct matrix *m, size_t row, size_t col, int value) {
+      |      ^~~~~~~~~~
+./samples/SAFE/__tmp_1224990e.c:122:13: error: expected declaration or statement at end of input
+  122 |             matrix_set(result, i, j
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_1224990e.c:122:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1224990e.c:122:13: error: expected declaration or statement at end of input

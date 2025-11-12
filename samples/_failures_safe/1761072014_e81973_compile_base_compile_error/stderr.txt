@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_e2a1f60d.c: In function ‘main’:
+./samples/SAFE/__tmp_e2a1f60d.c:118:30: error: expected ‘)’ at end of input
+  118 |     if (!get_user_input(input
+      |                        ~     ^
+      |                              )
+./samples/SAFE/__tmp_e2a1f60d.c:118:10: error: too few arguments to function ‘get_user_input’
+  118 |     if (!get_user_input(input
+      |          ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e2a1f60d.c:94:12: note: declared here
+   94 | static int get_user_input(uint8_t* buffer, size_t* size) {
+      |            ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e2a1f60d.c:118:5: error: expected declaration or statement at end of input
+  118 |     if (!get_user_input(input
+      |     ^~

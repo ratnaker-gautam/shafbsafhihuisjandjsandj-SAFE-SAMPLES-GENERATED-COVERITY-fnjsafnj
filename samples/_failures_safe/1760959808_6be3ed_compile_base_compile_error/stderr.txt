@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_08a5cdbd.c: In function ‘main’:
+./samples/SAFE/__tmp_08a5cdbd.c:134:5: error: expected expression at end of input
+  134 |     add_log_entry(&analyzer, "2024-01-15 10:40:15",
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_08a5cdbd.c:134:5: error: too few arguments to function ‘add_log_entry’
+./samples/SAFE/__tmp_08a5cdbd.c:50:5: note: declared here
+   50 | int add_log_entry(struct LogAnalyzer *analyzer, const char *timestamp, const char *level, const char *message) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_08a5cdbd.c:134:5: error: expected declaration or statement at end of input
+  134 |     add_log_entry(&analyzer, "2024-01-15 10:40:15",
+      |     ^~~~~~~~~~~~~

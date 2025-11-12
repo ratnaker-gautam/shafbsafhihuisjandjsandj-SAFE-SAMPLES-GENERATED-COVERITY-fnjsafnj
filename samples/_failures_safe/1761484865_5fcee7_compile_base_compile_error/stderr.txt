@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_c2c1867c.c: In function ‘primMST’:
+./samples/SAFE/__tmp_c2c1867c.c:127:47: error: expected ‘]’ at end of input
+  127 |                     decreaseKey(heap, v, key[v
+      |                                               ^
+      |                                               ]
+./samples/SAFE/__tmp_c2c1867c.c:127:21: error: expected declaration or statement at end of input
+  127 |                     decreaseKey(heap, v, key[v
+      |                     ^~~~~~~~~~~
+./samples/SAFE/__tmp_c2c1867c.c:127:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c2c1867c.c:127:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c2c1867c.c:127:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c2c1867c.c:127:21: error: expected declaration or statement at end of input

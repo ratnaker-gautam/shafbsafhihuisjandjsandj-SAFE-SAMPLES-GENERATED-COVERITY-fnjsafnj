@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ffda4c7d.c: In function ‘state_to_string’:
+./samples/SAFE/__tmp_ffda4c7d.c:139:9: error: expected expression at end of input
+  139 |         case STATE_IDLE: return
+      |         ^~~~
+./samples/SAFE/__tmp_ffda4c7d.c:139:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ffda4c7d.c:139:9: error: expected declaration or statement at end of input

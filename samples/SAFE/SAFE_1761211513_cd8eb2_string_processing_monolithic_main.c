@@ -1,0 +1,108 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: monolithic_main ; Variation: string_processing
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_INPUT_LEN 1024
+#define MAX_WORDS 100
+#define MAX_WORD_LEN 50
+
+int main() {
+    char input[MAX_INPUT_LEN + 1];
+    char words[MAX_WORDS][MAX_WORD_LEN + 1];
+    int word_count = 0;
+    int char_count = 0;
+    int word_lengths[MAX_WORDS];
+    
+    printf("Enter text (max %d characters): ", MAX_INPUT_LEN);
+    
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    size_t input_len = strlen(input);
+    if (input_len > 0 && input[input_len - 1] == '\n') {
+        input[input_len - 1] = '\0';
+        input_len--;
+    }
+    
+    if (input_len == 0) {
+        printf("No input provided\n");
+        return 1;
+    }
+    
+    if (input_len > MAX_INPUT_LEN) {
+        fprintf(stderr, "Input too long\n");
+        return 1;
+    }
+    
+    int in_word = 0;
+    int current_word_len = 0;
+    
+    for (size_t i = 0; i <= input_len; i++) {
+        if (i < input_len && isalpha((unsigned char)input[i])) {
+            if (!in_word) {
+                in_word = 1;
+                current_word_len = 0;
+            }
+            
+            if (current_word_len < MAX_WORD_LEN && word_count < MAX_WORDS) {
+                words[word_count][current_word_len] = tolower((unsigned char)input[i]);
+                current_word_len++;
+            }
+        } else {
+            if (in_word) {
+                if (current_word_len > 0 && word_count < MAX_WORDS) {
+                    words[word_count][current_word_len] = '\0';
+                    word_lengths[word_count] = current_word_len;
+                    word_count++;
+                    char_count += current_word_len;
+                }
+                in_word = 0;
+                current_word_len = 0;
+            }
+        }
+    }
+    
+    printf("\nText analysis results:\n");
+    printf("Total characters: %zu\n", input_len);
+    printf("Total words: %d\n", word_count);
+    printf("Total alphabetic characters in words: %d\n", char_count);
+    
+    if (word_count > 0) {
+        printf("\nWords found:\n");
+        for (int i = 0; i < word_count; i++) {
+            if (i < 10) {
+                printf("%d. %s (length: %d)\n", i + 1, words[i], word_lengths[i]);
+            } else {
+                printf("%d. %s (length: %d)\n", i + 1, words[i], word_lengths[i]);
+            }
+        }
+        
+        int shortest_len = word_lengths[0];
+        int longest_len = word_lengths[0];
+        int shortest_idx = 0;
+        int longest_idx = 0;
+        
+        for (int i = 1; i < word_count; i++) {
+            if (word_lengths[i] < shortest_len) {
+                shortest_len = word_lengths[i];
+                shortest_idx = i;
+            }
+            if (word_lengths[i] > longest_len) {
+                longest_len = word_lengths[i];
+                longest_idx = i;
+            }
+        }
+        
+        printf("\nShortest word: %s (%d letters)\n", words[shortest_idx], shortest_len);
+        printf("Longest word: %s (%d letters)\n", words[longest_idx], longest_len);
+        
+        double avg_length = (double)char_count / word_count;
+        printf("Average word length: %.2f\n", avg_length);
+    }
+    
+    return 0;
+}

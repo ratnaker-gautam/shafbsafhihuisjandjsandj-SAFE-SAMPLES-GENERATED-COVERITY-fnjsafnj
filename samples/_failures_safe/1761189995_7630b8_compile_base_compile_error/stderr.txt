@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7996c44e.c: In function ‘write_data’:
+./samples/SAFE/__tmp_7996c44e.c:145:30: error: expected ‘;’ at end of input
+  145 |     for (size_t i = 0; i < sm
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_7996c44e.c:145:5: error: expected declaration or statement at end of input
+  145 |     for (size_t i = 0; i < sm
+      |     ^~~

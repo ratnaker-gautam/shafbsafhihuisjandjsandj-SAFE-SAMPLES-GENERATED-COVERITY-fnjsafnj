@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_462ff8b4.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_462ff8b4.c:185:16: error: expected ‘,’ or ‘;’ at end of input
+  185 |         struct Node* next_node = current->next
+      |                ^~~~
+./samples/SAFE/__tmp_462ff8b4.c:185:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_462ff8b4.c:185:16: error: expected declaration or statement at end of input

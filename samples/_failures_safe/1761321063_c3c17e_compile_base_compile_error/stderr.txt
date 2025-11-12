@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_06214e34.c: In function ‘cleanup_compression_context’:
+./samples/SAFE/__tmp_06214e34.c:136:41: error: expected declaration or statement at end of input
+  136 | void cleanup_compression_context(struct CompressionContext *ctx) {
+      |                                         ^~~~~~~~~~~~~~~~~~

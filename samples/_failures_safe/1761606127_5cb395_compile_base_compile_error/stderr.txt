@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_b62be60d.c: In function ‘solve_linear_system’:
+./samples/SAFE/__tmp_b62be60d.c:77:63: error: invalid operands to binary * (have ‘double’ and ‘struct LinearSystem *’)
+   77 |     inv.elements[2][2] = (system->coefficients.elements[0][0] * system
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+      |                                                           |
+      |                                                           double
+./samples/SAFE/__tmp_b62be60d.c:77:71: error: expected ‘)’ at end of input
+   77 |     inv.elements[2][2] = (system->coefficients.elements[0][0] * system
+      |                          ~                                            ^
+      |                                                                       )
+./samples/SAFE/__tmp_b62be60d.c:77:5: error: expected declaration or statement at end of input
+   77 |     inv.elements[2][2] = (system->coefficients.elements[0][0] * system
+      |     ^~~

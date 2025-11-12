@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_35bb98c6.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_35bb98c6.c:162:30: error: expected ‘]’ at end of input
+  162 |     while (lexer->input[lexer
+      |                              ^
+      |                              ]
+./samples/SAFE/__tmp_35bb98c6.c:162:24: error: array subscript is not an integer
+  162 |     while (lexer->input[lexer
+      |                        ^
+./samples/SAFE/__tmp_35bb98c6.c:162:5: error: expected declaration or statement at end of input
+  162 |     while (lexer->input[lexer
+      |     ^~~~~

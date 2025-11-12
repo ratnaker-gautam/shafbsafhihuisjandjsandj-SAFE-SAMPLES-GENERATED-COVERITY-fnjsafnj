@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_320cd195.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_320cd195.c:176:5: error: expected declaration or statement at end of input
+  176 |     if (parser.current.type != TOKEN_EOF) {
+      |     ^~
+./samples/SAFE/__tmp_320cd195.c:176:5: error: expected declaration or statement at end of input

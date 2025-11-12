@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b846a4b4.c: In function ‘main’:
+./samples/SAFE/__tmp_b846a4b4.c:140: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_b846a4b4.c:136:45: note: to match this ‘{’
+  136 |     struct CompressionBlock test_blocks[] = {
+      |                                             ^
+./samples/SAFE/__tmp_b846a4b4.c:139:9: error: expected declaration or statement at end of input
+  139 |         {{0}, 20, 0}
+      |         ^

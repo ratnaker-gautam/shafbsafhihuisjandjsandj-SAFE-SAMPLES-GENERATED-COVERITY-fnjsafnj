@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fa26f95f.c: In function ‘parse_input’:
+./samples/SAFE/__tmp_fa26f95f.c:161:38: error: expected ‘)’ at end of input
+  161 |     if (input == NULL || strlen(input
+      |                                ~     ^
+      |                                      )
+./samples/SAFE/__tmp_fa26f95f.c:161:5: error: expected declaration or statement at end of input
+  161 |     if (input == NULL || strlen(input
+      |     ^~

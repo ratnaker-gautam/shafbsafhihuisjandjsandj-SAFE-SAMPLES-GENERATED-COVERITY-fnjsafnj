@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_a6e67d68.c: In function ‘main’:
+./samples/SAFE/__tmp_a6e67d68.c:134:34: error: expected ‘)’ at end of input
+  134 |             if (!read_safe_double
+      |                ~                 ^
+      |                                  )
+./samples/SAFE/__tmp_a6e67d68.c:134:13: error: expected declaration or statement at end of input
+  134 |             if (!read_safe_double
+      |             ^~
+./samples/SAFE/__tmp_a6e67d68.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a6e67d68.c:134:13: error: expected declaration or statement at end of input

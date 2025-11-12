@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_52aa6599.c: In function ‘main’:
+./samples/SAFE/__tmp_52aa6599.c:129:9: error: expected declaration or statement at end of input
+  129 |         case OP_MULTIPLY: {
+      |         ^~~~
+./samples/SAFE/__tmp_52aa6599.c:129:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_52aa6599.c:129:9: error: expected declaration or statement at end of input

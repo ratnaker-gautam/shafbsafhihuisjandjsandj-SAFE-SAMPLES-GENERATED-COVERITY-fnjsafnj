@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ea6c5b3a.c: In function ‘determinant_matrix’:
+./samples/SAFE/__tmp_ea6c5b3a.c:134:9: error: expected ‘,’ or ‘;’ at end of input
+  134 |         long long det = (long long)matrix[0][0] * matrix[1][1] - (long long)matrix[0][1]
+      |         ^~~~
+./samples/SAFE/__tmp_ea6c5b3a.c:134:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ea6c5b3a.c:134:9: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_31136fcf.c: In function ‘rotation_matrix_z’:
+./samples/SAFE/__tmp_31136fcf.c:129:11: error: expected ‘;’ at end of input
+  129 |     result
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_31136fcf.c:129:5: error: expected declaration or statement at end of input
+  129 |     result
+      |     ^~~~~~

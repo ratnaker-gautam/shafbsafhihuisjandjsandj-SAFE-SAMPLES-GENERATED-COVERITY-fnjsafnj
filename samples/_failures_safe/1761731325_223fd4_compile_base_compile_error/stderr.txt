@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3f371918.c: In function ‘main’:
+./samples/SAFE/__tmp_3f371918.c:174: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_3f371918.c:173:12: note: to match this ‘(’
+  173 |         if (sm.state == STATE_IDLE
+      |            ^
+./samples/SAFE/__tmp_3f371918.c:173:9: error: expected declaration or statement at end of input
+  173 |         if (sm.state == STATE_IDLE
+      |         ^~
+./samples/SAFE/__tmp_3f371918.c:173:9: error: expected declaration or statement at end of input

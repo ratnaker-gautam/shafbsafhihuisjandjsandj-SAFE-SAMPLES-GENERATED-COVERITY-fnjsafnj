@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_1e085bb2.c: In function ‘graph_dfs_util’:
+./samples/SAFE/__tmp_1e085bb2.c:166:23: error: expected ‘]’ at end of input
+  166 |         if (g->edges[i
+      |                       ^
+      |                       ]
+./samples/SAFE/__tmp_1e085bb2.c:166:13: error: used struct type value where scalar is required
+  166 |         if (g->edges[i
+      |             ^
+./samples/SAFE/__tmp_1e085bb2.c:166:9: error: expected declaration or statement at end of input
+  166 |         if (g->edges[i
+      |         ^~
+./samples/SAFE/__tmp_1e085bb2.c:166:9: error: expected declaration or statement at end of input

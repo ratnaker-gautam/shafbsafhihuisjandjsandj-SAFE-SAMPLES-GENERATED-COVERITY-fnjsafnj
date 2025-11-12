@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b1af83c4.c: In function ‘executeAlgorithm’:
+./samples/SAFE/__tmp_b1af83c4.c:148:20: error: missing terminating " character
+  148 |             printf("Invalid algorithm\n
+      |                    ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b1af83c4.c:148:13: error: expected expression at end of input
+  148 |             printf("Invalid algorithm\n
+      |             ^~~~~~
+./samples/SAFE/__tmp_b1af83c4.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b1af83c4.c:148:13: error: expected declaration or statement at end of input

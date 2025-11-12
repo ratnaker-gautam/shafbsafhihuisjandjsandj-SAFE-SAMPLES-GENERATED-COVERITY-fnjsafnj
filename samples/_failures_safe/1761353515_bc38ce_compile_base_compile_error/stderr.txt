@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_8c158ac6.c: In function ‘main’:
+./samples/SAFE/__tmp_8c158ac6.c:142:25: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  142 |     if (!get_user_input(input
+      |                         ^~~~~
+      |                         int
+./samples/SAFE/__tmp_8c158ac6.c:142:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8c158ac6.c:142:30: error: expected ‘)’ at end of input
+  142 |     if (!get_user_input(input
+      |                        ~     ^
+      |                              )
+./samples/SAFE/__tmp_8c158ac6.c:142:10: error: too few arguments to function ‘get_user_input’
+  142 |     if (!get_user_input(input
+      |          ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8c158ac6.c:111:5: note: declared here
+  111 | int get_user_input(char *buffer, size_t size) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8c158ac6.c:142:5: error: expected declaration or statement at end of input
+  142 |     if (!get_user_input(input
+      |     ^~

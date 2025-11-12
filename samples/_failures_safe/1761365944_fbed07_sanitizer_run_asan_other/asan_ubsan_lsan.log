@@ -1,0 +1,15 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==252748==ERROR: AddressSanitizer: SEGV on unknown address 0x00000c500038 (pc 0x5c08b604b733 bp 0x7ffd73877660 sp 0x7ffd73877600 T0)
+==252748==The signal is caused by a WRITE memory access.
+    #0 0x5c08b604b733 in depth_first_traversal samples/SAFE/__tmp_98233735.c:44
+    #1 0x5c08b604c6ee in perform_operation samples/SAFE/__tmp_98233735.c:90
+    #2 0x5c08b604cd52 in main samples/SAFE/__tmp_98233735.c:142
+    #3 0x70d20e62a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x70d20e62a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x5c08b604b304 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_98233735.c.san+0x3304) (BuildId: cab4e1cf1d165eebbf5c6cb48b6913277a1b541f)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV samples/SAFE/__tmp_98233735.c:44 in depth_first_traversal
+==252748==ABORTING

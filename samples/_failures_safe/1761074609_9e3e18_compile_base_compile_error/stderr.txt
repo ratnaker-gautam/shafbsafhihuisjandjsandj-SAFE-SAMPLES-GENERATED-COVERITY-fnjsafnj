@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9394fbfc.c: In function ‘main’:
+./samples/SAFE/__tmp_9394fbfc.c:178:9: error: expected expression at end of input
+  178 |         printf("Final token %d: ", k +
+      |         ^~~~~~
+./samples/SAFE/__tmp_9394fbfc.c:178:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9394fbfc.c:178:9: error: expected declaration or statement at end of input

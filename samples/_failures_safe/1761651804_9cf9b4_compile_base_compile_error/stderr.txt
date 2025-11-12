@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_78fcd212.c: In function ‘display_recent_logs’:
+./samples/SAFE/__tmp_78fcd212.c:131:63: error: expected ‘)’ at end of input
+  131 |     printf("\nRecent log entries (showing %d):\n", max_display
+      |           ~                                                   ^
+      |                                                               )
+./samples/SAFE/__tmp_78fcd212.c:131:5: error: expected declaration or statement at end of input
+  131 |     printf("\nRecent log entries (showing %d):\n", max_display
+      |     ^~~~~~

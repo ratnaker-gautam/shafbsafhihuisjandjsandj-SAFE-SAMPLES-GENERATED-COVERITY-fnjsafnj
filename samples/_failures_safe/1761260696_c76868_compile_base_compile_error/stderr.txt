@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d801da04.c: In function ‘main’:
+./samples/SAFE/__tmp_d801da04.c:173:5: error: expected expression at end of input
+  173 |     int k =
+      |     ^~~
+./samples/SAFE/__tmp_d801da04.c:173:5: error: expected declaration or statement at end of input

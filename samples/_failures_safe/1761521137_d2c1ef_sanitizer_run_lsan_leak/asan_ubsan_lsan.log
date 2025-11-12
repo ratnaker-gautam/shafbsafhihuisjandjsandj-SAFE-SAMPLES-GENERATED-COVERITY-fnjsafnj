@@ -1,0 +1,30 @@
+
+
+=================================================================
+==227296==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 1024 byte(s) in 1 object(s) allocated from:
+    #0 0x7a1cfc6fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69
+    #1 0x5f1248a95493 in buffer_init samples/SAFE/__tmp_f115c0d9.c:18
+    #2 0x5f1248a9639a in main samples/SAFE/__tmp_f115c0d9.c:95
+    #3 0x7a1cfba2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x7a1cfba2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x5f1248a953a4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_f115c0d9.c.san+0x33a4) (BuildId: 3ec46203862dc1b37616a116c4cc67499477679c)
+
+Direct leak of 1024 byte(s) in 1 object(s) allocated from:
+    #0 0x7a1cfc6fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69
+    #1 0x5f1248a95493 in buffer_init samples/SAFE/__tmp_f115c0d9.c:18
+    #2 0x5f1248a963ab in main samples/SAFE/__tmp_f115c0d9.c:96
+    #3 0x7a1cfba2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x7a1cfba2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x5f1248a953a4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_f115c0d9.c.san+0x33a4) (BuildId: 3ec46203862dc1b37616a116c4cc67499477679c)
+
+Direct leak of 1024 byte(s) in 1 object(s) allocated from:
+    #0 0x7a1cfc6fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69
+    #1 0x5f1248a95493 in buffer_init samples/SAFE/__tmp_f115c0d9.c:18
+    #2 0x5f1248a9638c in main samples/SAFE/__tmp_f115c0d9.c:94
+    #3 0x7a1cfba2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x7a1cfba2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x5f1248a953a4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_f115c0d9.c.san+0x33a4) (BuildId: 3ec46203862dc1b37616a116c4cc67499477679c)
+
+SUMMARY: AddressSanitizer: 3072 byte(s) leaked in 3 allocation(s).

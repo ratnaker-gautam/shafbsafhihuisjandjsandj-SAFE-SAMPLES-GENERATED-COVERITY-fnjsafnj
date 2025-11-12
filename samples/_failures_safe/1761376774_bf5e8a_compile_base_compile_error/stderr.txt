@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5f9aa926.c: In function ‘main’:
+./samples/SAFE/__tmp_5f9aa926.c:158:5: error: expected declaration or statement at end of input
+  158 |     printf("Graph with %d nodes and %d edges\n", g.node_count, g.edge_count);
+      |     ^~~~~~

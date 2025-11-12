@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_4b1673cb.c: In function ‘main’:
+./samples/SAFE/__tmp_4b1673cb.c:144:43: error: ‘STATE’ undeclared (first use in this function)
+  144 |     state_machine_add_transition(&config, STATE
+      |                                           ^~~~~
+./samples/SAFE/__tmp_4b1673cb.c:144:43: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4b1673cb.c:144:48: error: expected ‘)’ at end of input
+  144 |     state_machine_add_transition(&config, STATE
+      |                                 ~              ^
+      |                                                )
+./samples/SAFE/__tmp_4b1673cb.c:144:5: error: too few arguments to function ‘state_machine_add_transition’
+  144 |     state_machine_add_transition(&config, STATE
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4b1673cb.c:73:5: note: declared here
+   73 | int state_machine_add_transition(struct StateMachineConfig *config, enum State current, enum Event event, enum State next) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4b1673cb.c:144:5: error: expected declaration or statement at end of input
+  144 |     state_machine_add_transition(&config, STATE
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~

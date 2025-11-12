@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_776a82db.c: In function ‘main’:
+./samples/SAFE/__tmp_776a82db.c:204: error: expected ‘]’ at end of input
+./samples/SAFE/__tmp_776a82db.c:203:5: error: expected declaration or statement at end of input
+  203 |     Token tokens[MAX_TOKENS
+      |     ^~~~~

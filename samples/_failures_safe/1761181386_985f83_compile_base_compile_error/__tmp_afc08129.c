@@ -1,0 +1,138 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: struct_heavy ; Variation: matrix_ops
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+struct Matrix {
+    size_t rows;
+    size_t cols;
+    double *data;
+};
+
+struct Matrix create_matrix(size_t rows, size_t cols) {
+    struct Matrix mat;
+    mat.rows = rows;
+    mat.cols = cols;
+    if (rows == 0 || cols == 0 || rows > SIZE_MAX / cols / sizeof(double)) {
+        mat.data = NULL;
+        return mat;
+    }
+    mat.data = malloc(rows * cols * sizeof(double));
+    if (mat.data == NULL) {
+        mat.rows = 0;
+        mat.cols = 0;
+        return mat;
+    }
+    return mat;
+}
+
+void destroy_matrix(struct Matrix *mat) {
+    if (mat != NULL) {
+        free(mat->data);
+        mat->data = NULL;
+        mat->rows = 0;
+        mat->cols = 0;
+    }
+}
+
+int set_matrix_element(struct Matrix *mat, size_t row, size_t col, double value) {
+    if (mat == NULL || mat->data == NULL) return 0;
+    if (row >= mat->rows || col >= mat->cols) return 0;
+    mat->data[row * mat->cols + col] = value;
+    return 1;
+}
+
+double get_matrix_element(const struct Matrix *mat, size_t row, size_t col) {
+    if (mat == NULL || mat->data == NULL) return 0.0;
+    if (row >= mat->rows || col >= mat->cols) return 0.0;
+    return mat->data[row * mat->cols + col];
+}
+
+struct Matrix matrix_multiply(const struct Matrix *a, const struct Matrix *b) {
+    struct Matrix result = create_matrix(0, 0);
+    if (a == NULL || b == NULL || a->data == NULL || b->data == NULL) return result;
+    if (a->cols != b->rows) return result;
+    result = create_matrix(a->rows, b->cols);
+    if (result.data == NULL) return result;
+    for (size_t i = 0; i < a->rows; i++) {
+        for (size_t j = 0; j < b->cols; j++) {
+            double sum = 0.0;
+            for (size_t k = 0; k < a->cols; k++) {
+                sum += get_matrix_element(a, i, k) * get_matrix_element(b, k, j);
+            }
+            set_matrix_element(&result, i, j, sum);
+        }
+    }
+    return result;
+}
+
+void print_matrix(const struct Matrix *mat) {
+    if (mat == NULL || mat->data == NULL) return;
+    for (size_t i = 0; i < mat->rows; i++) {
+        for (size_t j = 0; j < mat->cols; j++) {
+            printf("%8.2f", get_matrix_element(mat, i, j));
+        }
+        printf("\n");
+    }
+}
+
+int read_positive_size(const char *prompt) {
+    int value;
+    printf("%s", prompt);
+    if (scanf("%d", &value) != 1) return -1;
+    if (value <= 0 || value > 1000) return -1;
+    return value;
+}
+
+int main(void) {
+    int rows1, cols1, rows2, cols2;
+    rows1 = read_positive_size("Enter rows for matrix 1: ");
+    if (rows1 == -1) {
+        printf("Invalid input for rows1\n");
+        return 1;
+    }
+    cols1 = read_positive_size("Enter columns for matrix 1: ");
+    if (cols1 == -1) {
+        printf("Invalid input for cols1\n");
+        return 1;
+    }
+    rows2 = read_positive_size("Enter rows for matrix 2: ");
+    if (rows2 == -1) {
+        printf("Invalid input for rows2\n");
+        return 1;
+    }
+    cols2 = read_positive_size("Enter columns for matrix 2: ");
+    if (cols2 == -1) {
+        printf("Invalid input for cols2\n");
+        return 1;
+    }
+    if (cols1 != rows2) {
+        printf("Matrix dimensions incompatible for multiplication\n");
+        return 1;
+    }
+    struct Matrix mat1 = create_matrix(rows1, cols1);
+    struct Matrix mat2 = create_matrix(rows2, cols2);
+    if (mat1.data == NULL || mat2.data == NULL) {
+        printf("Memory allocation failed\n");
+        destroy_matrix(&mat1);
+        destroy_matrix(&mat2);
+        return 1;
+    }
+    printf("Enter elements for matrix 1 (%d x %d):\n", rows1, cols1);
+    for (int i = 0; i < rows1; i++) {
+        for (int j = 0; j < cols1; j++) {
+            double value;
+            if (scanf("%lf", &value) != 1) {
+                printf("Invalid input for matrix element\n");
+                destroy_matrix(&mat1);
+                destroy_matrix(&mat2);
+                return 1;
+            }
+            set_matrix_element(&mat1, i, j, value);
+        }
+    }
+    printf("Enter elements for matrix 2 (%d x %d):\n", rows2, cols2);
+    for (int i = 0; i < rows2; i++) {
+        for (int j = 0; j < cols2

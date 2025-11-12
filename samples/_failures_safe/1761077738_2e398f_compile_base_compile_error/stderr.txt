@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_8d51b2fc.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_8d51b2fc.c:150:5: error: expected declaration or statement at end of input
+  150 |     parser->lexer = lexer;
+      |     ^~~~~~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_3519e54c.c: In function ‘main’:
+./samples/SAFE/__tmp_3519e54c.c:144:5: error: expected expression at end of input
+  144 |     b.rows = read_int("  Rows (1-10): ",
+      |     ^
+./samples/SAFE/__tmp_3519e54c.c:144:14: error: too few arguments to function ‘read_int’
+  144 |     b.rows = read_int("  Rows (1-10): ",
+      |              ^~~~~~~~
+./samples/SAFE/__tmp_3519e54c.c:16:5: note: declared here
+   16 | int read_int(const char* prompt, int min, int max) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_3519e54c.c:144:5: error: expected declaration or statement at end of input
+  144 |     b.rows = read_int("  Rows (1-10): ",
+      |     ^

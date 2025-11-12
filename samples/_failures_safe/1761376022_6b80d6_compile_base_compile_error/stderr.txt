@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_7a134eae.c: In function ‘get_token’:
+./samples/SAFE/__tmp_7a134eae.c:139:13: error: expected identifier at end of input
+  139 |             lexer->
+      |             ^~~~~
+./samples/SAFE/__tmp_7a134eae.c:139:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7a134eae.c:139:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7a134eae.c:139:13: error: expected declaration or statement at end of input

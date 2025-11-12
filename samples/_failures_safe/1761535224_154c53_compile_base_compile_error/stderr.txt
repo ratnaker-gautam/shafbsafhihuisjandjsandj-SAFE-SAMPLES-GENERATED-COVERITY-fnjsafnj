@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_66aac9e1.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_66aac9e1.c:172:50: error: expected ‘)’ at end of input
+  172 |         if (tokens[token_count].type == TOKEN_EOF
+      |            ~                                     ^
+      |                                                  )
+./samples/SAFE/__tmp_66aac9e1.c:172:9: error: expected declaration or statement at end of input
+  172 |         if (tokens[token_count].type == TOKEN_EOF
+      |         ^~
+./samples/SAFE/__tmp_66aac9e1.c:172:9: error: expected declaration or statement at end of input

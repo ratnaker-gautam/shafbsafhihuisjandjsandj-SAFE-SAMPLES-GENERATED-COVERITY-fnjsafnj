@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_31a87535.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_31a87535.c:175:13: error: expected expression at end of input
+  175 |             int new_dist =
+      |             ^~~
+./samples/SAFE/__tmp_31a87535.c:175:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_31a87535.c:175:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_31a87535.c:175:13: error: expected declaration or statement at end of input

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_94546123.c: In function ‘print_distances’:
+./samples/SAFE/__tmp_94546123.c:168:20: error: missing terminating " character
+  168 |             printf("Node
+      |                    ^~~~~
+./samples/SAFE/__tmp_94546123.c:168:13: error: expected expression at end of input
+  168 |             printf("Node
+      |             ^~~~~~
+./samples/SAFE/__tmp_94546123.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_94546123.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_94546123.c:168:13: error: expected declaration or statement at end of input

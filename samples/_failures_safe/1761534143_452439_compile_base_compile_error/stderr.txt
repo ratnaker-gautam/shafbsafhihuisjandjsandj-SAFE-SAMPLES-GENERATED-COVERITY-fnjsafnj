@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f63f6e50.c: In function ‘read_matrix’:
+./samples/SAFE/__tmp_f63f6e50.c:126: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_f63f6e50.c:125:31: note: to match this ‘(’
+  125 |             int val = read_int(prompt, INT_MIN, INT_MAX
+      |                               ^
+./samples/SAFE/__tmp_f63f6e50.c:125:13: error: expected declaration or statement at end of input
+  125 |             int val = read_int(prompt, INT_MIN, INT_MAX
+      |             ^~~
+./samples/SAFE/__tmp_f63f6e50.c:125:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f63f6e50.c:125:13: error: expected declaration or statement at end of input

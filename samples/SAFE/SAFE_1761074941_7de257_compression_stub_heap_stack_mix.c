@@ -1,0 +1,162 @@
+//DeepSeek-V3 SAFE v1.4 Category: Safe ; Style: heap_stack_mix ; Variation: compression_stub
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_INPUT_SIZE 1024
+#define CHUNK_SIZE 128
+
+typedef struct {
+    uint8_t *data;
+    size_t size;
+    size_t capacity;
+} Buffer;
+
+Buffer create_buffer(size_t initial_capacity) {
+    Buffer buf = {NULL, 0, 0};
+    if (initial_capacity > 0 && initial_capacity <= SIZE_MAX / 2) {
+        buf.data = malloc(initial_capacity);
+        if (buf.data) {
+            buf.capacity = initial_capacity;
+        }
+    }
+    return buf;
+}
+
+int buffer_append(Buffer *buf, const uint8_t *data, size_t len) {
+    if (!buf || !data || len == 0 || len > SIZE_MAX - buf->size) {
+        return 0;
+    }
+    
+    if (buf->size + len > buf->capacity) {
+        size_t new_capacity = buf->capacity * 2;
+        if (new_capacity < buf->size + len) {
+            new_capacity = buf->size + len;
+        }
+        if (new_capacity > SIZE_MAX / 2) {
+            return 0;
+        }
+        uint8_t *new_data = realloc(buf->data, new_capacity);
+        if (!new_data) {
+            return 0;
+        }
+        buf->data = new_data;
+        buf->capacity = new_capacity;
+    }
+    
+    memcpy(buf->data + buf->size, data, len);
+    buf->size += len;
+    return 1;
+}
+
+void free_buffer(Buffer *buf) {
+    if (buf) {
+        free(buf->data);
+        buf->data = NULL;
+        buf->size = 0;
+        buf->capacity = 0;
+    }
+}
+
+int compress_chunk(const uint8_t *input, size_t len, uint8_t *output, size_t *out_len) {
+    if (!input || !output || !out_len || len == 0 || len > CHUNK_SIZE) {
+        return 0;
+    }
+    
+    size_t compressed = 0;
+    for (size_t i = 0; i < len; ) {
+        uint8_t current = input[i];
+        size_t count = 1;
+        
+        while (i + count < len && input[i + count] == current && count < UINT8_MAX) {
+            count++;
+        }
+        
+        if (compressed + 2 > CHUNK_SIZE * 2) {
+            return 0;
+        }
+        
+        output[compressed++] = (uint8_t)count;
+        output[compressed++] = current;
+        i += count;
+    }
+    
+    *out_len = compressed;
+    return compressed < len ? 1 : 0;
+}
+
+int main(void) {
+    uint8_t input_stack[MAX_INPUT_SIZE];
+    size_t total_read = 0;
+    
+    printf("Enter data to compress (max %d bytes): ", MAX_INPUT_SIZE);
+    
+    int c;
+    while (total_read < MAX_INPUT_SIZE && (c = getchar()) != EOF && c != '\n') {
+        input_stack[total_read++] = (uint8_t)c;
+    }
+    
+    if (total_read == 0) {
+        printf("No input provided.\n");
+        return 1;
+    }
+    
+    Buffer compressed = create_buffer(total_read * 2);
+    if (!compressed.data) {
+        printf("Memory allocation failed.\n");
+        return 1;
+    }
+    
+    size_t processed = 0;
+    int compression_occurred = 0;
+    
+    while (processed < total_read) {
+        size_t chunk_len = total_read - processed;
+        if (chunk_len > CHUNK_SIZE) {
+            chunk_len = CHUNK_SIZE;
+        }
+        
+        uint8_t chunk_output[CHUNK_SIZE * 2];
+        size_t compressed_len;
+        
+        if (compress_chunk(input_stack + processed, chunk_len, chunk_output, &compressed_len)) {
+            if (!buffer_append(&compressed, chunk_output, compressed_len)) {
+                printf("Compression buffer overflow.\n");
+                free_buffer(&compressed);
+                return 1;
+            }
+            compression_occurred = 1;
+        } else {
+            if (!buffer_append(&compressed, input_stack + processed, chunk_len)) {
+                printf("Compression buffer overflow.\n");
+                free_buffer(&compressed);
+                return 1;
+            }
+        }
+        
+        processed += chunk_len;
+    }
+    
+    printf("Original size: %zu bytes\n", total_read);
+    printf("Compressed size: %zu bytes\n", compressed.size);
+    
+    if (compression_occurred && compressed.size < total_read) {
+        printf("Compression ratio: %.2f%%\n", (1.0 - (double)compressed.size / total_read) * 100);
+    } else {
+        printf("No effective compression achieved.\n");
+    }
+    
+    printf("Compressed data: ");
+    for (size_t i = 0; i < compressed.size && i < 64; i++) {
+        printf("%02X ", compressed.data[i]);
+    }
+    if (compressed.size > 64) {
+        printf("...");
+    }
+    printf("\n");
+    
+    free_buffer(&compressed);
+    return 0;
+}

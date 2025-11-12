@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_862d2d2a.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_862d2d2a.c:149:16: error: expected ‘;’ at end of input
+  149 |     token->line
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_862d2d2a.c:149:5: error: expected declaration or statement at end of input
+  149 |     token->line
+      |     ^~~~~

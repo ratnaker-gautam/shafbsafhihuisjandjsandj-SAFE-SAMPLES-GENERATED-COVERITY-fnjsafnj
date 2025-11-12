@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a2b3bbc1.c: In function ‘main’:
+./samples/SAFE/__tmp_a2b3bbc1.c:141:21: error: expected ‘;’ at end of input
+  141 |     transpose_matrix
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_a2b3bbc1.c:141:5: error: expected declaration or statement at end of input
+  141 |     transpose_matrix
+      |     ^~~~~~~~~~~~~~~~

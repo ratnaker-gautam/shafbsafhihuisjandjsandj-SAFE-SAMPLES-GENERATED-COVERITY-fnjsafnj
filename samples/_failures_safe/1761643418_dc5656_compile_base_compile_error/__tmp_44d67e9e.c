@@ -1,0 +1,173 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: recursion ; Variation: parser_tokenizer
+c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <limits.h>
+
+typedef enum {
+    TOKEN_NUMBER,
+    TOKEN_PLUS,
+    TOKEN_MINUS,
+    TOKEN_MUL,
+    TOKEN_DIV,
+    TOKEN_LPAREN,
+    TOKEN_RPAREN,
+    TOKEN_END,
+    TOKEN_ERROR
+} TokenType;
+
+typedef struct {
+    TokenType type;
+    int value;
+} Token;
+
+typedef struct {
+    const char* input;
+    size_t pos;
+    size_t len;
+} Lexer;
+
+void lexer_init(Lexer* lexer, const char* input) {
+    if (lexer == NULL || input == NULL) return;
+    lexer->input = input;
+    lexer->pos = 0;
+    lexer->len = strlen(input);
+}
+
+Token lexer_next(Lexer* lexer) {
+    Token token = {TOKEN_ERROR, 0};
+    if (lexer == NULL || lexer->input == NULL) return token;
+    
+    while (lexer->pos < lexer->len && isspace(lexer->input[lexer->pos])) {
+        lexer->pos++;
+    }
+    
+    if (lexer->pos >= lexer->len) {
+        token.type = TOKEN_END;
+        return token;
+    }
+    
+    char c = lexer->input[lexer->pos];
+    
+    if (isdigit(c)) {
+        int value = 0;
+        while (lexer->pos < lexer->len && isdigit(lexer->input[lexer->pos])) {
+            if (value > (INT_MAX - (lexer->input[lexer->pos] - '0')) / 10) {
+                token.type = TOKEN_ERROR;
+                return token;
+            }
+            value = value * 10 + (lexer->input[lexer->pos] - '0');
+            lexer->pos++;
+        }
+        token.type = TOKEN_NUMBER;
+        token.value = value;
+    } else {
+        switch (c) {
+            case '+': token.type = TOKEN_PLUS; break;
+            case '-': token.type = TOKEN_MINUS; break;
+            case '*': token.type = TOKEN_MUL; break;
+            case '/': token.type = TOKEN_DIV; break;
+            case '(': token.type = TOKEN_LPAREN; break;
+            case ')': token.type = TOKEN_RPAREN; break;
+            default: token.type = TOKEN_ERROR; break;
+        }
+        lexer->pos++;
+    }
+    
+    return token;
+}
+
+typedef struct {
+    Lexer lexer;
+    Token current;
+} Parser;
+
+void parser_init(Parser* parser, const char* input) {
+    if (parser == NULL || input == NULL) return;
+    lexer_init(&parser->lexer, input);
+    parser->current = lexer_next(&parser->lexer);
+}
+
+void parser_advance(Parser* parser) {
+    if (parser == NULL) return;
+    parser->current = lexer_next(&parser->lexer);
+}
+
+int parser_expression(Parser* parser);
+int parser_term(Parser* parser);
+int parser_factor(Parser* parser);
+
+int parser_factor(Parser* parser) {
+    if (parser == NULL) return 0;
+    
+    if (parser->current.type == TOKEN_NUMBER) {
+        int value = parser->current.value;
+        parser_advance(parser);
+        return value;
+    } else if (parser->current.type == TOKEN_LPAREN) {
+        parser_advance(parser);
+        int value = parser_expression(parser);
+        if (parser->current.type != TOKEN_RPAREN) {
+            return 0;
+        }
+        parser_advance(parser);
+        return value;
+    } else if (parser->current.type == TOKEN_MINUS) {
+        parser_advance(parser);
+        return -parser_factor(parser);
+    }
+    return 0;
+}
+
+int parser_term(Parser* parser) {
+    if (parser == NULL) return 0;
+    
+    int left = parser_factor(parser);
+    
+    while (parser->current.type == TOKEN_MUL || parser->current.type == TOKEN_DIV) {
+        TokenType op = parser->current.type;
+        parser_advance(parser);
+        int right = parser_factor(parser);
+        
+        if (op == TOKEN_MUL) {
+            if (__builtin_mul_overflow(left, right, &left)) {
+                return 0;
+            }
+        } else if (op == TOKEN_DIV) {
+            if (right == 0) {
+                return 0;
+            }
+            left /= right;
+        }
+    }
+    
+    return left;
+}
+
+int parser_expression(Parser* parser) {
+    if (parser == NULL) return 0;
+    
+    int left = parser_term(parser);
+    
+    while (parser->current.type == TOKEN_PLUS || parser->current.type == TOKEN_MINUS) {
+        TokenType op = parser->current.type;
+        parser_advance(parser);
+        int right = parser_term(parser);
+        
+        if (op == TOKEN_PLUS) {
+            if (__builtin_add_overflow(left, right, &left)) {
+                return 0;
+            }
+        } else if (op == TOKEN_MINUS) {
+            if (__builtin_sub_overflow(left, right, &left)) {
+                return 0;
+            }
+        }
+    }
+    
+    return left;
+}
+
+int evaluate_expression(const char

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1ff72868.c: In function ‘graph_cleanup’:
+./samples/SAFE/__tmp_1ff72868.c:180:13: error: expected declaration or statement at end of input
+  180 |             g->nodes[i].edges = NULL;
+      |             ^
+./samples/SAFE/__tmp_1ff72868.c:180:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1ff72868.c:180:13: error: expected declaration or statement at end of input

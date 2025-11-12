@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_cb1ecbcb.c: In function ‘main’:
+./samples/SAFE/__tmp_cb1ecbcb.c:157:5: error: expected expression at end of input
+  157 |     execute_operation(&disconnected, count_components,
+      |     ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_cb1ecbcb.c:157:5: error: too few arguments to function ‘execute_operation’
+./samples/SAFE/__tmp_cb1ecbcb.c:118:6: note: declared here
+  118 | void execute_operation(Graph *g, GraphOperation op, int param1, int param2) {
+      |      ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_cb1ecbcb.c:157:5: error: expected declaration or statement at end of input
+  157 |     execute_operation(&disconnected, count_components,
+      |     ^~~~~~~~~~~~~~~~~

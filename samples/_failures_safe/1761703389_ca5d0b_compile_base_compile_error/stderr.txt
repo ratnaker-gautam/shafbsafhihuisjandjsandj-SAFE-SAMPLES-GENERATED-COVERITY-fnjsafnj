@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e5a77995.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_e5a77995.c:173:9: error: expected identifier or ‘(’ at end of input
+  173 |         Token
+      |         ^~~~~
+./samples/SAFE/__tmp_e5a77995.c:173:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e5a77995.c:173:9: error: expected declaration or statement at end of input

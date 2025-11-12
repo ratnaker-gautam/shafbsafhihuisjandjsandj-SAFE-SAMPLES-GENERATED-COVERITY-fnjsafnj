@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ff2a44f9.c: In function ‘main’:
+./samples/SAFE/__tmp_ff2a44f9.c:131:66: error: ‘MAX’ undeclared (first use in this function)
+  131 |     int cols2 = get_valid_int("Enter columns (1-10): ", MIN_DIM, MAX
+      |                                                                  ^~~
+./samples/SAFE/__tmp_ff2a44f9.c:131:66: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ff2a44f9.c:131:69: error: expected ‘)’ at end of input
+  131 |     int cols2 = get_valid_int("Enter columns (1-10): ", MIN_DIM, MAX
+      |                              ~                                      ^
+      |                                                                     )
+./samples/SAFE/__tmp_ff2a44f9.c:131:5: error: expected declaration or statement at end of input
+  131 |     int cols2 = get_valid_int("Enter columns (1-10): ", MIN_DIM, MAX
+      |     ^~~

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_5b6b2b3d.c: In function ‘main’:
+./samples/SAFE/__tmp_5b6b2b3d.c:148:13: error: expected identifier at end of input
+  148 |             if (logs[i].
+      |             ^~
+./samples/SAFE/__tmp_5b6b2b3d.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5b6b2b3d.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5b6b2b3d.c:148:13: error: expected declaration or statement at end of input

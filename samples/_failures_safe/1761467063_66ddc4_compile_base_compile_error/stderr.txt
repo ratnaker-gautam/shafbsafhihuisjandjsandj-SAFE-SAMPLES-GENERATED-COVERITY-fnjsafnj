@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_f340b567.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_f340b567.c:143:32: error: expected ‘)’ at end of input
+  143 |     matrix_init(result, m->cols
+      |                ~               ^
+      |                                )
+./samples/SAFE/__tmp_f340b567.c:143:5: error: too few arguments to function ‘matrix_init’
+  143 |     matrix_init(result, m->cols
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_f340b567.c:42:6: note: declared here
+   42 | void matrix_init(Matrix *m, int rows, int cols) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_f340b567.c:143:5: error: expected declaration or statement at end of input
+  143 |     matrix_init(result, m->cols
+      |     ^~~~~~~~~~~

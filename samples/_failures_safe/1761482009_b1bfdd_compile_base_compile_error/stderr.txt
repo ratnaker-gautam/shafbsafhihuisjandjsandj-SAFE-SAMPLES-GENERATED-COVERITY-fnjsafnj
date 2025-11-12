@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1639e3a2.c: In function ‘main’:
+./samples/SAFE/__tmp_1639e3a2.c:145:12: error: expected identifier or ‘(’ at end of input
+  145 |     struct Matrix
+      |            ^~~~~~
+./samples/SAFE/__tmp_1639e3a2.c:145:12: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_01994060.c: In function ‘main’:
+./samples/SAFE/__tmp_01994060.c:152:17: error: ‘destroy’ undeclared (first use in this function)
+  152 |                 destroy
+      |                 ^~~~~~~
+./samples/SAFE/__tmp_01994060.c:152:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_01994060.c:152:24: error: expected ‘;’ at end of input
+  152 |                 destroy
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_01994060.c:152:17: error: expected declaration or statement at end of input
+  152 |                 destroy
+      |                 ^~~~~~~
+./samples/SAFE/__tmp_01994060.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_01994060.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_01994060.c:152:17: error: expected declaration or statement at end of input

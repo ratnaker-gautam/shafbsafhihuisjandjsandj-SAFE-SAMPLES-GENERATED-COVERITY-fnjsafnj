@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_9f078a64.c: In function ‘main’:
+./samples/SAFE/__tmp_9f078a64.c:173:5: error: expected expression at end of input
+  173 |     while (get_token(&token, input,
+      |     ^~~~~
+./samples/SAFE/__tmp_9f078a64.c:173:12: error: too few arguments to function ‘get_token’
+  173 |     while (get_token(&token, input,
+      |            ^~~~~~~~~
+./samples/SAFE/__tmp_9f078a64.c:27:5: note: declared here
+   27 | int get_token(struct Token *token, const char *input, int *pos, int line, int *col) {
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_9f078a64.c:173:5: error: expected declaration or statement at end of input
+  173 |     while (get_token(&token, input,
+      |     ^~~~~

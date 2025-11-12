@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_24cb571b.c: In function ‘main’:
+./samples/SAFE/__tmp_24cb571b.c:133: error: expected ‘]’ at end of input
+./samples/SAFE/__tmp_24cb571b.c:132:5: error: expected declaration or statement at end of input
+  132 |     char line[MAX_LINE_LEN
+      |     ^~~~

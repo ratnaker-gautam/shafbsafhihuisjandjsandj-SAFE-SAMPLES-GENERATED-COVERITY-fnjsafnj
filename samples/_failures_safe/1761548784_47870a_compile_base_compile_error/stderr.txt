@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_183eb39e.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_183eb39e.c:166:9: error: expected declaration or statement at end of input
+  166 |         Token token = {classify_token(buffer), "", line};
+      |         ^~~~~
+./samples/SAFE/__tmp_183eb39e.c:166:9: error: expected declaration or statement at end of input

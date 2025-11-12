@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_7acd1554.c: In function ‘main’:
+./samples/SAFE/__tmp_7acd1554.c:127:5: error: expected declaration or statement at end of input
+  127 |     printf("Most common level: %s\n", most_common_level);
+      |     ^~~~~~

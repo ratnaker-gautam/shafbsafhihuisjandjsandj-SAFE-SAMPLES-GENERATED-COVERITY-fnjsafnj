@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_060b698c.c: In function ‘main’:
+./samples/SAFE/__tmp_060b698c.c:150:5: error: expected declaration or statement at end of input
+  150 |     printf("Dijkstra's algorithm:\n");
+      |     ^~~~~~

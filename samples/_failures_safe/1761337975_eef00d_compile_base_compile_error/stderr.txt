@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_e23b6d9a.c: In function ‘main’:
+./samples/SAFE/__tmp_e23b6d9a.c:162:37: error: missing terminating " character
+  162 |             case STATE_IDLE: printf("ID
+      |                                     ^~~
+./samples/SAFE/__tmp_e23b6d9a.c:162:13: error: expected expression at end of input
+  162 |             case STATE_IDLE: printf("ID
+      |             ^~~~
+./samples/SAFE/__tmp_e23b6d9a.c:162:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e23b6d9a.c:162:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e23b6d9a.c:162:13: error: expected declaration or statement at end of input

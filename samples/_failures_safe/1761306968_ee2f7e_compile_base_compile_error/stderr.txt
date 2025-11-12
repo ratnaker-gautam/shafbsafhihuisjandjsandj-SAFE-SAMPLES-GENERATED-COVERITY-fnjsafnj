@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_c228f025.c: In function ‘state_to_string’:
+./samples/SAFE/__tmp_c228f025.c:149:27: error: expected ‘]’ at end of input
+  149 |         return names[state
+      |                           ^
+      |                           ]
+./samples/SAFE/__tmp_c228f025.c:149:9: error: expected declaration or statement at end of input
+  149 |         return names[state
+      |         ^~~~~~
+./samples/SAFE/__tmp_c228f025.c:149:9: error: expected declaration or statement at end of input

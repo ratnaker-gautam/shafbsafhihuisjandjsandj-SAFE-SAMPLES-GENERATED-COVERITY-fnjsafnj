@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_4855bf3a.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_4855bf3a.c:124: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_4855bf3a.c:123:9: error: expected declaration or statement at end of input
+  123 |         if
+      |         ^~
+./samples/SAFE/__tmp_4855bf3a.c:123:9: error: expected declaration or statement at end of input

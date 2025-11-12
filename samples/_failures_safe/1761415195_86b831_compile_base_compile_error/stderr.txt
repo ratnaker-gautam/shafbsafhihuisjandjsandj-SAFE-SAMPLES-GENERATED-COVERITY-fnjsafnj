@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4cf14b24.c: In function ‘main’:
+./samples/SAFE/__tmp_4cf14b24.c:156:5: error: expected expression at end of input
+  156 |     execute_operation(&disconnected, count_components, 0,
+      |     ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4cf14b24.c:156:5: error: expected declaration or statement at end of input

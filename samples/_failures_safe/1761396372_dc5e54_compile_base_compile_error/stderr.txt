@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_2b3ef101.c: In function ‘main’:
+./samples/SAFE/__tmp_2b3ef101.c:151:20: error: ‘compressed_b’ undeclared (first use in this function); did you mean ‘compressed’?
+  151 |     buffer_append(&compressed_b
+      |                    ^~~~~~~~~~~~
+      |                    compressed
+./samples/SAFE/__tmp_2b3ef101.c:151:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2b3ef101.c:151:32: error: expected ‘)’ at end of input
+  151 |     buffer_append(&compressed_b
+      |                  ~             ^
+      |                                )
+./samples/SAFE/__tmp_2b3ef101.c:151:5: error: too few arguments to function ‘buffer_append’
+  151 |     buffer_append(&compressed_b
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_2b3ef101.c:29:6: note: declared here
+   29 | void buffer_append(Buffer *buf, const unsigned char *src, size_t len) {
+      |      ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_2b3ef101.c:151:5: error: expected declaration or statement at end of input
+  151 |     buffer_append(&compressed_b
+      |     ^~~~~~~~~~~~~

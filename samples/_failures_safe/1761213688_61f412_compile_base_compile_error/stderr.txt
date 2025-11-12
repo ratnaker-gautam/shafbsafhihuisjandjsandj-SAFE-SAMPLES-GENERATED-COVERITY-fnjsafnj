@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_40c2431f.c: In function ‘main’:
+./samples/SAFE/__tmp_40c2431f.c:173:21: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  173 |     Token* tokens = token
+      |                     ^~~~~
+      |                     Token
+./samples/SAFE/__tmp_40c2431f.c:173:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_40c2431f.c:173:5: error: expected ‘,’ or ‘;’ at end of input
+  173 |     Token* tokens = token
+      |     ^~~~~
+./samples/SAFE/__tmp_40c2431f.c:173:5: error: expected declaration or statement at end of input

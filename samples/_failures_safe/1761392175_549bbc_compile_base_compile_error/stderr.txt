@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2ff21fc0.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_2ff21fc0.c:134:5: error: expected declaration or statement at end of input
+  134 |     printf("Total entries: %zu\n", collection->count);
+      |     ^~~~~~

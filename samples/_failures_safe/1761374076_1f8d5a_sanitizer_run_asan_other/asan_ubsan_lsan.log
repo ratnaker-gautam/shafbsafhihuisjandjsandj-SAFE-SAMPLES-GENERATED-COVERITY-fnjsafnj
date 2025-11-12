@@ -1,0 +1,17 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==299807==ERROR: AddressSanitizer: SEGV on unknown address 0x000000000010 (pc 0x7403dd59b91c bp 0x7ffc8b433370 sp 0x7ffc8b432af8 T0)
+==299807==The signal is caused by a READ memory access.
+==299807==Hint: address points to the zero page.
+    #0 0x7403dd59b91c  (/lib/x86_64-linux-gnu/libc.so.6+0x19b91c) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #1 0x7403de07d826 in strlen ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:389
+    #2 0x57eaafd1ea55 in tokenize samples/SAFE/__tmp_ec66145b.c:55
+    #3 0x57eaafd1f578 in main samples/SAFE/__tmp_ec66145b.c:136
+    #4 0x7403dd42a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x7403dd42a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x57eaafd1e464 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_ec66145b.c.san+0x3464) (BuildId: 0db6674314a035fb27b56aeadbe237c13d46c57b)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV (/lib/x86_64-linux-gnu/libc.so.6+0x19b91c) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e) 
+==299807==ABORTING

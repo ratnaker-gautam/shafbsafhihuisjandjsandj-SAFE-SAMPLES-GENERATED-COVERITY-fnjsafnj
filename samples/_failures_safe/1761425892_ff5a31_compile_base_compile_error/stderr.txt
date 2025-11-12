@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_9fe8596e.c: In function ‘main’:
+./samples/SAFE/__tmp_9fe8596e.c:151:56: error: expected ‘)’ at end of input
+  151 |     struct Matrix result = matrix_multiply(&mat1, &mat2
+      |                                           ~            ^
+      |                                                        )
+./samples/SAFE/__tmp_9fe8596e.c:151:12: error: expected declaration or statement at end of input
+  151 |     struct Matrix result = matrix_multiply(&mat1, &mat2
+      |            ^~~~~~

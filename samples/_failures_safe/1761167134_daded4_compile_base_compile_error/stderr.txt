@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_219c4947.c: In function ‘main’:
+./samples/SAFE/__tmp_219c4947.c:137:25: error: ‘mat’ undeclared (first use in this function); did you mean ‘mat2’?
+  137 |         destroy_matrix(&mat
+      |                         ^~~
+      |                         mat2
+./samples/SAFE/__tmp_219c4947.c:137:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_219c4947.c:137:28: error: expected ‘)’ at end of input
+  137 |         destroy_matrix(&mat
+      |                       ~    ^
+      |                            )
+./samples/SAFE/__tmp_219c4947.c:137:9: error: expected declaration or statement at end of input
+  137 |         destroy_matrix(&mat
+      |         ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_219c4947.c:137:9: error: expected declaration or statement at end of input

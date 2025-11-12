@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a044bceb.c: In function ‘main’:
+./samples/SAFE/__tmp_a044bceb.c:166:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  166 |         struct Token token
+      |                ^~~~~
+./samples/SAFE/__tmp_a044bceb.c:166:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a044bceb.c:166:16: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_9a18cff3.c: In function ‘main’:
+./samples/SAFE/__tmp_9a18cff3.c:178:13: error: expected expression at end of input
+  178 |             sm.current_state = handle_event(&
+      |             ^~
+./samples/SAFE/__tmp_9a18cff3.c:178:32: error: too few arguments to function ‘handle_event’
+  178 |             sm.current_state = handle_event(&
+      |                                ^~~~~~~~~~~~
+./samples/SAFE/__tmp_9a18cff3.c:68:7: note: declared here
+   68 | State handle_event(StateMachine* sm, Event event, const char* data) {
+      |       ^~~~~~~~~~~~
+./samples/SAFE/__tmp_9a18cff3.c:178:13: error: expected declaration or statement at end of input
+  178 |             sm.current_state = handle_event(&
+      |             ^~
+./samples/SAFE/__tmp_9a18cff3.c:178:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9a18cff3.c:178:13: error: expected declaration or statement at end of input

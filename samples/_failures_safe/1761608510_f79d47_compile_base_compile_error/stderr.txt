@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_192b3d2d.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_192b3d2d.c:166:15: error: expected ‘)’ at end of input
+  166 |     if (!queue
+      |        ~      ^
+      |               )
+./samples/SAFE/__tmp_192b3d2d.c:166:5: error: expected declaration or statement at end of input
+  166 |     if (!queue
+      |     ^~

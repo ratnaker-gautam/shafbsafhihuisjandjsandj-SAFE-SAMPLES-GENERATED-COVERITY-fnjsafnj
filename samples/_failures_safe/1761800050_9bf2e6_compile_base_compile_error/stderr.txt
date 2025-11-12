@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_44fa5a5a.c: In function ‘process_state_machine’:
+./samples/SAFE/__tmp_44fa5a5a.c:160:17: error: expected declaration or statement at end of input
+  160 |                 case EVENT_RESET:
+      |                 ^~~~
+./samples/SAFE/__tmp_44fa5a5a.c:160:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_44fa5a5a.c:160:17: error: expected declaration or statement at end of input

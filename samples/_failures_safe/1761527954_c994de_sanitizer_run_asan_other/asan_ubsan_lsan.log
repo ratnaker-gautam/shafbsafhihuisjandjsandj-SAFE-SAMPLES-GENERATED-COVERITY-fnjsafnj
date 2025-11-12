@@ -1,0 +1,17 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==266740==ERROR: AddressSanitizer: SEGV on unknown address 0xffffffffd6e00040 (pc 0x7b14d8f9b91c bp 0x7ffc11212c60 sp 0x7ffc112123e8 T0)
+==266740==The signal is caused by a READ memory access.
+    #0 0x7b14d8f9b91c  (/lib/x86_64-linux-gnu/libc.so.6+0x19b91c) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #1 0x7b14d9a7d826 in strlen ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:389
+    #2 0x636c7e2ac9db in analyze_word samples/SAFE/__tmp_4f945614.c:45
+    #3 0x636c7e2ad1f8 in process_text samples/SAFE/__tmp_4f945614.c:81
+    #4 0x636c7e2ae4e8 in main samples/SAFE/__tmp_4f945614.c:140
+    #5 0x7b14d8e2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x7b14d8e2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #7 0x636c7e2ac3c4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_4f945614.c.san+0x53c4) (BuildId: e2bb37c8d6f79d5293ba86a34d8b68d51e828a2f)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV (/lib/x86_64-linux-gnu/libc.so.6+0x19b91c) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e) 
+==266740==ABORTING

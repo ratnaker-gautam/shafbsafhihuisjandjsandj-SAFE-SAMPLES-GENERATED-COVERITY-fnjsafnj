@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1ae651a2.c: In function ‘generate_stats’:
+./samples/SAFE/__tmp_1ae651a2.c:148:10: error: expected ‘;’ at end of input
+  148 |     stats
+      |          ^
+      |          ;
+./samples/SAFE/__tmp_1ae651a2.c:148:5: error: expected declaration or statement at end of input
+  148 |     stats
+      |     ^~~~~

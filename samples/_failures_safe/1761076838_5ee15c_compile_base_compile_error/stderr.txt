@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_794aa077.c: In function ‘main’:
+./samples/SAFE/__tmp_794aa077.c:159:16: error: ‘decomp’ undeclared (first use in this function)
+  159 |         memcmp(decomp
+      |                ^~~~~~
+./samples/SAFE/__tmp_794aa077.c:159:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_794aa077.c:159:22: error: expected ‘)’ at end of input
+  159 |         memcmp(decomp
+      |               ~      ^
+      |                      )
+./samples/SAFE/__tmp_794aa077.c:159:9: error: too few arguments to function ‘memcmp’
+  159 |         memcmp(decomp
+      |         ^~~~~~
+In file included from ./samples/SAFE/__tmp_794aa077.c:4:
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_794aa077.c:159:9: error: expected declaration or statement at end of input
+  159 |         memcmp(decomp
+      |         ^~~~~~

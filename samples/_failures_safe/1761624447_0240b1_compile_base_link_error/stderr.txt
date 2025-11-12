@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccF8u8VZ.o: in function `main':
+__tmp_60763f42.c:(.text.startup+0x1df): undefined reference to `log'
+/usr/bin/ld: __tmp_60763f42.c:(.text.startup+0x4a0): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0aece346.c: In function ‘write_data’:
+./samples/SAFE/__tmp_0aece346.c:142:11: error: expected ‘;’ at end of input
+  142 |     printf
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_0aece346.c:142:5: error: expected declaration or statement at end of input
+  142 |     printf
+      |     ^~~~~~

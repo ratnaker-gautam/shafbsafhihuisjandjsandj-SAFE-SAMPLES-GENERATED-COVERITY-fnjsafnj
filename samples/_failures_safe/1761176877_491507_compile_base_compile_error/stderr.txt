@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_3dd5eb9c.c: In function ‘main’:
+./samples/SAFE/__tmp_3dd5eb9c.c:145:13: error: expected expression at end of input
+  145 |             input_buffer[len -
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_3dd5eb9c.c:145:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3dd5eb9c.c:145:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3dd5eb9c.c:145:13: error: expected declaration or statement at end of input

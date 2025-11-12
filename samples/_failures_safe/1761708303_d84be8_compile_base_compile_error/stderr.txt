@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_33293989.c: In function ‘main’:
+./samples/SAFE/__tmp_33293989.c:150:13: error: expected identifier at end of input
+  150 |             printf("%-4d %-3d %-10s  %s\n", token.line, token.
+      |             ^~~~~~
+./samples/SAFE/__tmp_33293989.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_33293989.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_33293989.c:150:13: error: expected declaration or statement at end of input

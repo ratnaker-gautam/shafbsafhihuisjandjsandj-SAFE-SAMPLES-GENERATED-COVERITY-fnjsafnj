@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_5db9d074.c: In function ‘process_event’:
+./samples/SAFE/__tmp_5db9d074.c:162:26: error: incompatible types when assigning to type ‘State’ from type ‘State (*)(StateMachine *, Event,  const char *)’
+  162 |             next_state = handle_idle
+      |                          ^~~~~~~~~~~
+./samples/SAFE/__tmp_5db9d074.c:162:37: error: expected ‘;’ at end of input
+  162 |             next_state = handle_idle
+      |                                     ^
+      |                                     ;
+./samples/SAFE/__tmp_5db9d074.c:162:13: error: expected declaration or statement at end of input
+  162 |             next_state = handle_idle
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_5db9d074.c:162:13: error: expected declaration or statement at end of input

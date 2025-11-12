@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ef32608b.c: In function ‘main’:
+./samples/SAFE/__tmp_ef32608b.c:158:5: error: expected expression at end of input
+  158 |     printf("Original size: %zu, Compressed size: %zu\n", input_len,
+      |     ^~~~~~
+./samples/SAFE/__tmp_ef32608b.c:158:5: error: expected declaration or statement at end of input

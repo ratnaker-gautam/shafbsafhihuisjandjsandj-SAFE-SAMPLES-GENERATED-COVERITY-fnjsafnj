@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d29ed878.c: In function ‘main’:
+./samples/SAFE/__tmp_d29ed878.c:128:9: error: expected expression at end of input
+  128 |         printf("%s %s %s\n", entries[i].timestamp, level_str,
+      |         ^~~~~~
+./samples/SAFE/__tmp_d29ed878.c:128:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d29ed878.c:128:9: error: expected declaration or statement at end of input

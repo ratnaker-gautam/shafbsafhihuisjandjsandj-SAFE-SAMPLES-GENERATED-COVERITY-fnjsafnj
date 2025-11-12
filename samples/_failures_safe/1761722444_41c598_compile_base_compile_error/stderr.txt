@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_48e8c39a.c: In function ‘main’:
+./samples/SAFE/__tmp_48e8c39a.c:193:54: error: ‘context_t’ has no member named ‘c’
+  193 |     printf("Final counter: %lu\n", (unsigned long)ctx.c
+      |                                                      ^
+./samples/SAFE/__tmp_48e8c39a.c:193:56: error: expected ‘)’ at end of input
+  193 |     printf("Final counter: %lu\n", (unsigned long)ctx.c
+      |           ~                                            ^
+      |                                                        )
+./samples/SAFE/__tmp_48e8c39a.c:193:5: error: expected declaration or statement at end of input
+  193 |     printf("Final counter: %lu\n", (unsigned long)ctx.c
+      |     ^~~~~~

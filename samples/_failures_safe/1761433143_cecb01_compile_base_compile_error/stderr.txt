@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_71a09c9f.c: In function ‘main’:
+./samples/SAFE/__tmp_71a09c9f.c:162:9: error: expected declaration or statement at end of input
+  162 |         int from, to, weight;
+      |         ^~~
+./samples/SAFE/__tmp_71a09c9f.c:162:9: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5f751394.c: In function ‘main’:
+./samples/SAFE/__tmp_5f751394.c:124:5: error: expected declaration or statement at end of input
+  124 |     printf("\nMagnitude: %.3f\n", result.magnitude_transformed);
+      |     ^~~~~~

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a82f12ac.c: In function ‘main’:
+./samples/SAFE/__tmp_a82f12ac.c:186:33: error: expected ‘)’ at end of input
+  186 |         switch (sm.current_state
+      |                ~                ^
+      |                                 )
+./samples/SAFE/__tmp_a82f12ac.c:186:9: error: expected declaration or statement at end of input
+  186 |         switch (sm.current_state
+      |         ^~~~~~
+./samples/SAFE/__tmp_a82f12ac.c:186:9: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_eab69d9e.c: In function ‘parser_expect_operator’:
+./samples/SAFE/__tmp_eab69d9e.c:158:9: error: ‘str’ undeclared (first use in this function)
+  158 |         str
+      |         ^~~
+./samples/SAFE/__tmp_eab69d9e.c:158:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_eab69d9e.c:158:12: error: expected ‘)’ at end of input
+  158 |         str
+      |            ^
+      |            )
+./samples/SAFE/__tmp_eab69d9e.c:157:8: note: to match this ‘(’
+  157 |     if (parser->current_token.type != TOKEN_OPERATOR ||
+      |        ^
+./samples/SAFE/__tmp_eab69d9e.c:158:9: error: expected declaration or statement at end of input
+  158 |         str
+      |         ^~~

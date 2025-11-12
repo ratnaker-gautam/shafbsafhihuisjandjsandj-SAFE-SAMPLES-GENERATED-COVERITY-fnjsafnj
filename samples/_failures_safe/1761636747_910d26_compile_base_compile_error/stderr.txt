@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_3c79b94f.c: In function ‘main’:
+./samples/SAFE/__tmp_3c79b94f.c:135:25: error: expected ‘]’ at end of input
+  135 |         input.data[input
+      |                         ^
+      |                         ]
+./samples/SAFE/__tmp_3c79b94f.c:135:19: error: array subscript is not an integer
+  135 |         input.data[input
+      |                   ^
+./samples/SAFE/__tmp_3c79b94f.c:135:9: error: expected declaration or statement at end of input
+  135 |         input.data[input
+      |         ^~~~~
+./samples/SAFE/__tmp_3c79b94f.c:135:9: error: expected declaration or statement at end of input

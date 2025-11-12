@@ -1,0 +1,143 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: loop_variants ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+
+enum State {
+    INIT,
+    READING,
+    PROCESSING,
+    OUTPUT,
+    DONE,
+    ERROR
+};
+
+struct Context {
+    enum State current_state;
+    int data_count;
+    int values[10];
+    int processed[10];
+    int output_count;
+};
+
+int validate_input(const char* input) {
+    if (input == NULL) return 0;
+    size_t len = strlen(input);
+    if (len == 0 || len > 10) return 0;
+    for (size_t i = 0; i < len; i++) {
+        if (input[i] < '0' || input[i] > '9') return 0;
+    }
+    return 1;
+}
+
+int safe_atoi(const char* str, int* result) {
+    if (str == NULL || result == NULL) return 0;
+    char* endptr;
+    long val = strtol(str, &endptr, 10);
+    if (endptr == str || *endptr != '\0') return 0;
+    if (val < -1000 || val > 1000) return 0;
+    *result = (int)val;
+    return 1;
+}
+
+void state_machine_loop(struct Context* ctx) {
+    int running = 1;
+    while (running) {
+        switch (ctx->current_state) {
+            case INIT: {
+                ctx->data_count = 0;
+                ctx->output_count = 0;
+                memset(ctx->values, 0, sizeof(ctx->values));
+                memset(ctx->processed, 0, sizeof(ctx->processed));
+                ctx->current_state = READING;
+                break;
+            }
+            
+            case READING: {
+                char input[20];
+                printf("Enter number (or 'done' to finish): ");
+                if (fgets(input, sizeof(input), stdin) == NULL) {
+                    ctx->current_state = ERROR;
+                    break;
+                }
+                
+                size_t len = strlen(input);
+                if (len > 0 && input[len-1] == '\n') {
+                    input[len-1] = '\0';
+                }
+                
+                if (strcmp(input, "done") == 0) {
+                    if (ctx->data_count > 0) {
+                        ctx->current_state = PROCESSING;
+                    } else {
+                        ctx->current_state = DONE;
+                    }
+                    break;
+                }
+                
+                if (!validate_input(input)) {
+                    printf("Invalid input. Please enter numbers only.\n");
+                    break;
+                }
+                
+                int value;
+                if (!safe_atoi(input, &value)) {
+                    printf("Invalid number range.\n");
+                    break;
+                }
+                
+                if (ctx->data_count >= 10) {
+                    printf("Maximum 10 numbers allowed.\n");
+                    ctx->current_state = PROCESSING;
+                    break;
+                }
+                
+                ctx->values[ctx->data_count] = value;
+                ctx->data_count++;
+                break;
+            }
+            
+            case PROCESSING: {
+                int i = 0;
+                while (i < ctx->data_count) {
+                    ctx->processed[i] = ctx->values[i] * 2;
+                    i++;
+                }
+                ctx->current_state = OUTPUT;
+                break;
+            }
+            
+            case OUTPUT: {
+                printf("Processed values: ");
+                for (int i = 0; i < ctx->data_count; i++) {
+                    printf("%d", ctx->processed[i]);
+                    if (i < ctx->data_count - 1) {
+                        printf(", ");
+                    }
+                }
+                printf("\n");
+                ctx->current_state = DONE;
+                break;
+            }
+            
+            case DONE: {
+                running = 0;
+                break;
+            }
+            
+            case ERROR: {
+                printf("An error occurred.\n");
+                running = 0;
+                break;
+            }
+        }
+    }
+}
+
+int main(void) {
+    struct Context ctx;
+    ctx.current_state = INIT;
+    state_machine_loop(&ctx);
+    return 0;
+}

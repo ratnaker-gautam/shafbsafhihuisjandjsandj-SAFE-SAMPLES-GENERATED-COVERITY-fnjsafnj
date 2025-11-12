@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e33da288.c: In function ‘token_type_to_string’:
+./samples/SAFE/__tmp_e33da288.c:173:9: error: expected declaration or statement at end of input
+  173 |         case TOKEN_NUMBER: return "NUMBER";
+      |         ^~~~
+./samples/SAFE/__tmp_e33da288.c:173:9: error: expected declaration or statement at end of input

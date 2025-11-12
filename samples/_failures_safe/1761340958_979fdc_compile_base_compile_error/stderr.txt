@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a46a1ff1.c: In function ‘main’:
+./samples/SAFE/__tmp_a46a1ff1.c:128:5: error: expected declaration or statement at end of input
+  128 |     int column = 1;
+      |     ^~~

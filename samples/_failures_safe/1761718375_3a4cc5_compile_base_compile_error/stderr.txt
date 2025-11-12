@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_fbce2673.c: In function ‘main’:
+./samples/SAFE/__tmp_fbce2673.c:164:5: error: expected declaration or statement at end of input
+  164 |     int start, end;
+      |     ^~~

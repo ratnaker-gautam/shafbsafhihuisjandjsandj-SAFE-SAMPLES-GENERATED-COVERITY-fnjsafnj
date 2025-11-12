@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1acb1be8.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_1acb1be8.c:139:66: error: expected ‘)’ at end of input
+  139 |     printf("Maximum severity: %d\n", analyzer->stats.max_severity
+      |           ~                                                      ^
+      |                                                                  )
+./samples/SAFE/__tmp_1acb1be8.c:139:5: error: expected declaration or statement at end of input
+  139 |     printf("Maximum severity: %d\n", analyzer->stats.max_severity
+      |     ^~~~~~

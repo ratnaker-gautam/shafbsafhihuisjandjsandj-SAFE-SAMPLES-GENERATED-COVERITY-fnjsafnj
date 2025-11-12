@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8ac3bd59.c: In function ‘freeGraph’:
+./samples/SAFE/__tmp_8ac3bd59.c:182:5: error: expected expression at end of input
+  182 |     if (!
+      |     ^~
+./samples/SAFE/__tmp_8ac3bd59.c:182:5: error: expected declaration or statement at end of input

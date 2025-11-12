@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_ada39281.c: In function ‘main’:
+./samples/SAFE/__tmp_ada39281.c:162:27: error: missing terminating " character
+  162 |     int choice = read_int("\nChoose operation:\n1. Matrix multiplication\n2. Matrix transpose\n
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ada39281.c:162:5: error: expected expression at end of input
+  162 |     int choice = read_int("\nChoose operation:\n1. Matrix multiplication\n2. Matrix transpose\n
+      |     ^~~
+./samples/SAFE/__tmp_ada39281.c:162:18: error: too few arguments to function ‘read_int’
+  162 |     int choice = read_int("\nChoose operation:\n1. Matrix multiplication\n2. Matrix transpose\n
+      |                  ^~~~~~~~
+./samples/SAFE/__tmp_ada39281.c:16:5: note: declared here
+   16 | int read_int(const char* prompt, int min, int max) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_ada39281.c:162:5: error: expected declaration or statement at end of input
+  162 |     int choice = read_int("\nChoose operation:\n1. Matrix multiplication\n2. Matrix transpose\n
+      |     ^~~

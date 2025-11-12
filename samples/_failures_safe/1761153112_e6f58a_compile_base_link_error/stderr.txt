@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccaNseyc.o: in function `calculate_expression':
+__tmp_7407ddb4.c:(.text+0x186): undefined reference to `fmod'
+/usr/bin/ld: __tmp_7407ddb4.c:(.text+0xcb): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

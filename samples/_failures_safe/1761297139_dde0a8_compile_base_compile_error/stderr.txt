@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_4a689baa.c: In function ‘main’:
+./samples/SAFE/__tmp_4a689baa.c:138:24: error: ‘ed’ undeclared (first use in this function); did you mean ‘ed3’?
+  138 |     ed3.message[sizeof(ed
+      |                        ^~
+      |                        ed3
+./samples/SAFE/__tmp_4a689baa.c:138:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4a689baa.c:138:26: error: expected ‘)’ at end of input
+  138 |     ed3.message[sizeof(ed
+      |                       ~  ^
+      |                          )
+./samples/SAFE/__tmp_4a689baa.c:138:5: error: expected declaration or statement at end of input
+  138 |     ed3.message[sizeof(ed
+      |     ^~~

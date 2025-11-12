@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_67b7469e.c: In function ‘read_matrix’:
+./samples/SAFE/__tmp_67b7469e.c:128:27: error: expected ‘]’ at end of input
+  128 |             char prompt[64
+      |                           ^
+      |                           ]
+./samples/SAFE/__tmp_67b7469e.c:128:13: error: expected declaration or statement at end of input
+  128 |             char prompt[64
+      |             ^~~~
+./samples/SAFE/__tmp_67b7469e.c:128:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_67b7469e.c:128:13: error: expected declaration or statement at end of input

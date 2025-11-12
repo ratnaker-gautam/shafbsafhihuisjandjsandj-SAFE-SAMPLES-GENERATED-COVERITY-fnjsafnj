@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2226adae.c: In function ‘main’:
+./samples/SAFE/__tmp_2226adae.c:179:21: error: expected expression at end of input
+  179 |                     if (choice == 1)
+      |                     ^~
+./samples/SAFE/__tmp_2226adae.c:179:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2226adae.c:179:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2226adae.c:179:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2226adae.c:179:21: error: expected declaration or statement at end of input

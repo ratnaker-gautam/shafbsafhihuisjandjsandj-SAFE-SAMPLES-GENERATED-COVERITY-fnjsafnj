@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6bd68ed9.c: In function ‘parser_expression’:
+./samples/SAFE/__tmp_6bd68ed9.c:175:46: error: expected ‘)’ at end of input
+  175 |     while (parser->current.type == TOKEN_PLUS
+      |           ~                                  ^
+      |                                              )
+./samples/SAFE/__tmp_6bd68ed9.c:175:5: error: expected declaration or statement at end of input
+  175 |     while (parser->current.type == TOKEN_PLUS
+      |     ^~~~~

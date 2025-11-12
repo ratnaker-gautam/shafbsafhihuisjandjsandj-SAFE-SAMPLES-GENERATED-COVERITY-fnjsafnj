@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c45a8f16.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_c45a8f16.c:165:12: error: missing terminating " character
+  165 |     printf("B
+      |            ^~
+./samples/SAFE/__tmp_c45a8f16.c:165:5: error: expected expression at end of input
+  165 |     printf("B
+      |     ^~~~~~
+./samples/SAFE/__tmp_c45a8f16.c:165:5: error: expected declaration or statement at end of input

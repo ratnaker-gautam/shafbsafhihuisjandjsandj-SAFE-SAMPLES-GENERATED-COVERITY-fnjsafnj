@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_6873effb.c: In function ‘main’:
+./samples/SAFE/__tmp_6873effb.c:173:27: error: expected ‘)’ at end of input
+  173 |         print_token(&token
+      |                    ~      ^
+      |                           )
+./samples/SAFE/__tmp_6873effb.c:173:9: error: expected declaration or statement at end of input
+  173 |         print_token(&token
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_6873effb.c:173:9: error: expected declaration or statement at end of input

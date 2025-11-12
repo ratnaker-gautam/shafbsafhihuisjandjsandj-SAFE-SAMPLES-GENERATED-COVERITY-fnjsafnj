@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_3a603239.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_3a603239.c:191:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  191 |             State next_state
+      |             ^~~~~
+./samples/SAFE/__tmp_3a603239.c:191:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3a603239.c:191:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3a603239.c:191:13: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_7b368379.c: In function ‘create_tetrahedron’:
+./samples/SAFE/__tmp_7b368379.c:137:10: error: ‘struct Mesh’ has no member named ‘vertex’; did you mean ‘vertices’?
+  137 |     mesh.vertex
+      |          ^~~~~~
+      |          vertices
+./samples/SAFE/__tmp_7b368379.c:137:16: error: expected ‘;’ at end of input
+  137 |     mesh.vertex
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_7b368379.c:137:5: error: expected declaration or statement at end of input
+  137 |     mesh.vertex
+      |     ^~~~

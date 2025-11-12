@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_e262281e.c: In function ‘main’:
+./samples/SAFE/__tmp_e262281e.c:130:36: error: ‘MIN_D’ undeclared (first use in this function); did you mean ‘MIN_DIM’?
+  130 |     mat2.rows = read_int("Rows: ", MIN_D
+      |                                    ^~~~~
+      |                                    MIN_DIM
+./samples/SAFE/__tmp_e262281e.c:130:36: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e262281e.c:130:41: error: expected ‘)’ at end of input
+  130 |     mat2.rows = read_int("Rows: ", MIN_D
+      |                         ~               ^
+      |                                         )
+./samples/SAFE/__tmp_e262281e.c:130:17: error: too few arguments to function ‘read_int’
+  130 |     mat2.rows = read_int("Rows: ", MIN_D
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_e262281e.c:29:5: note: declared here
+   29 | int read_int(const char* prompt, int min_val, int max_val) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_e262281e.c:130:5: error: expected declaration or statement at end of input
+  130 |     mat2.rows = read_int("Rows: ", MIN_D
+      |     ^~~~

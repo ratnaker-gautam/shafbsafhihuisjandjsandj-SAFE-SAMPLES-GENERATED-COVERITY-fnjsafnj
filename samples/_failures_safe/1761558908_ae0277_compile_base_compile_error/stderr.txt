@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_01c1a78b.c: In function ‘main’:
+./samples/SAFE/__tmp_01c1a78b.c:157:21: error: ‘MAX_B’ undeclared (first use in this function)
+  157 |     if (input_len > MAX_B
+      |                     ^~~~~
+./samples/SAFE/__tmp_01c1a78b.c:157:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_01c1a78b.c:157:26: error: expected ‘)’ at end of input
+  157 |     if (input_len > MAX_B
+      |        ~                 ^
+      |                          )
+./samples/SAFE/__tmp_01c1a78b.c:157:5: error: expected declaration or statement at end of input
+  157 |     if (input_len > MAX_B
+      |     ^~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3ea741ad.c: In function ‘load_log_file’:
+./samples/SAFE/__tmp_3ea741ad.c:125:9: error: expected declaration or statement at end of input
+  125 |         line_number++;
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_3ea741ad.c:125:9: error: expected declaration or statement at end of input

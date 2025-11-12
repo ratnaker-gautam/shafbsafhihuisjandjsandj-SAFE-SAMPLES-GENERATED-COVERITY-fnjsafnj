@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_5fcd56f0.c: In function ‘main’:
+./samples/SAFE/__tmp_5fcd56f0.c:148:10: error: ‘get’ undeclared (first use in this function); did you mean ‘getc’?
+  148 |     if (!get
+      |          ^~~
+      |          getc
+./samples/SAFE/__tmp_5fcd56f0.c:148:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5fcd56f0.c:148:13: error: expected ‘)’ at end of input
+  148 |     if (!get
+      |        ~    ^
+      |             )
+./samples/SAFE/__tmp_5fcd56f0.c:148:5: error: expected declaration or statement at end of input
+  148 |     if (!get
+      |     ^~

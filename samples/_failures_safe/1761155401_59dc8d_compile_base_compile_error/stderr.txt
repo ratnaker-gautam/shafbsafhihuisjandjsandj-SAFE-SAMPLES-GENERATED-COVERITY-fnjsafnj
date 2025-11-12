@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ea8c1f20.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_ea8c1f20.c:156:15: error: expected ‘)’ at end of input
+  156 |     if (n == 1
+      |        ~      ^
+      |               )
+./samples/SAFE/__tmp_ea8c1f20.c:156:5: error: expected declaration or statement at end of input
+  156 |     if (n == 1
+      |     ^~

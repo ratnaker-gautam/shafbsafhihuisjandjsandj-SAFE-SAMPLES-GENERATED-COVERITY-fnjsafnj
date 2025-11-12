@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_539551a6.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_539551a6.c:170: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_539551a6.c:169:31: note: to match this ‘{’
+  169 |             char unknown[2] = {advance
+      |                               ^
+./samples/SAFE/__tmp_539551a6.c:169:13: error: expected declaration or statement at end of input
+  169 |             char unknown[2] = {advance
+      |             ^~~~
+./samples/SAFE/__tmp_539551a6.c:169:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_539551a6.c:169:13: error: expected declaration or statement at end of input

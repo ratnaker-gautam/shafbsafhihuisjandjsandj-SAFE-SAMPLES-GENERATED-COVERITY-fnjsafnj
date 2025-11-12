@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_aeca0bc6.c: In function ‘main’:
+./samples/SAFE/__tmp_aeca0bc6.c:143: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_aeca0bc6.c:142:14: note: to match this ‘(’
+  142 |     if (fgets(line, sizeof(line), stdin
+      |              ^
+./samples/SAFE/__tmp_aeca0bc6.c:142:5: error: expected declaration or statement at end of input
+  142 |     if (fgets(line, sizeof(line), stdin
+      |     ^~

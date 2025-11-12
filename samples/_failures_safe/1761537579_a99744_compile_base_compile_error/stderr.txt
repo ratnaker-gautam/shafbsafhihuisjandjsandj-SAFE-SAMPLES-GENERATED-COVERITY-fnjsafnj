@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_e42eadd9.c: In function ‘print_entries_by_level’:
+./samples/SAFE/__tmp_e42eadd9.c:131:10: error: ‘uint32’ undeclared (first use in this function); did you mean ‘uint32_t’?
+  131 |     for (uint32
+      |          ^~~~~~
+      |          uint32_t
+./samples/SAFE/__tmp_e42eadd9.c:131:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e42eadd9.c:131:16: error: expected ‘;’ at end of input
+  131 |     for (uint32
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_e42eadd9.c:131:5: error: expected declaration or statement at end of input
+  131 |     for (uint32
+      |     ^~~

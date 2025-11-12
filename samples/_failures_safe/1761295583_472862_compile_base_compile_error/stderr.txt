@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1f76754b.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_1f76754b.c:163:9: error: expected identifier at end of input
+  163 |         char c = lexer->input[lexer->
+      |         ^~~~
+./samples/SAFE/__tmp_1f76754b.c:163:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1f76754b.c:163:9: error: expected declaration or statement at end of input

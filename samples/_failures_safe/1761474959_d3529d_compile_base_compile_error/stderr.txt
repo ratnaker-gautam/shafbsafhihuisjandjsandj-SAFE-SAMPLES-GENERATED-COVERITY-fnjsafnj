@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_87040b41.c: In function ‘main’:
+./samples/SAFE/__tmp_87040b41.c:126:13: error: expected declaration or statement at end of input
+  126 |             if (strcmp(entries[i].timestamp, earliest) < 0) {
+      |             ^~
+./samples/SAFE/__tmp_87040b41.c:126:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_87040b41.c:126:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_87040b41.c:126:13: error: expected declaration or statement at end of input

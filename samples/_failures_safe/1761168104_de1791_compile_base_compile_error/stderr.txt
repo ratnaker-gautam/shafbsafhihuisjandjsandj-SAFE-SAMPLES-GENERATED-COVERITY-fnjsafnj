@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_fc5586f4.c: In function ‘main’:
+./samples/SAFE/__tmp_fc5586f4.c:139:30: error: expected ‘)’ at end of input
+  139 |     if (find_shortest_path(&g
+      |                           ~  ^
+      |                              )
+./samples/SAFE/__tmp_fc5586f4.c:139:9: error: too few arguments to function ‘find_shortest_path’
+  139 |     if (find_shortest_path(&g
+      |         ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_fc5586f4.c:60:5: note: declared here
+   60 | int find_shortest_path(struct Graph *g, int start, int end, int *path, int *path_len) {
+      |     ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_fc5586f4.c:139:5: error: expected declaration or statement at end of input
+  139 |     if (find_shortest_path(&g
+      |     ^~

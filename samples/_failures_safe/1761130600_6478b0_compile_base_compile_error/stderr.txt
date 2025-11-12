@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_420452da.c:164:1: error: expected ‘{’ at end of input
+  164 | void free_graph(struct
+      | ^~~~

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ebdd0990.c: In function ‘main’:
+./samples/SAFE/__tmp_ebdd0990.c:157:9: error: aggregate value used where a floating-point was expected
+  157 |         float ratio = ((float)ctx.header
+      |         ^~~~~
+./samples/SAFE/__tmp_ebdd0990.c:157:41: error: expected ‘)’ at end of input
+  157 |         float ratio = ((float)ctx.header
+      |                       ~                 ^
+      |                                         )
+./samples/SAFE/__tmp_ebdd0990.c:157:9: error: expected declaration or statement at end of input
+  157 |         float ratio = ((float)ctx.header
+      |         ^~~~~
+./samples/SAFE/__tmp_ebdd0990.c:157:9: error: expected declaration or statement at end of input

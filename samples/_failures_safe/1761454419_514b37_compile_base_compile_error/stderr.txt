@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_2084e45a.c: In function ‘main’:
+./samples/SAFE/__tmp_2084e45a.c:133:32: error: expected ‘;’ at end of input
+  133 |             result_cols = cols1
+      |                                ^
+      |                                ;
+./samples/SAFE/__tmp_2084e45a.c:133:13: error: expected declaration or statement at end of input
+  133 |             result_cols = cols1
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_2084e45a.c:133:13: error: expected declaration or statement at end of input

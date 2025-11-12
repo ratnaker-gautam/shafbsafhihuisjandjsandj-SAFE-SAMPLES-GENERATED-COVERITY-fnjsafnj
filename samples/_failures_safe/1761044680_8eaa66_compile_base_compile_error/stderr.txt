@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2c4d434b.c:176:46: error: unknown type name ‘event’; did you mean ‘event_t’?
+  176 | static state_t process_event(context_t *ctx, event
+      |                                              ^~~~~
+      |                                              event_t

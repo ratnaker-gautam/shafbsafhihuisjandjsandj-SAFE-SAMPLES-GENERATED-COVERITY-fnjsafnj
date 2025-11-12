@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_571d1b79.c: In function ‘main’:
+./samples/SAFE/__tmp_571d1b79.c:155:9: error: ‘graph’ undeclared (first use in this function); did you mean ‘Graph’?
+  155 |     if (graph
+      |         ^~~~~
+      |         Graph
+./samples/SAFE/__tmp_571d1b79.c:155:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_571d1b79.c:155:14: error: expected ‘)’ at end of input
+  155 |     if (graph
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_571d1b79.c:155:5: error: expected declaration or statement at end of input
+  155 |     if (graph
+      |     ^~

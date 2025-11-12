@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f42563b5.c: In function ‘main’:
+./samples/SAFE/__tmp_f42563b5.c:148:46: error: expected ‘]’ at end of input
+  148 |                 printf("%s [%s] %s\n", logs[i
+      |                                              ^
+      |                                              ]
+./samples/SAFE/__tmp_f42563b5.c:148:17: error: expected declaration or statement at end of input
+  148 |                 printf("%s [%s] %s\n", logs[i
+      |                 ^~~~~~
+./samples/SAFE/__tmp_f42563b5.c:148:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f42563b5.c:148:17: error: expected declaration or statement at end of input

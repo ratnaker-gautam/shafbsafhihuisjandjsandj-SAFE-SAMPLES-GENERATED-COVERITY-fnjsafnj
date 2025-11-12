@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/cccDM0Nj.o: in function `fill_matrix':
+__tmp_80726779.c:(.text+0x183): undefined reference to `sin'
+/usr/bin/ld: __tmp_80726779.c:(.text+0x19a): undefined reference to `cos'
+/usr/bin/ld: /tmp/cccDM0Nj.o: in function `main':
+__tmp_80726779.c:(.text.startup+0x184): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

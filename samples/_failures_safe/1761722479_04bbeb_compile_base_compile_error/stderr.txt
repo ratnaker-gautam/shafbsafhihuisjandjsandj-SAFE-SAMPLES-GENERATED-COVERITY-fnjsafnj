@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_285d0b0b.c: In function ‘main’:
+./samples/SAFE/__tmp_285d0b0b.c:156:54: error: expected ‘)’ at end of input
+  156 |     printf("Compressed size: %zu bytes\n", compressed
+      |           ~                                          ^
+      |                                                      )
+./samples/SAFE/__tmp_285d0b0b.c:156:5: error: expected declaration or statement at end of input
+  156 |     printf("Compressed size: %zu bytes\n", compressed
+      |     ^~~~~~

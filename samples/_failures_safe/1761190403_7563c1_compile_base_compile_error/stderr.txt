@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9f3e3504.c: In function ‘execute_operation’:
+./samples/SAFE/__tmp_9f3e3504.c:144:1: error: expected declaration or statement at end of input
+  144 | void execute_operation(Graph *g, GraphOperation op, int param1, int param2) {
+      | ^~~~

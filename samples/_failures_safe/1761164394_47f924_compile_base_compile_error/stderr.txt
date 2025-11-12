@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c1cb0b4b.c: In function ‘main’:
+./samples/SAFE/__tmp_c1cb0b4b.c:149:9: error: expected declaration or statement at end of input
+  149 |         print_state_info(&sm);
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c1cb0b4b.c:149:9: error: expected declaration or statement at end of input

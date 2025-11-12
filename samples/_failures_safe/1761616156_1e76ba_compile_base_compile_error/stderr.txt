@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_a1cf9f17.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_a1cf9f17.c:168:13: error: expected expression at end of input
+  168 |             column += (pos -
+      |             ^~~~~~
+./samples/SAFE/__tmp_a1cf9f17.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a1cf9f17.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a1cf9f17.c:168:13: error: expected declaration or statement at end of input

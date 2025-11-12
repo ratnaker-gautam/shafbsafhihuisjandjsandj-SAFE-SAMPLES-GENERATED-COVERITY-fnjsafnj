@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_fc300d46.c: In function ‘print_errors’:
+./samples/SAFE/__tmp_fc300d46.c:153:32: error: expected declaration or statement at end of input
+  153 | void print_errors(const struct LogAnalyzer *analyzer) {
+      |                                ^~~~~~~~~~~

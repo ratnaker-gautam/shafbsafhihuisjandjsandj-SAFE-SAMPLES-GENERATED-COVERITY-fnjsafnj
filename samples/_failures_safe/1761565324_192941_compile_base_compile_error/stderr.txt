@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_2e364080.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_2e364080.c:155:48: error: expected ‘)’ at end of input
+  155 |         add_token(state, TOKEN_UNKNOWN, unknown
+      |                  ~                             ^
+      |                                                )
+./samples/SAFE/__tmp_2e364080.c:155:9: error: expected declaration or statement at end of input
+  155 |         add_token(state, TOKEN_UNKNOWN, unknown
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_2e364080.c:155:9: error: expected declaration or statement at end of input

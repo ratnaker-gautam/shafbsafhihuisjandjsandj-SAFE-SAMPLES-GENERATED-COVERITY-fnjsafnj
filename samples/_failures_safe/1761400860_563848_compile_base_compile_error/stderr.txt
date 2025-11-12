@@ -1,0 +1,22 @@
+./samples/SAFE/__tmp_f86b9942.c: In function ‘main’:
+./samples/SAFE/__tmp_f86b9942.c:146:68: error: expected ‘)’ at end of input
+  146 |     size_t compressed_size = compress_rle(input_buf.data, input_buf
+      |                                          ~                         ^
+      |                                                                    )
+./samples/SAFE/__tmp_f86b9942.c:146:59: error: incompatible type for argument 2 of ‘compress_rle’
+  146 |     size_t compressed_size = compress_rle(input_buf.data, input_buf
+      |                                                           ^~~~~~~~~
+      |                                                           |
+      |                                                           Buffer
+./samples/SAFE/__tmp_f86b9942.c:50:56: note: expected ‘size_t’ {aka ‘long unsigned int’} but argument is of type ‘Buffer’
+   50 | size_t compress_rle(const unsigned char *input, size_t input_len, unsigned char *output, size_t output_capacity) {
+      |                                                 ~~~~~~~^~~~~~~~~
+./samples/SAFE/__tmp_f86b9942.c:146:30: error: too few arguments to function ‘compress_rle’
+  146 |     size_t compressed_size = compress_rle(input_buf.data, input_buf
+      |                              ^~~~~~~~~~~~
+./samples/SAFE/__tmp_f86b9942.c:50:8: note: declared here
+   50 | size_t compress_rle(const unsigned char *input, size_t input_len, unsigned char *output, size_t output_capacity) {
+      |        ^~~~~~~~~~~~
+./samples/SAFE/__tmp_f86b9942.c:146:5: error: expected declaration or statement at end of input
+  146 |     size_t compressed_size = compress_rle(input_buf.data, input_buf
+      |     ^~~~~~

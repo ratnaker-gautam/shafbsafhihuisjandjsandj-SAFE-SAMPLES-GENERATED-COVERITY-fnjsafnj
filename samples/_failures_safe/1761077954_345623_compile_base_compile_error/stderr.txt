@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6f669ebc.c: In function ‘main’:
+./samples/SAFE/__tmp_6f669ebc.c:129:5: error: expected declaration or statement at end of input
+  129 |     if (hex_len % 2 != 0 || hex_len > MAX_INPUT_SIZE * 2) {
+      |     ^~
+./samples/SAFE/__tmp_6f669ebc.c:129:5: error: expected declaration or statement at end of input

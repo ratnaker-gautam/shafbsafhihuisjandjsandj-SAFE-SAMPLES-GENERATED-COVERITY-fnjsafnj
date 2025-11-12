@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0bea5bf9.c: In function ‘main’:
+./samples/SAFE/__tmp_0bea5bf9.c:155:5: error: expected declaration or statement at end of input
+  155 |     printf("Enter choice (0-3): ");
+      |     ^~~~~~

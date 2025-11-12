@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_506e012e.c: In function ‘main’:
+./samples/SAFE/__tmp_506e012e.c:153:21: error: expected ‘)’ at end of input
+  153 |         if (!addEdge
+      |            ~        ^
+      |                     )
+./samples/SAFE/__tmp_506e012e.c:153:9: error: expected declaration or statement at end of input
+  153 |         if (!addEdge
+      |         ^~
+./samples/SAFE/__tmp_506e012e.c:153:9: error: expected declaration or statement at end of input

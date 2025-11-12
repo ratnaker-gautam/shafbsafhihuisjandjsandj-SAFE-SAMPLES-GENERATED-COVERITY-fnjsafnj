@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e772c3c9.c: In function ‘main’:
+./samples/SAFE/__tmp_e772c3c9.c:141:5: error: expected declaration or statement at end of input
+  141 |     printf("Decompression successful. Original text: %s\n", (char*)decompressed.data);
+      |     ^~~~~~

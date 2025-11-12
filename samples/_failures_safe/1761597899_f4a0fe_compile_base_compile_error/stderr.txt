@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ea88f456.c: In function ‘peek_token’:
+./samples/SAFE/__tmp_ea88f456.c:174: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_ea88f456.c:173:5: error: expected declaration or statement at end of input
+  173 |     if
+      |     ^~

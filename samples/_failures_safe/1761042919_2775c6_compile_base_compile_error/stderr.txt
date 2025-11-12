@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_77ace7ed.c: In function ‘print_compression_stats’:
+./samples/SAFE/__tmp_77ace7ed.c:159:72: error: ‘const struct CompressionHeader’ has no member named ‘original’; did you mean ‘original_size’?
+  159 |         float ratio = (float)ctx->header.compressed_size / ctx->header.original
+      |                                                                        ^~~~~~~~
+      |                                                                        original_size
+./samples/SAFE/__tmp_77ace7ed.c:159:9: error: expected ‘,’ or ‘;’ at end of input
+  159 |         float ratio = (float)ctx->header.compressed_size / ctx->header.original
+      |         ^~~~~
+./samples/SAFE/__tmp_77ace7ed.c:159:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_77ace7ed.c:159:9: error: expected declaration or statement at end of input

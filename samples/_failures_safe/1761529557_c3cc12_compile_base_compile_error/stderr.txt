@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_67dac0b6.c: In function ‘main’:
+./samples/SAFE/__tmp_67dac0b6.c:149:13: error: ‘level’ undeclared (first use in this function)
+  149 |         if (level
+      |             ^~~~~
+./samples/SAFE/__tmp_67dac0b6.c:149:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_67dac0b6.c:149:18: error: expected ‘)’ at end of input
+  149 |         if (level
+      |            ~     ^
+      |                  )
+./samples/SAFE/__tmp_67dac0b6.c:149:9: error: expected declaration or statement at end of input
+  149 |         if (level
+      |         ^~
+./samples/SAFE/__tmp_67dac0b6.c:149:9: error: expected declaration or statement at end of input

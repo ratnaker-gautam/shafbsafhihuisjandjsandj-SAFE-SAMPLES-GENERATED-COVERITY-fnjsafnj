@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5f2753d9.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_5f2753d9.c:139:56: error: expected ‘)’ at end of input
+  139 |     printf("Most frequent level: %s\n", analyzer->stats
+      |           ~                                            ^
+      |                                                        )
+./samples/SAFE/__tmp_5f2753d9.c:139:5: error: expected declaration or statement at end of input
+  139 |     printf("Most frequent level: %s\n", analyzer->stats
+      |     ^~~~~~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_82090389.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_82090389.c:171:14: error: expected ‘]’ at end of input
+  171 |     value[len
+      |              ^
+      |              ]
+./samples/SAFE/__tmp_82090389.c:171:5: error: expected declaration or statement at end of input
+  171 |     value[len
+      |     ^~~~~

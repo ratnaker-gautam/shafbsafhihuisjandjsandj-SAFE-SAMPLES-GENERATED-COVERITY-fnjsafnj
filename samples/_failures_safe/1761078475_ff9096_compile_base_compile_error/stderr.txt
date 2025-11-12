@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d38dcbb8.c: In function ‘write_data’:
+./samples/SAFE/__tmp_d38dcbb8.c:128:5: error: expected declaration or statement at end of input
+  128 |     for (size_t i = 0; i < sm->processed_count; i++) {
+      |     ^~~
+./samples/SAFE/__tmp_d38dcbb8.c:128:5: error: expected declaration or statement at end of input

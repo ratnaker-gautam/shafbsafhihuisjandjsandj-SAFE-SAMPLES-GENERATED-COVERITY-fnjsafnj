@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9ef9204b.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_9ef9204b.c:150:5: error: expected expression at end of input
+  150 |     parser->current_token = lexer_next_token(
+      |     ^~~~~~
+./samples/SAFE/__tmp_9ef9204b.c:150:5: error: expected declaration or statement at end of input

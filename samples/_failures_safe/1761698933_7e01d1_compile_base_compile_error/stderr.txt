@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_3fec7a14.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_3fec7a14.c:151:53: error: ‘lex’ undeclared (first use in this function); did you mean ‘lexer’?
+  151 |             token.value[value_pos++] = lexer->input[lex
+      |                                                     ^~~
+      |                                                     lexer
+./samples/SAFE/__tmp_3fec7a14.c:151:53: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3fec7a14.c:151:56: error: expected ‘]’ at end of input
+  151 |             token.value[value_pos++] = lexer->input[lex
+      |                                                        ^
+      |                                                        ]
+./samples/SAFE/__tmp_3fec7a14.c:151:13: error: expected declaration or statement at end of input
+  151 |             token.value[value_pos++] = lexer->input[lex
+      |             ^~~~~
+./samples/SAFE/__tmp_3fec7a14.c:151:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3fec7a14.c:151:13: error: expected declaration or statement at end of input

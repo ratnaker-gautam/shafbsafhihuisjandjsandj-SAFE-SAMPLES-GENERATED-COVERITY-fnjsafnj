@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_a781d134.c: In function ‘main’:
+./samples/SAFE/__tmp_a781d134.c:146:36: error: expected ‘)’ at end of input
+  146 |     if (fgets(buffer, sizeof(buffer
+      |                             ~      ^
+      |                                    )
+./samples/SAFE/__tmp_a781d134.c:146:9: error: too few arguments to function ‘fgets’
+  146 |     if (fgets(buffer, sizeof(buffer
+      |         ^~~~~
+In file included from /usr/include/stdio.h:980,
+                 from ./samples/SAFE/__tmp_a781d134.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:196:1: note: declared here
+  196 | fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      | ^~~~~
+./samples/SAFE/__tmp_a781d134.c:146:5: error: expected declaration or statement at end of input
+  146 |     if (fgets(buffer, sizeof(buffer
+      |     ^~

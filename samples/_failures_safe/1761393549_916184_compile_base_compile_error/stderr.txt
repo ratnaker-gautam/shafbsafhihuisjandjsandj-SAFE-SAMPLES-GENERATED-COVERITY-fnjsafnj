@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_4b4364a5.c: In function ‘tokenize_operator’:
+./samples/SAFE/__tmp_4b4364a5.c:152:5: error: ‘size’ undeclared (first use in this function); did you mean ‘size_t’?
+  152 |     size
+      |     ^~~~
+      |     size_t
+./samples/SAFE/__tmp_4b4364a5.c:152:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4b4364a5.c:152:9: error: expected ‘;’ at end of input
+  152 |     size
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_4b4364a5.c:152:5: error: expected declaration or statement at end of input
+  152 |     size
+      |     ^~~~

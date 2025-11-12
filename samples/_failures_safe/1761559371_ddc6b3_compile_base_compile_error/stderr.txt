@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_b16355a5.c: In function ‘read_log_file’:
+./samples/SAFE/__tmp_b16355a5.c:123:26: error: ‘analy’ undeclared (first use in this function)
+  123 |             update_stats(analy
+      |                          ^~~~~
+./samples/SAFE/__tmp_b16355a5.c:123:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b16355a5.c:123:31: error: expected ‘)’ at end of input
+  123 |             update_stats(analy
+      |                         ~     ^
+      |                               )
+./samples/SAFE/__tmp_b16355a5.c:123:13: error: too few arguments to function ‘update_stats’
+  123 |             update_stats(analy
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_b16355a5.c:86:6: note: declared here
+   86 | void update_stats(struct LogAnalyzer *analyzer, const struct LogEntry *entry) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_b16355a5.c:123:13: error: expected declaration or statement at end of input
+  123 |             update_stats(analy
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_b16355a5.c:123:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b16355a5.c:123:13: error: expected declaration or statement at end of input

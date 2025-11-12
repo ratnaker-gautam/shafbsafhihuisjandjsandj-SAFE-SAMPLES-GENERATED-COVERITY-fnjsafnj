@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_89e9f013.c:139:1: error: expected ‘{’ at end of input
+  139 | void handle_error(struct
+      | ^~~~

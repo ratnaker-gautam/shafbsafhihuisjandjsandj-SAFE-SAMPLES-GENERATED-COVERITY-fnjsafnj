@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_391ad31c.c: In function ‘main’:
+./samples/SAFE/__tmp_391ad31c.c:146:5: error: expected declaration or statement at end of input
+  146 |     printf("\nVector Operations:\n");
+      |     ^~~~~~

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_aa375f0b.c: In function ‘bfs’:
+./samples/SAFE/__tmp_aa375f0b.c:165:13: error: expected expression at end of input
+  165 |             if (neighbor &&
+      |             ^~
+./samples/SAFE/__tmp_aa375f0b.c:165:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_aa375f0b.c:165:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_aa375f0b.c:165:13: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c2cdcc22.c: In function ‘main’:
+./samples/SAFE/__tmp_c2cdcc22.c:135:5: error: expected declaration or statement at end of input
+  135 |     int choice;
+      |     ^~~

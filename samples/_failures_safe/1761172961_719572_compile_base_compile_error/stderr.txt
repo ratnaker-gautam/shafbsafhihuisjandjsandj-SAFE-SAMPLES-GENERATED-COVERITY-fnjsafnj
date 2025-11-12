@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_14f087fd.c: In function ‘main’:
+./samples/SAFE/__tmp_14f087fd.c:130:69: error: ‘vec’ undeclared (first use in this function); did you mean ‘vec2’?
+  130 |     struct Vector3D rotated_vec1 = matrix_vector_multiply(rotation, vec
+      |                                                                     ^~~
+      |                                                                     vec2
+./samples/SAFE/__tmp_14f087fd.c:130:69: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_14f087fd.c:130:72: error: expected ‘)’ at end of input
+  130 |     struct Vector3D rotated_vec1 = matrix_vector_multiply(rotation, vec
+      |                                                          ~             ^
+      |                                                                        )
+./samples/SAFE/__tmp_14f087fd.c:130:12: error: expected declaration or statement at end of input
+  130 |     struct Vector3D rotated_vec1 = matrix_vector_multiply(rotation, vec
+      |            ^~~~~~~~

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_38c79eb7.c: In function ‘main’:
+./samples/SAFE/__tmp_38c79eb7.c:173:37: error: expected ‘)’ at end of input
+  173 |     int token_count = tokenize(input
+      |                               ~     ^
+      |                                     )
+./samples/SAFE/__tmp_38c79eb7.c:173:23: error: too few arguments to function ‘tokenize’
+  173 |     int token_count = tokenize(input
+      |                       ^~~~~~~~
+./samples/SAFE/__tmp_38c79eb7.c:97:5: note: declared here
+   97 | int tokenize(const char *input, struct Token *tokens, int max_tokens) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_38c79eb7.c:173:5: error: expected declaration or statement at end of input
+  173 |     int token_count = tokenize(input
+      |     ^~~

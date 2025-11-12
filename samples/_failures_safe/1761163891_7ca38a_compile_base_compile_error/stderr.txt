@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a0fc674b.c: In function ‘parse_string’:
+./samples/SAFE/__tmp_a0fc674b.c:151:49: error: expected ‘)’ at end of input
+  151 |     while (lexer->input[lexer->position] != '\0'
+      |           ~                                     ^
+      |                                                 )
+./samples/SAFE/__tmp_a0fc674b.c:151:5: error: expected declaration or statement at end of input
+  151 |     while (lexer->input[lexer->position] != '\0'
+      |     ^~~~~

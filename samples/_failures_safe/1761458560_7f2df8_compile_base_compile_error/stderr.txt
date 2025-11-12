@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f894d85a.c: In function ‘main’:
+./samples/SAFE/__tmp_f894d85a.c:155:5: error: expected declaration or statement at end of input
+  155 |     graph.edges[5].dest = 4;
+      |     ^~~~~

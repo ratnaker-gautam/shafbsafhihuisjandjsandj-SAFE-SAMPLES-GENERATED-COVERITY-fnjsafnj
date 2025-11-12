@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1a697075.c: In function ‘main’:
+./samples/SAFE/__tmp_1a697075.c:147: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_1a697075.c:146:20: note: to match this ‘{’
+  146 |     int events[] = {start_evt, pause_evt, resume_evt
+      |                    ^
+./samples/SAFE/__tmp_1a697075.c:146:5: error: expected declaration or statement at end of input
+  146 |     int events[] = {start_evt, pause_evt, resume_evt
+      |     ^~~

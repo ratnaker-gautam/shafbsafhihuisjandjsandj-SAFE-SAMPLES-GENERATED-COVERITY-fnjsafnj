@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_51310a46.c: In function ‘read_matrix’:
+./samples/SAFE/__tmp_51310a46.c:128:5: error: expected expression at end of input
+  128 |     mat = create_matrix(rows,
+      |     ^~~
+./samples/SAFE/__tmp_51310a46.c:128:5: error: expected declaration or statement at end of input

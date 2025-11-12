@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_4a60ec2c.c: In function ‘main’:
+./samples/SAFE/__tmp_4a60ec2c.c:128:65: error: expected ‘]’ at end of input
+  128 |         char timestamp[32], level[MAX_LEVEL_LENGTH], message[256
+      |                                                                 ^
+      |                                                                 ]
+./samples/SAFE/__tmp_4a60ec2c.c:128:9: error: expected declaration or statement at end of input
+  128 |         char timestamp[32], level[MAX_LEVEL_LENGTH], message[256
+      |         ^~~~
+./samples/SAFE/__tmp_4a60ec2c.c:128:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2e5682d4.c: In function ‘main’:
+./samples/SAFE/__tmp_2e5682d4.c:137:9: error: expected declaration or statement at end of input
+  137 |         printf("Error reading matrix data\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_2e5682d4.c:137:9: error: expected declaration or statement at end of input

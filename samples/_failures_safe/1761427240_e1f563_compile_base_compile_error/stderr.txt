@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d60752fc.c: In function ‘main’:
+./samples/SAFE/__tmp_d60752fc.c:161:58: error: expected ‘)’ at end of input
+  161 |     enum State final_state = transition(&ctx, input, 0, 0
+      |                                        ~                 ^
+      |                                                          )
+./samples/SAFE/__tmp_d60752fc.c:161:10: error: expected declaration or statement at end of input
+  161 |     enum State final_state = transition(&ctx, input, 0, 0
+      |          ^~~~~

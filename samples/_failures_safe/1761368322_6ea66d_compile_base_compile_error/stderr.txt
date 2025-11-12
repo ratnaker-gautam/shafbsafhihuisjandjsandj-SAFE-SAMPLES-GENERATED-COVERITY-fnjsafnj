@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_02ba2399.c: In function ‘process_log_file’:
+./samples/SAFE/__tmp_02ba2399.c:142:13: error: expected identifier at end of input
+  142 |             if (analyzer->
+      |             ^~
+./samples/SAFE/__tmp_02ba2399.c:142:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_02ba2399.c:142:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_02ba2399.c:142:13: error: expected declaration or statement at end of input

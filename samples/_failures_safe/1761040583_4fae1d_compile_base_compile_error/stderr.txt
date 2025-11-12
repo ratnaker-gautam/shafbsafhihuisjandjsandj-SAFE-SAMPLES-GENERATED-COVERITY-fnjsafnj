@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_445f3ce3.c: In function ‘main’:
+./samples/SAFE/__tmp_445f3ce3.c:147:9: error: expected declaration or statement at end of input
+  147 |         switch (choice) {
+      |         ^~~~~~
+./samples/SAFE/__tmp_445f3ce3.c:147:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_445f3ce3.c:147:9: error: expected declaration or statement at end of input

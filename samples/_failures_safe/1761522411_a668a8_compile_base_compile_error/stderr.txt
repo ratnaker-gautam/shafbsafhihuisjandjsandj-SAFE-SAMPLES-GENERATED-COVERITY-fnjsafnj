@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_7111d181.c: In function ‘main’:
+./samples/SAFE/__tmp_7111d181.c:180:26: error: ‘compress_n’ undeclared (first use in this function); did you mean ‘compress_lzw’?
+  180 |                 result = compress_n
+      |                          ^~~~~~~~~~
+      |                          compress_lzw
+./samples/SAFE/__tmp_7111d181.c:180:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7111d181.c:180:36: error: expected ‘;’ at end of input
+  180 |                 result = compress_n
+      |                                    ^
+      |                                    ;
+./samples/SAFE/__tmp_7111d181.c:180:17: error: expected declaration or statement at end of input
+  180 |                 result = compress_n
+      |                 ^~~~~~
+./samples/SAFE/__tmp_7111d181.c:180:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7111d181.c:180:17: error: expected declaration or statement at end of input

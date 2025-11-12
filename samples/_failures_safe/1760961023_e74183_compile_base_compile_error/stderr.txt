@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ce4f1e4a.c: In function ‘main’:
+./samples/SAFE/__tmp_ce4f1e4a.c:133:5: error: expected declaration or statement at end of input
+  133 |     printf("4: Determinant (2x2 only)\n");
+      |     ^~~~~~

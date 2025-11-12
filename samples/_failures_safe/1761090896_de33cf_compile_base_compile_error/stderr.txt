@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8f3e47ed.c: In function ‘main’:
+./samples/SAFE/__tmp_8f3e47ed.c:155:33: error: expected ‘)’ at end of input
+  155 |     initialize_state_machine(&sm
+      |                             ~   ^
+      |                                 )
+./samples/SAFE/__tmp_8f3e47ed.c:155:5: error: expected declaration or statement at end of input
+  155 |     initialize_state_machine(&sm
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~

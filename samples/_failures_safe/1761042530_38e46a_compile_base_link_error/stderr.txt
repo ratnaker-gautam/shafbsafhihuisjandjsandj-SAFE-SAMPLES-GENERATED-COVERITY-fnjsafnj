@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccx7ycAy.o: in function `power':
+__tmp_eb10bce6.c:(.text+0xf9): undefined reference to `fmod'
+/usr/bin/ld: __tmp_eb10bce6.c:(.text+0x9f): undefined reference to `pow'
+/usr/bin/ld: __tmp_eb10bce6.c:(.text+0xec): undefined reference to `pow'
+/usr/bin/ld: /tmp/ccx7ycAy.o: in function `main':
+__tmp_eb10bce6.c:(.text.startup+0x321): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

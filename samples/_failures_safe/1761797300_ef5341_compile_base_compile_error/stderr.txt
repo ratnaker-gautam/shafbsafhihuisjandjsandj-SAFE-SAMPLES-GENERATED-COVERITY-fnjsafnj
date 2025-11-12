@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a9068a6d.c: In function ‘main’:
+./samples/SAFE/__tmp_a9068a6d.c:140:9: error: expected expression at end of input
+  140 |         if (decompressed.data != NULL && decompressed.size >
+      |         ^~
+./samples/SAFE/__tmp_a9068a6d.c:140:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a9068a6d.c:140:9: error: expected declaration or statement at end of input

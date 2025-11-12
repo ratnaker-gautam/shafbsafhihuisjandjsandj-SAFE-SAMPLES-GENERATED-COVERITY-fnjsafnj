@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_8e786553.c: In function ‘main’:
+./samples/SAFE/__tmp_8e786553.c:144:26: error: ‘cleaned_’ undeclared (first use in this function); did you mean ‘clean_idx’?
+  144 |     if (!parse_hex_input(cleaned_
+      |                          ^~~~~~~~
+      |                          clean_idx
+./samples/SAFE/__tmp_8e786553.c:144:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8e786553.c:144:34: error: expected ‘)’ at end of input
+  144 |     if (!parse_hex_input(cleaned_
+      |                         ~        ^
+      |                                  )
+./samples/SAFE/__tmp_8e786553.c:144:10: error: too few arguments to function ‘parse_hex_input’
+  144 |     if (!parse_hex_input(cleaned_
+      |          ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8e786553.c:91:5: note: declared here
+   91 | int parse_hex_input(const char* str, Buffer* buf) {
+      |     ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8e786553.c:144:5: error: expected declaration or statement at end of input
+  144 |     if (!parse_hex_input(cleaned_
+      |     ^~

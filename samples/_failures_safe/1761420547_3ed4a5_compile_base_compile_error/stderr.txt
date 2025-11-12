@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_e9e9e218.c: In function ‘main’:
+./samples/SAFE/__tmp_e9e9e218.c:167:8: error: ‘struct Context’ has no member named ‘process’
+  167 |     ctx.process
+      |        ^
+./samples/SAFE/__tmp_e9e9e218.c:167:16: error: expected ‘;’ at end of input
+  167 |     ctx.process
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_e9e9e218.c:167:5: error: expected declaration or statement at end of input
+  167 |     ctx.process
+      |     ^~~

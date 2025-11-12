@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1aa01285.c: In function ‘main’:
+./samples/SAFE/__tmp_1aa01285.c:170:13: error: expected declaration or statement at end of input
+  170 |             sm.handler(&sm, &events[i]);
+      |             ^~
+./samples/SAFE/__tmp_1aa01285.c:170:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1aa01285.c:170:13: error: expected declaration or statement at end of input

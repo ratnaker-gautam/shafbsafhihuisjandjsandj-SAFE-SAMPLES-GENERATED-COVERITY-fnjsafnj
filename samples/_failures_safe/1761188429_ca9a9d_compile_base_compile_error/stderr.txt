@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_2d4963fa.c: In function ‘main’:
+./samples/SAFE/__tmp_2d4963fa.c:126:62: error: expected ‘]’ at end of input
+  126 |                           sample_logs[i].level, sample_logs[i
+      |                                                              ^
+      |                                                              ]
+./samples/SAFE/__tmp_2d4963fa.c:126:60: error: incompatible type for argument 4 of ‘add_log_entry’
+  126 |                           sample_logs[i].level, sample_logs[i
+      |                                                 ~~~~~~~~~~~^~
+      |                                                            |
+      |                                                            LogEntry
+./samples/SAFE/__tmp_2d4963fa.c:69:100: note: expected ‘const char *’ but argument is of type ‘LogEntry’
+   69 | int add_log_entry(LogCollection* collection, const char* timestamp, const char* level, const char* message) {
+      |                                                                                        ~~~~~~~~~~~~^~~~~~~
+./samples/SAFE/__tmp_2d4963fa.c:126:27: error: expected declaration or statement at end of input
+  126 |                           sample_logs[i].level, sample_logs[i
+      |                           ^~~~~~~~~~~
+./samples/SAFE/__tmp_2d4963fa.c:126:27: error: expected declaration or statement at end of input

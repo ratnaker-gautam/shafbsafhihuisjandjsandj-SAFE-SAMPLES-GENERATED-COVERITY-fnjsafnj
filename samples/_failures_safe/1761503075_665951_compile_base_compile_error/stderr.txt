@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_acff75f9.c: In function ‘transform_bounds’:
+./samples/SAFE/__tmp_acff75f9.c:128:28: error: expected ‘;’ at end of input
+  128 |     result.max = result.min
+      |                            ^
+      |                            ;
+./samples/SAFE/__tmp_acff75f9.c:128:5: error: expected declaration or statement at end of input
+  128 |     result.max = result.min
+      |     ^~~~~~

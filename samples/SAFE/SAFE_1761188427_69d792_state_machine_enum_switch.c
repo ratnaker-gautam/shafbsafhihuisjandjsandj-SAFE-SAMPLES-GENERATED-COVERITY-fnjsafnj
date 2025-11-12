@@ -1,0 +1,173 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: enum_switch ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+enum State {
+    INIT,
+    READING,
+    PROCESSING,
+    WRITING,
+    DONE,
+    ERROR
+};
+
+enum Event {
+    START,
+    DATA_READY,
+    PROCESS_COMPLETE,
+    WRITE_COMPLETE,
+    FAILURE,
+    RESET
+};
+
+struct Context {
+    char buffer[256];
+    size_t bytes_read;
+    int processed_count;
+    int max_iterations;
+};
+
+static int read_data(struct Context *ctx) {
+    if (ctx == NULL) return -1;
+    
+    printf("Enter data (max 255 chars): ");
+    if (fgets(ctx->buffer, sizeof(ctx->buffer), stdin) == NULL) {
+        return -1;
+    }
+    
+    ctx->bytes_read = strlen(ctx->buffer);
+    if (ctx->bytes_read > 0 && ctx->buffer[ctx->bytes_read - 1] == '\n') {
+        ctx->buffer[ctx->bytes_read - 1] = '\0';
+        ctx->bytes_read--;
+    }
+    
+    return ctx->bytes_read > 0 ? 0 : -1;
+}
+
+static int process_data(struct Context *ctx) {
+    if (ctx == NULL || ctx->bytes_read == 0) return -1;
+    
+    for (size_t i = 0; i < ctx->bytes_read; i++) {
+        if (ctx->buffer[i] >= 'a' && ctx->buffer[i] <= 'z') {
+            ctx->buffer[i] = ctx->buffer[i] - 'a' + 'A';
+        }
+    }
+    
+    ctx->processed_count++;
+    return 0;
+}
+
+static int write_data(struct Context *ctx) {
+    if (ctx == NULL || ctx->bytes_read == 0) return -1;
+    
+    printf("Processed data: %s\n", ctx->buffer);
+    printf("Iteration %d completed\n", ctx->processed_count);
+    return 0;
+}
+
+static enum Event get_next_event(enum State current_state) {
+    switch (current_state) {
+        case INIT:
+            return START;
+        case READING:
+            return DATA_READY;
+        case PROCESSING:
+            return PROCESS_COMPLETE;
+        case WRITING:
+            return WRITE_COMPLETE;
+        case ERROR:
+            return RESET;
+        default:
+            return FAILURE;
+    }
+}
+
+int main(void) {
+    enum State current_state = INIT;
+    struct Context ctx = {0};
+    ctx.max_iterations = 3;
+    
+    printf("State Machine Demo - Processing %d iterations\n", ctx.max_iterations);
+    
+    while (current_state != DONE && current_state != ERROR) {
+        enum Event event = get_next_event(current_state);
+        
+        switch (current_state) {
+            case INIT:
+                if (event == START) {
+                    printf("Starting state machine\n");
+                    current_state = READING;
+                } else {
+                    current_state = ERROR;
+                }
+                break;
+                
+            case READING:
+                if (event == DATA_READY) {
+                    if (read_data(&ctx) == 0) {
+                        current_state = PROCESSING;
+                    } else {
+                        printf("Failed to read data\n");
+                        current_state = ERROR;
+                    }
+                } else {
+                    current_state = ERROR;
+                }
+                break;
+                
+            case PROCESSING:
+                if (event == PROCESS_COMPLETE) {
+                    if (process_data(&ctx) == 0) {
+                        current_state = WRITING;
+                    } else {
+                        printf("Failed to process data\n");
+                        current_state = ERROR;
+                    }
+                } else {
+                    current_state = ERROR;
+                }
+                break;
+                
+            case WRITING:
+                if (event == WRITE_COMPLETE) {
+                    if (write_data(&ctx) == 0) {
+                        if (ctx.processed_count >= ctx.max_iterations) {
+                            current_state = DONE;
+                        } else {
+                            current_state = READING;
+                        }
+                    } else {
+                        printf("Failed to write data\n");
+                        current_state = ERROR;
+                    }
+                } else {
+                    current_state = ERROR;
+                }
+                break;
+                
+            case ERROR:
+                if (event == RESET) {
+                    printf("Resetting state machine\n");
+                    memset(&ctx, 0, sizeof(ctx));
+                    ctx.max_iterations = 3;
+                    current_state = INIT;
+                } else {
+                    current_state = ERROR;
+                }
+                break;
+                
+            default:
+                current_state = ERROR;
+                break;
+        }
+    }
+    
+    if (current_state == DONE) {
+        printf("State machine completed successfully\n");
+    } else {
+        printf("State machine terminated with error\n");
+    }
+    
+    return current_state == DONE ? EXIT_SUCCESS : EXIT_FAILURE;
+}

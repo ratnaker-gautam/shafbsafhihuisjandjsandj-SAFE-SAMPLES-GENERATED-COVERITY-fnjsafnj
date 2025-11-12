@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_6a6ea21e.c: In function ‘main’:
+./samples/SAFE/__tmp_6a6ea21e.c:147:5: error: expected declaration or statement at end of input
+  147 |     unsigned char decompressed[MAX_INPUT_SIZE];
+      |     ^~~~~~~~

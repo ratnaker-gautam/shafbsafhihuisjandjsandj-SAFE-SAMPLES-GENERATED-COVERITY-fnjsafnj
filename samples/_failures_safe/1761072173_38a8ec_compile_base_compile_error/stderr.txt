@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_df09c919.c: In function ‘main’:
+./samples/SAFE/__tmp_df09c919.c:179:9: error: expected identifier at end of input
+  179 |         if (tokens[j].
+      |         ^~
+./samples/SAFE/__tmp_df09c919.c:179:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_df09c919.c:179:9: error: expected declaration or statement at end of input

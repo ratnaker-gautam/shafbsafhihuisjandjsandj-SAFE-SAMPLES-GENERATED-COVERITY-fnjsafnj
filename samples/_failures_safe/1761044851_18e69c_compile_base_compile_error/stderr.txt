@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_653fc7b3.c: In function ‘main’:
+./samples/SAFE/__tmp_653fc7b3.c:145:21: error: expected identifier at end of input
+  145 |                     printf("%s [%s] %s\n", logs[i].timestamp, level_to_string(logs[i].
+      |                     ^~~~~~
+./samples/SAFE/__tmp_653fc7b3.c:145:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_653fc7b3.c:145:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_653fc7b3.c:145:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_653fc7b3.c:145:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_653fc7b3.c:145:21: error: expected declaration or statement at end of input

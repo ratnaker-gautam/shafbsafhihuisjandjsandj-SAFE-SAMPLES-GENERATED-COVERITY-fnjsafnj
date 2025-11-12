@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_7ee76cd9.c:166:1: error: expected identifier or ‘(’ at end of input
+  166 | int
+      | ^~~

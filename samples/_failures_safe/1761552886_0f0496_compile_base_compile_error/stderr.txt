@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_3eacfacf.c: In function ‘main’:
+./samples/SAFE/__tmp_3eacfacf.c:143:33: error: expected ‘)’ at end of input
+  143 |                 if (max_dist < 0
+      |                    ~            ^
+      |                                 )
+./samples/SAFE/__tmp_3eacfacf.c:143:17: error: expected declaration or statement at end of input
+  143 |                 if (max_dist < 0
+      |                 ^~
+./samples/SAFE/__tmp_3eacfacf.c:143:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3eacfacf.c:143:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3eacfacf.c:143:17: error: expected declaration or statement at end of input

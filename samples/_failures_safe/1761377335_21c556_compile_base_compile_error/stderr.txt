@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_166cd89f.c: In function ‘graph_reset’:
+./samples/SAFE/__tmp_166cd89f.c:186:5: error: expected expression at end of input
+  186 |     if (!graph)
+      |     ^~
+./samples/SAFE/__tmp_166cd89f.c:186:5: error: expected declaration or statement at end of input

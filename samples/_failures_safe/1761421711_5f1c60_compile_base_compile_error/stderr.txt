@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_40bb9187.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_40bb9187.c:163:5: error: expected declaration or statement at end of input
+  163 |     (*pos)++;
+      |     ^

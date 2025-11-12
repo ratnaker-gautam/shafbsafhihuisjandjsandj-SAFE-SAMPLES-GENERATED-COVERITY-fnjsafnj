@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_a29e2b36.c: In function ‘bfs_traversal’:
+./samples/SAFE/__tmp_a29e2b36.c:140:39: error: expected ‘]’ at end of input
+  140 |                 visited[graph->edges[i
+      |                                       ^
+      |                                       ]
+./samples/SAFE/__tmp_a29e2b36.c:140:24: error: array subscript is not an integer
+  140 |                 visited[graph->edges[i
+      |                        ^
+./samples/SAFE/__tmp_a29e2b36.c:140:17: error: expected declaration or statement at end of input
+  140 |                 visited[graph->edges[i
+      |                 ^~~~~~~
+./samples/SAFE/__tmp_a29e2b36.c:140:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a29e2b36.c:140:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a29e2b36.c:140:17: error: expected declaration or statement at end of input

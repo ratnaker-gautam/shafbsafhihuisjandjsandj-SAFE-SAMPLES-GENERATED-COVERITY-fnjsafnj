@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_af42790b.c: In function ‘main’:
+./samples/SAFE/__tmp_af42790b.c:157:10: error: expected expression at end of input
+  157 |     enum compression_type algorithms[] = {
+      |          ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_af42790b.c:157:10: error: expected declaration or statement at end of input

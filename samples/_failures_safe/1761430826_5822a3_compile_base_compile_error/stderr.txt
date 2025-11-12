@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_3f025366.c: In function ‘main’:
+./samples/SAFE/__tmp_3f025366.c:134:5: error: expected declaration or statement at end of input
+  134 |     set_matrix_element(&mat2, 1, 0, 9.0);
+      |     ^~~~~~~~~~~~~~~~~~

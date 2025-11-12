@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bdae2ca4.c: In function ‘main’:
+./samples/SAFE/__tmp_bdae2ca4.c:168:20: error: expected ‘;’ at end of input
+  168 |     calculate_stats
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_bdae2ca4.c:168:5: error: expected declaration or statement at end of input
+  168 |     calculate_stats
+      |     ^~~~~~~~~~~~~~~

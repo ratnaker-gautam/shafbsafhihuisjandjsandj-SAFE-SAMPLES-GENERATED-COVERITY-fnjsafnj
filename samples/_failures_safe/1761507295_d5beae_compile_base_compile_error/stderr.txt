@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3c4e2e8d.c: In function ‘main’:
+./samples/SAFE/__tmp_3c4e2e8d.c:173:34: error: missing terminating " character
+  173 |         } else if (strcmp(input, "
+      |                                  ^
+./samples/SAFE/__tmp_3c4e2e8d.c:173:9: error: expected expression at end of input
+  173 |         } else if (strcmp(input, "
+      |         ^
+./samples/SAFE/__tmp_3c4e2e8d.c:173:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3c4e2e8d.c:173:9: error: expected declaration or statement at end of input

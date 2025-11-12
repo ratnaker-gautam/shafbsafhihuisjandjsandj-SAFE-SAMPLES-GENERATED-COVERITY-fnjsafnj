@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_8cdd1cd3.c: In function ‘main’:
+./samples/SAFE/__tmp_8cdd1cd3.c:179:60: error: expected ‘]’ at end of input
+  179 |     if (token_count >= MAX_TOKENS && tokens[token_count - 1
+      |                                                            ^
+      |                                                            ]
+./samples/SAFE/__tmp_8cdd1cd3.c:179:35: error: invalid operands to binary && (have ‘int’ and ‘Token’)
+  179 |     if (token_count >= MAX_TOKENS && tokens[token_count - 1
+      |                                   ^~ ~~~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            Token
+./samples/SAFE/__tmp_8cdd1cd3.c:179:5: error: expected declaration or statement at end of input
+  179 |     if (token_count >= MAX_TOKENS && tokens[token_count - 1
+      |     ^~

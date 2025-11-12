@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d79d529f.c: In function ‘print_buffer’:
+./samples/SAFE/__tmp_d79d529f.c:122:21: error: expected ‘)’ at end of input
+  122 |     if (buffer->size
+      |        ~            ^
+      |                     )
+./samples/SAFE/__tmp_d79d529f.c:122:5: error: expected declaration or statement at end of input
+  122 |     if (buffer->size
+      |     ^~

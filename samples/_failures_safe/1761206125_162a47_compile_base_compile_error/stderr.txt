@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7d62be90.c: In function ‘main’:
+./samples/SAFE/__tmp_7d62be90.c:132:108: error: expected ‘)’ at end of input
+  132 |     printf("Compression successful: %u -> %u bytes\n", compressed.original_size, compressed.compressed_size
+      |           ~                                                                                                ^
+      |                                                                                                            )
+./samples/SAFE/__tmp_7d62be90.c:132:5: error: expected declaration or statement at end of input
+  132 |     printf("Compression successful: %u -> %u bytes\n", compressed.original_size, compressed.compressed_size
+      |     ^~~~~~

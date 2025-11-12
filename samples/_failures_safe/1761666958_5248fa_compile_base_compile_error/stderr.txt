@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_a90e1b7b.c: In function ‘main’:
+./samples/SAFE/__tmp_a90e1b7b.c:132:27: error: missing terminating " character
+  132 |     cols2 = get_valid_int("Enter columns
+      |                           ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a90e1b7b.c:132:5: error: expected expression at end of input
+  132 |     cols2 = get_valid_int("Enter columns
+      |     ^~~~~
+./samples/SAFE/__tmp_a90e1b7b.c:132:13: error: too few arguments to function ‘get_valid_int’
+  132 |     cols2 = get_valid_int("Enter columns
+      |             ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_a90e1b7b.c:82:5: note: declared here
+   82 | int get_valid_int(const char* prompt, int min_val, int max_val) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_a90e1b7b.c:132:5: error: expected declaration or statement at end of input
+  132 |     cols2 = get_valid_int("Enter columns
+      |     ^~~~~

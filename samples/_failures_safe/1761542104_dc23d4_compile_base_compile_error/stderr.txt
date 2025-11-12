@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f09717d6.c: In function ‘read_next_token’:
+./samples/SAFE/__tmp_f09717d6.c:166:9: error: expected expression at end of input
+  166 |         strncpy(value, state->input + start,
+      |         ^~~~~~~
+./samples/SAFE/__tmp_f09717d6.c:166:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f09717d6.c:166:9: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_c3686081.c: In function ‘print_token_type’:
+./samples/SAFE/__tmp_c3686081.c:168:36: error: expected ‘;’ at end of input
+  168 |         case TOKEN_OPERATOR: printf
+      |                                    ^
+      |                                    ;
+./samples/SAFE/__tmp_c3686081.c:168:9: error: expected declaration or statement at end of input
+  168 |         case TOKEN_OPERATOR: printf
+      |         ^~~~
+./samples/SAFE/__tmp_c3686081.c:168:9: error: expected declaration or statement at end of input

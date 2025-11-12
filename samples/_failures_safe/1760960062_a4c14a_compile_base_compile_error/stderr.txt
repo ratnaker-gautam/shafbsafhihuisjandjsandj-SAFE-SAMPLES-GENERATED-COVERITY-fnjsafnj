@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_71cf369c.c: In function ‘main’:
+./samples/SAFE/__tmp_71cf369c.c:123:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  123 |     const char* level
+      |     ^~~~~
+./samples/SAFE/__tmp_71cf369c.c:123:5: error: expected declaration or statement at end of input

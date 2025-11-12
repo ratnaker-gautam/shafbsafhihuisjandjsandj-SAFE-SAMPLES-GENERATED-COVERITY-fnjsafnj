@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_bd01ff3d.c: In function ‘main’:
+./samples/SAFE/__tmp_bd01ff3d.c:147:25: error: expected expression at end of input
+  147 |                         if (matrix1[i][
+      |                         ^~
+./samples/SAFE/__tmp_bd01ff3d.c:147:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bd01ff3d.c:147:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bd01ff3d.c:147:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bd01ff3d.c:147:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bd01ff3d.c:147:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bd01ff3d.c:147:25: error: expected declaration or statement at end of input

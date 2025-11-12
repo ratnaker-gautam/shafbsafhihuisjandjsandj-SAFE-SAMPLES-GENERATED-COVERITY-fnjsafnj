@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_159c050e.c: In function ‘print_token’:
+./samples/SAFE/__tmp_159c050e.c:162:41: error: expected ‘)’ at end of input
+  162 |            type_names[token.type], token
+      |                                         ^
+      |                                         )
+./samples/SAFE/__tmp_159c050e.c:161:11: note: to match this ‘(’
+  161 |     printf("%-12s %-16s line %d, col %d\n",
+      |           ^
+./samples/SAFE/__tmp_159c050e.c:162:12: error: expected declaration or statement at end of input
+  162 |            type_names[token.type], token
+      |            ^~~~~~~~~~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_2771b984.c: In function ‘tokenize_input’:
+./samples/SAFE/__tmp_2771b984.c:146:5: error: ‘uint32’ undeclared (first use in this function); did you mean ‘uint32_t’?
+  146 |     uint32
+      |     ^~~~~~
+      |     uint32_t
+./samples/SAFE/__tmp_2771b984.c:146:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2771b984.c:146:11: error: expected ‘;’ at end of input
+  146 |     uint32
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_2771b984.c:146:5: error: expected declaration or statement at end of input
+  146 |     uint32
+      |     ^~~~~~

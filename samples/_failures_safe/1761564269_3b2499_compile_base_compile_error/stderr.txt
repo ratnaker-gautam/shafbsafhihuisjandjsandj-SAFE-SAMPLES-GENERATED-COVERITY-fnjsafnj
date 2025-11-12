@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_12110eac.c: In function ‘main’:
+./samples/SAFE/__tmp_12110eac.c:143:37: error: ‘MAX_INPUT_L’ undeclared (first use in this function); did you mean ‘MAX_INPUT_LEN’?
+  143 |     size_t len = safe_strlen(input, MAX_INPUT_L
+      |                                     ^~~~~~~~~~~
+      |                                     MAX_INPUT_LEN
+./samples/SAFE/__tmp_12110eac.c:143:37: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_12110eac.c:143:48: error: expected ‘)’ at end of input
+  143 |     size_t len = safe_strlen(input, MAX_INPUT_L
+      |                             ~                  ^
+      |                                                )
+./samples/SAFE/__tmp_12110eac.c:143:5: error: expected declaration or statement at end of input
+  143 |     size_t len = safe_strlen(input, MAX_INPUT_L
+      |     ^~~~~~

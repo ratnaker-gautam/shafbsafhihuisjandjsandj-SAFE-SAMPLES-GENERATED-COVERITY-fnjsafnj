@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_12429ae8.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_12429ae8.c:130:33: error: expected declaration or statement at end of input
+  130 | void display_stats(const struct LogAnalyzer *analyzer) {
+      |                                 ^~~~~~~~~~~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d2eb7897.c: In function ‘state_to_string’:
+./samples/SAFE/__tmp_d2eb7897.c:149:5: error: expected declaration or statement at end of input
+  149 |     return "UNKNOWN";
+      |     ^~~~~~

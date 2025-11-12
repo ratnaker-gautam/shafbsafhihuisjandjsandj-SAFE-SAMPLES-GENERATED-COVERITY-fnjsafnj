@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b182f943.c: In function ‘main’:
+./samples/SAFE/__tmp_b182f943.c:130:5: error: expected expression at end of input
+  130 |     int op_choice = get_int_input("Select operation (0=Add, 1=Subtract, 2=Multiply, 3=Transpose, 4=Determinant): ", 0,
+      |     ^~~
+./samples/SAFE/__tmp_b182f943.c:130:5: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ad116c13.c: In function ‘print_token_type’:
+./samples/SAFE/__tmp_ad116c13.c:172:5: error: expected declaration or statement at end of input
+  172 |     switch (type) {
+      |     ^~~~~~
+./samples/SAFE/__tmp_ad116c13.c:172:5: error: expected declaration or statement at end of input

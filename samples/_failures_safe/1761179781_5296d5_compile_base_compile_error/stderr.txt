@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_e95dada9.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_e95dada9.c:138:61: error: missing terminating " character
+  138 |         case 3: strcpy(analyzer->stats.most_frequent_level, "W
+      |                                                             ^~
+./samples/SAFE/__tmp_e95dada9.c:138:9: error: expected expression at end of input
+  138 |         case 3: strcpy(analyzer->stats.most_frequent_level, "W
+      |         ^~~~
+./samples/SAFE/__tmp_e95dada9.c:138:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e95dada9.c:138:9: error: expected declaration or statement at end of input

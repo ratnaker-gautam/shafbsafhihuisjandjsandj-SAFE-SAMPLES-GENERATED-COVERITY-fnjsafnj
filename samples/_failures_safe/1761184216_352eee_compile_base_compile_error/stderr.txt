@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fb910662.c: In function ‘calculate_volume’:
+./samples/SAFE/__tmp_fb910662.c:115:5: error: expected ‘,’ or ‘;’ at end of input
+  115 |     double height = box->max.y
+      |     ^~~~~~
+./samples/SAFE/__tmp_fb910662.c:115:5: error: expected declaration or statement at end of input

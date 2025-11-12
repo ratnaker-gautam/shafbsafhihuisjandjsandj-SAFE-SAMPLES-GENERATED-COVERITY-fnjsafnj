@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_77f9f4fd.c: In function ‘main’:
+./samples/SAFE/__tmp_77f9f4fd.c:139:12: error: expected identifier or ‘(’ at end of input
+  139 |     struct LogAnaly
+      |            ^~~~~~~~
+./samples/SAFE/__tmp_77f9f4fd.c:139:12: error: expected declaration or statement at end of input

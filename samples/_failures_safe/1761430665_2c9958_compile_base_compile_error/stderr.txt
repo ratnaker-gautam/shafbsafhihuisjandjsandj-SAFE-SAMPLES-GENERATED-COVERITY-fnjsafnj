@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f5648674.c: In function ‘main’:
+./samples/SAFE/__tmp_f5648674.c:156:9: error: expected declaration or statement at end of input
+  156 |         if (src < 0 || src >= graph.num_nodes || dest < 0 || dest >= graph.num_nodes) {
+      |         ^~
+./samples/SAFE/__tmp_f5648674.c:156:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f5648674.c:156:9: error: expected declaration or statement at end of input

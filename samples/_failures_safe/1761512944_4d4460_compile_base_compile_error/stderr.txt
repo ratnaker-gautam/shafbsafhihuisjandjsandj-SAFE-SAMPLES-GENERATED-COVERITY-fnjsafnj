@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_aafcd427.c: In function ‘main’:
+./samples/SAFE/__tmp_aafcd427.c:182:5: error: expected declaration or statement at end of input
+  182 |     if (!fgets(input, sizeof(input), stdin)) {
+      |     ^~
+./samples/SAFE/__tmp_aafcd427.c:182:5: error: expected declaration or statement at end of input

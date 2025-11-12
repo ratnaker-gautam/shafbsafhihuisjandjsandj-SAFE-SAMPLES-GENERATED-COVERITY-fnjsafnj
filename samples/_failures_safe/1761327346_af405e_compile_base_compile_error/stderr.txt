@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_03086892.c:155:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  155 | void parser_adv
+      | ^~~~

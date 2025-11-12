@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1b526972.c: In function ‘main’:
+./samples/SAFE/__tmp_1b526972.c:187:12: error: expected declaration or statement at end of input
+  187 |     struct calculator calc;
+      |            ^~~~~~~~~~

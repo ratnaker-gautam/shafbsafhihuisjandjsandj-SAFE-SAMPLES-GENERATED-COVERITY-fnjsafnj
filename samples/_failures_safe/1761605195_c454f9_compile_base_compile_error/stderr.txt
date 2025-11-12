@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_e85c6212.c:186:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  186 | void graph
+      | ^~~~

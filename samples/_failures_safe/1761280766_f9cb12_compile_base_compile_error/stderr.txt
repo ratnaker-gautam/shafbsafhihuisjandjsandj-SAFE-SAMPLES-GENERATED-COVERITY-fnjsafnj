@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f3940b2e.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_f3940b2e.c:173:27: error: ‘TOKEN_’ undeclared (first use in this function)
+  173 |         if (token.type == TOKEN_
+      |                           ^~~~~~
+./samples/SAFE/__tmp_f3940b2e.c:173:27: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f3940b2e.c:173:33: error: expected ‘)’ at end of input
+  173 |         if (token.type == TOKEN_
+      |            ~                    ^
+      |                                 )
+./samples/SAFE/__tmp_f3940b2e.c:173:9: error: expected declaration or statement at end of input
+  173 |         if (token.type == TOKEN_
+      |         ^~
+./samples/SAFE/__tmp_f3940b2e.c:173:9: error: expected declaration or statement at end of input

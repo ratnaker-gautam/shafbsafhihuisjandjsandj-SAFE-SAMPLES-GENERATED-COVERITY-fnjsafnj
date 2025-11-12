@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f70caa5a.c: In function ‘main’:
+./samples/SAFE/__tmp_f70caa5a.c:145:21: error: expected declaration or statement at end of input
+  145 |                     for (int k = 0; k < cols1; k++) {
+      |                     ^~~
+./samples/SAFE/__tmp_f70caa5a.c:145:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f70caa5a.c:145:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f70caa5a.c:145:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f70caa5a.c:145:21: error: expected declaration or statement at end of input

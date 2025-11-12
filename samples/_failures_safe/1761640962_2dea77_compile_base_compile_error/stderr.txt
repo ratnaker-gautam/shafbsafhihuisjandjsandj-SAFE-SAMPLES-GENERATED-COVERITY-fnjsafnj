@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d32e6578.c: In function ‘main’:
+./samples/SAFE/__tmp_d32e6578.c:180:9: error: expected expression at end of input
+  180 |         if (k <
+      |         ^~
+./samples/SAFE/__tmp_d32e6578.c:180:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d32e6578.c:180:9: error: expected declaration or statement at end of input

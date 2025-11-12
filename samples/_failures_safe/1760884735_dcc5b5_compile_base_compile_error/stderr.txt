@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_920a4c10.c: In function ‘main’:
+./samples/SAFE/__tmp_920a4c10.c:78:27: error: ‘INT_MAX’ undeclared (first use in this function)
+   78 |         if (total_chars > INT_MAX - word_len) {
+      |                           ^~~~~~~
+./samples/SAFE/__tmp_920a4c10.c:6:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    5 | #include <stdlib.h>
+  +++ |+#include <limits.h>
+    6 | 
+./samples/SAFE/__tmp_920a4c10.c:78:27: note: each undeclared identifier is reported only once for each function it appears in
+   78 |         if (total_chars > INT_MAX - word_len) {
+      |                           ^~~~~~~

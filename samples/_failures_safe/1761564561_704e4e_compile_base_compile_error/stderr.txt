@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fdaab85e.c: In function ‘process_log_file’:
+./samples/SAFE/__tmp_fdaab85e.c:124:9: error: expected declaration or statement at end of input
+  124 |         char message[256] = {0};
+      |         ^~~~
+./samples/SAFE/__tmp_fdaab85e.c:124:9: error: expected declaration or statement at end of input

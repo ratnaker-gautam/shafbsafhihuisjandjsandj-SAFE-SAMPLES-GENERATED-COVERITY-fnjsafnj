@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_6982df64.c: In function ‘main’:
+./samples/SAFE/__tmp_6982df64.c:151:12: error: expected expression at end of input
+  151 |     struct compression_result result = perform_compression(comp_type, input_buffer,
+      |            ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6982df64.c:151:40: error: too few arguments to function ‘perform_compression’
+  151 |     struct compression_result result = perform_compression(comp_type, input_buffer,
+      |                                        ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6982df64.c:68:27: note: declared here
+   68 | struct compression_result perform_compression(enum compression_type type, const uint8_t *input, size_t input_len, uint8_t *output, size_t output_len) {
+      |                           ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6982df64.c:151:12: error: expected declaration or statement at end of input
+  151 |     struct compression_result result = perform_compression(comp_type, input_buffer,
+      |            ^~~~~~~~~~~~~~~~~~

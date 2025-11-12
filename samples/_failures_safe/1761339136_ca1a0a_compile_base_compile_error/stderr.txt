@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_f270c25d.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_f270c25d.c:138:25: error: expected expression at end of input
+  138 |                         decreaseKey(
+      |                         ^~~~~~~~~~~
+./samples/SAFE/__tmp_f270c25d.c:138:25: error: too few arguments to function ‘decreaseKey’
+./samples/SAFE/__tmp_f270c25d.c:90:6: note: declared here
+   90 | void decreaseKey(struct MinHeap* heap, int v, int dist) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_f270c25d.c:138:25: error: expected declaration or statement at end of input
+  138 |                         decreaseKey(
+      |                         ^~~~~~~~~~~
+./samples/SAFE/__tmp_f270c25d.c:138:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f270c25d.c:138:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f270c25d.c:138:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f270c25d.c:138:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f270c25d.c:138:25: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b6af3248.c: In function ‘print_compression_info’:
+./samples/SAFE/__tmp_b6af3248.c:153:5: error: expected declaration or statement at end of input
+  153 |     printf("  Original size: %u bytes\n", ctx->header.original_size);
+      |     ^~~~~~

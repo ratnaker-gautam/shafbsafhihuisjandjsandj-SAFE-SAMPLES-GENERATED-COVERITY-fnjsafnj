@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e13dd79b.c: In function ‘boundingbox_calculate’:
+./samples/SAFE/__tmp_e13dd79b.c:128:9: error: expected identifier at end of input
+  128 |         if (mesh->vertices[i].z < box.min.z) box.min.z = mesh->
+      |         ^~
+./samples/SAFE/__tmp_e13dd79b.c:128:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e13dd79b.c:128:9: error: expected declaration or statement at end of input

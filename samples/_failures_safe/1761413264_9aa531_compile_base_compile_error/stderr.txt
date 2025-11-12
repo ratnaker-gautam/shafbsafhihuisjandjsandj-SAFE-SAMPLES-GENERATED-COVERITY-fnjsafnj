@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_cc69f4e8.c: In function ‘main’:
+./samples/SAFE/__tmp_cc69f4e8.c:150:25: error: ‘compress’ undeclared (first use in this function); did you mean ‘compressed’?
+  150 |     Buffer compressed = compress
+      |                         ^~~~~~~~
+      |                         compressed
+./samples/SAFE/__tmp_cc69f4e8.c:150:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cc69f4e8.c:150:5: error: expected ‘,’ or ‘;’ at end of input
+  150 |     Buffer compressed = compress
+      |     ^~~~~~
+./samples/SAFE/__tmp_cc69f4e8.c:150:5: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_77ce8e33.c: In function ‘main’:
+./samples/SAFE/__tmp_77ce8e33.c:120:13: error: expected declaration or statement at end of input
+  120 |             if (MATRIX_IDX(matrix2, i, j, cols2) == -1) {
+      |             ^~
+./samples/SAFE/__tmp_77ce8e33.c:120:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_77ce8e33.c:120:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_77ce8e33.c:120:13: error: expected declaration or statement at end of input

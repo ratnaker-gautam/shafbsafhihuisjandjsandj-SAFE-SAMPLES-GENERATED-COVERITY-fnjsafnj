@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_fedacb2e.c:180:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  180 | const char* token_type_name
+      | ^~~~~

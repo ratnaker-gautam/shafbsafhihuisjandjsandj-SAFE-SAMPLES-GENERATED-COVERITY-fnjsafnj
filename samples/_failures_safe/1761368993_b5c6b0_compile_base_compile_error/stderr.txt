@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_cfd79fc6.c: In function ‘main’:
+./samples/SAFE/__tmp_cfd79fc6.c:202:9: error: expected expression at end of input
+  202 |         fprintf(stderr,
+      |         ^~~~~~~
+./samples/SAFE/__tmp_cfd79fc6.c:202:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cfd79fc6.c:202:9: error: expected declaration or statement at end of input

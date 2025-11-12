@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7440d593.c: In function ‘main’:
+./samples/SAFE/__tmp_7440d593.c:153:12: error: expected expression at end of input
+  153 |     struct MatrixResult result = multiply_matrices(&mat1, &
+      |            ^~~~~~~~~~~~
+./samples/SAFE/__tmp_7440d593.c:153:12: error: expected declaration or statement at end of input

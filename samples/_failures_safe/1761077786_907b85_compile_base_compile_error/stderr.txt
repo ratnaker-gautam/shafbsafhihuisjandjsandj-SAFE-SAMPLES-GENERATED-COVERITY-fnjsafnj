@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_90036aea.c: In function ‘main’:
+./samples/SAFE/__tmp_90036aea.c:147:13: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols2’?
+  147 |         if (cols
+      |             ^~~~
+      |             cols2
+./samples/SAFE/__tmp_90036aea.c:147:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_90036aea.c:147:17: error: expected ‘)’ at end of input
+  147 |         if (cols
+      |            ~    ^
+      |                 )
+./samples/SAFE/__tmp_90036aea.c:147:9: error: expected declaration or statement at end of input
+  147 |         if (cols
+      |         ^~
+./samples/SAFE/__tmp_90036aea.c:147:9: error: expected declaration or statement at end of input

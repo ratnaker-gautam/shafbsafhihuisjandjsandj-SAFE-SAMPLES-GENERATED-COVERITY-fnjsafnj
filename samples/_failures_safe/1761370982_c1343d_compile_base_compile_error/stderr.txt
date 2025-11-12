@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_5e319732.c: In function ‘main’:
+./samples/SAFE/__tmp_5e319732.c:121:55: error: ‘rows’ undeclared (first use in this function); did you mean ‘rows2’?
+  121 |     multiply_matrices(matrix1, rows1, cols1, matrix2, rows
+      |                                                       ^~~~
+      |                                                       rows2
+./samples/SAFE/__tmp_5e319732.c:121:55: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5e319732.c:121:59: error: expected ‘)’ at end of input
+  121 |     multiply_matrices(matrix1, rows1, cols1, matrix2, rows
+      |                      ~                                    ^
+      |                                                           )
+./samples/SAFE/__tmp_5e319732.c:121:5: error: too few arguments to function ‘multiply_matrices’
+  121 |     multiply_matrices(matrix1, rows1, cols1, matrix2, rows
+      |     ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5e319732.c:55:6: note: declared here
+   55 | void multiply_matrices(const int* a, int a_rows, int a_cols,
+      |      ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5e319732.c:121:5: error: expected declaration or statement at end of input
+  121 |     multiply_matrices(matrix1, rows1, cols1, matrix2, rows
+      |     ^~~~~~~~~~~~~~~~~

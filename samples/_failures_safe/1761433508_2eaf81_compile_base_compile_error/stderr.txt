@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_e5b10998.c: In function ‘transform_bounding_box’:
+./samples/SAFE/__tmp_e5b10998.c:127:27: error: invalid operands to binary < (have ‘double’ and ‘struct Vector3D’)
+  127 |         if (transformed.y < result.min
+      |             ~~~~~~~~~~~~~ ^ ~~~~~~~~~~
+      |                        |          |
+      |                        double     struct Vector3D
+./samples/SAFE/__tmp_e5b10998.c:127:39: error: expected ‘)’ at end of input
+  127 |         if (transformed.y < result.min
+      |            ~                          ^
+      |                                       )
+./samples/SAFE/__tmp_e5b10998.c:127:9: error: expected declaration or statement at end of input
+  127 |         if (transformed.y < result.min
+      |         ^~
+./samples/SAFE/__tmp_e5b10998.c:127:9: error: expected declaration or statement at end of input

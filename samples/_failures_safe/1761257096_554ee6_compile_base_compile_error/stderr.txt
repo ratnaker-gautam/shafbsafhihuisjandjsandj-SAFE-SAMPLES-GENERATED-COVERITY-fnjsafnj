@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_941afa9b.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_941afa9b.c:169:72: error: expected ‘]’ at end of input
+  169 |             if (graph->edges[i].from->id == min_index && !visited[graph
+      |                                                                        ^
+      |                                                                        ]
+./samples/SAFE/__tmp_941afa9b.c:169:66: error: array subscript is not an integer
+  169 |             if (graph->edges[i].from->id == min_index && !visited[graph
+      |                                                                  ^
+./samples/SAFE/__tmp_941afa9b.c:169:13: error: expected declaration or statement at end of input
+  169 |             if (graph->edges[i].from->id == min_index && !visited[graph
+      |             ^~
+./samples/SAFE/__tmp_941afa9b.c:169:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_941afa9b.c:169:13: error: expected declaration or statement at end of input

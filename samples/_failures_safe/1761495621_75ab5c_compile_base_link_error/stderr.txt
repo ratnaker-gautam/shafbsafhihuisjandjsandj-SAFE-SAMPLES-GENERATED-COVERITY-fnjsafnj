@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccY46GFu.o: in function `compute_matrix_norm.part.0.isra.0':
+__tmp_c616da59.c:(.text+0x66): undefined reference to `sqrt'
+/usr/bin/ld: /tmp/ccY46GFu.o: in function `compute_matrix_norm':
+__tmp_c616da59.c:(.text+0x246): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

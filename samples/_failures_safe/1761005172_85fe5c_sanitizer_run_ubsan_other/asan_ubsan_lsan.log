@@ -1,0 +1,8 @@
+
+samples/SAFE/__tmp_a13973ab.c:46:38: runtime error: left shift of negative value -74
+    #0 0x651829ed6cb6 in compress_chunk samples/SAFE/__tmp_a13973ab.c:46
+    #1 0x651829ed6cb6 in main samples/SAFE/__tmp_a13973ab.c:93
+    #2 0x708b3902a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x708b3902a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x651829ed6384 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_a13973ab.c.san+0x3384) (BuildId: ad415f1d675df4df61018d38a611ab2596c5784f)
+

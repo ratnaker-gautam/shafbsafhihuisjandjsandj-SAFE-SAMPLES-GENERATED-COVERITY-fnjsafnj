@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b0811b40.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_b0811b40.c:138:9: error: expected expression at end of input
+  138 |         double avg_bytes =
+      |         ^~~~~~
+./samples/SAFE/__tmp_b0811b40.c:138:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b0811b40.c:138:9: error: expected declaration or statement at end of input

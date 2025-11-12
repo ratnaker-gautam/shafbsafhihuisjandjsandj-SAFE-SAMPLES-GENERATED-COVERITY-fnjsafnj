@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e3e57cff.c: In function ‘main’:
+./samples/SAFE/__tmp_e3e57cff.c:153:9: error: expected declaration or statement at end of input
+  153 |         if (distances[i] == INT_MAX) {
+      |         ^~
+./samples/SAFE/__tmp_e3e57cff.c:153:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e3e57cff.c:153:9: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_16e6521b.c: In function ‘main’:
+./samples/SAFE/__tmp_16e6521b.c:132:44: error: expected ‘)’ at end of input
+  132 |             transpose_matrix(rows_a, cols_a
+      |                             ~              ^
+      |                                            )
+./samples/SAFE/__tmp_16e6521b.c:132:13: error: too few arguments to function ‘transpose_matrix’
+  132 |             transpose_matrix(rows_a, cols_a
+      |             ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_16e6521b.c:68:6: note: declared here
+   68 | void transpose_matrix(int rows, int cols, int matrix[MAX_DIM][MAX_DIM], int result[MAX_DIM][MAX_DIM]) {
+      |      ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_16e6521b.c:132:13: error: expected declaration or statement at end of input
+  132 |             transpose_matrix(rows_a, cols_a
+      |             ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_16e6521b.c:132:13: error: expected declaration or statement at end of input

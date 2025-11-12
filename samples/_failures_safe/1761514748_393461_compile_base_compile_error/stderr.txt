@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5e157fbd.c: In function ‘main’:
+./samples/SAFE/__tmp_5e157fbd.c:166:9: error: expected declaration or statement at end of input
+  166 |         } else if (strcmp(input, "success") == 0) {
+      |         ^
+./samples/SAFE/__tmp_5e157fbd.c:166:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5e157fbd.c:166:9: error: expected declaration or statement at end of input

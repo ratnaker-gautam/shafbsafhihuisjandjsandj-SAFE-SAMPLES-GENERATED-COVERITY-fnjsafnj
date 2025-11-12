@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b938194d.c: In function ‘dijkstra_shortest_path’:
+./samples/SAFE/__tmp_b938194d.c:157:13: error: expected declaration or statement at end of input
+  157 |             printf("Node %d: unreachable\n", i);
+      |             ^~~~~~
+./samples/SAFE/__tmp_b938194d.c:157:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b938194d.c:157:13: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_3d43617e.c: In function ‘main’:
+./samples/SAFE/__tmp_3d43617e.c:179:9: error: expected expression at end of input
+  179 |         if (tokens[token_count].type == TOKEN_EOF)
+      |         ^~
+./samples/SAFE/__tmp_3d43617e.c:179:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3d43617e.c:179:9: error: expected declaration or statement at end of input

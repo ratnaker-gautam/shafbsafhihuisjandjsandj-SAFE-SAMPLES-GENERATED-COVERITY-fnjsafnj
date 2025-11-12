@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_708ca9c7.c: In function ‘main’:
+./samples/SAFE/__tmp_708ca9c7.c:133:13: error: expected expression at end of input
+  133 |             if (scanf("%zu %zu", &rows, &cols) !=
+      |             ^~
+./samples/SAFE/__tmp_708ca9c7.c:133:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_708ca9c7.c:133:13: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_b96b6a38.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_b96b6a38.c:139:17: error: expected expression at end of input
+  139 |                 if (event == EVENT_PROCESS) sm->current_state =
+      |                 ^~
+./samples/SAFE/__tmp_b96b6a38.c:139:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b96b6a38.c:139:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b96b6a38.c:139:17: error: expected declaration or statement at end of input

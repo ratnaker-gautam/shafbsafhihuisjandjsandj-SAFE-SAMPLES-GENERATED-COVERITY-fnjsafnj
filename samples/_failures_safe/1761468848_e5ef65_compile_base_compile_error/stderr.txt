@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_163cf6fd.c: In function ‘main’:
+./samples/SAFE/__tmp_163cf6fd.c:139:9: error: expected declaration or statement at end of input
+  139 |         printf("No input data\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_163cf6fd.c:139:9: error: expected declaration or statement at end of input

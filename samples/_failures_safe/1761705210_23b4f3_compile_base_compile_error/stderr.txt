@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_822e0cf7.c: In function ‘apply_transform’:
+./samples/SAFE/__tmp_822e0cf7.c:139:14: error: invalid operands to binary + (have ‘double’ and ‘struct Vector3D’)
+  139 |     result.y += transform.translation
+      |     ~~~~~~~~ ^~ ~~~~~~~~~~~~~~~~~~~~~
+      |           |              |
+      |           double         struct Vector3D
+./samples/SAFE/__tmp_822e0cf7.c:139:38: error: expected ‘;’ at end of input
+  139 |     result.y += transform.translation
+      |                                      ^
+      |                                      ;
+./samples/SAFE/__tmp_822e0cf7.c:139:5: error: expected declaration or statement at end of input
+  139 |     result.y += transform.translation
+      |     ^~~~~~

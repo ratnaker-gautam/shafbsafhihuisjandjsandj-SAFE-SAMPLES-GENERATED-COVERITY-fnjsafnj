@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_da5eabd0.c: In function ‘main’:
+./samples/SAFE/__tmp_da5eabd0.c:134:72: error: expected ‘)’ at end of input
+  134 |     printf("\nDecompressed data (%zu bytes):\n", decompressed_data.size
+      |           ~                                                            ^
+      |                                                                        )
+./samples/SAFE/__tmp_da5eabd0.c:134:5: error: expected declaration or statement at end of input
+  134 |     printf("\nDecompressed data (%zu bytes):\n", decompressed_data.size
+      |     ^~~~~~

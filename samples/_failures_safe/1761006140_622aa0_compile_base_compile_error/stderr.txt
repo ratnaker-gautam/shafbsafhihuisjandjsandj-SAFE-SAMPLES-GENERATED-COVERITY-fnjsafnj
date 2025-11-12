@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_af257232.c: In function ‘main’:
+./samples/SAFE/__tmp_af257232.c:141:112: error: ‘decompressed_b’ undeclared (first use in this function); did you mean ‘decompressed_buf’?
+  141 |     size_t decompressed_size = decompress_rle(compressed_buf.data, compressed_buf.size, decompressed_buf.data, decompressed_b
+      |                                                                                                                ^~~~~~~~~~~~~~
+      |                                                                                                                decompressed_buf
+./samples/SAFE/__tmp_af257232.c:141:112: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_af257232.c:141:126: error: expected ‘)’ at end of input
+  141 |     size_t decompressed_size = decompress_rle(compressed_buf.data, compressed_buf.size, decompressed_buf.data, decompressed_b
+      |                                              ~                                                                               ^
+      |                                                                                                                              )
+./samples/SAFE/__tmp_af257232.c:141:5: error: expected declaration or statement at end of input
+  141 |     size_t decompressed_size = decompress_rle(compressed_buf.data, compressed_buf.size, decompressed_buf.data, decompressed_b
+      |     ^~~~~~

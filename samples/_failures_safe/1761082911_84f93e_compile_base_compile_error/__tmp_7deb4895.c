@@ -1,0 +1,164 @@
+//DeepSeek-V3 SAFE v1.4 Category: Safe ; Style: modular_functions ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+
+#define MAX_INPUT_LEN 100
+#define MAX_STATES 10
+
+typedef enum {
+    STATE_START,
+    STATE_READING,
+    STATE_PROCESSING,
+    STATE_FINISHED,
+    STATE_ERROR
+} state_t;
+
+typedef enum {
+    EVENT_START,
+    EVENT_DATA,
+    EVENT_PROCESS,
+    EVENT_COMPLETE,
+    EVENT_ERROR,
+    EVENT_RESET
+} event_t;
+
+typedef struct {
+    state_t current_state;
+    char buffer[MAX_INPUT_LEN];
+    size_t buffer_len;
+    int data_count;
+} context_t;
+
+static state_t handle_start(context_t *ctx, event_t event);
+static state_t handle_reading(context_t *ctx, event_t event);
+static state_t handle_processing(context_t *ctx, event_t event);
+static state_t handle_finished(context_t *ctx, event_t event);
+static state_t handle_error(context_t *ctx, event_t event);
+
+static void initialize_context(context_t *ctx) {
+    if (ctx == NULL) return;
+    ctx->current_state = STATE_START;
+    memset(ctx->buffer, 0, sizeof(ctx->buffer));
+    ctx->buffer_len = 0;
+    ctx->data_count = 0;
+}
+
+static int validate_input(const char *input, size_t len) {
+    if (input == NULL || len == 0 || len >= MAX_INPUT_LEN) return 0;
+    for (size_t i = 0; i < len; i++) {
+        if (input[i] == 0) break;
+        if (!(input[i] >= 'a' && input[i] <= 'z') && 
+            !(input[i] >= 'A' && input[i] <= 'Z') &&
+            !(input[i] >= '0' && input[i] <= '9') &&
+            input[i] != ' ') {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+static event_t get_next_event(context_t *ctx) {
+    if (ctx == NULL) return EVENT_ERROR;
+    
+    char input[MAX_INPUT_LEN];
+    printf("Enter command (start/data/process/complete/reset/quit): ");
+    
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        return EVENT_ERROR;
+    }
+    
+    input[strcspn(input, "\n")] = 0;
+    
+    if (strcmp(input, "start") == 0) return EVENT_START;
+    if (strcmp(input, "data") == 0) return EVENT_DATA;
+    if (strcmp(input, "process") == 0) return EVENT_PROCESS;
+    if (strcmp(input, "complete") == 0) return EVENT_COMPLETE;
+    if (strcmp(input, "reset") == 0) return EVENT_RESET;
+    if (strcmp(input, "quit") == 0) return EVENT_ERROR;
+    
+    return EVENT_ERROR;
+}
+
+static state_t handle_start(context_t *ctx, event_t event) {
+    if (ctx == NULL) return STATE_ERROR;
+    
+    switch (event) {
+        case EVENT_START:
+            printf("State machine started. Ready for data.\n");
+            return STATE_READING;
+        case EVENT_RESET:
+            initialize_context(ctx);
+            return STATE_START;
+        default:
+            printf("Invalid event for START state\n");
+            return STATE_ERROR;
+    }
+}
+
+static state_t handle_reading(context_t *ctx, event_t event) {
+    if (ctx == NULL) return STATE_ERROR;
+    
+    switch (event) {
+        case EVENT_DATA:
+            printf("Enter data (alphanumeric, max %d chars): ", MAX_INPUT_LEN - 1);
+            if (fgets(ctx->buffer, sizeof(ctx->buffer), stdin) == NULL) {
+                return STATE_ERROR;
+            }
+            ctx->buffer_len = strcspn(ctx->buffer, "\n");
+            ctx->buffer[ctx->buffer_len] = 0;
+            
+            if (!validate_input(ctx->buffer, ctx->buffer_len)) {
+                printf("Invalid input data\n");
+                return STATE_ERROR;
+            }
+            
+            ctx->data_count++;
+            printf("Data received: %s (count: %d)\n", ctx->buffer, ctx->data_count);
+            return STATE_READING;
+            
+        case EVENT_PROCESS:
+            if (ctx->data_count > 0) {
+                printf("Processing %d data items...\n", ctx->data_count);
+                return STATE_PROCESSING;
+            } else {
+                printf("No data to process\n");
+                return STATE_READING;
+            }
+            
+        case EVENT_RESET:
+            initialize_context(ctx);
+            return STATE_START;
+            
+        default:
+            printf("Invalid event for READING state\n");
+            return STATE_ERROR;
+    }
+}
+
+static state_t handle_processing(context_t *ctx, event_t event) {
+    if (ctx == NULL) return STATE_ERROR;
+    
+    switch (event) {
+        case EVENT_COMPLETE:
+            printf("Processing complete. Results: processed %d items\n", ctx->data_count);
+            return STATE_FINISHED;
+            
+        case EVENT_RESET:
+            initialize_context(ctx);
+            return STATE_START;
+            
+        default:
+            printf("Invalid event for PROCESSING state\n");
+            return STATE_ERROR;
+    }
+}
+
+static state_t handle_finished(context_t *ctx, event_t event) {
+    if (ctx == NULL) return STATE_ERROR;
+    
+    switch (event) {
+        case EVENT_RESET:
+            initialize_context(ctx);
+            printf("State machine reset\n");

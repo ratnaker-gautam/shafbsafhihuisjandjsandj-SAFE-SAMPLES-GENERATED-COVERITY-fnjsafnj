@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_e5093824.c: In function ‘main’:
+./samples/SAFE/__tmp_e5093824.c:174:10: error: ‘struct EventData’ has no member named ‘event’
+  174 |     event.event
+      |          ^
+./samples/SAFE/__tmp_e5093824.c:174:16: error: expected ‘;’ at end of input
+  174 |     event.event
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_e5093824.c:174:5: error: expected declaration or statement at end of input
+  174 |     event.event
+      |     ^~~~~

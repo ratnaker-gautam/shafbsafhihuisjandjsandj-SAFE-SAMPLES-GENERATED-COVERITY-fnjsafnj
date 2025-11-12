@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_dea9735a.c: In function ‘main’:
+./samples/SAFE/__tmp_dea9735a.c:138:45: error: unterminated argument list invoking macro "MATRIX_PRINT"
+  138 |             MATRIX_PRINT(result, rows1, cols
+      |                                             ^
+./samples/SAFE/__tmp_dea9735a.c:138:13: error: ‘MATRIX_PRINT’ undeclared (first use in this function)
+  138 |             MATRIX_PRINT(result, rows1, cols
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_dea9735a.c:138:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_dea9735a.c:138:25: error: expected ‘;’ at end of input
+  138 |             MATRIX_PRINT(result, rows1, cols
+      |                         ^
+      |                         ;
+./samples/SAFE/__tmp_dea9735a.c:138:13: error: expected declaration or statement at end of input
+  138 |             MATRIX_PRINT(result, rows1, cols
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_dea9735a.c:138:13: error: expected declaration or statement at end of input

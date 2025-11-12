@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_36f590df.c: In function ‘print_compression_info’:
+./samples/SAFE/__tmp_36f590df.c:160:36: error: expected ‘)’ at end of input
+  160 |     printf("  Flags: 0x%02X\n", ctx
+      |           ~                        ^
+      |                                    )
+./samples/SAFE/__tmp_36f590df.c:160:5: error: expected declaration or statement at end of input
+  160 |     printf("  Flags: 0x%02X\n", ctx
+      |     ^~~~~~

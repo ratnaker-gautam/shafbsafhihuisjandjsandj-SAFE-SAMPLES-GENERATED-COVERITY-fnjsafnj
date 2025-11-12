@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_789e237a.c: In function ‘prim’:
+./samples/SAFE/__tmp_789e237a.c:150:30: error: expected ‘)’ at end of input
+  150 |     int *inMST = calloc(graph
+      |                        ~     ^
+      |                              )
+./samples/SAFE/__tmp_789e237a.c:150:18: error: too few arguments to function ‘calloc’
+  150 |     int *inMST = calloc(graph
+      |                  ^~~~~~
+In file included from ./samples/SAFE/__tmp_789e237a.c:3:
+/usr/include/stdlib.h:675:14: note: declared here
+  675 | extern void *calloc (size_t __nmemb, size_t __size)
+      |              ^~~~~~
+./samples/SAFE/__tmp_789e237a.c:150:5: error: expected declaration or statement at end of input
+  150 |     int *inMST = calloc(graph
+      |     ^~~

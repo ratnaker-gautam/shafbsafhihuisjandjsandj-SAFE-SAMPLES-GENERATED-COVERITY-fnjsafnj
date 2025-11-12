@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_01ee1d93.c: In function ‘main’:
+./samples/SAFE/__tmp_01ee1d93.c:151:43: error: missing terminating " character
+  151 |                     print_matrix(&result, "A
+      |                                           ^~
+./samples/SAFE/__tmp_01ee1d93.c:151:21: error: expected expression at end of input
+  151 |                     print_matrix(&result, "A
+      |                     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_01ee1d93.c:151:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_01ee1d93.c:151:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_01ee1d93.c:151:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_01ee1d93.c:151:21: error: expected declaration or statement at end of input

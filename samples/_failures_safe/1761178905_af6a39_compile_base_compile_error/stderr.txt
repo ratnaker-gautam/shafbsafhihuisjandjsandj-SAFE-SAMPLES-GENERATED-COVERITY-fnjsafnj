@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_606bbf4e.c: In function ‘main’:
+./samples/SAFE/__tmp_606bbf4e.c:148:5: error: expected declaration or statement at end of input
+  148 |     float ratio = (compressed.size * 100.0f) / input.size;
+      |     ^~~~~

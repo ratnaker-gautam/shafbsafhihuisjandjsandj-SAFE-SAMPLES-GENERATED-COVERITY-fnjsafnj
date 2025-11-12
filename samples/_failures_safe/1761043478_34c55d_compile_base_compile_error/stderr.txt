@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d76b7d1d.c: In function ‘parser_expect_identifier’:
+./samples/SAFE/__tmp_d76b7d1d.c:160:5: error: expected declaration or statement at end of input
+  160 |     parser_advance(parser);
+      |     ^~~~~~~~~~~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8292e34c.c: In function ‘bfs’:
+./samples/SAFE/__tmp_8292e34c.c:178:12: error: expected identifier or ‘(’ at end of input
+  178 |     struct Queue
+      |            ^~~~~
+./samples/SAFE/__tmp_8292e34c.c:178:12: error: expected declaration or statement at end of input

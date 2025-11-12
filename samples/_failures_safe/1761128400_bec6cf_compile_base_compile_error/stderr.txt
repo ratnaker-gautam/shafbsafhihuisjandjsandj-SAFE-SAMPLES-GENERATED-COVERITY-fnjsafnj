@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_219c69a3.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_219c69a3.c:185:5: error: expected declaration or statement at end of input
+  185 |     }
+      |     ^

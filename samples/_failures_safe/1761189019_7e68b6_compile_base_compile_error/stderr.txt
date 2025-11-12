@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_60882f7a.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_60882f7a.c:131:34: error: expected ‘;’ at end of input
+  131 |         for (int i = 0; i < graph
+      |                                  ^
+      |                                  ;
+./samples/SAFE/__tmp_60882f7a.c:131:9: error: expected declaration or statement at end of input
+  131 |         for (int i = 0; i < graph
+      |         ^~~
+./samples/SAFE/__tmp_60882f7a.c:131:9: error: expected declaration or statement at end of input

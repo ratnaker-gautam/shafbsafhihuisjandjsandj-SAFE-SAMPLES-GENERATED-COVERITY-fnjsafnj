@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_55cc89e6.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_55cc89e6.c:183:17: error: expected declaration or statement at end of input
+  183 |                 printf("EOF");
+      |                 ^~~~~~
+./samples/SAFE/__tmp_55cc89e6.c:183:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_55cc89e6.c:183:17: error: expected declaration or statement at end of input

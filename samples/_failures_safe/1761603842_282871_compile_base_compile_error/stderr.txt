@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8f63d499.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_8f63d499.c:164:17: error: expected identifier or ‘(’ at end of input
+  164 |                 long
+      |                 ^~~~
+./samples/SAFE/__tmp_8f63d499.c:164:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8f63d499.c:164:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8f63d499.c:164:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8f63d499.c:164:17: error: expected declaration or statement at end of input

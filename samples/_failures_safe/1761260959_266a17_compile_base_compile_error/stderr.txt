@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1faf06d2.c: In function ‘process_tokens’:
+./samples/SAFE/__tmp_1faf06d2.c:151:9: error: expected expression at end of input
+  151 |         if (token.type >= 0 && token.type < 5 && handlers[token.type] !=
+      |         ^~
+./samples/SAFE/__tmp_1faf06d2.c:151:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1faf06d2.c:151:9: error: expected declaration or statement at end of input

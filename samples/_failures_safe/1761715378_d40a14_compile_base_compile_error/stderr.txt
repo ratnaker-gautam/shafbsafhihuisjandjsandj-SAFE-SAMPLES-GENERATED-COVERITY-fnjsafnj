@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_935ebe59.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_935ebe59.c:164:13: error: expected declaration or statement at end of input
+  164 |             return 0;
+      |             ^~~~~~
+./samples/SAFE/__tmp_935ebe59.c:164:13: error: expected declaration or statement at end of input

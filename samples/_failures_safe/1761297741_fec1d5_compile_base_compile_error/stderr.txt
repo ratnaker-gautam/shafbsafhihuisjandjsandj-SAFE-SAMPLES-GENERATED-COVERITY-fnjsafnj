@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9aac7509.c: In function ‘main’:
+./samples/SAFE/__tmp_9aac7509.c:144:12: error: expected identifier or ‘(’ at end of input
+  144 |     struct compression_result
+      |            ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_9aac7509.c:144:12: error: expected declaration or statement at end of input

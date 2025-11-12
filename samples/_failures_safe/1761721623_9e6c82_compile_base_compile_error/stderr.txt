@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7d2b886b.c: In function ‘main’:
+./samples/SAFE/__tmp_7d2b886b.c:142:5: error: expected expression at end of input
+  142 |     for (int i = 0; i < 2; i++)
+      |     ^~~
+./samples/SAFE/__tmp_7d2b886b.c:142:5: error: expected declaration or statement at end of input

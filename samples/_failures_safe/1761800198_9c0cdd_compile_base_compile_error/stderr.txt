@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_f0bd0598.c: In function ‘main’:
+./samples/SAFE/__tmp_f0bd0598.c:170:42: error: ‘STATE’ undeclared (first use in this function)
+  170 |                             next_state = STATE
+      |                                          ^~~~~
+./samples/SAFE/__tmp_f0bd0598.c:170:42: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f0bd0598.c:170:47: error: expected ‘;’ at end of input
+  170 |                             next_state = STATE
+      |                                               ^
+      |                                               ;
+./samples/SAFE/__tmp_f0bd0598.c:170:29: error: expected declaration or statement at end of input
+  170 |                             next_state = STATE
+      |                             ^~~~~~~~~~
+./samples/SAFE/__tmp_f0bd0598.c:170:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0bd0598.c:170:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0bd0598.c:170:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0bd0598.c:170:29: error: expected declaration or statement at end of input

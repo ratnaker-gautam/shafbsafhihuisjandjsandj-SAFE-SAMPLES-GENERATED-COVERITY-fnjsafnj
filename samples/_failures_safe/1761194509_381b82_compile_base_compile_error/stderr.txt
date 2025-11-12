@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_0c980cc3.c: In function ‘executeAlgorithm’:
+./samples/SAFE/__tmp_0c980cc3.c:144:13: error: ‘di’ undeclared (first use in this function); did you mean ‘div’?
+  144 |             di
+      |             ^~
+      |             div
+./samples/SAFE/__tmp_0c980cc3.c:144:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0c980cc3.c:144:15: error: expected ‘;’ at end of input
+  144 |             di
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_0c980cc3.c:144:13: error: expected declaration or statement at end of input
+  144 |             di
+      |             ^~
+./samples/SAFE/__tmp_0c980cc3.c:144:13: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_7130c49b.c: In function ‘main’:
+./samples/SAFE/__tmp_7130c49b.c:129:39: error: expected ‘)’ at end of input
+  129 |     display_entries_by_level(&analyzer
+      |                             ~         ^
+      |                                       )
+./samples/SAFE/__tmp_7130c49b.c:129:5: error: too few arguments to function ‘display_entries_by_level’
+  129 |     display_entries_by_level(&analyzer
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_7130c49b.c:98:6: note: declared here
+   98 | void display_entries_by_level(const struct LogAnalyzer *analyzer, const char *level) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_7130c49b.c:129:5: error: expected declaration or statement at end of input
+  129 |     display_entries_by_level(&analyzer
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~

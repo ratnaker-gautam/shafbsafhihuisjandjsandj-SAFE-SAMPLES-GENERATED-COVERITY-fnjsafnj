@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_2a4140a6.c: In function ‘main’:
+./samples/SAFE/__tmp_2a4140a6.c:147:43: error: ‘decomp’ undeclared (first use in this function)
+  147 |     print_buffer_hex(decompressed_buffer, decomp
+      |                                           ^~~~~~
+./samples/SAFE/__tmp_2a4140a6.c:147:43: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2a4140a6.c:147:49: error: expected ‘)’ at end of input
+  147 |     print_buffer_hex(decompressed_buffer, decomp
+      |                     ~                           ^
+      |                                                 )
+./samples/SAFE/__tmp_2a4140a6.c:147:5: error: expected declaration or statement at end of input
+  147 |     print_buffer_hex(decompressed_buffer, decomp
+      |     ^~~~~~~~~~~~~~~~

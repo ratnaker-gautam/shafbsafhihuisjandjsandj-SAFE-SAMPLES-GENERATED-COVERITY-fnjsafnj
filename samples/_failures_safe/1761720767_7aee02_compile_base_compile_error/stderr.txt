@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_680b72f3.c: In function ‘write_compressed_output’:
+./samples/SAFE/__tmp_680b72f3.c:186:9: error: expected expression at end of input
+  186 |         if (fwrite(&current->block_size, sizeof(current->block_size), 1,
+      |         ^~
+./samples/SAFE/__tmp_680b72f3.c:186:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_680b72f3.c:186:9: error: expected declaration or statement at end of input

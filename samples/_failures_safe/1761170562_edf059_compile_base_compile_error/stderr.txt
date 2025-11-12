@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_fe90bfd6.c: In function ‘executeAlgorithm’:
+./samples/SAFE/__tmp_fe90bfd6.c:145:9: error: expected ‘:’ or ‘...’ at end of input
+  145 |         case DFS
+      |         ^~~~
+./samples/SAFE/__tmp_fe90bfd6.c:145:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fe90bfd6.c:145:9: error: expected declaration or statement at end of input

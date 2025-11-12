@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_39eb6228.c: In function ‘main’:
+./samples/SAFE/__tmp_39eb6228.c:150:12: error: missing terminating " character
+  150 |     printf("Testing compression algorithms on %zu bytes
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_39eb6228.c:150:5: error: expected expression at end of input
+  150 |     printf("Testing compression algorithms on %zu bytes
+      |     ^~~~~~
+./samples/SAFE/__tmp_39eb6228.c:150:5: error: expected declaration or statement at end of input

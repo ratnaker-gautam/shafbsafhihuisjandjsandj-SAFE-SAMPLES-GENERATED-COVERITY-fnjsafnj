@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_826812be.c: In function ‘main’:
+./samples/SAFE/__tmp_826812be.c:188:25: error: expected ‘)’ at end of input
+  188 |     if (person_count > 0
+      |        ~                ^
+      |                         )
+./samples/SAFE/__tmp_826812be.c:188:5: error: expected declaration or statement at end of input
+  188 |     if (person_count > 0
+      |     ^~

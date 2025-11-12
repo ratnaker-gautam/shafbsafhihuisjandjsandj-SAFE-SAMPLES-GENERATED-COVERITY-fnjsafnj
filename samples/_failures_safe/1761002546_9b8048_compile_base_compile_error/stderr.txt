@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0cd3e440.c: In function ‘pointcloud_add_point’:
+./samples/SAFE/__tmp_0cd3e440.c:146:40: error: expected ‘;’ at end of input
+  146 |     cloud->points[cloud->count] = point
+      |                                        ^
+      |                                        ;
+./samples/SAFE/__tmp_0cd3e440.c:146:5: error: expected declaration or statement at end of input
+  146 |     cloud->points[cloud->count] = point
+      |     ^~~~~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_974099db.c: In function ‘main’:
+./samples/SAFE/__tmp_974099db.c:150:28: error: ‘matrix_mult’ undeclared (first use in this function); did you mean ‘matrix_multiply’?
+  150 |     struct Matrix result = matrix_mult
+      |                            ^~~~~~~~~~~
+      |                            matrix_multiply
+./samples/SAFE/__tmp_974099db.c:150:28: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_974099db.c:150:12: error: expected ‘,’ or ‘;’ at end of input
+  150 |     struct Matrix result = matrix_mult
+      |            ^~~~~~
+./samples/SAFE/__tmp_974099db.c:150:12: error: expected declaration or statement at end of input

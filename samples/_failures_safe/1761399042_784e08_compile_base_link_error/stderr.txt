@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccOkwEtH.o: in function `main':
+__tmp_edad0c68.c:(.text.startup+0x9b): undefined reference to `sin'
+/usr/bin/ld: __tmp_edad0c68.c:(.text.startup+0xbc): undefined reference to `cos'
+/usr/bin/ld: __tmp_edad0c68.c:(.text.startup+0x1c9): undefined reference to `pow'
+/usr/bin/ld: __tmp_edad0c68.c:(.text.startup+0x35e): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_edad0c68.c:(.text.startup+0x3cf): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_69e7ae75.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_69e7ae75.c:148:36: error: expected ‘)’ at end of input
+  148 |     } else if (c == '(' || c == ')'
+      |               ~                    ^
+      |                                    )
+./samples/SAFE/__tmp_69e7ae75.c:148:5: error: expected declaration or statement at end of input
+  148 |     } else if (c == '(' || c == ')'
+      |     ^

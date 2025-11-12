@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_96280182.c: In function ‘main’:
+./samples/SAFE/__tmp_96280182.c:157:52: error: expected ‘)’ at end of input
+  157 |                 if (matrix_multiply(&a, &b, &result
+      |                                    ~               ^
+      |                                                    )
+./samples/SAFE/__tmp_96280182.c:157:17: error: expected declaration or statement at end of input
+  157 |                 if (matrix_multiply(&a, &b, &result
+      |                 ^~
+./samples/SAFE/__tmp_96280182.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_96280182.c:157:17: error: expected declaration or statement at end of input

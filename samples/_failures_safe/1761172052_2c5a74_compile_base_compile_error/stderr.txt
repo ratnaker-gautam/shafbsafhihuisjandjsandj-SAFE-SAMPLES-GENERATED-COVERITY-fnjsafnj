@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ce7f4698.c: In function ‘main’:
+./samples/SAFE/__tmp_ce7f4698.c:152:5: error: expected declaration or statement at end of input
+  152 |     process_text(input);
+      |     ^~~~~~~~~~~~

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_52ebab4b.c: In function ‘main’:
+./samples/SAFE/__tmp_52ebab4b.c:153:9: error: used struct type value where scalar is required
+  153 |     if (compressed
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_52ebab4b.c:153:19: error: expected ‘)’ at end of input
+  153 |     if (compressed
+      |        ~          ^
+      |                   )
+./samples/SAFE/__tmp_52ebab4b.c:153:5: error: expected declaration or statement at end of input
+  153 |     if (compressed
+      |     ^~

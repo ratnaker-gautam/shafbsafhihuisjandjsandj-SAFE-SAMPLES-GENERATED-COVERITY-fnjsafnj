@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_ed804c12.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_ed804c12.c:145:9: error: ‘strnc’ undeclared (first use in this function); did you mean ‘strncmp’?
+  145 |         strnc
+      |         ^~~~~
+      |         strncmp
+./samples/SAFE/__tmp_ed804c12.c:145:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ed804c12.c:145:14: error: expected ‘;’ at end of input
+  145 |         strnc
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_ed804c12.c:145:9: error: expected declaration or statement at end of input
+  145 |         strnc
+      |         ^~~~~
+./samples/SAFE/__tmp_ed804c12.c:145:9: error: expected declaration or statement at end of input

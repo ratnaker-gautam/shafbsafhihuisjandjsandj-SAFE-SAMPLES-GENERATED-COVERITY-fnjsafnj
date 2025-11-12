@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0d4af68a.c: In function ‘main’:
+./samples/SAFE/__tmp_0d4af68a.c:160:5: error: expected declaration or statement at end of input
+  160 |     printf("Enter %zu elements for first matrix:\n", rows1 * cols1);
+      |     ^~~~~~

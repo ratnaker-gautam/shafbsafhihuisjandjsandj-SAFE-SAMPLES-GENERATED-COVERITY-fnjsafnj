@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5f73ee5a.c: In function ‘main’:
+./samples/SAFE/__tmp_5f73ee5a.c:175:5: error: expected declaration or statement at end of input
+  175 |     } while (k < token_count);
+      |     ^

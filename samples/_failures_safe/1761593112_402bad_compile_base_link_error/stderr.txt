@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccBVw9uI.o: in function `compute_function':
+__tmp_49f00c00.c:(.text+0xa5): undefined reference to `log'
+/usr/bin/ld: /tmp/ccBVw9uI.o: in function `safe_log':
+__tmp_49f00c00.c:(.text+0x3f): undefined reference to `log'
+collect2: error: ld returned 1 exit status

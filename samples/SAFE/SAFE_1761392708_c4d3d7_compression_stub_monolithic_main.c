@@ -1,0 +1,99 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: monolithic_main ; Variation: compression_stub
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_INPUT_SIZE 1048576
+#define MAX_OUTPUT_SIZE 2097152
+
+int main(void) {
+    uint8_t input_buffer[MAX_INPUT_SIZE];
+    uint8_t output_buffer[MAX_OUTPUT_SIZE];
+    size_t input_size = 0;
+    size_t output_size = 0;
+    
+    printf("Enter data to compress (max %d bytes): ", MAX_INPUT_SIZE);
+    
+    int c;
+    while ((c = getchar()) != EOF && c != '\n') {
+        if (input_size >= MAX_INPUT_SIZE) {
+            fprintf(stderr, "Error: Input too large\n");
+            return 1;
+        }
+        input_buffer[input_size++] = (uint8_t)c;
+    }
+    
+    if (input_size == 0) {
+        fprintf(stderr, "Error: No input provided\n");
+        return 1;
+    }
+    
+    printf("Processing %zu bytes...\n", input_size);
+    
+    output_buffer[output_size++] = 0x78;
+    output_buffer[output_size++] = 0x9C;
+    
+    size_t pos = 0;
+    while (pos < input_size) {
+        if (output_size + 5 >= MAX_OUTPUT_SIZE) {
+            fprintf(stderr, "Error: Output buffer overflow\n");
+            return 1;
+        }
+        
+        size_t run_length = 1;
+        uint8_t current = input_buffer[pos];
+        
+        while (pos + run_length < input_size && 
+               input_buffer[pos + run_length] == current && 
+               run_length < 255) {
+            run_length++;
+        }
+        
+        if (run_length >= 3) {
+            output_buffer[output_size++] = 0xFF;
+            output_buffer[output_size++] = (uint8_t)current;
+            output_buffer[output_size++] = (uint8_t)(run_length - 1);
+            pos += run_length;
+        } else {
+            output_buffer[output_size++] = current;
+            pos++;
+        }
+    }
+    
+    uint32_t adler32 = 1;
+    uint32_t s1 = 1;
+    uint32_t s2 = 0;
+    
+    for (size_t i = 0; i < input_size; i++) {
+        s1 = (s1 + input_buffer[i]) % 65521;
+        s2 = (s2 + s1) % 65521;
+    }
+    adler32 = (s2 << 16) | s1;
+    
+    if (output_size + 4 >= MAX_OUTPUT_SIZE) {
+        fprintf(stderr, "Error: Output buffer overflow\n");
+        return 1;
+    }
+    
+    output_buffer[output_size++] = (adler32 >> 24) & 0xFF;
+    output_buffer[output_size++] = (adler32 >> 16) & 0xFF;
+    output_buffer[output_size++] = (adler32 >> 8) & 0xFF;
+    output_buffer[output_size++] = adler32 & 0xFF;
+    
+    printf("Compressed %zu bytes to %zu bytes\n", input_size, output_size);
+    printf("Compression ratio: %.2f%%\n", 
+           (double)output_size * 100.0 / (double)input_size);
+    
+    printf("Output (hex): ");
+    for (size_t i = 0; i < output_size && i < 32; i++) {
+        printf("%02X ", output_buffer[i]);
+    }
+    if (output_size > 32) {
+        printf("...");
+    }
+    printf("\n");
+    
+    return 0;
+}

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_21321610.c: In function ‘pointcloud_add_point’:
+./samples/SAFE/__tmp_21321610.c:121:9: error: expected ‘,’ or ‘;’ at end of input
+  121 |         size_t new_capacity = pc
+      |         ^~~~~~
+./samples/SAFE/__tmp_21321610.c:121:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_21321610.c:121:9: error: expected declaration or statement at end of input

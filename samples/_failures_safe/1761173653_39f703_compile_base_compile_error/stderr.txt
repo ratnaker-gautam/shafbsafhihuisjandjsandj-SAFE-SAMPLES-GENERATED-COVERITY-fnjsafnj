@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_c8058a81.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_c8058a81.c:181:49: error: ‘MAX_NOD’ undeclared (first use in this function); did you mean ‘MAX_NODES’?
+  181 |                 if (neighbor >= 0 && neighbor < MAX_NOD
+      |                                                 ^~~~~~~
+      |                                                 MAX_NODES
+./samples/SAFE/__tmp_c8058a81.c:181:49: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c8058a81.c:181:56: error: expected ‘)’ at end of input
+  181 |                 if (neighbor >= 0 && neighbor < MAX_NOD
+      |                    ~                                   ^
+      |                                                        )
+./samples/SAFE/__tmp_c8058a81.c:181:17: error: expected declaration or statement at end of input
+  181 |                 if (neighbor >= 0 && neighbor < MAX_NOD
+      |                 ^~
+./samples/SAFE/__tmp_c8058a81.c:181:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c8058a81.c:181:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c8058a81.c:181:17: error: expected declaration or statement at end of input

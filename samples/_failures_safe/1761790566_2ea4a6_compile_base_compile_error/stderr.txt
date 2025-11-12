@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8064ac51.c: In function ‘print_high_severity_logs’:
+./samples/SAFE/__tmp_8064ac51.c:145:22: error: expected declaration or statement at end of input
+  145 |         const struct LogEntry *entry = &analyzer->entries[i];
+      |                      ^~~~~~~~
+./samples/SAFE/__tmp_8064ac51.c:145:22: error: expected declaration or statement at end of input

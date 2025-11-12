@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c783937d.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_c783937d.c:163:17: error: expected declaration or statement at end of input
+  163 |                 if (!queue_enqueue(&q, neighbor)) {
+      |                 ^~
+./samples/SAFE/__tmp_c783937d.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c783937d.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c783937d.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c783937d.c:163:17: error: expected declaration or statement at end of input

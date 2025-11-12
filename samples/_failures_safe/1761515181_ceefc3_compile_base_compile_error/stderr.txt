@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_67b1c51c.c: In function ‘main’:
+./samples/SAFE/__tmp_67b1c51c.c:123:12: error: missing terminating " character
+  123 |     printf("Example: 2024-01-15T10:30:00 INFO System started
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_67b1c51c.c:123:5: error: expected expression at end of input
+  123 |     printf("Example: 2024-01-15T10:30:00 INFO System started
+      |     ^~~~~~
+./samples/SAFE/__tmp_67b1c51c.c:123:5: error: expected declaration or statement at end of input

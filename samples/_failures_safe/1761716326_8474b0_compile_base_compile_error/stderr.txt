@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7e35db0d.c: In function ‘main’:
+./samples/SAFE/__tmp_7e35db0d.c:137:5: error: expected expression at end of input
+  137 |     if (scanf("%d", &startVertex) != 1 || startVertex < 0 || startVertex >
+      |     ^~
+./samples/SAFE/__tmp_7e35db0d.c:137:5: error: expected declaration or statement at end of input

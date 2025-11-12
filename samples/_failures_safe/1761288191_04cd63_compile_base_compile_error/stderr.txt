@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a98b07dd.c: In function ‘main’:
+./samples/SAFE/__tmp_a98b07dd.c:139:5: error: expected declaration or statement at end of input
+  139 |     if (!compress_buffer(&input, &compressed)) {
+      |     ^~
+./samples/SAFE/__tmp_a98b07dd.c:139:5: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9648edf8.c: In function ‘add_log_entry’:
+./samples/SAFE/__tmp_9648edf8.c:137:12: error: expected ‘,’ or ‘;’ at end of input
+  137 |     struct LogEntry* entry = &analyzer
+      |            ^~~~~~~~
+./samples/SAFE/__tmp_9648edf8.c:137:12: error: expected declaration or statement at end of input

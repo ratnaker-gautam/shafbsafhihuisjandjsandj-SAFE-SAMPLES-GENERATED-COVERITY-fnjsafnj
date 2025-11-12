@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_43124130.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_43124130.c:165: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_43124130.c:164:9: error: expected declaration or statement at end of input
+  164 |         if
+      |         ^~
+./samples/SAFE/__tmp_43124130.c:164:9: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_5ef1b2e1.c: In function ‘main’:
+./samples/SAFE/__tmp_5ef1b2e1.c:161:14: error: ‘get_next’ undeclared (first use in this function)
+  161 |         if (!get_next
+      |              ^~~~~~~~
+./samples/SAFE/__tmp_5ef1b2e1.c:161:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5ef1b2e1.c:161:22: error: expected ‘)’ at end of input
+  161 |         if (!get_next
+      |            ~         ^
+      |                      )
+./samples/SAFE/__tmp_5ef1b2e1.c:161:9: error: expected declaration or statement at end of input
+  161 |         if (!get_next
+      |         ^~
+./samples/SAFE/__tmp_5ef1b2e1.c:161:9: error: expected declaration or statement at end of input

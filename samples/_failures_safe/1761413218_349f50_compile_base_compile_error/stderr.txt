@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_fc1e1c4e.c: In function ‘read_string’:
+./samples/SAFE/__tmp_fc1e1c4e.c:170:17: error: ‘MAX_TOKEN’ undeclared (first use in this function); did you mean ‘MAX_TOKENS’?
+  170 |         if (i < MAX_TOKEN
+      |                 ^~~~~~~~~
+      |                 MAX_TOKENS
+./samples/SAFE/__tmp_fc1e1c4e.c:170:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fc1e1c4e.c:170:26: error: expected ‘)’ at end of input
+  170 |         if (i < MAX_TOKEN
+      |            ~             ^
+      |                          )
+./samples/SAFE/__tmp_fc1e1c4e.c:170:9: error: expected declaration or statement at end of input
+  170 |         if (i < MAX_TOKEN
+      |         ^~
+./samples/SAFE/__tmp_fc1e1c4e.c:170:9: error: expected declaration or statement at end of input

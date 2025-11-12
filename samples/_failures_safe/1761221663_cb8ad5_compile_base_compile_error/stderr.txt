@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bd962d1a.c: In function ‘primMST’:
+./samples/SAFE/__tmp_bd962d1a.c:140:17: error: expected expression at end of input
+  140 |                 if (v >= 0 && v < num_nodes && isInMinHeap(heap, v) && graph->edges[i].weight <
+      |                 ^~
+./samples/SAFE/__tmp_bd962d1a.c:140:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bd962d1a.c:140:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bd962d1a.c:140:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bd962d1a.c:140:17: error: expected declaration or statement at end of input

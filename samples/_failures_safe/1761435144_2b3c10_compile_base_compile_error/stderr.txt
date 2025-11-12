@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_026a1c88.c: In function ‘parser_expect_operator’:
+./samples/SAFE/__tmp_026a1c88.c:156:47: error: expected ‘)’ at end of input
+  156 |         strcmp(parser->current_token.value, op
+      |               ~                               ^
+      |                                               )
+./samples/SAFE/__tmp_026a1c88.c:156:9: error: expected declaration or statement at end of input
+  156 |         strcmp(parser->current_token.value, op
+      |         ^~~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_05716232.c: In function ‘main’:
+./samples/SAFE/__tmp_05716232.c:165:9: error: expected expression at end of input
+  165 |         if (parse_log_line(line_buffer, &entry,
+      |         ^~
+./samples/SAFE/__tmp_05716232.c:165:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_05716232.c:165:9: error: expected declaration or statement at end of input

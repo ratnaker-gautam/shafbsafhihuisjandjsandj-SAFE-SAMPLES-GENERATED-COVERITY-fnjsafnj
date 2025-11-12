@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6053fc20.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_6053fc20.c:153:9: error: expected declaration or statement at end of input
+  153 |         return 1;
+      |         ^~~~~~
+./samples/SAFE/__tmp_6053fc20.c:153:9: error: expected declaration or statement at end of input

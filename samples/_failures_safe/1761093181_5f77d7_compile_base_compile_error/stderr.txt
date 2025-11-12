@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2f5b5f0f.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_2f5b5f0f.c:151:48: error: expected ‘)’ at end of input
+  151 |     printf("Data Count: %u\n", machine->context
+      |           ~                                    ^
+      |                                                )
+./samples/SAFE/__tmp_2f5b5f0f.c:151:5: error: expected declaration or statement at end of input
+  151 |     printf("Data Count: %u\n", machine->context
+      |     ^~~~~~

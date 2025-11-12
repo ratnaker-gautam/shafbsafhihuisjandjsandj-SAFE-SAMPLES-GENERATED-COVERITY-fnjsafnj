@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_6fb182a8.c: In function ‘print_high_severity_entries’:
+./samples/SAFE/__tmp_6fb182a8.c:135:13: error: ‘analy’ undeclared (first use in this function); did you mean ‘analyzer’?
+  135 |         if (analy
+      |             ^~~~~
+      |             analyzer
+./samples/SAFE/__tmp_6fb182a8.c:135:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6fb182a8.c:135:18: error: expected ‘)’ at end of input
+  135 |         if (analy
+      |            ~     ^
+      |                  )
+./samples/SAFE/__tmp_6fb182a8.c:135:9: error: expected declaration or statement at end of input
+  135 |         if (analy
+      |         ^~
+./samples/SAFE/__tmp_6fb182a8.c:135:9: error: expected declaration or statement at end of input

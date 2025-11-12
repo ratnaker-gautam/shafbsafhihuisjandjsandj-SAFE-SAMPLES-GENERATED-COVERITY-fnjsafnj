@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_b4b376fc.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_b4b376fc.c:170:54: error: expected ‘)’ at end of input
+  170 |         if (!get_next_token(input, &pos, line, column
+      |                            ~                         ^
+      |                                                      )
+./samples/SAFE/__tmp_b4b376fc.c:170:14: error: too few arguments to function ‘get_next_token’
+  170 |         if (!get_next_token(input, &pos, line, column
+      |              ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b4b376fc.c:124:5: note: declared here
+  124 | int get_next_token(const char *input, int *pos, int line, int column, struct Token *token) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b4b376fc.c:170:9: error: expected declaration or statement at end of input
+  170 |         if (!get_next_token(input, &pos, line, column
+      |         ^~
+./samples/SAFE/__tmp_b4b376fc.c:170:9: error: expected declaration or statement at end of input

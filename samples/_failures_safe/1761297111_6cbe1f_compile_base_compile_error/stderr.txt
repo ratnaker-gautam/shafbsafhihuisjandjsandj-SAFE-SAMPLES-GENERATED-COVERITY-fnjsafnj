@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_539e6038.c: In function ‘state_machine_step’:
+./samples/SAFE/__tmp_539e6038.c:163:24: error: ‘struct context’ has no member named ‘error’
+  163 |                     ctx->error
+      |                        ^~
+./samples/SAFE/__tmp_539e6038.c:163:31: error: expected ‘;’ at end of input
+  163 |                     ctx->error
+      |                               ^
+      |                               ;
+./samples/SAFE/__tmp_539e6038.c:163:21: error: expected declaration or statement at end of input
+  163 |                     ctx->error
+      |                     ^~~
+./samples/SAFE/__tmp_539e6038.c:163:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_539e6038.c:163:21: error: expected declaration or statement at end of input

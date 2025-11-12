@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_944308de.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_944308de.c:179:21: error: expected declaration or statement at end of input
+  179 |                     graph->nodes[neighbor].distance = graph->nodes[current].distance + 1;
+      |                     ^~~~~
+./samples/SAFE/__tmp_944308de.c:179:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_944308de.c:179:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_944308de.c:179:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_944308de.c:179:21: error: expected declaration or statement at end of input

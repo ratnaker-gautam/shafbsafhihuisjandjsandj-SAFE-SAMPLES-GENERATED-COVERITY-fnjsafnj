@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_04de0346.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_04de0346.c:138:50: error: ‘const struct LogStats’ has no member named ‘total_’
+  138 |     printf("Total entries: %u\n", analyzer->stats.total_
+      |                                                  ^
+./samples/SAFE/__tmp_04de0346.c:138:57: error: expected ‘)’ at end of input
+  138 |     printf("Total entries: %u\n", analyzer->stats.total_
+      |           ~                                             ^
+      |                                                         )
+./samples/SAFE/__tmp_04de0346.c:138:5: error: expected declaration or statement at end of input
+  138 |     printf("Total entries: %u\n", analyzer->stats.total_
+      |     ^~~~~~

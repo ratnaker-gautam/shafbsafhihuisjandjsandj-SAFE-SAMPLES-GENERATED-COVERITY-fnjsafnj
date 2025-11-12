@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e0fb8b18.c: In function ‘main’:
+./samples/SAFE/__tmp_e0fb8b18.c:180:34: error: expected ‘)’ at end of input
+  180 |     if (tokenizer.error_count > 0
+      |        ~                         ^
+      |                                  )
+./samples/SAFE/__tmp_e0fb8b18.c:180:5: error: expected declaration or statement at end of input
+  180 |     if (tokenizer.error_count > 0
+      |     ^~

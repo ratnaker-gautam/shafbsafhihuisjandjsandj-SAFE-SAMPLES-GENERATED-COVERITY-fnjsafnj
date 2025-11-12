@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_45c32d3a.c:163:1: error: expected identifier or ‘(’ at end of input
+  163 | const char
+      | ^~~~~

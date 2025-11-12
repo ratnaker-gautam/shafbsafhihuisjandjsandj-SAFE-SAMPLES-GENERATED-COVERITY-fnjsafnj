@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_77bdf588.c: In function ‘main’:
+./samples/SAFE/__tmp_77bdf588.c:149:9: error: expected declaration or statement at end of input
+  149 |         if (heap_entries[i].count == max_count) {
+      |         ^~
+./samples/SAFE/__tmp_77bdf588.c:149:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_77bdf588.c:149:9: error: expected declaration or statement at end of input

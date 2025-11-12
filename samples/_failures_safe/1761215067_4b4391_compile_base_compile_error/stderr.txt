@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f73e32a9.c: In function ‘main’:
+./samples/SAFE/__tmp_f73e32a9.c:138:32: error: expected ‘)’ at end of input
+  138 |         if (strlen(input_buffer
+      |                   ~            ^
+      |                                )
+./samples/SAFE/__tmp_f73e32a9.c:138:9: error: expected declaration or statement at end of input
+  138 |         if (strlen(input_buffer
+      |         ^~
+./samples/SAFE/__tmp_f73e32a9.c:138:9: error: expected declaration or statement at end of input

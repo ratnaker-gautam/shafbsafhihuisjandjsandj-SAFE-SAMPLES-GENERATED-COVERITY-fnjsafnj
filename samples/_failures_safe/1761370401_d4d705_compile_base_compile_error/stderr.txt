@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f31798f2.c: In function ‘lexer_next’:
+./samples/SAFE/__tmp_f31798f2.c:142:9: error: expected declaration or statement at end of input
+  142 |         token.value[1] = '\0';
+      |         ^~~~~
+./samples/SAFE/__tmp_f31798f2.c:142:9: error: expected declaration or statement at end of input

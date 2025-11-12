@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_6e96e11f.c: In function ‘main’:
+./samples/SAFE/__tmp_6e96e11f.c:176:9: error: expected expression at end of input
+  176 |         if (fgets(input,
+      |         ^~
+./samples/SAFE/__tmp_6e96e11f.c:176:13: error: too few arguments to function ‘fgets’
+  176 |         if (fgets(input,
+      |             ^~~~~
+In file included from /usr/include/stdio.h:980,
+                 from ./samples/SAFE/__tmp_6e96e11f.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:196:1: note: declared here
+  196 | fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      | ^~~~~
+./samples/SAFE/__tmp_6e96e11f.c:176:9: error: expected declaration or statement at end of input
+  176 |         if (fgets(input,
+      |         ^~
+./samples/SAFE/__tmp_6e96e11f.c:176:9: error: expected declaration or statement at end of input

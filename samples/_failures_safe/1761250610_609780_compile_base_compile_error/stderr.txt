@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_37372f8f.c: In function ‘read_matrix_interactive’:
+./samples/SAFE/__tmp_37372f8f.c:146:39: error: expected ‘)’ at end of input
+  146 |         for (size_t j = 0; j < cols; j
+      |             ~                         ^
+      |                                       )
+./samples/SAFE/__tmp_37372f8f.c:146:9: error: expected declaration or statement at end of input
+  146 |         for (size_t j = 0; j < cols; j
+      |         ^~~
+./samples/SAFE/__tmp_37372f8f.c:146:9: error: expected declaration or statement at end of input

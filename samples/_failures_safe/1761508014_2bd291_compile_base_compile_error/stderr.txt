@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_e5058972.c: In function ‘main’:
+./samples/SAFE/__tmp_e5058972.c:152:17: error: expected declaration or statement at end of input
+  152 |                 if (fgets(to, sizeof(to), stdin) == NULL) break;
+      |                 ^~
+./samples/SAFE/__tmp_e5058972.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e5058972.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e5058972.c:152:17: error: expected declaration or statement at end of input

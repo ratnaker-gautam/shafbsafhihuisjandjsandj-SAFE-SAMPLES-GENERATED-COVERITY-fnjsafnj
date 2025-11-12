@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_61ec4f08.c: In function ‘main’:
+./samples/SAFE/__tmp_61ec4f08.c:150:63: error: expected ‘)’ at end of input
+  150 |         printf("\n%s entries:\n", level_to_string(filter_level
+      |                                                  ~            ^
+      |                                                               )
+./samples/SAFE/__tmp_61ec4f08.c:150:9: error: expected declaration or statement at end of input
+  150 |         printf("\n%s entries:\n", level_to_string(filter_level
+      |         ^~~~~~
+./samples/SAFE/__tmp_61ec4f08.c:150:9: error: expected declaration or statement at end of input

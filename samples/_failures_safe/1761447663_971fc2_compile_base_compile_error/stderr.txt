@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_2d580035.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_2d580035.c:159:37: error: expected ‘;’ at end of input
+  159 |             case TOKEN_EOF: type_str
+      |                                     ^
+      |                                     ;
+./samples/SAFE/__tmp_2d580035.c:159:13: error: expected declaration or statement at end of input
+  159 |             case TOKEN_EOF: type_str
+      |             ^~~~
+./samples/SAFE/__tmp_2d580035.c:159:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2d580035.c:159:13: error: expected declaration or statement at end of input

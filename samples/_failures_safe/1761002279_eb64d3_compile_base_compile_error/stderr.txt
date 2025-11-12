@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_aaadc49c.c: In function ‘print_log_stats’:
+./samples/SAFE/__tmp_aaadc49c.c:150:5: error: expected declaration or statement at end of input
+  150 |     printf("WARNING entries: %u\n", log_file->stats.warning_count);
+      |     ^~~~~~

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_eceea18d.c: In function ‘compress_data’:
+./samples/SAFE/__tmp_eceea18d.c:137:21: error: aggregate value used where an integer was expected
+  137 |                     output[compressed] = (uint8_t)ctx->current_block
+      |                     ^~~~~~
+./samples/SAFE/__tmp_eceea18d.c:137:69: error: expected ‘;’ at end of input
+  137 |                     output[compressed] = (uint8_t)ctx->current_block
+      |                                                                     ^
+      |                                                                     ;
+./samples/SAFE/__tmp_eceea18d.c:137:21: error: expected declaration or statement at end of input
+  137 |                     output[compressed] = (uint8_t)ctx->current_block
+      |                     ^~~~~~
+./samples/SAFE/__tmp_eceea18d.c:137:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eceea18d.c:137:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eceea18d.c:137:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eceea18d.c:137:21: error: expected declaration or statement at end of input

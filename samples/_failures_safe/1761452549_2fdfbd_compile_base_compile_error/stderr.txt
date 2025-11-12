@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6986e560.c: In function ‘main’:
+./samples/SAFE/__tmp_6986e560.c:164:5: error: expected expression at end of input
+  164 |     if (multiply_matrices(&a, &b,
+      |     ^~
+./samples/SAFE/__tmp_6986e560.c:164:5: error: expected declaration or statement at end of input

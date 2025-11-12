@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_40382eec.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_40382eec.c:177:9: error: expected ‘{’ at end of input
+  177 |         struct
+      |         ^~~~~~
+./samples/SAFE/__tmp_40382eec.c:177:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_40382eec.c:177:9: error: expected declaration or statement at end of input

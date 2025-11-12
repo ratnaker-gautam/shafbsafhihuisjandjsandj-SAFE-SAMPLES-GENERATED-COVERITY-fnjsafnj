@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_0a59baf7.c: In function ‘initialize_handlers’:
+./samples/SAFE/__tmp_0a59baf7.c:134:7: error: ‘struct StateMachine’ has no member named ‘hand’
+  134 |     sm->hand
+      |       ^~
+./samples/SAFE/__tmp_0a59baf7.c:134:13: error: expected ‘;’ at end of input
+  134 |     sm->hand
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_0a59baf7.c:134:5: error: expected declaration or statement at end of input
+  134 |     sm->hand
+      |     ^~

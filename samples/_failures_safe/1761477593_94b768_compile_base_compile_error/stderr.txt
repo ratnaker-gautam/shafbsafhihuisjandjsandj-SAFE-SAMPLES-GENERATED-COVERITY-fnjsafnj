@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_25f43b5b.c: In function ‘main’:
+./samples/SAFE/__tmp_25f43b5b.c:124:5: error: expected declaration or statement at end of input
+  124 |     matrix_init(&b, rows2, cols2);
+      |     ^~~~~~~~~~~

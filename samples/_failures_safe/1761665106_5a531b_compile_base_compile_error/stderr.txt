@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7fda0b91.c: In function ‘main’:
+./samples/SAFE/__tmp_7fda0b91.c:127:34: error: missing terminating " character
+  127 |     if (a.data == NULL) { printf("
+      |                                  ^
+./samples/SAFE/__tmp_7fda0b91.c:127:5: error: expected expression at end of input
+  127 |     if (a.data == NULL) { printf("
+      |     ^~
+./samples/SAFE/__tmp_7fda0b91.c:127:5: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7fda0b91.c:127:5: error: expected declaration or statement at end of input

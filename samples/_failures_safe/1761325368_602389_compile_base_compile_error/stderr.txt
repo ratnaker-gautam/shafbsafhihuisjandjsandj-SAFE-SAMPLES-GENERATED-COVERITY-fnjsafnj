@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_417641d7.c: In function ‘main’:
+./samples/SAFE/__tmp_417641d7.c:147:13: error: expected declaration or statement at end of input
+  147 |             process_character(&machine, (char)c);
+      |             ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_417641d7.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_417641d7.c:147:13: error: expected declaration or statement at end of input

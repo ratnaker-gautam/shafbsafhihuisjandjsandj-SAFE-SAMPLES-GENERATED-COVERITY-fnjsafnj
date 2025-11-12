@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_38d9b673.c: In function ‘main’:
+./samples/SAFE/__tmp_38d9b673.c:137:13: error: ‘free_file’ undeclared (first use in this function)
+  137 |             free_file
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_38d9b673.c:137:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_38d9b673.c:137:22: error: expected ‘;’ at end of input
+  137 |             free_file
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_38d9b673.c:137:13: error: expected declaration or statement at end of input
+  137 |             free_file
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_38d9b673.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_38d9b673.c:137:13: error: expected declaration or statement at end of input

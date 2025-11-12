@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_4ad3bce9.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_4ad3bce9.c:133:56: error: unterminated argument list invoking macro "MATRIX_SET"
+  133 |             MATRIX_SET(*dest, j, i, MATRIX_GET(*src, i,
+      |                                                        ^
+./samples/SAFE/__tmp_4ad3bce9.c:133:13: error: ‘MATRIX_SET’ undeclared (first use in this function)
+  133 |             MATRIX_SET(*dest, j, i, MATRIX_GET(*src, i,
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_4ad3bce9.c:133:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4ad3bce9.c:133:23: error: expected ‘;’ at end of input
+  133 |             MATRIX_SET(*dest, j, i, MATRIX_GET(*src, i,
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_4ad3bce9.c:133:13: error: expected declaration or statement at end of input
+  133 |             MATRIX_SET(*dest, j, i, MATRIX_GET(*src, i,
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_4ad3bce9.c:133:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4ad3bce9.c:133:13: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4fc8915e.c: In function ‘main’:
+./samples/SAFE/__tmp_4fc8915e.c:148:9: error: expected declaration or statement at end of input
+  148 |         keyword[strcspn(keyword, "\n")] = '\0';
+      |         ^~~~~~~
+./samples/SAFE/__tmp_4fc8915e.c:148:9: error: expected declaration or statement at end of input

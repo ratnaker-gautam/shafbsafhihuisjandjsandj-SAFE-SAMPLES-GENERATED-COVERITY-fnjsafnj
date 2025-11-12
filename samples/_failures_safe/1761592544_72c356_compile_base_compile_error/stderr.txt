@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_12b457f9.c: In function ‘main’:
+./samples/SAFE/__tmp_12b457f9.c:144:9: error: ‘original’ undeclared (first use in this function); did you mean ‘original_size’?
+  144 |     if (original
+      |         ^~~~~~~~
+      |         original_size
+./samples/SAFE/__tmp_12b457f9.c:144:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_12b457f9.c:144:17: error: expected ‘)’ at end of input
+  144 |     if (original
+      |        ~        ^
+      |                 )
+./samples/SAFE/__tmp_12b457f9.c:144:5: error: expected declaration or statement at end of input
+  144 |     if (original
+      |     ^~

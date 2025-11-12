@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_0a56d97b.c: In function ‘main’:
+./samples/SAFE/__tmp_0a56d97b.c:150:46: error: invalid operands to binary / (have ‘double’ and ‘char *’)
+  150 |     double ratio = (compressed.size * 100.0) / input
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+      |                                     |        |
+      |                                     double   char *
+./samples/SAFE/__tmp_0a56d97b.c:150:5: error: expected ‘,’ or ‘;’ at end of input
+  150 |     double ratio = (compressed.size * 100.0) / input
+      |     ^~~~~~
+./samples/SAFE/__tmp_0a56d97b.c:150:5: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_446f7133.c: In function ‘main’:
+./samples/SAFE/__tmp_446f7133.c:146:5: error: expected declaration or statement at end of input
+  146 |     print_compression_info(ctx);
+      |     ^~~~~~~~~~~~~~~~~~~~~~

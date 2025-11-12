@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_75f274d8.c: In function ‘execute_operation’:
+./samples/SAFE/__tmp_75f274d8.c:146:10: error: expected ‘)’ at end of input
+  146 |     if (g
+      |        ~ ^
+      |          )
+./samples/SAFE/__tmp_75f274d8.c:146:5: error: expected declaration or statement at end of input
+  146 |     if (g
+      |     ^~

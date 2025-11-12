@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_bba8cf1e.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_bba8cf1e.c:193:12: error: expected declaration or statement at end of input
+  193 |     struct GraphNode* start = NULL;
+      |            ^~~~~~~~~

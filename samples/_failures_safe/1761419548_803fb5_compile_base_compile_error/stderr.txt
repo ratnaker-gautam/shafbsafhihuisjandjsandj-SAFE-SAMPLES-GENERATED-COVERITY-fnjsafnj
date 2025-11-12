@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_17fa1d1e.c: In function ‘print_token’:
+./samples/SAFE/__tmp_17fa1d1e.c:168:20: error: expected ‘)’ at end of input
+  168 |     if (token->type
+      |        ~           ^
+      |                    )
+./samples/SAFE/__tmp_17fa1d1e.c:168:5: error: expected declaration or statement at end of input
+  168 |     if (token->type
+      |     ^~

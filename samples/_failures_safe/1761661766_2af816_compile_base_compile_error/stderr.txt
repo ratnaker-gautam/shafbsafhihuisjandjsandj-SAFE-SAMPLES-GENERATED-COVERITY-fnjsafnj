@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_9171ef40.c: In function ‘main’:
+./samples/SAFE/__tmp_9171ef40.c:157:32: error: ‘matrix’ undeclared (first use in this function); did you mean ‘matrix1’?
+  157 |                 result[j][i] = matrix
+      |                                ^~~~~~
+      |                                matrix1
+./samples/SAFE/__tmp_9171ef40.c:157:32: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9171ef40.c:157:38: error: expected ‘;’ at end of input
+  157 |                 result[j][i] = matrix
+      |                                      ^
+      |                                      ;
+./samples/SAFE/__tmp_9171ef40.c:157:17: error: expected declaration or statement at end of input
+  157 |                 result[j][i] = matrix
+      |                 ^~~~~~
+./samples/SAFE/__tmp_9171ef40.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9171ef40.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9171ef40.c:157:17: error: expected declaration or statement at end of input

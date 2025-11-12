@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_845c8d0d.c: In function ‘matrix3x3_rotation_z’:
+./samples/SAFE/__tmp_845c8d0d.c:109:83: error: expected ‘]’ at end of input
+  109 |     result.elements[2][0] = 0.0; result.elements[2][1] = 0.0; result.elements[2][2
+      |                                                                                   ^
+      |                                                                                   ]
+./samples/SAFE/__tmp_845c8d0d.c:109:5: error: expected declaration or statement at end of input
+  109 |     result.elements[2][0] = 0.0; result.elements[2][1] = 0.0; result.elements[2][2
+      |     ^~~~~~

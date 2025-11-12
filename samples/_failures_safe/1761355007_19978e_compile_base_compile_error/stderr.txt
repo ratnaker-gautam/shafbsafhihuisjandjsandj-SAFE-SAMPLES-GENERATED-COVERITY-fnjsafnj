@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a329b731.c: In function ‘print_errors’:
+./samples/SAFE/__tmp_a329b731.c:133:13: error: expected declaration or statement at end of input
+  133 |             strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", tm_info);
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_a329b731.c:133:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a329b731.c:133:13: error: expected declaration or statement at end of input

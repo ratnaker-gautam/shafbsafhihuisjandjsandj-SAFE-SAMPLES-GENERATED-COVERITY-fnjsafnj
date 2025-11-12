@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_8266fb24.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_8266fb24.c:117: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_8266fb24.c:116:13: error: expected declaration or statement at end of input
+  116 |             for
+      |             ^~~
+./samples/SAFE/__tmp_8266fb24.c:116:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8266fb24.c:116:13: error: expected declaration or statement at end of input

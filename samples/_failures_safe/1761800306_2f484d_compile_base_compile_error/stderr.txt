@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_a6a0e8d0.c: In function ‘main’:
+./samples/SAFE/__tmp_a6a0e8d0.c:149:23: error: expected ‘)’ at end of input
+  149 |         print_state(sm
+      |                    ~  ^
+      |                       )
+./samples/SAFE/__tmp_a6a0e8d0.c:149:21: error: incompatible type for argument 1 of ‘print_state’
+  149 |         print_state(sm
+      |                     ^~
+      |                     |
+      |                     StateMachine
+./samples/SAFE/__tmp_a6a0e8d0.c:85:24: note: expected ‘State’ but argument is of type ‘StateMachine’
+   85 | void print_state(State state) {
+      |                  ~~~~~~^~~~~
+./samples/SAFE/__tmp_a6a0e8d0.c:149:9: error: expected declaration or statement at end of input
+  149 |         print_state(sm
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_a6a0e8d0.c:149:9: error: expected declaration or statement at end of input

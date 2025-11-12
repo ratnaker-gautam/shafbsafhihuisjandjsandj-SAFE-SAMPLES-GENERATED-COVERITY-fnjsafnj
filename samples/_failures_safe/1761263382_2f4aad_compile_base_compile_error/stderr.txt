@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_574090e0.c: In function ‘main’:
+./samples/SAFE/__tmp_574090e0.c:122:43: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  122 |     if (perform_compression(input_buffer, input
+      |                                           ^~~~~
+      |                                           int
+./samples/SAFE/__tmp_574090e0.c:122:43: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_574090e0.c:122:48: error: expected ‘)’ at end of input
+  122 |     if (perform_compression(input_buffer, input
+      |                            ~                   ^
+      |                                                )
+./samples/SAFE/__tmp_574090e0.c:122:9: error: too few arguments to function ‘perform_compression’
+  122 |     if (perform_compression(input_buffer, input
+      |         ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_574090e0.c:55:12: note: declared here
+   55 | static int perform_compression(const uint8_t *input, size_t input_len, compressed_data_t *compressed) {
+      |            ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_574090e0.c:122:5: error: expected declaration or statement at end of input
+  122 |     if (perform_compression(input_buffer, input
+      |     ^~

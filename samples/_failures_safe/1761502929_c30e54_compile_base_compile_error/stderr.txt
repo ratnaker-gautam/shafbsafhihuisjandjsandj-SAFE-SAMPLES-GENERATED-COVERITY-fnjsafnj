@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f20b75ee.c: In function ‘main’:
+./samples/SAFE/__tmp_f20b75ee.c:162:5: error: expected declaration or statement at end of input
+  162 |     TokenStack* stack = create_stack(MAX_TOKENS);
+      |     ^~~~~~~~~~

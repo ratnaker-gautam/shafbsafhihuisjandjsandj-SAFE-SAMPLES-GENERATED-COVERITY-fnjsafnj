@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_9fe42e7c.c: In function ‘main’:
+./samples/SAFE/__tmp_9fe42e7c.c:160: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_9fe42e7c.c:159:8: note: to match this ‘(’
+  159 |     if (scanf("%d", &edges) != 1 || edges < 0 || edges > MAX_EDGES
+      |        ^
+./samples/SAFE/__tmp_9fe42e7c.c:159:5: error: expected declaration or statement at end of input
+  159 |     if (scanf("%d", &edges) != 1 || edges < 0 || edges > MAX_EDGES
+      |     ^~

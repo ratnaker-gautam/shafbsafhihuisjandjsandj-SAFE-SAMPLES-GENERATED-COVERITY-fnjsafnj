@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/ccB8UlXp.o: in function `main':
+__tmp_4b554f3e.c:(.text.startup+0x1bd): undefined reference to `fmod'
+/usr/bin/ld: __tmp_4b554f3e.c:(.text.startup+0x3be): undefined reference to `pow'
+/usr/bin/ld: __tmp_4b554f3e.c:(.text.startup+0x423): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_4b554f3e.c:(.text.startup+0x49d): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

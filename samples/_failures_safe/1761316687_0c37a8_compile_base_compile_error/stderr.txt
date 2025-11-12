@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_3d6636d2.c: In function ‘main’:
+./samples/SAFE/__tmp_3d6636d2.c:170:5: error: expected declaration or statement at end of input
+  170 |     printf("Enter starting node (0-5): ");
+      |     ^~~~~~

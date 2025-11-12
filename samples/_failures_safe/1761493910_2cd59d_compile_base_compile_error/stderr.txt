@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_0bace35c.c: In function ‘main’:
+./samples/SAFE/__tmp_0bace35c.c:153:13: error: expected declaration or statement at end of input
+  153 |             if (g.adj_matrix[current][i] != 0 && !visited[i]) {
+      |             ^~
+./samples/SAFE/__tmp_0bace35c.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0bace35c.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0bace35c.c:153:13: error: expected declaration or statement at end of input

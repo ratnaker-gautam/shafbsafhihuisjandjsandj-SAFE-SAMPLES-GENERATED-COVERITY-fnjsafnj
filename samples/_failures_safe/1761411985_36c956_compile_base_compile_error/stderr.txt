@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_577812cb.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_577812cb.c:153:20: error: missing terminating " character
+  153 |             printf("Operator: %s (line %d, column %d)\
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_577812cb.c:153:13: error: expected expression at end of input
+  153 |             printf("Operator: %s (line %d, column %d)\
+      |             ^~~~~~
+./samples/SAFE/__tmp_577812cb.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_577812cb.c:153:13: error: expected declaration or statement at end of input

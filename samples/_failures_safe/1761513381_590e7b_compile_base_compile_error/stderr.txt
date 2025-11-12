@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f99c33db.c: In function ‘main’:
+./samples/SAFE/__tmp_f99c33db.c:128:9: error: expected expression at end of input
+  128 |         if (
+      |         ^~
+./samples/SAFE/__tmp_f99c33db.c:128:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f99c33db.c:128:9: error: expected declaration or statement at end of input

@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_47558827.c:164:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  164 | void graph_print_bfs
+      | ^~~~

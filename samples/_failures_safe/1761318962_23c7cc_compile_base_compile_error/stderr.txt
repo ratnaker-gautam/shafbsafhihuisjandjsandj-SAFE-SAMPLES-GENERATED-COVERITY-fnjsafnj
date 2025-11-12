@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e6986f6f.c: In function ‘main’:
+./samples/SAFE/__tmp_e6986f6f.c:144:17: error: expected declaration or statement at end of input
+  144 |                 result.cols = mat1.cols;
+      |                 ^~~~~~
+./samples/SAFE/__tmp_e6986f6f.c:144:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e6986f6f.c:144:17: error: expected declaration or statement at end of input

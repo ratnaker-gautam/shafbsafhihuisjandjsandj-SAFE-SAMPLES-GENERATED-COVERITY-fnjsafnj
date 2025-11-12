@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bc4c7889.c: In function ‘main’:
+./samples/SAFE/__tmp_bc4c7889.c:149:21: error: expected declaration or statement at end of input
+  149 |                     int sum = 0;
+      |                     ^~~
+./samples/SAFE/__tmp_bc4c7889.c:149:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bc4c7889.c:149:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bc4c7889.c:149:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bc4c7889.c:149:21: error: expected declaration or statement at end of input

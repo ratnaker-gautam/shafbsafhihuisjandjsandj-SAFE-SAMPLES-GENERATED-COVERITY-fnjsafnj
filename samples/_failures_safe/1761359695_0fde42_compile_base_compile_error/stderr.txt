@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_673bb292.c: In function ‘main’:
+./samples/SAFE/__tmp_673bb292.c:133:25: error: expected ‘;’ at end of input
+  133 |     for (size_t i = 0; i
+      |                         ^
+      |                         ;
+./samples/SAFE/__tmp_673bb292.c:133:5: error: expected declaration or statement at end of input
+  133 |     for (size_t i = 0; i
+      |     ^~~

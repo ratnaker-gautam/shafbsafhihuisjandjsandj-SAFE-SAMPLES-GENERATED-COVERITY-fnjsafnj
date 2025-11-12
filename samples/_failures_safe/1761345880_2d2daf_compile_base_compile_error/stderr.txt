@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_7219acd9.c: In function ‘main’:
+./samples/SAFE/__tmp_7219acd9.c:170:31: error: expected ‘)’ at end of input
+  170 |             if (validate_input
+      |                ~              ^
+      |                               )
+./samples/SAFE/__tmp_7219acd9.c:170:13: error: expected declaration or statement at end of input
+  170 |             if (validate_input
+      |             ^~
+./samples/SAFE/__tmp_7219acd9.c:170:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7219acd9.c:170:13: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_359e5be4.c: In function ‘main’:
+./samples/SAFE/__tmp_359e5be4.c:147:13: error: expected declaration or statement at end of input
+  147 |             printf("Matrix multiplication failed.\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_359e5be4.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_359e5be4.c:147:13: error: expected declaration or statement at end of input

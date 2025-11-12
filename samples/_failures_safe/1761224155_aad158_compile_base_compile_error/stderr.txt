@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_109b047a.c: In function ‘generate_report’:
+./samples/SAFE/__tmp_109b047a.c:148:80: error: expected ‘)’ at end of input
+  148 |             printf("%s %s %s\n", entry->timestamp, entry->level, entry->message
+      |                   ~                                                            ^
+      |                                                                                )
+./samples/SAFE/__tmp_109b047a.c:148:13: error: expected declaration or statement at end of input
+  148 |             printf("%s %s %s\n", entry->timestamp, entry->level, entry->message
+      |             ^~~~~~
+./samples/SAFE/__tmp_109b047a.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_109b047a.c:148:13: error: expected declaration or statement at end of input

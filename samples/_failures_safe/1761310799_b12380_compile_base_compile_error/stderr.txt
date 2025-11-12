@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_18d02978.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_18d02978.c:150:9: error: expected identifier or ‘(’ at end of input
+  150 |         char
+      |         ^~~~
+./samples/SAFE/__tmp_18d02978.c:150:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_18d02978.c:150:9: error: expected declaration or statement at end of input

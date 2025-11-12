@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_113ba85b.c: In function ‘main’:
+./samples/SAFE/__tmp_113ba85b.c:135:16: error: missing terminating " character
+  135 |         printf("Cannot compute det(A): not square or too
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_113ba85b.c:135:9: error: expected expression at end of input
+  135 |         printf("Cannot compute det(A): not square or too
+      |         ^~~~~~
+./samples/SAFE/__tmp_113ba85b.c:135:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_113ba85b.c:135:9: error: expected declaration or statement at end of input

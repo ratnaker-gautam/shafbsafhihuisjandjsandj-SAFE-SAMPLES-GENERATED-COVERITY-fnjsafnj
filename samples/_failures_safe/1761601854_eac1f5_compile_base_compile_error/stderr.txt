@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_6ced79dd.c: In function ‘main’:
+./samples/SAFE/__tmp_6ced79dd.c:145:22: error: ‘compute’ undeclared (first use in this function)
+  145 |         double det = compute
+      |                      ^~~~~~~
+./samples/SAFE/__tmp_6ced79dd.c:145:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6ced79dd.c:145:9: error: expected ‘,’ or ‘;’ at end of input
+  145 |         double det = compute
+      |         ^~~~~~
+./samples/SAFE/__tmp_6ced79dd.c:145:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6ced79dd.c:145:9: error: expected declaration or statement at end of input

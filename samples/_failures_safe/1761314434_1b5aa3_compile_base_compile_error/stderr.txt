@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7a1b8a23.c: In function ‘print_token_type’:
+./samples/SAFE/__tmp_7a1b8a23.c:145:9: error: missing terminating " character
+  145 |         "IDENTIFIER
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_7a1b8a23.c:145:9: error: expected expression at end of input
+./samples/SAFE/__tmp_7a1b8a23.c:145:9: error: expected declaration or statement at end of input

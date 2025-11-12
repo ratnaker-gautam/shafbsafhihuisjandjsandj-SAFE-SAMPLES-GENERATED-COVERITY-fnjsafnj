@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_730981a1.c: In function ‘main’:
+./samples/SAFE/__tmp_730981a1.c:166:10: error: ‘EVENT_DATA’ undeclared (first use in this function)
+  166 |         {EVENT_DATA
+      |          ^~~~~~~~~~
+./samples/SAFE/__tmp_730981a1.c:166:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_730981a1.c:167: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_730981a1.c:166:9: note: to match this ‘{’
+  166 |         {EVENT_DATA
+      |         ^
+./samples/SAFE/__tmp_730981a1.c:166:9: error: expected declaration or statement at end of input

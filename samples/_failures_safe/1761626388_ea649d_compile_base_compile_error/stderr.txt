@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_215b770c.c: In function ‘main’:
+./samples/SAFE/__tmp_215b770c.c:134:71: error: expected ‘)’ at end of input
+  134 |             rows1 = read_int("Enter rows for first matrix (1-10): ", 1
+      |                             ~                                         ^
+      |                                                                       )
+./samples/SAFE/__tmp_215b770c.c:134:21: error: too few arguments to function ‘read_int’
+  134 |             rows1 = read_int("Enter rows for first matrix (1-10): ", 1
+      |                     ^~~~~~~~
+./samples/SAFE/__tmp_215b770c.c:10:5: note: declared here
+   10 | int read_int(const char* prompt, int min, int max) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_215b770c.c:134:13: error: expected declaration or statement at end of input
+  134 |             rows1 = read_int("Enter rows for first matrix (1-10): ", 1
+      |             ^~~~~
+./samples/SAFE/__tmp_215b770c.c:134:13: error: expected declaration or statement at end of input

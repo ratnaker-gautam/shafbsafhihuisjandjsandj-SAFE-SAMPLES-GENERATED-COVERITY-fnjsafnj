@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_46a735fd.c: In function ‘event_to_string’:
+./samples/SAFE/__tmp_46a735fd.c:138:9: error: expected expression at end of input
+  138 |         "WRITE_COMPLETE", "ERROR",
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_46a735fd.c:138:9: error: expected declaration or statement at end of input

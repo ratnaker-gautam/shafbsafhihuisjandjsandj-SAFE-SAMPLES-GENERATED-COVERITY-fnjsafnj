@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_aba2db01.c: In function ‘main’:
+./samples/SAFE/__tmp_aba2db01.c:142:5: error: expected declaration or statement at end of input
+  142 |     add_edge(&g, 5, 2, 2);
+      |     ^~~~~~~~

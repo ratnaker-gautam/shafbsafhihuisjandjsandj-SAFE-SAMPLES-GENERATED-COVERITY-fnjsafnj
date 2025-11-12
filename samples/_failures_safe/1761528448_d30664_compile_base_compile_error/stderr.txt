@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_93411be6.c: In function ‘main’:
+./samples/SAFE/__tmp_93411be6.c:171:9: error: expected ‘,’ or ‘;’ at end of input
+  171 |         Event selected_event = (Event)choice
+      |         ^~~~~
+./samples/SAFE/__tmp_93411be6.c:171:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_93411be6.c:171:9: error: expected declaration or statement at end of input

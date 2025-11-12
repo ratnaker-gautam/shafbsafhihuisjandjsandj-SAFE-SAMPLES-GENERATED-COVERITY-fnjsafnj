@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_e123ce7e.c: In function ‘main’:
+./samples/SAFE/__tmp_e123ce7e.c:148:32: error: unterminated argument list invoking macro "BUFFER_APPEND"
+  148 |             BUFFER_APPEND(input
+      |                                ^
+./samples/SAFE/__tmp_e123ce7e.c:148:13: error: ‘BUFFER_APPEND’ undeclared (first use in this function)
+  148 |             BUFFER_APPEND(input
+      |             ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_e123ce7e.c:148:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e123ce7e.c:148:26: error: expected ‘;’ at end of input
+  148 |             BUFFER_APPEND(input
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_e123ce7e.c:148:13: error: expected declaration or statement at end of input
+  148 |             BUFFER_APPEND(input
+      |             ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_e123ce7e.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e123ce7e.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e123ce7e.c:145:17: error: label ‘cleanup’ used but not defined
+  145 |                 goto cleanup;
+      |                 ^~~~

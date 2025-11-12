@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d2aa6aca.c: In function ‘token_type_name’:
+./samples/SAFE/__tmp_d2aa6aca.c:154:9: error: expected declaration or statement at end of input
+  154 |         default: return "UNKNOWN";
+      |         ^~~~~~~
+./samples/SAFE/__tmp_d2aa6aca.c:154:9: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_093c67c4.c: In function ‘main’:
+./samples/SAFE/__tmp_093c67c4.c:182:21: error: expected declaration or statement at end of input
+  182 |                     accumulator -= current_num;
+      |                     ^~~~~~~~~~~
+./samples/SAFE/__tmp_093c67c4.c:182:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_093c67c4.c:182:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_093c67c4.c:182:21: error: expected declaration or statement at end of input

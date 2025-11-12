@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_6cbd7665.c: In function ‘main’:
+./samples/SAFE/__tmp_6cbd7665.c:152:9: error: ‘print_comp’ undeclared (first use in this function)
+  152 |         print_comp
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_6cbd7665.c:152:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6cbd7665.c:152:19: error: expected ‘;’ at end of input
+  152 |         print_comp
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_6cbd7665.c:152:9: error: expected declaration or statement at end of input
+  152 |         print_comp
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_6cbd7665.c:152:9: error: expected declaration or statement at end of input

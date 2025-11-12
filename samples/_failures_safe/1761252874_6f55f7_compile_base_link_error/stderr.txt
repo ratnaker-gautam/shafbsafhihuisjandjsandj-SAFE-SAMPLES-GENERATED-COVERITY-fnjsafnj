@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/cc57PNgo.o: in function `main':
+__tmp_62cf7e01.c:(.text.startup+0x1bf): undefined reference to `cos'
+/usr/bin/ld: __tmp_62cf7e01.c:(.text.startup+0x337): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_78c23917.c: In function ‘main’:
+./samples/SAFE/__tmp_78c23917.c:181:70: error: expected ‘;’ at end of input
+  181 |         else if (strcmp(input, "failure") == 0) event = EVENT_FAILURE
+      |                                                                      ^
+      |                                                                      ;
+./samples/SAFE/__tmp_78c23917.c:181:9: error: expected declaration or statement at end of input
+  181 |         else if (strcmp(input, "failure") == 0) event = EVENT_FAILURE
+      |         ^~~~
+./samples/SAFE/__tmp_78c23917.c:181:9: error: expected declaration or statement at end of input

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_89632a2b.c: In function ‘main’:
+./samples/SAFE/__tmp_89632a2b.c:111:63: error: expected ‘)’ at end of input
+  111 |             fprintf(stderr, "Invalid hex byte: %s\n", hex_byte
+      |                    ~                                          ^
+      |                                                               )
+./samples/SAFE/__tmp_89632a2b.c:111:13: error: expected declaration or statement at end of input
+  111 |             fprintf(stderr, "Invalid hex byte: %s\n", hex_byte
+      |             ^~~~~~~
+./samples/SAFE/__tmp_89632a2b.c:111:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_89632a2b.c:111:13: error: expected declaration or statement at end of input

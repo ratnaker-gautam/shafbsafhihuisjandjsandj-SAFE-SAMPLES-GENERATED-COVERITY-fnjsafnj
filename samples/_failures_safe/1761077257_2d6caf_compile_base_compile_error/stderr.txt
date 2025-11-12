@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bfa135a7.c: In function ‘get_user_choice’:
+./samples/SAFE/__tmp_bfa135a7.c:123:18: error: expected ‘;’ at end of input
+  123 |     return choice
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_bfa135a7.c:123:5: error: expected declaration or statement at end of input
+  123 |     return choice
+      |     ^~~~~~

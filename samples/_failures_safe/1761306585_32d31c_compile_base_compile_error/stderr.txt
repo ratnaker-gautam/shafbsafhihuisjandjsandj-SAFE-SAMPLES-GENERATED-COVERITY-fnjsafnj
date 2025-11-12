@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_49f87fe5.c: In function ‘main’:
+./samples/SAFE/__tmp_49f87fe5.c:156:37: error: invalid operands to binary || (have ‘int’ and ‘struct Token’)
+  156 |         if (token.type == TOKEN_EOF || token
+      |             ~~~~~~~~~~~~~~~~~~~~~~~ ^~
+      |                        |
+      |                        int
+./samples/SAFE/__tmp_49f87fe5.c:156:45: error: expected ‘)’ at end of input
+  156 |         if (token.type == TOKEN_EOF || token
+      |            ~                                ^
+      |                                             )
+./samples/SAFE/__tmp_49f87fe5.c:156:9: error: expected declaration or statement at end of input
+  156 |         if (token.type == TOKEN_EOF || token
+      |         ^~
+./samples/SAFE/__tmp_49f87fe5.c:156:9: error: expected declaration or statement at end of input

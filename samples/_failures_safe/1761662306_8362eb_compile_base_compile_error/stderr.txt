@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_0fcbba96.c: In function ‘token_type_to_string’:
+./samples/SAFE/__tmp_0fcbba96.c:156:14: error: ‘TO’ undeclared (first use in this function)
+  156 |         case TO
+      |              ^~
+./samples/SAFE/__tmp_0fcbba96.c:156:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0fcbba96.c:156:9: error: expected ‘:’ or ‘...’ at end of input
+  156 |         case TO
+      |         ^~~~
+./samples/SAFE/__tmp_0fcbba96.c:156:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0fcbba96.c:156:9: error: expected declaration or statement at end of input

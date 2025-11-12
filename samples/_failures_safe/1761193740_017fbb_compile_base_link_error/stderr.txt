@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cc0py2CH.o: in function `main':
+__tmp_b33d31c6.c:(.text.startup+0x41f): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

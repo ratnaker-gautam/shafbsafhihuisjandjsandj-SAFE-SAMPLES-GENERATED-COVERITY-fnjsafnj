@@ -1,0 +1,72 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: monolithic_main ; Variation: numeric_computation
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+#define MAX_POINTS 1000
+
+struct Point {
+    double x;
+    double y;
+};
+
+double calculate_distance(struct Point p1, struct Point p2) {
+    double dx = p2.x - p1.x;
+    double dy = p2.y - p1.y;
+    return sqrt(dx * dx + dy * dy);
+}
+
+int main() {
+    int num_points;
+    struct Point points[MAX_POINTS];
+    double total_distance = 0.0;
+    
+    printf("Enter number of points (2-%d): ", MAX_POINTS);
+    if (scanf("%d", &num_points) != 1) {
+        printf("Invalid input\n");
+        return 1;
+    }
+    
+    if (num_points < 2 || num_points > MAX_POINTS) {
+        printf("Number of points must be between 2 and %d\n", MAX_POINTS);
+        return 1;
+    }
+    
+    printf("Enter coordinates for %d points:\n", num_points);
+    for (int i = 0; i < num_points; i++) {
+        printf("Point %d (x y): ", i + 1);
+        if (scanf("%lf %lf", &points[i].x, &points[i].y) != 2) {
+            printf("Invalid coordinates\n");
+            return 1;
+        }
+    }
+    
+    printf("\nCalculating total path distance...\n");
+    for (int i = 0; i < num_points - 1; i++) {
+        double dist = calculate_distance(points[i], points[i + 1]);
+        total_distance += dist;
+        printf("Distance from point %d to %d: %.3f\n", i + 1, i + 2, dist);
+    }
+    
+    printf("\nTotal path distance: %.3f\n", total_distance);
+    
+    double avg_distance = total_distance / (num_points - 1);
+    printf("Average distance between consecutive points: %.3f\n", avg_distance);
+    
+    double min_dist = -1.0;
+    double max_dist = 0.0;
+    for (int i = 0; i < num_points - 1; i++) {
+        double dist = calculate_distance(points[i], points[i + 1]);
+        if (min_dist < 0 || dist < min_dist) {
+            min_dist = dist;
+        }
+        if (dist > max_dist) {
+            max_dist = dist;
+        }
+    }
+    
+    printf("Minimum segment distance: %.3f\n", min_dist);
+    printf("Maximum segment distance: %.3f\n", max_dist);
+    
+    return 0;
+}

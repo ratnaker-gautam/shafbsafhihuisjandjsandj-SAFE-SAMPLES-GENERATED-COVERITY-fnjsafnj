@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f971f0d3.c: In function ‘main’:
+./samples/SAFE/__tmp_f971f0d3.c:143:31: error: expected ‘;’ at end of input
+  143 |         for (uint32_t j = 0; j
+      |                               ^
+      |                               ;
+./samples/SAFE/__tmp_f971f0d3.c:143:9: error: expected declaration or statement at end of input
+  143 |         for (uint32_t j = 0; j
+      |         ^~~
+./samples/SAFE/__tmp_f971f0d3.c:143:9: error: expected declaration or statement at end of input

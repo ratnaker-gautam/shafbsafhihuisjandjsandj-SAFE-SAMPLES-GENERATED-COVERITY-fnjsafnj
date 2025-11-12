@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6cf89907.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_6cf89907.c:146:17: error: expected declaration or statement at end of input
+  146 |                 MATRIX_ELEM(src->data, i, j, src->cols);
+      |                 ^~~~~~~~~~~
+./samples/SAFE/__tmp_6cf89907.c:146:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6cf89907.c:146:17: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7091b0c9.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_7091b0c9.c:139:59: error: expected ‘)’ at end of input
+  139 |         printf("[%s] %s: %s (line %u)\n", entry->timestamp
+      |               ~                                           ^
+      |                                                           )
+./samples/SAFE/__tmp_7091b0c9.c:139:9: error: expected declaration or statement at end of input
+  139 |         printf("[%s] %s: %s (line %u)\n", entry->timestamp
+      |         ^~~~~~
+./samples/SAFE/__tmp_7091b0c9.c:139:9: error: expected declaration or statement at end of input

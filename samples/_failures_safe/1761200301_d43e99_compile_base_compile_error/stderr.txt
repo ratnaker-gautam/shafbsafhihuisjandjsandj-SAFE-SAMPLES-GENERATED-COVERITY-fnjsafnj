@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1e7e0261.c: In function ‘decompress_file’:
+./samples/SAFE/__tmp_1e7e0261.c:155:5: error: expected declaration or statement at end of input
+  155 |     }
+      |     ^

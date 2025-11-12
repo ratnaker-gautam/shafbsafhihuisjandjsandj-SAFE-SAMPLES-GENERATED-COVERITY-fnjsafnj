@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a961fd68.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_a961fd68.c:165:9: error: expected expression at end of input
+  165 |         if (!parse_primary(stream)) return
+      |         ^~
+./samples/SAFE/__tmp_a961fd68.c:165:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a961fd68.c:165:9: error: expected declaration or statement at end of input

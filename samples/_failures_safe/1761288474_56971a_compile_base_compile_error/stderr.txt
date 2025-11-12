@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c45c4e49.c: In function ‘main’:
+./samples/SAFE/__tmp_c45c4e49.c:202:9: error: expected expression at end of input
+  202 |         printf("Token %d: Type=%s, Value='%s'\n",
+      |         ^~~~~~
+./samples/SAFE/__tmp_c45c4e49.c:202:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c45c4e49.c:202:9: error: expected declaration or statement at end of input

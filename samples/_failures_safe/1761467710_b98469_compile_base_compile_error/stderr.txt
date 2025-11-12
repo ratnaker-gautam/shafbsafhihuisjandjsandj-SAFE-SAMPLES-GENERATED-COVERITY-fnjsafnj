@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_fb65828e.c: In function ‘main’:
+./samples/SAFE/__tmp_fb65828e.c:158:5: error: ‘init_analy’ undeclared (first use in this function); did you mean ‘init_analyzer’?
+  158 |     init_analy
+      |     ^~~~~~~~~~
+      |     init_analyzer
+./samples/SAFE/__tmp_fb65828e.c:158:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fb65828e.c:158:15: error: expected ‘;’ at end of input
+  158 |     init_analy
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_fb65828e.c:158:5: error: expected declaration or statement at end of input
+  158 |     init_analy
+      |     ^~~~~~~~~~

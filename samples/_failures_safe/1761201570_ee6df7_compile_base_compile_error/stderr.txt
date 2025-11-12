@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_df39a4f0.c: In function ‘main’:
+./samples/SAFE/__tmp_df39a4f0.c:165:24: error: expected ‘)’ at end of input
+  165 |     print_tokens(tokens
+      |                 ~      ^
+      |                        )
+./samples/SAFE/__tmp_df39a4f0.c:165:5: error: too few arguments to function ‘print_tokens’
+  165 |     print_tokens(tokens
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_df39a4f0.c:129:6: note: declared here
+  129 | void print_tokens(const Token* tokens, size_t count) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_df39a4f0.c:165:5: error: expected declaration or statement at end of input
+  165 |     print_tokens(tokens
+      |     ^~~~~~~~~~~~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_edc69413.c: In function ‘main’:
+./samples/SAFE/__tmp_edc69413.c:121:30: error: ‘stack’ undeclared (first use in this function)
+  121 |         printf("%s %s %s\n", stack
+      |                              ^~~~~
+./samples/SAFE/__tmp_edc69413.c:121:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_edc69413.c:121:35: error: expected ‘)’ at end of input
+  121 |         printf("%s %s %s\n", stack
+      |               ~                   ^
+      |                                   )
+./samples/SAFE/__tmp_edc69413.c:121:9: error: expected declaration or statement at end of input
+  121 |         printf("%s %s %s\n", stack
+      |         ^~~~~~
+./samples/SAFE/__tmp_edc69413.c:121:9: error: expected declaration or statement at end of input

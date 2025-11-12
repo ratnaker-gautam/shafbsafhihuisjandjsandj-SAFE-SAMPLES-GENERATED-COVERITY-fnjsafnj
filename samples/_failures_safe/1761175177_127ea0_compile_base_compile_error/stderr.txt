@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_fe3003ef.c: In function ‘find_path_dfs’:
+./samples/SAFE/__tmp_fe3003ef.c:162:30: error: ‘ne’ undeclared (first use in this function)
+  162 |                 if (!visited[ne
+      |                              ^~
+./samples/SAFE/__tmp_fe3003ef.c:162:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fe3003ef.c:162:32: error: expected ‘]’ at end of input
+  162 |                 if (!visited[ne
+      |                                ^
+      |                                ]
+./samples/SAFE/__tmp_fe3003ef.c:162:17: error: expected declaration or statement at end of input
+  162 |                 if (!visited[ne
+      |                 ^~
+./samples/SAFE/__tmp_fe3003ef.c:162:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fe3003ef.c:162:17: error: expected declaration or statement at end of input

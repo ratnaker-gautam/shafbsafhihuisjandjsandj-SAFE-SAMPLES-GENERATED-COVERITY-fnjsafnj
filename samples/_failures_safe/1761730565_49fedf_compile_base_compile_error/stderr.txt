@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0f0679f1.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_0f0679f1.c:146:5: error: expected declaration or statement at end of input
+  146 |     printf("WARNING entries: %d\n", analyzer->stats.warning_count);
+      |     ^~~~~~

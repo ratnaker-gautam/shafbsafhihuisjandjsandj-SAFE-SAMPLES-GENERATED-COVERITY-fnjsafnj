@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ae1ba6ab.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_ae1ba6ab.c:172:5: error: expected expression at end of input
+  172 |     while (input[pos] !=
+      |     ^~~~~
+./samples/SAFE/__tmp_ae1ba6ab.c:172:5: error: expected declaration or statement at end of input

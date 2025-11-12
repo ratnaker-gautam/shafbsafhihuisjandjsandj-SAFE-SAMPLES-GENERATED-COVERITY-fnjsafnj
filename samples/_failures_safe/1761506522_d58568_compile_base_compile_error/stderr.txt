@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e78609a8.c: In function ‘main’:
+./samples/SAFE/__tmp_e78609a8.c:112:12: error: missing terminating " character
+  112 |     printf("Enter elements for second matrix (%d
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e78609a8.c:112:5: error: expected expression at end of input
+  112 |     printf("Enter elements for second matrix (%d
+      |     ^~~~~~
+./samples/SAFE/__tmp_e78609a8.c:112:5: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_41fd5596.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_41fd5596.c:162:46: error: ‘TOKEN_IDENTIFI’ undeclared (first use in this function); did you mean ‘TOKEN_IDENTIFIER’?
+  162 |     } else if (parser->current_token.type == TOKEN_IDENTIFI
+      |                                              ^~~~~~~~~~~~~~
+      |                                              TOKEN_IDENTIFIER
+./samples/SAFE/__tmp_41fd5596.c:162:46: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_41fd5596.c:162:60: error: expected ‘)’ at end of input
+  162 |     } else if (parser->current_token.type == TOKEN_IDENTIFI
+      |               ~                                            ^
+      |                                                            )
+./samples/SAFE/__tmp_41fd5596.c:162:5: error: expected declaration or statement at end of input
+  162 |     } else if (parser->current_token.type == TOKEN_IDENTIFI
+      |     ^

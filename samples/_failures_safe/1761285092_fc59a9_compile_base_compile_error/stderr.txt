@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_4d061c1f.c: In function ‘handle_done_state’:
+./samples/SAFE/__tmp_4d061c1f.c:161:20: error: missing terminating " character
+  161 |             printf("State: DONE -> IDLE (
+      |                    ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4d061c1f.c:161:13: error: expected expression at end of input
+  161 |             printf("State: DONE -> IDLE (
+      |             ^~~~~~
+./samples/SAFE/__tmp_4d061c1f.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4d061c1f.c:161:13: error: expected declaration or statement at end of input

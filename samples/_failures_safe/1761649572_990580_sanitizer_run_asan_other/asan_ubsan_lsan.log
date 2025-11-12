@@ -1,0 +1,16 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==325503==ERROR: AddressSanitizer: SEGV on unknown address 0x000000000000 (pc 0x000000000000 bp 0x7ffefe8f6c40 sp 0x7ffefe8f6bf8 T0)
+==325503==Hint: pc points to the zero page.
+==325503==The signal is caused by a READ memory access.
+==325503==Hint: address points to the zero page.
+    #0 0x0  (<unknown module>)
+    #1 0x631cbfea21d3 in main samples/SAFE/__tmp_0c4f600b.c:161
+    #2 0x73847862a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x73847862a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x631cbfea0384 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_0c4f600b.c.san+0x5384) (BuildId: 5f7bf722ba03e66e6aa5c57df56ecc4c25c6e999)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV (<unknown module>) 
+==325503==ABORTING

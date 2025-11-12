@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c9949da2.c: In function ‘parse_number’:
+./samples/SAFE/__tmp_c9949da2.c:160:55: error: expected ‘)’ at end of input
+  160 |     int result = add_token(tokens, TOKEN_NUMBER, value
+      |                           ~                           ^
+      |                                                       )
+./samples/SAFE/__tmp_c9949da2.c:160:18: error: too few arguments to function ‘add_token’
+  160 |     int result = add_token(tokens, TOKEN_NUMBER, value
+      |                  ^~~~~~~~~
+./samples/SAFE/__tmp_c9949da2.c:68:5: note: declared here
+   68 | int add_token(struct TokenList *list, enum TokenType type, const char *value, size_t line, size_t column) {
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_c9949da2.c:160:5: error: expected declaration or statement at end of input
+  160 |     int result = add_token(tokens, TOKEN_NUMBER, value
+      |     ^~~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_602c5672.c: In function ‘main’:
+./samples/SAFE/__tmp_602c5672.c:157:27: error: missing terminating " character
+  157 |     int n3 = add_node(&g, "C
+      |                           ^~
+./samples/SAFE/__tmp_602c5672.c:157:5: error: expected expression at end of input
+  157 |     int n3 = add_node(&g, "C
+      |     ^~~
+./samples/SAFE/__tmp_602c5672.c:157:5: error: expected declaration or statement at end of input

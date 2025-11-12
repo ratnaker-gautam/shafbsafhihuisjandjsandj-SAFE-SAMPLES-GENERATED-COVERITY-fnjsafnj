@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_8f580f9c.c: In function ‘main’:
+./samples/SAFE/__tmp_8f580f9c.c:147:33: error: expected ‘)’ at end of input
+  147 |                 if (!read_matrix
+      |                    ~            ^
+      |                                 )
+./samples/SAFE/__tmp_8f580f9c.c:147:17: error: expected declaration or statement at end of input
+  147 |                 if (!read_matrix
+      |                 ^~
+./samples/SAFE/__tmp_8f580f9c.c:147:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8f580f9c.c:147:17: error: expected declaration or statement at end of input

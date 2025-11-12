@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_fcacc737.c: In function ‘print_token_type’:
+./samples/SAFE/__tmp_fcacc737.c:172:14: error: ‘TO’ undeclared (first use in this function)
+  172 |         case TO
+      |              ^~
+./samples/SAFE/__tmp_fcacc737.c:172:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fcacc737.c:172:9: error: expected ‘:’ or ‘...’ at end of input
+  172 |         case TO
+      |         ^~~~
+./samples/SAFE/__tmp_fcacc737.c:172:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fcacc737.c:172:9: error: expected declaration or statement at end of input

@@ -1,0 +1,147 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: struct_heavy ; Variation: matrix_ops
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+struct Matrix {
+    size_t rows;
+    size_t cols;
+    double *data;
+};
+
+struct MatrixResult {
+    int success;
+    struct Matrix matrix;
+    char error_msg[64];
+};
+
+struct Matrix create_matrix(size_t rows, size_t cols) {
+    struct Matrix mat = {0, 0, NULL};
+    if (rows == 0 || cols == 0) return mat;
+    if (rows > SIZE_MAX / cols / sizeof(double)) return mat;
+    
+    mat.data = malloc(rows * cols * sizeof(double));
+    if (mat.data == NULL) return mat;
+    
+    mat.rows = rows;
+    mat.cols = cols;
+    memset(mat.data, 0, rows * cols * sizeof(double));
+    return mat;
+}
+
+void destroy_matrix(struct Matrix *mat) {
+    if (mat != NULL && mat->data != NULL) {
+        free(mat->data);
+        mat->data = NULL;
+        mat->rows = 0;
+        mat->cols = 0;
+    }
+}
+
+struct MatrixResult matrix_multiply(const struct Matrix *a, const struct Matrix *b) {
+    struct MatrixResult result = {0};
+    
+    if (a == NULL || b == NULL || a->data == NULL || b->data == NULL) {
+        strncpy(result.error_msg, "Invalid input matrices", sizeof(result.error_msg)-1);
+        return result;
+    }
+    
+    if (a->cols != b->rows) {
+        strncpy(result.error_msg, "Dimension mismatch for multiplication", sizeof(result.error_msg)-1);
+        return result;
+    }
+    
+    struct Matrix product = create_matrix(a->rows, b->cols);
+    if (product.data == NULL) {
+        strncpy(result.error_msg, "Memory allocation failed", sizeof(result.error_msg)-1);
+        return result;
+    }
+    
+    for (size_t i = 0; i < a->rows; i++) {
+        for (size_t j = 0; j < b->cols; j++) {
+            double sum = 0.0;
+            for (size_t k = 0; k < a->cols; k++) {
+                sum += a->data[i * a->cols + k] * b->data[k * b->cols + j];
+            }
+            product.data[i * product.cols + j] = sum;
+        }
+    }
+    
+    result.success = 1;
+    result.matrix = product;
+    return result;
+}
+
+struct MatrixResult matrix_add(const struct Matrix *a, const struct Matrix *b) {
+    struct MatrixResult result = {0};
+    
+    if (a == NULL || b == NULL || a->data == NULL || b->data == NULL) {
+        strncpy(result.error_msg, "Invalid input matrices", sizeof(result.error_msg)-1);
+        return result;
+    }
+    
+    if (a->rows != b->rows || a->cols != b->cols) {
+        strncpy(result.error_msg, "Dimension mismatch for addition", sizeof(result.error_msg)-1);
+        return result;
+    }
+    
+    struct Matrix sum = create_matrix(a->rows, a->cols);
+    if (sum.data == NULL) {
+        strncpy(result.error_msg, "Memory allocation failed", sizeof(result.error_msg)-1);
+        return result;
+    }
+    
+    for (size_t i = 0; i < a->rows * a->cols; i++) {
+        sum.data[i] = a->data[i] + b->data[i];
+    }
+    
+    result.success = 1;
+    result.matrix = sum;
+    return result;
+}
+
+void print_matrix(const struct Matrix *mat) {
+    if (mat == NULL || mat->data == NULL) return;
+    
+    for (size_t i = 0; i < mat->rows; i++) {
+        for (size_t j = 0; j < mat->cols; j++) {
+            printf("%8.2f", mat->data[i * mat->cols + j]);
+        }
+        printf("\n");
+    }
+}
+
+int main(void) {
+    struct Matrix mat1 = create_matrix(2, 3);
+    struct Matrix mat2 = create_matrix(3, 2);
+    
+    if (mat1.data == NULL || mat2.data == NULL) {
+        printf("Failed to create matrices\n");
+        return 1;
+    }
+    
+    double mat1_data[] = {1.0, 2.0, 3.0, 4.0, 5.0, 6.0};
+    double mat2_data[] = {7.0, 8.0, 9.0, 10.0, 11.0, 12.0};
+    
+    memcpy(mat1.data, mat1_data, sizeof(mat1_data));
+    memcpy(mat2.data, mat2_data, sizeof(mat2_data));
+    
+    printf("Matrix A (2x3):\n");
+    print_matrix(&mat1);
+    printf("\nMatrix B (3x2):\n");
+    print_matrix(&mat2);
+    
+    struct MatrixResult mult_result = matrix_multiply(&mat1, &mat2);
+    if (mult_result.success) {
+        printf("\nMatrix A * B:\n");
+        print_matrix(&mult_result.matrix);
+        destroy_matrix(&mult_result.matrix);
+    } else {
+        printf("\nMultiplication error: %s\n", mult_result.error_msg);
+    }
+    
+    struct Matrix mat3 = create_matrix(2, 3);
+    if (mat3.data != NULL) {
+        double mat3_data[]

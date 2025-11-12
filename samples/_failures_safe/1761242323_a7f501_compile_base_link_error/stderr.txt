@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccnVsYFb.o: in function `main':
+__tmp_d10577e4.c:(.text.startup+0x179): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_d10577e4.c:(.text.startup+0x25d): undefined reference to `exp'
+/usr/bin/ld: __tmp_d10577e4.c:(.text.startup+0x2b0): undefined reference to `log'
+collect2: error: ld returned 1 exit status

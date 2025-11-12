@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_da2f2121.c: In function ‘main’:
+./samples/SAFE/__tmp_da2f2121.c:153:31: error: expected ‘)’ at end of input
+  153 |     initialize_graph(&g, nodes
+      |                     ~         ^
+      |                               )
+./samples/SAFE/__tmp_da2f2121.c:153:5: error: expected declaration or statement at end of input
+  153 |     initialize_graph(&g, nodes
+      |     ^~~~~~~~~~~~~~~~

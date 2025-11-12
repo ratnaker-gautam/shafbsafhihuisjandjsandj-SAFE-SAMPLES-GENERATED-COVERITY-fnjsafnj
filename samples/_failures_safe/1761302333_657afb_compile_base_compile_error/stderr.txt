@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1ca40104.c: In function ‘display_results’:
+./samples/SAFE/__tmp_1ca40104.c:139:16: error: expected expression at end of input
+  139 |                sorted[i].word,
+      |                ^~~~~~
+./samples/SAFE/__tmp_1ca40104.c:139:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1ca40104.c:139:16: error: expected declaration or statement at end of input

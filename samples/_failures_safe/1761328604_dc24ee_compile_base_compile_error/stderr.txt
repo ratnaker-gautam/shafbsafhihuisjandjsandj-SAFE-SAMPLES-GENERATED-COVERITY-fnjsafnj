@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8b44b14e.c: In function ‘process_input’:
+./samples/SAFE/__tmp_8b44b14e.c:119:13: error: expected declaration or statement at end of input
+  119 |             return -1;
+      |             ^~~~~~
+./samples/SAFE/__tmp_8b44b14e.c:119:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8b44b14e.c:119:13: error: expected declaration or statement at end of input

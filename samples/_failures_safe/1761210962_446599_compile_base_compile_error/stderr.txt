@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_da1778f7.c: In function ‘main’:
+./samples/SAFE/__tmp_da1778f7.c:167:27: error: expected ‘)’ at end of input
+  167 |         memset(output_data
+      |               ~           ^
+      |                           )
+./samples/SAFE/__tmp_da1778f7.c:167:9: error: too few arguments to function ‘memset’
+  167 |         memset(output_data
+      |         ^~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_da1778f7.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:57:1: note: declared here
+   57 | __NTH (memset (void *__dest, int __ch, size_t __len))
+      | ^~~~~
+./samples/SAFE/__tmp_da1778f7.c:167:9: error: expected declaration or statement at end of input
+  167 |         memset(output_data
+      |         ^~~~~~
+./samples/SAFE/__tmp_da1778f7.c:167:9: error: expected declaration or statement at end of input

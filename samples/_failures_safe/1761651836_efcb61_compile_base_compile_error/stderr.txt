@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_856958e3.c: In function ‘main’:
+./samples/SAFE/__tmp_856958e3.c:135:13: error: expected expression at end of input
+  135 |             read_matrix(rows,
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_856958e3.c:135:13: error: too few arguments to function ‘read_matrix’
+./samples/SAFE/__tmp_856958e3.c:50:6: note: declared here
+   50 | void read_matrix(int rows, int cols, int matrix[rows][cols]) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_856958e3.c:135:13: error: expected declaration or statement at end of input
+  135 |             read_matrix(rows,
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_856958e3.c:135:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_856958e3.c:135:13: error: expected declaration or statement at end of input

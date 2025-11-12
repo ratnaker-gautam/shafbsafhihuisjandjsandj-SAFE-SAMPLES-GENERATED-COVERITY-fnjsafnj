@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b751c419.c: In function ‘main’:
+./samples/SAFE/__tmp_b751c419.c:147:44: error: expected ‘)’ at end of input
+  147 |         double det = compute_determinant(&a
+      |                                         ~  ^
+      |                                            )
+./samples/SAFE/__tmp_b751c419.c:147:9: error: expected declaration or statement at end of input
+  147 |         double det = compute_determinant(&a
+      |         ^~~~~~
+./samples/SAFE/__tmp_b751c419.c:147:9: error: expected declaration or statement at end of input

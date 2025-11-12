@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_b6ba9f62.c: In function ‘state_to_string’:
+./samples/SAFE/__tmp_b6ba9f62.c:147:18: error: ‘STATE_ID’ undeclared (first use in this function); did you mean ‘STATE_IDLE’?
+  147 |     if (state >= STATE_ID
+      |                  ^~~~~~~~
+      |                  STATE_IDLE
+./samples/SAFE/__tmp_b6ba9f62.c:147:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b6ba9f62.c:147:26: error: expected ‘)’ at end of input
+  147 |     if (state >= STATE_ID
+      |        ~                 ^
+      |                          )
+./samples/SAFE/__tmp_b6ba9f62.c:147:5: error: expected declaration or statement at end of input
+  147 |     if (state >= STATE_ID
+      |     ^~

@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccEo2gac.o: in function `main':
+__tmp_4802e715.c:(.text.startup+0x12f): undefined reference to `sin'
+collect2: error: ld returned 1 exit status

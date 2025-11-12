@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_86fed912.c: In function ‘main’:
+./samples/SAFE/__tmp_86fed912.c:161:5: error: expected expression at end of input
+  161 |     add_edge(&graph, 1, 2,
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_86fed912.c:161:5: error: expected declaration or statement at end of input

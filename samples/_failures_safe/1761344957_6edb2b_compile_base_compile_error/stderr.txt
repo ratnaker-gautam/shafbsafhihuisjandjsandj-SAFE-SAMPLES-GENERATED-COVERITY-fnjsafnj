@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_8f2d6d61.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_8f2d6d61.c:141:5: error: expected declaration or statement at end of input
+  141 |     if (result == NULL) return NULL;
+      |     ^~

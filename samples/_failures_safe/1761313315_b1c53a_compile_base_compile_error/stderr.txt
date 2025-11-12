@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccMdYOGC.o: in function `main':
+__tmp_30a638c6.c:(.text.startup+0x418): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

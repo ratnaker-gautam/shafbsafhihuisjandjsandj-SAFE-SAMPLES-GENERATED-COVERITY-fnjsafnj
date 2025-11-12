@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_20d98d4b.c: In function ‘initialize_default_dictionary’:
+./samples/SAFE/__tmp_20d98d4b.c:136:41: error: expected ‘)’ at end of input
+  136 |     add_dictionary_entry(ctx, common2, 2
+      |                         ~               ^
+      |                                         )
+./samples/SAFE/__tmp_20d98d4b.c:136:5: error: too few arguments to function ‘add_dictionary_entry’
+  136 |     add_dictionary_entry(ctx, common2, 2
+      |     ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_20d98d4b.c:54:5: note: declared here
+   54 | int add_dictionary_entry(struct CompressionContext *ctx, const uint8_t *pattern, size_t pattern_size, uint8_t replacement) {
+      |     ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_20d98d4b.c:136:5: error: expected declaration or statement at end of input
+  136 |     add_dictionary_entry(ctx, common2, 2
+      |     ^~~~~~~~~~~~~~~~~~~~

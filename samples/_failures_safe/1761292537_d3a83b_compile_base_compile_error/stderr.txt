@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_2150916e.c: In function ‘main’:
+./samples/SAFE/__tmp_2150916e.c:156:42: error: expected ‘)’ at end of input
+  156 |     display_buffer(decompressed_data.data
+      |                   ~                      ^
+      |                                          )
+./samples/SAFE/__tmp_2150916e.c:156:5: error: too few arguments to function ‘display_buffer’
+  156 |     display_buffer(decompressed_data.data
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2150916e.c:105:6: note: declared here
+  105 | void display_buffer(const uint8_t* data, size_t size, const char* label) {
+      |      ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2150916e.c:156:5: error: expected declaration or statement at end of input
+  156 |     display_buffer(decompressed_data.data
+      |     ^~~~~~~~~~~~~~

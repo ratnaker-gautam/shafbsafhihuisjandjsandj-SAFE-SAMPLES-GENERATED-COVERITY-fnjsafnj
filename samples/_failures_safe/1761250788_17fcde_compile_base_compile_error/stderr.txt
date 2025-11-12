@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0c89941d.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_0c89941d.c:163:20: error: expected ‘)’ at end of input
+  163 |     if (token_count
+      |        ~           ^
+      |                    )
+./samples/SAFE/__tmp_0c89941d.c:163:5: error: expected declaration or statement at end of input
+  163 |     if (token_count
+      |     ^~

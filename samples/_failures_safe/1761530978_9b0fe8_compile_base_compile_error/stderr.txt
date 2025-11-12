@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4c4e4d7c.c: In function ‘reset_machine’:
+./samples/SAFE/__tmp_4c4e4d7c.c:170:5: error: expected expression at end of input
+  170 |     if (
+      |     ^~
+./samples/SAFE/__tmp_4c4e4d7c.c:170:5: error: expected declaration or statement at end of input

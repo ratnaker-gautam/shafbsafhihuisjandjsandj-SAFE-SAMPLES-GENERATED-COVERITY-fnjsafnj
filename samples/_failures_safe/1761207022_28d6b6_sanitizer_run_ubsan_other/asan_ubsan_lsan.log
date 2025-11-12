@@ -1,0 +1,7 @@
+
+samples/SAFE/__tmp_4b226a5a.c:124:9: runtime error: signed integer overflow: -1073741824 * -1073741824 cannot be represented in type 'int'
+    #0 0x590b7f4e6a3e in main samples/SAFE/__tmp_4b226a5a.c:124
+    #1 0x70b17a42a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #2 0x70b17a42a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x590b7f4e5324 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_4b226a5a.c.san+0x4324) (BuildId: e995e1457731efb70e822e9c82601fc2929d94ba)
+

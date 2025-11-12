@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_19f0aaad.c: In function ‘print_entries_by_level’:
+./samples/SAFE/__tmp_19f0aaad.c:131:5: error: expected declaration or statement at end of input
+  131 |     }
+      |     ^

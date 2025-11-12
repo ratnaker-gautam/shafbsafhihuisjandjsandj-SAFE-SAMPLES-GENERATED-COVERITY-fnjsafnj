@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3d88a407.c: In function ‘main’:
+./samples/SAFE/__tmp_3d88a407.c:128:16: error: expected declaration or statement at end of input
+  128 |                result.compressed_size > 0 ? (float)result.original_size / result.compressed_size : 0.0f);
+      |                ^~~~~~
+./samples/SAFE/__tmp_3d88a407.c:128:16: error: expected declaration or statement at end of input

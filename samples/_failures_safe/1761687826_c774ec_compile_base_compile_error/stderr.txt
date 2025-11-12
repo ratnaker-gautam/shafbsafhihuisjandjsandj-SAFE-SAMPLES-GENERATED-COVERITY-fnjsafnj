@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_f4e2eb4b.c: In function ‘main’:
+./samples/SAFE/__tmp_f4e2eb4b.c:172:17: error: ‘state’ undeclared (first use in this function); did you mean ‘State’?
+  172 |                 state
+      |                 ^~~~~
+      |                 State
+./samples/SAFE/__tmp_f4e2eb4b.c:172:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f4e2eb4b.c:172:22: error: expected ‘;’ at end of input
+  172 |                 state
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_f4e2eb4b.c:172:17: error: expected declaration or statement at end of input
+  172 |                 state
+      |                 ^~~~~
+./samples/SAFE/__tmp_f4e2eb4b.c:172:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f4e2eb4b.c:172:17: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6a233b34.c: In function ‘apply_transform’:
+./samples/SAFE/__tmp_6a233b34.c:145:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  145 |     struct Vector3D scaled
+      |            ^~~~~~~~
+./samples/SAFE/__tmp_6a233b34.c:145:12: error: expected declaration or statement at end of input

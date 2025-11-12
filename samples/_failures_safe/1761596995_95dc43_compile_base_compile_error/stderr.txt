@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ea51f48b.c: In function ‘main’:
+./samples/SAFE/__tmp_ea51f48b.c:155:5: error: expected expression at end of input
+  155 |     int cols1 = read_int("Enter columns for matrix A (1-100): ", 1,
+      |     ^~~
+./samples/SAFE/__tmp_ea51f48b.c:155:5: error: expected declaration or statement at end of input

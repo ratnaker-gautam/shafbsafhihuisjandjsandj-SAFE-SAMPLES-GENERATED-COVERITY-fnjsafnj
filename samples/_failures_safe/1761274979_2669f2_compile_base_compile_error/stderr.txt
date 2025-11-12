@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fdd70ebf.c: In function ‘get_event_from_input’:
+./samples/SAFE/__tmp_fdd70ebf.c:171:33: error: expected ‘)’ at end of input
+  171 |     if (strcmp(input, "process")
+      |        ~                        ^
+      |                                 )
+./samples/SAFE/__tmp_fdd70ebf.c:171:5: error: expected declaration or statement at end of input
+  171 |     if (strcmp(input, "process")
+      |     ^~

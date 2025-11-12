@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_13595dd1.c: In function ‘compute_bounds’:
+./samples/SAFE/__tmp_13595dd1.c:135:18: error: expected ‘;’ at end of input
+  135 |     return bounds
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_13595dd1.c:135:5: error: expected declaration or statement at end of input
+  135 |     return bounds
+      |     ^~~~~~

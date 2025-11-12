@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b906714f.c: In function ‘main’:
+./samples/SAFE/__tmp_b906714f.c:165:9: error: expected declaration or statement at end of input
+  165 |         double result = safe_power(numbers[i], exponent);
+      |         ^~~~~~
+./samples/SAFE/__tmp_b906714f.c:165:9: error: expected declaration or statement at end of input

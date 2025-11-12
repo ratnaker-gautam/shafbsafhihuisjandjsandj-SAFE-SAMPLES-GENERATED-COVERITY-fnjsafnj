@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_6ca98ccb.c: In function ‘main’:
+./samples/SAFE/__tmp_6ca98ccb.c:152:38: error: expected ‘)’ at end of input
+  152 |                 if (matrix_add(&a, &b
+      |                               ~      ^
+      |                                      )
+./samples/SAFE/__tmp_6ca98ccb.c:152:21: error: too few arguments to function ‘matrix_add’
+  152 |                 if (matrix_add(&a, &b
+      |                     ^~~~~~~~~~
+./samples/SAFE/__tmp_6ca98ccb.c:92:5: note: declared here
+   92 | int matrix_add(const Matrix* a, const Matrix* b, Matrix* result) {
+      |     ^~~~~~~~~~
+./samples/SAFE/__tmp_6ca98ccb.c:152:17: error: expected declaration or statement at end of input
+  152 |                 if (matrix_add(&a, &b
+      |                 ^~
+./samples/SAFE/__tmp_6ca98ccb.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6ca98ccb.c:152:17: error: expected declaration or statement at end of input

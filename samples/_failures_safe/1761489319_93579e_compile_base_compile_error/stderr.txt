@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_05b70b2c.c: In function ‘main’:
+./samples/SAFE/__tmp_05b70b2c.c:161:43: error: ‘get_current’ undeclared (first use in this function)
+  161 |             printf("Current state: %s\n", get_current
+      |                                           ^~~~~~~~~~~
+./samples/SAFE/__tmp_05b70b2c.c:161:43: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_05b70b2c.c:161:54: error: expected ‘)’ at end of input
+  161 |             printf("Current state: %s\n", get_current
+      |                   ~                                  ^
+      |                                                      )
+./samples/SAFE/__tmp_05b70b2c.c:161:13: error: expected declaration or statement at end of input
+  161 |             printf("Current state: %s\n", get_current
+      |             ^~~~~~
+./samples/SAFE/__tmp_05b70b2c.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_05b70b2c.c:161:13: error: expected declaration or statement at end of input

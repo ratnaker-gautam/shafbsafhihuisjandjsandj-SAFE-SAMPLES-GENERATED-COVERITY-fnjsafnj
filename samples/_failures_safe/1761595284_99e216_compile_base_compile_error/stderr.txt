@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_9063461a.c: In function ‘cleanup_graph’:
+./samples/SAFE/__tmp_9063461a.c:150:31: error: expected ‘)’ at end of input
+  150 |         if (*(graph->nodes + i
+      |              ~                ^
+      |                               )
+./samples/SAFE/__tmp_9063461a.c:150:9: error: expected declaration or statement at end of input
+  150 |         if (*(graph->nodes + i
+      |         ^~
+./samples/SAFE/__tmp_9063461a.c:150:9: error: expected declaration or statement at end of input

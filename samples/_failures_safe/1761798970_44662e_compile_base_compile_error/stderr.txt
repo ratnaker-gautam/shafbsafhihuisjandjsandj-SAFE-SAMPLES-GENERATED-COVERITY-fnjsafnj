@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_3fd7aec8.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_3fd7aec8.c:188:20: error: expected ‘;’ at end of input
+  188 |     start->distance
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_3fd7aec8.c:188:5: error: expected declaration or statement at end of input
+  188 |     start->distance
+      |     ^~~~~

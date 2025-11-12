@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_35d61084.c: In function ‘main’:
+./samples/SAFE/__tmp_35d61084.c:168:78: error: expected ‘)’ at end of input
+  168 |             printf("Error: Invalid token '%s' at line %d, column %d\n", token
+      |                   ~                                                          ^
+      |                                                                              )
+./samples/SAFE/__tmp_35d61084.c:168:13: error: expected declaration or statement at end of input
+  168 |             printf("Error: Invalid token '%s' at line %d, column %d\n", token
+      |             ^~~~~~
+./samples/SAFE/__tmp_35d61084.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_35d61084.c:168:13: error: expected declaration or statement at end of input

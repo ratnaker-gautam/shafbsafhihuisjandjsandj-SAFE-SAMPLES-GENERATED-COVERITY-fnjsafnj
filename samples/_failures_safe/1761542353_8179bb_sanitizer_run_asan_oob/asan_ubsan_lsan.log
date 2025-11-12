@@ -1,0 +1,53 @@
+
+=================================================================
+==347358==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x502000000058 at pc 0x6315409cf655 bp 0x7ffe167fca20 sp 0x7ffe167fca10
+READ of size 8 at 0x502000000058 thread T0
+    #0 0x6315409cf654 in recursive_matrix_multiply samples/SAFE/__tmp_a2f3ad70.c:14
+    #1 0x6315409cf753 in recursive_matrix_multiply samples/SAFE/__tmp_a2f3ad70.c:15
+    #2 0x6315409d0650 in main samples/SAFE/__tmp_a2f3ad70.c:110
+    #3 0x714dddc2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x714dddc2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x6315409cf2e4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_a2f3ad70.c.san+0x32e4) (BuildId: 6173ca326114ffbb5da7fbd11a113508ae0436a9)
+
+0x502000000058 is located 0 bytes after 8-byte region [0x502000000050,0x502000000058)
+allocated by thread T0 here:
+    #0 0x714dde8fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69
+    #1 0x6315409cfb7d in allocate_matrix samples/SAFE/__tmp_a2f3ad70.c:44
+    #2 0x6315409d01b6 in main samples/SAFE/__tmp_a2f3ad70.c:88
+    #3 0x714dddc2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x714dddc2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x6315409cf2e4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_a2f3ad70.c.san+0x32e4) (BuildId: 6173ca326114ffbb5da7fbd11a113508ae0436a9)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow samples/SAFE/__tmp_a2f3ad70.c:14 in recursive_matrix_multiply
+Shadow bytes around the buggy address:
+  0x501ffffffd80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x501ffffffe00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x501ffffffe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x501fffffff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x501fffffff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x502000000000: fa fa 00 fa fa fa 00 fa fa fa 00[fa]fa fa 00 fa
+  0x502000000080: fa fa 00 fa fa fa 00 fa fa fa fa fa fa fa fa fa
+  0x502000000100: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x502000000180: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x502000000200: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x502000000280: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==347358==ABORTING

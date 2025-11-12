@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a3ab6145.c: In function ‘write_data’:
+./samples/SAFE/__tmp_a3ab6145.c:140:9: error: expected identifier at end of input
+  140 |         printf("%u ", sm->
+      |         ^~~~~~
+./samples/SAFE/__tmp_a3ab6145.c:140:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a3ab6145.c:140:9: error: expected declaration or statement at end of input

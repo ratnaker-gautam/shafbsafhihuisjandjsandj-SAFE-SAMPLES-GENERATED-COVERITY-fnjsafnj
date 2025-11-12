@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d946ef0a.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_d946ef0a.c:124:9: error: expected declaration or statement at end of input
+  124 |         if (isnan(sub_det)) {
+      |         ^~
+./samples/SAFE/__tmp_d946ef0a.c:124:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d946ef0a.c:124:9: error: expected declaration or statement at end of input

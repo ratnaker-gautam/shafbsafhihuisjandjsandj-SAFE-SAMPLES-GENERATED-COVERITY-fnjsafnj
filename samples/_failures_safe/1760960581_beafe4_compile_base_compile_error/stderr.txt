@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d5d7092b.c: In function ‘main’:
+./samples/SAFE/__tmp_d5d7092b.c:166:5: error: expected declaration or statement at end of input
+  166 |     printf("BFS from different starting points:\n");
+      |     ^~~~~~

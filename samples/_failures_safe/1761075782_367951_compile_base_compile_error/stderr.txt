@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_17a005f2.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_17a005f2.c:180:17: error: expected ‘)’ at end of input
+  180 |     free(visited
+      |         ~       ^
+      |                 )
+./samples/SAFE/__tmp_17a005f2.c:180:5: error: expected declaration or statement at end of input
+  180 |     free(visited
+      |     ^~~~

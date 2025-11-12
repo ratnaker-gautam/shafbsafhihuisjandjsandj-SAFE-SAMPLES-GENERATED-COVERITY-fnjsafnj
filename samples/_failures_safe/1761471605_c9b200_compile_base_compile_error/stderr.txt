@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_85d34151.c: In function ‘main’:
+./samples/SAFE/__tmp_85d34151.c:170:5: error: expected declaration or statement at end of input
+  170 |     }
+      |     ^

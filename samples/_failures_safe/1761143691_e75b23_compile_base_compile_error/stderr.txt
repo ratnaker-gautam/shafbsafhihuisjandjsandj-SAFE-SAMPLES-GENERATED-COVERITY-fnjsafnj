@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5e5dcee5.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_5e5dcee5.c:125:41: error: expected ‘)’ at end of input
+  125 |                count > 0 ? (level_counts
+      |                            ~            ^
+      |                                         )
+./samples/SAFE/__tmp_5e5dcee5.c:125:16: error: expected declaration or statement at end of input
+  125 |                count > 0 ? (level_counts
+      |                ^~~~~
+./samples/SAFE/__tmp_5e5dcee5.c:125:16: error: expected declaration or statement at end of input

@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_27003997.c: In function ‘main’:
+./samples/SAFE/__tmp_27003997.c:139:39: error: expected ‘)’ at end of input
+  139 |             display_logs_by_level(logs
+      |                                  ~    ^
+      |                                       )
+./samples/SAFE/__tmp_27003997.c:139:13: error: too few arguments to function ‘display_logs_by_level’
+  139 |             display_logs_by_level(logs
+      |             ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_27003997.c:64:6: note: declared here
+   64 | void display_logs_by_level(struct LogEntry* logs, int count, const char* level) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_27003997.c:139:13: error: expected declaration or statement at end of input
+  139 |             display_logs_by_level(logs
+      |             ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_27003997.c:139:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_27003997.c:139:13: error: expected declaration or statement at end of input

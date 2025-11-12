@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_32bdafb0.c: In function ‘process_event’:
+./samples/SAFE/__tmp_32bdafb0.c:178:25: error: incompatible types when assigning to type ‘enum State’ from type ‘enum State (*)(struct StateMachine *, struct EventData *)’
+  178 |             new_state = handle_processing_state
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_32bdafb0.c:178:48: error: expected ‘;’ at end of input
+  178 |             new_state = handle_processing_state
+      |                                                ^
+      |                                                ;
+./samples/SAFE/__tmp_32bdafb0.c:178:13: error: expected declaration or statement at end of input
+  178 |             new_state = handle_processing_state
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_32bdafb0.c:178:13: error: expected declaration or statement at end of input

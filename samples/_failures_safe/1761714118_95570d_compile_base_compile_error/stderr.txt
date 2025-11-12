@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_37c1e6a9.c: In function ‘handle_state_machine’:
+./samples/SAFE/__tmp_37c1e6a9.c:167:9: error: expected identifier at end of input
+  167 |         printf("State: ERROR (code: %d)\n", sm->
+      |         ^~~~~~
+./samples/SAFE/__tmp_37c1e6a9.c:167:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_37c1e6a9.c:167:9: error: expected declaration or statement at end of input

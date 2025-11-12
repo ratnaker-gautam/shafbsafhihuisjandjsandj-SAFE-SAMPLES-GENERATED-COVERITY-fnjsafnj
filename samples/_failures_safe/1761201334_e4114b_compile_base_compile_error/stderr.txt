@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_caaf81c2.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_caaf81c2.c:160:40: error: missing terminating ' character
+  160 |         tokens[token_count].value[0] = '\0
+      |                                        ^~~
+./samples/SAFE/__tmp_caaf81c2.c:160:9: error: expected expression at end of input
+  160 |         tokens[token_count].value[0] = '\0
+      |         ^~~~~~
+./samples/SAFE/__tmp_caaf81c2.c:160:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_caaf81c2.c:160:9: error: expected declaration or statement at end of input

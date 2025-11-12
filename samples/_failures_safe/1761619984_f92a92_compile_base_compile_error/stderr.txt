@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_707b09f6.c: In function ‘main’:
+./samples/SAFE/__tmp_707b09f6.c:150:35: error: ‘state_to’ undeclared (first use in this function)
+  150 |     printf("Initial state: %s\n", state_to
+      |                                   ^~~~~~~~
+./samples/SAFE/__tmp_707b09f6.c:150:35: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_707b09f6.c:150:43: error: expected ‘)’ at end of input
+  150 |     printf("Initial state: %s\n", state_to
+      |           ~                               ^
+      |                                           )
+./samples/SAFE/__tmp_707b09f6.c:150:5: error: expected declaration or statement at end of input
+  150 |     printf("Initial state: %s\n", state_to
+      |     ^~~~~~

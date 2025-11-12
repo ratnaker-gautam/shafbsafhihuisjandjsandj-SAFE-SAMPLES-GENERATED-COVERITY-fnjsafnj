@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_947e5e6c.c: In function ‘transpose_matrix’:
+./samples/SAFE/__tmp_947e5e6c.c:143:13: error: expected identifier at end of input
+  143 |             result->
+      |             ^~~~~~
+./samples/SAFE/__tmp_947e5e6c.c:143:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_947e5e6c.c:143:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_947e5e6c.c:143:13: error: expected declaration or statement at end of input

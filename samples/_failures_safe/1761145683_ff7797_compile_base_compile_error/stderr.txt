@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_baa56372.c: In function ‘main’:
+./samples/SAFE/__tmp_baa56372.c:185:47: error: ‘MAX_TO’ undeclared (first use in this function); did you mean ‘MAX_TOKENS’?
+  185 |     int token_count = tokenize(input, tokens, MAX_TO
+      |                                               ^~~~~~
+      |                                               MAX_TOKENS
+./samples/SAFE/__tmp_baa56372.c:185:47: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_baa56372.c:185:53: error: expected ‘)’ at end of input
+  185 |     int token_count = tokenize(input, tokens, MAX_TO
+      |                               ~                     ^
+      |                                                     )
+./samples/SAFE/__tmp_baa56372.c:185:5: error: expected declaration or statement at end of input
+  185 |     int token_count = tokenize(input, tokens, MAX_TO
+      |     ^~~

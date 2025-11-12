@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0c53e6bd.c: In function ‘main’:
+./samples/SAFE/__tmp_0c53e6bd.c:197:17: error: expected expression at end of input
+  197 |                 while (getchar() !=
+      |                 ^~~~~
+./samples/SAFE/__tmp_0c53e6bd.c:197:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c53e6bd.c:197:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c53e6bd.c:197:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c53e6bd.c:197:17: error: expected declaration or statement at end of input

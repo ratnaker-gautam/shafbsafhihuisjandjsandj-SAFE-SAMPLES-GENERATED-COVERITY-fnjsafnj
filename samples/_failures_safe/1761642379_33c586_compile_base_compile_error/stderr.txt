@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_47a2df2d.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_47a2df2d.c:169:30: error: ‘TOKEN’ undeclared (first use in this function)
+  169 |                 token.type = TOKEN
+      |                              ^~~~~
+./samples/SAFE/__tmp_47a2df2d.c:169:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_47a2df2d.c:169:35: error: expected ‘;’ at end of input
+  169 |                 token.type = TOKEN
+      |                                   ^
+      |                                   ;
+./samples/SAFE/__tmp_47a2df2d.c:169:17: error: expected declaration or statement at end of input
+  169 |                 token.type = TOKEN
+      |                 ^~~~~
+./samples/SAFE/__tmp_47a2df2d.c:169:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_47a2df2d.c:169:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_47a2df2d.c:169:17: error: expected declaration or statement at end of input

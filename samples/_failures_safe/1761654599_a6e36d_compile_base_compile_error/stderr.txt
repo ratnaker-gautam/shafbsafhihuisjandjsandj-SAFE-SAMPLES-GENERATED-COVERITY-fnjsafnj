@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a59fe40e.c: In function ‘main’:
+./samples/SAFE/__tmp_a59fe40e.c:157:9: error: expected declaration or statement at end of input
+  157 |         for (int i = 0; input[i] != '\0' && input[i] != '\n'; i++) {
+      |         ^~~
+./samples/SAFE/__tmp_a59fe40e.c:157:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a59fe40e.c:157:9: error: expected declaration or statement at end of input

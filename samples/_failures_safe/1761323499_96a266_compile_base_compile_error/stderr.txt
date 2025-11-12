@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_179a0872.c: In function ‘main’:
+./samples/SAFE/__tmp_179a0872.c:140:29: error: expected ‘)’ at end of input
+  140 |         destroy_matrix(&mat1
+      |                       ~     ^
+      |                             )
+./samples/SAFE/__tmp_179a0872.c:140:9: error: expected declaration or statement at end of input
+  140 |         destroy_matrix(&mat1
+      |         ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_179a0872.c:140:9: error: expected declaration or statement at end of input

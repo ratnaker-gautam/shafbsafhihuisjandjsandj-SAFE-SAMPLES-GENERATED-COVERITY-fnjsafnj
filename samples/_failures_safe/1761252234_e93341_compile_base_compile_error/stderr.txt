@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c2615fb3.c: In function ‘main’:
+./samples/SAFE/__tmp_c2615fb3.c:154:40: error: expected ‘)’ at end of input
+  154 |     free_log_collection(heap_collection
+      |                        ~               ^
+      |                                        )
+./samples/SAFE/__tmp_c2615fb3.c:154:5: error: expected declaration or statement at end of input
+  154 |     free_log_collection(heap_collection
+      |     ^~~~~~~~~~~~~~~~~~~

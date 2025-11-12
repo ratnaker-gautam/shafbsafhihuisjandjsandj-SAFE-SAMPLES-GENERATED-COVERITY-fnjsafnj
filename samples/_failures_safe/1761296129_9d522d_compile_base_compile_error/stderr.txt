@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ba0b261e.c: In function ‘main’:
+./samples/SAFE/__tmp_ba0b261e.c:127:5: error: expected declaration or statement at end of input
+  127 |     if (a.data == NULL) { printf("Matrix creation failed\n");
+      |     ^~
+./samples/SAFE/__tmp_ba0b261e.c:127:5: error: expected declaration or statement at end of input

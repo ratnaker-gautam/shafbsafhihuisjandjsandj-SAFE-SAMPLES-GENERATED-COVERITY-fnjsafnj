@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f26d3bc9.c: In function ‘dfs’:
+./samples/SAFE/__tmp_f26d3bc9.c:161:37: error: expected ‘]’ at end of input
+  161 |             start_node = &g->nodes[i
+      |                                     ^
+      |                                     ]
+./samples/SAFE/__tmp_f26d3bc9.c:161:13: error: expected declaration or statement at end of input
+  161 |             start_node = &g->nodes[i
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_f26d3bc9.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f26d3bc9.c:161:13: error: expected declaration or statement at end of input

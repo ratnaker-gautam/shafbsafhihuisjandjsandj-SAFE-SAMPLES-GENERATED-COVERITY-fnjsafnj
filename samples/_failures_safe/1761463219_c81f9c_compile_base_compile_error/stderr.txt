@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b06a2c3d.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_b06a2c3d.c:130: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_b06a2c3d.c:129:9: error: expected declaration or statement at end of input
+  129 |         if
+      |         ^~
+./samples/SAFE/__tmp_b06a2c3d.c:129:9: error: expected declaration or statement at end of input

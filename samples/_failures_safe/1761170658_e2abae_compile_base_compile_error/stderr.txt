@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5974eaee.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_5974eaee.c:152:5: error: expected declaration or statement at end of input
+  152 |     parser->has_error = 0;
+      |     ^~~~~~

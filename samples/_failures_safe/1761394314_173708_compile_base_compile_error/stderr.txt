@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_bc828573.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_bc828573.c:140:16: error: expected ‘:’ at end of input
+  140 |         default
+      |                ^
+      |                :
+./samples/SAFE/__tmp_bc828573.c:140:9: error: expected declaration or statement at end of input
+  140 |         default
+      |         ^~~~~~~
+./samples/SAFE/__tmp_bc828573.c:140:9: error: expected declaration or statement at end of input

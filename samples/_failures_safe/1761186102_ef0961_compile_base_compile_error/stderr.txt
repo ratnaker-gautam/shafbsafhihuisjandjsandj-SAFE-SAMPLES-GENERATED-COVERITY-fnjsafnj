@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_a8317b2c.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_a8317b2c.c:137:21: error: expected ‘;’ at end of input
+  137 |             analyzer
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_a8317b2c.c:137:13: error: expected declaration or statement at end of input
+  137 |             analyzer
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_a8317b2c.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8317b2c.c:137:13: error: expected declaration or statement at end of input

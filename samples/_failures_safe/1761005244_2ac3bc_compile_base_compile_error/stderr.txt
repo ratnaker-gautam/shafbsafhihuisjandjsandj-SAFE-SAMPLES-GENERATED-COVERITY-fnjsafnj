@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ec2f3439.c: In function ‘scan_delimiter’:
+./samples/SAFE/__tmp_ec2f3439.c:150:9: error: expected declaration or statement at end of input
+  150 |         lexer->position++;
+      |         ^~~~~
+./samples/SAFE/__tmp_ec2f3439.c:150:9: error: expected declaration or statement at end of input

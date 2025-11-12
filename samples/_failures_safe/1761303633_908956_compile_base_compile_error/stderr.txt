@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_54d6600f.c: In function ‘main’:
+./samples/SAFE/__tmp_54d6600f.c:178:13: error: expected ‘;’ at end of input
+  178 |     add_node
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_54d6600f.c:178:5: error: expected declaration or statement at end of input
+  178 |     add_node
+      |     ^~~~~~~~

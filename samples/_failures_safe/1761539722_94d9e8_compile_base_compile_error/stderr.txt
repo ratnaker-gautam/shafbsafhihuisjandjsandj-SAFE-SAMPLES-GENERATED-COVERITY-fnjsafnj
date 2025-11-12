@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cc0zLVaS.o: in function `main':
+__tmp_15dd0582.c:(.text.startup+0x146): undefined reference to `log1p'
+collect2: error: ld returned 1 exit status

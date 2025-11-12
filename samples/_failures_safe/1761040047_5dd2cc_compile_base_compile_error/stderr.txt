@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8fa83a66.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_8fa83a66.c:171:13: error: expected declaration or statement at end of input
+  171 |             advance(lexer);
+      |             ^~~~~~~
+./samples/SAFE/__tmp_8fa83a66.c:171:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8fa83a66.c:171:13: error: expected declaration or statement at end of input

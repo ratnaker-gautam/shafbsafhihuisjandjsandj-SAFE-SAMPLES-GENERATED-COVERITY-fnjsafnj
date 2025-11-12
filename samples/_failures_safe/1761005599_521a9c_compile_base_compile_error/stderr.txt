@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b6edad75.c: In function ‘main’:
+./samples/SAFE/__tmp_b6edad75.c:179:5: error: expected expression at end of input
+  179 |     for (
+      |     ^~~
+./samples/SAFE/__tmp_b6edad75.c:179:5: error: expected declaration or statement at end of input

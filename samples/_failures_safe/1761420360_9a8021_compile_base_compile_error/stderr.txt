@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_504ddce5.c: In function ‘create_sample_graph’:
+./samples/SAFE/__tmp_504ddce5.c:158: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_504ddce5.c:157:42: note: to match this ‘{’
+  157 |         {2, 3, 1}, {2, 4, 1}, {3, 5, 1}, {4
+      |                                          ^
+./samples/SAFE/__tmp_504ddce5.c:157:9: error: expected declaration or statement at end of input
+  157 |         {2, 3, 1}, {2, 4, 1}, {3, 5, 1}, {4
+      |         ^

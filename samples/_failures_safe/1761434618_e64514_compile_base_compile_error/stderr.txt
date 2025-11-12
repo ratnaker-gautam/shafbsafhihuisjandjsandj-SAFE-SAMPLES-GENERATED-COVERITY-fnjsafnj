@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_0bbe44c8.c:153:25: error: expected declaration specifiers or ‘...’ at end of input
+  153 | void parser_init(struct Parser *parser,
+      |                         ^~~~~~

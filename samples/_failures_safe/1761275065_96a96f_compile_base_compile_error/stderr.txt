@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e775611b.c: In function ‘load_log_file’:
+./samples/SAFE/__tmp_e775611b.c:118:14: error: expected ‘)’ at end of input
+  118 |     if (!file
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_e775611b.c:118:5: error: expected declaration or statement at end of input
+  118 |     if (!file
+      |     ^~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b9605960.c: In function ‘main’:
+./samples/SAFE/__tmp_b9605960.c:172:16: error: expected ‘)’ at end of input
+  172 |     if (!tokens
+      |        ~       ^
+      |                )
+./samples/SAFE/__tmp_b9605960.c:172:5: error: expected declaration or statement at end of input
+  172 |     if (!tokens
+      |     ^~

@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccJtpsq4.o: in function `main':
+__tmp_69ea71fe.c:(.text.startup+0x91): undefined reference to `sin'
+/usr/bin/ld: __tmp_69ea71fe.c:(.text.startup+0x1e7): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5df3d6e1.c: In function ‘main’:
+./samples/SAFE/__tmp_5df3d6e1.c:127:9: error: expected declaration or statement at end of input
+  127 |         MATRIX_ADD(result, matrix1, matrix2, rows1, cols1);
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_5df3d6e1.c:127:9: error: expected declaration or statement at end of input

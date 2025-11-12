@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1703aefc.c: In function ‘analyze_text’:
+./samples/SAFE/__tmp_1703aefc.c:148:5: error: expected declaration or statement at end of input
+  148 |     }
+      |     ^

@@ -1,0 +1,148 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: struct_heavy ; Variation: parser_tokenizer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdint.h>
+
+#define MAX_TOKENS 100
+#define MAX_TOKEN_LEN 64
+#define MAX_INPUT_LEN 1024
+
+enum TokenType {
+    TOKEN_IDENTIFIER,
+    TOKEN_NUMBER,
+    TOKEN_OPERATOR,
+    TOKEN_DELIMITER,
+    TOKEN_STRING,
+    TOKEN_EOF,
+    TOKEN_UNKNOWN
+};
+
+struct Token {
+    enum TokenType type;
+    char value[MAX_TOKEN_LEN];
+    uint32_t line;
+    uint32_t column;
+};
+
+struct LexerState {
+    const char *input;
+    uint32_t position;
+    uint32_t line;
+    uint32_t column;
+    uint32_t token_count;
+};
+
+struct ParserState {
+    struct Token *tokens;
+    uint32_t token_index;
+    uint32_t token_count;
+};
+
+void init_lexer(struct LexerState *lexer, const char *input) {
+    if (lexer == NULL || input == NULL) return;
+    lexer->input = input;
+    lexer->position = 0;
+    lexer->line = 1;
+    lexer->column = 1;
+    lexer->token_count = 0;
+}
+
+void init_parser(struct ParserState *parser, struct Token *tokens, uint32_t count) {
+    if (parser == NULL || tokens == NULL) return;
+    parser->tokens = tokens;
+    parser->token_index = 0;
+    parser->token_count = count;
+}
+
+int is_operator_char(char c) {
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '=' || c == '<' || c == '>';
+}
+
+int is_delimiter_char(char c) {
+    return c == '(' || c == ')' || c == '{' || c == '}' || c == '[' || c == ']' || c == ';' || c == ',';
+}
+
+void skip_whitespace(struct LexerState *lexer) {
+    if (lexer == NULL || lexer->input == NULL) return;
+    while (lexer->input[lexer->position] != '\0' && isspace(lexer->input[lexer->position])) {
+        if (lexer->input[lexer->position] == '\n') {
+            lexer->line++;
+            lexer->column = 1;
+        } else {
+            lexer->column++;
+        }
+        lexer->position++;
+    }
+}
+
+int read_token(struct LexerState *lexer, struct Token *token) {
+    if (lexer == NULL || token == NULL || lexer->input == NULL) return 0;
+    
+    skip_whitespace(lexer);
+    
+    if (lexer->input[lexer->position] == '\0') {
+        token->type = TOKEN_EOF;
+        strncpy(token->value, "EOF", MAX_TOKEN_LEN - 1);
+        token->value[MAX_TOKEN_LEN - 1] = '\0';
+        token->line = lexer->line;
+        token->column = lexer->column;
+        return 1;
+    }
+    
+    char current = lexer->input[lexer->position];
+    token->line = lexer->line;
+    token->column = lexer->column;
+    
+    if (isalpha(current) || current == '_') {
+        token->type = TOKEN_IDENTIFIER;
+        uint32_t i = 0;
+        while ((isalnum(current) || current == '_') && i < MAX_TOKEN_LEN - 1) {
+            token->value[i++] = current;
+            lexer->position++;
+            lexer->column++;
+            current = lexer->input[lexer->position];
+        }
+        token->value[i] = '\0';
+    } else if (isdigit(current)) {
+        token->type = TOKEN_NUMBER;
+        uint32_t i = 0;
+        while (isdigit(current) && i < MAX_TOKEN_LEN - 1) {
+            token->value[i++] = current;
+            lexer->position++;
+            lexer->column++;
+            current = lexer->input[lexer->position];
+        }
+        token->value[i] = '\0';
+    } else if (current == '"') {
+        token->type = TOKEN_STRING;
+        uint32_t i = 0;
+        lexer->position++;
+        lexer->column++;
+        current = lexer->input[lexer->position];
+        
+        while (current != '"' && current != '\0' && i < MAX_TOKEN_LEN - 1) {
+            token->value[i++] = current;
+            lexer->position++;
+            lexer->column++;
+            current = lexer->input[lexer->position];
+        }
+        
+        if (current == '"') {
+            lexer->position++;
+            lexer->column++;
+        }
+        token->value[i] = '\0';
+    } else if (is_operator_char(current)) {
+        token->type = TOKEN_OPERATOR;
+        uint32_t i = 0;
+        while (is_operator_char(current) && i < MAX_TOKEN_LEN - 1) {
+            token->value[i++] = current;
+            lexer->position++;
+            lexer->column++;
+            current = lexer->input[lexer->position];
+        }
+        token->value[i] = '\0';
+    } else if (is_delimiter_char(current)) {
+        token->type = TOKEN_DELIM

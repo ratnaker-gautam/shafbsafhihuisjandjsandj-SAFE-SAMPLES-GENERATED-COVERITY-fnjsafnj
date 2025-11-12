@@ -1,0 +1,123 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: loop_variants ; Variation: parser_tokenizer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_TOKENS 100
+#define MAX_TOKEN_LEN 50
+
+enum TokenType { NUMBER, IDENTIFIER, OPERATOR, DELIMITER, INVALID };
+
+struct Token {
+    enum TokenType type;
+    char value[MAX_TOKEN_LEN];
+};
+
+int is_operator(char c) {
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '=';
+}
+
+int is_delimiter(char c) {
+    return c == '(' || c == ')' || c == ',' || c == ';';
+}
+
+void tokenize(const char* input, struct Token* tokens, int* token_count) {
+    int i = 0;
+    int len = strlen(input);
+    *token_count = 0;
+    
+    while (i < len && *token_count < MAX_TOKENS) {
+        while (i < len && isspace(input[i])) i++;
+        if (i >= len) break;
+        
+        char current = input[i];
+        
+        if (isdigit(current)) {
+            int j = 0;
+            do {
+                if (j < MAX_TOKEN_LEN - 1) {
+                    tokens[*token_count].value[j++] = input[i++];
+                } else {
+                    i++;
+                }
+            } while (i < len && isdigit(input[i]));
+            tokens[*token_count].value[j] = '\0';
+            tokens[*token_count].type = NUMBER;
+            (*token_count)++;
+        }
+        else if (isalpha(current)) {
+            int j = 0;
+            do {
+                if (j < MAX_TOKEN_LEN - 1) {
+                    tokens[*token_count].value[j++] = input[i++];
+                } else {
+                    i++;
+                }
+            } while (i < len && isalnum(input[i]));
+            tokens[*token_count].value[j] = '\0';
+            tokens[*token_count].type = IDENTIFIER;
+            (*token_count)++;
+        }
+        else if (is_operator(current)) {
+            tokens[*token_count].value[0] = input[i++];
+            tokens[*token_count].value[1] = '\0';
+            tokens[*token_count].type = OPERATOR;
+            (*token_count)++;
+        }
+        else if (is_delimiter(current)) {
+            tokens[*token_count].value[0] = input[i++];
+            tokens[*token_count].value[1] = '\0';
+            tokens[*token_count].type = DELIMITER;
+            (*token_count)++;
+        }
+        else {
+            tokens[*token_count].value[0] = input[i++];
+            tokens[*token_count].value[1] = '\0';
+            tokens[*token_count].type = INVALID;
+            (*token_count)++;
+        }
+    }
+}
+
+void print_tokens(const struct Token* tokens, int token_count) {
+    const char* type_names[] = {"NUMBER", "IDENTIFIER", "OPERATOR", "DELIMITER", "INVALID"};
+    
+    for (int i = 0; i < token_count; i++) {
+        printf("Token %d: %s -> %s\n", i, tokens[i].value, type_names[tokens[i].type]);
+    }
+}
+
+int main(void) {
+    char input[1024];
+    struct Token tokens[MAX_TOKENS];
+    int token_count = 0;
+    
+    printf("Enter expression to tokenize: ");
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    size_t len = strlen(input);
+    if (len > 0 && input[len-1] == '\n') {
+        input[len-1] = '\0';
+    }
+    
+    if (strlen(input) == 0) {
+        fprintf(stderr, "Empty input\n");
+        return 1;
+    }
+    
+    tokenize(input, tokens, &token_count);
+    
+    if (token_count == 0) {
+        printf("No tokens found\n");
+        return 0;
+    }
+    
+    printf("Found %d tokens:\n", token_count);
+    print_tokens(tokens, token_count);
+    
+    return 0;
+}

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7c061cd2.c: In function ‘main’:
+./samples/SAFE/__tmp_7c061cd2.c:138:5: error: expected identifier at end of input
+  138 |     if (mat1.rows == mat2.
+      |     ^~
+./samples/SAFE/__tmp_7c061cd2.c:138:5: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d7f5430e.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_d7f5430e.c:153:5: error: expected expression at end of input
+  153 |     while (parser->current.type == TOKEN_PLUS ||
+      |     ^~~~~
+./samples/SAFE/__tmp_d7f5430e.c:153:5: error: expected declaration or statement at end of input

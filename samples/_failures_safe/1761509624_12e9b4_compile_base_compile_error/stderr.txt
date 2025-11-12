@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_80a70bcb.c:168:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  168 | void print_state
+      | ^~~~

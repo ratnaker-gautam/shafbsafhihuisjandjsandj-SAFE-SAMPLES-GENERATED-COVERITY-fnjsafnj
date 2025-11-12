@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7883ec7f.c: In function ‘pointcloud_add_point’:
+./samples/SAFE/__tmp_7883ec7f.c:124:7: error: expected ‘;’ at end of input
+  124 |     pc
+      |       ^
+      |       ;
+./samples/SAFE/__tmp_7883ec7f.c:124:5: error: expected declaration or statement at end of input
+  124 |     pc
+      |     ^~

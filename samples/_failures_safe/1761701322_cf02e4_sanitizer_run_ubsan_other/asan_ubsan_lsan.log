@@ -1,0 +1,8 @@
+
+samples/SAFE/__tmp_5476d9c1.c:48:26: runtime error: signed integer overflow: 16838 * 1103515245 cannot be represented in type 'int'
+    #0 0x557a1a2423e1 in cpu_intensive_calculation samples/SAFE/__tmp_5476d9c1.c:48
+    #1 0x557a1a2428b4 in main samples/SAFE/__tmp_5476d9c1.c:73
+    #2 0x70bd78a2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x70bd78a2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x557a1a2422a4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_5476d9c1.c.san+0x22a4) (BuildId: 4f4a38f017b6a8a920ea41831ede319b76abf4c3)
+

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c43b797c.c: In function ‘main’:
+./samples/SAFE/__tmp_c43b797c.c:153:9: error: expected expression at end of input
+  153 |         if (mat1.rows == -1 || mat1.cols == -1) return
+      |         ^~
+./samples/SAFE/__tmp_c43b797c.c:153:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c43b797c.c:153:9: error: expected declaration or statement at end of input

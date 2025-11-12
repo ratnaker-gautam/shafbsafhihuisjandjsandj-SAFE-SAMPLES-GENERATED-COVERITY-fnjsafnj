@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_87bd2bd2.c: In function ‘main’:
+./samples/SAFE/__tmp_87bd2bd2.c:139:40: error: expected ‘)’ at end of input
+  139 |     struct Matrix sum = add_matrices(&a
+      |                                     ~  ^
+      |                                        )
+./samples/SAFE/__tmp_87bd2bd2.c:139:25: error: too few arguments to function ‘add_matrices’
+  139 |     struct Matrix sum = add_matrices(&a
+      |                         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_87bd2bd2.c:54:15: note: declared here
+   54 | struct Matrix add_matrices(const struct Matrix *a, const struct Matrix *b) {
+      |               ^~~~~~~~~~~~
+./samples/SAFE/__tmp_87bd2bd2.c:139:12: error: expected declaration or statement at end of input
+  139 |     struct Matrix sum = add_matrices(&a
+      |            ^~~~~~

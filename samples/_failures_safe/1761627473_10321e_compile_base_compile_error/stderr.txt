@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b21a1fb7.c: In function ‘main’:
+./samples/SAFE/__tmp_b21a1fb7.c:137:5: error: expected declaration or statement at end of input
+  137 |     int startVertex;
+      |     ^~~

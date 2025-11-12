@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3cad6a46.c: In function ‘main’:
+./samples/SAFE/__tmp_3cad6a46.c:126:9: error: expected declaration or statement at end of input
+  126 |         printf("\nMatrix dimensions incompatible for multiplication.\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_3cad6a46.c:126:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_848f760b.c: In function ‘main’:
+./samples/SAFE/__tmp_848f760b.c:180:5: error: expected declaration or statement at end of input
+  180 |     for (int i = 0; i < token_count; i++) {
+      |     ^~~
+./samples/SAFE/__tmp_848f760b.c:180:5: error: expected declaration or statement at end of input

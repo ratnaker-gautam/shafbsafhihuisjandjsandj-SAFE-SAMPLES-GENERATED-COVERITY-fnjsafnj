@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_4944875e.c: In function ‘main’:
+./samples/SAFE/__tmp_4944875e.c:140:73: error: expected ‘]’ at end of input
+  140 |         if (is_error_level(entries[i].level) && is_error_level(entries[i
+      |                                                                         ^
+      |                                                                         ]
+./samples/SAFE/__tmp_4944875e.c:140:71: error: incompatible type for argument 1 of ‘is_error_level’
+  140 |         if (is_error_level(entries[i].level) && is_error_level(entries[i
+      |                                                                ~~~~~~~^~
+      |                                                                       |
+      |                                                                       LogEntry
+./samples/SAFE/__tmp_4944875e.c:43:32: note: expected ‘const char *’ but argument is of type ‘LogEntry’
+   43 | int is_error_level(const char* level) {
+      |                    ~~~~~~~~~~~~^~~~~
+./samples/SAFE/__tmp_4944875e.c:140:9: error: expected declaration or statement at end of input
+  140 |         if (is_error_level(entries[i].level) && is_error_level(entries[i
+      |         ^~
+./samples/SAFE/__tmp_4944875e.c:140:9: error: expected declaration or statement at end of input

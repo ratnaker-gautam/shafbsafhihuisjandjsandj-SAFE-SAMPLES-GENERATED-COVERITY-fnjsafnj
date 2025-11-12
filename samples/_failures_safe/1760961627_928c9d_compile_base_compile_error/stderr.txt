@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_fa273cd3.c: In function ‘main’:
+./samples/SAFE/__tmp_fa273cd3.c:136:42: error: expected ‘)’ at end of input
+  136 |         int level = parse_log_level(input
+      |                                    ~     ^
+      |                                          )
+./samples/SAFE/__tmp_fa273cd3.c:136:9: error: expected declaration or statement at end of input
+  136 |         int level = parse_log_level(input
+      |         ^~~
+./samples/SAFE/__tmp_fa273cd3.c:136:9: error: expected declaration or statement at end of input

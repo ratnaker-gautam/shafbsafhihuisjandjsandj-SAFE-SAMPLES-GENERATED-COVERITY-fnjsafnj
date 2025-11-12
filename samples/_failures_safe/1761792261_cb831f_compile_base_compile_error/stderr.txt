@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3b844085.c: In function ‘main’:
+./samples/SAFE/__tmp_3b844085.c:131:54: error: expected ‘;’ at end of input
+  131 |     if (!read_size_t("Enter cols: ", &cols)) { printf
+      |                                                      ^
+      |                                                      ;
+./samples/SAFE/__tmp_3b844085.c:131:5: error: expected declaration or statement at end of input
+  131 |     if (!read_size_t("Enter cols: ", &cols)) { printf
+      |     ^~
+./samples/SAFE/__tmp_3b844085.c:131:5: error: expected declaration or statement at end of input

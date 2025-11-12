@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_23526cfe.c: In function ‘main’:
+./samples/SAFE/__tmp_23526cfe.c:145:34: error: ‘word’ undeclared (first use in this function); did you mean ‘words’?
+  145 |         print_word_counts(words, word
+      |                                  ^~~~
+      |                                  words
+./samples/SAFE/__tmp_23526cfe.c:145:34: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_23526cfe.c:145:38: error: expected ‘)’ at end of input
+  145 |         print_word_counts(words, word
+      |                          ~           ^
+      |                                      )
+./samples/SAFE/__tmp_23526cfe.c:145:9: error: expected declaration or statement at end of input
+  145 |         print_word_counts(words, word
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_23526cfe.c:145:9: error: expected declaration or statement at end of input

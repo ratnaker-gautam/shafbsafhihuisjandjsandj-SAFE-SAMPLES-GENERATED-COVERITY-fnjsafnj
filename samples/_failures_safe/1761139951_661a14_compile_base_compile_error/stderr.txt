@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_e5d2784e.c: In function ‘main’:
+./samples/SAFE/__tmp_e5d2784e.c:151:63: error: ‘MAX’ undeclared (first use in this function)
+  151 |     mat2.rows = read_int("Enter number of rows (1-100): ", 1, MAX
+      |                                                               ^~~
+./samples/SAFE/__tmp_e5d2784e.c:151:63: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e5d2784e.c:151:66: error: expected ‘)’ at end of input
+  151 |     mat2.rows = read_int("Enter number of rows (1-100): ", 1, MAX
+      |                         ~                                        ^
+      |                                                                  )
+./samples/SAFE/__tmp_e5d2784e.c:151:5: error: expected declaration or statement at end of input
+  151 |     mat2.rows = read_int("Enter number of rows (1-100): ", 1, MAX
+      |     ^~~~

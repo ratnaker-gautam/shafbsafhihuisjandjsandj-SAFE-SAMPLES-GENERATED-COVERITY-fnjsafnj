@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e4ab36af.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_e4ab36af.c:163:9: error: expected declaration or statement at end of input
+  163 |         if (op == TOKEN_PLUS) {
+      |         ^~
+./samples/SAFE/__tmp_e4ab36af.c:163:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e4ab36af.c:163:9: error: expected declaration or statement at end of input

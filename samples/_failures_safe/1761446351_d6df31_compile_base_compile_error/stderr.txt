@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_1b00442c.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_1b00442c.c:145:9: error: ‘str’ undeclared (first use in this function); did you mean ‘start’?
+  145 |         str
+      |         ^~~
+      |         start
+./samples/SAFE/__tmp_1b00442c.c:145:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1b00442c.c:145:12: error: expected ‘;’ at end of input
+  145 |         str
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_1b00442c.c:145:9: error: expected declaration or statement at end of input
+  145 |         str
+      |         ^~~
+./samples/SAFE/__tmp_1b00442c.c:145:9: error: expected declaration or statement at end of input

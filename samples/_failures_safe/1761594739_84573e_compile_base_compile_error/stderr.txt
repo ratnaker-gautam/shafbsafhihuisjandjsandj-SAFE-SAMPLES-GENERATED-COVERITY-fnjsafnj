@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_859ba9a3.c: In function ‘print_token’:
+./samples/SAFE/__tmp_859ba9a3.c:176:12: error: missing terminating " character
+  176 |     printf("Line %d, Column %d: %s
+      |            ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_859ba9a3.c:176:5: error: expected expression at end of input
+  176 |     printf("Line %d, Column %d: %s
+      |     ^~~~~~
+./samples/SAFE/__tmp_859ba9a3.c:176:5: error: expected declaration or statement at end of input

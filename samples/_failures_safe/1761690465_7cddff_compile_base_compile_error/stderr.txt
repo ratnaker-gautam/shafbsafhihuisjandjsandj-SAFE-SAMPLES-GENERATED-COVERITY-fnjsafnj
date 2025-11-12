@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c23f3ad3.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_c23f3ad3.c:156:26: error: expected ‘;’ at end of input
+  156 |     parser->lexer = lexer
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_c23f3ad3.c:156:5: error: expected declaration or statement at end of input
+  156 |     parser->lexer = lexer
+      |     ^~~~~~

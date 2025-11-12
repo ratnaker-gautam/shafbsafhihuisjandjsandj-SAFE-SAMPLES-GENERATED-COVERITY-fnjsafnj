@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_10312350.c: In function ‘main’:
+./samples/SAFE/__tmp_10312350.c:174:13: error: ‘free_comp’ undeclared (first use in this function)
+  174 |             free_comp
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_10312350.c:174:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_10312350.c:174:22: error: expected ‘;’ at end of input
+  174 |             free_comp
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_10312350.c:174:13: error: expected declaration or statement at end of input
+  174 |             free_comp
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_10312350.c:174:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_10312350.c:174:13: error: expected declaration or statement at end of input

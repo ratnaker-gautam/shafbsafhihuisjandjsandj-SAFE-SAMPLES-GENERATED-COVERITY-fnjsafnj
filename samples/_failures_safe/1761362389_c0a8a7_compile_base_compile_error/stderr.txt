@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2089687d.c: In function ‘print_point_cloud’:
+./samples/SAFE/__tmp_2089687d.c:146:5: error: expected declaration or statement at end of input
+  146 |     for (size_t i = 0; i < cloud->count; i++) {
+      |     ^~~
+./samples/SAFE/__tmp_2089687d.c:146:5: error: expected declaration or statement at end of input

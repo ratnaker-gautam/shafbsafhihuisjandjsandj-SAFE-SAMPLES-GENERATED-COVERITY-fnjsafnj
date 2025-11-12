@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_65146a29.c: In function ‘main’:
+./samples/SAFE/__tmp_65146a29.c:138:76: error: ‘MAX_ENTRI’ undeclared (first use in this function); did you mean ‘MAX_ENTRIES’?
+  138 |     if (scanf("%d", &entry_count) != 1 || entry_count < 1 || entry_count > MAX_ENTRI
+      |                                                                            ^~~~~~~~~
+      |                                                                            MAX_ENTRIES
+./samples/SAFE/__tmp_65146a29.c:138:76: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_65146a29.c:138:85: error: expected ‘)’ at end of input
+  138 |     if (scanf("%d", &entry_count) != 1 || entry_count < 1 || entry_count > MAX_ENTRI
+      |        ~                                                                            ^
+      |                                                                                     )
+./samples/SAFE/__tmp_65146a29.c:138:5: error: expected declaration or statement at end of input
+  138 |     if (scanf("%d", &entry_count) != 1 || entry_count < 1 || entry_count > MAX_ENTRI
+      |     ^~

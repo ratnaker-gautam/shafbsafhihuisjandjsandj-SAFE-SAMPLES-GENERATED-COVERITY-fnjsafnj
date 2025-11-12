@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_46c78b82.c: In function ‘process_state_transition’:
+./samples/SAFE/__tmp_46c78b82.c:177:13: error: ‘new’ undeclared (first use in this function)
+  177 |             new
+      |             ^~~
+./samples/SAFE/__tmp_46c78b82.c:177:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_46c78b82.c:177:16: error: expected ‘;’ at end of input
+  177 |             new
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_46c78b82.c:177:13: error: expected declaration or statement at end of input
+  177 |             new
+      |             ^~~
+./samples/SAFE/__tmp_46c78b82.c:177:13: error: expected declaration or statement at end of input

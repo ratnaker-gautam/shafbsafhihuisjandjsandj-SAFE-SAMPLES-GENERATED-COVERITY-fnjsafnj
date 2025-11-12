@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ccec682e.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_ccec682e.c:148:17: error: expected expression at end of input
+  148 |                 strncpy(token.value, "Operator too long", MAX_TOKEN_LEN -
+      |                 ^~~~~~~
+./samples/SAFE/__tmp_ccec682e.c:148:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ccec682e.c:148:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ccec682e.c:148:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ccec682e.c:148:17: error: expected declaration or statement at end of input

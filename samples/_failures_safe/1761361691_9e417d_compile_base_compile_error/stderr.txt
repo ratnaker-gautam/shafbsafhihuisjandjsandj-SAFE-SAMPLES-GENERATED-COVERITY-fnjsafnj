@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_780b6c36.c: In function ‘main’:
+./samples/SAFE/__tmp_780b6c36.c:141:16: error: missing terminating " character
+  141 |         printf("Failed to create second
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_780b6c36.c:141:9: error: expected expression at end of input
+  141 |         printf("Failed to create second
+      |         ^~~~~~
+./samples/SAFE/__tmp_780b6c36.c:141:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_780b6c36.c:141:9: error: expected declaration or statement at end of input

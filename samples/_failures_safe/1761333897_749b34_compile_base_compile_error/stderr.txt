@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_71cd58fc.c: In function ‘process_tokens_with_stack’:
+./samples/SAFE/__tmp_71cd58fc.c:161:13: error: expected declaration or statement at end of input
+  161 |             printf("  Pushed to stack\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_71cd58fc.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_71cd58fc.c:161:13: error: expected declaration or statement at end of input

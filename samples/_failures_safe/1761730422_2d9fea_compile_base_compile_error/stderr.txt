@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2851841c.c: In function ‘main’:
+./samples/SAFE/__tmp_2851841c.c:148:18: error: expected ‘;’ at end of input
+  148 |     init_analyzer
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_2851841c.c:148:5: error: expected declaration or statement at end of input
+  148 |     init_analyzer
+      |     ^~~~~~~~~~~~~

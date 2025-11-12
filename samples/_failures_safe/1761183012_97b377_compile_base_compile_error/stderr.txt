@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d8d4bae5.c: In function ‘multiply_matrices’:
+./samples/SAFE/__tmp_d8d4bae5.c:125:13: error: expected declaration or statement at end of input
+  125 |             }
+      |             ^
+./samples/SAFE/__tmp_d8d4bae5.c:125:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d8d4bae5.c:125:13: error: expected declaration or statement at end of input

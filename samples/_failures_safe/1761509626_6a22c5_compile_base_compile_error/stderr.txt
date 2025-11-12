@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_91118eda.c: In function ‘main’:
+./samples/SAFE/__tmp_91118eda.c:134:5: error: expected expression at end of input
+  134 |     a = create_matrix(
+      |     ^
+./samples/SAFE/__tmp_91118eda.c:134:9: error: too few arguments to function ‘create_matrix’
+  134 |     a = create_matrix(
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_91118eda.c:14:15: note: declared here
+   14 | struct Matrix create_matrix(size_t rows, size_t cols) {
+      |               ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_91118eda.c:134:5: error: expected declaration or statement at end of input
+  134 |     a = create_matrix(
+      |     ^

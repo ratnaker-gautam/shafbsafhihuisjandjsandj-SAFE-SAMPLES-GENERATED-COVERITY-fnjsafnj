@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6661ef23.c: In function ‘read_matrix’:
+./samples/SAFE/__tmp_6661ef23.c:123:9: error: expected expression at end of input
+  123 |         for (int j = 0; j < m->cols;
+      |         ^~~
+./samples/SAFE/__tmp_6661ef23.c:123:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6661ef23.c:123:9: error: expected declaration or statement at end of input

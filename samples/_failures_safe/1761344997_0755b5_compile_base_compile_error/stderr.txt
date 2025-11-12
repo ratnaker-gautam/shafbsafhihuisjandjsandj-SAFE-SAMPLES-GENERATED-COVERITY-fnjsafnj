@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_fdfa2851.c: In function ‘read_matrix_from_user’:
+./samples/SAFE/__tmp_fdfa2851.c:133:29: error: expected ‘;’ at end of input
+  133 |         for (size_t j = 0; j
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_fdfa2851.c:133:9: error: expected declaration or statement at end of input
+  133 |         for (size_t j = 0; j
+      |         ^~~
+./samples/SAFE/__tmp_fdfa2851.c:133:9: error: expected declaration or statement at end of input

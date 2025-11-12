@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_78c0b0c2.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_78c0b0c2.c:127:13: error: expected declaration or statement at end of input
+  127 |             matrix_set(result, i, j, (int)sum);
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_78c0b0c2.c:127:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_78c0b0c2.c:127:13: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_eaa31986.c: In function ‘main’:
+./samples/SAFE/__tmp_eaa31986.c:161:35: error: expected ‘;’ at end of input
+  161 |     for (int i = 0; i < edge_count
+      |                                   ^
+      |                                   ;
+./samples/SAFE/__tmp_eaa31986.c:161:5: error: expected declaration or statement at end of input
+  161 |     for (int i = 0; i < edge_count
+      |     ^~~

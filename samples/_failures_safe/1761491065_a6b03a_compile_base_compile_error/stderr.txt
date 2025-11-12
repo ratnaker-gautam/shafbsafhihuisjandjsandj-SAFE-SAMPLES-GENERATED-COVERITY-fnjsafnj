@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_6e7d212a.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_6e7d212a.c:157: error: expected ‘;’ at end of input
+./samples/SAFE/__tmp_6e7d212a.c:156:21: error: expected declaration or statement at end of input
+  156 |                     new_dist = INT_MAX
+      |                     ^~~~~~~~
+./samples/SAFE/__tmp_6e7d212a.c:156:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6e7d212a.c:156:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6e7d212a.c:156:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6e7d212a.c:156:21: error: expected declaration or statement at end of input

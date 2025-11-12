@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6a7333d1.c: In function ‘bfs’:
+./samples/SAFE/__tmp_6a7333d1.c:156:9: error: expected declaration or statement at end of input
+  156 |         }
+      |         ^
+./samples/SAFE/__tmp_6a7333d1.c:156:9: error: expected declaration or statement at end of input

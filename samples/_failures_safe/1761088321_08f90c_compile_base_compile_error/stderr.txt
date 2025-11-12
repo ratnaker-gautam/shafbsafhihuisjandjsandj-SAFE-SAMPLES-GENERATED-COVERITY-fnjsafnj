@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_0f29b93e.c: In function ‘main’:
+./samples/SAFE/__tmp_0f29b93e.c:172:9: error: expected expression at end of input
+  172 |         if (!get_user_input(input_buffer, sizeof(input_buffer)))
+      |         ^~
+./samples/SAFE/__tmp_0f29b93e.c:172:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0f29b93e.c:172:9: error: expected declaration or statement at end of input

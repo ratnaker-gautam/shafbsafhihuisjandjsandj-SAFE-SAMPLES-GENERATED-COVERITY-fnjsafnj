@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_eef67941.c: In function ‘main’:
+./samples/SAFE/__tmp_eef67941.c:152:34: error: expected ‘)’ at end of input
+  152 |                 } else if (status
+      |                           ~      ^
+      |                                  )
+./samples/SAFE/__tmp_eef67941.c:152:17: error: expected declaration or statement at end of input
+  152 |                 } else if (status
+      |                 ^
+./samples/SAFE/__tmp_eef67941.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eef67941.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eef67941.c:152:17: error: expected declaration or statement at end of input

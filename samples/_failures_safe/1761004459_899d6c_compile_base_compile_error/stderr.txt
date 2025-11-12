@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_d51a9fb1.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_d51a9fb1.c:165:9: error: ‘skip_whites’ undeclared (first use in this function); did you mean ‘skip_whitespace’?
+  165 |         skip_whites
+      |         ^~~~~~~~~~~
+      |         skip_whitespace
+./samples/SAFE/__tmp_d51a9fb1.c:165:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d51a9fb1.c:165:20: error: expected ‘;’ at end of input
+  165 |         skip_whites
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_d51a9fb1.c:165:9: error: expected declaration or statement at end of input
+  165 |         skip_whites
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_d51a9fb1.c:165:9: error: expected declaration or statement at end of input

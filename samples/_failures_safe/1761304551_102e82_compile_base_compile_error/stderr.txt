@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_dea5ec59.c: In function ‘main’:
+./samples/SAFE/__tmp_dea5ec59.c:157:5: error: expected expression at end of input
+  157 |     int n = read_int("Enter number of nodes (1-100): ", 1,
+      |     ^~~
+./samples/SAFE/__tmp_dea5ec59.c:157:5: error: expected declaration or statement at end of input

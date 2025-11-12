@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7aa5398e.c: In function ‘main’:
+./samples/SAFE/__tmp_7aa5398e.c:146:9: error: expected declaration or statement at end of input
+  146 |         if (filter_level == -1) {
+      |         ^~
+./samples/SAFE/__tmp_7aa5398e.c:146:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7aa5398e.c:146:9: error: expected declaration or statement at end of input

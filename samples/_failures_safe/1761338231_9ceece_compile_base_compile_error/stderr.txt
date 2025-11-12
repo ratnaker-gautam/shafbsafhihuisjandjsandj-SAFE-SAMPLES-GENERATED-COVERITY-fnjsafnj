@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0041d130.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_0041d130.c:129:62: error: ‘const struct log_stats’ has no member named ‘count’; did you mean ‘counts’?
+  129 |         printf("%-6s: %d (%.1f%%)\n", level_names[i], stats->count
+      |                                                              ^~~~~
+      |                                                              counts
+./samples/SAFE/__tmp_0041d130.c:129:67: error: expected ‘)’ at end of input
+  129 |         printf("%-6s: %d (%.1f%%)\n", level_names[i], stats->count
+      |               ~                                                   ^
+      |                                                                   )
+./samples/SAFE/__tmp_0041d130.c:129:9: error: expected declaration or statement at end of input
+  129 |         printf("%-6s: %d (%.1f%%)\n", level_names[i], stats->count
+      |         ^~~~~~
+./samples/SAFE/__tmp_0041d130.c:129:9: error: expected declaration or statement at end of input

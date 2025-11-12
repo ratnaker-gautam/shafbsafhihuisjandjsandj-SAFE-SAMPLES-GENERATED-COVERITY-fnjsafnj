@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_cfeaaa8c.c: In function ‘dijkstra_shortest_path’:
+./samples/SAFE/__tmp_cfeaaa8c.c:158:5: error: expected declaration or statement at end of input
+  158 |     }
+      |     ^

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f8ac5a78.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_f8ac5a78.c:128:9: error: expected expression at end of input
+  128 |         double sign = (p %
+      |         ^~~~~~
+./samples/SAFE/__tmp_f8ac5a78.c:128:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f8ac5a78.c:128:9: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8a8c9a43.c: In function ‘main’:
+./samples/SAFE/__tmp_8a8c9a43.c:128:13: error: pointer value used where a floating-point was expected
+  128 |             double ratio = (double)compressed
+      |             ^~~~~~
+./samples/SAFE/__tmp_8a8c9a43.c:128:13: error: expected ‘,’ or ‘;’ at end of input
+./samples/SAFE/__tmp_8a8c9a43.c:128:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8a8c9a43.c:128:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8a8c9a43.c:128:13: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_c339324a.c: In function ‘runAlgorithm’:
+./samples/SAFE/__tmp_c339324a.c:176:13: error: ‘dijk’ undeclared (first use in this function)
+  176 |             dijk
+      |             ^~~~
+./samples/SAFE/__tmp_c339324a.c:176:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c339324a.c:176:17: error: expected ‘;’ at end of input
+  176 |             dijk
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_c339324a.c:176:13: error: expected declaration or statement at end of input
+  176 |             dijk
+      |             ^~~~
+./samples/SAFE/__tmp_c339324a.c:176:13: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e65fa40d.c: In function ‘main’:
+./samples/SAFE/__tmp_e65fa40d.c:137:20: error: expected declaration or statement at end of input
+  137 |             struct Vector3D diff = vector_subtract(vectors[i], vectors[j]);
+      |                    ^~~~~~~~
+./samples/SAFE/__tmp_e65fa40d.c:137:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e65fa40d.c:137:20: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1820a3e1.c: In function ‘main’:
+./samples/SAFE/__tmp_1820a3e1.c:159:12: error: missing terminating " character
+  159 |     printf("2: RLE\n
+      |            ^~~~~~~~~
+./samples/SAFE/__tmp_1820a3e1.c:159:5: error: expected expression at end of input
+  159 |     printf("2: RLE\n
+      |     ^~~~~~
+./samples/SAFE/__tmp_1820a3e1.c:159:5: error: expected declaration or statement at end of input

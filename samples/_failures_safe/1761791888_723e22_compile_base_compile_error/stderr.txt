@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_eb197f2e.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_eb197f2e.c:164:56: error: expected ‘)’ at end of input
+  164 |         if (parser->current_token < parser->token_count
+      |            ~                                           ^
+      |                                                        )
+./samples/SAFE/__tmp_eb197f2e.c:164:9: error: expected declaration or statement at end of input
+  164 |         if (parser->current_token < parser->token_count
+      |         ^~
+./samples/SAFE/__tmp_eb197f2e.c:164:9: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4f23fb0f.c: In function ‘main’:
+./samples/SAFE/__tmp_4f23fb0f.c:162:12: error: expected declaration or statement at end of input
+  162 |     struct Token token;
+      |            ^~~~~

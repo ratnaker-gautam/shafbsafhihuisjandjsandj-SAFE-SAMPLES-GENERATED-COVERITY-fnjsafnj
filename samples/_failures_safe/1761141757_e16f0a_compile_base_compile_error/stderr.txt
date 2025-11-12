@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a48da86a.c: In function ‘main’:
+./samples/SAFE/__tmp_a48da86a.c:123:25: error: expected declaration or statement at end of input
+  123 |                         fprintf(stderr, "Integer overflow in multiplication\n");
+      |                         ^~~~~~~
+./samples/SAFE/__tmp_a48da86a.c:123:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a48da86a.c:123:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a48da86a.c:123:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a48da86a.c:123:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a48da86a.c:123:25: error: expected declaration or statement at end of input

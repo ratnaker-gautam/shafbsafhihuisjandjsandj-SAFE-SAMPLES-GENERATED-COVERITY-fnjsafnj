@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_53da7d7e.c: In function ‘main’:
+./samples/SAFE/__tmp_53da7d7e.c:129:21: error: ‘MATRIX_OP_’ undeclared (first use in this function); did you mean ‘MATRIX_OP_ADD’?
+  129 |     if (operation < MATRIX_OP_
+      |                     ^~~~~~~~~~
+      |                     MATRIX_OP_ADD
+./samples/SAFE/__tmp_53da7d7e.c:129:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_53da7d7e.c:129:31: error: expected ‘)’ at end of input
+  129 |     if (operation < MATRIX_OP_
+      |        ~                      ^
+      |                               )
+./samples/SAFE/__tmp_53da7d7e.c:129:5: error: expected declaration or statement at end of input
+  129 |     if (operation < MATRIX_OP_
+      |     ^~

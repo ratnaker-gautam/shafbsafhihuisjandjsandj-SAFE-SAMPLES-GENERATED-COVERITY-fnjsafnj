@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_aa59f544.c: In function ‘main’:
+./samples/SAFE/__tmp_aa59f544.c:159:5: error: expected expression at end of input
+  159 |     size_t compressed_size = compress_rle(input_buf.data, input_buf.size, compressed_buf.data,
+      |     ^~~~~~
+./samples/SAFE/__tmp_aa59f544.c:159:5: error: expected declaration or statement at end of input

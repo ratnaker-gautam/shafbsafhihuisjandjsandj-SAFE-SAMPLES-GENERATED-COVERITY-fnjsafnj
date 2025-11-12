@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_d17b6c42.c: In function ‘calculate_mesh_volume’:
+./samples/SAFE/__tmp_d17b6c42.c:111:18: error: invalid operands to binary + (have ‘double’ and ‘struct Vector3D *’)
+  111 |         center.y += mesh->vertices
+      |         ~~~~~~~~ ^~ ~~~~~~~~~~~~~~
+      |               |         |
+      |               double    struct Vector3D *
+./samples/SAFE/__tmp_d17b6c42.c:111:35: error: expected ‘;’ at end of input
+  111 |         center.y += mesh->vertices
+      |                                   ^
+      |                                   ;
+./samples/SAFE/__tmp_d17b6c42.c:111:9: error: expected declaration or statement at end of input
+  111 |         center.y += mesh->vertices
+      |         ^~~~~~
+./samples/SAFE/__tmp_d17b6c42.c:111:9: error: expected declaration or statement at end of input

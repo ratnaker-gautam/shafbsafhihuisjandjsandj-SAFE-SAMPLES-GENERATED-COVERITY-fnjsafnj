@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_a057a633.c: In function ‘tokenize_and_parse’:
+./samples/SAFE/__tmp_a057a633.c:177:5: error: ‘parse_’ undeclared (first use in this function); did you mean ‘parse_term’?
+  177 |     parse_
+      |     ^~~~~~
+      |     parse_term
+./samples/SAFE/__tmp_a057a633.c:177:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a057a633.c:177:11: error: expected ‘;’ at end of input
+  177 |     parse_
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_a057a633.c:177:5: error: expected declaration or statement at end of input
+  177 |     parse_
+      |     ^~~~~~

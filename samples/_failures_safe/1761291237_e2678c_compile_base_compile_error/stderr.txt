@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_6aa9eafa.c: In function ‘main’:
+./samples/SAFE/__tmp_6aa9eafa.c:127:45: error: expected ‘)’ at end of input
+  127 |                 int seconds = (int)(duration
+      |                                    ~        ^
+      |                                             )
+./samples/SAFE/__tmp_6aa9eafa.c:127:17: error: expected declaration or statement at end of input
+  127 |                 int seconds = (int)(duration
+      |                 ^~~
+./samples/SAFE/__tmp_6aa9eafa.c:127:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6aa9eafa.c:127:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6aa9eafa.c:127:17: error: expected declaration or statement at end of input

@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_b3d5b8f1.c: In function ‘main’:
+./samples/SAFE/__tmp_b3d5b8f1.c:135:55: error: ‘tm’ undeclared (first use in this function)
+  135 |         tm_info = localtime_r(&entries[i].timestamp, &tm
+      |                                                       ^~
+./samples/SAFE/__tmp_b3d5b8f1.c:7:1: note: ‘tm’ is defined in header ‘<time.h>’; did you forget to ‘#include <time.h>’?
+    6 | #include <ctype.h>
+  +++ |+#include <time.h>
+    7 | 
+./samples/SAFE/__tmp_b3d5b8f1.c:135:55: note: each undeclared identifier is reported only once for each function it appears in
+  135 |         tm_info = localtime_r(&entries[i].timestamp, &tm
+      |                                                       ^~
+./samples/SAFE/__tmp_b3d5b8f1.c:135:57: error: expected ‘)’ at end of input
+  135 |         tm_info = localtime_r(&entries[i].timestamp, &tm
+      |                              ~                          ^
+      |                                                         )
+./samples/SAFE/__tmp_b3d5b8f1.c:135:9: error: expected declaration or statement at end of input
+  135 |         tm_info = localtime_r(&entries[i].timestamp, &tm
+      |         ^~~~~~~
+./samples/SAFE/__tmp_b3d5b8f1.c:135:9: error: expected declaration or statement at end of input

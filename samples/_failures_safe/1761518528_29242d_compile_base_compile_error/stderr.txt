@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c0d3731c.c: In function ‘main’:
+./samples/SAFE/__tmp_c0d3731c.c:150:25: error: invalid initializer
+  150 |     Buffer compressed = compress_data
+      |                         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_c0d3731c.c:150:5: error: expected ‘,’ or ‘;’ at end of input
+  150 |     Buffer compressed = compress_data
+      |     ^~~~~~
+./samples/SAFE/__tmp_c0d3731c.c:150:5: error: expected declaration or statement at end of input

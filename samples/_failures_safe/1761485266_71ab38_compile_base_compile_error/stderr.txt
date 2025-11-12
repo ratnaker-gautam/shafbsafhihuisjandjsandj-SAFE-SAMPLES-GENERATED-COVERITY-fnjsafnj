@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_5ad417c5.c: In function ‘process_tokens’:
+./samples/SAFE/__tmp_5ad417c5.c:138: error: expected ‘{’ at end of input

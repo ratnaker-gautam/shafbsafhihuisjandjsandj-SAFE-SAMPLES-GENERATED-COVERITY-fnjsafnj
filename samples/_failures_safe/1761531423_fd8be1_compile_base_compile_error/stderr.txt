@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_71ffeba0.c: In function ‘apply_transform’:
+./samples/SAFE/__tmp_71ffeba0.c:135:41: error: ‘struct GeometricTransform’ has no member named ‘trans’
+  135 |     translated.x = rotated.x + transform.trans
+      |                                         ^
+./samples/SAFE/__tmp_71ffeba0.c:135:47: error: expected ‘;’ at end of input
+  135 |     translated.x = rotated.x + transform.trans
+      |                                               ^
+      |                                               ;
+./samples/SAFE/__tmp_71ffeba0.c:135:5: error: expected declaration or statement at end of input
+  135 |     translated.x = rotated.x + transform.trans
+      |     ^~~~~~~~~~

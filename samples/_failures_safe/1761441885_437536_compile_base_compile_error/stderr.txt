@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_1559b54f.c: In function ‘main’:
+./samples/SAFE/__tmp_1559b54f.c:127:99: error: expected ‘)’ at end of input
+  127 |     size_t decompressed_size = stub_decompress(compressed_data, compressed_size, decompressed_data
+      |                                               ~                                                   ^
+      |                                                                                                   )
+./samples/SAFE/__tmp_1559b54f.c:127:32: error: too few arguments to function ‘stub_decompress’
+  127 |     size_t decompressed_size = stub_decompress(compressed_data, compressed_size, decompressed_data
+      |                                ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1559b54f.c:57:15: note: declared here
+   57 | static size_t stub_decompress(const uint8_t* input, size_t input_size, uint8_t* output, size_t output_size) {
+      |               ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1559b54f.c:127:5: error: expected declaration or statement at end of input
+  127 |     size_t decompressed_size = stub_decompress(compressed_data, compressed_size, decompressed_data
+      |     ^~~~~~

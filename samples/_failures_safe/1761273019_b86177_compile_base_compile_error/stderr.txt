@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_fa58a764.c: In function ‘main’:
+./samples/SAFE/__tmp_fa58a764.c:164:25: error: ‘MAX_TOK’ undeclared (first use in this function); did you mean ‘MAX_TOKENS’?
+  164 |     struct Token tokens[MAX_TOK
+      |                         ^~~~~~~
+      |                         MAX_TOKENS
+./samples/SAFE/__tmp_fa58a764.c:164:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fa58a764.c:164:32: error: expected ‘]’ at end of input
+  164 |     struct Token tokens[MAX_TOK
+      |                                ^
+      |                                ]
+./samples/SAFE/__tmp_fa58a764.c:164:12: error: expected declaration or statement at end of input
+  164 |     struct Token tokens[MAX_TOK
+      |            ^~~~~

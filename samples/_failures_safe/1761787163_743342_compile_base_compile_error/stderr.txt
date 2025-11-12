@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_79045b7c.c: In function ‘main’:
+./samples/SAFE/__tmp_79045b7c.c:147:37: error: expected ‘)’ at end of input
+  147 |                 free_matrix(matrix_b
+      |                            ~        ^
+      |                                     )
+./samples/SAFE/__tmp_79045b7c.c:147:17: error: too few arguments to function ‘free_matrix’
+  147 |                 free_matrix(matrix_b
+      |                 ^~~~~~~~~~~
+./samples/SAFE/__tmp_79045b7c.c:39:6: note: declared here
+   39 | void free_matrix(double **matrix, int rows) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_79045b7c.c:147:17: error: expected declaration or statement at end of input
+  147 |                 free_matrix(matrix_b
+      |                 ^~~~~~~~~~~
+./samples/SAFE/__tmp_79045b7c.c:147:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_79045b7c.c:147:17: error: expected declaration or statement at end of input

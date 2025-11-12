@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_94ac1f30.c: In function ‘main’:
+./samples/SAFE/__tmp_94ac1f30.c:152:5: error: expected declaration or statement at end of input
+  152 |     int op_count = sizeof(operations) / sizeof(operations[0]);
+      |     ^~~

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_e4e2742b.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_e4e2742b.c:188:29: error: expected ‘;’ at end of input
+  188 |                     neighbor
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_e4e2742b.c:188:21: error: expected declaration or statement at end of input
+  188 |                     neighbor
+      |                     ^~~~~~~~
+./samples/SAFE/__tmp_e4e2742b.c:188:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e4e2742b.c:188:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e4e2742b.c:188:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e4e2742b.c:188:21: error: expected declaration or statement at end of input

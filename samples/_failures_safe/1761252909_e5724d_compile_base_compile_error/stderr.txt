@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_656dd537.c: In function ‘main’:
+./samples/SAFE/__tmp_656dd537.c:167:5: error: expected ‘,’ or ‘;’ at end of input
+  167 |     double compression_ratio = (double)compressed.size / input_data.size * 100.
+      |     ^~~~~~
+./samples/SAFE/__tmp_656dd537.c:167:5: error: expected declaration or statement at end of input

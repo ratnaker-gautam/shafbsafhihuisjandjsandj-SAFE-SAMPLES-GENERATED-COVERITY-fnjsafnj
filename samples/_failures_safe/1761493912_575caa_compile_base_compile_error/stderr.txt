@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_6092cd3f.c: In function ‘main’:
+./samples/SAFE/__tmp_6092cd3f.c:155:47: error: expected ‘)’ at end of input
+  155 |                 if (rows_a != rows_b || cols_a
+      |                    ~                          ^
+      |                                               )
+./samples/SAFE/__tmp_6092cd3f.c:155:17: error: expected declaration or statement at end of input
+  155 |                 if (rows_a != rows_b || cols_a
+      |                 ^~
+./samples/SAFE/__tmp_6092cd3f.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6092cd3f.c:155:17: error: expected declaration or statement at end of input

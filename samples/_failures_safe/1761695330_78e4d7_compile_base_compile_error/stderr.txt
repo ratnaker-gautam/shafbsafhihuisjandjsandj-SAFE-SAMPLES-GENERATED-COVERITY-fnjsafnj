@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_119d7c4c.c: In function ‘main’:
+./samples/SAFE/__tmp_119d7c4c.c:157:88: error: expected ‘)’ at end of input
+  157 |     fprintf(stderr, "Compressed %zu bytes to %zu bytes (ratio: %.2f)\n", input_buf.size
+      |            ~                                                                           ^
+      |                                                                                        )
+./samples/SAFE/__tmp_119d7c4c.c:157:5: error: expected declaration or statement at end of input
+  157 |     fprintf(stderr, "Compressed %zu bytes to %zu bytes (ratio: %.2f)\n", input_buf.size
+      |     ^~~~~~~

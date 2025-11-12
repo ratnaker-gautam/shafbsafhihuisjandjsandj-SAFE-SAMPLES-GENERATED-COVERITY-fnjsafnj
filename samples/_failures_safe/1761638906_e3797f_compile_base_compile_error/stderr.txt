@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_bc8fa928.c: In function ‘main’:
+./samples/SAFE/__tmp_bc8fa928.c:153:12: error: expected declaration or statement at end of input
+  153 |     struct CompressionContext ctx;
+      |            ^~~~~~~~~~~~~~~~~~

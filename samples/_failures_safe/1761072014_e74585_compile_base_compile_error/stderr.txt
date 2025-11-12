@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_b24453e0.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_b24453e0.c:145:28: error: ‘TOKEN_’ undeclared (first use in this function)
+  145 |         token_init(&token, TOKEN_
+      |                            ^~~~~~
+./samples/SAFE/__tmp_b24453e0.c:145:28: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b24453e0.c:145:34: error: expected ‘)’ at end of input
+  145 |         token_init(&token, TOKEN_
+      |                   ~              ^
+      |                                  )
+./samples/SAFE/__tmp_b24453e0.c:145:9: error: too few arguments to function ‘token_init’
+  145 |         token_init(&token, TOKEN_
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_b24453e0.c:79:6: note: declared here
+   79 | void token_init(struct Token *token, enum TokenType type, const char *value, int line, int column) {
+      |      ^~~~~~~~~~
+./samples/SAFE/__tmp_b24453e0.c:145:9: error: expected declaration or statement at end of input
+  145 |         token_init(&token, TOKEN_
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_b24453e0.c:145:9: error: expected declaration or statement at end of input

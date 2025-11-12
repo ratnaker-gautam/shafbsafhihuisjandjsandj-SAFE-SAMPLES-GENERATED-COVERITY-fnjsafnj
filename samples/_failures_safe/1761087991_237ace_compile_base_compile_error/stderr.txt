@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ecbe6001.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_ecbe6001.c:155:5: error: expected expression at end of input
+  155 |     } else if (
+      |     ^
+./samples/SAFE/__tmp_ecbe6001.c:155:5: error: expected declaration or statement at end of input

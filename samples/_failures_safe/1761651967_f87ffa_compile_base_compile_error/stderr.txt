@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2de972fa.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_2de972fa.c:170:18: error: incompatible types when initializing type ‘int’ using type ‘Parser’
+  170 |     int result = parser
+      |                  ^~~~~~
+./samples/SAFE/__tmp_2de972fa.c:170:5: error: expected ‘,’ or ‘;’ at end of input
+  170 |     int result = parser
+      |     ^~~
+./samples/SAFE/__tmp_2de972fa.c:170:5: error: expected declaration or statement at end of input

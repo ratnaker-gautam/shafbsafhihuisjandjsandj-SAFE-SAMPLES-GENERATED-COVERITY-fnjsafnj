@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1b10eaea.c: In function ‘main’:
+./samples/SAFE/__tmp_1b10eaea.c:145:5: error: expected declaration or statement at end of input
+  145 |     memcpy(ctx.input_data, input_buffer, input_len);
+      |     ^~~~~~

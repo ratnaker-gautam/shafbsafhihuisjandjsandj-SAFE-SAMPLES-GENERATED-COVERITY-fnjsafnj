@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ab6a3e0c.c: In function ‘main’:
+./samples/SAFE/__tmp_ab6a3e0c.c:177:5: error: expected declaration or statement at end of input
+  177 |     int max_edges = node_count * (node_count - 1) / 2;
+      |     ^~~

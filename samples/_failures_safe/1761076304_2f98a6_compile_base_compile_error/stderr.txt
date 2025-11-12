@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccA1zEKt.o: in function `safe_pow':
+__tmp_80380cbd.c:(.text+0x92): undefined reference to `fmod'
+/usr/bin/ld: __tmp_80380cbd.c:(.text+0x2d): undefined reference to `pow'
+/usr/bin/ld: __tmp_80380cbd.c:(.text+0x7c): undefined reference to `pow'
+/usr/bin/ld: /tmp/ccA1zEKt.o: in function `main':
+__tmp_80380cbd.c:(.text.startup+0x181): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

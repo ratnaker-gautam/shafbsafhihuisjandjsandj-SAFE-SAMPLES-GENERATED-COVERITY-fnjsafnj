@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_dc5f03e5.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_dc5f03e5.c:179:17: error: expected expression at end of input
+  179 |                 case
+      |                 ^~~~
+./samples/SAFE/__tmp_dc5f03e5.c:179:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dc5f03e5.c:179:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dc5f03e5.c:179:17: error: expected declaration or statement at end of input

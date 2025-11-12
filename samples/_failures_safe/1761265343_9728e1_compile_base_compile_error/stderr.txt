@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_8bbaa2e3.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_8bbaa2e3.c:138:20: error: ‘allocate’ undeclared (first use in this function)
+  138 |     int **result = allocate
+      |                    ^~~~~~~~
+./samples/SAFE/__tmp_8bbaa2e3.c:138:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8bbaa2e3.c:138:5: error: expected ‘,’ or ‘;’ at end of input
+  138 |     int **result = allocate
+      |     ^~~
+./samples/SAFE/__tmp_8bbaa2e3.c:138:5: error: expected declaration or statement at end of input

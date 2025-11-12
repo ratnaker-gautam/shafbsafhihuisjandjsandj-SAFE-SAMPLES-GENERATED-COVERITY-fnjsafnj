@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_62a2857e.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_62a2857e.c:151:40: error: ‘TOKEN’ undeclared (first use in this function)
+  151 |             tokens[token_count].type = TOKEN
+      |                                        ^~~~~
+./samples/SAFE/__tmp_62a2857e.c:151:40: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_62a2857e.c:151:45: error: expected ‘;’ at end of input
+  151 |             tokens[token_count].type = TOKEN
+      |                                             ^
+      |                                             ;
+./samples/SAFE/__tmp_62a2857e.c:151:13: error: expected declaration or statement at end of input
+  151 |             tokens[token_count].type = TOKEN
+      |             ^~~~~~
+./samples/SAFE/__tmp_62a2857e.c:151:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_62a2857e.c:151:13: error: expected declaration or statement at end of input

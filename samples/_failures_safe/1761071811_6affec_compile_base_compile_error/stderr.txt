@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_5fd3ebf0.c: In function ‘main’:
+./samples/SAFE/__tmp_5fd3ebf0.c:135:65: error: ‘compressed’ undeclared (first use in this function); did you mean ‘compressed_len’?
+  135 |     size_t decompressed_len = decompress_rle(compressed_buffer, compressed
+      |                                                                 ^~~~~~~~~~
+      |                                                                 compressed_len
+./samples/SAFE/__tmp_5fd3ebf0.c:135:65: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5fd3ebf0.c:135:75: error: expected ‘)’ at end of input
+  135 |     size_t decompressed_len = decompress_rle(compressed_buffer, compressed
+      |                                             ~                             ^
+      |                                                                           )
+./samples/SAFE/__tmp_5fd3ebf0.c:135:31: error: too few arguments to function ‘decompress_rle’
+  135 |     size_t decompressed_len = decompress_rle(compressed_buffer, compressed
+      |                               ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5fd3ebf0.c:63:15: note: declared here
+   63 | static size_t decompress_rle(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_max) {
+      |               ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5fd3ebf0.c:135:5: error: expected declaration or statement at end of input
+  135 |     size_t decompressed_len = decompress_rle(compressed_buffer, compressed
+      |     ^~~~~~

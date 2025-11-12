@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_1da28f62.c: In function ‘main’:
+./samples/SAFE/__tmp_1da28f62.c:146:29: error: ‘MAX_’ undeclared (first use in this function)
+  146 |     struct LogEntry entries[MAX_
+      |                             ^~~~
+./samples/SAFE/__tmp_1da28f62.c:146:29: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1da28f62.c:146:33: error: expected ‘]’ at end of input
+  146 |     struct LogEntry entries[MAX_
+      |                                 ^
+      |                                 ]
+./samples/SAFE/__tmp_1da28f62.c:146:12: error: expected declaration or statement at end of input
+  146 |     struct LogEntry entries[MAX_
+      |            ^~~~~~~~

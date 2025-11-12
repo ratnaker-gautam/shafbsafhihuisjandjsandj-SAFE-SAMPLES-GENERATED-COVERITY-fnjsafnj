@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccSNCZUB.o: in function `compute_stddev':
+__tmp_81391dfe.c:(.text+0x1db): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

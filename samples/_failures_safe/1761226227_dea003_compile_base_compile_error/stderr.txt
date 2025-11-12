@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_565748b5.c: In function ‘get_user_event’:
+./samples/SAFE/__tmp_565748b5.c:168:5: error: expected declaration or statement at end of input
+  168 |     printf("Choose event (1-5): ");
+      |     ^~~~~~

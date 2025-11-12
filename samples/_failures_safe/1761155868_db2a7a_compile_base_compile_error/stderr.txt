@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_afda5e4f.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_afda5e4f.c:187:24: error: expected identifier at end of input
+  187 |                 struct GraphNode* neighbor = graph->
+      |                        ^~~~~~~~~
+./samples/SAFE/__tmp_afda5e4f.c:187:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_afda5e4f.c:187:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_afda5e4f.c:187:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_afda5e4f.c:187:24: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d930ad3b.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_d930ad3b.c:148:12: error: missing terminating " character
+  148 |     printf("Average
+      |            ^~~~~~~~
+./samples/SAFE/__tmp_d930ad3b.c:148:5: error: expected expression at end of input
+  148 |     printf("Average
+      |     ^~~~~~
+./samples/SAFE/__tmp_d930ad3b.c:148:5: error: expected declaration or statement at end of input

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_94985996.c: In function ‘executeAlgorithm’:
+./samples/SAFE/__tmp_94985996.c:142:14: error: ‘DFS_TRA’ undeclared (first use in this function)
+  142 |         case DFS_TRA
+      |              ^~~~~~~
+./samples/SAFE/__tmp_94985996.c:142:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_94985996.c:142:9: error: expected ‘:’ or ‘...’ at end of input
+  142 |         case DFS_TRA
+      |         ^~~~
+./samples/SAFE/__tmp_94985996.c:142:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_94985996.c:142:9: error: expected declaration or statement at end of input

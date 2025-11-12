@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_587f9730.c: In function ‘pointcloud_cleanup’:
+./samples/SAFE/__tmp_587f9730.c:119:18: error: expected ‘;’ at end of input
+  119 |         pc->count
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_587f9730.c:119:9: error: expected declaration or statement at end of input
+  119 |         pc->count
+      |         ^~
+./samples/SAFE/__tmp_587f9730.c:119:9: error: expected declaration or statement at end of input

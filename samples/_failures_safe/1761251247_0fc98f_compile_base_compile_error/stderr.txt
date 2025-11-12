@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_22df95f3.c: In function ‘main’:
+./samples/SAFE/__tmp_22df95f3.c:158:70: error: expected ‘)’ at end of input
+  158 |     for (size_t i = 0; i < decompressed.size && i < MAX_INPUT_SIZE; i
+      |         ~                                                            ^
+      |                                                                      )
+./samples/SAFE/__tmp_22df95f3.c:158:5: error: expected declaration or statement at end of input
+  158 |     for (size_t i = 0; i < decompressed.size && i < MAX_INPUT_SIZE; i
+      |     ^~~

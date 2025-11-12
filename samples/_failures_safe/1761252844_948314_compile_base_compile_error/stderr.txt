@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_139783c9.c: In function ‘process_event’:
+./samples/SAFE/__tmp_139783c9.c:159:41: error: ‘s’ undeclared (first use in this function); did you mean ‘sm’?
+  159 |             return handle_writing_state(s
+      |                                         ^
+      |                                         sm
+./samples/SAFE/__tmp_139783c9.c:159:41: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_139783c9.c:159:42: error: expected ‘)’ at end of input
+  159 |             return handle_writing_state(s
+      |                                        ~ ^
+      |                                          )
+./samples/SAFE/__tmp_139783c9.c:159:20: error: too few arguments to function ‘handle_writing_state’
+  159 |             return handle_writing_state(s
+      |                    ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_139783c9.c:110:5: note: declared here
+  110 | int handle_writing_state(struct StateMachine *sm, const struct EventData *evt_data) {
+      |     ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_139783c9.c:159:13: error: expected declaration or statement at end of input
+  159 |             return handle_writing_state(s
+      |             ^~~~~~
+./samples/SAFE/__tmp_139783c9.c:159:13: error: expected declaration or statement at end of input

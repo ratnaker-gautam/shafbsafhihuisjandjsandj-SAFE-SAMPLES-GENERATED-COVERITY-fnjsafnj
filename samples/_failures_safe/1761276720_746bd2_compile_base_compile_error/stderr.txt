@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_874f2465.c: In function ‘parser_expect’:
+./samples/SAFE/__tmp_874f2465.c:170:35: error: expected ‘)’ at end of input
+  170 |     if (parser_accept(parser, type
+      |                      ~            ^
+      |                                   )
+./samples/SAFE/__tmp_874f2465.c:170:5: error: expected declaration or statement at end of input
+  170 |     if (parser_accept(parser, type
+      |     ^~

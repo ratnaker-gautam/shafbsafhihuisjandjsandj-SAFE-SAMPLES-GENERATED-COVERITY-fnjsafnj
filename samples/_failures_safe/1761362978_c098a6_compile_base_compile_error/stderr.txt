@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4c0011fb.c: In function ‘main’:
+./samples/SAFE/__tmp_4c0011fb.c:157:16: error: expected ‘)’ at end of input
+  157 |     if (!tokens
+      |        ~       ^
+      |                )
+./samples/SAFE/__tmp_4c0011fb.c:157:5: error: expected declaration or statement at end of input
+  157 |     if (!tokens
+      |     ^~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_66266ece.c: In function ‘main’:
+./samples/SAFE/__tmp_66266ece.c:160:5: error: expected declaration or statement at end of input
+  160 |     printf("Final state reached: %s\n", state_to_string(sm->current_state));
+      |     ^~~~~~

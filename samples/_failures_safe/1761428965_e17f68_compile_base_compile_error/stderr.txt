@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccrv5VBn.o: in function `calculate_expression':
+__tmp_c2a14d61.c:(.text+0x51): undefined reference to `pow'
+/usr/bin/ld: __tmp_c2a14d61.c:(.text+0x249): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

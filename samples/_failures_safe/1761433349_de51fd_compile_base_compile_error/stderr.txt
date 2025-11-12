@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_48e5bde1.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_48e5bde1.c:178:5: error: expected expression at end of input
+  178 |     start->distance =
+      |     ^~~~~
+./samples/SAFE/__tmp_48e5bde1.c:178:5: error: expected declaration or statement at end of input

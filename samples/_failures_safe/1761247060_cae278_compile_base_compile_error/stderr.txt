@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_40c0d584.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_40c0d584.c:151: error: expected ‘{’ at end of input

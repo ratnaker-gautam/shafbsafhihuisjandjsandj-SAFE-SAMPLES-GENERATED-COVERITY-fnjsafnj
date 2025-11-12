@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b935925a.c: In function ‘main’:
+./samples/SAFE/__tmp_b935925a.c:130: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_b935925a.c:129:11: note: to match this ‘(’
+  129 |     printf("Enter number of edges (0-%d): ", MAX_EDGES
+      |           ^
+./samples/SAFE/__tmp_b935925a.c:129:5: error: expected declaration or statement at end of input
+  129 |     printf("Enter number of edges (0-%d): ", MAX_EDGES
+      |     ^~~~~~

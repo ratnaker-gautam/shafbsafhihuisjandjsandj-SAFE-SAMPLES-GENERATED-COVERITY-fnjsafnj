@@ -1,0 +1,108 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: macros ; Variation: log_analyzer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <ctype.h>
+
+#define MAX_LINE_LEN 1024
+#define MAX_ENTRIES 1000
+#define TIMESTAMP_LEN 20
+#define LOG_LEVELS 4
+
+#define LOG_LEVEL_ERROR 0
+#define LOG_LEVEL_WARN 1
+#define LOG_LEVEL_INFO 2
+#define LOG_LEVEL_DEBUG 3
+
+#define IS_VALID_LEVEL(c) ((c) == 'E' || (c) == 'W' || (c) == 'I' || (c) == 'D')
+#define LEVEL_TO_IDX(c) ((c) == 'E' ? 0 : (c) == 'W' ? 1 : (c) == 'I' ? 2 : 3)
+#define LEVEL_NAME(i) (i == 0 ? "ERROR" : i == 1 ? "WARN" : i == 2 ? "INFO" : "DEBUG")
+
+typedef struct {
+    char timestamp[TIMESTAMP_LEN];
+    char level;
+    char message[MAX_LINE_LEN - TIMESTAMP_LEN - 3];
+} LogEntry;
+
+int parse_timestamp(const char* str) {
+    struct tm tm = {0};
+    return strptime(str, "%Y-%m-%d %H:%M:%S", &tm) != NULL;
+}
+
+int parse_log_line(const char* line, LogEntry* entry) {
+    if (!line || !entry) return 0;
+    size_t len = strlen(line);
+    if (len < TIMESTAMP_LEN + 3 || len >= MAX_LINE_LEN) return 0;
+    
+    if (line[TIMESTAMP_LEN] != ' ' || line[TIMESTAMP_LEN + 2] != ' ') return 0;
+    
+    memcpy(entry->timestamp, line, TIMESTAMP_LEN - 1);
+    entry->timestamp[TIMESTAMP_LEN - 1] = '\0';
+    
+    if (!parse_timestamp(entry->timestamp)) return 0;
+    
+    char level_char = line[TIMESTAMP_LEN + 1];
+    if (!IS_VALID_LEVEL(level_char)) return 0;
+    entry->level = level_char;
+    
+    const char* msg_start = line + TIMESTAMP_LEN + 3;
+    size_t msg_len = len - (TIMESTAMP_LEN + 3);
+    if (msg_len >= sizeof(entry->message)) return 0;
+    
+    memcpy(entry->message, msg_start, msg_len);
+    entry->message[msg_len] = '\0';
+    
+    return 1;
+}
+
+int main(void) {
+    LogEntry entries[MAX_ENTRIES];
+    int entry_count = 0;
+    int level_counts[LOG_LEVELS] = {0};
+    char line[MAX_LINE_LEN];
+    
+    printf("Enter log entries (format: YYYY-MM-DD HH:MM:SS L message)\\n");
+    printf("Press Ctrl+D (Unix) or Ctrl+Z (Windows) to finish\\n");
+    
+    while (entry_count < MAX_ENTRIES && fgets(line, sizeof(line), stdin)) {
+        size_t len = strlen(line);
+        if (len > 0 && line[len - 1] == '\n') {
+            line[len - 1] = '\0';
+            len--;
+        }
+        
+        if (len == 0) continue;
+        
+        LogEntry entry;
+        if (parse_log_line(line, &entry)) {
+            entries[entry_count] = entry;
+            level_counts[LEVEL_TO_IDX(entry.level)]++;
+            entry_count++;
+        } else {
+            printf("Invalid log format: %s\\n", line);
+        }
+    }
+    
+    if (ferror(stdin)) {
+        fprintf(stderr, "Error reading input\\n");
+        return 1;
+    }
+    
+    printf("\\nLog Analysis Summary:\\n");
+    printf("Total entries: %d\\n", entry_count);
+    
+    for (int i = 0; i < LOG_LEVELS; i++) {
+        printf("%s: %d\\n", LEVEL_NAME(i), level_counts[i]);
+    }
+    
+    if (entry_count > 0) {
+        printf("\\nRecent entries:\\n");
+        int show_count = entry_count > 5 ? 5 : entry_count;
+        for (int i = entry_count - show_count; i < entry_count; i++) {
+            printf("%s %c %s\\n", entries[i].timestamp, entries[i].level, entries[i].message);
+        }
+    }
+    
+    return 0;
+}

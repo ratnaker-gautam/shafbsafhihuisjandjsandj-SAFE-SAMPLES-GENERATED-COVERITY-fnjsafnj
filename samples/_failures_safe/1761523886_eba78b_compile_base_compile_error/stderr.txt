@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f8482730.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_f8482730.c:117:5: error: expected declaration or statement at end of input
+  117 |     printf("Info count: %d\n", analyzer->info_count);
+      |     ^~~~~~

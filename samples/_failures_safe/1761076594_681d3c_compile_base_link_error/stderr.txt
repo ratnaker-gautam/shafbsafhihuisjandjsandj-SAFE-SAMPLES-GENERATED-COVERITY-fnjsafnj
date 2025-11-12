@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccxJdqOx.o: in function `compute_exponential':
+__tmp_60f9c605.c:(.text+0x3f): undefined reference to `exp'
+/usr/bin/ld: /tmp/ccxJdqOx.o: in function `main':
+__tmp_60f9c605.c:(.text.startup+0x144): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_2556ceec.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_2556ceec.c:146:34: error: ‘struct Graph’ has no member named ‘num_’
+  146 |         for (int i = 0; i < graph->num_
+      |                                  ^~
+./samples/SAFE/__tmp_2556ceec.c:146:40: error: expected ‘;’ at end of input
+  146 |         for (int i = 0; i < graph->num_
+      |                                        ^
+      |                                        ;
+./samples/SAFE/__tmp_2556ceec.c:146:9: error: expected declaration or statement at end of input
+  146 |         for (int i = 0; i < graph->num_
+      |         ^~~
+./samples/SAFE/__tmp_2556ceec.c:146:9: error: expected declaration or statement at end of input

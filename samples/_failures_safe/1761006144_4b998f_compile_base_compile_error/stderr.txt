@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_e5ae5071.c: In function ‘main’:
+./samples/SAFE/__tmp_e5ae5071.c:142:30: error: ‘compress’ undeclared (first use in this function); did you mean ‘compress_lzw’?
+  142 |     size_t compressed_size = compress
+      |                              ^~~~~~~~
+      |                              compress_lzw
+./samples/SAFE/__tmp_e5ae5071.c:142:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e5ae5071.c:142:5: error: expected ‘,’ or ‘;’ at end of input
+  142 |     size_t compressed_size = compress
+      |     ^~~~~~
+./samples/SAFE/__tmp_e5ae5071.c:142:5: error: expected declaration or statement at end of input

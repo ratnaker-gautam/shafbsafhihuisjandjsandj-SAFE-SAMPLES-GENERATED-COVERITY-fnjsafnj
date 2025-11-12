@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_1f728fc6.c: In function ‘main’:
+./samples/SAFE/__tmp_1f728fc6.c:155:17: error: expected expression at end of input
+  155 |                 depth_first_search(&
+      |                 ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1f728fc6.c:155:17: error: too few arguments to function ‘depth_first_search’
+./samples/SAFE/__tmp_1f728fc6.c:55:6: note: declared here
+   55 | void depth_first_search(struct Graph *g, int start, int visited[]) {
+      |      ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1f728fc6.c:155:17: error: expected declaration or statement at end of input
+  155 |                 depth_first_search(&
+      |                 ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1f728fc6.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1f728fc6.c:155:17: error: expected declaration or statement at end of input

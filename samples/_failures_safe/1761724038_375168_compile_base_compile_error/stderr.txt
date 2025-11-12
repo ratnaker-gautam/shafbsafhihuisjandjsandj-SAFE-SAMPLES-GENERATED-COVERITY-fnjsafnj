@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_27d9ca17.c: In function ‘main’:
+./samples/SAFE/__tmp_27d9ca17.c:190:5: error: expected declaration or statement at end of input
+  190 |     dfs(&g, start);
+      |     ^~~

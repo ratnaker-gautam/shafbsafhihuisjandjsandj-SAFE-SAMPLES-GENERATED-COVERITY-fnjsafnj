@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1279b172.c: In function ‘main’:
+./samples/SAFE/__tmp_1279b172.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (!compress_rle(input_data, input_size, &compressed)) {
+      |     ^~
+./samples/SAFE/__tmp_1279b172.c:145:5: error: expected declaration or statement at end of input

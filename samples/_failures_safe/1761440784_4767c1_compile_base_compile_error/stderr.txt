@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_4977a1dd.c: In function ‘main’:
+./samples/SAFE/__tmp_4977a1dd.c:164:9: error: ‘print_token’ undeclared (first use in this function); did you mean ‘print_token_type’?
+  164 |         print_token
+      |         ^~~~~~~~~~~
+      |         print_token_type
+./samples/SAFE/__tmp_4977a1dd.c:164:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4977a1dd.c:164:20: error: expected ‘;’ at end of input
+  164 |         print_token
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_4977a1dd.c:164:9: error: expected declaration or statement at end of input
+  164 |         print_token
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_4977a1dd.c:164:9: error: expected declaration or statement at end of input

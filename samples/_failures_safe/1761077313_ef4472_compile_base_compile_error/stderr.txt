@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_65171ff7.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_65171ff7.c:179:16: error: ‘s’ undeclared (first use in this function); did you mean ‘sm’?
+  179 |     if (strlen(s
+      |                ^
+      |                sm
+./samples/SAFE/__tmp_65171ff7.c:179:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_65171ff7.c:179:17: error: expected ‘)’ at end of input
+  179 |     if (strlen(s
+      |               ~ ^
+      |                 )
+./samples/SAFE/__tmp_65171ff7.c:179:5: error: expected declaration or statement at end of input
+  179 |     if (strlen(s
+      |     ^~

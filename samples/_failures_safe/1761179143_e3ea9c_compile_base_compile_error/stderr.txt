@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_bd9e8046.c: In function ‘main’:
+./samples/SAFE/__tmp_bd9e8046.c:133:9: error: expected declaration or statement at end of input
+  133 |         printf("Invalid input for columns\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_bd9e8046.c:133:9: error: expected declaration or statement at end of input

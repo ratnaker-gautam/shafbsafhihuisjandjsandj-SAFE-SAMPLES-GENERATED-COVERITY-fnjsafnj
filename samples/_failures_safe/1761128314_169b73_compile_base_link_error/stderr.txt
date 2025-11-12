@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccwTp8Yn.o: in function `calculate_stddev':
+__tmp_a61debdb.c:(.text+0x156): undefined reference to `sqrt'
+/usr/bin/ld: /tmp/ccwTp8Yn.o: in function `main':
+__tmp_a61debdb.c:(.text.startup+0x1a1): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

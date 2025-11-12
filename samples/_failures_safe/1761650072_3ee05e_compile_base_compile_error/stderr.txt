@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_9c901683.c: In function ‘main’:
+./samples/SAFE/__tmp_9c901683.c:143: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_9c901683.c:142:30: note: to match this ‘{’
+  142 |         char timestamp[20] = {0
+      |                              ^
+./samples/SAFE/__tmp_9c901683.c:142:9: error: expected declaration or statement at end of input
+  142 |         char timestamp[20] = {0
+      |         ^~~~
+./samples/SAFE/__tmp_9c901683.c:142:9: error: expected declaration or statement at end of input

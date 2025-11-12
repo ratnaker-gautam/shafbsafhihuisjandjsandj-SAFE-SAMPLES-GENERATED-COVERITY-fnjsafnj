@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_7839de2a.c: In function ‘main’:
+./samples/SAFE/__tmp_7839de2a.c:163:17: error: ‘unique’ undeclared (first use in this function)
+  163 |                 unique
+      |                 ^~~~~~
+./samples/SAFE/__tmp_7839de2a.c:163:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7839de2a.c:163:23: error: expected ‘;’ at end of input
+  163 |                 unique
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_7839de2a.c:163:17: error: expected declaration or statement at end of input
+  163 |                 unique
+      |                 ^~~~~~
+./samples/SAFE/__tmp_7839de2a.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7839de2a.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7839de2a.c:163:17: error: expected declaration or statement at end of input

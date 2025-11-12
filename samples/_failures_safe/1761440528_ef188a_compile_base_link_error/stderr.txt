@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccg35QXm.o: in function `create_rotation_matrix':
+__tmp_d0c688d6.c:(.text+0x35): undefined reference to `sincos'
+/usr/bin/ld: /tmp/ccg35QXm.o: in function `perform_transform':
+__tmp_d0c688d6.c:(.text+0x1a5): undefined reference to `sincos'
+collect2: error: ld returned 1 exit status

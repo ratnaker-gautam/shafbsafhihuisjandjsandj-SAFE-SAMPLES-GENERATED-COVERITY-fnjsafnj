@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d1619156.c: In function ‘main’:
+./samples/SAFE/__tmp_d1619156.c:167:5: error: expected expression at end of input
+  167 |     if (mat2 ==
+      |     ^~
+./samples/SAFE/__tmp_d1619156.c:167:5: error: expected declaration or statement at end of input

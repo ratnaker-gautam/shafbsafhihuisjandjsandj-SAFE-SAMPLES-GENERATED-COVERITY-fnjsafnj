@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f3491d3b.c: In function ‘subtract_matrices’:
+./samples/SAFE/__tmp_f3491d3b.c:163:19: error: expected ‘)’ at end of input
+  163 |         if (result
+      |            ~      ^
+      |                   )
+./samples/SAFE/__tmp_f3491d3b.c:163:9: error: expected declaration or statement at end of input
+  163 |         if (result
+      |         ^~
+./samples/SAFE/__tmp_f3491d3b.c:163:9: error: expected declaration or statement at end of input

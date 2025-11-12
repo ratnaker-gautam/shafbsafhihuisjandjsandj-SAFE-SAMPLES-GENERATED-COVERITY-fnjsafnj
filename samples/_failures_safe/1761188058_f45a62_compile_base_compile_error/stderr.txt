@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_3aa6ac0c.c: In function ‘compute_bounding_box’:
+./samples/SAFE/__tmp_3aa6ac0c.c:127:9: error: expected expression at end of input
+  127 |         if (mesh->vertices[i].z > mesh->bounds.max.z)
+      |         ^~
+./samples/SAFE/__tmp_3aa6ac0c.c:127:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3aa6ac0c.c:127:9: error: expected declaration or statement at end of input

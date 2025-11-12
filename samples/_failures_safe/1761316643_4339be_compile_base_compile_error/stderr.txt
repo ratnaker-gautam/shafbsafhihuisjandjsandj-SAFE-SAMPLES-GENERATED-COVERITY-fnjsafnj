@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a01e3e32.c: In function ‘process_event’:
+./samples/SAFE/__tmp_a01e3e32.c:183:5: error: expected declaration or statement at end of input
+  183 |     sm->current_state = new_state;
+      |     ^~

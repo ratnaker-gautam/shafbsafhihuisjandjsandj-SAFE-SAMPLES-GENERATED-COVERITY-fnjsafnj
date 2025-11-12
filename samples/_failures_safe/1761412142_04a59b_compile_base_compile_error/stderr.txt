@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_13fafe83.c: In function ‘pointcloud_add_point’:
+./samples/SAFE/__tmp_13fafe83.c:123:5: error: expected declaration or statement at end of input
+  123 |     cloud->points[cloud->count] = *point;
+      |     ^~~~~

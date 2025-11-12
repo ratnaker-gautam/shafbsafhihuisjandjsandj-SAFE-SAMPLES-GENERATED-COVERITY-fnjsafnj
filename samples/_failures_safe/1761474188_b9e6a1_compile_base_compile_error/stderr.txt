@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_056952ab.c: In function ‘main’:
+./samples/SAFE/__tmp_056952ab.c:149:13: error: expected declaration or statement at end of input
+  149 |             search_messages(entries, entry_count, search_term);
+      |             ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_056952ab.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_056952ab.c:149:13: error: expected declaration or statement at end of input

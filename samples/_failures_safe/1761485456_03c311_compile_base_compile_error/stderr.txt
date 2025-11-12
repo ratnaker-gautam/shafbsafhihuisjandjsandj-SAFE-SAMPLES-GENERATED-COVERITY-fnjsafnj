@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_db5df380.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_db5df380.c:147:13: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  147 |             token
+      |             ^~~~~
+      |             Token
+./samples/SAFE/__tmp_db5df380.c:147:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_db5df380.c:147:18: error: expected ‘;’ at end of input
+  147 |             token
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_db5df380.c:147:13: error: expected declaration or statement at end of input
+  147 |             token
+      |             ^~~~~
+./samples/SAFE/__tmp_db5df380.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_db5df380.c:147:13: error: expected declaration or statement at end of input

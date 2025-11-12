@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_8bea5fa8.c: In function ‘bfs’:
+./samples/SAFE/__tmp_8bea5fa8.c:160:12: error: expected declaration or statement at end of input
+  160 |     struct Node* start_node = NULL;
+      |            ^~~~

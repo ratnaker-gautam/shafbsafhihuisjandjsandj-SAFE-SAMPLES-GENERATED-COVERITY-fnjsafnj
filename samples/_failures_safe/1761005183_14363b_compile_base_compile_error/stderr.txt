@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_f4a41097.c: In function ‘load_log_file’:
+./samples/SAFE/__tmp_f4a41097.c:122:71: error: ‘MAX_’ undeclared (first use in this function)
+  122 |     while (fgets(line, sizeof(line), file) && analyzer->entry_count < MAX_
+      |                                                                       ^~~~
+./samples/SAFE/__tmp_f4a41097.c:122:71: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f4a41097.c:122:75: error: expected ‘)’ at end of input
+  122 |     while (fgets(line, sizeof(line), file) && analyzer->entry_count < MAX_
+      |           ~                                                               ^
+      |                                                                           )
+./samples/SAFE/__tmp_f4a41097.c:122:5: error: expected declaration or statement at end of input
+  122 |     while (fgets(line, sizeof(line), file) && analyzer->entry_count < MAX_
+      |     ^~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1c9d7581.c: In function ‘main’:
+./samples/SAFE/__tmp_1c9d7581.c:158:9: error: expected declaration or statement at end of input
+  158 |         for (size_t i = 0; i < decompressed.size; i++) {
+      |         ^~~
+./samples/SAFE/__tmp_1c9d7581.c:158:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1c9d7581.c:158:9: error: expected declaration or statement at end of input

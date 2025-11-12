@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cccaOJpb.o: in function `main':
+__tmp_2743b38e.c:(.text.startup+0xde): undefined reference to `sin'
+collect2: error: ld returned 1 exit status

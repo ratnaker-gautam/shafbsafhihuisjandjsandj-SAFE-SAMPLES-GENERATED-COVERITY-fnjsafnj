@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_534fbfcb.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_534fbfcb.c:163:9: error: expected ‘,’ or ‘;’ at end of input
+  163 |         char c = peek
+      |         ^~~~
+./samples/SAFE/__tmp_534fbfcb.c:163:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_534fbfcb.c:163:9: error: expected declaration or statement at end of input

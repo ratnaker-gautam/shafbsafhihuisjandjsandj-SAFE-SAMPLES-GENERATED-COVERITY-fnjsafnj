@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_4b6431f1.c: In function ‘main’:
+./samples/SAFE/__tmp_4b6431f1.c:149:36: error: expected ‘)’ at end of input
+  149 |             large_b.data[i][j] = (i
+      |                                  ~ ^
+      |                                    )
+./samples/SAFE/__tmp_4b6431f1.c:149:13: error: expected declaration or statement at end of input
+  149 |             large_b.data[i][j] = (i
+      |             ^~~~~~~
+./samples/SAFE/__tmp_4b6431f1.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4b6431f1.c:149:13: error: expected declaration or statement at end of input

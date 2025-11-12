@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_d2d96251.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_d2d96251.c:172:13: error: expected expression at end of input
+  172 |             add_token(lexer,
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_d2d96251.c:172:13: error: too few arguments to function ‘add_token’
+./samples/SAFE/__tmp_d2d96251.c:51:6: note: declared here
+   51 | void add_token(Lexer* lexer, TokenType type, const char* value) {
+      |      ^~~~~~~~~
+./samples/SAFE/__tmp_d2d96251.c:172:13: error: expected declaration or statement at end of input
+  172 |             add_token(lexer,
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_d2d96251.c:172:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d2d96251.c:172:13: error: expected declaration or statement at end of input

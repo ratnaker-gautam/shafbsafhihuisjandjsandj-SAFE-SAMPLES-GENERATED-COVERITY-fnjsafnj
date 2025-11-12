@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ccd2d07f.c: In function ‘main’:
+./samples/SAFE/__tmp_ccd2d07f.c:164:19: error: ‘mat’ undeclared (first use in this function); did you mean ‘mat2’?
+  164 |     input_matrix(&mat
+      |                   ^~~
+      |                   mat2
+./samples/SAFE/__tmp_ccd2d07f.c:164:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ccd2d07f.c:164:22: error: expected ‘)’ at end of input
+  164 |     input_matrix(&mat
+      |                 ~    ^
+      |                      )
+./samples/SAFE/__tmp_ccd2d07f.c:164:5: error: expected declaration or statement at end of input
+  164 |     input_matrix(&mat
+      |     ^~~~~~~~~~~~

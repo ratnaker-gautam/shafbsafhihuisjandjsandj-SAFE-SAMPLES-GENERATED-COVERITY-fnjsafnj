@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_ad1214d6.c: In function ‘main’:
+./samples/SAFE/__tmp_ad1214d6.c:145:33: error: ‘rows’ undeclared (first use in this function); did you mean ‘rows2’?
+  145 |             for (int i = 0; i < rows
+      |                                 ^~~~
+      |                                 rows2
+./samples/SAFE/__tmp_ad1214d6.c:145:33: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ad1214d6.c:145:37: error: expected ‘;’ at end of input
+  145 |             for (int i = 0; i < rows
+      |                                     ^
+      |                                     ;
+./samples/SAFE/__tmp_ad1214d6.c:145:13: error: expected declaration or statement at end of input
+  145 |             for (int i = 0; i < rows
+      |             ^~~
+./samples/SAFE/__tmp_ad1214d6.c:145:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ad1214d6.c:145:13: error: expected declaration or statement at end of input

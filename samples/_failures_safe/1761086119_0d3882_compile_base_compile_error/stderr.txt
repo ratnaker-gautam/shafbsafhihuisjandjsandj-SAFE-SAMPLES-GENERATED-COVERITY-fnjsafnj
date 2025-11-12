@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_d7f69892.c: In function ‘main’:
+./samples/SAFE/__tmp_d7f69892.c:157:14: error: ‘graph_add’ undeclared (first use in this function); did you mean ‘graph_dfs’?
+  157 |     int n1 = graph_add
+      |              ^~~~~~~~~
+      |              graph_dfs
+./samples/SAFE/__tmp_d7f69892.c:157:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d7f69892.c:157:5: error: expected ‘,’ or ‘;’ at end of input
+  157 |     int n1 = graph_add
+      |     ^~~
+./samples/SAFE/__tmp_d7f69892.c:157:5: error: expected declaration or statement at end of input

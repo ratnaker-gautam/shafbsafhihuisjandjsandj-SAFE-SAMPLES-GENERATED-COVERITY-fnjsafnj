@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f334f770.c: In function ‘main’:
+./samples/SAFE/__tmp_f334f770.c:150:5: error: expected expression at end of input
+  150 |     if (!buffer_append(&input_buf, (
+      |     ^~
+./samples/SAFE/__tmp_f334f770.c:150:10: error: too few arguments to function ‘buffer_append’
+  150 |     if (!buffer_append(&input_buf, (
+      |          ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_f334f770.c:38:5: note: declared here
+   38 | int buffer_append(Buffer *buf, const uint8_t *src, size_t len) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_f334f770.c:150:5: error: expected declaration or statement at end of input
+  150 |     if (!buffer_append(&input_buf, (
+      |     ^~

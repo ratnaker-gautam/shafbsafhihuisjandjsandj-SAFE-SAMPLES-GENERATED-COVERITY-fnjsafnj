@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_7ff4ef10.c: In function ‘read_token’:
+./samples/SAFE/__tmp_7ff4ef10.c:148:23: error: ‘TOKEN_DELIM’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  148 |         token->type = TOKEN_DELIM
+      |                       ^~~~~~~~~~~
+      |                       TOKEN_EOF
+./samples/SAFE/__tmp_7ff4ef10.c:148:23: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7ff4ef10.c:148:34: error: expected ‘;’ at end of input
+  148 |         token->type = TOKEN_DELIM
+      |                                  ^
+      |                                  ;
+./samples/SAFE/__tmp_7ff4ef10.c:148:9: error: expected declaration or statement at end of input
+  148 |         token->type = TOKEN_DELIM
+      |         ^~~~~
+./samples/SAFE/__tmp_7ff4ef10.c:148:9: error: expected declaration or statement at end of input

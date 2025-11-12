@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_b0e57b8d.c: In function ‘next_token’:
+./samples/SAFE/__tmp_b0e57b8d.c:123:13: error: ‘i’ undeclared (first use in this function)
+  123 |         if (i < 31) {
+      |             ^
+./samples/SAFE/__tmp_b0e57b8d.c:123:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b0e57b8d.c: In function ‘main’:
+./samples/SAFE/__tmp_b0e57b8d.c:183:21: error: expected ‘)’ at end of input
+  183 |                token
+      |                     ^
+      |                     )
+./samples/SAFE/__tmp_b0e57b8d.c:182:15: note: to match this ‘(’
+  182 |         printf("%-12s %-12s %-8d %-8d\n",
+      |               ^
+./samples/SAFE/__tmp_b0e57b8d.c:183:16: error: expected declaration or statement at end of input
+  183 |                token
+      |                ^~~~~
+./samples/SAFE/__tmp_b0e57b8d.c:183:16: error: expected declaration or statement at end of input

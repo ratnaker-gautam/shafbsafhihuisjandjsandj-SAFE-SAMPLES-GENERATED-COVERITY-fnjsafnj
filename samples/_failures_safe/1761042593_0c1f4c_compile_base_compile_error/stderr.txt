@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_23dae1ff.c: In function ‘main’:
+./samples/SAFE/__tmp_23dae1ff.c:160:9: error: expected declaration or statement at end of input
+  160 |         if (input_len == 1 && input[0] == 'Q' && sm.state == STATE_READING) {
+      |         ^~
+./samples/SAFE/__tmp_23dae1ff.c:160:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_23dae1ff.c:160:9: error: expected declaration or statement at end of input

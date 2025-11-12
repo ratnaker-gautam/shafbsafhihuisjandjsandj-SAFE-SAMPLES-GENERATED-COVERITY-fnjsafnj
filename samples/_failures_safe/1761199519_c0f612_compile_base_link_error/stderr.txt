@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccPzPhcy.o: in function `main':
+__tmp_7b1474e2.c:(.text.startup+0x12c): undefined reference to `log'
+/usr/bin/ld: __tmp_7b1474e2.c:(.text.startup+0x143): undefined reference to `exp'
+/usr/bin/ld: __tmp_7b1474e2.c:(.text.startup+0x3f1): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

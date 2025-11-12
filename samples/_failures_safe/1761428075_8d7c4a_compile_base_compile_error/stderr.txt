@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_aa517c96.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_aa517c96.c:183:5: error: expected expression at end of input
+  183 |     for (int count =
+      |     ^~~
+./samples/SAFE/__tmp_aa517c96.c:183:5: error: expected declaration or statement at end of input

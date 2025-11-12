@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_85a95dd7.c: In function ‘run_simulation_step’:
+./samples/SAFE/__tmp_85a95dd7.c:115: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_85a95dd7.c:114:8: note: to match this ‘(’
+  114 |     if (sim == NULL || transform == NULL
+      |        ^
+./samples/SAFE/__tmp_85a95dd7.c:114:5: error: expected declaration or statement at end of input
+  114 |     if (sim == NULL || transform == NULL
+      |     ^~

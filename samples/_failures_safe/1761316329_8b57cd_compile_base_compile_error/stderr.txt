@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_c298148d.c: In function ‘main’:
+./samples/SAFE/__tmp_c298148d.c:162:24: error: expected ‘;’ at end of input
+  162 |         cleanup_context
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_c298148d.c:162:9: error: expected declaration or statement at end of input
+  162 |         cleanup_context
+      |         ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c298148d.c:162:9: error: expected declaration or statement at end of input

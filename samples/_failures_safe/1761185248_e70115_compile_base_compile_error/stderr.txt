@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_5139124a.c: In function ‘main’:
+./samples/SAFE/__tmp_5139124a.c:129:63: error: ‘sample_data’ undeclared (first use in this function); did you mean ‘sample_data3’?
+  129 |     if (!add_compression_block(&ctx, 5, sizeof(sample_data2), sample_data
+      |                                                               ^~~~~~~~~~~
+      |                                                               sample_data3
+./samples/SAFE/__tmp_5139124a.c:129:63: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5139124a.c:129:74: error: expected ‘)’ at end of input
+  129 |     if (!add_compression_block(&ctx, 5, sizeof(sample_data2), sample_data
+      |                               ~                                          ^
+      |                                                                          )
+./samples/SAFE/__tmp_5139124a.c:129:5: error: expected declaration or statement at end of input
+  129 |     if (!add_compression_block(&ctx, 5, sizeof(sample_data2), sample_data
+      |     ^~

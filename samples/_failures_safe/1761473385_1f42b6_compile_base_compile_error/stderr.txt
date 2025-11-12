@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ecebadd2.c: In function ‘main’:
+./samples/SAFE/__tmp_ecebadd2.c:135:5: error: expected declaration or statement at end of input
+  135 |     printf("Compression ratio: %.2f%%\n", (float)compressed.size / (float)input_len * 100.0);
+      |     ^~~~~~

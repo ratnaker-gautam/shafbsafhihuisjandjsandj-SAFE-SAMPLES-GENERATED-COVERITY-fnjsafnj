@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9c0091da.c: In function ‘main’:
+./samples/SAFE/__tmp_9c0091da.c:151:5: error: expected ‘,’ or ‘;’ at end of input
+  151 |     float ratio = (compressed.size * 100.0f) / input_len
+      |     ^~~~~
+./samples/SAFE/__tmp_9c0091da.c:151:5: error: expected declaration or statement at end of input

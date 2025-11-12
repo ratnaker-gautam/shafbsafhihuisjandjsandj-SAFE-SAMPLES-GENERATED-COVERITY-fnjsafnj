@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_caa8e05a.c: In function ‘main’:
+./samples/SAFE/__tmp_caa8e05a.c:150:38: error: ‘test’ undeclared (first use in this function)
+  150 |             if (decompressed.size == test
+      |                                      ^~~~
+./samples/SAFE/__tmp_caa8e05a.c:150:38: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_caa8e05a.c:150:42: error: expected ‘)’ at end of input
+  150 |             if (decompressed.size == test
+      |                ~                         ^
+      |                                          )
+./samples/SAFE/__tmp_caa8e05a.c:150:13: error: expected declaration or statement at end of input
+  150 |             if (decompressed.size == test
+      |             ^~
+./samples/SAFE/__tmp_caa8e05a.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_caa8e05a.c:150:13: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7bf82832.c: In function ‘process_log_data’:
+./samples/SAFE/__tmp_7bf82832.c:124:9: error: missing terminating " character
+  124 |         "2024-01-15T10:41:15 ERROR File not found: /tmp/data.xml
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_7bf82832.c:124:9: error: expected expression at end of input
+./samples/SAFE/__tmp_7bf82832.c:124:9: error: expected declaration or statement at end of input

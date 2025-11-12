@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0462ce06.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_0462ce06.c:129:21: error: expected declaration or statement at end of input
+  129 |                     decreaseKey(heap, v, dist[v]);
+      |                     ^~~~~~~~~~~
+./samples/SAFE/__tmp_0462ce06.c:129:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0462ce06.c:129:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0462ce06.c:129:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0462ce06.c:129:21: error: expected declaration or statement at end of input

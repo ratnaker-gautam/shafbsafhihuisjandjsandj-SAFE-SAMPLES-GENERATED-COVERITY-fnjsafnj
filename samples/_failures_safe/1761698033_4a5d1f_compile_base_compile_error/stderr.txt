@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5f13bda1.c: In function ‘main’:
+./samples/SAFE/__tmp_5f13bda1.c:143:53: error: expected ‘]’ at end of input
+  143 |         int low_nibble = hex_char_to_int(input_str[i
+      |                                                     ^
+      |                                                     ]
+./samples/SAFE/__tmp_5f13bda1.c:143:9: error: expected declaration or statement at end of input
+  143 |         int low_nibble = hex_char_to_int(input_str[i
+      |         ^~~
+./samples/SAFE/__tmp_5f13bda1.c:143:9: error: expected declaration or statement at end of input

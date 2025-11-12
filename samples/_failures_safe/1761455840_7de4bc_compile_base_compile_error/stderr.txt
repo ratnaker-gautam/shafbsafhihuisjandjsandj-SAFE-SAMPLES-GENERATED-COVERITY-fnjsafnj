@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f10658a5.c: In function ‘main’:
+./samples/SAFE/__tmp_f10658a5.c:150:20: error: invalid operands to binary == (have ‘size_t’ {aka ‘long unsigned int’} and ‘Buffer’)
+  150 |     if (input.size == decompressed
+      |         ~~~~~~~~~~ ^~
+      |              |
+      |              size_t {aka long unsigned int}
+./samples/SAFE/__tmp_f10658a5.c:150:35: error: expected ‘)’ at end of input
+  150 |     if (input.size == decompressed
+      |        ~                          ^
+      |                                   )
+./samples/SAFE/__tmp_f10658a5.c:150:5: error: expected declaration or statement at end of input
+  150 |     if (input.size == decompressed
+      |     ^~

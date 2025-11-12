@@ -1,0 +1,23 @@
+./samples/SAFE/__tmp_cc747181.c: In function ‘main’:
+./samples/SAFE/__tmp_cc747181.c:156:57: error: expected ‘)’ at end of input
+  156 |         success = compress_rle(input_buf.data, input_buf
+      |                               ~                         ^
+      |                                                         )
+./samples/SAFE/__tmp_cc747181.c:156:48: error: incompatible type for argument 2 of ‘compress_rle’
+  156 |         success = compress_rle(input_buf.data, input_buf
+      |                                                ^~~~~~~~~
+      |                                                |
+      |                                                Buffer
+./samples/SAFE/__tmp_cc747181.c:66:47: note: expected ‘size_t’ {aka ‘long unsigned int’} but argument is of type ‘Buffer’
+   66 | int compress_rle(const uint8_t *input, size_t input_size, Buffer *output) {
+      |                                        ~~~~~~~^~~~~~~~~~
+./samples/SAFE/__tmp_cc747181.c:156:19: error: too few arguments to function ‘compress_rle’
+  156 |         success = compress_rle(input_buf.data, input_buf
+      |                   ^~~~~~~~~~~~
+./samples/SAFE/__tmp_cc747181.c:66:5: note: declared here
+   66 | int compress_rle(const uint8_t *input, size_t input_size, Buffer *output) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_cc747181.c:156:9: error: expected declaration or statement at end of input
+  156 |         success = compress_rle(input_buf.data, input_buf
+      |         ^~~~~~~
+./samples/SAFE/__tmp_cc747181.c:156:9: error: expected declaration or statement at end of input

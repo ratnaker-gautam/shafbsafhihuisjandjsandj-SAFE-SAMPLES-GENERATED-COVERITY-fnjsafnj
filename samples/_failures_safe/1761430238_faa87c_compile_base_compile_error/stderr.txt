@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_9548b0f3.c: In function ‘main’:
+./samples/SAFE/__tmp_9548b0f3.c:133:20: error: ‘analy’ undeclared (first use in this function); did you mean ‘analyzer’?
+  133 |     add_log_entry(&analy
+      |                    ^~~~~
+      |                    analyzer
+./samples/SAFE/__tmp_9548b0f3.c:133:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9548b0f3.c:133:25: error: expected ‘)’ at end of input
+  133 |     add_log_entry(&analy
+      |                  ~      ^
+      |                         )
+./samples/SAFE/__tmp_9548b0f3.c:133:5: error: too few arguments to function ‘add_log_entry’
+  133 |     add_log_entry(&analy
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_9548b0f3.c:50:5: note: declared here
+   50 | int add_log_entry(struct LogAnalyzer *analyzer, const char *timestamp, const char *level, const char *message) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_9548b0f3.c:133:5: error: expected declaration or statement at end of input
+  133 |     add_log_entry(&analy
+      |     ^~~~~~~~~~~~~

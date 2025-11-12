@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5777f017.c: In function ‘main’:
+./samples/SAFE/__tmp_5777f017.c:157:5: error: expected declaration or statement at end of input
+  157 |     printf("\nTranspose of B:\n");
+      |     ^~~~~~

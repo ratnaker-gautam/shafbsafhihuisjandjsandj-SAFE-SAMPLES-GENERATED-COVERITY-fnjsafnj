@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_36314f56.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_36314f56.c:176:20: error: expected ‘;’ at end of input
+  176 |         token->type
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_36314f56.c:176:9: error: expected declaration or statement at end of input
+  176 |         token->type
+      |         ^~~~~
+./samples/SAFE/__tmp_36314f56.c:176:9: error: expected declaration or statement at end of input

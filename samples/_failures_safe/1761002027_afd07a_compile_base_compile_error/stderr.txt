@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c02b6bef.c: In function ‘main’:
+./samples/SAFE/__tmp_c02b6bef.c:148:25: error: expected ‘)’ at end of input
+  148 |     if (op == OP_INVALID
+      |        ~                ^
+      |                         )
+./samples/SAFE/__tmp_c02b6bef.c:148:5: error: expected declaration or statement at end of input
+  148 |     if (op == OP_INVALID
+      |     ^~

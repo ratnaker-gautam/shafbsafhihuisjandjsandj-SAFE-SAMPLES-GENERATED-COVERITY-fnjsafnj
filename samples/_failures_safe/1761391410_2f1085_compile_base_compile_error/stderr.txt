@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_40592f8c.c: In function ‘main’:
+./samples/SAFE/__tmp_40592f8c.c:163:29: error: expected ‘)’ at end of input
+  163 |     cleanup_state_machine(sm
+      |                          ~  ^
+      |                             )
+./samples/SAFE/__tmp_40592f8c.c:163:5: error: expected declaration or statement at end of input
+  163 |     cleanup_state_machine(sm
+      |     ^~~~~~~~~~~~~~~~~~~~~

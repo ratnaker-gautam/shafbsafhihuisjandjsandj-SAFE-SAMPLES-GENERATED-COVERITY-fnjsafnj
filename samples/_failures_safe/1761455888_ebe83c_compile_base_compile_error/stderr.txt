@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_dea9d505.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_dea9d505.c:184:9: error: expected identifier at end of input
+  184 |         if (sm->
+      |         ^~
+./samples/SAFE/__tmp_dea9d505.c:184:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dea9d505.c:184:9: error: expected declaration or statement at end of input

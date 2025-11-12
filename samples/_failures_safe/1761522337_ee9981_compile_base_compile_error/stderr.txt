@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f4fdf6b1.c: In function ‘dfs’:
+./samples/SAFE/__tmp_f4fdf6b1.c:192:5: error: expected declaration or statement at end of input
+  192 |     printf("DFS traversal: ");
+      |     ^~~~~~

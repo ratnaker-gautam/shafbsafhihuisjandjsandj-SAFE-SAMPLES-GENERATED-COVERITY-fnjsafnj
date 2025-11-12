@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_c9979a31.c: In function ‘main’:
+./samples/SAFE/__tmp_c9979a31.c:134:39: error: ‘MAX_IN’ undeclared (first use in this function); did you mean ‘MAX_INPUT’?
+  134 |     if (hex_len % 2 != 0 || hex_len > MAX_IN
+      |                                       ^~~~~~
+      |                                       MAX_INPUT
+./samples/SAFE/__tmp_c9979a31.c:134:39: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c9979a31.c:134:45: error: expected ‘)’ at end of input
+  134 |     if (hex_len % 2 != 0 || hex_len > MAX_IN
+      |        ~                                    ^
+      |                                             )
+./samples/SAFE/__tmp_c9979a31.c:134:5: error: expected declaration or statement at end of input
+  134 |     if (hex_len % 2 != 0 || hex_len > MAX_IN
+      |     ^~

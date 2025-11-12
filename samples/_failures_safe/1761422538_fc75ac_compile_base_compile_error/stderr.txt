@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b97dfe1c.c: In function ‘event_to_string’:
+./samples/SAFE/__tmp_b97dfe1c.c:145:9: error: expected expression at end of input
+  145 |         case
+      |         ^~~~
+./samples/SAFE/__tmp_b97dfe1c.c:145:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b97dfe1c.c:145:9: error: expected declaration or statement at end of input

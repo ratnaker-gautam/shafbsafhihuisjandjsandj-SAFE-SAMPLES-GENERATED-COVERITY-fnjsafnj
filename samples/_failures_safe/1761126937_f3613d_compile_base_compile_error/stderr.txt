@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_057b5984.c: In function ‘main’:
+./samples/SAFE/__tmp_057b5984.c:165:5: error: expected declaration or statement at end of input
+  165 |     init_parser(&state, input_buffer);
+      |     ^~~~~~~~~~~

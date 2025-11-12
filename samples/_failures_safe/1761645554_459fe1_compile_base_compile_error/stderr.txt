@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3fdd3bd4.c: In function ‘load_log_file’:
+./samples/SAFE/__tmp_3fdd3bd4.c:119:5: error: expected expression at end of input
+  119 |     if (!
+      |     ^~
+./samples/SAFE/__tmp_3fdd3bd4.c:119:5: error: expected declaration or statement at end of input

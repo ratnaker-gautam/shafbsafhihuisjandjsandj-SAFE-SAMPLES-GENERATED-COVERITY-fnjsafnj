@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccUiqYZh.o: in function `calculate_expression':
+__tmp_46d092c4.c:(.text+0xda): undefined reference to `fmod'
+/usr/bin/ld: __tmp_46d092c4.c:(.text+0x2f): undefined reference to `pow'
+/usr/bin/ld: __tmp_46d092c4.c:(.text+0xc0): undefined reference to `pow'
+/usr/bin/ld: /tmp/ccUiqYZh.o: in function `main':
+__tmp_46d092c4.c:(.text.startup+0x2a8): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

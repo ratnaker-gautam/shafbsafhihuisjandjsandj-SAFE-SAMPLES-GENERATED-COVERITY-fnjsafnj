@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_75210ff0.c: In function ‘main’:
+./samples/SAFE/__tmp_75210ff0.c:146:72: error: expected ‘)’ at end of input
+  146 |                 printf("%s %s %s\n", logs[i].timestamp, level_to_string
+      |                       ~                                                ^
+      |                                                                        )
+./samples/SAFE/__tmp_75210ff0.c:146:17: error: expected declaration or statement at end of input
+  146 |                 printf("%s %s %s\n", logs[i].timestamp, level_to_string
+      |                 ^~~~~~
+./samples/SAFE/__tmp_75210ff0.c:146:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_75210ff0.c:146:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_75210ff0.c:146:17: error: expected declaration or statement at end of input

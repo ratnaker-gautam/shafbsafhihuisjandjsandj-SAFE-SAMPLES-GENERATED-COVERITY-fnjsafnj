@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6793d13e.c: In function ‘transform_bounds’:
+./samples/SAFE/__tmp_6793d13e.c:128:11: error: expected ‘;’ at end of input
+  128 |     result
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_6793d13e.c:128:5: error: expected declaration or statement at end of input
+  128 |     result
+      |     ^~~~~~

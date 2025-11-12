@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_8f14b959.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_8f14b959.c:151:15: error: expected ‘)’ at end of input
+  151 |         free(g
+      |             ~ ^
+      |               )
+./samples/SAFE/__tmp_8f14b959.c:151:9: error: expected declaration or statement at end of input
+  151 |         free(g
+      |         ^~~~
+./samples/SAFE/__tmp_8f14b959.c:151:9: error: expected declaration or statement at end of input

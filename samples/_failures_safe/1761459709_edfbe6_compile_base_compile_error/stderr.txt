@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2a49f99b.c: In function ‘main’:
+./samples/SAFE/__tmp_2a49f99b.c:126:9: error: expected expression at end of input
+  126 |         if (strncmp(line, "quit", 4) ==
+      |         ^~
+./samples/SAFE/__tmp_2a49f99b.c:126:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2a49f99b.c:126:9: error: expected declaration or statement at end of input

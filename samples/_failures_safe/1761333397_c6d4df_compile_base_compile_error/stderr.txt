@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ebde913d.c: In function ‘main’:
+./samples/SAFE/__tmp_ebde913d.c:136:14: error: ‘get_valid’ undeclared (first use in this function); did you mean ‘get_valid_int’?
+  136 |     choice = get_valid
+      |              ^~~~~~~~~
+      |              get_valid_int
+./samples/SAFE/__tmp_ebde913d.c:136:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ebde913d.c:136:23: error: expected ‘;’ at end of input
+  136 |     choice = get_valid
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_ebde913d.c:136:5: error: expected declaration or statement at end of input
+  136 |     choice = get_valid
+      |     ^~~~~~

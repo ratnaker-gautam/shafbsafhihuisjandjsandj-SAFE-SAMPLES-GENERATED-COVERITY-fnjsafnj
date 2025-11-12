@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_3571cf92.c: In function ‘main’:
+./samples/SAFE/__tmp_3571cf92.c:155:18: error: ‘decomp’ undeclared (first use in this function)
+  155 |     buffer_init(&decomp
+      |                  ^~~~~~
+./samples/SAFE/__tmp_3571cf92.c:155:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3571cf92.c:155:24: error: expected ‘)’ at end of input
+  155 |     buffer_init(&decomp
+      |                ~       ^
+      |                        )
+./samples/SAFE/__tmp_3571cf92.c:155:5: error: too few arguments to function ‘buffer_init’
+  155 |     buffer_init(&decomp
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_3571cf92.c:17:6: note: declared here
+   17 | void buffer_init(Buffer *buf, size_t initial_capacity) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_3571cf92.c:155:5: error: expected declaration or statement at end of input
+  155 |     buffer_init(&decomp
+      |     ^~~~~~~~~~~

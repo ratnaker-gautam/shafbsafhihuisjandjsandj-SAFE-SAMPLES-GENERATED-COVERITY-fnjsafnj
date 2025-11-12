@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f9a93abc.c: In function ‘main’:
+./samples/SAFE/__tmp_f9a93abc.c:149:26: error: expected ‘;’ at end of input
+  149 |         choice = read_int
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_f9a93abc.c:149:9: error: expected declaration or statement at end of input
+  149 |         choice = read_int
+      |         ^~~~~~
+./samples/SAFE/__tmp_f9a93abc.c:149:9: error: expected declaration or statement at end of input

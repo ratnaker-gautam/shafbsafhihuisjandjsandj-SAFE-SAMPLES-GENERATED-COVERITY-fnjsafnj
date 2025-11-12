@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_bd9ed489.c: In function ‘main’:
+./samples/SAFE/__tmp_bd9ed489.c:171:54: error: expected ‘)’ at end of input
+  171 |         if (new_state == STATE_COMPLETED || new_state
+      |            ~                                         ^
+      |                                                      )
+./samples/SAFE/__tmp_bd9ed489.c:171:9: error: expected declaration or statement at end of input
+  171 |         if (new_state == STATE_COMPLETED || new_state
+      |         ^~
+./samples/SAFE/__tmp_bd9ed489.c:171:9: error: expected declaration or statement at end of input

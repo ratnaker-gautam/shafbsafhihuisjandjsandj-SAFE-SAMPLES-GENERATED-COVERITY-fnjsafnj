@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_f9ecebf4.c: In function ‘main’:
+./samples/SAFE/__tmp_f9ecebf4.c:122:13: error: expected identifier at end of input
+  122 |             strncpy(stack_entries[i].message, heap_entries[i].message, sizeof(stack_entries[i].
+      |             ^~~~~~~
+./samples/SAFE/__tmp_f9ecebf4.c:122:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f9ecebf4.c:122:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f9ecebf4.c:122:13: error: expected declaration or statement at end of input

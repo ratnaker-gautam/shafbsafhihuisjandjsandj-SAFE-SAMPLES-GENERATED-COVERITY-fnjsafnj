@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_21402c93.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_21402c93.c:131:5: error: expected declaration or statement at end of input
+  131 |     printf("INFO: %d\n", severity_count[1]);
+      |     ^~~~~~

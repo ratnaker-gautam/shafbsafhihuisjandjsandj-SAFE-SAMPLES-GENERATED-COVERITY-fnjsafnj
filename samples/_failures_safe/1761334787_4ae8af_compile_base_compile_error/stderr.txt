@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_82292e3b.c: In function ‘main’:
+./samples/SAFE/__tmp_82292e3b.c:128:5: error: expected declaration or statement at end of input
+  128 |     while (entry_count < MAX_ENTRIES && fgets(line, sizeof(line), stdin)) {
+      |     ^~~~~
+./samples/SAFE/__tmp_82292e3b.c:128:5: error: expected declaration or statement at end of input

@@ -1,0 +1,130 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: cpu_bound ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_STATES 8
+#define MAX_INPUTS 4
+#define MAX_ITERATIONS 1000000
+
+typedef enum {
+    STATE_A,
+    STATE_B,
+    STATE_C,
+    STATE_D,
+    STATE_E,
+    STATE_F,
+    STATE_G,
+    STATE_H
+} state_t;
+
+typedef enum {
+    INPUT_0,
+    INPUT_1,
+    INPUT_2,
+    INPUT_3
+} input_t;
+
+typedef struct {
+    state_t current_state;
+    state_t next_state;
+    int output;
+} transition_t;
+
+static transition_t state_table[MAX_STATES][MAX_INPUTS] = {
+    {{STATE_A, STATE_B, 1}, {STATE_A, STATE_C, 2}, {STATE_A, STATE_D, 3}, {STATE_A, STATE_E, 4}},
+    {{STATE_B, STATE_C, 5}, {STATE_B, STATE_D, 6}, {STATE_B, STATE_E, 7}, {STATE_B, STATE_F, 8}},
+    {{STATE_C, STATE_D, 9}, {STATE_C, STATE_E, 10}, {STATE_C, STATE_F, 11}, {STATE_C, STATE_G, 12}},
+    {{STATE_D, STATE_E, 13}, {STATE_D, STATE_F, 14}, {STATE_D, STATE_G, 15}, {STATE_D, STATE_H, 16}},
+    {{STATE_E, STATE_F, 17}, {STATE_E, STATE_G, 18}, {STATE_E, STATE_H, 19}, {STATE_E, STATE_A, 20}},
+    {{STATE_F, STATE_G, 21}, {STATE_F, STATE_H, 22}, {STATE_F, STATE_A, 23}, {STATE_F, STATE_B, 24}},
+    {{STATE_G, STATE_H, 25}, {STATE_G, STATE_A, 26}, {STATE_G, STATE_B, 27}, {STATE_G, STATE_C, 28}},
+    {{STATE_H, STATE_A, 29}, {STATE_H, STATE_B, 30}, {STATE_H, STATE_C, 31}, {STATE_H, STATE_D, 32}}
+};
+
+static int validate_state(state_t state) {
+    return state >= STATE_A && state <= STATE_H;
+}
+
+static int validate_input(input_t input) {
+    return input >= INPUT_0 && input <= INPUT_3;
+}
+
+static transition_t* get_transition(state_t current, input_t input) {
+    if (!validate_state(current) || !validate_input(input)) {
+        return NULL;
+    }
+    return &state_table[current][input];
+}
+
+static input_t generate_input(state_t state, uint64_t counter) {
+    return (input_t)((state + counter) % MAX_INPUTS);
+}
+
+static void run_state_machine(uint64_t iterations) {
+    if (iterations == 0 || iterations > MAX_ITERATIONS) {
+        fprintf(stderr, "Invalid iteration count\n");
+        return;
+    }
+
+    state_t current_state = STATE_A;
+    uint64_t total_output = 0;
+    uint64_t i;
+
+    for (i = 0; i < iterations; i++) {
+        input_t input = generate_input(current_state, i);
+        transition_t* transition = get_transition(current_state, input);
+        
+        if (transition == NULL) {
+            fprintf(stderr, "Invalid transition\n");
+            return;
+        }
+
+        if (transition->current_state != current_state) {
+            fprintf(stderr, "State table corruption\n");
+            return;
+        }
+
+        total_output += transition->output;
+        current_state = transition->next_state;
+
+        if (!validate_state(current_state)) {
+            fprintf(stderr, "Invalid state transition\n");
+            return;
+        }
+    }
+
+    printf("Final state: %d\n", current_state);
+    printf("Total output: %lu\n", total_output);
+}
+
+int main(int argc, char *argv[]) {
+    uint64_t iterations = 1000;
+
+    if (argc > 1) {
+        char *endptr;
+        long long temp = strtoll(argv[1], &endptr, 10);
+        
+        if (endptr == argv[1] || *endptr != '\0') {
+            fprintf(stderr, "Invalid input: not a number\n");
+            return 1;
+        }
+        
+        if (temp < 0) {
+            fprintf(stderr, "Invalid input: negative number\n");
+            return 1;
+        }
+        
+        if (temp > MAX_ITERATIONS) {
+            fprintf(stderr, "Input too large, using maximum\n");
+            iterations = MAX_ITERATIONS;
+        } else {
+            iterations = (uint64_t)temp;
+        }
+    }
+
+    run_state_machine(iterations);
+    return 0;
+}

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_3720f7d6.c: In function ‘determinant’:
+./samples/SAFE/__tmp_3720f7d6.c:150:9: error: expected expression at end of input
+  150 |         long long term = (
+      |         ^~~~
+./samples/SAFE/__tmp_3720f7d6.c:150:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3720f7d6.c:150:9: error: expected declaration or statement at end of input

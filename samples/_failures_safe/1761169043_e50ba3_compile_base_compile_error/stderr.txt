@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d43d2329.c: In function ‘main’:
+./samples/SAFE/__tmp_d43d2329.c:148:45: error: expected ‘)’ at end of input
+  148 |         printf("%02X", *(output_buf.data + i
+      |                         ~                   ^
+      |                                             )
+./samples/SAFE/__tmp_d43d2329.c:148:9: error: expected declaration or statement at end of input
+  148 |         printf("%02X", *(output_buf.data + i
+      |         ^~~~~~
+./samples/SAFE/__tmp_d43d2329.c:148:9: error: expected declaration or statement at end of input

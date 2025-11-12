@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2e3cc7ef.c: In function ‘parse_operator’:
+./samples/SAFE/__tmp_2e3cc7ef.c:150:5: error: expected declaration or statement at end of input
+  150 |     uint32_t start_col = state->column;
+      |     ^~~~~~~~

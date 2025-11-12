@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2429afa4.c: In function ‘main’:
+./samples/SAFE/__tmp_2429afa4.c:196:5: error: expected declaration or statement at end of input
+  196 |     printf("Type\t\tValue\n");
+      |     ^~~~~~

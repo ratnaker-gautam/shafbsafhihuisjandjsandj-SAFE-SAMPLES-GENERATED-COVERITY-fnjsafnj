@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_af06ac8f.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_af06ac8f.c:165:1: error: expected declaration or statement at end of input
+  165 | int evaluate_expression(const char* input) {
+      | ^~~

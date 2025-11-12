@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_bea88f3f.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_bea88f3f.c:172:70: error: expected ‘)’ at end of input
+  172 |         } else if (parse_identifier(input, &pos, line, column, &token
+      |                                    ~                                 ^
+      |                                                                      )
+./samples/SAFE/__tmp_bea88f3f.c:172:9: error: expected declaration or statement at end of input
+  172 |         } else if (parse_identifier(input, &pos, line, column, &token
+      |         ^
+./samples/SAFE/__tmp_bea88f3f.c:172:9: error: expected declaration or statement at end of input

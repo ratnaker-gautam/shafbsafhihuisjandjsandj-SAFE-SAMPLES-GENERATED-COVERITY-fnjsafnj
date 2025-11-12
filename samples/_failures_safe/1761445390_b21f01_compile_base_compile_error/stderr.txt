@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ac8150f0.c: In function ‘main’:
+./samples/SAFE/__tmp_ac8150f0.c:152:12: error: expected declaration or statement at end of input
+  152 |     struct TransitionTable tt;
+      |            ^~~~~~~~~~~~~~~

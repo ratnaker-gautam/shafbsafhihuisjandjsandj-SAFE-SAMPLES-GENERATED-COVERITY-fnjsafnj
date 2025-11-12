@@ -1,0 +1,9 @@
+
+samples/SAFE/__tmp_04dc8dfc.c:38:5: runtime error: null pointer passed as argument 1, which is declared to never be null
+    #0 0x603fecd518bb in buffer_append samples/SAFE/__tmp_04dc8dfc.c:38
+    #1 0x603fecd51b69 in read_input samples/SAFE/__tmp_04dc8dfc.c:54
+    #2 0x603fecd52781 in main samples/SAFE/__tmp_04dc8dfc.c:127
+    #3 0x7fd02c42a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x7fd02c42a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x603fecd51384 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_04dc8dfc.c.san+0x3384) (BuildId: 5d52e1677323a37b672160930b99e30dc2fffe74)
+

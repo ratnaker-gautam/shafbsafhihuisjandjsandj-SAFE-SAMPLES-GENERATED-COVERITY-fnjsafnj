@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_8dde72a0.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_8dde72a0.c:130:17: error: ‘const struct LogStats’ has no member named ‘most_f’
+  130 |            stats->most_f
+      |                 ^~
+./samples/SAFE/__tmp_8dde72a0.c:130:25: error: expected ‘)’ at end of input
+  130 |            stats->most_f
+      |                         ^
+      |                         )
+./samples/SAFE/__tmp_8dde72a0.c:129:11: note: to match this ‘(’
+  129 |     printf("Most frequent level: %s (%d occurrences)\n",
+      |           ^
+./samples/SAFE/__tmp_8dde72a0.c:130:12: error: expected declaration or statement at end of input
+  130 |            stats->most_f
+      |            ^~~~~

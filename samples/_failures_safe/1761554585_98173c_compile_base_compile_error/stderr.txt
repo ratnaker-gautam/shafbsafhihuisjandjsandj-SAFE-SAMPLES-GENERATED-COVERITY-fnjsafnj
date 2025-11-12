@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_da16314d.c: In function ‘bounding_box_contains’:
+./samples/SAFE/__tmp_da16314d.c:135:20: error: expected ‘)’ at end of input
+  135 |             point.z
+      |                    ^
+      |                    )
+./samples/SAFE/__tmp_da16314d.c:133:12: note: to match this ‘(’
+  133 |     return (point.x >= box.min.x && point.x <= box.max.x &&
+      |            ^
+./samples/SAFE/__tmp_da16314d.c:135:13: error: expected declaration or statement at end of input
+  135 |             point.z
+      |             ^~~~~

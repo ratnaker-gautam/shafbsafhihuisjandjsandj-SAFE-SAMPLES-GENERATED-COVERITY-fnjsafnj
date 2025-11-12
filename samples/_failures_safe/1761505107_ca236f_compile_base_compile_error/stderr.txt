@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_8cf3142f.c: In function ‘main’:
+./samples/SAFE/__tmp_8cf3142f.c:163:18: error: expected ‘]’ at end of input
+  163 |     input[strcspn
+      |                  ^
+      |                  ]
+./samples/SAFE/__tmp_8cf3142f.c:163:10: error: array subscript is not an integer
+  163 |     input[strcspn
+      |          ^
+./samples/SAFE/__tmp_8cf3142f.c:163:5: error: expected declaration or statement at end of input
+  163 |     input[strcspn
+      |     ^~~~~

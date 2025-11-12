@@ -1,0 +1,146 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: pointer_arithmetic ; Variation: log_analyzer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_LINE_LEN 256
+#define MAX_ENTRIES 1000
+
+struct LogEntry {
+    char timestamp[20];
+    char level[10];
+    char message[MAX_LINE_LEN - 30];
+};
+
+int parse_log_line(char *line, struct LogEntry *entry) {
+    if (line == NULL || entry == NULL) return 0;
+    
+    char *ptr = line;
+    int field = 0;
+    
+    while (*ptr && field < 3) {
+        while (*ptr && isspace(*ptr)) ptr++;
+        
+        char *start = ptr;
+        while (*ptr && !isspace(*ptr)) ptr++;
+        
+        size_t len = ptr - start;
+        if (len == 0) break;
+        
+        switch (field) {
+            case 0:
+                if (len >= sizeof(entry->timestamp)) return 0;
+                strncpy(entry->timestamp, start, len);
+                entry->timestamp[len] = '\0';
+                break;
+            case 1:
+                if (len >= sizeof(entry->level)) return 0;
+                strncpy(entry->level, start, len);
+                entry->level[len] = '\0';
+                break;
+            case 2:
+                if (len >= sizeof(entry->message)) return 0;
+                strncpy(entry->message, start, len);
+                entry->message[len] = '\0';
+                break;
+        }
+        
+        field++;
+    }
+    
+    return field == 3;
+}
+
+int count_log_level(struct LogEntry *entries, int count, const char *level) {
+    if (entries == NULL || level == NULL || count <= 0) return 0;
+    
+    int total = 0;
+    struct LogEntry *end = entries + count;
+    
+    for (struct LogEntry *ptr = entries; ptr < end; ptr++) {
+        if (strcmp(ptr->level, level) == 0) {
+            total++;
+        }
+    }
+    
+    return total;
+}
+
+void print_entries_by_level(struct LogEntry *entries, int count, const char *level) {
+    if (entries == NULL || level == NULL || count <= 0) return;
+    
+    struct LogEntry *end = entries + count;
+    
+    for (struct LogEntry *ptr = entries; ptr < end; ptr++) {
+        if (strcmp(ptr->level, level) == 0) {
+            printf("%s %s %s\n", ptr->timestamp, ptr->level, ptr->message);
+        }
+    }
+}
+
+int main(void) {
+    struct LogEntry entries[MAX_ENTRIES];
+    int entry_count = 0;
+    char line[MAX_LINE_LEN];
+    
+    printf("Enter log entries (timestamp level message). Empty line to finish:\n");
+    
+    while (entry_count < MAX_ENTRIES) {
+        if (fgets(line, sizeof(line), stdin) == NULL) break;
+        
+        size_t len = strlen(line);
+        if (len > 0 && line[len - 1] == '\n') {
+            line[len - 1] = '\0';
+        }
+        
+        if (line[0] == '\0') break;
+        
+        if (parse_log_line(line, entries + entry_count)) {
+            entry_count++;
+        } else {
+            printf("Invalid log format. Use: timestamp level message\n");
+        }
+    }
+    
+    if (entry_count == 0) {
+        printf("No valid log entries provided.\n");
+        return 1;
+    }
+    
+    printf("\nLog Analysis Results:\n");
+    printf("Total entries: %d\n", entry_count);
+    
+    const char *levels[] = {"INFO", "WARN", "ERROR", "DEBUG"};
+    int level_count = sizeof(levels) / sizeof(levels[0]);
+    
+    for (int i = 0; i < level_count; i++) {
+        int count = count_log_level(entries, entry_count, levels[i]);
+        printf("%s: %d\n", levels[i], count);
+    }
+    
+    printf("\nEnter level to filter (INFO/WARN/ERROR/DEBUG): ");
+    if (fgets(line, sizeof(line), stdin) != NULL) {
+        size_t len = strlen(line);
+        if (len > 0 && line[len - 1] == '\n') {
+            line[len - 1] = '\0';
+        }
+        
+        int valid_level = 0;
+        for (int i = 0; i < level_count; i++) {
+            if (strcmp(line, levels[i]) == 0) {
+                valid_level = 1;
+                break;
+            }
+        }
+        
+        if (valid_level) {
+            printf("\nEntries with level %s:\n", line);
+            print_entries_by_level(entries, entry_count, line);
+        } else {
+            printf("Invalid level specified.\n");
+        }
+    }
+    
+    return 0;
+}

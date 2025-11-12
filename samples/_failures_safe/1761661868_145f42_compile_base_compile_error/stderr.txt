@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_eb30267b.c: In function ‘main’:
+./samples/SAFE/__tmp_eb30267b.c:125:5: error: expected expression at end of input
+  125 |     matrix_init(&mat2,
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_eb30267b.c:125:5: error: too few arguments to function ‘matrix_init’
+./samples/SAFE/__tmp_eb30267b.c:18:6: note: declared here
+   18 | void matrix_init(Matrix *m, int rows, int cols) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_eb30267b.c:125:5: error: expected declaration or statement at end of input
+  125 |     matrix_init(&mat2,
+      |     ^~~~~~~~~~~

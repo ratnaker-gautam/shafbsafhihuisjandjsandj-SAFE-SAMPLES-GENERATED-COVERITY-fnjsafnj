@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_18cbd9ab.c: In function ‘main’:
+./samples/SAFE/__tmp_18cbd9ab.c:139:9: error: expected expression at end of input
+  139 |         if (src < 0 || src >= num_nodes || dest < 0 || dest >= num_nodes || weight <
+      |         ^~
+./samples/SAFE/__tmp_18cbd9ab.c:139:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_18cbd9ab.c:139:9: error: expected declaration or statement at end of input

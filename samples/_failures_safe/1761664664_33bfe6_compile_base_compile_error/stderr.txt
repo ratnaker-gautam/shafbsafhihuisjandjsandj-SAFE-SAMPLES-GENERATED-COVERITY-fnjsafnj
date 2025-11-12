@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a5609a68.c: In function ‘get_user_event’:
+./samples/SAFE/__tmp_a5609a68.c:166:13: error: expected declaration or statement at end of input
+  166 |             break;
+      |             ^~~~~
+./samples/SAFE/__tmp_a5609a68.c:166:13: error: expected declaration or statement at end of input

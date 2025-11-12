@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0b139ccd.c: In function ‘create_parser_node’:
+./samples/SAFE/__tmp_0b139ccd.c:154:9: error: expected ‘;’ at end of input
+  154 |     node
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_0b139ccd.c:154:5: error: expected declaration or statement at end of input
+  154 |     node
+      |     ^~~~

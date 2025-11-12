@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_ac5144a9.c: In function ‘main’:
+./samples/SAFE/__tmp_ac5144a9.c:117:22: error: missing terminating " character
+  117 |     cols2 = read_int("Enter
+      |                      ^~~~~~
+./samples/SAFE/__tmp_ac5144a9.c:117:5: error: expected expression at end of input
+  117 |     cols2 = read_int("Enter
+      |     ^~~~~
+./samples/SAFE/__tmp_ac5144a9.c:117:13: error: too few arguments to function ‘read_int’
+  117 |     cols2 = read_int("Enter
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_ac5144a9.c:74:5: note: declared here
+   74 | int read_int(const char* prompt, int min_val, int max_val) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_ac5144a9.c:117:5: error: expected declaration or statement at end of input
+  117 |     cols2 = read_int("Enter
+      |     ^~~~~

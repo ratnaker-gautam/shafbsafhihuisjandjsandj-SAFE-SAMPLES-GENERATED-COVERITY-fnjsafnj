@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_69898546.c: In function ‘compute_bounds’:
+./samples/SAFE/__tmp_69898546.c:115:33: error: invalid operands to binary > (have ‘double’ and ‘struct Mesh *’)
+  115 |         if (mesh->vertices[i].y > mesh
+      |             ~~~~~~~~~~~~~~~~~~~ ^
+      |                              |
+      |                              double
+./samples/SAFE/__tmp_69898546.c:115:39: error: expected ‘)’ at end of input
+  115 |         if (mesh->vertices[i].y > mesh
+      |            ~                          ^
+      |                                       )
+./samples/SAFE/__tmp_69898546.c:115:9: error: expected declaration or statement at end of input
+  115 |         if (mesh->vertices[i].y > mesh
+      |         ^~
+./samples/SAFE/__tmp_69898546.c:115:9: error: expected declaration or statement at end of input

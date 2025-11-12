@@ -1,0 +1,163 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: heap_stack_mix ; Variation: graph_algorithms
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
+
+#define MAX_NODES 100
+#define MAX_EDGES 1000
+
+typedef struct {
+    int u, v, weight;
+} Edge;
+
+typedef struct {
+    int node, dist;
+} HeapNode;
+
+typedef struct {
+    HeapNode* data;
+    int size;
+    int capacity;
+} MinHeap;
+
+MinHeap* create_heap(int capacity) {
+    MinHeap* heap = malloc(sizeof(MinHeap));
+    if (!heap) return NULL;
+    heap->data = malloc(capacity * sizeof(HeapNode));
+    if (!heap->data) {
+        free(heap);
+        return NULL;
+    }
+    heap->size = 0;
+    heap->capacity = capacity;
+    return heap;
+}
+
+void free_heap(MinHeap* heap) {
+    if (heap) {
+        free(heap->data);
+        free(heap);
+    }
+}
+
+void heap_swap(HeapNode* a, HeapNode* b) {
+    HeapNode temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+void heapify_up(MinHeap* heap, int idx) {
+    while (idx > 0) {
+        int parent = (idx - 1) / 2;
+        if (heap->data[parent].dist <= heap->data[idx].dist) break;
+        heap_swap(&heap->data[parent], &heap->data[idx]);
+        idx = parent;
+    }
+}
+
+void heapify_down(MinHeap* heap, int idx) {
+    while (1) {
+        int left = 2 * idx + 1;
+        int right = 2 * idx + 2;
+        int smallest = idx;
+        
+        if (left < heap->size && heap->data[left].dist < heap->data[smallest].dist)
+            smallest = left;
+        if (right < heap->size && heap->data[right].dist < heap->data[smallest].dist)
+            smallest = right;
+        
+        if (smallest == idx) break;
+        heap_swap(&heap->data[idx], &heap->data[smallest]);
+        idx = smallest;
+    }
+}
+
+void heap_push(MinHeap* heap, int node, int dist) {
+    if (!heap || heap->size >= heap->capacity) return;
+    heap->data[heap->size].node = node;
+    heap->data[heap->size].dist = dist;
+    heapify_up(heap, heap->size);
+    heap->size++;
+}
+
+HeapNode heap_pop(MinHeap* heap) {
+    HeapNode result;
+    if (!heap || heap->size == 0) {
+        result.node = -1;
+        result.dist = INT_MAX;
+        return result;
+    }
+    result = heap->data[0];
+    heap->size--;
+    if (heap->size > 0) {
+        heap->data[0] = heap->data[heap->size];
+        heapify_down(heap, 0);
+    }
+    return result;
+}
+
+int is_heap_empty(MinHeap* heap) {
+    return !heap || heap->size == 0;
+}
+
+void dijkstra(int graph[MAX_NODES][MAX_NODES], int n, int start, int distances[MAX_NODES]) {
+    for (int i = 0; i < n; i++) distances[i] = INT_MAX;
+    distances[start] = 0;
+    
+    MinHeap* heap = create_heap(MAX_NODES);
+    if (!heap) return;
+    
+    heap_push(heap, start, 0);
+    
+    while (!is_heap_empty(heap)) {
+        HeapNode current = heap_pop(heap);
+        int u = current.node;
+        if (u == -1) break;
+        
+        for (int v = 0; v < n; v++) {
+            if (graph[u][v] != 0) {
+                if (distances[u] < INT_MAX - graph[u][v]) {
+                    int new_dist = distances[u] + graph[u][v];
+                    if (new_dist < distances[v]) {
+                        distances[v] = new_dist;
+                        heap_push(heap, v, new_dist);
+                    }
+                }
+            }
+        }
+    }
+    
+    free_heap(heap);
+}
+
+int main() {
+    int graph[MAX_NODES][MAX_NODES] = {0};
+    int n, m;
+    
+    printf("Enter number of nodes (1-%d): ", MAX_NODES);
+    if (scanf("%d", &n) != 1 || n < 1 || n > MAX_NODES) {
+        printf("Invalid number of nodes\n");
+        return 1;
+    }
+    
+    printf("Enter number of edges: ");
+    if (scanf("%d", &m) != 1 || m < 0 || m > MAX_EDGES) {
+        printf("Invalid number of edges\n");
+        return 1;
+    }
+    
+    printf("Enter edges as 'u v weight' (0-indexed):\n");
+    for (int i = 0; i < m; i++) {
+        int u, v, w;
+        if (scanf("%d %d %d", &u, &v, &w) != 3) {
+            printf("Invalid edge format\n");
+            return 1;
+        }
+        if (u < 0 || u >= n || v < 0 || v >= n) {
+            printf("Invalid node index\n");
+            return 1;
+        }
+        if (w < 0) {
+            printf("Negative weights not allowed\n");
+            return 1;

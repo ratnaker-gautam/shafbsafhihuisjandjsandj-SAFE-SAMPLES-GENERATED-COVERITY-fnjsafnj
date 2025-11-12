@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3044604a.c: In function ‘main’:
+./samples/SAFE/__tmp_3044604a.c:152:9: error: expected expression at end of input
+  152 |         memcmp(decompressed.data, input_data, input_len) ==
+      |         ^~~~~~
+./samples/SAFE/__tmp_3044604a.c:152:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4cab02b9.c: In function ‘main’:
+./samples/SAFE/__tmp_4cab02b9.c:155:5: error: expected expression at end of input
+  155 |     mat2.cols = read_int("Enter columns (1-100): ", 1,
+      |     ^~~~
+./samples/SAFE/__tmp_4cab02b9.c:155:5: error: expected declaration or statement at end of input

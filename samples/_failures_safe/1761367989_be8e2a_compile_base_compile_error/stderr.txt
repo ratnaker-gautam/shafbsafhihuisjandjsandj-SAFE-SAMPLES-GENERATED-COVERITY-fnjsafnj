@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1ca92428.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_1ca92428.c:112:17: error: expected expression at end of input
+  112 |                 C[i][j] +=
+      |                 ^
+./samples/SAFE/__tmp_1ca92428.c:112:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1ca92428.c:112:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1ca92428.c:112:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1ca92428.c:112:17: error: expected declaration or statement at end of input

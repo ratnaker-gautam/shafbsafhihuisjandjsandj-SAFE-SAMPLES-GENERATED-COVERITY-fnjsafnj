@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_86b510b6.c: In function ‘main’:
+./samples/SAFE/__tmp_86b510b6.c:147:52: error: ‘input_b’ undeclared (first use in this function); did you mean ‘input_buf’?
+  147 |     double ratio = (compressed_buf.size * 100.0) / input_b
+      |                                                    ^~~~~~~
+      |                                                    input_buf
+./samples/SAFE/__tmp_86b510b6.c:147:52: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_86b510b6.c:147:5: error: expected ‘,’ or ‘;’ at end of input
+  147 |     double ratio = (compressed_buf.size * 100.0) / input_b
+      |     ^~~~~~
+./samples/SAFE/__tmp_86b510b6.c:147:5: error: expected declaration or statement at end of input

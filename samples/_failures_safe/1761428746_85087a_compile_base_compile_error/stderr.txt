@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_fa98bc29.c: In function ‘matrix_determinant_recursive’:
+./samples/SAFE/__tmp_fa98bc29.c:142:9: error: expected ‘{’ at end of input
+  142 |         struct
+      |         ^~~~~~
+./samples/SAFE/__tmp_fa98bc29.c:142:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fa98bc29.c:142:9: error: expected declaration or statement at end of input

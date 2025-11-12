@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ab0df8f4.c: In function ‘main’:
+./samples/SAFE/__tmp_ab0df8f4.c:151:76: error: expected ‘]’ at end of input
+  151 |                                level_to_string(entries[i].level), entries[i
+      |                                                                            ^
+      |                                                                            ]
+./samples/SAFE/__tmp_ab0df8f4.c:151:32: error: expected declaration or statement at end of input
+  151 |                                level_to_string(entries[i].level), entries[i
+      |                                ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ab0df8f4.c:151:32: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ab0df8f4.c:151:32: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ab0df8f4.c:151:32: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ab0df8f4.c:151:32: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ab0df8f4.c:151:32: error: expected declaration or statement at end of input

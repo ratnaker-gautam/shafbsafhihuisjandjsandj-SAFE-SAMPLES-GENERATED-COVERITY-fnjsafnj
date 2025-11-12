@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_fd909535.c: In function ‘main’:
+./samples/SAFE/__tmp_fd909535.c:152:5: error: ‘execute’ undeclared (first use in this function)
+  152 |     execute
+      |     ^~~~~~~
+./samples/SAFE/__tmp_fd909535.c:152:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fd909535.c:152:12: error: expected ‘;’ at end of input
+  152 |     execute
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_fd909535.c:152:5: error: expected declaration or statement at end of input
+  152 |     execute
+      |     ^~~~~~~

@@ -1,0 +1,128 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: recursion ; Variation: graph_algorithms
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
+#define MAX_NODES 100
+
+struct Graph {
+    int nodes;
+    int adj[MAX_NODES][MAX_NODES];
+};
+
+void init_graph(struct Graph *g, int nodes) {
+    if (nodes <= 0 || nodes > MAX_NODES) {
+        nodes = MAX_NODES;
+    }
+    g->nodes = nodes;
+    for (int i = 0; i < nodes; i++) {
+        for (int j = 0; j < nodes; j++) {
+            g->adj[i][j] = 0;
+        }
+    }
+}
+
+void add_edge(struct Graph *g, int u, int v) {
+    if (u < 0 || u >= g->nodes || v < 0 || v >= g->nodes) {
+        return;
+    }
+    g->adj[u][v] = 1;
+    g->adj[v][u] = 1;
+}
+
+void dfs_recursive(struct Graph *g, int node, int visited[]) {
+    if (node < 0 || node >= g->nodes || visited[node]) {
+        return;
+    }
+    visited[node] = 1;
+    printf("%d ", node);
+    for (int i = 0; i < g->nodes; i++) {
+        if (g->adj[node][i] && !visited[i]) {
+            dfs_recursive(g, i, visited);
+        }
+    }
+}
+
+void depth_first_search(struct Graph *g, int start) {
+    if (start < 0 || start >= g->nodes) {
+        printf("Invalid start node\n");
+        return;
+    }
+    int visited[MAX_NODES] = {0};
+    printf("DFS traversal from node %d: ", start);
+    dfs_recursive(g, start, visited);
+    printf("\n");
+}
+
+int is_connected_recursive(struct Graph *g, int node, int visited[]) {
+    if (node < 0 || node >= g->nodes) {
+        return 1;
+    }
+    visited[node] = 1;
+    int count = 1;
+    for (int i = 0; i < g->nodes; i++) {
+        if (g->adj[node][i] && !visited[i]) {
+            count += is_connected_recursive(g, i, visited);
+        }
+    }
+    return count;
+}
+
+int is_graph_connected(struct Graph *g) {
+    if (g->nodes == 0) {
+        return 1;
+    }
+    int visited[MAX_NODES] = {0};
+    int reached = is_connected_recursive(g, 0, visited);
+    return reached == g->nodes;
+}
+
+int main() {
+    struct Graph g;
+    int nodes, edges;
+    
+    printf("Enter number of nodes (1-%d): ", MAX_NODES);
+    if (scanf("%d", &nodes) != 1 || nodes < 1 || nodes > MAX_NODES) {
+        printf("Invalid number of nodes\n");
+        return 1;
+    }
+    
+    init_graph(&g, nodes);
+    
+    printf("Enter number of edges: ");
+    if (scanf("%d", &edges) != 1 || edges < 0) {
+        printf("Invalid number of edges\n");
+        return 1;
+    }
+    
+    printf("Enter edges (u v) for %d edges:\n", edges);
+    for (int i = 0; i < edges; i++) {
+        int u, v;
+        if (scanf("%d %d", &u, &v) != 2) {
+            printf("Invalid edge input\n");
+            return 1;
+        }
+        if (u < 0 || u >= nodes || v < 0 || v >= nodes) {
+            printf("Invalid node in edge\n");
+            return 1;
+        }
+        add_edge(&g, u, v);
+    }
+    
+    int start_node;
+    printf("Enter start node for DFS: ");
+    if (scanf("%d", &start_node) != 1 || start_node < 0 || start_node >= nodes) {
+        printf("Invalid start node\n");
+        return 1;
+    }
+    
+    depth_first_search(&g, start_node);
+    
+    if (is_graph_connected(&g)) {
+        printf("Graph is connected\n");
+    } else {
+        printf("Graph is not connected\n");
+    }
+    
+    return 0;
+}

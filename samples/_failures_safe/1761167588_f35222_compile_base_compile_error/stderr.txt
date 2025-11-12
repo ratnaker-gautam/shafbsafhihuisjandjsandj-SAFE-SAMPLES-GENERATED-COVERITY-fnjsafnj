@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d59e714a.c: In function ‘parse_statement’:
+./samples/SAFE/__tmp_d59e714a.c:170:45: error: expected ‘)’ at end of input
+  170 |     if (expect_token(state, TOKEN_IDENTIFIER
+      |                     ~                       ^
+      |                                             )
+./samples/SAFE/__tmp_d59e714a.c:170:5: error: expected declaration or statement at end of input
+  170 |     if (expect_token(state, TOKEN_IDENTIFIER
+      |     ^~

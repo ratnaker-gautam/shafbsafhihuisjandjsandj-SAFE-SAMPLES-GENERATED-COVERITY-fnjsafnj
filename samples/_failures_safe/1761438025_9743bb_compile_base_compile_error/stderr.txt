@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_29093568.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_29093568.c:195:5: error: expected identifier at end of input
+  195 |     start->
+      |     ^~~~~
+./samples/SAFE/__tmp_29093568.c:195:5: error: expected declaration or statement at end of input

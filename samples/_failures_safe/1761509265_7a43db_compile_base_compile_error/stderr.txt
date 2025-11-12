@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b00b2c1c.c: In function ‘main’:
+./samples/SAFE/__tmp_b00b2c1c.c:162:5: error: expected declaration or statement at end of input
+  162 |     size_t token_count = 0;
+      |     ^~~~~~

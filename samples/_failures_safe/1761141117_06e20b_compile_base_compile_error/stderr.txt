@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_73700751.c: In function ‘main’:
+./samples/SAFE/__tmp_73700751.c:183:45: error: expected ‘)’ at end of input
+  183 |     printf("Tokens found: %d\n", token_count
+      |           ~                                 ^
+      |                                             )
+./samples/SAFE/__tmp_73700751.c:183:5: error: expected declaration or statement at end of input
+  183 |     printf("Tokens found: %d\n", token_count
+      |     ^~~~~~

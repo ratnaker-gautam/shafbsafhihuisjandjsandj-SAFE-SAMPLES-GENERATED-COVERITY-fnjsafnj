@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d65b7823.c: In function ‘main’:
+./samples/SAFE/__tmp_d65b7823.c:123:54: error: expected ‘]’ at end of input
+  123 |         printf("%d: [%s] %s - %s\n", i + 1, entries[i
+      |                                                      ^
+      |                                                      ]
+./samples/SAFE/__tmp_d65b7823.c:123:9: error: expected declaration or statement at end of input
+  123 |         printf("%d: [%s] %s - %s\n", i + 1, entries[i
+      |         ^~~~~~
+./samples/SAFE/__tmp_d65b7823.c:123:9: error: expected declaration or statement at end of input

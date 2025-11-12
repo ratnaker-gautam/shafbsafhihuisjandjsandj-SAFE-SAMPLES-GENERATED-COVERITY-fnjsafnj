@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b2954e83.c: In function ‘initialize_state_machine’:
+./samples/SAFE/__tmp_b2954e83.c:145:22: error: expected ‘;’ at end of input
+  145 |     sm->current_state
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_b2954e83.c:145:5: error: expected declaration or statement at end of input
+  145 |     sm->current_state
+      |     ^~

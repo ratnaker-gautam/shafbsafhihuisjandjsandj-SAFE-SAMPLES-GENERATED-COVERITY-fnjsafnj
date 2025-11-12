@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_d442cd07.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_d442cd07.c:163:9: error: expected expression at end of input
+  163 |         memcpy(string_lit, &
+      |         ^~~~~~
+./samples/SAFE/__tmp_d442cd07.c:163:9: error: too few arguments to function ‘memcpy’
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_d442cd07.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:26:1: note: declared here
+   26 | __NTH (memcpy (void *__restrict __dest, const void *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_d442cd07.c:163:9: error: expected declaration or statement at end of input
+  163 |         memcpy(string_lit, &
+      |         ^~~~~~
+./samples/SAFE/__tmp_d442cd07.c:163:9: error: expected declaration or statement at end of input

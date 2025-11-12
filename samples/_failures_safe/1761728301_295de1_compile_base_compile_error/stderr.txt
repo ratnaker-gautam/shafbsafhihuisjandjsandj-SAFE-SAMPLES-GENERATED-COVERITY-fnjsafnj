@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_688ca6a8.c: In function ‘main’:
+./samples/SAFE/__tmp_688ca6a8.c:134:5: error: expected declaration or statement at end of input
+  134 |     printf("3: Transpose\n");
+      |     ^~~~~~

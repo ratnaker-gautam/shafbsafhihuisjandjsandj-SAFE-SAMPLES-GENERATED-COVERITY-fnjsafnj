@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e146e05d.c: In function ‘get_next_event’:
+./samples/SAFE/__tmp_e146e05d.c:180:9: error: expected declaration or statement at end of input
+  180 |         case STATE_IDLE:
+      |         ^~~~
+./samples/SAFE/__tmp_e146e05d.c:180:9: error: expected declaration or statement at end of input

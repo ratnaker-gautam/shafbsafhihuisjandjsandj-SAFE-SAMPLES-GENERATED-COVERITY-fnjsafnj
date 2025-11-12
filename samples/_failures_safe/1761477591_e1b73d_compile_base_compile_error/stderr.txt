@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_70fb43d2.c: In function ‘print_current_state’:
+./samples/SAFE/__tmp_70fb43d2.c:148:13: error: expected identifier at end of input
+  148 |             printf("Current state: %s (ID: %d)\n", sm->
+      |             ^~~~~~
+./samples/SAFE/__tmp_70fb43d2.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_70fb43d2.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_70fb43d2.c:148:13: error: expected declaration or statement at end of input

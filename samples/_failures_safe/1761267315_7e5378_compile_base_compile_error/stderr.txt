@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_505f01bc.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_505f01bc.c:177:16: error: expected declaration or statement at end of input
+  177 |         struct Edge* edge = g->vertices[i].edges;
+      |                ^~~~
+./samples/SAFE/__tmp_505f01bc.c:177:16: error: expected declaration or statement at end of input

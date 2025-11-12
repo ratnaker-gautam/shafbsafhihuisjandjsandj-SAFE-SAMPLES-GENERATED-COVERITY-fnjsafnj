@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_759a118e.c: In function ‘handle_error_state’:
+./samples/SAFE/__tmp_759a118e.c:148:5: error: expected expression at end of input
+  148 |     ctx->output_length =
+      |     ^~~
+./samples/SAFE/__tmp_759a118e.c:148:5: error: expected declaration or statement at end of input

@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_52b492b7.c: In function ‘main’:
+./samples/SAFE/__tmp_52b492b7.c:146:15: error: ‘decomp’ undeclared (first use in this function)
+  146 |     print_hex(decomp
+      |               ^~~~~~
+./samples/SAFE/__tmp_52b492b7.c:146:15: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_52b492b7.c:146:21: error: expected ‘)’ at end of input
+  146 |     print_hex(decomp
+      |              ~      ^
+      |                     )
+./samples/SAFE/__tmp_52b492b7.c:146:5: error: too few arguments to function ‘print_hex’
+  146 |     print_hex(decomp
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_52b492b7.c:89:6: note: declared here
+   89 | void print_hex(const uint8_t* data, size_t len) {
+      |      ^~~~~~~~~
+./samples/SAFE/__tmp_52b492b7.c:146:5: error: expected declaration or statement at end of input
+  146 |     print_hex(decomp
+      |     ^~~~~~~~~

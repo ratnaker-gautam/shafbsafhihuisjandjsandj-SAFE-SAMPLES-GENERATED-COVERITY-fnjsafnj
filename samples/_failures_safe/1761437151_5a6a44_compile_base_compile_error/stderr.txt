@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_ff5d8c8f.c: In function ‘main’:
+./samples/SAFE/__tmp_ff5d8c8f.c:119:46: error: expected ‘)’ at end of input
+  119 |             print_matrix(rows1, cols2, result
+      |                         ~                    ^
+      |                                              )
+./samples/SAFE/__tmp_ff5d8c8f.c:119:13: error: expected declaration or statement at end of input
+  119 |             print_matrix(rows1, cols2, result
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_ff5d8c8f.c:119:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ff5d8c8f.c:119:13: error: expected declaration or statement at end of input

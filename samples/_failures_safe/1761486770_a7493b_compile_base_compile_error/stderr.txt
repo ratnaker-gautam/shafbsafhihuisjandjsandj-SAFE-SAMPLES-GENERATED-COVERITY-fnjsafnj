@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9f99f832.c: In function ‘main’:
+./samples/SAFE/__tmp_9f99f832.c:164:64: error: expected ‘)’ at end of input
+  164 |                (float)(input_len - compressed_size) / input_len
+      |                                                                ^
+      |                                                                )
+./samples/SAFE/__tmp_9f99f832.c:163:15: note: to match this ‘(’
+  163 |         printf("Compression ratio: %.2f%%\n",
+      |               ^
+./samples/SAFE/__tmp_9f99f832.c:164:16: error: expected declaration or statement at end of input
+  164 |                (float)(input_len - compressed_size) / input_len
+      |                ^
+./samples/SAFE/__tmp_9f99f832.c:164:16: error: expected declaration or statement at end of input

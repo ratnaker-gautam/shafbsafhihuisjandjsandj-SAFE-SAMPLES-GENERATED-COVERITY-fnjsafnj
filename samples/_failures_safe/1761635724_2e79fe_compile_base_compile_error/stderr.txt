@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_474b1b37.c: In function ‘main’:
+./samples/SAFE/__tmp_474b1b37.c:175:43: error: ‘MAX_IN’ undeclared (first use in this function)
+  175 |     printf("Enter text (max %d chars): ", MAX_IN
+      |                                           ^~~~~~
+./samples/SAFE/__tmp_474b1b37.c:175:43: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_474b1b37.c:175:49: error: expected ‘)’ at end of input
+  175 |     printf("Enter text (max %d chars): ", MAX_IN
+      |           ~                                     ^
+      |                                                 )
+./samples/SAFE/__tmp_474b1b37.c:175:5: error: expected declaration or statement at end of input
+  175 |     printf("Enter text (max %d chars): ", MAX_IN
+      |     ^~~~~~

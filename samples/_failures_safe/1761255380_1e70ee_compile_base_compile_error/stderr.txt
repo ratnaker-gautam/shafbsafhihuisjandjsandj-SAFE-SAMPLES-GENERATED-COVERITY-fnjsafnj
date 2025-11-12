@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_17e8e327.c: In function ‘main’:
+./samples/SAFE/__tmp_17e8e327.c:126:5: error: expected declaration or statement at end of input
+  126 |     char input[MAX_INPUT_LEN + 1];
+      |     ^~~~

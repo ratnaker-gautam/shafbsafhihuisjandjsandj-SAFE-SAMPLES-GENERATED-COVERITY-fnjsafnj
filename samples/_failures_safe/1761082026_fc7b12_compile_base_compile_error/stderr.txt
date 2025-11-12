@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_18101741.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_18101741.c:166:55: error: ‘TOKEN_IDENT’ undeclared (first use in this function); did you mean ‘TOKEN_IDENTIFIER’?
+  166 |     if (token->type == TOKEN_NUMBER || token->type == TOKEN_IDENT
+      |                                                       ^~~~~~~~~~~
+      |                                                       TOKEN_IDENTIFIER
+./samples/SAFE/__tmp_18101741.c:166:55: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_18101741.c:166:66: error: expected ‘)’ at end of input
+  166 |     if (token->type == TOKEN_NUMBER || token->type == TOKEN_IDENT
+      |        ~                                                         ^
+      |                                                                  )
+./samples/SAFE/__tmp_18101741.c:166:5: error: expected declaration or statement at end of input
+  166 |     if (token->type == TOKEN_NUMBER || token->type == TOKEN_IDENT
+      |     ^~

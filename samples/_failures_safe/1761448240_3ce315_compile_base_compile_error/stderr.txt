@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c276a6b0.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_c276a6b0.c:171:5: error: expected declaration or statement at end of input
+  171 |     token->type = TOKEN_UNKNOWN;
+      |     ^~~~~

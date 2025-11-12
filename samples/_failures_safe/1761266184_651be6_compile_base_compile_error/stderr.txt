@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_5a49dfd5.c: In function ‘main’:
+./samples/SAFE/__tmp_5a49dfd5.c:145:5: error: ‘show’ undeclared (first use in this function)
+  145 |     show
+      |     ^~~~
+./samples/SAFE/__tmp_5a49dfd5.c:145:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5a49dfd5.c:145:9: error: expected ‘;’ at end of input
+  145 |     show
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_5a49dfd5.c:145:5: error: expected declaration or statement at end of input
+  145 |     show
+      |     ^~~~

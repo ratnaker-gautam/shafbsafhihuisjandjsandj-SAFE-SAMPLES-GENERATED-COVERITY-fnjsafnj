@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e865cf91.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_e865cf91.c:132:17: error: expected expression at end of input
+  132 |                 if (a->data[i * a->cols + k] != 0 &&
+      |                 ^~
+./samples/SAFE/__tmp_e865cf91.c:132:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e865cf91.c:132:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e865cf91.c:132:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e865cf91.c:132:17: error: expected declaration or statement at end of input

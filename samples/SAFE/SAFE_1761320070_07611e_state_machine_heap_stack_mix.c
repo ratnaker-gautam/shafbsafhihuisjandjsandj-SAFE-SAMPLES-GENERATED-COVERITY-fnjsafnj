@@ -1,0 +1,150 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: heap_stack_mix ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MAX_STATES 10
+#define MAX_TRANSITIONS 20
+#define MAX_INPUT_LEN 100
+
+typedef enum {
+    STATE_A,
+    STATE_B,
+    STATE_C,
+    STATE_D,
+    STATE_E
+} State;
+
+typedef struct {
+    State current;
+    char input;
+    State next;
+} Transition;
+
+typedef struct {
+    State current_state;
+    Transition *transitions;
+    int transition_count;
+    State *valid_states;
+    int state_count;
+} StateMachine;
+
+StateMachine* create_state_machine(void) {
+    StateMachine *sm = malloc(sizeof(StateMachine));
+    if (!sm) return NULL;
+    
+    sm->transition_count = 5;
+    sm->transitions = malloc(sizeof(Transition) * sm->transition_count);
+    if (!sm->transitions) {
+        free(sm);
+        return NULL;
+    }
+    
+    sm->transitions[0] = (Transition){STATE_A, '0', STATE_B};
+    sm->transitions[1] = (Transition){STATE_A, '1', STATE_C};
+    sm->transitions[2] = (Transition){STATE_B, '1', STATE_D};
+    sm->transitions[3] = (Transition){STATE_C, '0', STATE_D};
+    sm->transitions[4] = (Transition){STATE_D, '0', STATE_E};
+    
+    sm->state_count = 5;
+    sm->valid_states = malloc(sizeof(State) * sm->state_count);
+    if (!sm->valid_states) {
+        free(sm->transitions);
+        free(sm);
+        return NULL;
+    }
+    
+    sm->valid_states[0] = STATE_A;
+    sm->valid_states[1] = STATE_B;
+    sm->valid_states[2] = STATE_C;
+    sm->valid_states[3] = STATE_D;
+    sm->valid_states[4] = STATE_E;
+    
+    sm->current_state = STATE_A;
+    return sm;
+}
+
+void destroy_state_machine(StateMachine *sm) {
+    if (sm) {
+        free(sm->transitions);
+        free(sm->valid_states);
+        free(sm);
+    }
+}
+
+int is_valid_state(StateMachine *sm, State state) {
+    for (int i = 0; i < sm->state_count; i++) {
+        if (sm->valid_states[i] == state) {
+            return 1;
+        }
+    }
+    return 0;
+}
+
+State process_input(StateMachine *sm, char input) {
+    if (!sm || !is_valid_state(sm, sm->current_state)) {
+        return sm ? sm->current_state : STATE_A;
+    }
+    
+    for (int i = 0; i < sm->transition_count; i++) {
+        if (sm->transitions[i].current == sm->current_state && 
+            sm->transitions[i].input == input) {
+            if (is_valid_state(sm, sm->transitions[i].next)) {
+                sm->current_state = sm->transitions[i].next;
+                break;
+            }
+        }
+    }
+    
+    return sm->current_state;
+}
+
+void print_state(State state) {
+    switch (state) {
+        case STATE_A: printf("State A"); break;
+        case STATE_B: printf("State B"); break;
+        case STATE_C: printf("State C"); break;
+        case STATE_D: printf("State D"); break;
+        case STATE_E: printf("State E"); break;
+        default: printf("Unknown State"); break;
+    }
+}
+
+int main(void) {
+    StateMachine *sm = create_state_machine();
+    if (!sm) {
+        fprintf(stderr, "Failed to create state machine\n");
+        return 1;
+    }
+    
+    char input_buffer[MAX_INPUT_LEN];
+    printf("State Machine Simulation (enter 'q' to quit)\n");
+    printf("Valid inputs: '0' or '1'\n");
+    printf("Current state: ");
+    print_state(sm->current_state);
+    printf("\n");
+    
+    while (1) {
+        printf("Enter input: ");
+        if (!fgets(input_buffer, sizeof(input_buffer), stdin)) {
+            break;
+        }
+        
+        if (input_buffer[0] == 'q' && (input_buffer[1] == '\n' || input_buffer[1] == '\0')) {
+            break;
+        }
+        
+        if (strlen(input_buffer) != 2 || (input_buffer[0] != '0' && input_buffer[0] != '1') || input_buffer[1] != '\n') {
+            printf("Invalid input. Please enter '0', '1', or 'q' to quit.\n");
+            continue;
+        }
+        
+        State new_state = process_input(sm, input_buffer[0]);
+        printf("New state: ");
+        print_state(new_state);
+        printf("\n");
+    }
+    
+    destroy_state_machine(sm);
+    return 0;
+}

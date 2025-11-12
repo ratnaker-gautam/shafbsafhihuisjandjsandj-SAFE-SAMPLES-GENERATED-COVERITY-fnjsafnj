@@ -1,0 +1,171 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: modular_functions ; Variation: compression_stub
+#include <stdio.h>
+#include <stdint.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+#define MAX_INPUT_SIZE 1024
+#define MAX_OUTPUT_SIZE 2048
+
+typedef struct {
+    uint8_t data[MAX_INPUT_SIZE];
+    size_t size;
+} Buffer;
+
+int validate_input(const uint8_t* input, size_t size) {
+    if (input == NULL || size == 0 || size > MAX_INPUT_SIZE) {
+        return 0;
+    }
+    return 1;
+}
+
+size_t compress_rle(const uint8_t* input, size_t input_size, uint8_t* output, size_t output_size) {
+    if (input == NULL || output == NULL || output_size < input_size * 2) {
+        return 0;
+    }
+    
+    size_t output_idx = 0;
+    size_t i = 0;
+    
+    while (i < input_size) {
+        uint8_t current = input[i];
+        size_t count = 1;
+        
+        while (i + count < input_size && count < 255 && input[i + count] == current) {
+            count++;
+        }
+        
+        if (output_idx + 2 > output_size) {
+            return 0;
+        }
+        
+        output[output_idx++] = (uint8_t)count;
+        output[output_idx++] = current;
+        i += count;
+    }
+    
+    return output_idx;
+}
+
+size_t decompress_rle(const uint8_t* input, size_t input_size, uint8_t* output, size_t output_size) {
+    if (input == NULL || output == NULL || input_size % 2 != 0) {
+        return 0;
+    }
+    
+    size_t output_idx = 0;
+    
+    for (size_t i = 0; i < input_size; i += 2) {
+        uint8_t count = input[i];
+        uint8_t value = input[i + 1];
+        
+        if (output_idx + count > output_size) {
+            return 0;
+        }
+        
+        for (uint8_t j = 0; j < count; j++) {
+            output[output_idx++] = value;
+        }
+    }
+    
+    return output_idx;
+}
+
+int process_compression(const Buffer* input, Buffer* output) {
+    if (input == NULL || output == NULL) {
+        return 0;
+    }
+    
+    size_t compressed_size = compress_rle(input->data, input->size, output->data, MAX_OUTPUT_SIZE);
+    if (compressed_size == 0) {
+        return 0;
+    }
+    
+    output->size = compressed_size;
+    return 1;
+}
+
+int process_decompression(const Buffer* input, Buffer* output) {
+    if (input == NULL || output == NULL) {
+        return 0;
+    }
+    
+    size_t decompressed_size = decompress_rle(input->data, input->size, output->data, MAX_OUTPUT_SIZE);
+    if (decompressed_size == 0) {
+        return 0;
+    }
+    
+    output->size = decompressed_size;
+    return 1;
+}
+
+void print_buffer_hex(const Buffer* buffer) {
+    if (buffer == NULL) {
+        return;
+    }
+    
+    for (size_t i = 0; i < buffer->size; i++) {
+        printf("%02X", buffer->data[i]);
+        if ((i + 1) % 16 == 0) {
+            printf("\n");
+        } else if ((i + 1) % 8 == 0) {
+            printf("  ");
+        } else {
+            printf(" ");
+        }
+    }
+    if (buffer->size > 0) {
+        printf("\n");
+    }
+}
+
+int read_input(Buffer* buffer) {
+    if (buffer == NULL) {
+        return 0;
+    }
+    
+    printf("Enter input data (hex characters, max %d bytes): ", MAX_INPUT_SIZE / 2);
+    
+    char hex_input[MAX_INPUT_SIZE * 2 + 1];
+    if (fgets(hex_input, sizeof(hex_input), stdin) == NULL) {
+        return 0;
+    }
+    
+    size_t hex_len = strlen(hex_input);
+    if (hex_len > 0 && hex_input[hex_len - 1] == '\n') {
+        hex_input[--hex_len] = '\0';
+    }
+    
+    if (hex_len % 2 != 0 || hex_len > MAX_INPUT_SIZE * 2) {
+        return 0;
+    }
+    
+    buffer->size = hex_len / 2;
+    
+    for (size_t i = 0; i < buffer->size; i++) {
+        char hex_byte[3] = {hex_input[i * 2], hex_input[i * 2 + 1], '\0'};
+        
+        for (int j = 0; j < 2; j++) {
+            if (!isxdigit((unsigned char)hex_byte[j])) {
+                return 0;
+            }
+        }
+        
+        char* endptr;
+        unsigned long value = strtoul(hex_byte, &endptr, 16);
+        if (endptr == hex_byte || *endptr != '\0' || value > 255) {
+            return 0;
+        }
+        
+        buffer->data[i] = (uint8_t)value;
+    }
+    
+    return 1;
+}
+
+int main(void) {
+    Buffer input_buffer = {0};
+    Buffer output_buffer = {0};
+    
+    printf("RLE Compression/Decompression Tool\n");
+    printf("1. Compress\n

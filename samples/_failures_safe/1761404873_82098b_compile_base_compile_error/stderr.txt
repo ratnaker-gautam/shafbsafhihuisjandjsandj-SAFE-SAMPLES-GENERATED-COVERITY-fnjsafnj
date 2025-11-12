@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a509f9fe.c: In function ‘main’:
+./samples/SAFE/__tmp_a509f9fe.c:153:13: error: expected declaration or statement at end of input
+  153 |             destroy_state_machine(sm);
+      |             ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a509f9fe.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a509f9fe.c:153:13: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_3d5f8b06.c: In function ‘main’:
+./samples/SAFE/__tmp_3d5f8b06.c:189:9: error: ‘current’ undeclared (first use in this function); did you mean ‘current_op’?
+  189 |     if (current
+      |         ^~~~~~~
+      |         current_op
+./samples/SAFE/__tmp_3d5f8b06.c:189:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3d5f8b06.c:189:16: error: expected ‘)’ at end of input
+  189 |     if (current
+      |        ~       ^
+      |                )
+./samples/SAFE/__tmp_3d5f8b06.c:189:5: error: expected declaration or statement at end of input
+  189 |     if (current
+      |     ^~

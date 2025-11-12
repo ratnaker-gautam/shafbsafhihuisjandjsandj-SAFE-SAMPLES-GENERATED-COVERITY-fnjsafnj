@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_63b1f3d9.c: In function ‘skip_whitespace’:
+./samples/SAFE/__tmp_63b1f3d9.c:151:30: error: expected ‘;’ at end of input
+  151 |             tokenizer->column
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_63b1f3d9.c:151:13: error: expected declaration or statement at end of input
+  151 |             tokenizer->column
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_63b1f3d9.c:151:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_63b1f3d9.c:151:13: error: expected declaration or statement at end of input

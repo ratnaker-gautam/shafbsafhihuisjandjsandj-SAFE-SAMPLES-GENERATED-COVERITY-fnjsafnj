@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f6935774.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_f6935774.c:154:13: error: expected declaration or statement at end of input
+  154 |             case STATE_ERROR:
+      |             ^~~~
+./samples/SAFE/__tmp_f6935774.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f6935774.c:154:13: error: expected declaration or statement at end of input

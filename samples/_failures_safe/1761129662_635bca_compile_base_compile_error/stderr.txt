@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2038fd07.c: In function ‘is_valid_level’:
+./samples/SAFE/__tmp_2038fd07.c:136:70: error: expected ‘)’ at end of input
+  136 |     return (strcmp(level, "DEBUG") == 0 || strcmp(level, "INFO") == 0
+      |            ~                                                         ^
+      |                                                                      )
+./samples/SAFE/__tmp_2038fd07.c:136:5: error: expected declaration or statement at end of input
+  136 |     return (strcmp(level, "DEBUG") == 0 || strcmp(level, "INFO") == 0
+      |     ^~~~~~

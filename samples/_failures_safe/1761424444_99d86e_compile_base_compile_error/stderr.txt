@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_bab54874.c: In function ‘main’:
+./samples/SAFE/__tmp_bab54874.c:158:9: error: ‘graph_add’ undeclared (first use in this function)
+  158 |         graph_add
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_bab54874.c:158:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bab54874.c:158:18: error: expected ‘;’ at end of input
+  158 |         graph_add
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_bab54874.c:158:9: error: expected declaration or statement at end of input
+  158 |         graph_add
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_bab54874.c:158:9: error: expected declaration or statement at end of input

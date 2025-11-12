@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_854f9cd9.c: In function ‘main’:
+./samples/SAFE/__tmp_854f9cd9.c:154:9: error: expected declaration or statement at end of input
+  154 |         if (entry_count >= MAX_ENTRIES) {
+      |         ^~
+./samples/SAFE/__tmp_854f9cd9.c:154:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_854f9cd9.c:154:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_15a086ad.c: In function ‘main’:
+./samples/SAFE/__tmp_15a086ad.c:170:5: error: expected expression at end of input
+  170 |     printf("Enter text to tokenize (max %zu characters):\n", sizeof(input) -
+      |     ^~~~~~
+./samples/SAFE/__tmp_15a086ad.c:170:5: error: expected declaration or statement at end of input

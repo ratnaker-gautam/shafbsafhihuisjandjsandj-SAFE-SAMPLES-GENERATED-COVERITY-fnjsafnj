@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2a3566dc.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_2a3566dc.c:171:5: error: expected expression at end of input
+  171 |     if (token_count <
+      |     ^~
+./samples/SAFE/__tmp_2a3566dc.c:171:5: error: expected declaration or statement at end of input

@@ -1,0 +1,53 @@
+
+=================================================================
+==26071==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x70aba6f06434 at pc 0x70aba96c6f8f bp 0x7ffe7ed13a60 sp 0x7ffe7ed13208
+READ of size 1 at 0x70aba6f06434 thread T0
+    #0 0x70aba96c6f8e in strcmp ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:470
+    #1 0x58d6b870fd5d in count_level_occurrences samples/SAFE/__tmp_2924fa80.c:58
+    #2 0x58d6b870ffdc in print_summary samples/SAFE/__tmp_2924fa80.c:76
+    #3 0x58d6b871074b in main samples/SAFE/__tmp_2924fa80.c:119
+    #4 0x70aba8a2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x70aba8a2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x58d6b870f3a4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_2924fa80.c.san+0x43a4) (BuildId: 949a1c87571f08472e11fdb11e9b2e14bc7e0c1e)
+
+Address 0x70aba6f06434 is located in stack of thread T0 at offset 25652 in frame
+    #0 0x58d6b87102cb in main samples/SAFE/__tmp_2924fa80.c:89
+
+  This frame has 2 object(s):
+    [32, 25632) 'entries' (line 90) <== Memory access at offset 25652 overflows this variable
+    [25888, 26144) 'line' (line 96)
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:470 in strcmp
+Shadow bytes around the buggy address:
+  0x70aba6f06180: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x70aba6f06200: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x70aba6f06280: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x70aba6f06300: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x70aba6f06380: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x70aba6f06400: 00 00 00 00 f2 f2[f2]f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x70aba6f06480: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x70aba6f06500: f2 f2 f2 f2 00 00 00 00 00 00 00 00 00 00 00 00
+  0x70aba6f06580: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x70aba6f06600: 00 00 00 00 f3 f3 f3 f3 f3 f3 f3 f3 00 00 00 00
+  0x70aba6f06680: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==26071==ABORTING

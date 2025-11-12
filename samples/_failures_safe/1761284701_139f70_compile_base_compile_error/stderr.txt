@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_333c2fe9.c: In function ‘main’:
+./samples/SAFE/__tmp_333c2fe9.c:143:5: error: expected expression at end of input
+  143 |     double ratio = (double)ctx.header.compressed_size / ctx.header.original_size *
+      |     ^~~~~~
+./samples/SAFE/__tmp_333c2fe9.c:143:5: error: expected declaration or statement at end of input

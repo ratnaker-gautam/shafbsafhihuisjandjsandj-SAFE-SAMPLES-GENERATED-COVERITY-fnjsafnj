@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_7cba8af7.c: In function ‘main’:
+./samples/SAFE/__tmp_7cba8af7.c:157:35: error: ‘s’ undeclared (first use in this function)
+  157 |             destroy_state_machine(s
+      |                                   ^
+./samples/SAFE/__tmp_7cba8af7.c:157:35: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7cba8af7.c:157:36: error: expected ‘)’ at end of input
+  157 |             destroy_state_machine(s
+      |                                  ~ ^
+      |                                    )
+./samples/SAFE/__tmp_7cba8af7.c:157:13: error: expected declaration or statement at end of input
+  157 |             destroy_state_machine(s
+      |             ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_7cba8af7.c:157:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7cba8af7.c:157:13: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_14620bdf.c: In function ‘main’:
+./samples/SAFE/__tmp_14620bdf.c:181:47: error: expected ‘]’ at end of input
+  181 |     process_compression(compressors[choice - 1
+      |                                               ^
+      |                                               ]
+./samples/SAFE/__tmp_14620bdf.c:181:5: error: too few arguments to function ‘process_compression’
+  181 |     process_compression(compressors[choice - 1
+      |     ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_14620bdf.c:108:6: note: declared here
+  108 | void process_compression(CompressFunc compress, DecompressFunc decompress) {
+      |      ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_14620bdf.c:181:5: error: expected declaration or statement at end of input
+  181 |     process_compression(compressors[choice - 1
+      |     ^~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_d91d7b26.c: In function ‘main’:
+./samples/SAFE/__tmp_d91d7b26.c:133:22: error: missing terminating " character
+  133 |     if (!read_size_t("Enter
+      |                      ^~~~~~
+./samples/SAFE/__tmp_d91d7b26.c:133:5: error: expected expression at end of input
+  133 |     if (!read_size_t("Enter
+      |     ^~
+./samples/SAFE/__tmp_d91d7b26.c:133:10: error: too few arguments to function ‘read_size_t’
+  133 |     if (!read_size_t("Enter
+      |          ^~~~~~~~~~~
+./samples/SAFE/__tmp_d91d7b26.c:112:5: note: declared here
+  112 | int read_size_t(const char *prompt, size_t *value) {
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_d91d7b26.c:133:5: error: expected declaration or statement at end of input
+  133 |     if (!read_size_t("Enter
+      |     ^~

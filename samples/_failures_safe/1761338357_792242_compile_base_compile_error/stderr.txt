@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_39747bb2.c: In function ‘main’:
+./samples/SAFE/__tmp_39747bb2.c:146:21: error: expected declaration or statement at end of input
+  146 |                     printf("Matrix addition failed: size mismatch or integer overflow.\n");
+      |                     ^~~~~~
+./samples/SAFE/__tmp_39747bb2.c:146:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_39747bb2.c:146:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_39747bb2.c:146:21: error: expected declaration or statement at end of input

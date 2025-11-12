@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_020d3402.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_020d3402.c:142:16: error: expected declaration or statement at end of input
+  142 |         struct matrix sub;
+      |                ^~~~~~
+./samples/SAFE/__tmp_020d3402.c:142:16: error: expected declaration or statement at end of input

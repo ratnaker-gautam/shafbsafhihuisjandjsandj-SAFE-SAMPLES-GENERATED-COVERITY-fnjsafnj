@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_0f6f6f63.c: In function ‘bfs’:
+./samples/SAFE/__tmp_0f6f6f63.c:180:13: error: expected identifier at end of input
+  180 |             start = graph->
+      |             ^~~~~
+./samples/SAFE/__tmp_0f6f6f63.c:180:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0f6f6f63.c:180:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0f6f6f63.c:180:13: error: expected declaration or statement at end of input

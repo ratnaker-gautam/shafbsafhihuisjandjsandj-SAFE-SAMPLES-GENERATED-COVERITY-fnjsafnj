@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_406bfd04.c: In function ‘main’:
+./samples/SAFE/__tmp_406bfd04.c:140:67: error: ‘node’ undeclared (first use in this function); did you mean ‘node2’?
+  140 |                     printf("Added edge: %s -> %s (weight: %d)\n", node
+      |                                                                   ^~~~
+      |                                                                   node2
+./samples/SAFE/__tmp_406bfd04.c:140:67: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_406bfd04.c:140:71: error: expected ‘)’ at end of input
+  140 |                     printf("Added edge: %s -> %s (weight: %d)\n", node
+      |                           ~                                           ^
+      |                                                                       )
+./samples/SAFE/__tmp_406bfd04.c:140:21: error: expected declaration or statement at end of input
+  140 |                     printf("Added edge: %s -> %s (weight: %d)\n", node
+      |                     ^~~~~~
+./samples/SAFE/__tmp_406bfd04.c:140:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_406bfd04.c:140:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_406bfd04.c:140:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_406bfd04.c:140:21: error: expected declaration or statement at end of input

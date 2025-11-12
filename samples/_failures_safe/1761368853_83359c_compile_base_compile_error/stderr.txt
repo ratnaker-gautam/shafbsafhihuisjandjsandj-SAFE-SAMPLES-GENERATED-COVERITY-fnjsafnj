@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_e3fb0952.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_e3fb0952.c:166:38: error: ‘lex’ undeclared (first use in this function); did you mean ‘lexer’?
+  166 |         token.value[i++] = next_char(lex
+      |                                      ^~~
+      |                                      lexer
+./samples/SAFE/__tmp_e3fb0952.c:166:38: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e3fb0952.c:166:41: error: expected ‘)’ at end of input
+  166 |         token.value[i++] = next_char(lex
+      |                                     ~   ^
+      |                                         )
+./samples/SAFE/__tmp_e3fb0952.c:166:9: error: expected declaration or statement at end of input
+  166 |         token.value[i++] = next_char(lex
+      |         ^~~~~
+./samples/SAFE/__tmp_e3fb0952.c:166:9: error: expected declaration or statement at end of input

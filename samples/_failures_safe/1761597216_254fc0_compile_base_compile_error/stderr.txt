@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b08c4013.c: In function ‘main’:
+./samples/SAFE/__tmp_b08c4013.c:127:53: error: expected ‘)’ at end of input
+  127 |         if (diff_seconds >= 0 && diff_seconds <= 864
+      |            ~                                        ^
+      |                                                     )
+./samples/SAFE/__tmp_b08c4013.c:127:9: error: expected declaration or statement at end of input
+  127 |         if (diff_seconds >= 0 && diff_seconds <= 864
+      |         ^~
+./samples/SAFE/__tmp_b08c4013.c:127:9: error: expected declaration or statement at end of input

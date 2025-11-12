@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_105763cd.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_105763cd.c:165:12: error: expected ‘,’ or ‘;’ at end of input
+  165 |     struct GraphNode *start = NULL
+      |            ^~~~~~~~~
+./samples/SAFE/__tmp_105763cd.c:165:12: error: expected declaration or statement at end of input

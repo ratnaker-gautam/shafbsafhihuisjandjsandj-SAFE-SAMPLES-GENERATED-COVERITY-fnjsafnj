@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8b9beb0b.c: In function ‘main’:
+./samples/SAFE/__tmp_8b9beb0b.c:148:21: error: expected declaration or statement at end of input
+  148 |                     printf("Error: Matrices must have same dimensions for addition.\n");
+      |                     ^~~~~~
+./samples/SAFE/__tmp_8b9beb0b.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8b9beb0b.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8b9beb0b.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8b9beb0b.c:148:21: error: expected declaration or statement at end of input

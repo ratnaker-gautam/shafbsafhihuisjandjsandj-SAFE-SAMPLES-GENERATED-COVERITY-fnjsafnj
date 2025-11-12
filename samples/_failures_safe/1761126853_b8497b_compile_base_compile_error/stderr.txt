@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7d7b5156.c: In function ‘read_log_file’:
+./samples/SAFE/__tmp_7d7b5156.c:147:9: error: expected declaration or statement at end of input
+  147 |         }
+      |         ^
+./samples/SAFE/__tmp_7d7b5156.c:147:9: error: expected declaration or statement at end of input

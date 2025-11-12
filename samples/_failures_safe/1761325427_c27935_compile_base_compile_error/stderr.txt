@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_bec1f4b1.c: In function ‘main’:
+./samples/SAFE/__tmp_bec1f4b1.c:171:9: error: ‘print’ undeclared (first use in this function); did you mean ‘printf’?
+  171 |         print
+      |         ^~~~~
+      |         printf
+./samples/SAFE/__tmp_bec1f4b1.c:171:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bec1f4b1.c:171:14: error: expected ‘;’ at end of input
+  171 |         print
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_bec1f4b1.c:171:9: error: expected declaration or statement at end of input
+  171 |         print
+      |         ^~~~~
+./samples/SAFE/__tmp_bec1f4b1.c:171:9: error: expected declaration or statement at end of input

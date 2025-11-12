@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0d5e1669.c: In function ‘main’:
+./samples/SAFE/__tmp_0d5e1669.c:154:37: error: expected ‘)’ at end of input
+  154 |     if (!parse_text(&analyzer, input
+      |                    ~                ^
+      |                                     )
+./samples/SAFE/__tmp_0d5e1669.c:154:5: error: expected declaration or statement at end of input
+  154 |     if (!parse_text(&analyzer, input
+      |     ^~

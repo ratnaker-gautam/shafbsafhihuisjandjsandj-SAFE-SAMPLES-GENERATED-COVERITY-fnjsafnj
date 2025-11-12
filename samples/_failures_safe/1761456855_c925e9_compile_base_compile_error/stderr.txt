@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c9c3c47b.c: In function ‘main’:
+./samples/SAFE/__tmp_c9c3c47b.c:119: error: expected ‘]’ at end of input
+./samples/SAFE/__tmp_c9c3c47b.c:118:5: error: expected declaration or statement at end of input
+  118 |     uint8_t original_data[MAX_INPUT_SIZE
+      |     ^~~~~~~

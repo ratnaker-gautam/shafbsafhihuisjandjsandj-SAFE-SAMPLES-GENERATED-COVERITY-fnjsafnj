@@ -1,0 +1,7 @@
+
+samples/SAFE/__tmp_2c93ba75.c:76:52: runtime error: division by zero
+    #0 0x5b2b44f9386d in main samples/SAFE/__tmp_2c93ba75.c:76
+    #1 0x7aa26c22a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #2 0x7aa26c22a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x5b2b44f932c4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_2c93ba75.c.san+0x22c4) (BuildId: b22c89295cfbb67b21fdb8bd6cbae605aea6165e)
+

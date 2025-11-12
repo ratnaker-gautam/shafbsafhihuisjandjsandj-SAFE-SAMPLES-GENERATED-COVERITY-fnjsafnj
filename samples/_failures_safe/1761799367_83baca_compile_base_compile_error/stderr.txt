@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0bc19725.c: In function ‘main’:
+./samples/SAFE/__tmp_0bc19725.c:148:23: error: expected ‘;’ at end of input
+  148 |     analyze_log_levels
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_0bc19725.c:148:5: error: expected declaration or statement at end of input
+  148 |     analyze_log_levels
+      |     ^~~~~~~~~~~~~~~~~~

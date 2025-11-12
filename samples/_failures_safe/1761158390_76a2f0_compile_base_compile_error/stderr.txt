@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_db733089.c: In function ‘main’:
+./samples/SAFE/__tmp_db733089.c:174:13: error: expected ‘;’ at end of input
+  174 |     return 0
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_db733089.c:174:5: error: expected declaration or statement at end of input
+  174 |     return 0
+      |     ^~~~~~

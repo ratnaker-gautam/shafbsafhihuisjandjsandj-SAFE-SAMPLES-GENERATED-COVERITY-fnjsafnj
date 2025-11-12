@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_cd8c2172.c: In function ‘main’:
+./samples/SAFE/__tmp_cd8c2172.c:162:53: error: expected ‘)’ at end of input
+  162 |         result = multiply_matrices_recursive(a, b, 0
+      |                                             ~       ^
+      |                                                     )
+./samples/SAFE/__tmp_cd8c2172.c:162:18: error: too few arguments to function ‘multiply_matrices_recursive’
+  162 |         result = multiply_matrices_recursive(a, b, 0
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_cd8c2172.c:59:8: note: declared here
+   59 | Matrix multiply_matrices_recursive(Matrix a, Matrix b, int i, int j, int k) {
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_cd8c2172.c:162:9: error: expected declaration or statement at end of input
+  162 |         result = multiply_matrices_recursive(a, b, 0
+      |         ^~~~~~
+./samples/SAFE/__tmp_cd8c2172.c:162:9: error: expected declaration or statement at end of input

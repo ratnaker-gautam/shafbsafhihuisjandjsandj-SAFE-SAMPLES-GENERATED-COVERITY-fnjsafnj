@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_8061a05a.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_8061a05a.c:162: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_8061a05a.c:161:16: note: to match this ‘(’
+  161 |             if (left > 0 && right > INT_MAX
+      |                ^
+./samples/SAFE/__tmp_8061a05a.c:161:13: error: expected declaration or statement at end of input
+  161 |             if (left > 0 && right > INT_MAX
+      |             ^~
+./samples/SAFE/__tmp_8061a05a.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8061a05a.c:161:13: error: expected declaration or statement at end of input

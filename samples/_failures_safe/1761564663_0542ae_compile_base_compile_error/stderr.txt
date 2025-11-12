@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_c0d38a3e.c: In function ‘print_high_severity_entries’:
+./samples/SAFE/__tmp_c0d38a3e.c:129:13: error: expected identifier at end of input
+  129 |             printf("[%s] %s: %s\n", entry->timestamp, entry->level, entry->
+      |             ^~~~~~
+./samples/SAFE/__tmp_c0d38a3e.c:129:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c0d38a3e.c:129:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c0d38a3e.c:129:13: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_615b529b.c: In function ‘main’:
+./samples/SAFE/__tmp_615b529b.c:163:20: error: expected identifier or ‘(’ at end of input
+  163 |             struct tm*
+      |                    ^~
+./samples/SAFE/__tmp_615b529b.c:163:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_615b529b.c:163:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_615b529b.c:163:20: error: expected declaration or statement at end of input

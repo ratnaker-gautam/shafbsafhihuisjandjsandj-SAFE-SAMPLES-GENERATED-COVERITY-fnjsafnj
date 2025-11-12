@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_54520916.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_54520916.c:149:87: error: ‘struct Parser’ has no member named ‘current’
+  149 |                        parser->current_token.value, parser->current_token.line, parser->current
+      |                                                                                       ^~
+./samples/SAFE/__tmp_54520916.c:149:96: error: expected ‘)’ at end of input
+  149 |                        parser->current_token.value, parser->current_token.line, parser->current
+      |                                                                                                ^
+      |                                                                                                )
+./samples/SAFE/__tmp_54520916.c:148:23: note: to match this ‘(’
+  148 |                 printf("String: \"%s\" (line %d, column %d)\n",
+      |                       ^
+./samples/SAFE/__tmp_54520916.c:149:24: error: expected declaration or statement at end of input
+  149 |                        parser->current_token.value, parser->current_token.line, parser->current
+      |                        ^~~~~~
+./samples/SAFE/__tmp_54520916.c:149:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_54520916.c:149:24: error: expected declaration or statement at end of input

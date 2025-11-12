@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_71597f6f.c: In function ‘main’:
+./samples/SAFE/__tmp_71597f6f.c:158:50: error: ‘MAX_W’ undeclared (first use in this function)
+  158 |     int word_count = extract_words(input, words, MAX_W
+      |                                                  ^~~~~
+./samples/SAFE/__tmp_71597f6f.c:158:50: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_71597f6f.c:158:55: error: expected ‘)’ at end of input
+  158 |     int word_count = extract_words(input, words, MAX_W
+      |                                   ~                   ^
+      |                                                       )
+./samples/SAFE/__tmp_71597f6f.c:158:5: error: expected declaration or statement at end of input
+  158 |     int word_count = extract_words(input, words, MAX_W
+      |     ^~~

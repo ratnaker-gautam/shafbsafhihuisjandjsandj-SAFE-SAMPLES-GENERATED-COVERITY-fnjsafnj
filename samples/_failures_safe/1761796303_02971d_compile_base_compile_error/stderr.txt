@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_ca11d853.c: In function ‘bfs’:
+./samples/SAFE/__tmp_ca11d853.c:179:50: error: expected ‘)’ at end of input
+  179 |         struct GraphNode* current = dequeue(queue
+      |                                            ~     ^
+      |                                                  )
+./samples/SAFE/__tmp_ca11d853.c:179:16: error: expected declaration or statement at end of input
+  179 |         struct GraphNode* current = dequeue(queue
+      |                ^~~~~~~~~
+./samples/SAFE/__tmp_ca11d853.c:179:16: error: expected declaration or statement at end of input

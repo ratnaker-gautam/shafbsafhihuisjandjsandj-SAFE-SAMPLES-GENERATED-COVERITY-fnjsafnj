@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ad2bb2e0.c: In function ‘main’:
+./samples/SAFE/__tmp_ad2bb2e0.c:155:10: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  155 |     enum LogLevel highest_se
+      |          ^~~~~~~~
+./samples/SAFE/__tmp_ad2bb2e0.c:155:10: error: expected declaration or statement at end of input

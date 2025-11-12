@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d69f752c.c: In function ‘bfs’:
+./samples/SAFE/__tmp_d69f752c.c:154:18: error: expected ‘)’ at end of input
+  154 |         if (graph
+      |            ~     ^
+      |                  )
+./samples/SAFE/__tmp_d69f752c.c:154:9: error: expected declaration or statement at end of input
+  154 |         if (graph
+      |         ^~
+./samples/SAFE/__tmp_d69f752c.c:154:9: error: expected declaration or statement at end of input

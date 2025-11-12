@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5cab6b44.c: In function ‘main’:
+./samples/SAFE/__tmp_5cab6b44.c:155:23: error: expected ‘)’ at end of input
+  155 |     kruskal_mst(&graph
+      |                ~      ^
+      |                       )
+./samples/SAFE/__tmp_5cab6b44.c:155:5: error: expected declaration or statement at end of input
+  155 |     kruskal_mst(&graph
+      |     ^~~~~~~~~~~

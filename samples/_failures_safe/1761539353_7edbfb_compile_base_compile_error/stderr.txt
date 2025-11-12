@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_9fccf6e4.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_9fccf6e4.c:120:13: error: expected identifier at end of input
+  120 |             if (strcmp(analyzer->entries[i].
+      |             ^~
+./samples/SAFE/__tmp_9fccf6e4.c:120:17: error: too few arguments to function ‘strcmp’
+  120 |             if (strcmp(analyzer->entries[i].
+      |                 ^~~~~~
+In file included from ./samples/SAFE/__tmp_9fccf6e4.c:4:
+/usr/include/string.h:156:12: note: declared here
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+      |            ^~~~~~
+./samples/SAFE/__tmp_9fccf6e4.c:120:13: error: expected declaration or statement at end of input
+  120 |             if (strcmp(analyzer->entries[i].
+      |             ^~
+./samples/SAFE/__tmp_9fccf6e4.c:120:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9fccf6e4.c:120:13: error: expected declaration or statement at end of input

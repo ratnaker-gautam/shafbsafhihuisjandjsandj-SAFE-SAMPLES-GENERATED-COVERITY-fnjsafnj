@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4b91636a.c: In function ‘display_statistics’:
+./samples/SAFE/__tmp_4b91636a.c:136:60: error: expected ‘)’ at end of input
+  136 |     printf("WARNING entries: %d\n", analyzer->warning_count
+      |           ~                                                ^
+      |                                                            )
+./samples/SAFE/__tmp_4b91636a.c:136:5: error: expected declaration or statement at end of input
+  136 |     printf("WARNING entries: %d\n", analyzer->warning_count
+      |     ^~~~~~

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_38fd83f0.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_38fd83f0.c:142:20: error: expected ‘)’ at end of input
+  142 |             (buffer
+      |             ~      ^
+      |                    )
+./samples/SAFE/__tmp_38fd83f0.c:142:13: error: expected declaration or statement at end of input
+  142 |             (buffer
+      |             ^
+./samples/SAFE/__tmp_38fd83f0.c:142:13: error: expected declaration or statement at end of input

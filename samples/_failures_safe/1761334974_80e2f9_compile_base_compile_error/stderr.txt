@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_112047a0.c: In function ‘main’:
+./samples/SAFE/__tmp_112047a0.c:142:23: error: ‘de’ undeclared (first use in this function)
+  142 |     print_buffer_hex(&de
+      |                       ^~
+./samples/SAFE/__tmp_112047a0.c:142:23: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_112047a0.c:142:25: error: expected ‘)’ at end of input
+  142 |     print_buffer_hex(&de
+      |                     ~   ^
+      |                         )
+./samples/SAFE/__tmp_112047a0.c:142:5: error: expected declaration or statement at end of input
+  142 |     print_buffer_hex(&de
+      |     ^~~~~~~~~~~~~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9adecc1f.c: In function ‘main’:
+./samples/SAFE/__tmp_9adecc1f.c:158:13: error: expected declaration or statement at end of input
+  158 |             case STATE_ERROR: printf("ERROR");
+      |             ^~~~
+./samples/SAFE/__tmp_9adecc1f.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9adecc1f.c:158:13: error: expected declaration or statement at end of input

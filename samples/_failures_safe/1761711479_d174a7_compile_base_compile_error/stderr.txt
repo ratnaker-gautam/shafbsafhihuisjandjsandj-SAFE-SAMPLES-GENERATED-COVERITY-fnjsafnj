@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_7ef2d64e.c:166:1: error: expected declaration specifiers or ‘...’ at end of input
+  166 | State process_event(StateMachine *sm,
+      | ^~~~~

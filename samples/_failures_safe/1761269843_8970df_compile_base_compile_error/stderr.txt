@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_6773818d.c: In function ‘main’:
+./samples/SAFE/__tmp_6773818d.c:130:5: error: expected expression at end of input
+  130 |     fill_matrix(matrix2,
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_6773818d.c:130:5: error: too few arguments to function ‘fill_matrix’
+./samples/SAFE/__tmp_6773818d.c:40:6: note: declared here
+   40 | void fill_matrix(int* matrix, int rows, int cols) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_6773818d.c:130:5: error: expected declaration or statement at end of input
+  130 |     fill_matrix(matrix2,
+      |     ^~~~~~~~~~~

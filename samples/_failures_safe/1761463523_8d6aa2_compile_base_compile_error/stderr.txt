@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9d3ba837.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_9d3ba837.c:191:9: error: expected expression at end of input
+  191 |         for (int v = 0; v < graph->vertices;
+      |         ^~~
+./samples/SAFE/__tmp_9d3ba837.c:191:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9d3ba837.c:191:9: error: expected declaration or statement at end of input

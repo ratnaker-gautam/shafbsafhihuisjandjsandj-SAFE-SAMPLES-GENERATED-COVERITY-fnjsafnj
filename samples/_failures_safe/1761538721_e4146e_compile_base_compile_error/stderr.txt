@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_142ca81c.c: In function ‘main’:
+./samples/SAFE/__tmp_142ca81c.c:145:23: error: expected ‘)’ at end of input
+  145 |     if (graph_add_edge
+      |        ~              ^
+      |                       )
+./samples/SAFE/__tmp_142ca81c.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (graph_add_edge
+      |     ^~

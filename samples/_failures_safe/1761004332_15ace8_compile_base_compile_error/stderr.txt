@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_5ac5909d.c: In function ‘main’:
+./samples/SAFE/__tmp_5ac5909d.c:151:36: error: expected ‘;’ at end of input
+  151 |                 print_current_state
+      |                                    ^
+      |                                    ;
+./samples/SAFE/__tmp_5ac5909d.c:151:17: error: expected declaration or statement at end of input
+  151 |                 print_current_state
+      |                 ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5ac5909d.c:151:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5ac5909d.c:151:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5ac5909d.c:151:17: error: expected declaration or statement at end of input

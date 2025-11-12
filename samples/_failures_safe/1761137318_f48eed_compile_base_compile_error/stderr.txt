@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_26cdfca8.c: In function ‘main’:
+./samples/SAFE/__tmp_26cdfca8.c:166:5: error: expected declaration or statement at end of input
+  166 |     Lexer lexer = {buffer, 0, len};
+      |     ^~~~~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7a1f201b.c: In function ‘main’:
+./samples/SAFE/__tmp_7a1f201b.c:146:64: error: expected ‘)’ at end of input
+  146 |     printf("\nSorted %d entries in %.6f seconds\n", entry_count
+      |           ~                                                    ^
+      |                                                                )
+./samples/SAFE/__tmp_7a1f201b.c:146:5: error: expected declaration or statement at end of input
+  146 |     printf("\nSorted %d entries in %.6f seconds\n", entry_count
+      |     ^~~~~~

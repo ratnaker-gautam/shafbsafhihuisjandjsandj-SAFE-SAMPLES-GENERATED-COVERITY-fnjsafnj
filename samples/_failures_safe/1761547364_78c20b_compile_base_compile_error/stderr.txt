@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_13d75d82.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_13d75d82.c:133:22: error: expected identifier or ‘(’ at end of input
+  133 |         const struct Log
+      |                      ^~~
+./samples/SAFE/__tmp_13d75d82.c:133:22: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_13d75d82.c:133:22: error: expected declaration or statement at end of input

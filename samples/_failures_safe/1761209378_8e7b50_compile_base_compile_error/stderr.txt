@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_db52e76e.c: In function ‘main’:
+./samples/SAFE/__tmp_db52e76e.c:206:34: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  206 |     printf("Tokens found: %d\n", token
+      |                                  ^~~~~
+      |                                  Token
+./samples/SAFE/__tmp_db52e76e.c:206:34: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_db52e76e.c:206:39: error: expected ‘)’ at end of input
+  206 |     printf("Tokens found: %d\n", token
+      |           ~                           ^
+      |                                       )
+./samples/SAFE/__tmp_db52e76e.c:206:5: error: expected declaration or statement at end of input
+  206 |     printf("Tokens found: %d\n", token
+      |     ^~~~~~

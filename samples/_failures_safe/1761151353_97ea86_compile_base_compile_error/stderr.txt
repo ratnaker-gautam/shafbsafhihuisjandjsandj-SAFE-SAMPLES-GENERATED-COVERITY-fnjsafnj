@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_3229fd0e.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_3229fd0e.c:148:35: error: ‘struct WordStats’ has no member named ‘is’
+  148 |             if (analyzer->words[i].is
+      |                                   ^
+./samples/SAFE/__tmp_3229fd0e.c:148:38: error: expected ‘)’ at end of input
+  148 |             if (analyzer->words[i].is
+      |                ~                     ^
+      |                                      )
+./samples/SAFE/__tmp_3229fd0e.c:148:13: error: expected declaration or statement at end of input
+  148 |             if (analyzer->words[i].is
+      |             ^~
+./samples/SAFE/__tmp_3229fd0e.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3229fd0e.c:148:13: error: expected declaration or statement at end of input

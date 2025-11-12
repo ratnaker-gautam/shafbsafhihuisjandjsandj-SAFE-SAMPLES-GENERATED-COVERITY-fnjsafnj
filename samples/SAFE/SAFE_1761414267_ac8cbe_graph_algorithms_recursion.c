@@ -1,0 +1,98 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: recursion ; Variation: graph_algorithms
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
+#define MAX_NODES 100
+
+struct Graph {
+    int nodes;
+    int adjMatrix[MAX_NODES][MAX_NODES];
+};
+
+void initializeGraph(struct Graph* g, int nodes) {
+    if (nodes <= 0 || nodes > MAX_NODES) {
+        nodes = MAX_NODES;
+    }
+    g->nodes = nodes;
+    for (int i = 0; i < nodes; i++) {
+        for (int j = 0; j < nodes; j++) {
+            g->adjMatrix[i][j] = 0;
+        }
+    }
+}
+
+void addEdge(struct Graph* g, int src, int dest) {
+    if (src >= 0 && src < g->nodes && dest >= 0 && dest < g->nodes) {
+        g->adjMatrix[src][dest] = 1;
+        g->adjMatrix[dest][src] = 1;
+    }
+}
+
+void dfsRecursive(struct Graph* g, int node, int visited[]) {
+    if (node < 0 || node >= g->nodes || visited[node]) {
+        return;
+    }
+    visited[node] = 1;
+    printf("%d ", node);
+    for (int i = 0; i < g->nodes; i++) {
+        if (g->adjMatrix[node][i] && !visited[i]) {
+            dfsRecursive(g, i, visited);
+        }
+    }
+}
+
+void performDFS(struct Graph* g, int start) {
+    if (start < 0 || start >= g->nodes) {
+        printf("Invalid start node\n");
+        return;
+    }
+    int visited[MAX_NODES] = {0};
+    printf("DFS traversal starting from node %d: ", start);
+    dfsRecursive(g, start, visited);
+    printf("\n");
+}
+
+int main() {
+    struct Graph graph;
+    int nodes, edges;
+    
+    printf("Enter number of nodes (1-100): ");
+    if (scanf("%d", &nodes) != 1 || nodes < 1 || nodes > MAX_NODES) {
+        printf("Invalid number of nodes\n");
+        return 1;
+    }
+    
+    initializeGraph(&graph, nodes);
+    
+    printf("Enter number of edges: ");
+    if (scanf("%d", &edges) != 1 || edges < 0) {
+        printf("Invalid number of edges\n");
+        return 1;
+    }
+    
+    printf("Enter edges (source destination):\n");
+    for (int i = 0; i < edges; i++) {
+        int src, dest;
+        if (scanf("%d %d", &src, &dest) != 2) {
+            printf("Invalid edge input\n");
+            return 1;
+        }
+        if (src < 0 || src >= nodes || dest < 0 || dest >= nodes) {
+            printf("Invalid node indices\n");
+            return 1;
+        }
+        addEdge(&graph, src, dest);
+    }
+    
+    int startNode;
+    printf("Enter starting node for DFS: ");
+    if (scanf("%d", &startNode) != 1) {
+        printf("Invalid start node\n");
+        return 1;
+    }
+    
+    performDFS(&graph, startNode);
+    
+    return 0;
+}

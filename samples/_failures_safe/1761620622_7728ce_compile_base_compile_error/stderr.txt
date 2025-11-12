@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4797053d.c: In function ‘read_matrix_input’:
+./samples/SAFE/__tmp_4797053d.c:146:25: error: expected ‘;’ at end of input
+  146 |     for (size_t i = 0; i
+      |                         ^
+      |                         ;
+./samples/SAFE/__tmp_4797053d.c:146:5: error: expected declaration or statement at end of input
+  146 |     for (size_t i = 0; i
+      |     ^~~

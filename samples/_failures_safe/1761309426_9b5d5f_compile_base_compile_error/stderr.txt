@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3e02bfbb.c: In function ‘main’:
+./samples/SAFE/__tmp_3e02bfbb.c:155:53: error: expected ‘)’ at end of input
+  155 |         choice = read_int("Select operation: ", 1, 5
+      |                          ~                          ^
+      |                                                     )
+./samples/SAFE/__tmp_3e02bfbb.c:155:9: error: expected declaration or statement at end of input
+  155 |         choice = read_int("Select operation: ", 1, 5
+      |         ^~~~~~
+./samples/SAFE/__tmp_3e02bfbb.c:155:9: error: expected declaration or statement at end of input

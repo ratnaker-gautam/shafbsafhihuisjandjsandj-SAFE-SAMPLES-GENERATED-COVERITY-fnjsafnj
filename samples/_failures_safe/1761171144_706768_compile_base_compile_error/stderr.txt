@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_511049a0.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_511049a0.c:147:17: error: expected declaration or statement at end of input
+  147 |                 }
+      |                 ^
+./samples/SAFE/__tmp_511049a0.c:147:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_511049a0.c:147:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_511049a0.c:147:17: error: expected declaration or statement at end of input

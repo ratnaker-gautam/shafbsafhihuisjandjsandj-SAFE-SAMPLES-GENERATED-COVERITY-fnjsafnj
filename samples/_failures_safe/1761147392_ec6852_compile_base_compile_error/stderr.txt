@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f32addee.c: In function ‘main’:
+./samples/SAFE/__tmp_f32addee.c:139:5: error: expected declaration or statement at end of input
+  139 |     getchar();
+      |     ^~~~~~~

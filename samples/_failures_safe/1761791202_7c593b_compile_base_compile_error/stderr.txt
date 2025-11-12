@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9ee6c0c2.c: In function ‘prim’:
+./samples/SAFE/__tmp_9ee6c0c2.c:178:75: error: ‘UNDIR’ undeclared (first use in this function)
+  178 |     if (!graph || start < 0 || start >= graph->vertices || graph->type != UNDIR
+      |                                                                           ^~~~~
+./samples/SAFE/__tmp_9ee6c0c2.c:178:75: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9ee6c0c2.c:178:80: error: expected ‘)’ at end of input
+  178 |     if (!graph || start < 0 || start >= graph->vertices || graph->type != UNDIR
+      |        ~                                                                       ^
+      |                                                                                )
+./samples/SAFE/__tmp_9ee6c0c2.c:178:5: error: expected declaration or statement at end of input
+  178 |     if (!graph || start < 0 || start >= graph->vertices || graph->type != UNDIR
+      |     ^~

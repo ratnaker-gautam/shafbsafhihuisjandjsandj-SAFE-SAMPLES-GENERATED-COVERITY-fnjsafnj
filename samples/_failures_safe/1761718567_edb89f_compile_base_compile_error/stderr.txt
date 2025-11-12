@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2e2ee00d.c: In function ‘state_machine_handle_event’:
+./samples/SAFE/__tmp_2e2ee00d.c:147:13: error: expected declaration or statement at end of input
+  147 |             return process_done_state(sm, event_data);
+      |             ^~~~~~
+./samples/SAFE/__tmp_2e2ee00d.c:147:13: error: expected declaration or statement at end of input

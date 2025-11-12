@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_58b3b6f4.c: In function ‘main’:
+./samples/SAFE/__tmp_58b3b6f4.c:166:25: error: missing terminating " character
+  166 |         fprintf(stderr, "Error: Unexpected character at position %d\n
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_58b3b6f4.c:166:9: error: expected expression at end of input
+  166 |         fprintf(stderr, "Error: Unexpected character at position %d\n
+      |         ^~~~~~~
+./samples/SAFE/__tmp_58b3b6f4.c:166:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_58b3b6f4.c:166:9: error: expected declaration or statement at end of input

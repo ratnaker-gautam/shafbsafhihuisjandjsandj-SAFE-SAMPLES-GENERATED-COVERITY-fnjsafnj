@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/ccnHg8dr.o: in function `compute_function':
+__tmp_7bf30ac0.c:(.text+0x9d): undefined reference to `log'
+/usr/bin/ld: __tmp_7bf30ac0.c:(.text+0xb8): undefined reference to `sin'
+/usr/bin/ld: /tmp/ccnHg8dr.o: in function `safe_log':
+__tmp_7bf30ac0.c:(.text+0x3f): undefined reference to `log'
+collect2: error: ld returned 1 exit status

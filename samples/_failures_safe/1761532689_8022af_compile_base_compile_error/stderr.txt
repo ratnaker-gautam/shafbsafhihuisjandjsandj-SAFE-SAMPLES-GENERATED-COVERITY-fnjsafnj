@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_eaa5f3b2.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_eaa5f3b2.c:158:43: error: expected ‘)’ at end of input
+  158 |                 queue_enqueue(queue, graph
+      |                              ~            ^
+      |                                           )
+./samples/SAFE/__tmp_eaa5f3b2.c:158:17: error: expected declaration or statement at end of input
+  158 |                 queue_enqueue(queue, graph
+      |                 ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_eaa5f3b2.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eaa5f3b2.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eaa5f3b2.c:158:17: error: expected declaration or statement at end of input

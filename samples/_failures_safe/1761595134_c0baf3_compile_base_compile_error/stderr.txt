@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4abae21a.c: In function ‘main’:
+./samples/SAFE/__tmp_4abae21a.c:168:9: error: expected declaration or statement at end of input
+  168 |         fprintf(stderr, "Output write failed\n");
+      |         ^~~~~~~
+./samples/SAFE/__tmp_4abae21a.c:168:9: error: expected declaration or statement at end of input

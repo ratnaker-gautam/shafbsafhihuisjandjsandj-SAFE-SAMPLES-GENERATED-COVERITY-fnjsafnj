@@ -1,0 +1,8 @@
+
+samples/SAFE/__tmp_e6cad881.c:32:27: runtime error: signed integer overflow: 1836311903 + 1134903170 cannot be represented in type 'int'
+    #0 0x564587cfd7b1 in fill_fibonacci samples/SAFE/__tmp_e6cad881.c:32
+    #1 0x564587cfdc24 in main samples/SAFE/__tmp_e6cad881.c:54
+    #2 0x766065a2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x766065a2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x564587cfd344 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_e6cad881.c.san+0x3344) (BuildId: 63445910ad74d3c1e858461c679bcf1314189d36)
+

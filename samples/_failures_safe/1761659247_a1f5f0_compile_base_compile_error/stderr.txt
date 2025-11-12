@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_0b51be82.c: In function ‘primMST’:
+./samples/SAFE/__tmp_0b51be82.c:153:13: error: expected expression at end of input
+  153 |             for (
+      |             ^~~
+./samples/SAFE/__tmp_0b51be82.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0b51be82.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0b51be82.c:153:13: error: expected declaration or statement at end of input

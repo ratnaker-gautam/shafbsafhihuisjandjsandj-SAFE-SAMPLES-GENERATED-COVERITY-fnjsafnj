@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_85760b42.c: In function ‘main’:
+./samples/SAFE/__tmp_85760b42.c:143:9: error: expected declaration or statement at end of input
+  143 |         if (strncmp(line, "END", 3) == 0) break;
+      |         ^~
+./samples/SAFE/__tmp_85760b42.c:143:9: error: expected declaration or statement at end of input

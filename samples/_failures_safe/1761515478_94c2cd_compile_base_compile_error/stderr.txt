@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_131ca591.c: In function ‘parser_accept’:
+./samples/SAFE/__tmp_131ca591.c:176:77: error: ‘struct ParserState’ has no member named ‘current’
+  176 |     if (parser->current_token < parser->token_count && parser->tokens[parser->current
+      |                                                                             ^~
+./samples/SAFE/__tmp_131ca591.c:176:86: error: expected ‘]’ at end of input
+  176 |     if (parser->current_token < parser->token_count && parser->tokens[parser->current
+      |                                                                                      ^
+      |                                                                                      ]
+./samples/SAFE/__tmp_131ca591.c:176:5: error: expected declaration or statement at end of input
+  176 |     if (parser->current_token < parser->token_count && parser->tokens[parser->current
+      |     ^~

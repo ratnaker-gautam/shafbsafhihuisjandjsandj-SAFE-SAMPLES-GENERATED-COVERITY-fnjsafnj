@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccwqkgrc.o: in function `main':
+__tmp_a78f779d.c:(.text.startup+0x139): undefined reference to `sin'
+collect2: error: ld returned 1 exit status

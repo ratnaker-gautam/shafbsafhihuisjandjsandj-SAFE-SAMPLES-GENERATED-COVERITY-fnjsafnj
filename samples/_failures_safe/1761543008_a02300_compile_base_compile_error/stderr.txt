@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e7ce0c8e.c: In function ‘main’:
+./samples/SAFE/__tmp_e7ce0c8e.c:177:32: error: expected ‘;’ at end of input
+  177 |     input[strcspn(input, "\n")]
+      |                                ^
+      |                                ;
+./samples/SAFE/__tmp_e7ce0c8e.c:177:5: error: expected declaration or statement at end of input
+  177 |     input[strcspn(input, "\n")]
+      |     ^~~~~

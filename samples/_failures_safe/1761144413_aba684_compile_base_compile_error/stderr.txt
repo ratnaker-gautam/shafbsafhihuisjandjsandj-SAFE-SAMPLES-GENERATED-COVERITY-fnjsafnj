@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_69013c0f.c: In function ‘main’:
+./samples/SAFE/__tmp_69013c0f.c:155:21: error: ‘multiply_mat’ undeclared (first use in this function); did you mean ‘multiply_matrices’?
+  155 |                 if (multiply_mat
+      |                     ^~~~~~~~~~~~
+      |                     multiply_matrices
+./samples/SAFE/__tmp_69013c0f.c:155:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_69013c0f.c:155:33: error: expected ‘)’ at end of input
+  155 |                 if (multiply_mat
+      |                    ~            ^
+      |                                 )
+./samples/SAFE/__tmp_69013c0f.c:155:17: error: expected declaration or statement at end of input
+  155 |                 if (multiply_mat
+      |                 ^~
+./samples/SAFE/__tmp_69013c0f.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_69013c0f.c:155:17: error: expected declaration or statement at end of input

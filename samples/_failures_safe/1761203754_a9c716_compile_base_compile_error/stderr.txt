@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_192d6985.c: In function ‘main’:
+./samples/SAFE/__tmp_192d6985.c:171:21: error: expected declaration or statement at end of input
+  171 |                     event = EVENT_ERROR;
+      |                     ^~~~~
+./samples/SAFE/__tmp_192d6985.c:171:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_192d6985.c:171:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_192d6985.c:171:21: error: expected declaration or statement at end of input

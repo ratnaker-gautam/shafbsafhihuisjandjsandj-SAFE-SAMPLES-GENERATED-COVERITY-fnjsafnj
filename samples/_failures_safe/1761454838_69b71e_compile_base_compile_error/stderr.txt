@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3d8fc840.c: In function ‘main’:
+./samples/SAFE/__tmp_3d8fc840.c:148:32: error: expected ‘)’ at end of input
+  148 |         free_analyzer(&analyzer
+      |                      ~         ^
+      |                                )
+./samples/SAFE/__tmp_3d8fc840.c:148:9: error: expected declaration or statement at end of input
+  148 |         free_analyzer(&analyzer
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_3d8fc840.c:148:9: error: expected declaration or statement at end of input

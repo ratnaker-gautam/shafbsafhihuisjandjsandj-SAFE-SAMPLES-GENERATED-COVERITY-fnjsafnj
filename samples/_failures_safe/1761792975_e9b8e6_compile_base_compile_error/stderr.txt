@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_408732f0.c: In function ‘main’:
+./samples/SAFE/__tmp_408732f0.c:162:37: error: expected ‘)’ at end of input
+  162 |                 if (scanf("%31s", to
+      |                          ~          ^
+      |                                     )
+./samples/SAFE/__tmp_408732f0.c:162:17: error: expected declaration or statement at end of input
+  162 |                 if (scanf("%31s", to
+      |                 ^~
+./samples/SAFE/__tmp_408732f0.c:162:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_408732f0.c:162:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_408732f0.c:162:17: error: expected declaration or statement at end of input

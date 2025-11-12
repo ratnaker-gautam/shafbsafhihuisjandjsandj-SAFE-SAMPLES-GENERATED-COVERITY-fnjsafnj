@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6b12fac5.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_6b12fac5.c:161: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_6b12fac5.c:160:8: note: to match this ‘(’
+  160 |     if (parser == NULL
+      |        ^
+./samples/SAFE/__tmp_6b12fac5.c:160:5: error: expected declaration or statement at end of input
+  160 |     if (parser == NULL
+      |     ^~

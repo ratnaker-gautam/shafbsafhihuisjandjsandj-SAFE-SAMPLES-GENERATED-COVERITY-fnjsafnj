@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c78f8ff8.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_c78f8ff8.c:148:13: error: expected ‘]’ at end of input
+  148 |     dist[src
+      |             ^
+      |             ]
+./samples/SAFE/__tmp_c78f8ff8.c:148:5: error: expected declaration or statement at end of input
+  148 |     dist[src
+      |     ^~~~

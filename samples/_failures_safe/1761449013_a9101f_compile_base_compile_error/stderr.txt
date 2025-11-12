@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_269f3677.c: In function ‘main’:
+./samples/SAFE/__tmp_269f3677.c:144:5: error: ‘print’ undeclared (first use in this function); did you mean ‘lrint’?
+  144 |     print
+      |     ^~~~~
+      |     lrint
+./samples/SAFE/__tmp_269f3677.c:144:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_269f3677.c:144:10: error: expected ‘;’ at end of input
+  144 |     print
+      |          ^
+      |          ;
+./samples/SAFE/__tmp_269f3677.c:144:5: error: expected declaration or statement at end of input
+  144 |     print
+      |     ^~~~~

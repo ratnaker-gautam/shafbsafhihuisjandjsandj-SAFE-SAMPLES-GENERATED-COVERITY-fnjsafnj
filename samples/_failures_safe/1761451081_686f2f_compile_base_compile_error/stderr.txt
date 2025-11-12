@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_a0d29f21.c: In function ‘reset_visited’:
+./samples/SAFE/__tmp_a0d29f21.c:164:32: error: ‘struct Graph’ has no member named ‘node’; did you mean ‘nodes’?
+  164 |     for (int i = 0; i < graph->node
+      |                                ^~~~
+      |                                nodes
+./samples/SAFE/__tmp_a0d29f21.c:164:36: error: expected ‘;’ at end of input
+  164 |     for (int i = 0; i < graph->node
+      |                                    ^
+      |                                    ;
+./samples/SAFE/__tmp_a0d29f21.c:164:5: error: expected declaration or statement at end of input
+  164 |     for (int i = 0; i < graph->node
+      |     ^~~

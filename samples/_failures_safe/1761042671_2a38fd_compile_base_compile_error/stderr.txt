@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_951041de.c: In function ‘main’:
+./samples/SAFE/__tmp_951041de.c:162:5: error: expected declaration or statement at end of input
+  162 |     bellman_ford(&graph, source);
+      |     ^~~~~~~~~~~~

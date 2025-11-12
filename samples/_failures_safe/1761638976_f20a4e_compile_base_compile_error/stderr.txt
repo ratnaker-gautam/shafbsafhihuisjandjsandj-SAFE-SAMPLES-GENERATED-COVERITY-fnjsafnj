@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_9792677c.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_9792677c.c:150:17: error: ‘parse’ undeclared (first use in this function)
+  150 |             if (parse
+      |                 ^~~~~
+./samples/SAFE/__tmp_9792677c.c:150:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9792677c.c:150:22: error: expected ‘)’ at end of input
+  150 |             if (parse
+      |                ~     ^
+      |                      )
+./samples/SAFE/__tmp_9792677c.c:150:13: error: expected declaration or statement at end of input
+  150 |             if (parse
+      |             ^~
+./samples/SAFE/__tmp_9792677c.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9792677c.c:150:13: error: expected declaration or statement at end of input

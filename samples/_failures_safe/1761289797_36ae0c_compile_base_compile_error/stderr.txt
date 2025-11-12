@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_4cca0eae.c: In function ‘main’:
+./samples/SAFE/__tmp_4cca0eae.c:151:13: error: expected declaration or statement at end of input
+  151 |             printf("Node %d: distance %d\n", i, distances[i]);
+      |             ^~~~~~
+./samples/SAFE/__tmp_4cca0eae.c:151:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4cca0eae.c:151:13: error: expected declaration or statement at end of input

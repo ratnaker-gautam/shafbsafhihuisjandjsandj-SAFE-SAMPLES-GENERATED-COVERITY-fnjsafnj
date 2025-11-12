@@ -1,0 +1,2 @@
+run_id,start_ts,end_ts,target_total,existing_start,needed_start,accepted_this_run,discarded_this_run
+20251030-004516-656888,1761785116,1761801951,30000,29319,681,688,449

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5e653524.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_5e653524.c:132:17: error: expected expression at end of input
+  132 |                 if (isInMinHeap(heap, v) && dist[u] != INT_MAX && weight < INT_MAX -
+      |                 ^~
+./samples/SAFE/__tmp_5e653524.c:132:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5e653524.c:132:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5e653524.c:132:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5e653524.c:132:17: error: expected declaration or statement at end of input

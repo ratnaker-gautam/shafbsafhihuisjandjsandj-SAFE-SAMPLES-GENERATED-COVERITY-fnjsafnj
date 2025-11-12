@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_f8c30b12.c: In function ‘main’:
+./samples/SAFE/__tmp_f8c30b12.c:158:44: error: expected ‘)’ at end of input
+  158 |                 search_log_messages(entries
+      |                                    ~       ^
+      |                                            )
+./samples/SAFE/__tmp_f8c30b12.c:158:17: error: too few arguments to function ‘search_log_messages’
+  158 |                 search_log_messages(entries
+      |                 ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f8c30b12.c:93:6: note: declared here
+   93 | void search_log_messages(struct LogEntry entries[], int count, const char* keyword) {
+      |      ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f8c30b12.c:158:17: error: expected declaration or statement at end of input
+  158 |                 search_log_messages(entries
+      |                 ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f8c30b12.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f8c30b12.c:158:17: error: expected declaration or statement at end of input

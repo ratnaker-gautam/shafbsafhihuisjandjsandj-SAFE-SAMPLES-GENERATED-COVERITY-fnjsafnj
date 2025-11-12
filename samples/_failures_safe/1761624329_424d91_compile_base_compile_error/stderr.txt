@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_023f165f.c: In function ‘main’:
+./samples/SAFE/__tmp_023f165f.c:159:5: error: expected expression at end of input
+  159 |     process_text(&analyzer,
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_023f165f.c:159:5: error: expected declaration or statement at end of input

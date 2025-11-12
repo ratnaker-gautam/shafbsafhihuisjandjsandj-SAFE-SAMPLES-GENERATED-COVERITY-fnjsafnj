@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_6effa845.c: In function ‘main’:
+./samples/SAFE/__tmp_6effa845.c:158:26: error: invalid operands to binary < (have ‘size_t’ {aka ‘long unsigned int’} and ‘Buffer’)
+  158 |     for (size_t i = 0; i < decompressed
+      |                          ^
+./samples/SAFE/__tmp_6effa845.c:158:40: error: expected ‘;’ at end of input
+  158 |     for (size_t i = 0; i < decompressed
+      |                                        ^
+      |                                        ;
+./samples/SAFE/__tmp_6effa845.c:158:5: error: expected declaration or statement at end of input
+  158 |     for (size_t i = 0; i < decompressed
+      |     ^~~

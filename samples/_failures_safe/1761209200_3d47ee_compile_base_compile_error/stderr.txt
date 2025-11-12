@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_286cba7f.c: In function ‘main’:
+./samples/SAFE/__tmp_286cba7f.c:155:5: error: expected declaration or statement at end of input
+  155 |     printf("\nTranspose of second matrix:\n");
+      |     ^~~~~~

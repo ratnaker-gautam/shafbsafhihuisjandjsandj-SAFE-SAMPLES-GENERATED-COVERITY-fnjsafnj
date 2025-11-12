@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_96e2602d.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_96e2602d.c:134:36: error: expected ‘)’ at end of input
+  134 |                stats->top_client.ip
+      |                                    ^
+      |                                    )
+./samples/SAFE/__tmp_96e2602d.c:133:15: note: to match this ‘(’
+  133 |         printf("Most Frequent Client: %s (%zu requests)\n",
+      |               ^
+./samples/SAFE/__tmp_96e2602d.c:134:16: error: expected declaration or statement at end of input
+  134 |                stats->top_client.ip
+      |                ^~~~~
+./samples/SAFE/__tmp_96e2602d.c:134:16: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_d76dda1d.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_d76dda1d.c:153:49: error: ‘TOKEN_ID’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  153 |         printf("Parsed %s: %s\n", token.type == TOKEN_ID
+      |                                                 ^~~~~~~~
+      |                                                 TOKEN_EOF
+./samples/SAFE/__tmp_d76dda1d.c:153:49: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d76dda1d.c:153:57: error: expected ‘)’ at end of input
+  153 |         printf("Parsed %s: %s\n", token.type == TOKEN_ID
+      |               ~                                         ^
+      |                                                         )
+./samples/SAFE/__tmp_d76dda1d.c:153:9: error: expected declaration or statement at end of input
+  153 |         printf("Parsed %s: %s\n", token.type == TOKEN_ID
+      |         ^~~~~~
+./samples/SAFE/__tmp_d76dda1d.c:153:9: error: expected declaration or statement at end of input

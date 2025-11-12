@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_7de7c651.c: In function ‘main’:
+./samples/SAFE/__tmp_7de7c651.c:136:5: error: expected declaration or statement at end of input
+  136 |     printf("Enter input data (max 1024 bytes): ");
+      |     ^~~~~~

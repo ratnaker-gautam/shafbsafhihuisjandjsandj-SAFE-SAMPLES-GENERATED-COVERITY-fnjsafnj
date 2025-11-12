@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_4e3fb44d.c: In function ‘matrix_determinant_recursive’:
+./samples/SAFE/__tmp_4e3fb44d.c:129:20: error: expected ‘;’ at end of input
+  129 |                 sub
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_4e3fb44d.c:129:17: error: expected declaration or statement at end of input
+  129 |                 sub
+      |                 ^~~
+./samples/SAFE/__tmp_4e3fb44d.c:129:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4e3fb44d.c:129:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4e3fb44d.c:129:17: error: expected declaration or statement at end of input

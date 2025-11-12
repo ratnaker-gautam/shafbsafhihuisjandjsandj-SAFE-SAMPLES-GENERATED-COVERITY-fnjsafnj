@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_66a933da.c: In function ‘main’:
+./samples/SAFE/__tmp_66a933da.c:152: error: expected ‘]’ at end of input
+./samples/SAFE/__tmp_66a933da.c:151:5: error: expected declaration or statement at end of input
+  151 |     int distances[MAX_NODES
+      |     ^~~

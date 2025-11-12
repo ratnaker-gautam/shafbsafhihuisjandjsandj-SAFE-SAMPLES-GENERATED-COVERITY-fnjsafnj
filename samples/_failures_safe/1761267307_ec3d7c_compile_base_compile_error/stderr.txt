@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6e932881.c: In function ‘main’:
+./samples/SAFE/__tmp_6e932881.c:190:63: error: expected ‘)’ at end of input
+  190 |     result = compress_data(&ctx, small_data, sizeof(small_data
+      |                                                    ~          ^
+      |                                                               )
+./samples/SAFE/__tmp_6e932881.c:190:5: error: expected declaration or statement at end of input
+  190 |     result = compress_data(&ctx, small_data, sizeof(small_data
+      |     ^~~~~~

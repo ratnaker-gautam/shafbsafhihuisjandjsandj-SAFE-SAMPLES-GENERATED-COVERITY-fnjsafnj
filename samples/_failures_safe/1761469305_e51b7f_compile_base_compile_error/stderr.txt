@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5c77b556.c: In function ‘main’:
+./samples/SAFE/__tmp_5c77b556.c:188:38: error: missing terminating " character
+  188 |     output_file[strcspn(output_file, "\
+      |                                      ^~
+./samples/SAFE/__tmp_5c77b556.c:188:5: error: expected expression at end of input
+  188 |     output_file[strcspn(output_file, "\
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_5c77b556.c:188:5: error: expected declaration or statement at end of input

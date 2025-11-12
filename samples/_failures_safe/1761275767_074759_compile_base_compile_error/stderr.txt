@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_fe4200d1.c:149:1: error: expected identifier or ‘(’ at end of input
+  149 | void
+      | ^~~~

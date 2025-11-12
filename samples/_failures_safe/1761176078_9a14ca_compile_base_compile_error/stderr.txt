@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_a2b4dffa.c: In function ‘process_compression_demo’:
+./samples/SAFE/__tmp_a2b4dffa.c:148:51: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  148 |     if (decompressed.size == input_size && memcmp(input
+      |                                                   ^~~~~
+      |                                                   int
+./samples/SAFE/__tmp_a2b4dffa.c:148:51: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a2b4dffa.c:148:56: error: expected ‘)’ at end of input
+  148 |     if (decompressed.size == input_size && memcmp(input
+      |                                                  ~     ^
+      |                                                        )
+./samples/SAFE/__tmp_a2b4dffa.c:148:44: error: too few arguments to function ‘memcmp’
+  148 |     if (decompressed.size == input_size && memcmp(input
+      |                                            ^~~~~~
+In file included from ./samples/SAFE/__tmp_a2b4dffa.c:4:
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_a2b4dffa.c:148:5: error: expected declaration or statement at end of input
+  148 |     if (decompressed.size == input_size && memcmp(input
+      |     ^~

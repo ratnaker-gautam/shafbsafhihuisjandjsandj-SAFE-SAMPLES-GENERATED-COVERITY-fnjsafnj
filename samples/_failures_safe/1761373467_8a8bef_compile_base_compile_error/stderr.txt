@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_1331e4f1.c: In function ‘print_token’:
+./samples/SAFE/__tmp_1331e4f1.c:165:48: error: expected ‘)’ at end of input
+  165 |             printf("NUMBER: %s\n", token->value
+      |                   ~                            ^
+      |                                                )
+./samples/SAFE/__tmp_1331e4f1.c:165:13: error: expected declaration or statement at end of input
+  165 |             printf("NUMBER: %s\n", token->value
+      |             ^~~~~~
+./samples/SAFE/__tmp_1331e4f1.c:165:13: error: expected declaration or statement at end of input

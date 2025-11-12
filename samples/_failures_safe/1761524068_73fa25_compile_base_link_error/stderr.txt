@@ -1,0 +1,9 @@
+/usr/bin/ld: /tmp/ccYyXu90.o: in function `compute_function':
+__tmp_f6cac6c5.c:(.text+0x8d): undefined reference to `log'
+/usr/bin/ld: /tmp/ccYyXu90.o: in function `find_root_bisection':
+__tmp_f6cac6c5.c:(.text+0x12d): undefined reference to `log'
+/usr/bin/ld: __tmp_f6cac6c5.c:(.text+0x19e): undefined reference to `log'
+/usr/bin/ld: __tmp_f6cac6c5.c:(.text+0x22d): undefined reference to `log'
+/usr/bin/ld: /tmp/ccYyXu90.o: in function `safe_log':
+__tmp_f6cac6c5.c:(.text+0x3f): undefined reference to `log'
+collect2: error: ld returned 1 exit status

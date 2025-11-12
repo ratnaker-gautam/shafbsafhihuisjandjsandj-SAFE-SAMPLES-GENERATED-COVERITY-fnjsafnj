@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ad25aabc.c: In function ‘main’:
+./samples/SAFE/__tmp_ad25aabc.c:130:26: error: ‘severity’ undeclared (first use in this function)
+  130 |     printf("INFO: %d\n", severity
+      |                          ^~~~~~~~
+./samples/SAFE/__tmp_ad25aabc.c:130:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ad25aabc.c:130:34: error: expected ‘)’ at end of input
+  130 |     printf("INFO: %d\n", severity
+      |           ~                      ^
+      |                                  )
+./samples/SAFE/__tmp_ad25aabc.c:130:5: error: expected declaration or statement at end of input
+  130 |     printf("INFO: %d\n", severity
+      |     ^~~~~~

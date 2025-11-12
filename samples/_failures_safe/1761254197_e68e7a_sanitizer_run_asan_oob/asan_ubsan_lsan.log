@@ -1,0 +1,54 @@
+
+=================================================================
+==78670==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffe369ceda0 at pc 0x7e11e7ac6f8f bp 0x7ffe369846f0 sp 0x7ffe36983e98
+READ of size 1 at 0x7ffe369ceda0 thread T0
+    #0 0x7e11e7ac6f8e in strcmp ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:470
+    #1 0x5859eb98ec41 in count_level_occurrences samples/SAFE/__tmp_a7c1e85e.c:56
+    #2 0x5859eb98ee98 in print_summary samples/SAFE/__tmp_a7c1e85e.c:71
+    #3 0x5859eb98f40c in main samples/SAFE/__tmp_a7c1e85e.c:101
+    #4 0x7e11e6e2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x7e11e6e2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x5859eb98e384 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_a7c1e85e.c.san+0x3384) (BuildId: bdbc3c646c3eea52f8da6bb55435d5f50ebe37cc)
+
+Address 0x7ffe369ceda0 is located in stack of thread T0 at offset 304448 in frame
+    #0 0x5859eb98f082 in main samples/SAFE/__tmp_a7c1e85e.c:76
+
+  This frame has 3 object(s):
+    [48, 352) 'entry' (line 87)
+    [416, 304416) 'entries' (line 77) <== Memory access at offset 304448 overflows this variable
+    [304672, 305696) 'line' (line 83)
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:470 in strcmp
+Shadow bytes around the buggy address:
+  0x7ffe369ceb00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffe369ceb80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffe369cec00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffe369cec80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffe369ced00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x7ffe369ced80: f2 f2 f2 f2[f2]f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x7ffe369cee00: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x7ffe369cee80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffe369cef00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffe369cef80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffe369cf000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==78670==ABORTING

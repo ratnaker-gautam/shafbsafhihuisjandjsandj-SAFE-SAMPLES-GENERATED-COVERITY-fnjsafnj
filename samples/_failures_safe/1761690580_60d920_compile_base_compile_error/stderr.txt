@@ -1,0 +1,22 @@
+./samples/SAFE/__tmp_7bc5f97d.c: In function ‘main’:
+./samples/SAFE/__tmp_7bc5f97d.c:146:25: error: expected ‘)’ at end of input
+  146 |     print_hex(compressed
+      |              ~          ^
+      |                         )
+./samples/SAFE/__tmp_7bc5f97d.c:146:15: error: incompatible type for argument 1 of ‘print_hex’
+  146 |     print_hex(compressed
+      |               ^~~~~~~~~~
+      |               |
+      |               Buffer
+./samples/SAFE/__tmp_7bc5f97d.c:96:38: note: expected ‘const uint8_t *’ {aka ‘const unsigned char *’} but argument is of type ‘Buffer’
+   96 | static void print_hex(const uint8_t* data, size_t size) {
+      |                       ~~~~~~~~~~~~~~~^~~~
+./samples/SAFE/__tmp_7bc5f97d.c:146:5: error: too few arguments to function ‘print_hex’
+  146 |     print_hex(compressed
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_7bc5f97d.c:96:13: note: declared here
+   96 | static void print_hex(const uint8_t* data, size_t size) {
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_7bc5f97d.c:146:5: error: expected declaration or statement at end of input
+  146 |     print_hex(compressed
+      |     ^~~~~~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8a58b87a.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_8a58b87a.c:143:5: error: expected expression at end of input
+  143 |     if (!is_operator_char(lexer->input[lexer->position]))
+      |     ^~
+./samples/SAFE/__tmp_8a58b87a.c:143:5: error: expected declaration or statement at end of input

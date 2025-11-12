@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_84f9ee1f.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_84f9ee1f.c:164:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  164 |     Parser parser
+      |     ^~~~~~
+./samples/SAFE/__tmp_84f9ee1f.c:164:5: error: expected declaration or statement at end of input

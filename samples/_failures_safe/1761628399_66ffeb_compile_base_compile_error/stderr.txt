@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_90047b4e.c: In function ‘simulate_data_reading’:
+./samples/SAFE/__tmp_90047b4e.c:177:20: error: missing terminating " character
+  177 |             printf("Read record: ID=%u, Name=%s, Value=
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_90047b4e.c:177:13: error: expected expression at end of input
+  177 |             printf("Read record: ID=%u, Name=%s, Value=
+      |             ^~~~~~
+./samples/SAFE/__tmp_90047b4e.c:177:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_90047b4e.c:177:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_90047b4e.c:177:13: error: expected declaration or statement at end of input

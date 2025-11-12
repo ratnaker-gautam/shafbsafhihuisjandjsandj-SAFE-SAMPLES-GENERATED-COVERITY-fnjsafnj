@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_712af2f3.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_712af2f3.c:193:13: error: expected expression at end of input
+  193 |             if (graph->edges[i]->source == current && !
+      |             ^~
+./samples/SAFE/__tmp_712af2f3.c:193:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_712af2f3.c:193:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_712af2f3.c:193:13: error: expected declaration or statement at end of input

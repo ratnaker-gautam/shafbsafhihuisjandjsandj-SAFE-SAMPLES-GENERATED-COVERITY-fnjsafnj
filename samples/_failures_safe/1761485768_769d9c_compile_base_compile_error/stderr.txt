@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f645a6f4.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_f645a6f4.c:132:56: error: expected ‘)’ at end of input
+  132 |             matrix_set(result, j, i, matrix_get(a, i, j
+      |                                                ~       ^
+      |                                                        )
+./samples/SAFE/__tmp_f645a6f4.c:132:13: error: expected declaration or statement at end of input
+  132 |             matrix_set(result, j, i, matrix_get(a, i, j
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_f645a6f4.c:132:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f645a6f4.c:132:13: error: expected declaration or statement at end of input

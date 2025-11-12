@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_b0864012.c: In function ‘main’:
+./samples/SAFE/__tmp_b0864012.c:141:30: error: ‘rows’ undeclared (first use in this function); did you mean ‘rows2’?
+  141 |         int transpose[cols1][rows
+      |                              ^~~~
+      |                              rows2
+./samples/SAFE/__tmp_b0864012.c:141:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b0864012.c:141:34: error: expected ‘]’ at end of input
+  141 |         int transpose[cols1][rows
+      |                                  ^
+      |                                  ]
+./samples/SAFE/__tmp_b0864012.c:141:9: error: expected declaration or statement at end of input
+  141 |         int transpose[cols1][rows
+      |         ^~~
+./samples/SAFE/__tmp_b0864012.c:141:9: error: expected declaration or statement at end of input

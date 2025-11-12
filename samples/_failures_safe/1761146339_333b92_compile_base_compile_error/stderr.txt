@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_763bc76f.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_763bc76f.c:146:45: error: missing terminating ' character
+  146 |     while (lexer->input[lexer->position] != '\0
+      |                                             ^~~
+./samples/SAFE/__tmp_763bc76f.c:146:5: error: expected expression at end of input
+  146 |     while (lexer->input[lexer->position] != '\0
+      |     ^~~~~
+./samples/SAFE/__tmp_763bc76f.c:146:5: error: expected declaration or statement at end of input

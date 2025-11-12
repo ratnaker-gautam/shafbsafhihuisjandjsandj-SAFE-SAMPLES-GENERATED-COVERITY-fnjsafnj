@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_cdbc5ef0.c: In function ‘print_compression_info’:
+./samples/SAFE/__tmp_cdbc5ef0.c:172:5: error: expected declaration or statement at end of input
+  172 |     printf("\n");
+      |     ^~~~~~

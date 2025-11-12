@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ca58ffb3.c: In function ‘main’:
+./samples/SAFE/__tmp_ca58ffb3.c:176:5: error: expected declaration or statement at end of input
+  176 |     ctx.data_count = 0;
+      |     ^~~

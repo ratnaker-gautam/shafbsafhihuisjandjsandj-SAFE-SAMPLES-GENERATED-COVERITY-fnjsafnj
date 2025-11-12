@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_61c73da9.c: In function ‘main’:
+./samples/SAFE/__tmp_61c73da9.c:140:34: error: expected ‘;’ at end of input
+  140 |     heap_count = read_log_entries
+      |                                  ^
+      |                                  ;
+./samples/SAFE/__tmp_61c73da9.c:140:5: error: expected declaration or statement at end of input
+  140 |     heap_count = read_log_entries
+      |     ^~~~~~~~~~

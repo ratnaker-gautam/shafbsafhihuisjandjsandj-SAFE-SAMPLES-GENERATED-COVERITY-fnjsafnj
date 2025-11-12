@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0963d72b.c: In function ‘transpose_matrix’:
+./samples/SAFE/__tmp_0963d72b.c:134:23: error: expected ‘;’ at end of input
+  134 |     result->rows = mat
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_0963d72b.c:134:5: error: expected declaration or statement at end of input
+  134 |     result->rows = mat
+      |     ^~~~~~

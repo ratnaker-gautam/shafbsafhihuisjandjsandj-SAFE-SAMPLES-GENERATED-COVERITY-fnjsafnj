@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9e784b96.c: In function ‘main’:
+./samples/SAFE/__tmp_9e784b96.c:142:58: error: ‘filter’ undeclared (first use in this function)
+  142 |     printf("\nEntries with level %s:\n", level_to_string(filter
+      |                                                          ^~~~~~
+./samples/SAFE/__tmp_9e784b96.c:142:58: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9e784b96.c:142:64: error: expected ‘)’ at end of input
+  142 |     printf("\nEntries with level %s:\n", level_to_string(filter
+      |                                                         ~      ^
+      |                                                                )
+./samples/SAFE/__tmp_9e784b96.c:142:5: error: expected declaration or statement at end of input
+  142 |     printf("\nEntries with level %s:\n", level_to_string(filter
+      |     ^~~~~~

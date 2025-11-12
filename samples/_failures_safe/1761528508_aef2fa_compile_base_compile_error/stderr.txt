@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_d45ab487.c: In function ‘main’:
+./samples/SAFE/__tmp_d45ab487.c:150:63: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols_b’?
+  150 |         multiply_matrices(matrix_a, matrix_b, result, rows_a, cols
+      |                                                               ^~~~
+      |                                                               cols_b
+./samples/SAFE/__tmp_d45ab487.c:150:63: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d45ab487.c:150:67: error: expected ‘)’ at end of input
+  150 |         multiply_matrices(matrix_a, matrix_b, result, rows_a, cols
+      |                          ~                                        ^
+      |                                                                   )
+./samples/SAFE/__tmp_d45ab487.c:150:9: error: too few arguments to function ‘multiply_matrices’
+  150 |         multiply_matrices(matrix_a, matrix_b, result, rows_a, cols
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_d45ab487.c:31:6: note: declared here
+   31 | void multiply_matrices(int a[MAX_SIZE][MAX_SIZE], int b[MAX_SIZE][MAX_SIZE], int result[MAX_SIZE][MAX_SIZE], int rows_a, int cols_a, int cols_b) {
+      |      ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_d45ab487.c:150:9: error: expected declaration or statement at end of input
+  150 |         multiply_matrices(matrix_a, matrix_b, result, rows_a, cols
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_d45ab487.c:150:9: error: expected declaration or statement at end of input

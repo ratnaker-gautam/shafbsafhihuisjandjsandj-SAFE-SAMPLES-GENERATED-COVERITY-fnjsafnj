@@ -1,0 +1,8 @@
+
+samples/SAFE/__tmp_a07c9a32.c:103:21: runtime error: signed integer overflow: 44454 + 2147463279 cannot be represented in type 'int'
+    #0 0x5c5cade7dfc0 in simulate_workload samples/SAFE/__tmp_a07c9a32.c:103
+    #1 0x5c5cade7e1e8 in main samples/SAFE/__tmp_a07c9a32.c:128
+    #2 0x756045a2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x756045a2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x5c5cade7d3c4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_a07c9a32.c.san+0x33c4) (BuildId: c03d15bc425eedcb1c3770821b7fd56bee70214e)
+

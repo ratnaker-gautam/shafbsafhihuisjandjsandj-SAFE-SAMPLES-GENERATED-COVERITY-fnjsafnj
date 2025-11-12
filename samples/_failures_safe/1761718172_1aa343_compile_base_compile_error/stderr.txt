@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_9b1996b8.c: In function ‘parse_statement’:
+./samples/SAFE/__tmp_9b1996b8.c:154:113: error: expected ‘]’ at end of input
+  154 |         if (current_token >= token_count || tokens[current_token].type != TOKEN_OPERATOR || tokens[current_token
+      |                                                                                                                 ^
+      |                                                                                                                 ]
+./samples/SAFE/__tmp_9b1996b8.c:154:90: error: invalid operands to binary || (have ‘int’ and ‘Token’)
+  154 |         if (current_token >= token_count || tokens[current_token].type != TOKEN_OPERATOR || tokens[current_token
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^~ ~~~~~~~~~~~~~~~~~~~~
+      |                                          |                                                        |
+      |                                          int                                                      Token
+./samples/SAFE/__tmp_9b1996b8.c:154:9: error: expected declaration or statement at end of input
+  154 |         if (current_token >= token_count || tokens[current_token].type != TOKEN_OPERATOR || tokens[current_token
+      |         ^~
+./samples/SAFE/__tmp_9b1996b8.c:154:9: error: expected declaration or statement at end of input

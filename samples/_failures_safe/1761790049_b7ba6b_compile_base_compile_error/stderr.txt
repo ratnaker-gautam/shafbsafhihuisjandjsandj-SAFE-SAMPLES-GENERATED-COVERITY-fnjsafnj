@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_872d6313.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_872d6313.c:160:21: error: expected identifier at end of input
+  160 |                     if (new_dist > 0 && new_dist < dist[graph->edges[i].
+      |                     ^~
+./samples/SAFE/__tmp_872d6313.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_872d6313.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_872d6313.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_872d6313.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_872d6313.c:160:21: error: expected declaration or statement at end of input

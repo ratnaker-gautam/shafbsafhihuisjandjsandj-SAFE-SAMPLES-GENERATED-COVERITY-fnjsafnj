@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5b182136.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_5b182136.c:150:29: error: expected ‘)’ at end of input
+  150 |         if (is_operator_char
+      |            ~                ^
+      |                             )
+./samples/SAFE/__tmp_5b182136.c:150:9: error: expected declaration or statement at end of input
+  150 |         if (is_operator_char
+      |         ^~
+./samples/SAFE/__tmp_5b182136.c:150:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_91a6e218.c: In function ‘run_state_machine_simulation’:
+./samples/SAFE/__tmp_91a6e218.c:143:9: error: expected declaration or statement at end of input
+  143 |         strncpy(input, test_inputs[i], MAX_INPUT_LEN);
+      |         ^~~~~~~
+./samples/SAFE/__tmp_91a6e218.c:143:9: error: expected declaration or statement at end of input

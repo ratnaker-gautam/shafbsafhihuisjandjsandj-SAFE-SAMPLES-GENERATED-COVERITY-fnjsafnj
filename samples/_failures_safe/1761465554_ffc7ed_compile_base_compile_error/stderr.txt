@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_786bc36d.c: In function ‘main’:
+./samples/SAFE/__tmp_786bc36d.c:168:17: error: expected expression at end of input
+  168 |                 if (ctx.last_command == CMD_EXIT)
+      |                 ^~
+./samples/SAFE/__tmp_786bc36d.c:168:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_786bc36d.c:168:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_786bc36d.c:168:17: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_4828def7.c: In function ‘main’:
+./samples/SAFE/__tmp_4828def7.c:140:13: error: expected declaration or statement at end of input
+  140 |             printf("Invalid format. Please use: YYYY-MM-DD HH:MM:SS LEVEL message\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_4828def7.c:140:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4828def7.c:140:13: error: expected declaration or statement at end of input

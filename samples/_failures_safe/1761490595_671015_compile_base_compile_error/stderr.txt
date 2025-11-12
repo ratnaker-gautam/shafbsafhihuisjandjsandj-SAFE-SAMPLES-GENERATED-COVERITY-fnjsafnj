@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f0943bf8.c: In function ‘main’:
+./samples/SAFE/__tmp_f0943bf8.c:167:5: error: expected declaration or statement at end of input
+  167 |     input[strcspn(input, "\n")] = '\0';
+      |     ^~~~~

@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccslR8cg.o: in function `main':
+__tmp_2fe19490.c:(.text.startup+0x185): undefined reference to `log1p'
+/usr/bin/ld: __tmp_2fe19490.c:(.text.startup+0x1a6): undefined reference to `log1p'
+collect2: error: ld returned 1 exit status

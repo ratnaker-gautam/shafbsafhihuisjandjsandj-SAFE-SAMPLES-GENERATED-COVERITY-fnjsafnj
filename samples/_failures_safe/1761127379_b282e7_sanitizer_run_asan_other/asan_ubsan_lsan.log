@@ -1,0 +1,15 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==13271==ERROR: AddressSanitizer: SEGV on unknown address 0x000004d00040 (pc 0x59a94b0cc9ab bp 0x7fff12689880 sp 0x7fff12689760 T0)
+==13271==The signal is caused by a READ memory access.
+    #0 0x59a94b0cc9ab in process_word samples/SAFE/__tmp_cef9d33e.c:45
+    #1 0x59a94b0cd548 in tokenize_and_count samples/SAFE/__tmp_cef9d33e.c:82
+    #2 0x59a94b0cdc13 in main samples/SAFE/__tmp_cef9d33e.c:121
+    #3 0x7f1a06c2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x7f1a06c2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x59a94b0cc3e4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_cef9d33e.c.san+0x43e4) (BuildId: 33e3512e418fae5c17bfe0d763404ed1eec82382)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV samples/SAFE/__tmp_cef9d33e.c:45 in process_word
+==13271==ABORTING

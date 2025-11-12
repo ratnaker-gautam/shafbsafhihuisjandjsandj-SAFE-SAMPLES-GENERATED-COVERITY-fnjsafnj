@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_cb4cc5a4.c: In function ‘main’:
+./samples/SAFE/__tmp_cb4cc5a4.c:136:19: error: expected ‘)’ at end of input
+  136 |     read_matrix(&a
+      |                ~  ^
+      |                   )
+./samples/SAFE/__tmp_cb4cc5a4.c:136:5: error: too few arguments to function ‘read_matrix’
+  136 |     read_matrix(&a
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_cb4cc5a4.c:40:6: note: declared here
+   40 | void read_matrix(Matrix* mat, const char* name) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_cb4cc5a4.c:136:5: error: expected declaration or statement at end of input
+  136 |     read_matrix(&a
+      |     ^~~~~~~~~~~

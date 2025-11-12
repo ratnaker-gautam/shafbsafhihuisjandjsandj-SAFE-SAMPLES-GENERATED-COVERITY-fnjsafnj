@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_9d1f140e.c: In function ‘main’:
+./samples/SAFE/__tmp_9d1f140e.c:134:61: error: ‘min’ undeclared (first use in this function); did you mean ‘main’?
+  134 |     printf("Bounding box: X:[%.2f, %.2f] Y:[%.2f, %.2f]\n", min
+      |                                                             ^~~
+      |                                                             main
+./samples/SAFE/__tmp_9d1f140e.c:134:61: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9d1f140e.c:134:64: error: expected ‘)’ at end of input
+  134 |     printf("Bounding box: X:[%.2f, %.2f] Y:[%.2f, %.2f]\n", min
+      |           ~                                                    ^
+      |                                                                )
+./samples/SAFE/__tmp_9d1f140e.c:134:5: error: expected declaration or statement at end of input
+  134 |     printf("Bounding box: X:[%.2f, %.2f] Y:[%.2f, %.2f]\n", min
+      |     ^~~~~~

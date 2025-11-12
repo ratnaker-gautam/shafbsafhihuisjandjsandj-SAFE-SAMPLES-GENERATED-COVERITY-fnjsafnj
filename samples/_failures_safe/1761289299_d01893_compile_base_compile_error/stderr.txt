@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_66357d66.c: In function ‘main’:
+./samples/SAFE/__tmp_66357d66.c:156:9: error: expected declaration or statement at end of input
+  156 |         printf("Select operation: ");
+      |         ^~~~~~
+./samples/SAFE/__tmp_66357d66.c:156:9: error: expected declaration or statement at end of input

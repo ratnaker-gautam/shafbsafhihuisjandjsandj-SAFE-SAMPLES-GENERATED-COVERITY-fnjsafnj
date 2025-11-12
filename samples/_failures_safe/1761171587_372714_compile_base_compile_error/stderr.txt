@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_d283aae1.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_d283aae1.c:190:69: error: expected ‘]’ at end of input
+  190 |                 dist[v] = dist[minIndex] + graph->adjMatrix[minIndex
+      |                                                                     ^
+      |                                                                     ]
+./samples/SAFE/__tmp_d283aae1.c:190:17: error: expected declaration or statement at end of input
+  190 |                 dist[v] = dist[minIndex] + graph->adjMatrix[minIndex
+      |                 ^~~~
+./samples/SAFE/__tmp_d283aae1.c:190:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d283aae1.c:190:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d283aae1.c:190:17: error: expected declaration or statement at end of input

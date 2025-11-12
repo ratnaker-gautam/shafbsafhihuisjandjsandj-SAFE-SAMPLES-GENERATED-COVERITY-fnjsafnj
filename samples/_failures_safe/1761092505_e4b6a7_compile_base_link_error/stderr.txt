@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccETNHyQ.o: in function `calculate_euclidean_distance':
+__tmp_49f61781.c:(.text+0x146): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

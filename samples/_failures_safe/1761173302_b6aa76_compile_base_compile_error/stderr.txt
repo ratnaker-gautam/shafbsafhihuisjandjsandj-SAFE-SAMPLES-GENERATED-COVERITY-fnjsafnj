@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_af718a9d.c: In function ‘main’:
+./samples/SAFE/__tmp_af718a9d.c:147:45: error: expected ‘)’ at end of input
+  147 |         printf("Matrix %d initialized:\n", i
+      |               ~                             ^
+      |                                             )
+./samples/SAFE/__tmp_af718a9d.c:147:9: error: expected declaration or statement at end of input
+  147 |         printf("Matrix %d initialized:\n", i
+      |         ^~~~~~
+./samples/SAFE/__tmp_af718a9d.c:147:9: error: expected declaration or statement at end of input

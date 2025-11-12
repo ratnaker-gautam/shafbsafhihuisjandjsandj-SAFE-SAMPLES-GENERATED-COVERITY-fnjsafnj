@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_92207a4f.c: In function ‘main’:
+./samples/SAFE/__tmp_92207a4f.c:160:25: error: ‘COMP’ undeclared (first use in this function)
+  160 |             comp_type = COMP
+      |                         ^~~~
+./samples/SAFE/__tmp_92207a4f.c:160:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_92207a4f.c:160:29: error: expected ‘;’ at end of input
+  160 |             comp_type = COMP
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_92207a4f.c:160:13: error: expected declaration or statement at end of input
+  160 |             comp_type = COMP
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_92207a4f.c:160:13: error: expected declaration or statement at end of input

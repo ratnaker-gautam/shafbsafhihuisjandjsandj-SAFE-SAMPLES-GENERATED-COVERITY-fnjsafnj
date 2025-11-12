@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_35763928.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_35763928.c:153:13: error: expected declaration or statement at end of input
+  153 |             strncpy(token.value, buffer, MAX_TOKEN_LEN - 1);
+      |             ^~~~~~~
+./samples/SAFE/__tmp_35763928.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_35763928.c:153:13: error: expected declaration or statement at end of input

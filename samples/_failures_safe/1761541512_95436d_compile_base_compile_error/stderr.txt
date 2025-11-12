@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_902831ce.c: In function ‘main’:
+./samples/SAFE/__tmp_902831ce.c:165:5: error: expected declaration or statement at end of input
+  165 |     if (entry_count == 0) {
+      |     ^~
+./samples/SAFE/__tmp_902831ce.c:165:5: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_928dacfb.c: In function ‘main’:
+./samples/SAFE/__tmp_928dacfb.c:162:65: error: expected ‘)’ at end of input
+  162 |         float compression_ratio = (1.0f - (float)compressed_size
+      |                                   ~                             ^
+      |                                                                 )
+./samples/SAFE/__tmp_928dacfb.c:162:9: error: expected declaration or statement at end of input
+  162 |         float compression_ratio = (1.0f - (float)compressed_size
+      |         ^~~~~
+./samples/SAFE/__tmp_928dacfb.c:162:9: error: expected declaration or statement at end of input

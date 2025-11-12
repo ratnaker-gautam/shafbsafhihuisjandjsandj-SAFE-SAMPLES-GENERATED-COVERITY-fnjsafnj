@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_36b2791f.c: In function ‘transform_point’:
+./samples/SAFE/__tmp_36b2791f.c:127:12: error: expected declaration or statement at end of input
+  127 |     struct Vector3D rotated = matrix_vector_multiply(t.rotation, scaled);
+      |            ^~~~~~~~

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_0fe52e55.c: In function ‘main’:
+./samples/SAFE/__tmp_0fe52e55.c:177:23: error: ‘TOKEN_’ undeclared (first use in this function)
+  177 |     if (token.type != TOKEN_
+      |                       ^~~~~~
+./samples/SAFE/__tmp_0fe52e55.c:177:23: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0fe52e55.c:177:29: error: expected ‘)’ at end of input
+  177 |     if (token.type != TOKEN_
+      |        ~                    ^
+      |                             )
+./samples/SAFE/__tmp_0fe52e55.c:177:5: error: expected declaration or statement at end of input
+  177 |     if (token.type != TOKEN_
+      |     ^~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_17131d46.c: In function ‘main’:
+./samples/SAFE/__tmp_17131d46.c:153:39: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  153 |     memcpy(input_buffer, line_buffer, input
+      |                                       ^~~~~
+      |                                       int
+./samples/SAFE/__tmp_17131d46.c:153:39: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_17131d46.c:153:44: error: expected ‘)’ at end of input
+  153 |     memcpy(input_buffer, line_buffer, input
+      |           ~                                ^
+      |                                            )
+./samples/SAFE/__tmp_17131d46.c:153:5: error: expected declaration or statement at end of input
+  153 |     memcpy(input_buffer, line_buffer, input
+      |     ^~~~~~

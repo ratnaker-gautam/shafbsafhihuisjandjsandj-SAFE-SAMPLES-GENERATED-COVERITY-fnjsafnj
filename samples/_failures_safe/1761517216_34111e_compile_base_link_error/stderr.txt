@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccV17sdA.o: in function `is_prime':
+__tmp_1a485531.c:(.text+0x109): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

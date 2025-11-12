@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_07ca63d3.c: In function ‘main’:
+./samples/SAFE/__tmp_07ca63d3.c:167:20: error: expected ‘)’ at end of input
+  167 |     dijkstra(&graph
+      |             ~      ^
+      |                    )
+./samples/SAFE/__tmp_07ca63d3.c:167:5: error: too few arguments to function ‘dijkstra’
+  167 |     dijkstra(&graph
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_07ca63d3.c:51:6: note: declared here
+   51 | void dijkstra(struct Graph *graph, int start_node) {
+      |      ^~~~~~~~
+./samples/SAFE/__tmp_07ca63d3.c:167:5: error: expected declaration or statement at end of input
+  167 |     dijkstra(&graph
+      |     ^~~~~~~~

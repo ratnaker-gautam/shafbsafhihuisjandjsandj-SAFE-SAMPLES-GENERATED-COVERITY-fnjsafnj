@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a416e3a6.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_a416e3a6.c:156:68: error: expected ‘)’ at end of input
+  156 |         } else if ((advance = parse_string(input, pos, token->value
+      |                                           ~                        ^
+      |                                                                    )
+./samples/SAFE/__tmp_a416e3a6.c:156:9: error: expected declaration or statement at end of input
+  156 |         } else if ((advance = parse_string(input, pos, token->value
+      |         ^
+./samples/SAFE/__tmp_a416e3a6.c:156:9: error: expected declaration or statement at end of input

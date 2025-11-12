@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_83d9b283.c: In function ‘peek_token’:
+./samples/SAFE/__tmp_83d9b283.c:164:19: error: ‘struct ParserState’ has no member named ‘t’
+  164 |     return &parser->t
+      |                   ^~
+./samples/SAFE/__tmp_83d9b283.c:164:22: error: expected ‘;’ at end of input
+  164 |     return &parser->t
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_83d9b283.c:164:5: error: expected declaration or statement at end of input
+  164 |     return &parser->t
+      |     ^~~~~~

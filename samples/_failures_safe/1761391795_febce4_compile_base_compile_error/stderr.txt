@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_56b5e36b.c: In function ‘main’:
+./samples/SAFE/__tmp_56b5e36b.c:129:5: error: expected identifier or ‘(’ at end of input
+  129 |     clock_t
+      |     ^~~~~~~
+./samples/SAFE/__tmp_56b5e36b.c:129:5: error: expected declaration or statement at end of input

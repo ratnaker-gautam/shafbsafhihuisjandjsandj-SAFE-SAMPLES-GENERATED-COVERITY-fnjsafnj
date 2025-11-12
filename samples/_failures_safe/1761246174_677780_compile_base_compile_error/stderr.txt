@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5422f743.c: In function ‘main’:
+./samples/SAFE/__tmp_5422f743.c:158:32: error: expected ‘)’ at end of input
+  158 |         if (strlen(search_term)
+      |            ~                   ^
+      |                                )
+./samples/SAFE/__tmp_5422f743.c:158:9: error: expected declaration or statement at end of input
+  158 |         if (strlen(search_term)
+      |         ^~
+./samples/SAFE/__tmp_5422f743.c:158:9: error: expected declaration or statement at end of input

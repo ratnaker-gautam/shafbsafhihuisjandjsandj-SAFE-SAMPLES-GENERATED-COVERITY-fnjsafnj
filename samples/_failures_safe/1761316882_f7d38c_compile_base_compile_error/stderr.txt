@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_3a71ecee.c: In function ‘next_token’:
+./samples/SAFE/__tmp_3a71ecee.c:129:59: error: expected ‘]’ at end of input
+  129 |             lexer->current.value[i++] = lexer->input[lexer
+      |                                                           ^
+      |                                                           ]
+./samples/SAFE/__tmp_3a71ecee.c:129:53: error: array subscript is not an integer
+  129 |             lexer->current.value[i++] = lexer->input[lexer
+      |                                                     ^
+./samples/SAFE/__tmp_3a71ecee.c:129:13: error: expected declaration or statement at end of input
+  129 |             lexer->current.value[i++] = lexer->input[lexer
+      |             ^~~~~
+./samples/SAFE/__tmp_3a71ecee.c:129:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3a71ecee.c:129:13: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_4455f306.c: In function ‘main’:
+./samples/SAFE/__tmp_4455f306.c:151:25: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols2’?
+  151 |             int matrix2[cols
+      |                         ^~~~
+      |                         cols2
+./samples/SAFE/__tmp_4455f306.c:151:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4455f306.c:151:29: error: expected ‘]’ at end of input
+  151 |             int matrix2[cols
+      |                             ^
+      |                             ]
+./samples/SAFE/__tmp_4455f306.c:151:13: error: expected declaration or statement at end of input
+  151 |             int matrix2[cols
+      |             ^~~
+./samples/SAFE/__tmp_4455f306.c:151:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4455f306.c:151:13: error: expected declaration or statement at end of input

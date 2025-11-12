@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e4a17971.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_e4a17971.c:123:9: error: expected declaration or statement at end of input
+  123 |         if (idx >= 0 && idx < LOG_LEVELS) {
+      |         ^~
+./samples/SAFE/__tmp_e4a17971.c:123:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e4a17971.c:123:9: error: expected declaration or statement at end of input

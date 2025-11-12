@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_68db7e25.c: In function ‘main’:
+./samples/SAFE/__tmp_68db7e25.c:146:25: error: expected ‘)’ at end of input
+  146 |     if (strlen(processor
+      |               ~         ^
+      |                         )
+./samples/SAFE/__tmp_68db7e25.c:146:16: error: incompatible type for argument 1 of ‘strlen’
+  146 |     if (strlen(processor
+      |                ^~~~~~~~~
+      |                |
+      |                struct TextProcessor
+In file included from ./samples/SAFE/__tmp_68db7e25.c:4:
+/usr/include/string.h:407:35: note: expected ‘const char *’ but argument is of type ‘struct TextProcessor’
+  407 | extern size_t strlen (const char *__s)
+      |                       ~~~~~~~~~~~~^~~
+./samples/SAFE/__tmp_68db7e25.c:146:5: error: expected declaration or statement at end of input
+  146 |     if (strlen(processor
+      |     ^~

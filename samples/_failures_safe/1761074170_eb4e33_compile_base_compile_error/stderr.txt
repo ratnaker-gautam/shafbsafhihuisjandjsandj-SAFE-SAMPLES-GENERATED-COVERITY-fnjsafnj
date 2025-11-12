@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_cadf0e11.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_cadf0e11.c:166:17: error: used struct type value where scalar is required
+  166 |             if (parser->current_token
+      |                 ^~~~~~
+./samples/SAFE/__tmp_cadf0e11.c:166:38: error: expected ‘)’ at end of input
+  166 |             if (parser->current_token
+      |                ~                     ^
+      |                                      )
+./samples/SAFE/__tmp_cadf0e11.c:166:13: error: expected declaration or statement at end of input
+  166 |             if (parser->current_token
+      |             ^~
+./samples/SAFE/__tmp_cadf0e11.c:166:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cadf0e11.c:166:13: error: expected declaration or statement at end of input

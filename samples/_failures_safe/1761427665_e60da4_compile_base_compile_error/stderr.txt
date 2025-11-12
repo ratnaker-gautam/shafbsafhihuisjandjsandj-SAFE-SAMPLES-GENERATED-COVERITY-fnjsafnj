@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_83570282.c: In function ‘main’:
+./samples/SAFE/__tmp_83570282.c:148:33: error: ‘di’ undeclared (first use in this function); did you mean ‘div’?
+  148 |     execute_graph_operation(&g, di
+      |                                 ^~
+      |                                 div
+./samples/SAFE/__tmp_83570282.c:148:33: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_83570282.c:148:35: error: expected ‘)’ at end of input
+  148 |     execute_graph_operation(&g, di
+      |                            ~      ^
+      |                                   )
+./samples/SAFE/__tmp_83570282.c:148:5: error: too few arguments to function ‘execute_graph_operation’
+  148 |     execute_graph_operation(&g, di
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_83570282.c:125:6: note: declared here
+  125 | void execute_graph_operation(Graph *g, GraphOperation op, int start, int end) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_83570282.c:148:5: error: expected declaration or statement at end of input
+  148 |     execute_graph_operation(&g, di
+      |     ^~~~~~~~~~~~~~~~~~~~~~~

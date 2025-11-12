@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_edcef346.c: In function ‘print_token’:
+./samples/SAFE/__tmp_edcef346.c:168:24: error: ‘TO’ undeclared (first use in this function)
+  168 |     if (token->type != TO
+      |                        ^~
+./samples/SAFE/__tmp_edcef346.c:168:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_edcef346.c:168:26: error: expected ‘)’ at end of input
+  168 |     if (token->type != TO
+      |        ~                 ^
+      |                          )
+./samples/SAFE/__tmp_edcef346.c:168:5: error: expected declaration or statement at end of input
+  168 |     if (token->type != TO
+      |     ^~

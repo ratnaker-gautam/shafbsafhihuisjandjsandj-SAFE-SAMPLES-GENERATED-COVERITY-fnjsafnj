@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_dee72b3a.c: In function ‘main’:
+./samples/SAFE/__tmp_dee72b3a.c:145:5: error: expected expression at end of input
+  145 |     if (scanf("%d", &start_node) != 1 || start_node < 0 || start_node >= num_nodes)
+      |     ^~
+./samples/SAFE/__tmp_dee72b3a.c:145:5: error: expected declaration or statement at end of input

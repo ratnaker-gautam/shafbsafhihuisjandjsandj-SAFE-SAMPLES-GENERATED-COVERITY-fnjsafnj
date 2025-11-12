@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_252cca2f.c: In function ‘main’:
+./samples/SAFE/__tmp_252cca2f.c:137:13: error: expected declaration or statement at end of input
+  137 |             current_day[31] = '\0';
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_252cca2f.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_252cca2f.c:137:13: error: expected declaration or statement at end of input

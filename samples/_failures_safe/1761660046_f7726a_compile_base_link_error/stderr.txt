@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/cc1qjuQP.o: in function `initialize_matrix':
+__tmp_ad400842.c:(.text+0x142): undefined reference to `sin'
+/usr/bin/ld: /tmp/cc1qjuQP.o: in function `compute_matrix_norm':
+__tmp_ad400842.c:(.text+0x20e): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_afbf11c1.c: In function ‘main’:
+./samples/SAFE/__tmp_afbf11c1.c:119: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_afbf11c1.c:118:35: note: to match this ‘{’
+  118 |     struct GeometricObject obj1 = {{0.0, 0.0, 0.0}, {1.0, 0.0, 0.0}, 1.0, 0.5
+      |                                   ^
+./samples/SAFE/__tmp_afbf11c1.c:118:12: error: expected declaration or statement at end of input
+  118 |     struct GeometricObject obj1 = {{0.0, 0.0, 0.0}, {1.0, 0.0, 0.0}, 1.0, 0.5
+      |            ^~~~~~~~~~~~~~~

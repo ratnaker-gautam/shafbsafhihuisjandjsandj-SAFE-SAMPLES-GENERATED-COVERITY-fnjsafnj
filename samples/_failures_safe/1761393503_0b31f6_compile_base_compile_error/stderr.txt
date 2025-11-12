@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_c8034191.c: In function ‘main’:
+./samples/SAFE/__tmp_c8034191.c:128:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  128 |             struct TransformResult result
+      |                    ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c8034191.c:128:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c8034191.c:128:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c8034191.c:128:20: error: expected declaration or statement at end of input

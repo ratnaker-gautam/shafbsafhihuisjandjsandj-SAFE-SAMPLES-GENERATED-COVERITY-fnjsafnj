@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_d2886f18.c: In function ‘main’:
+./samples/SAFE/__tmp_d2886f18.c:141:13: error: expected expression at end of input
+  141 |             int matrix1[rows][
+      |             ^~~
+./samples/SAFE/__tmp_d2886f18.c:141:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d2886f18.c:141:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d2886f18.c:141:13: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_673b0378.c: In function ‘main’:
+./samples/SAFE/__tmp_673b0378.c:140:43: error: expected ‘)’ at end of input
+  140 |     ctx.input_data = malloc(ctx.input_size
+      |                            ~              ^
+      |                                           )
+./samples/SAFE/__tmp_673b0378.c:140:5: error: expected declaration or statement at end of input
+  140 |     ctx.input_data = malloc(ctx.input_size
+      |     ^~~

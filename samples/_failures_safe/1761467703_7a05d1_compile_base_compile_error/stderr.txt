@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2331fdaa.c: In function ‘main’:
+./samples/SAFE/__tmp_2331fdaa.c:136:13: error: expected declaration or statement at end of input
+  136 |             printf("\nEntries with level %s:\n", filter_level);
+      |             ^~~~~~
+./samples/SAFE/__tmp_2331fdaa.c:136:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2331fdaa.c:136:13: error: expected declaration or statement at end of input

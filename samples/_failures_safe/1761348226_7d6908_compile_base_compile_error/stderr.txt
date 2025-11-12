@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_20c2bd26.c: In function ‘dijkstra_shortest_path’:
+./samples/SAFE/__tmp_20c2bd26.c:160:5: error: expected declaration or statement at end of input
+  160 |     printf("Shortest distance from %d to %d: ", start, target);
+      |     ^~~~~~

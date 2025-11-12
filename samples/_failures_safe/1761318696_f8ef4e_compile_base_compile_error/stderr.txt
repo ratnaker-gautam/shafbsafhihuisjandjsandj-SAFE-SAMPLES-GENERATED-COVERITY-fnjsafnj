@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_10da87cc.c: In function ‘generate_sample_logs’:
+./samples/SAFE/__tmp_10da87cc.c:136:9: error: missing terminating " character
+  136 |         "202
+      |         ^~~~
+./samples/SAFE/__tmp_10da87cc.c:136:9: error: expected expression at end of input
+./samples/SAFE/__tmp_10da87cc.c:136:9: error: expected declaration or statement at end of input

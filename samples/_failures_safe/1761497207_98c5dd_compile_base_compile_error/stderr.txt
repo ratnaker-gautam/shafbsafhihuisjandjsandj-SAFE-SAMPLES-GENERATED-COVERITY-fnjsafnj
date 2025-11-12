@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d1e708fa.c: In function ‘main’:
+./samples/SAFE/__tmp_d1e708fa.c:153:13: error: expected declaration or statement at end of input
+  153 |             mat2.rows = read_int("Enter rows (1-10): ", 1, MAX_DIM);
+      |             ^~~~
+./samples/SAFE/__tmp_d1e708fa.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d1e708fa.c:153:13: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7d603803.c: In function ‘perform_operations’:
+./samples/SAFE/__tmp_7d603803.c:150:21: error: expected ‘)’ at end of input
+  150 |     if (add_matrices
+      |        ~            ^
+      |                     )
+./samples/SAFE/__tmp_7d603803.c:150:5: error: expected declaration or statement at end of input
+  150 |     if (add_matrices
+      |     ^~

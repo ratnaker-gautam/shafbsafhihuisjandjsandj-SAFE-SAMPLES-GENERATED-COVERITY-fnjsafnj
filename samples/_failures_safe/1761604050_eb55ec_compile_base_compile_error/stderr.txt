@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_07f37710.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_07f37710.c:176:19: error: expected ‘;’ at end of input
+  176 |         visited[i]
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_07f37710.c:176:9: error: expected declaration or statement at end of input
+  176 |         visited[i]
+      |         ^~~~~~~
+./samples/SAFE/__tmp_07f37710.c:176:9: error: expected declaration or statement at end of input

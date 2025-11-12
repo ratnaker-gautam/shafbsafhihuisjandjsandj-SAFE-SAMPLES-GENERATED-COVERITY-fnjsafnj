@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_37e62b04.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_37e62b04.c:126:5: error: expected declaration or statement at end of input
+  126 |     }
+      |     ^

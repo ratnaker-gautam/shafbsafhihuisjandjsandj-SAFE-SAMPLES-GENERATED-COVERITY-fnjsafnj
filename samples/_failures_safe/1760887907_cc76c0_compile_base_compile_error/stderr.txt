@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a61affab.c: In function ‘main’:
+./samples/SAFE/__tmp_a61affab.c:132:56: error: expected ‘)’ at end of input
+  132 |         printf("Level: %s\n", log_heap[max_index].level
+      |               ~                                        ^
+      |                                                        )
+./samples/SAFE/__tmp_a61affab.c:132:9: error: expected declaration or statement at end of input
+  132 |         printf("Level: %s\n", log_heap[max_index].level
+      |         ^~~~~~
+./samples/SAFE/__tmp_a61affab.c:132:9: error: expected declaration or statement at end of input

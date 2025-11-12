@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_72fabc62.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_72fabc62.c:164:24: error: expected declaration or statement at end of input
+  164 |                 struct GraphNode* neighbor = graph->edges[i]->target;
+      |                        ^~~~~~~~~
+./samples/SAFE/__tmp_72fabc62.c:164:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_72fabc62.c:164:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_72fabc62.c:164:24: error: expected declaration or statement at end of input

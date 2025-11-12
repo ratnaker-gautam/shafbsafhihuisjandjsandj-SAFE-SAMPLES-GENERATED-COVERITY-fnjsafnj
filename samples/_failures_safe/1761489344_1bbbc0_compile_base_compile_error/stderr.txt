@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_3a323d18.c: In function ‘main’:
+./samples/SAFE/__tmp_3a323d18.c:169:5: error: expected declaration or statement at end of input
+  169 |     printf("Enter arithmetic expression: ");
+      |     ^~~~~~

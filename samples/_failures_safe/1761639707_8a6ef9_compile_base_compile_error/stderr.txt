@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6070bd1e.c: In function ‘main’:
+./samples/SAFE/__tmp_6070bd1e.c:142:5: error: expected expression at end of input
+  142 |     decompress_rle(compressed_buf.data, compressed_buf.size, &
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6070bd1e.c:142:5: error: expected declaration or statement at end of input

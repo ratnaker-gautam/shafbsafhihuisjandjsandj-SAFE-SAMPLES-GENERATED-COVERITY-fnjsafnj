@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_b21aad91.c: In function ‘main’:
+./samples/SAFE/__tmp_b21aad91.c:147:44: error: ‘mat’ undeclared (first use in this function); did you mean ‘mat2’?
+  147 |         double det1 = compute_determinant(&mat
+      |                                            ^~~
+      |                                            mat2
+./samples/SAFE/__tmp_b21aad91.c:147:44: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b21aad91.c:147:47: error: expected ‘)’ at end of input
+  147 |         double det1 = compute_determinant(&mat
+      |                                          ~    ^
+      |                                               )
+./samples/SAFE/__tmp_b21aad91.c:147:9: error: expected declaration or statement at end of input
+  147 |         double det1 = compute_determinant(&mat
+      |         ^~~~~~
+./samples/SAFE/__tmp_b21aad91.c:147:9: error: expected declaration or statement at end of input

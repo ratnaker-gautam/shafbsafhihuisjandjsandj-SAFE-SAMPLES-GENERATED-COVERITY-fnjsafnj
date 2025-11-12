@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_560da7d0.c: In function ‘main’:
+./samples/SAFE/__tmp_560da7d0.c:174:9: error: expected expression at end of input
+  174 |         if (!state_machine_step(&sm,
+      |         ^~
+./samples/SAFE/__tmp_560da7d0.c:174:14: error: too few arguments to function ‘state_machine_step’
+  174 |         if (!state_machine_step(&sm,
+      |              ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_560da7d0.c:53:12: note: declared here
+   53 | static int state_machine_step(StateMachine* sm, int event, char data_char) {
+      |            ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_560da7d0.c:174:9: error: expected declaration or statement at end of input
+  174 |         if (!state_machine_step(&sm,
+      |         ^~
+./samples/SAFE/__tmp_560da7d0.c:174:9: error: expected declaration or statement at end of input

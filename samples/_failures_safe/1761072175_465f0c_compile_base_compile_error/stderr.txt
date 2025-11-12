@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1f2f7c65.c: In function ‘main’:
+./samples/SAFE/__tmp_1f2f7c65.c:124:5: error: expected declaration or statement at end of input
+  124 |     printf("WARN entries: %d\n", warn_count);
+      |     ^~~~~~

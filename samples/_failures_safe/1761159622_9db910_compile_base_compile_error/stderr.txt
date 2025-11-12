@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_a8d4de8a.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_a8d4de8a.c:130:42: error: expected ‘)’ at end of input
+  130 |             if (!matrix_get(a, i, j, &val
+      |                            ~             ^
+      |                                          )
+./samples/SAFE/__tmp_a8d4de8a.c:130:13: error: expected declaration or statement at end of input
+  130 |             if (!matrix_get(a, i, j, &val
+      |             ^~
+./samples/SAFE/__tmp_a8d4de8a.c:130:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8d4de8a.c:130:13: error: expected declaration or statement at end of input

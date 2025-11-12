@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_48df5d35.c: In function ‘main’:
+./samples/SAFE/__tmp_48df5d35.c:145:22: error: expected ‘)’ at end of input
+  145 |     if (!compress_rle
+      |        ~             ^
+      |                      )
+./samples/SAFE/__tmp_48df5d35.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (!compress_rle
+      |     ^~

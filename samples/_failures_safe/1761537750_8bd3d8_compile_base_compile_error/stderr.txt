@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_057b6003.c: In function ‘main’:
+./samples/SAFE/__tmp_057b6003.c:170:5: error: expected ‘,’ or ‘;’ at end of input
+  170 |     int node_d = add_node
+      |     ^~~
+./samples/SAFE/__tmp_057b6003.c:170:5: error: expected declaration or statement at end of input

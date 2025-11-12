@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_08da32a2.c: In function ‘main’:
+./samples/SAFE/__tmp_08da32a2.c:136:28: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols_a’?
+  136 |     if (!read_safe_size_t(&cols
+      |                            ^~~~
+      |                            cols_a
+./samples/SAFE/__tmp_08da32a2.c:136:28: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_08da32a2.c:136:32: error: expected ‘)’ at end of input
+  136 |     if (!read_safe_size_t(&cols
+      |                          ~     ^
+      |                                )
+./samples/SAFE/__tmp_08da32a2.c:136:5: error: expected declaration or statement at end of input
+  136 |     if (!read_safe_size_t(&cols
+      |     ^~

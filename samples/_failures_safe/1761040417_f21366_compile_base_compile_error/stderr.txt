@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d1633d83.c: In function ‘current_token’:
+./samples/SAFE/__tmp_d1633d83.c:170:52: error: expected ‘]’ at end of input
+  170 |         return parser->tokens[parser->current_token
+      |                                                    ^
+      |                                                    ]
+./samples/SAFE/__tmp_d1633d83.c:170:9: error: expected declaration or statement at end of input
+  170 |         return parser->tokens[parser->current_token
+      |         ^~~~~~
+./samples/SAFE/__tmp_d1633d83.c:170:9: error: expected declaration or statement at end of input

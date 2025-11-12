@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6fcac97b.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_6fcac97b.c:155:53: error: expected ‘)’ at end of input
+  155 |     printf("Shortest distances from node %d:\n", src
+      |           ~                                         ^
+      |                                                     )
+./samples/SAFE/__tmp_6fcac97b.c:155:5: error: expected declaration or statement at end of input
+  155 |     printf("Shortest distances from node %d:\n", src
+      |     ^~~~~~

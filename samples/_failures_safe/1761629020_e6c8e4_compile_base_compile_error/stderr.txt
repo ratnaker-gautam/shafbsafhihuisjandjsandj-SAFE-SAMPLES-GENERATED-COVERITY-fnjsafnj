@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b3e114ce.c: In function ‘create_tetrahedron’:
+./samples/SAFE/__tmp_b3e114ce.c:137:18: error: expected ‘;’ at end of input
+  137 |     mesh.vertices
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_b3e114ce.c:137:5: error: expected declaration or statement at end of input
+  137 |     mesh.vertices
+      |     ^~~~

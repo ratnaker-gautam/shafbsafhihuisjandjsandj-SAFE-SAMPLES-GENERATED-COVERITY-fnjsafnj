@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccT1FmwA.o: in function `main':
+__tmp_01e1ec8c.c:(.text.startup+0xb6): undefined reference to `sin'
+/usr/bin/ld: __tmp_01e1ec8c.c:(.text.startup+0x244): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

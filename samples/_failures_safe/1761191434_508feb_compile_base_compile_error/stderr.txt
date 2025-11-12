@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_32d5d14c.c: In function ‘main’:
+./samples/SAFE/__tmp_32d5d14c.c:186:5: error: ‘process’ undeclared (first use in this function)
+  186 |     process
+      |     ^~~~~~~
+./samples/SAFE/__tmp_32d5d14c.c:186:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_32d5d14c.c:186:12: error: expected ‘;’ at end of input
+  186 |     process
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_32d5d14c.c:186:5: error: expected declaration or statement at end of input
+  186 |     process
+      |     ^~~~~~~

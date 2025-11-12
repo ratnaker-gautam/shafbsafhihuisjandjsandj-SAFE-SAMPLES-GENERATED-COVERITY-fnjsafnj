@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_b0ec1077.c: In function ‘peek_token’:
+./samples/SAFE/__tmp_b0ec1077.c:163:12: error: ‘e’ undeclared (first use in this function)
+  163 |     return e
+      |            ^
+./samples/SAFE/__tmp_b0ec1077.c:163:12: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b0ec1077.c:163:13: error: expected ‘;’ at end of input
+  163 |     return e
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_b0ec1077.c:163:5: error: expected declaration or statement at end of input
+  163 |     return e
+      |     ^~~~~~

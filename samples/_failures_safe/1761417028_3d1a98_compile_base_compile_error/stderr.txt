@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_ce99911b.c: In function ‘main’:
+./samples/SAFE/__tmp_ce99911b.c:146:29: error: ‘bf’ undeclared (first use in this function)
+  146 |     execute_graph_operation(bf
+      |                             ^~
+./samples/SAFE/__tmp_ce99911b.c:146:29: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ce99911b.c:146:31: error: expected ‘)’ at end of input
+  146 |     execute_graph_operation(bf
+      |                            ~  ^
+      |                               )
+./samples/SAFE/__tmp_ce99911b.c:146:5: error: too few arguments to function ‘execute_graph_operation’
+  146 |     execute_graph_operation(bf
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ce99911b.c:126:6: note: declared here
+  126 | void execute_graph_operation(GraphOperation op, Graph *g, int source, int target) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ce99911b.c:146:5: error: expected declaration or statement at end of input
+  146 |     execute_graph_operation(bf
+      |     ^~~~~~~~~~~~~~~~~~~~~~~

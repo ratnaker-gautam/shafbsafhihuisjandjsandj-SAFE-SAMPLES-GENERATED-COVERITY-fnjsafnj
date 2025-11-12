@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_bfa90d02.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_bfa90d02.c:147:5: error: expected declaration or statement at end of input
+  147 |     }
+      |     ^

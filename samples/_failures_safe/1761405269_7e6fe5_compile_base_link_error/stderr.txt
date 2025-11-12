@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccPnU9sl.o: in function `initialize_matrix':
+__tmp_344736ba.c:(.text+0x148): undefined reference to `sin'
+collect2: error: ld returned 1 exit status

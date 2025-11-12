@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6d7a1cba.c: In function ‘bfs’:
+./samples/SAFE/__tmp_6d7a1cba.c:160:12: error: expected expression at end of input
+  160 |     struct GraphNode* start_node =
+      |            ^~~~~~~~~
+./samples/SAFE/__tmp_6d7a1cba.c:160:12: error: expected declaration or statement at end of input

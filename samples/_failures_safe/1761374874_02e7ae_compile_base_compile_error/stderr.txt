@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5c63e90f.c: In function ‘process_log_data’:
+./samples/SAFE/__tmp_5c63e90f.c:136:5: error: expected expression at end of input
+  136 |     for (size_t i = 0; i < stack_count && i <
+      |     ^~~
+./samples/SAFE/__tmp_5c63e90f.c:136:5: error: expected declaration or statement at end of input

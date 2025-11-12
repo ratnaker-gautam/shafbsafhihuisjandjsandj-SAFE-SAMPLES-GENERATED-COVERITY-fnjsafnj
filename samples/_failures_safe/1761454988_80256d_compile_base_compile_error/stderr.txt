@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3fa305ec.c: In function ‘lexer_next’:
+./samples/SAFE/__tmp_3fa305ec.c:158:9: error: expected declaration or statement at end of input
+  158 |         char buffer[2] = {0};
+      |         ^~~~
+./samples/SAFE/__tmp_3fa305ec.c:158:9: error: expected declaration or statement at end of input

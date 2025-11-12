@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a4824cfa.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_a4824cfa.c:164:12: error: expected declaration or statement at end of input
+  164 |     struct ParseResult result = {0, NULL, ""};
+      |            ^~~~~~~~~~~

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_50aad381.c: In function ‘main’:
+./samples/SAFE/__tmp_50aad381.c:168:31: error: expected ‘)’ at end of input
+  168 |     if (!tokenize_string(input
+      |                         ~     ^
+      |                               )
+./samples/SAFE/__tmp_50aad381.c:168:10: error: too few arguments to function ‘tokenize_string’
+  168 |     if (!tokenize_string(input
+      |          ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_50aad381.c:78:5: note: declared here
+   78 | int tokenize_string(const char* input, Token** tokens, size_t* token_count) {
+      |     ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_50aad381.c:168:5: error: expected declaration or statement at end of input
+  168 |     if (!tokenize_string(input
+      |     ^~

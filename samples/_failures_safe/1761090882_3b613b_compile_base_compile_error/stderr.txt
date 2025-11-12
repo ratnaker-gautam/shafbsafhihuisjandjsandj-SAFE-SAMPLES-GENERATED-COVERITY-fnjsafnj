@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_0dd05001.c: In function ‘main’:
+./samples/SAFE/__tmp_0dd05001.c:139:9: error: expected identifier or ‘(’ at end of input
+  139 |         size_t
+      |         ^~~~~~
+./samples/SAFE/__tmp_0dd05001.c:139:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0dd05001.c:139:9: error: expected declaration or statement at end of input

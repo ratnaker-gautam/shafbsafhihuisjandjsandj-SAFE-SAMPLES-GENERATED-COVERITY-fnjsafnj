@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_28c2c7bf.c: In function ‘main’:
+./samples/SAFE/__tmp_28c2c7bf.c:143:5: error: expected expression at end of input
+  143 |     size_t compressed_size = perform_compression(&params, input_buffer, input_len, output_buffer, sizeof
+      |     ^~~~~~
+./samples/SAFE/__tmp_28c2c7bf.c:143:5: error: expected declaration or statement at end of input

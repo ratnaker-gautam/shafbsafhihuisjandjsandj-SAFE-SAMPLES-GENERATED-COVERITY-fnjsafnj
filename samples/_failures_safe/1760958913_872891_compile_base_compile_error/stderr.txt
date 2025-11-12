@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b4fbd287.c: In function ‘main’:
+./samples/SAFE/__tmp_b4fbd287.c:146:112: error: expected ‘)’ at end of input
+  146 |     size_t decomp_size = decompress_rle(compressed_buf.data, compressed_buf.size, decomp_buf, sizeof(decomp_buf
+      |                                                                                                     ~          ^
+      |                                                                                                                )
+./samples/SAFE/__tmp_b4fbd287.c:146:5: error: expected declaration or statement at end of input
+  146 |     size_t decomp_size = decompress_rle(compressed_buf.data, compressed_buf.size, decomp_buf, sizeof(decomp_buf
+      |     ^~~~~~

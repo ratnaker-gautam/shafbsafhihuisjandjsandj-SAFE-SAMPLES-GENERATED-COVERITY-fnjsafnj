@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_85ee1456.c: In function ‘main’:
+./samples/SAFE/__tmp_85ee1456.c:110:5: error: expected declaration or statement at end of input
+  110 |     printf("Matrix Operations Program\n");
+      |     ^~~~~~

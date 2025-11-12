@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_14d96a78.c: In function ‘main’:
+./samples/SAFE/__tmp_14d96a78.c:163:13: error: expected declaration or statement at end of input
+  163 |             printf("Decompression failed for method %s\n", method_names[i]);
+      |             ^~~~~~
+./samples/SAFE/__tmp_14d96a78.c:163:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_14d96a78.c:163:13: error: expected declaration or statement at end of input

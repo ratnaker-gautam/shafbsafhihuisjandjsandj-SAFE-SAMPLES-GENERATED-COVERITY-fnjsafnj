@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f97ef144.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_f97ef144.c:122:5: error: expected declaration or statement at end of input
+  122 |     if (severity == 0) return;
+      |     ^~

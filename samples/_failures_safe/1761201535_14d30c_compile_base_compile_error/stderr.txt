@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_93f88e33.c: In function ‘main’:
+./samples/SAFE/__tmp_93f88e33.c:150:17: error: expected identifier at end of input
+  150 |                 printf("  %s: %s\n", entries[i].
+      |                 ^~~~~~
+./samples/SAFE/__tmp_93f88e33.c:150:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_93f88e33.c:150:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_93f88e33.c:150:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_93f88e33.c:150:17: error: expected declaration or statement at end of input

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_09222664.c: In function ‘dijkstra_shortest_path’:
+./samples/SAFE/__tmp_09222664.c:153:19: error: expected ‘;’ at end of input
+  153 |             printf
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_09222664.c:153:13: error: expected declaration or statement at end of input
+  153 |             printf
+      |             ^~~~~~
+./samples/SAFE/__tmp_09222664.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_09222664.c:153:13: error: expected declaration or statement at end of input

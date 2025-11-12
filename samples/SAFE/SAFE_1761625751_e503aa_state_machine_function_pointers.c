@@ -1,0 +1,189 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: function_pointers ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef enum {
+    STATE_IDLE,
+    STATE_READY,
+    STATE_PROCESSING,
+    STATE_COMPLETE,
+    STATE_ERROR,
+    STATE_COUNT
+} State;
+
+typedef enum {
+    EVENT_START,
+    EVENT_DATA,
+    EVENT_PROCESS,
+    EVENT_SUCCESS,
+    EVENT_FAILURE,
+    EVENT_RESET,
+    EVENT_COUNT
+} Event;
+
+typedef void (*StateHandler)(void);
+
+static State current_state = STATE_IDLE;
+static int data_value = 0;
+static int process_count = 0;
+
+void handle_idle(void) {
+    printf("State: IDLE - Waiting for start command\n");
+}
+
+void handle_ready(void) {
+    printf("State: READY - Data loaded: %d\n", data_value);
+}
+
+void handle_processing(void) {
+    printf("State: PROCESSING - Working on data: %d\n", data_value);
+    process_count++;
+}
+
+void handle_complete(void) {
+    printf("State: COMPLETE - Processing finished. Count: %d\n", process_count);
+}
+
+void handle_error(void) {
+    printf("State: ERROR - An error occurred\n");
+}
+
+StateHandler state_handlers[STATE_COUNT] = {
+    handle_idle,
+    handle_ready,
+    handle_processing,
+    handle_complete,
+    handle_error
+};
+
+int validate_event(int event) {
+    return event >= 0 && event < EVENT_COUNT;
+}
+
+int validate_state(int state) {
+    return state >= 0 && state < STATE_COUNT;
+}
+
+void transition(Event event) {
+    if (!validate_event(event)) {
+        return;
+    }
+
+    State new_state = current_state;
+
+    switch (current_state) {
+        case STATE_IDLE:
+            if (event == EVENT_START) {
+                new_state = STATE_READY;
+            }
+            break;
+        case STATE_READY:
+            if (event == EVENT_DATA) {
+                new_state = STATE_READY;
+            } else if (event == EVENT_PROCESS) {
+                new_state = STATE_PROCESSING;
+            }
+            break;
+        case STATE_PROCESSING:
+            if (event == EVENT_SUCCESS) {
+                new_state = STATE_COMPLETE;
+            } else if (event == EVENT_FAILURE) {
+                new_state = STATE_ERROR;
+            }
+            break;
+        case STATE_COMPLETE:
+            if (event == EVENT_RESET) {
+                new_state = STATE_IDLE;
+                process_count = 0;
+                data_value = 0;
+            }
+            break;
+        case STATE_ERROR:
+            if (event == EVENT_RESET) {
+                new_state = STATE_IDLE;
+                process_count = 0;
+                data_value = 0;
+            }
+            break;
+        default:
+            break;
+    }
+
+    if (validate_state(new_state) && new_state != current_state) {
+        current_state = new_state;
+    }
+}
+
+void process_event(Event event) {
+    if (!validate_event(event)) {
+        return;
+    }
+
+    switch (event) {
+        case EVENT_DATA:
+            if (current_state == STATE_READY) {
+                data_value = (data_value + 1) % 100;
+            }
+            break;
+        case EVENT_PROCESS:
+            if (current_state == STATE_READY) {
+                process_count = 0;
+            }
+            break;
+        case EVENT_SUCCESS:
+            if (current_state == STATE_PROCESSING) {
+                data_value = (data_value * 2) % 1000;
+            }
+            break;
+        default:
+            break;
+    }
+
+    transition(event);
+}
+
+void print_menu(void) {
+    printf("\nAvailable events:\n");
+    printf("0 - START\n");
+    printf("1 - DATA\n");
+    printf("2 - PROCESS\n");
+    printf("3 - SUCCESS\n");
+    printf("4 - FAILURE\n");
+    printf("5 - RESET\n");
+    printf("6 - EXIT\n");
+    printf("Choose event: ");
+}
+
+int main(void) {
+    int choice;
+    int running = 1;
+
+    printf("State Machine Demo\n");
+
+    while (running) {
+        state_handlers[current_state]();
+        print_menu();
+
+        if (scanf("%d", &choice) != 1) {
+            while (getchar() != '\n');
+            printf("Invalid input. Please enter a number.\n");
+            continue;
+        }
+
+        if (choice < 0 || choice > 6) {
+            printf("Invalid choice. Please select 0-6.\n");
+            continue;
+        }
+
+        if (choice == 6) {
+            running = 0;
+            continue;
+        }
+
+        process_event((Event)choice);
+    }
+
+    printf("Program terminated.\n");
+    return 0;
+}

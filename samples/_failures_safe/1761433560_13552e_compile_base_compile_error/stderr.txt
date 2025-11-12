@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_66108523.c: In function ‘is_valid_timestamp’:
+./samples/SAFE/__tmp_66108523.c:133:13: error: expected expression at end of input
+  133 |             if (!
+      |             ^~
+./samples/SAFE/__tmp_66108523.c:133:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_66108523.c:133:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_66108523.c:133:13: error: expected declaration or statement at end of input

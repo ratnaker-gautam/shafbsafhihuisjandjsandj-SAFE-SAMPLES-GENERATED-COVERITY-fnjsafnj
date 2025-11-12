@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_68cacda9.c: In function ‘main’:
+./samples/SAFE/__tmp_68cacda9.c:153:73: error: expected ‘)’ at end of input
+  153 |     printf("Compression ratio: %.2f%%\n", (1.0 - (double)compressed.size
+      |                                           ~                             ^
+      |                                                                         )
+./samples/SAFE/__tmp_68cacda9.c:153:5: error: expected declaration or statement at end of input
+  153 |     printf("Compression ratio: %.2f%%\n", (1.0 - (double)compressed.size
+      |     ^~~~~~

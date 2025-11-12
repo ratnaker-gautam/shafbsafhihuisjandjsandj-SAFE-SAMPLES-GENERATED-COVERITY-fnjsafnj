@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_3979e418.c: In function ‘main’:
+./samples/SAFE/__tmp_3979e418.c:171:19: error: ‘decompress_r’ undeclared (first use in this function); did you mean ‘decompress_rle’?
+  171 |         success = decompress_r
+      |                   ^~~~~~~~~~~~
+      |                   decompress_rle
+./samples/SAFE/__tmp_3979e418.c:171:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3979e418.c:171:31: error: expected ‘;’ at end of input
+  171 |         success = decompress_r
+      |                               ^
+      |                               ;
+./samples/SAFE/__tmp_3979e418.c:171:9: error: expected declaration or statement at end of input
+  171 |         success = decompress_r
+      |         ^~~~~~~
+./samples/SAFE/__tmp_3979e418.c:171:9: error: expected declaration or statement at end of input

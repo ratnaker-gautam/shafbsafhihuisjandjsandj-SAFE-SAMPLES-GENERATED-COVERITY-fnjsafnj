@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_5cea71c3.c: In function ‘main’:
+./samples/SAFE/__tmp_5cea71c3.c:136:39: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols_b’?
+  136 |         read_matrix(matrix_b, rows_b, cols
+      |                                       ^~~~
+      |                                       cols_b
+./samples/SAFE/__tmp_5cea71c3.c:136:39: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5cea71c3.c:136:43: error: expected ‘)’ at end of input
+  136 |         read_matrix(matrix_b, rows_b, cols
+      |                    ~                      ^
+      |                                           )
+./samples/SAFE/__tmp_5cea71c3.c:136:9: error: expected declaration or statement at end of input
+  136 |         read_matrix(matrix_b, rows_b, cols
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_5cea71c3.c:136:9: error: expected declaration or statement at end of input

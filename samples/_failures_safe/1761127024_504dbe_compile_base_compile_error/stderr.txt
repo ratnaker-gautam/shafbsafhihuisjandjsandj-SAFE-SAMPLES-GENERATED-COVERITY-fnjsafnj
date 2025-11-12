@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f0ebdc34.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_f0ebdc34.c:138:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  138 |     for (int col
+      |     ^~~
+./samples/SAFE/__tmp_f0ebdc34.c:138:5: error: expected declaration or statement at end of input

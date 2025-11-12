@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_17bd146a.c: In function ‘main’:
+./samples/SAFE/__tmp_17bd146a.c:166:13: error: expected declaration or statement at end of input
+  166 |             case TOKEN_NUMBER: printf("Number %s\n", parser.current_token.value); break;
+      |             ^~~~
+./samples/SAFE/__tmp_17bd146a.c:166:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_17bd146a.c:166:13: error: expected declaration or statement at end of input

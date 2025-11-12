@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_11006bdc.c: In function ‘main’:
+./samples/SAFE/__tmp_11006bdc.c:167:5: error: expected declaration or statement at end of input
+  167 |     while (calc.current_state != DONE && calc.current_state != ERROR) {
+      |     ^~~~~
+./samples/SAFE/__tmp_11006bdc.c:167:5: error: expected declaration or statement at end of input

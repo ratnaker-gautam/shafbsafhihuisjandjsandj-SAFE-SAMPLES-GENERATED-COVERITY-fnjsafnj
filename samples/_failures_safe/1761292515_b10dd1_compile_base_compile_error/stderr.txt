@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6703f2c8.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_6703f2c8.c:160:5: error: expected expression at end of input
+  160 |     Lexer lexer = {input, 0,
+      |     ^~~~~
+./samples/SAFE/__tmp_6703f2c8.c:160:5: error: expected declaration or statement at end of input

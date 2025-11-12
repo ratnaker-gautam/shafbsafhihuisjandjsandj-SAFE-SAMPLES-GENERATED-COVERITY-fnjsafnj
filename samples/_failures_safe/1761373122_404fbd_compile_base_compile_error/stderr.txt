@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3580e21c.c: In function ‘main’:
+./samples/SAFE/__tmp_3580e21c.c:150:9: error: expected expression at end of input
+  150 |         {4, 3, 3}, {5, 2,
+      |         ^
+./samples/SAFE/__tmp_3580e21c.c:150:9: error: expected declaration or statement at end of input

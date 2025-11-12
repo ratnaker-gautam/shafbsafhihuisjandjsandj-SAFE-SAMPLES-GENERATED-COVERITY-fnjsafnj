@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f119efeb.c: In function ‘generate_summary’:
+./samples/SAFE/__tmp_f119efeb.c:134:9: error: expected expression at end of input
+  134 |         for (
+      |         ^~~
+./samples/SAFE/__tmp_f119efeb.c:134:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f119efeb.c:134:9: error: expected declaration or statement at end of input

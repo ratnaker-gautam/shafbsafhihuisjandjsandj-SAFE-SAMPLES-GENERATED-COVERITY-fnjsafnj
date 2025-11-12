@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_3366ac92.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_3366ac92.c:196:33: error: expected ‘;’ at end of input
+  196 |             start = graph->nodes
+      |                                 ^
+      |                                 ;
+./samples/SAFE/__tmp_3366ac92.c:196:13: error: expected declaration or statement at end of input
+  196 |             start = graph->nodes
+      |             ^~~~~
+./samples/SAFE/__tmp_3366ac92.c:196:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3366ac92.c:196:13: error: expected declaration or statement at end of input

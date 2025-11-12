@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_74b3962f.c: In function ‘main’:
+./samples/SAFE/__tmp_74b3962f.c:165:30: error: expected ‘;’ at end of input
+  165 |         destroy_state_machine
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_74b3962f.c:165:9: error: expected declaration or statement at end of input
+  165 |         destroy_state_machine
+      |         ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_74b3962f.c:165:9: error: expected declaration or statement at end of input

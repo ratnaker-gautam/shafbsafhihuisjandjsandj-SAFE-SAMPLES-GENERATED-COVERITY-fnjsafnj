@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_2781ec4f.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_2781ec4f.c:163:17: error: expected expression at end of input
+  163 |                 (current_char == '=' && next_char == '=') ||
+      |                 ^
+./samples/SAFE/__tmp_2781ec4f.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2781ec4f.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2781ec4f.c:163:17: error: expected declaration or statement at end of input

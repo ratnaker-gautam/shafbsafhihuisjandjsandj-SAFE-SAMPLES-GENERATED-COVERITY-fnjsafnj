@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_def0744f.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_def0744f.c:154:16: error: expected ‘)’ at end of input
+  154 |         (*token
+      |         ~      ^
+      |                )
+./samples/SAFE/__tmp_def0744f.c:154:9: error: expected declaration or statement at end of input
+  154 |         (*token
+      |         ^
+./samples/SAFE/__tmp_def0744f.c:154:9: error: expected declaration or statement at end of input

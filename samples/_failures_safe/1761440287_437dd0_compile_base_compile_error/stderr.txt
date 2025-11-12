@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_505b4128.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_505b4128.c:138:13: error: expected expression at end of input
+  138 |             const int* src_elem =
+      |             ^~~~~
+./samples/SAFE/__tmp_505b4128.c:138:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_505b4128.c:138:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_505b4128.c:138:13: error: expected declaration or statement at end of input

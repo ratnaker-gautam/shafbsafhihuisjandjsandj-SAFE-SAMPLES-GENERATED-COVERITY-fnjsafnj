@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_cad564c3.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_cad564c3.c:162:48: error: expected ‘)’ at end of input
+  162 |         printf("Found string: \"%s\"\n", parser
+      |               ~                                ^
+      |                                                )
+./samples/SAFE/__tmp_cad564c3.c:162:9: error: expected declaration or statement at end of input
+  162 |         printf("Found string: \"%s\"\n", parser
+      |         ^~~~~~
+./samples/SAFE/__tmp_cad564c3.c:162:9: error: expected declaration or statement at end of input

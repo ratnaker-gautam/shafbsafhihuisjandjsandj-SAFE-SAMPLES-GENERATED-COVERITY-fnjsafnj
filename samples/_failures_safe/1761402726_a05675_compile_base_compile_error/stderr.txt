@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_7b3415c0.c: In function ‘main’:
+./samples/SAFE/__tmp_7b3415c0.c:138:17: error: expected expression at end of input
+  138 |                 } else if (mult_result == -1)
+      |                 ^
+./samples/SAFE/__tmp_7b3415c0.c:138:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7b3415c0.c:138:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7b3415c0.c:138:17: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_986fbfcc.c: In function ‘update_stats’:
+./samples/SAFE/__tmp_986fbfcc.c:119:9: error: expected identifier at end of input
+  119 |         analyzer->stats.latest[sizeof(analyzer->
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_986fbfcc.c:119:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_986fbfcc.c:119:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_29fad525.c: In function ‘main’:
+./samples/SAFE/__tmp_29fad525.c:144:9: error: expected declaration or statement at end of input
+  144 |         if (machine.current_state == STATE_ERROR && machine.error_code != 0) {
+      |         ^~
+./samples/SAFE/__tmp_29fad525.c:144:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_29fad525.c:144:9: error: expected declaration or statement at end of input

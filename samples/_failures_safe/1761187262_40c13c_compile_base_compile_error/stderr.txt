@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_dd838450.c: In function ‘main’:
+./samples/SAFE/__tmp_dd838450.c:146:17: error: expected declaration or statement at end of input
+  146 |                 destroy_matrix(&a);
+      |                 ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_dd838450.c:146:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dd838450.c:146:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dd838450.c:146:17: error: expected declaration or statement at end of input

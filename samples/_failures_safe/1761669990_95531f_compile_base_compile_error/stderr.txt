@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bae92529.c: In function ‘boundingbox_calculate’:
+./samples/SAFE/__tmp_bae92529.c:144:27: error: expected ‘)’ at end of input
+  144 |     if (mesh->vertex_count
+      |        ~                  ^
+      |                           )
+./samples/SAFE/__tmp_bae92529.c:144:5: error: expected declaration or statement at end of input
+  144 |     if (mesh->vertex_count
+      |     ^~

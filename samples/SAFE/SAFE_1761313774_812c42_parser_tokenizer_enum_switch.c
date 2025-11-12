@@ -1,0 +1,168 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: enum_switch ; Variation: parser_tokenizer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+enum TokenType {
+    TOKEN_NUMBER,
+    TOKEN_IDENTIFIER,
+    TOKEN_OPERATOR,
+    TOKEN_STRING,
+    TOKEN_EOF,
+    TOKEN_INVALID
+};
+
+struct Token {
+    enum TokenType type;
+    char value[32];
+    int line;
+    int column;
+};
+
+int is_operator_char(char c) {
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '=' || c == '<' || c == '>' || c == '!';
+}
+
+int get_token(struct Token *token, const char *input, int *pos, int *line, int *column) {
+    if (input[*pos] == '\0') {
+        token->type = TOKEN_EOF;
+        token->value[0] = '\0';
+        return 1;
+    }
+
+    while (isspace(input[*pos])) {
+        if (input[*pos] == '\n') {
+            (*line)++;
+            *column = 1;
+        } else {
+            (*column)++;
+        }
+        (*pos)++;
+    }
+
+    token->line = *line;
+    token->column = *column;
+
+    if (input[*pos] == '\0') {
+        token->type = TOKEN_EOF;
+        token->value[0] = '\0';
+        return 1;
+    }
+
+    if (isdigit(input[*pos])) {
+        token->type = TOKEN_NUMBER;
+        int i = 0;
+        while (isdigit(input[*pos]) && i < 31) {
+            token->value[i++] = input[*pos];
+            (*pos)++;
+            (*column)++;
+        }
+        token->value[i] = '\0';
+        return 1;
+    }
+
+    if (isalpha(input[*pos]) || input[*pos] == '_') {
+        token->type = TOKEN_IDENTIFIER;
+        int i = 0;
+        while ((isalnum(input[*pos]) || input[*pos] == '_') && i < 31) {
+            token->value[i++] = input[*pos];
+            (*pos)++;
+            (*column)++;
+        }
+        token->value[i] = '\0';
+        return 1;
+    }
+
+    if (input[*pos] == '"') {
+        token->type = TOKEN_STRING;
+        int i = 0;
+        (*pos)++;
+        (*column)++;
+        while (input[*pos] != '"' && input[*pos] != '\0' && i < 31) {
+            token->value[i++] = input[*pos];
+            (*pos)++;
+            (*column)++;
+        }
+        if (input[*pos] == '"') {
+            (*pos)++;
+            (*column)++;
+        }
+        token->value[i] = '\0';
+        return 1;
+    }
+
+    if (is_operator_char(input[*pos])) {
+        token->type = TOKEN_OPERATOR;
+        int i = 0;
+        while (is_operator_char(input[*pos]) && i < 31) {
+            token->value[i++] = input[*pos];
+            (*pos)++;
+            (*column)++;
+        }
+        token->value[i] = '\0';
+        return 1;
+    }
+
+    token->type = TOKEN_INVALID;
+    token->value[0] = input[*pos];
+    token->value[1] = '\0';
+    (*pos)++;
+    (*column)++;
+    return 1;
+}
+
+const char* token_type_to_string(enum TokenType type) {
+    switch (type) {
+        case TOKEN_NUMBER: return "NUMBER";
+        case TOKEN_IDENTIFIER: return "IDENTIFIER";
+        case TOKEN_OPERATOR: return "OPERATOR";
+        case TOKEN_STRING: return "STRING";
+        case TOKEN_EOF: return "EOF";
+        case TOKEN_INVALID: return "INVALID";
+        default: return "UNKNOWN";
+    }
+}
+
+int main(void) {
+    char input[1024];
+    printf("Enter expression to tokenize: ");
+    
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+
+    size_t len = strlen(input);
+    if (len > 0 && input[len - 1] == '\n') {
+        input[len - 1] = '\0';
+    }
+
+    if (len == 0) {
+        printf("Empty input\n");
+        return 0;
+    }
+
+    int pos = 0;
+    int line = 1;
+    int column = 1;
+    struct Token token;
+
+    printf("Tokens:\n");
+    printf("%-12s %-12s %-8s %-8s\n", "TYPE", "VALUE", "LINE", "COLUMN");
+    printf("----------------------------------------\n");
+
+    while (get_token(&token, input, &pos, &line, &column)) {
+        printf("%-12s %-12s %-8d %-8d\n", 
+               token_type_to_string(token.type), 
+               token.value, 
+               token.line, 
+               token.column);
+
+        if (token.type == TOKEN_EOF || token.type == TOKEN_INVALID) {
+            break;
+        }
+    }
+
+    return 0;
+}

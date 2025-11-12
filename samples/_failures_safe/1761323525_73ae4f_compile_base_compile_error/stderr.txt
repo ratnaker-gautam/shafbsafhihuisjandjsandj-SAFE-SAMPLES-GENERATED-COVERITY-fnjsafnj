@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_6a6703a2.c: In function ‘main’:
+./samples/SAFE/__tmp_6a6703a2.c:179:5: error: expected declaration or statement at end of input
+  179 |     State current_state = STATE_A;
+      |     ^~~~~

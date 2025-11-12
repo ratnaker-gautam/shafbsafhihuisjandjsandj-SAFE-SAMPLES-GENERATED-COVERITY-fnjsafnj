@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d7662a0c.c: In function ‘main’:
+./samples/SAFE/__tmp_d7662a0c.c:150:49: error: expected ‘;’ at end of input
+  150 |     for (uint32_t offset = 0; offset < test_size
+      |                                                 ^
+      |                                                 ;
+./samples/SAFE/__tmp_d7662a0c.c:150:5: error: expected declaration or statement at end of input
+  150 |     for (uint32_t offset = 0; offset < test_size
+      |     ^~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4b8fe973.c: In function ‘parser_advance’:
+./samples/SAFE/__tmp_4b8fe973.c:157:5: error: expected identifier at end of input
+  157 |     if (parser == NULL || parser->
+      |     ^~
+./samples/SAFE/__tmp_4b8fe973.c:157:5: error: expected declaration or statement at end of input

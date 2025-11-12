@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_b49816d8.c: In function ‘main’:
+./samples/SAFE/__tmp_b49816d8.c:149:36: error: ‘d’ undeclared (first use in this function)
+  149 |     GraphOperation operations[] = {d
+      |                                    ^
+./samples/SAFE/__tmp_b49816d8.c:149:36: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b49816d8.c:150: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_b49816d8.c:149:35: note: to match this ‘{’
+  149 |     GraphOperation operations[] = {d
+      |                                   ^
+./samples/SAFE/__tmp_b49816d8.c:149:5: error: expected declaration or statement at end of input
+  149 |     GraphOperation operations[] = {d
+      |     ^~~~~~~~~~~~~~

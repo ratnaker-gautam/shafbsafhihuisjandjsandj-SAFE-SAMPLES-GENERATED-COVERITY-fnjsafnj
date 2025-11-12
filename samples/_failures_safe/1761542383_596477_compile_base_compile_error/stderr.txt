@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_4cca91ca.c: In function ‘main’:
+./samples/SAFE/__tmp_4cca91ca.c:148:61: error: expected ‘]’ at end of input
+  148 |                     result[i][j] = matrix1[i][j] - matrix2[i
+      |                                                             ^
+      |                                                             ]
+./samples/SAFE/__tmp_4cca91ca.c:148:50: error: invalid operands to binary - (have ‘int’ and ‘int *’)
+  148 |                     result[i][j] = matrix1[i][j] - matrix2[i
+      |                                    ~~~~~~~~~~~~~ ^
+      |                                              |   |
+      |                                              int int *
+./samples/SAFE/__tmp_4cca91ca.c:148:21: error: expected declaration or statement at end of input
+  148 |                     result[i][j] = matrix1[i][j] - matrix2[i
+      |                     ^~~~~~
+./samples/SAFE/__tmp_4cca91ca.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4cca91ca.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4cca91ca.c:148:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4cca91ca.c:148:21: error: expected declaration or statement at end of input

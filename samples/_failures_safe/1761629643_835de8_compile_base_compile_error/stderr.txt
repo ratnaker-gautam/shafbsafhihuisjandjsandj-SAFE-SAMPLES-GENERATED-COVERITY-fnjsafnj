@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f261454e.c: In function ‘pointcloud_compute_stats’:
+./samples/SAFE/__tmp_f261454e.c:141:20: error: expected declaration or statement at end of input
+  141 |             struct Statistics invalid_stats = {0};
+      |                    ^~~~~~~~~~
+./samples/SAFE/__tmp_f261454e.c:141:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f261454e.c:141:20: error: expected declaration or statement at end of input

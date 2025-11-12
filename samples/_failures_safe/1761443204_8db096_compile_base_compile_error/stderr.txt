@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5fdea1ae.c: In function ‘main’:
+./samples/SAFE/__tmp_5fdea1ae.c:172:5: error: expected declaration or statement at end of input
+  172 |     if (len > 0 && input[len-1] == '\n') {
+      |     ^~
+./samples/SAFE/__tmp_5fdea1ae.c:172:5: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_0bfe5319.c: In function ‘main’:
+./samples/SAFE/__tmp_0bfe5319.c:138:48: error: expected ‘;’ at end of input
+  138 |         total_magnitude += results[i].magnitude
+      |                                                ^
+      |                                                ;
+./samples/SAFE/__tmp_0bfe5319.c:138:9: error: expected declaration or statement at end of input
+  138 |         total_magnitude += results[i].magnitude
+      |         ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_0bfe5319.c:138:9: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_42c7741c.c: In function ‘parse_unknown’:
+./samples/SAFE/__tmp_42c7741c.c:161:14: error: expected ‘;’ at end of input
+  161 |         token
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_42c7741c.c:161:9: error: expected declaration or statement at end of input
+  161 |         token
+      |         ^~~~~
+./samples/SAFE/__tmp_42c7741c.c:161:9: error: expected declaration or statement at end of input

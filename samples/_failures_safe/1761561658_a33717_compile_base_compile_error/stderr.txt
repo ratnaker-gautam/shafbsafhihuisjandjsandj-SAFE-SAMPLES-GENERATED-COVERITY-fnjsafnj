@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_52ab5444.c: In function ‘primMST’:
+./samples/SAFE/__tmp_52ab5444.c:144:5: error: expected expression at end of input
+  144 |     heap->pos[0] =
+      |     ^~~~
+./samples/SAFE/__tmp_52ab5444.c:144:5: error: expected declaration or statement at end of input

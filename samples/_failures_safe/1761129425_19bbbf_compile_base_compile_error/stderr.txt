@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f84cdff3.c: In function ‘main’:
+./samples/SAFE/__tmp_f84cdff3.c:149:5: error: expected expression at end of input
+  149 |     if (!process_decompression(&compressed, output, sizeof(output)))
+      |     ^~
+./samples/SAFE/__tmp_f84cdff3.c:149:5: error: expected declaration or statement at end of input

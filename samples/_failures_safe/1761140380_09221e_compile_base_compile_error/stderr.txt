@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5c676128.c: In function ‘main’:
+./samples/SAFE/__tmp_5c676128.c:161:9: error: expected identifier at end of input
+  161 |         printf("%zu: %s '%s'\n", i, token_type_to_string(tokens->tokens[i].type), tokens->
+      |         ^~~~~~
+./samples/SAFE/__tmp_5c676128.c:161:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5c676128.c:161:9: error: expected declaration or statement at end of input

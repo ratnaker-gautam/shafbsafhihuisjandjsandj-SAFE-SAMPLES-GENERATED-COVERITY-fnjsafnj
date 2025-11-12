@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_3212c3ef.c: In function ‘main’:
+./samples/SAFE/__tmp_3212c3ef.c:131: error: expected ‘{’ at end of input

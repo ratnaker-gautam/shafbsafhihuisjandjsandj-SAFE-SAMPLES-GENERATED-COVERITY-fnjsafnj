@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_e12bbbd7.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_e12bbbd7.c:122:34: error: expected ‘)’ at end of input
+  122 |                         (aval < 0
+      |                         ~        ^
+      |                                  )
+./samples/SAFE/__tmp_e12bbbd7.c:122:25: error: expected declaration or statement at end of input
+  122 |                         (aval < 0
+      |                         ^
+./samples/SAFE/__tmp_e12bbbd7.c:122:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e12bbbd7.c:122:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e12bbbd7.c:122:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e12bbbd7.c:122:25: error: expected declaration or statement at end of input

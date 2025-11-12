@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccatoBOK.o: in function `main':
+__tmp_7818ed70.c:(.text.startup+0x186): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_7818ed70.c:(.text.startup+0x3ca): undefined reference to `fmod'
+/usr/bin/ld: __tmp_7818ed70.c:(.text.startup+0x401): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

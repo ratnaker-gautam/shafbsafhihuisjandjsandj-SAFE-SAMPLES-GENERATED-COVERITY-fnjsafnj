@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1eb97b0b.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_1eb97b0b.c:191:24: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  191 |                 struct GraphNode* neighbor
+      |                        ^~~~~~~~~
+./samples/SAFE/__tmp_1eb97b0b.c:191:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1eb97b0b.c:191:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1eb97b0b.c:191:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1eb97b0b.c:191:24: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2852480b.c: In function ‘main’:
+./samples/SAFE/__tmp_2852480b.c:139:5: error: expected declaration or statement at end of input
+  139 |     printf("Log Analyzer\n");
+      |     ^~~~~~

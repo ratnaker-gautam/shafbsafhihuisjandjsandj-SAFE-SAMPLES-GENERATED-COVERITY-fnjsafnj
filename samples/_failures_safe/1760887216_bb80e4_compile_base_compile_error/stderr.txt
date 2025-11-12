@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2ae71b93.c: In function ‘main’:
+./samples/SAFE/__tmp_2ae71b93.c:158:12: error: expected declaration or statement at end of input
+  158 |     struct ParserState state;
+      |            ^~~~~~~~~~~

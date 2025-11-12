@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7233abb2.c: In function ‘main’:
+./samples/SAFE/__tmp_7233abb2.c:173:13: error: expected declaration or statement at end of input
+  173 |             buffer[len - 1] = '\0';
+      |             ^~~~~~
+./samples/SAFE/__tmp_7233abb2.c:173:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7233abb2.c:173:13: error: expected declaration or statement at end of input

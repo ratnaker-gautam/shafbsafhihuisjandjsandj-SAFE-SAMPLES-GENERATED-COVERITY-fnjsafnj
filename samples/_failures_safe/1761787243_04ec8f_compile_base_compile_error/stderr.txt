@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e400ec30.c: In function ‘write_compressed_output’:
+./samples/SAFE/__tmp_e400ec30.c:197: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_e400ec30.c:196:5: error: expected declaration or statement at end of input
+  196 |     while
+      |     ^~~~~

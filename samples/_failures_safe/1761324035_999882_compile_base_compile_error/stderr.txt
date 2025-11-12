@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9edd5101.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_9edd5101.c:171:9: error: expected expression at end of input
+  171 |         } else
+      |         ^
+./samples/SAFE/__tmp_9edd5101.c:171:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9edd5101.c:171:9: error: expected declaration or statement at end of input

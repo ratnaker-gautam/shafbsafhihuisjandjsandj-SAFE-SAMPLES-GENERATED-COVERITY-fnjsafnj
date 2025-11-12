@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b9bf0d99.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_b9bf0d99.c:167:16: error: expected ‘)’ at end of input
+  167 |     while (peek
+      |           ~    ^
+      |                )
+./samples/SAFE/__tmp_b9bf0d99.c:167:5: error: expected declaration or statement at end of input
+  167 |     while (peek
+      |     ^~~~~

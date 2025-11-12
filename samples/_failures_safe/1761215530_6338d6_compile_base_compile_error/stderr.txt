@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fff9c583.c: In function ‘main’:
+./samples/SAFE/__tmp_fff9c583.c:160:56: error: expected ‘)’ at end of input
+  160 |     struct CompressionContext *ctx = create_context(409
+      |                                                    ~   ^
+      |                                                        )
+./samples/SAFE/__tmp_fff9c583.c:160:12: error: expected declaration or statement at end of input
+  160 |     struct CompressionContext *ctx = create_context(409
+      |            ^~~~~~~~~~~~~~~~~~

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_b6bb956b.c: In function ‘main’:
+./samples/SAFE/__tmp_b6bb956b.c:147:9: error: expected expression at end of input
+  147 |         free_matrix_heap(
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b6bb956b.c:147:9: error: too few arguments to function ‘free_matrix_heap’
+./samples/SAFE/__tmp_b6bb956b.c:90:6: note: declared here
+   90 | void free_matrix_heap(int **matrix, int rows) {
+      |      ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b6bb956b.c:147:9: error: expected declaration or statement at end of input
+  147 |         free_matrix_heap(
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b6bb956b.c:147:9: error: expected declaration or statement at end of input

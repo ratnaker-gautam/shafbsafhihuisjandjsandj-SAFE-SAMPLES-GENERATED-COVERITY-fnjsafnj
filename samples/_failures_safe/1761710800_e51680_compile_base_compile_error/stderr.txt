@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8a229cfe.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_8a229cfe.c:176:13: error: expected declaration or statement at end of input
+  176 |             break;
+      |             ^~~~~
+./samples/SAFE/__tmp_8a229cfe.c:176:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8a229cfe.c:176:13: error: expected declaration or statement at end of input

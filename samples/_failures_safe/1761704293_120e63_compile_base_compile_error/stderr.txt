@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_5d4c51ae.c: In function ‘state_machine_step’:
+./samples/SAFE/__tmp_5d4c51ae.c:169:22: error: ‘EVENT’ undeclared (first use in this function)
+  169 |                 case EVENT
+      |                      ^~~~~
+./samples/SAFE/__tmp_5d4c51ae.c:169:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5d4c51ae.c:169:17: error: expected ‘:’ or ‘...’ at end of input
+  169 |                 case EVENT
+      |                 ^~~~
+./samples/SAFE/__tmp_5d4c51ae.c:169:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5d4c51ae.c:169:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5d4c51ae.c:169:17: error: expected declaration or statement at end of input

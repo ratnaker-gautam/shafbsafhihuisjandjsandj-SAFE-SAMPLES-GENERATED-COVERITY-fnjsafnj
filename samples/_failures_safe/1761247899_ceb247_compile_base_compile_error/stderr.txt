@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_47d3e49c.c: In function ‘calculate_stats’:
+./samples/SAFE/__tmp_47d3e49c.c:129:13: error: expected declaration or statement at end of input
+  129 |             stats->last_timestamp[TIMESTAMP_LEN - 1] = '\0';
+      |             ^~~~~
+./samples/SAFE/__tmp_47d3e49c.c:129:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_47d3e49c.c:129:13: error: expected declaration or statement at end of input

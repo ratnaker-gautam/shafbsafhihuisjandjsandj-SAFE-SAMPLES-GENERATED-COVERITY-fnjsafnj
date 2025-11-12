@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_3dd2b20e.c: In function ‘main’:
+./samples/SAFE/__tmp_3dd2b20e.c:142:27: error: ‘stack’ undeclared (first use in this function)
+  142 |     if (transpose_matrix(&stack
+      |                           ^~~~~
+./samples/SAFE/__tmp_3dd2b20e.c:142:27: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3dd2b20e.c:142:32: error: expected ‘)’ at end of input
+  142 |     if (transpose_matrix(&stack
+      |                         ~      ^
+      |                                )
+./samples/SAFE/__tmp_3dd2b20e.c:142:9: error: too few arguments to function ‘transpose_matrix’
+  142 |     if (transpose_matrix(&stack
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_3dd2b20e.c:77:5: note: declared here
+   77 | int transpose_matrix(const Matrix *mat, Matrix *result) {
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_3dd2b20e.c:142:5: error: expected declaration or statement at end of input
+  142 |     if (transpose_matrix(&stack
+      |     ^~

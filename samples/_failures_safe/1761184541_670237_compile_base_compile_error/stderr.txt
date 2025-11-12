@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_50715688.c: In function ‘cleanup_analyzer’:
+./samples/SAFE/__tmp_50715688.c:147:9: error: expected expression at end of input
+  147 |         analyzer->words =
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_50715688.c:147:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_50715688.c:147:9: error: expected declaration or statement at end of input

@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_94a5a681.c: In function ‘main’:
+./samples/SAFE/__tmp_94a5a681.c:127:27: error: unterminated argument list invoking macro "MATRIX_INIT"
+  127 |         MATRIX_INIT(result
+      |                           ^
+./samples/SAFE/__tmp_94a5a681.c:127:9: error: ‘MATRIX_INIT’ undeclared (first use in this function)
+  127 |         MATRIX_INIT(result
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_94a5a681.c:127:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_94a5a681.c:127:20: error: expected ‘;’ at end of input
+  127 |         MATRIX_INIT(result
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_94a5a681.c:127:9: error: expected declaration or statement at end of input
+  127 |         MATRIX_INIT(result
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_94a5a681.c:127:9: error: expected declaration or statement at end of input

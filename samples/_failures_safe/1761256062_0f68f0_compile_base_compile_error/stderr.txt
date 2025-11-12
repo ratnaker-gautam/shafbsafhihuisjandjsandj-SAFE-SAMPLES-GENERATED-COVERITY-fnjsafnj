@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_27736bcd.c: In function ‘main’:
+./samples/SAFE/__tmp_27736bcd.c:156:24: error: missing terminating " character
+  156 |                 printf("\nLogs with level %
+      |                        ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_27736bcd.c:156:17: error: expected expression at end of input
+  156 |                 printf("\nLogs with level %
+      |                 ^~~~~~
+./samples/SAFE/__tmp_27736bcd.c:156:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_27736bcd.c:156:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_27736bcd.c:156:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_27736bcd.c:156:17: error: expected declaration or statement at end of input

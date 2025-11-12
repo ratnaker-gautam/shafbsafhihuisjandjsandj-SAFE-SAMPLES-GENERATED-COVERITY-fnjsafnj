@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b64d8e12.c: In function ‘compute_bounds’:
+./samples/SAFE/__tmp_b64d8e12.c:135:5: error: expected expression at end of input
+  135 |     return
+      |     ^~~~~~
+./samples/SAFE/__tmp_b64d8e12.c:135:5: error: expected declaration or statement at end of input

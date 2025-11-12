@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_1efeec0e.c: In function ‘main’:
+./samples/SAFE/__tmp_1efeec0e.c:157:56: error: ‘matrix_d’ undeclared (first use in this function); did you mean ‘Matrix’?
+  157 |         printf("Determinant of second matrix: %.2f\n", matrix_d
+      |                                                        ^~~~~~~~
+      |                                                        Matrix
+./samples/SAFE/__tmp_1efeec0e.c:157:56: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1efeec0e.c:157:64: error: expected ‘)’ at end of input
+  157 |         printf("Determinant of second matrix: %.2f\n", matrix_d
+      |               ~                                                ^
+      |                                                                )
+./samples/SAFE/__tmp_1efeec0e.c:157:9: error: expected declaration or statement at end of input
+  157 |         printf("Determinant of second matrix: %.2f\n", matrix_d
+      |         ^~~~~~
+./samples/SAFE/__tmp_1efeec0e.c:157:9: error: expected declaration or statement at end of input

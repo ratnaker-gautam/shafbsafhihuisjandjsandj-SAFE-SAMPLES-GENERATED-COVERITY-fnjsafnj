@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e677e701.c: In function ‘main’:
+./samples/SAFE/__tmp_e677e701.c:140:5: error: expected declaration or statement at end of input
+  140 |     add_edge(&g, 5, 2, 2);
+      |     ^~~~~~~~

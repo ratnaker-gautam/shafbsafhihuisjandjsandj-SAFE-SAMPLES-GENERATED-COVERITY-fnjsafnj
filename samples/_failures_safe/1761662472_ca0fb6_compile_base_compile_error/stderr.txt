@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f60202b8.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_f60202b8.c:133:9: error: expected declaration or statement at end of input
+  133 |         for (int i = 0; i < g->edge_count; i++) {
+      |         ^~~
+./samples/SAFE/__tmp_f60202b8.c:133:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f60202b8.c:133:9: error: expected declaration or statement at end of input

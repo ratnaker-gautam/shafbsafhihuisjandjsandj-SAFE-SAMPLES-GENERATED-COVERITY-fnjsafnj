@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_e2786bac.c:136:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  136 | void display_
+      | ^~~~

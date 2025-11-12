@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_0b182331.c:174:1: error: expected ‘{’ at end of input
+  174 | void dfs(struct
+      | ^~~~

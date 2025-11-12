@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_5787081e.c: In function ‘print_token’:
+./samples/SAFE/__tmp_5787081e.c:175:56: error: expected ‘]’ at end of input
+  175 |            token->line, token->column, type_names[token
+      |                                                        ^
+      |                                                        ]
+./samples/SAFE/__tmp_5787081e.c:175:50: error: array subscript is not an integer
+  175 |            token->line, token->column, type_names[token
+      |                                                  ^
+./samples/SAFE/__tmp_5787081e.c:175:12: error: expected declaration or statement at end of input
+  175 |            token->line, token->column, type_names[token
+      |            ^~~~~

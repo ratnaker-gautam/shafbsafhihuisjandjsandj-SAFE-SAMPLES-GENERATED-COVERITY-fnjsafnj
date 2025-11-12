@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_9ad6c676.c: In function ‘main’:
+./samples/SAFE/__tmp_9ad6c676.c:134:26: error: ‘rows’ undeclared (first use in this function); did you mean ‘rows2’?
+  134 |     read_matrix(matrix2, rows
+      |                          ^~~~
+      |                          rows2
+./samples/SAFE/__tmp_9ad6c676.c:134:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9ad6c676.c:134:30: error: expected ‘)’ at end of input
+  134 |     read_matrix(matrix2, rows
+      |                ~             ^
+      |                              )
+./samples/SAFE/__tmp_9ad6c676.c:134:5: error: too few arguments to function ‘read_matrix’
+  134 |     read_matrix(matrix2, rows
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_9ad6c676.c:104:6: note: declared here
+  104 | void read_matrix(int mat[MAX_ROWS][MAX_COLS], int rows, int cols) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_9ad6c676.c:134:5: error: expected declaration or statement at end of input
+  134 |     read_matrix(matrix2, rows
+      |     ^~~~~~~~~~~

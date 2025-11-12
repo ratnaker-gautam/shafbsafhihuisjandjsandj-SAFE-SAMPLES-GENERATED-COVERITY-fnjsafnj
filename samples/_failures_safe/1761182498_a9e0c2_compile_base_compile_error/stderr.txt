@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_8391d6c9.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_8391d6c9.c:154:51: error: ‘MAX_TOKEN’ undeclared (first use in this function); did you mean ‘MAX_TOKENS’?
+  154 |         strncpy(tokens[token_count].value, "EOF", MAX_TOKEN
+      |                                                   ^~~~~~~~~
+      |                                                   MAX_TOKENS
+./samples/SAFE/__tmp_8391d6c9.c:154:51: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8391d6c9.c:154:60: error: expected ‘)’ at end of input
+  154 |         strncpy(tokens[token_count].value, "EOF", MAX_TOKEN
+      |                ~                                           ^
+      |                                                            )
+./samples/SAFE/__tmp_8391d6c9.c:154:9: error: expected declaration or statement at end of input
+  154 |         strncpy(tokens[token_count].value, "EOF", MAX_TOKEN
+      |         ^~~~~~~
+./samples/SAFE/__tmp_8391d6c9.c:154:9: error: expected declaration or statement at end of input

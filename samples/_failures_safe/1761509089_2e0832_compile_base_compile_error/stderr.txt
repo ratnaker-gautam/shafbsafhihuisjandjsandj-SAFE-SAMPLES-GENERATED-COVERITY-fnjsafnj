@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d068e482.c: In function ‘main’:
+./samples/SAFE/__tmp_d068e482.c:146:5: error: expected expression at end of input
+  146 |     int choice = read_int("\nChoose operation:\n1. Transpose\n2. Multiply with another matrix\nChoice: ", 1,
+      |     ^~~
+./samples/SAFE/__tmp_d068e482.c:146:5: error: expected declaration or statement at end of input

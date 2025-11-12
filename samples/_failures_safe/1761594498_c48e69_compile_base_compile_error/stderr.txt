@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_52687f5f.c: In function ‘main’:
+./samples/SAFE/__tmp_52687f5f.c:167:17: error: expected expression at end of input
+  167 |                 sm.current_state = handle_event(&sm,
+      |                 ^~
+./samples/SAFE/__tmp_52687f5f.c:167:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_52687f5f.c:167:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_52687f5f.c:167:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_52687f5f.c:167:17: error: expected declaration or statement at end of input

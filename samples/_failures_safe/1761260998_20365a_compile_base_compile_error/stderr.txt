@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_360759b9.c: In function ‘boundingbox_from_vertices’:
+./samples/SAFE/__tmp_360759b9.c:130:5: error: expected declaration or statement at end of input
+  130 |     }
+      |     ^

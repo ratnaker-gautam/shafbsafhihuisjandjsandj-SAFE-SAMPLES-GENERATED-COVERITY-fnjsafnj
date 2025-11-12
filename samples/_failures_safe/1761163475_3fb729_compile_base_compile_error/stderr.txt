@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a75a7310.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_a75a7310.c:191:5: error: expected declaration or statement at end of input
+  191 |     free(visited);
+      |     ^~~~

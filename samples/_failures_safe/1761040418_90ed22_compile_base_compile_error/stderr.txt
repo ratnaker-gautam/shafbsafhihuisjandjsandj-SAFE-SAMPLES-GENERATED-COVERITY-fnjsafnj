@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0ab0fc52.c: In function ‘main’:
+./samples/SAFE/__tmp_0ab0fc52.c:154:5: error: expected declaration or statement at end of input
+  154 |     printf("Enter start node for Dijkstra: ");
+      |     ^~~~~~

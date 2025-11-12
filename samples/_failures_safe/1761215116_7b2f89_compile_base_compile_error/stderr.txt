@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_2e483103.c: In function ‘read_input_data’:
+./samples/SAFE/__tmp_2e483103.c:163:49: error: expected ‘)’ at end of input
+  163 |     if (!append_to_compression_block(&ctx->input
+      |                                     ~           ^
+      |                                                 )
+./samples/SAFE/__tmp_2e483103.c:163:10: error: too few arguments to function ‘append_to_compression_block’
+  163 |     if (!append_to_compression_block(&ctx->input
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2e483103.c:69:5: note: declared here
+   69 | int append_to_compression_block(struct CompressionBlock *block, const uint8_t *data, size_t data_size) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2e483103.c:163:5: error: expected declaration or statement at end of input
+  163 |     if (!append_to_compression_block(&ctx->input
+      |     ^~

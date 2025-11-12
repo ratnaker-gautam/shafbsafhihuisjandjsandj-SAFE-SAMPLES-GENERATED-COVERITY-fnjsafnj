@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccZarq7V.o: in function `compute_integral_sine':
+__tmp_4b572092.c:(.text+0xf6): undefined reference to `sin'
+/usr/bin/ld: /tmp/ccZarq7V.o: in function `main':
+__tmp_4b572092.c:(.text.startup+0x325): undefined reference to `cos'
+/usr/bin/ld: __tmp_4b572092.c:(.text.startup+0x336): undefined reference to `cos'
+/usr/bin/ld: __tmp_4b572092.c:(.text.startup+0x44b): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_894e670f.c: In function ‘prim’:
+./samples/SAFE/__tmp_894e670f.c:145:5: error: expected expression at end of input
+  145 |     int* visited =
+      |     ^~~
+./samples/SAFE/__tmp_894e670f.c:145:5: error: expected declaration or statement at end of input

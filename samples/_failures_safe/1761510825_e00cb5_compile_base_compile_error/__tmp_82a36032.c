@@ -1,0 +1,183 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: struct_heavy ; Variation: graph_algorithms
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_NODES 100
+#define MAX_EDGES 1000
+
+struct GraphNode {
+    int id;
+    int visited;
+    int distance;
+    int predecessor;
+};
+
+struct GraphEdge {
+    int source;
+    int destination;
+    int weight;
+};
+
+struct Graph {
+    struct GraphNode nodes[MAX_NODES];
+    struct GraphEdge edges[MAX_EDGES];
+    int node_count;
+    int edge_count;
+};
+
+struct QueueNode {
+    int data;
+    struct QueueNode* next;
+};
+
+struct Queue {
+    struct QueueNode* front;
+    struct QueueNode* rear;
+    int size;
+};
+
+void initialize_graph(struct Graph* graph) {
+    if (graph == NULL) return;
+    graph->node_count = 0;
+    graph->edge_count = 0;
+    for (int i = 0; i < MAX_NODES; i++) {
+        graph->nodes[i].id = -1;
+        graph->nodes[i].visited = 0;
+        graph->nodes[i].distance = INT_MAX;
+        graph->nodes[i].predecessor = -1;
+    }
+}
+
+int add_node(struct Graph* graph, int id) {
+    if (graph == NULL || id < 0 || id >= MAX_NODES) {
+        return -1;
+    }
+    if (graph->node_count >= MAX_NODES) {
+        return -1;
+    }
+    if (graph->nodes[id].id != -1) {
+        return -1;
+    }
+    graph->nodes[id].id = id;
+    graph->nodes[id].visited = 0;
+    graph->nodes[id].distance = INT_MAX;
+    graph->nodes[id].predecessor = -1;
+    graph->node_count++;
+    return 0;
+}
+
+int add_edge(struct Graph* graph, int source, int destination, int weight) {
+    if (graph == NULL || graph->edge_count >= MAX_EDGES) {
+        return -1;
+    }
+    if (source < 0 || source >= MAX_NODES || destination < 0 || destination >= MAX_NODES) {
+        return -1;
+    }
+    if (graph->nodes[source].id == -1 || graph->nodes[destination].id == -1) {
+        return -1;
+    }
+    if (weight < 0) {
+        return -1;
+    }
+    graph->edges[graph->edge_count].source = source;
+    graph->edges[graph->edge_count].destination = destination;
+    graph->edges[graph->edge_count].weight = weight;
+    graph->edge_count++;
+    return 0;
+}
+
+struct Queue* create_queue() {
+    struct Queue* queue = (struct Queue*)malloc(sizeof(struct Queue));
+    if (queue == NULL) {
+        return NULL;
+    }
+    queue->front = NULL;
+    queue->rear = NULL;
+    queue->size = 0;
+    return queue;
+}
+
+int enqueue(struct Queue* queue, int data) {
+    if (queue == NULL) {
+        return -1;
+    }
+    struct QueueNode* new_node = (struct QueueNode*)malloc(sizeof(struct QueueNode));
+    if (new_node == NULL) {
+        return -1;
+    }
+    new_node->data = data;
+    new_node->next = NULL;
+    if (queue->rear == NULL) {
+        queue->front = new_node;
+        queue->rear = new_node;
+    } else {
+        queue->rear->next = new_node;
+        queue->rear = new_node;
+    }
+    queue->size++;
+    return 0;
+}
+
+int dequeue(struct Queue* queue) {
+    if (queue == NULL || queue->front == NULL) {
+        return -1;
+    }
+    struct QueueNode* temp = queue->front;
+    int data = temp->data;
+    queue->front = queue->front->next;
+    if (queue->front == NULL) {
+        queue->rear = NULL;
+    }
+    free(temp);
+    queue->size--;
+    return data;
+}
+
+int is_queue_empty(struct Queue* queue) {
+    if (queue == NULL) {
+        return 1;
+    }
+    return queue->front == NULL;
+}
+
+void free_queue(struct Queue* queue) {
+    if (queue == NULL) {
+        return;
+    }
+    while (!is_queue_empty(queue)) {
+        dequeue(queue);
+    }
+    free(queue);
+}
+
+void bfs_shortest_path(struct Graph* graph, int start) {
+    if (graph == NULL || start < 0 || start >= MAX_NODES || graph->nodes[start].id == -1) {
+        return;
+    }
+    for (int i = 0; i < MAX_NODES; i++) {
+        if (graph->nodes[i].id != -1) {
+            graph->nodes[i].visited = 0;
+            graph->nodes[i].distance = INT_MAX;
+            graph->nodes[i].predecessor = -1;
+        }
+    }
+    struct Queue* queue = create_queue();
+    if (queue == NULL) {
+        return;
+    }
+    graph->nodes[start].visited = 1;
+    graph->nodes[start].distance = 0;
+    if (enqueue(queue, start) != 0) {
+        free_queue(queue);
+        return;
+    }
+    while (!is_queue_empty(queue)) {
+        int current = dequeue(queue);
+        if (current == -1) {
+            continue;
+        }
+        for (int i = 0; i < graph->edge_count; i++) {
+            if (graph->edges[i].source

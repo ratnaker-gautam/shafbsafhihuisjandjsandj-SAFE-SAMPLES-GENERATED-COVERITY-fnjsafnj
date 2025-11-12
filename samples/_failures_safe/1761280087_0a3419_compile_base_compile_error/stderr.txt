@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_8147a5dd.c: In function ‘matrix_determinant_recursive’:
+./samples/SAFE/__tmp_8147a5dd.c:122:26: error: ‘matrix_determin’ undeclared (first use in this function)
+  122 |         double sub_det = matrix_determin
+      |                          ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8147a5dd.c:122:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8147a5dd.c:122:9: error: expected ‘,’ or ‘;’ at end of input
+  122 |         double sub_det = matrix_determin
+      |         ^~~~~~
+./samples/SAFE/__tmp_8147a5dd.c:122:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8147a5dd.c:122:9: error: expected declaration or statement at end of input

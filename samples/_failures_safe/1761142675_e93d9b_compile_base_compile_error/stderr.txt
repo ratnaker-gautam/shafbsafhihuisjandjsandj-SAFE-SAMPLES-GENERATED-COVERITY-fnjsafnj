@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_af3f62d0.c: In function ‘print_token’:
+./samples/SAFE/__tmp_af3f62d0.c:169:33: error: missing terminating " character
+  169 |         "NUMBER", "IDENTIFIER", "OPERATOR
+      |                                 ^~~~~~~~~
+./samples/SAFE/__tmp_af3f62d0.c:169:9: error: expected expression at end of input
+  169 |         "NUMBER", "IDENTIFIER", "OPERATOR
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_af3f62d0.c:169:9: error: expected declaration or statement at end of input

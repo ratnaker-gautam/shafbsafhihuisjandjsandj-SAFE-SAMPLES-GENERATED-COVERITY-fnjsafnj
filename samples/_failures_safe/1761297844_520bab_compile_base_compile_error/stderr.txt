@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_ea521467.c: In function ‘main’:
+./samples/SAFE/__tmp_ea521467.c:146:19: error: ‘analy’ undeclared (first use in this function); did you mean ‘analyzer’?
+  146 |     process_text(&analy
+      |                   ^~~~~
+      |                   analyzer
+./samples/SAFE/__tmp_ea521467.c:146:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ea521467.c:146:24: error: expected ‘)’ at end of input
+  146 |     process_text(&analy
+      |                 ~      ^
+      |                        )
+./samples/SAFE/__tmp_ea521467.c:146:5: error: too few arguments to function ‘process_text’
+  146 |     process_text(&analy
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_ea521467.c:69:6: note: declared here
+   69 | void process_text(struct TextAnalyzer *analyzer, const char *text) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_ea521467.c:146:5: error: expected declaration or statement at end of input
+  146 |     process_text(&analy
+      |     ^~~~~~~~~~~~

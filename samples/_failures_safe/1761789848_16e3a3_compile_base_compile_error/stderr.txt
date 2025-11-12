@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_6e590bdf.c: In function ‘main’:
+./samples/SAFE/__tmp_6e590bdf.c:162:5: error: expected declaration or statement at end of input
+  162 |     result.rows = mat1.rows;
+      |     ^~~~~~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_691e7eef.c: In function ‘main’:
+./samples/SAFE/__tmp_691e7eef.c:177:50: error: expected ‘)’ at end of input
+  177 |     Matrix *result = multiply_matrices(mat1, mat2
+      |                                       ~          ^
+      |                                                  )
+./samples/SAFE/__tmp_691e7eef.c:177:5: error: expected declaration or statement at end of input
+  177 |     Matrix *result = multiply_matrices(mat1, mat2
+      |     ^~~~~~

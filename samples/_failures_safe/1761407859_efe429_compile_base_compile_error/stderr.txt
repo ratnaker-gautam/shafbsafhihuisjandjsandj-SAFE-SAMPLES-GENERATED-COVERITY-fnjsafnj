@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_98f2cd03.c: In function ‘main’:
+./samples/SAFE/__tmp_98f2cd03.c:147:13: error: expected expression at end of input
+  147 |             seq_length =
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_98f2cd03.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_98f2cd03.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_98f2cd03.c:147:13: error: expected declaration or statement at end of input

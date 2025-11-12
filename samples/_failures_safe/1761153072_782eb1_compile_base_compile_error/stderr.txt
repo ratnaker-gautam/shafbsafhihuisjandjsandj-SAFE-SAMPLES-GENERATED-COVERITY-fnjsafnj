@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_eee469f4.c: In function ‘main’:
+./samples/SAFE/__tmp_eee469f4.c:147:5: error: expected declaration or statement at end of input
+  147 |     int pos = 0;
+      |     ^~~

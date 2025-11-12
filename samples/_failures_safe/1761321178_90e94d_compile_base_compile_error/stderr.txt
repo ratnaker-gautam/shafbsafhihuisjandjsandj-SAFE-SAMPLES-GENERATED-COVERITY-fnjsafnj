@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_b0cf57fb.c: In function ‘main’:
+./samples/SAFE/__tmp_b0cf57fb.c:130:95: error: expected ‘)’ at end of input
+  130 |             if (scanf("%d %d", &rows2, &cols2) != 2 || rows2 <= 0 || cols2 <= 0 || rows2 > 100
+      |                ~                                                                              ^
+      |                                                                                               )
+./samples/SAFE/__tmp_b0cf57fb.c:130:13: error: expected declaration or statement at end of input
+  130 |             if (scanf("%d %d", &rows2, &cols2) != 2 || rows2 <= 0 || cols2 <= 0 || rows2 > 100
+      |             ^~
+./samples/SAFE/__tmp_b0cf57fb.c:130:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b0cf57fb.c:130:13: error: expected declaration or statement at end of input

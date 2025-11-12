@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_cab2c2bf.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_cab2c2bf.c:155:5: error: expected expression at end of input
+  155 |     if (n == 1)
+      |     ^~
+./samples/SAFE/__tmp_cab2c2bf.c:155:5: error: expected declaration or statement at end of input

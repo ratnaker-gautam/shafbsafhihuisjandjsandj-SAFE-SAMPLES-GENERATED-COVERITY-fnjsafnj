@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_2e445621.c: In function ‘process_tokens’:
+./samples/SAFE/__tmp_2e445621.c:173:17: error: ‘print’ undeclared (first use in this function); did you mean ‘printf’?
+  173 |                 print
+      |                 ^~~~~
+      |                 printf
+./samples/SAFE/__tmp_2e445621.c:173:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2e445621.c:173:22: error: expected ‘;’ at end of input
+  173 |                 print
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_2e445621.c:173:17: error: expected declaration or statement at end of input
+  173 |                 print
+      |                 ^~~~~
+./samples/SAFE/__tmp_2e445621.c:173:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2e445621.c:173:17: error: expected declaration or statement at end of input

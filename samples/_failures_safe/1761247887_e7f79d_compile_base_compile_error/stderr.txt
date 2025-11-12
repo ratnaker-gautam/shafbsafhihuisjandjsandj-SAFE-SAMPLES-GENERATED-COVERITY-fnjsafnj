@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_4e1abd8b.c: In function ‘main’:
+./samples/SAFE/__tmp_4e1abd8b.c:165:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  165 |             Matrix matB
+      |             ^~~~~~
+./samples/SAFE/__tmp_4e1abd8b.c:165:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4e1abd8b.c:165:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4e1abd8b.c:165:13: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_efe2b58a.c: In function ‘main’:
+./samples/SAFE/__tmp_efe2b58a.c:135:5: error: ‘state_m’ undeclared (first use in this function); did you mean ‘state_t’?
+  135 |     state_m
+      |     ^~~~~~~
+      |     state_t
+./samples/SAFE/__tmp_efe2b58a.c:135:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_efe2b58a.c:135:12: error: expected ‘;’ at end of input
+  135 |     state_m
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_efe2b58a.c:135:5: error: expected declaration or statement at end of input
+  135 |     state_m
+      |     ^~~~~~~

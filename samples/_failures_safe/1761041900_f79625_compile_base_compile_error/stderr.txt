@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_fcd5f79c.c: In function ‘main’:
+./samples/SAFE/__tmp_fcd5f79c.c:157:13: error: expected expression at end of input
+  157 |             case
+      |             ^~~~
+./samples/SAFE/__tmp_fcd5f79c.c:157:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fcd5f79c.c:157:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fcd5f79c.c:157:13: error: expected declaration or statement at end of input

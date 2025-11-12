@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_70b12a71.c: In function ‘handle_error_state’:
+./samples/SAFE/__tmp_70b12a71.c:166:23: error: expected ‘;’ at end of input
+  166 |     return STATE_ERROR
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_70b12a71.c:166:5: error: expected declaration or statement at end of input
+  166 |     return STATE_ERROR
+      |     ^~~~~~

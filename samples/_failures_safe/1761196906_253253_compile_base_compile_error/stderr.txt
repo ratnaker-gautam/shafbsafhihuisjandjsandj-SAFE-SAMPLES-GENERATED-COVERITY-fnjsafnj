@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e0d51c44.c: In function ‘state_to_string’:
+./samples/SAFE/__tmp_e0d51c44.c:157: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_e0d51c44.c:155:34: note: to match this ‘{’
+  155 |     static const char* names[] = {
+      |                                  ^
+./samples/SAFE/__tmp_e0d51c44.c:156:9: error: expected declaration or statement at end of input
+  156 |         "IDLE", "READING", "PROCESSING", "WRITING", "ERROR"
+      |         ^~~~~~

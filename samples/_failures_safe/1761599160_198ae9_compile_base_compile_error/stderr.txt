@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5dc9c101.c: In function ‘main’:
+./samples/SAFE/__tmp_5dc9c101.c:139:16: error: expected expression at end of input
+  139 |     op = (enum Operation)(choice -
+      |                ^~~~~~~~~
+./samples/SAFE/__tmp_5dc9c101.c:139:16: error: expected declaration or statement at end of input

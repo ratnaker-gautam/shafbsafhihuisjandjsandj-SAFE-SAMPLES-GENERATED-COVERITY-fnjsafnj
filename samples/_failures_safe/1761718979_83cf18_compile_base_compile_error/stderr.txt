@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_789bdb33.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_789bdb33.c:133:34: error: ‘INT’ undeclared (first use in this function)
+  133 |                     if (weight > INT
+      |                                  ^~~
+./samples/SAFE/__tmp_789bdb33.c:133:34: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_789bdb33.c:133:37: error: expected ‘)’ at end of input
+  133 |                     if (weight > INT
+      |                        ~            ^
+      |                                     )
+./samples/SAFE/__tmp_789bdb33.c:133:21: error: expected declaration or statement at end of input
+  133 |                     if (weight > INT
+      |                     ^~
+./samples/SAFE/__tmp_789bdb33.c:133:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_789bdb33.c:133:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_789bdb33.c:133:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_789bdb33.c:133:21: error: expected declaration or statement at end of input

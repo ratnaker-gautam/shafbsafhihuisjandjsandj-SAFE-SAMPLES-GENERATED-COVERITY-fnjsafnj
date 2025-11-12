@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2e2f0200.c: In function ‘main’:
+./samples/SAFE/__tmp_2e2f0200.c:160:9: error: expected declaration or statement at end of input
+  160 |         uint8_t* compressed_data = malloc(max_output_size);
+      |         ^~~~~~~
+./samples/SAFE/__tmp_2e2f0200.c:160:9: error: expected declaration or statement at end of input

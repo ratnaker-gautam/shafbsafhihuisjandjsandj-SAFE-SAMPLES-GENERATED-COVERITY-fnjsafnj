@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_332f0963.c: In function ‘main’:
+./samples/SAFE/__tmp_332f0963.c:160:9: error: expected declaration or statement at end of input
+  160 |         free(graph);
+      |         ^~~~
+./samples/SAFE/__tmp_332f0963.c:160:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_09911dcc.c: In function ‘freeGraph’:
+./samples/SAFE/__tmp_09911dcc.c:189:13: error: expected expression at end of input
+  189 |             for (int i = 0; i < graph->vertices; i++)
+      |             ^~~
+./samples/SAFE/__tmp_09911dcc.c:189:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_09911dcc.c:189:13: error: expected declaration or statement at end of input

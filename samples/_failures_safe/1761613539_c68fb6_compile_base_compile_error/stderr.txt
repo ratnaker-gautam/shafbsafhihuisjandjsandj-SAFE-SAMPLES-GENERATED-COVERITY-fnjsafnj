@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_24a26ad2.c:188:1: error: expected identifier or ‘(’ at end of input
+  188 | void
+      | ^~~~

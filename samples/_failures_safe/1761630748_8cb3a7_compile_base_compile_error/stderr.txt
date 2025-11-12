@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_10ba43bc.c: In function ‘main’:
+./samples/SAFE/__tmp_10ba43bc.c:138:62: error: expected ‘)’ at end of input
+  138 |     printf("Generating %d sample log entries...\n", log_count
+      |           ~                                                  ^
+      |                                                              )
+./samples/SAFE/__tmp_10ba43bc.c:138:5: error: expected declaration or statement at end of input
+  138 |     printf("Generating %d sample log entries...\n", log_count
+      |     ^~~~~~

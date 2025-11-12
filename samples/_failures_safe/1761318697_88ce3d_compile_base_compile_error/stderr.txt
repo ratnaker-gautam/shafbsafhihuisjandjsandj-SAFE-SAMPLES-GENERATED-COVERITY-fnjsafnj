@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_667afbc4.c: In function ‘main’:
+./samples/SAFE/__tmp_667afbc4.c:159:25: error: expected ‘)’ at end of input
+  159 |     } while (choice != 3
+      |             ~           ^
+      |                         )
+./samples/SAFE/__tmp_667afbc4.c:159:5: error: expected declaration or statement at end of input
+  159 |     } while (choice != 3
+      |     ^

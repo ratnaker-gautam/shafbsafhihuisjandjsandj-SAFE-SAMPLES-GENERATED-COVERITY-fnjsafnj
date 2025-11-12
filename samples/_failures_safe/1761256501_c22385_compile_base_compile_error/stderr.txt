@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_82def908.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_82def908.c:154:5: error: expected declaration or statement at end of input
+  154 |     if (parser == NULL) return;
+      |     ^~

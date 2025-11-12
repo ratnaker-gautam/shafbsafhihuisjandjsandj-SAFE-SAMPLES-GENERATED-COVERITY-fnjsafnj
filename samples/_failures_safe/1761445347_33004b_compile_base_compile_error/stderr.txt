@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_6b49339e.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_6b49339e.c:155:50: error: missing terminating ' character
+  155 |                 token.value[MAX_TOKEN_LEN - 1] = '\
+      |                                                  ^~
+./samples/SAFE/__tmp_6b49339e.c:155:17: error: expected expression at end of input
+  155 |                 token.value[MAX_TOKEN_LEN - 1] = '\
+      |                 ^~~~~
+./samples/SAFE/__tmp_6b49339e.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6b49339e.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6b49339e.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6b49339e.c:155:17: error: expected declaration or statement at end of input

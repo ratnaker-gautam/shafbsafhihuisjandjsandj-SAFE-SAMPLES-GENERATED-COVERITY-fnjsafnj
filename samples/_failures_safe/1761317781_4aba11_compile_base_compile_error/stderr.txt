@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_cb41bbc2.c: In function ‘main’:
+./samples/SAFE/__tmp_cb41bbc2.c:123:30: error: ‘matrix’ undeclared (first use in this function); did you mean ‘matrix2’?
+  123 |                             (matrix
+      |                              ^~~~~~
+      |                              matrix2
+./samples/SAFE/__tmp_cb41bbc2.c:123:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cb41bbc2.c:123:36: error: expected ‘)’ at end of input
+  123 |                             (matrix
+      |                             ~      ^
+      |                                    )
+./samples/SAFE/__tmp_cb41bbc2.c:123:29: error: expected declaration or statement at end of input
+  123 |                             (matrix
+      |                             ^
+./samples/SAFE/__tmp_cb41bbc2.c:123:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cb41bbc2.c:123:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cb41bbc2.c:123:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cb41bbc2.c:123:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cb41bbc2.c:123:29: error: expected declaration or statement at end of input

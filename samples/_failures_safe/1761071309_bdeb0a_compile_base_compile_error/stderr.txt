@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_626bccad.c: In function ‘graph_print_distances’:
+./samples/SAFE/__tmp_626bccad.c:152:13: error: expected declaration or statement at end of input
+  152 |             printf("Node %d: distance %d\n", g->nodes[i].id, g->nodes[i].distance);
+      |             ^~~~~~
+./samples/SAFE/__tmp_626bccad.c:152:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_626bccad.c:152:13: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f431b1fe.c: In function ‘parse_input’:
+./samples/SAFE/__tmp_f431b1fe.c:154:5: error: expected expression at end of input
+  154 |     if (input ==
+      |     ^~
+./samples/SAFE/__tmp_f431b1fe.c:154:5: error: expected declaration or statement at end of input

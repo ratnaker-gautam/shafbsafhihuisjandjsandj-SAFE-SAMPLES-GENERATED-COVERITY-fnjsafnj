@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ce8b9682.c: In function ‘main’:
+./samples/SAFE/__tmp_ce8b9682.c:148:5: error: expected declaration or statement at end of input
+  148 |     if (chunks_processed == 0) {
+      |     ^~
+./samples/SAFE/__tmp_ce8b9682.c:148:5: error: expected declaration or statement at end of input

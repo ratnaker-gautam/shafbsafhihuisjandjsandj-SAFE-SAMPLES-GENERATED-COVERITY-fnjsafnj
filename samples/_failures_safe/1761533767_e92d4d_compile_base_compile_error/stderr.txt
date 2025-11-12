@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_36fedfa8.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_36fedfa8.c:165: error: expected ‘{’ at end of input

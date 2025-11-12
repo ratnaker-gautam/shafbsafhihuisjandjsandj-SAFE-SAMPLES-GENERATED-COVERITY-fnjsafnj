@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d228f1c5.c: In function ‘primMST’:
+./samples/SAFE/__tmp_d228f1c5.c:130:21: error: expected ‘)’ at end of input
+  130 |         free(minNode
+      |             ~       ^
+      |                     )
+./samples/SAFE/__tmp_d228f1c5.c:130:9: error: expected declaration or statement at end of input
+  130 |         free(minNode
+      |         ^~~~
+./samples/SAFE/__tmp_d228f1c5.c:130:9: error: expected declaration or statement at end of input

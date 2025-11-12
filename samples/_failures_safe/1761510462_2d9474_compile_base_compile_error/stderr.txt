@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_acad5fa1.c: In function ‘read_int’:
+./samples/SAFE/__tmp_acad5fa1.c:130:5: error: expected declaration or statement at end of input
+  130 |     if (endptr == buffer || temp < INT_MIN || temp > INT_MAX) return 0;
+      |     ^~

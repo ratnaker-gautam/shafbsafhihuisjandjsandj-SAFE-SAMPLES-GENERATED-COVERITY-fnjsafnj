@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_94f90cd8.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_94f90cd8.c:148:10: error: ‘size’ undeclared (first use in this function); did you mean ‘size_t’?
+  148 |     for (size
+      |          ^~~~
+      |          size_t
+./samples/SAFE/__tmp_94f90cd8.c:148:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_94f90cd8.c:148:14: error: expected ‘;’ at end of input
+  148 |     for (size
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_94f90cd8.c:148:5: error: expected declaration or statement at end of input
+  148 |     for (size
+      |     ^~~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_c94ecf32.c: In function ‘parse_string’:
+./samples/SAFE/__tmp_c94ecf32.c:164:14: error: expected ‘;’ at end of input
+  164 |             t
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_c94ecf32.c:164:13: error: expected declaration or statement at end of input
+  164 |             t
+      |             ^
+./samples/SAFE/__tmp_c94ecf32.c:164:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c94ecf32.c:164:13: error: expected declaration or statement at end of input

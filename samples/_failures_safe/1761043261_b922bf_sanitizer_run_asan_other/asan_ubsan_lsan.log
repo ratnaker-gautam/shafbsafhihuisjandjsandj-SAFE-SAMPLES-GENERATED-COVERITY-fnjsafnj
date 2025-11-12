@@ -1,0 +1,28 @@
+
+=================================================================
+==14141==ERROR: AddressSanitizer: attempting double-free on 0x502000000030 in thread T0:
+    #0 0x78bf2defc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52
+    #1 0x57bb98e8da1b in main samples/SAFE/__tmp_359138ec.c:117
+    #2 0x78bf2d22a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x78bf2d22a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x57bb98e8c344 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_359138ec.c.san+0x3344) (BuildId: 822d01f5773866769e28261c98f8509c9019171b)
+
+0x502000000030 is located 0 bytes inside of 16-byte region [0x502000000030,0x502000000040)
+freed by thread T0 here:
+    #0 0x78bf2defc4d8 in free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52
+    #1 0x57bb98e8c8f8 in read_points_from_user samples/SAFE/__tmp_359138ec.c:51
+    #2 0x57bb98e8d7d7 in main samples/SAFE/__tmp_359138ec.c:115
+    #3 0x78bf2d22a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x78bf2d22a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x57bb98e8c344 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_359138ec.c.san+0x3344) (BuildId: 822d01f5773866769e28261c98f8509c9019171b)
+
+previously allocated by thread T0 here:
+    #0 0x78bf2defd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69
+    #1 0x57bb98e8c7a7 in read_points_from_user samples/SAFE/__tmp_359138ec.c:42
+    #2 0x57bb98e8d7d7 in main samples/SAFE/__tmp_359138ec.c:115
+    #3 0x78bf2d22a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x78bf2d22a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x57bb98e8c344 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_359138ec.c.san+0x3344) (BuildId: 822d01f5773866769e28261c98f8509c9019171b)
+
+SUMMARY: AddressSanitizer: double-free ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:52 in free
+==14141==ABORTING

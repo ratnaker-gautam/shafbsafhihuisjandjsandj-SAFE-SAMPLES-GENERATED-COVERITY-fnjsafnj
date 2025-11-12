@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_6711729b.c: In function ‘main’:
+./samples/SAFE/__tmp_6711729b.c:143:5: error: expected declaration or statement at end of input
+  143 |     printf("ERROR: %d\n", severity_counts[3]);
+      |     ^~~~~~

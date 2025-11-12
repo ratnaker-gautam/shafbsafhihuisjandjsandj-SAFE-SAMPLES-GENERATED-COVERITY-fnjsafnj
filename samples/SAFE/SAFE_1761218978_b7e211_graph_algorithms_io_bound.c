@@ -1,0 +1,115 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: io_bound ; Variation: graph_algorithms
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
+
+#define MAX_NODES 100
+#define MAX_EDGES 5000
+
+typedef struct {
+    int from;
+    int to;
+    int weight;
+} Edge;
+
+typedef struct {
+    int node_count;
+    int edge_count;
+    Edge edges[MAX_EDGES];
+} Graph;
+
+int read_graph(Graph *graph) {
+    printf("Enter number of nodes (1-%d): ", MAX_NODES);
+    if (scanf("%d", &graph->node_count) != 1) {
+        return 0;
+    }
+    if (graph->node_count < 1 || graph->node_count > MAX_NODES) {
+        return 0;
+    }
+
+    printf("Enter number of edges (0-%d): ", MAX_EDGES);
+    if (scanf("%d", &graph->edge_count) != 1) {
+        return 0;
+    }
+    if (graph->edge_count < 0 || graph->edge_count > MAX_EDGES) {
+        return 0;
+    }
+
+    printf("Enter edges as 'from to weight' (nodes 0-%d):\n", graph->node_count - 1);
+    for (int i = 0; i < graph->edge_count; i++) {
+        if (scanf("%d %d %d", &graph->edges[i].from, &graph->edges[i].to, &graph->edges[i].weight) != 3) {
+            return 0;
+        }
+        if (graph->edges[i].from < 0 || graph->edges[i].from >= graph->node_count ||
+            graph->edges[i].to < 0 || graph->edges[i].to >= graph->node_count) {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+void bellman_ford(Graph *graph, int source) {
+    int distances[MAX_NODES];
+    for (int i = 0; i < graph->node_count; i++) {
+        distances[i] = INT_MAX;
+    }
+    distances[source] = 0;
+
+    for (int i = 0; i < graph->node_count - 1; i++) {
+        for (int j = 0; j < graph->edge_count; j++) {
+            int u = graph->edges[j].from;
+            int v = graph->edges[j].to;
+            int w = graph->edges[j].weight;
+            if (distances[u] != INT_MAX && distances[u] + w < distances[v]) {
+                distances[v] = distances[u] + w;
+            }
+        }
+    }
+
+    for (int j = 0; j < graph->edge_count; j++) {
+        int u = graph->edges[j].from;
+        int v = graph->edges[j].to;
+        int w = graph->edges[j].weight;
+        if (distances[u] != INT_MAX && distances[u] + w < distances[v]) {
+            printf("Graph contains negative weight cycle\n");
+            return;
+        }
+    }
+
+    printf("Shortest distances from node %d:\n", source);
+    for (int i = 0; i < graph->node_count; i++) {
+        if (distances[i] == INT_MAX) {
+            printf("Node %d: unreachable\n", i);
+        } else {
+            printf("Node %d: %d\n", i, distances[i]);
+        }
+    }
+}
+
+int main() {
+    Graph graph;
+    
+    printf("Graph Shortest Path Calculator (Bellman-Ford)\n");
+    printf("=============================================\n");
+    
+    if (!read_graph(&graph)) {
+        printf("Error: Invalid input\n");
+        return 1;
+    }
+
+    int source;
+    printf("Enter source node (0-%d): ", graph.node_count - 1);
+    if (scanf("%d", &source) != 1) {
+        printf("Error: Invalid source node\n");
+        return 1;
+    }
+    if (source < 0 || source >= graph.node_count) {
+        printf("Error: Source node out of range\n");
+        return 1;
+    }
+
+    bellman_ford(&graph, source);
+
+    return 0;
+}

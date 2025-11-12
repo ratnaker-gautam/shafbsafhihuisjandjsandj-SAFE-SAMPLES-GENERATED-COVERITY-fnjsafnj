@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_4edbfac9.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_4edbfac9.c:158:9: error: ‘buf’ undeclared (first use in this function)
+  158 |     if (buf
+      |         ^~~
+./samples/SAFE/__tmp_4edbfac9.c:158:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4edbfac9.c:158:12: error: expected ‘)’ at end of input
+  158 |     if (buf
+      |        ~   ^
+      |            )
+./samples/SAFE/__tmp_4edbfac9.c:158:5: error: expected declaration or statement at end of input
+  158 |     if (buf
+      |     ^~

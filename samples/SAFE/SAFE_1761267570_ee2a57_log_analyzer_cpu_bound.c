@@ -1,0 +1,135 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: cpu_bound ; Variation: log_analyzer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <time.h>
+
+#define MAX_LINE_LENGTH 1024
+#define MAX_ENTRIES 10000
+
+typedef struct {
+    char timestamp[32];
+    char level[16];
+    char message[256];
+} LogEntry;
+
+int parse_log_line(const char* line, LogEntry* entry) {
+    if (line == NULL || entry == NULL) return 0;
+    
+    char temp[MAX_LINE_LENGTH];
+    strncpy(temp, line, MAX_LINE_LENGTH - 1);
+    temp[MAX_LINE_LENGTH - 1] = '\0';
+    
+    char* parts[3];
+    char* token = strtok(temp, "|");
+    int part_count = 0;
+    
+    while (token != NULL && part_count < 3) {
+        parts[part_count++] = token;
+        token = strtok(NULL, "|");
+    }
+    
+    if (part_count != 3) return 0;
+    
+    strncpy(entry->timestamp, parts[0], sizeof(entry->timestamp) - 1);
+    entry->timestamp[sizeof(entry->timestamp) - 1] = '\0';
+    
+    strncpy(entry->level, parts[1], sizeof(entry->level) - 1);
+    entry->level[sizeof(entry->level) - 1] = '\0';
+    
+    strncpy(entry->message, parts[2], sizeof(entry->message) - 1);
+    entry->message[sizeof(entry->message) - 1] = '\0';
+    
+    return 1;
+}
+
+int is_valid_level(const char* level) {
+    return strcmp(level, "INFO") == 0 || strcmp(level, "WARN") == 0 || 
+           strcmp(level, "ERROR") == 0 || strcmp(level, "DEBUG") == 0;
+}
+
+void analyze_logs(LogEntry* logs, int count) {
+    int info_count = 0, warn_count = 0, error_count = 0, debug_count = 0;
+    int error_indices[MAX_ENTRIES];
+    int error_index_count = 0;
+    
+    for (int i = 0; i < count; i++) {
+        if (strcmp(logs[i].level, "INFO") == 0) info_count++;
+        else if (strcmp(logs[i].level, "WARN") == 0) warn_count++;
+        else if (strcmp(logs[i].level, "ERROR") == 0) {
+            error_count++;
+            if (error_index_count < MAX_ENTRIES) {
+                error_indices[error_index_count++] = i;
+            }
+        }
+        else if (strcmp(logs[i].level, "DEBUG") == 0) debug_count++;
+    }
+    
+    printf("Log Analysis Results:\n");
+    printf("Total entries: %d\n", count);
+    printf("INFO: %d\n", info_count);
+    printf("WARN: %d\n", warn_count);
+    printf("ERROR: %d\n", error_count);
+    printf("DEBUG: %d\n", debug_count);
+    
+    if (error_count > 0) {
+        printf("\nError entries:\n");
+        for (int i = 0; i < error_index_count && i < 10; i++) {
+            int idx = error_indices[i];
+            printf("%s | %s | %s\n", logs[idx].timestamp, logs[idx].level, logs[idx].message);
+        }
+        if (error_count > 10) {
+            printf("... and %d more errors\n", error_count - 10);
+        }
+    }
+}
+
+int main(void) {
+    LogEntry logs[MAX_ENTRIES];
+    int log_count = 0;
+    char line[MAX_LINE_LENGTH];
+    
+    printf("Enter log entries (format: timestamp|level|message), empty line to finish:\n");
+    
+    while (log_count < MAX_ENTRIES && fgets(line, sizeof(line), stdin) != NULL) {
+        size_t len = strlen(line);
+        if (len > 0 && line[len - 1] == '\n') {
+            line[len - 1] = '\0';
+        }
+        
+        if (line[0] == '\0') break;
+        
+        if (len >= MAX_LINE_LENGTH - 1) {
+            printf("Line too long, skipping\n");
+            continue;
+        }
+        
+        LogEntry entry;
+        if (parse_log_line(line, &entry)) {
+            if (is_valid_level(entry.level)) {
+                if (log_count < MAX_ENTRIES) {
+                    logs[log_count++] = entry;
+                }
+            } else {
+                printf("Invalid log level: %s\n", entry.level);
+            }
+        } else {
+            printf("Invalid log format: %s\n", line);
+        }
+    }
+    
+    if (log_count == 0) {
+        printf("No valid log entries to analyze\n");
+        return 1;
+    }
+    
+    clock_t start = clock();
+    analyze_logs(logs, log_count);
+    clock_t end = clock();
+    
+    double cpu_time = ((double)(end - start)) / CLOCKS_PER_SEC;
+    printf("\nAnalysis completed in %.6f seconds\n", cpu_time);
+    
+    return 0;
+}

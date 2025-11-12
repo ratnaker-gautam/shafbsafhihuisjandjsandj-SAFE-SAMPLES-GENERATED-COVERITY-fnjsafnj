@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccjn88ZK.o: in function `calculate_statistics':
+__tmp_0b476b43.c:(.text+0x12f): undefined reference to `sqrt'
+/usr/bin/ld: /tmp/ccjn88ZK.o: in function `main':
+__tmp_0b476b43.c:(.text.startup+0x29f): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

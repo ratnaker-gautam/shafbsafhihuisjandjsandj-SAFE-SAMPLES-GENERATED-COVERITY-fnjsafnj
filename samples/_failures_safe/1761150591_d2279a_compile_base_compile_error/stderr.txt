@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bb3ebbd0.c: In function ‘get_user_choice’:
+./samples/SAFE/__tmp_bb3ebbd0.c:182:11: error: expected ‘;’ at end of input
+  182 |     printf
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_bb3ebbd0.c:182:5: error: expected declaration or statement at end of input
+  182 |     printf
+      |     ^~~~~~

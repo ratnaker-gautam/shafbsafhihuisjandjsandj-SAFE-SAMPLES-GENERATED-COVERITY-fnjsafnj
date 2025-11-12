@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_01306c43.c: In function ‘main’:
+./samples/SAFE/__tmp_01306c43.c:151:22: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  151 |     if (compress_rle(input
+      |                      ^~~~~
+      |                      int
+./samples/SAFE/__tmp_01306c43.c:151:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_01306c43.c:151:27: error: expected ‘)’ at end of input
+  151 |     if (compress_rle(input
+      |                     ~     ^
+      |                           )
+./samples/SAFE/__tmp_01306c43.c:151:9: error: too few arguments to function ‘compress_rle’
+  151 |     if (compress_rle(input
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_01306c43.c:53:5: note: declared here
+   53 | int compress_rle(const uint8_t *input, size_t input_len, Buffer *output) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_01306c43.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (compress_rle(input
+      |     ^~

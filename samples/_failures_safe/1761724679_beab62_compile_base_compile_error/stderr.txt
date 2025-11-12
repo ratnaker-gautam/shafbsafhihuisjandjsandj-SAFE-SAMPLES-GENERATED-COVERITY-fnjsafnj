@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_dee1b66b.c: In function ‘main’:
+./samples/SAFE/__tmp_dee1b66b.c:176:29: error: expected ‘)’ at end of input
+  176 |     int choice = atoi(choice
+      |                      ~      ^
+      |                             )
+./samples/SAFE/__tmp_dee1b66b.c:176:5: error: expected declaration or statement at end of input
+  176 |     int choice = atoi(choice
+      |     ^~~

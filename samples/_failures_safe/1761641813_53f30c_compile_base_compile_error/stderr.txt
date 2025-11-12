@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_644bbb63.c: In function ‘read_user_input’:
+./samples/SAFE/__tmp_644bbb63.c:169:7: error: ‘struct StateMachine’ has no member named ‘data’
+  169 |     sm->data
+      |       ^~
+./samples/SAFE/__tmp_644bbb63.c:169:13: error: expected ‘;’ at end of input
+  169 |     sm->data
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_644bbb63.c:169:5: error: expected declaration or statement at end of input
+  169 |     sm->data
+      |     ^~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4dd7aeba.c: In function ‘hex_to_bytes’:
+./samples/SAFE/__tmp_4dd7aeba.c:112:9: error: expected declaration or statement at end of input
+  112 |         if (*endptr != '\0' || value > UINT8_MAX) return -1;
+      |         ^~
+./samples/SAFE/__tmp_4dd7aeba.c:112:9: error: expected declaration or statement at end of input

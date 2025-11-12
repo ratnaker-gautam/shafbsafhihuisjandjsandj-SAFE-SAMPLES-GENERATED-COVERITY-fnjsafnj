@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f398e502.c: In function ‘main’:
+./samples/SAFE/__tmp_f398e502.c:156:5: error: expected expression at end of input
+  156 |     if (!process_text(&
+      |     ^~
+./samples/SAFE/__tmp_f398e502.c:156:10: error: too few arguments to function ‘process_text’
+  156 |     if (!process_text(&
+      |          ^~~~~~~~~~~~
+./samples/SAFE/__tmp_f398e502.c:90:5: note: declared here
+   90 | int process_text(struct TextAnalyzer *analyzer, const char *input) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_f398e502.c:156:5: error: expected declaration or statement at end of input
+  156 |     if (!process_text(&
+      |     ^~

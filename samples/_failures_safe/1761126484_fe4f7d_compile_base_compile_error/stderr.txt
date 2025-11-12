@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6714022d.c: In function ‘main’:
+./samples/SAFE/__tmp_6714022d.c:191:17: error: expected declaration or statement at end of input
+  191 |                 decimal_place = 1.0;
+      |                 ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_6714022d.c:191:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6714022d.c:191:17: error: expected declaration or statement at end of input

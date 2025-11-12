@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccjKA3Yp.o: in function `compute_statistics.part.0':
+__tmp_15384eb6.c:(.text+0x125): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

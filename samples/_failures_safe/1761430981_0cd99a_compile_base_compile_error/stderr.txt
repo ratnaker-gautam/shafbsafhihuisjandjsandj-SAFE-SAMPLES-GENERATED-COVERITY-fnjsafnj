@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_18ec4d18.c: In function ‘main’:
+./samples/SAFE/__tmp_18ec4d18.c:149:27: error: ‘info’ undeclared (first use in this function)
+  149 |     printf("INFO:  %d\n", info
+      |                           ^~~~
+./samples/SAFE/__tmp_18ec4d18.c:149:27: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_18ec4d18.c:149:31: error: expected ‘)’ at end of input
+  149 |     printf("INFO:  %d\n", info
+      |           ~                   ^
+      |                               )
+./samples/SAFE/__tmp_18ec4d18.c:149:5: error: expected declaration or statement at end of input
+  149 |     printf("INFO:  %d\n", info
+      |     ^~~~~~

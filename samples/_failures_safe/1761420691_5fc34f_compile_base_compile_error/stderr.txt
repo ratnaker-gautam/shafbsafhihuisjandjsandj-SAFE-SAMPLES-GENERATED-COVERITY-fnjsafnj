@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_656cf1aa.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_656cf1aa.c:174:44: error: unterminated argument list invoking macro "isalpha"
+  174 |         } else if (isalpha((unsigned char)c
+      |                                            ^
+./samples/SAFE/__tmp_656cf1aa.c:174:27: error: expected ‘)’ at end of input
+  174 |         } else if (isalpha((unsigned char)c
+      |                   ~       ^
+      |                           )
+./samples/SAFE/__tmp_656cf1aa.c:174:9: error: expected declaration or statement at end of input
+  174 |         } else if (isalpha((unsigned char)c
+      |         ^
+./samples/SAFE/__tmp_656cf1aa.c:174:9: error: expected declaration or statement at end of input

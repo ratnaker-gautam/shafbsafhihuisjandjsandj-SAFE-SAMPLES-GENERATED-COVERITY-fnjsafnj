@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_74224b61.c: In function ‘process_event’:
+./samples/SAFE/__tmp_74224b61.c:176:13: error: expected declaration or statement at end of input
+  176 |             new_state = handle_done_state(sm, event);
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_74224b61.c:176:13: error: expected declaration or statement at end of input

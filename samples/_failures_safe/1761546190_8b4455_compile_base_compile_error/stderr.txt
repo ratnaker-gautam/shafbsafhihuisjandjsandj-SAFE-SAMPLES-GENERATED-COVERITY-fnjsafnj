@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d90cceea.c: In function ‘main’:
+./samples/SAFE/__tmp_d90cceea.c:175:16: error: expected declaration or statement at end of input
+  175 |         struct Token token;
+      |                ^~~~~
+./samples/SAFE/__tmp_d90cceea.c:175:16: error: expected declaration or statement at end of input

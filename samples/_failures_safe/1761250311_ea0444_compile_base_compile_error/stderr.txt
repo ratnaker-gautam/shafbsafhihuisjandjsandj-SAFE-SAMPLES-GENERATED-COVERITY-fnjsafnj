@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e78fc3a6.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_e78fc3a6.c:170:9: error: expected declaration or statement at end of input
+  170 |         }
+      |         ^
+./samples/SAFE/__tmp_e78fc3a6.c:170:9: error: expected declaration or statement at end of input

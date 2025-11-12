@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_648e4972.c: In function ‘main’:
+./samples/SAFE/__tmp_648e4972.c:142:16: error: expected ‘;’ at end of input
+  142 |     buffer_free
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_648e4972.c:142:5: error: expected declaration or statement at end of input
+  142 |     buffer_free
+      |     ^~~~~~~~~~~

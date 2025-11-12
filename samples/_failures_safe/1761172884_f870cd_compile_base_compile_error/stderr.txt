@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_6972810d.c: In function ‘main’:
+./samples/SAFE/__tmp_6972810d.c:144:23: error: expected ‘;’ at end of input
+  144 |                 strcpy
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_6972810d.c:144:17: error: expected declaration or statement at end of input
+  144 |                 strcpy
+      |                 ^~~~~~
+./samples/SAFE/__tmp_6972810d.c:144:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6972810d.c:144:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6972810d.c:144:17: error: expected declaration or statement at end of input

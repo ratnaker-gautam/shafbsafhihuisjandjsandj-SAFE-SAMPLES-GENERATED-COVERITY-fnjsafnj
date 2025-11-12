@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f40044e6.c: In function ‘main’:
+./samples/SAFE/__tmp_f40044e6.c:157:21: error: expected declaration or statement at end of input
+  157 |                     print_matrix(&result, "Result");
+      |                     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_f40044e6.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f40044e6.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f40044e6.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f40044e6.c:157:21: error: expected declaration or statement at end of input

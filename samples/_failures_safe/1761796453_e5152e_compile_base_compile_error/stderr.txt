@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e64b82e3.c: In function ‘main’:
+./samples/SAFE/__tmp_e64b82e3.c:178:13: error: expected declaration or statement at end of input
+  178 |             printf("Invalid event for current state\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_e64b82e3.c:178:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e64b82e3.c:178:13: error: expected declaration or statement at end of input

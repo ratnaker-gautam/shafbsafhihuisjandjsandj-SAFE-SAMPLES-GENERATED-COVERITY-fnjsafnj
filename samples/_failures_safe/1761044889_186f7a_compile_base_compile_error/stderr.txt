@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_396bd0ad.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_396bd0ad.c:149:9: error: expected declaration or statement at end of input
+  149 |         token.type = TOKEN_UNKNOWN;
+      |         ^~~~~
+./samples/SAFE/__tmp_396bd0ad.c:149:9: error: expected declaration or statement at end of input

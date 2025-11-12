@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a3e20f66.c: In function ‘main’:
+./samples/SAFE/__tmp_a3e20f66.c:150:12: error: expected expression at end of input
+  150 |            result.transformed.x, result.transformed.y,
+      |            ^~~~~~
+./samples/SAFE/__tmp_a3e20f66.c:150:12: error: expected declaration or statement at end of input

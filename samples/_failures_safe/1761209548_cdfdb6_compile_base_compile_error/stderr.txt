@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_cbeac2ce.c: In function ‘print_token_type’:
+./samples/SAFE/__tmp_cbeac2ce.c:160:9: error: expected declaration or statement at end of input
+  160 |         case TOKEN_EOF: printf("EOF"); break;
+      |         ^~~~
+./samples/SAFE/__tmp_cbeac2ce.c:160:9: error: expected declaration or statement at end of input

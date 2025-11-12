@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_4ee8ecc0.c: In function ‘main’:
+./samples/SAFE/__tmp_4ee8ecc0.c:160:15: error: expected ‘)’ at end of input
+  160 |         memcmp
+      |               ^
+      |               )
+./samples/SAFE/__tmp_4ee8ecc0.c:159:8: note: to match this ‘(’
+  159 |     if (decompressed.size != input.size ||
+      |        ^
+./samples/SAFE/__tmp_4ee8ecc0.c:160:9: error: expected declaration or statement at end of input
+  160 |         memcmp
+      |         ^~~~~~
+./samples/SAFE/__tmp_4ee8ecc0.c:156:9: error: label ‘cleanup’ used but not defined
+  156 |         goto cleanup;
+      |         ^~~~

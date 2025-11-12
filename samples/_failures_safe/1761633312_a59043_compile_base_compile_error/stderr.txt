@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_09c42798.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_09c42798.c:129:5: error: expected expression at end of input
+  129 |     if (analyzer == NULL || level == NULL) return
+      |     ^~
+./samples/SAFE/__tmp_09c42798.c:129:5: error: expected declaration or statement at end of input

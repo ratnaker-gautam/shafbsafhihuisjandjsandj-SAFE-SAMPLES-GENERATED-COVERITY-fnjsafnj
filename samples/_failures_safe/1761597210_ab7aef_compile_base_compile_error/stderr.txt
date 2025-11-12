@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_e7ea1e5a.c: In function ‘main’:
+./samples/SAFE/__tmp_e7ea1e5a.c:153:13: error: expected expression at end of input
+  153 |             printf("Invalid edge. Nodes must be 0-%d, weight 0-1000, no self-loops, no duplicates.\n",
+      |             ^~~~~~
+./samples/SAFE/__tmp_e7ea1e5a.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e7ea1e5a.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e7ea1e5a.c:153:13: error: expected declaration or statement at end of input

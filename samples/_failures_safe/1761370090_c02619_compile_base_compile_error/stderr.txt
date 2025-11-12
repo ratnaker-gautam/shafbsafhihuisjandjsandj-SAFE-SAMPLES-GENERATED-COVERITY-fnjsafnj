@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_b0f99576.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_b0f99576.c:126:13: error: ‘is’ undeclared (first use in this function)
+  126 |         if (is
+      |             ^~
+./samples/SAFE/__tmp_b0f99576.c:126:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b0f99576.c:126:15: error: expected ‘)’ at end of input
+  126 |         if (is
+      |            ~  ^
+      |               )
+./samples/SAFE/__tmp_b0f99576.c:126:9: error: expected declaration or statement at end of input
+  126 |         if (is
+      |         ^~
+./samples/SAFE/__tmp_b0f99576.c:126:9: error: expected declaration or statement at end of input

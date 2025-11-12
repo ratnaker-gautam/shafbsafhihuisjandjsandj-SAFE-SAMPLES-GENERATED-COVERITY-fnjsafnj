@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_127f8772.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_127f8772.c:116:17: error: expected identifier at end of input
+  116 |                 long product = (long)a->data[i][k] * b->
+      |                 ^~~~
+./samples/SAFE/__tmp_127f8772.c:116:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_127f8772.c:116:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_127f8772.c:116:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_127f8772.c:116:17: error: expected declaration or statement at end of input

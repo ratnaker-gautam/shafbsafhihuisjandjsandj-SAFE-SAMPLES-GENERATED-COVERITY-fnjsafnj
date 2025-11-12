@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_ce515aaf.c: In function ‘main’:
+./samples/SAFE/__tmp_ce515aaf.c:167:36: error: expected ‘)’ at end of input
+  167 |         if (process_command(&system
+      |                            ~       ^
+      |                                    )
+./samples/SAFE/__tmp_ce515aaf.c:167:13: error: too few arguments to function ‘process_command’
+  167 |         if (process_command(&system
+      |             ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ce515aaf.c:104:5: note: declared here
+  104 | int process_command(struct SystemContext *ctx, int32_t command_code) {
+      |     ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ce515aaf.c:167:9: error: expected declaration or statement at end of input
+  167 |         if (process_command(&system
+      |         ^~
+./samples/SAFE/__tmp_ce515aaf.c:167:9: error: expected declaration or statement at end of input

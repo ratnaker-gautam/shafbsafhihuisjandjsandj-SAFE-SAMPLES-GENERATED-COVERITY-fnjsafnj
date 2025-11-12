@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_04476b8f.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_04476b8f.c:175:23: error: ‘lex’ undeclared (first use in this function); did you mean ‘lexer’?
+  175 |             add_token(lex
+      |                       ^~~
+      |                       lexer
+./samples/SAFE/__tmp_04476b8f.c:175:23: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_04476b8f.c:175:26: error: expected ‘)’ at end of input
+  175 |             add_token(lex
+      |                      ~   ^
+      |                          )
+./samples/SAFE/__tmp_04476b8f.c:175:13: error: too few arguments to function ‘add_token’
+  175 |             add_token(lex
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_04476b8f.c:51:6: note: declared here
+   51 | void add_token(Lexer *lexer, TokenType type, const char *value) {
+      |      ^~~~~~~~~
+./samples/SAFE/__tmp_04476b8f.c:175:13: error: expected declaration or statement at end of input
+  175 |             add_token(lex
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_04476b8f.c:175:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_04476b8f.c:175:13: error: expected declaration or statement at end of input

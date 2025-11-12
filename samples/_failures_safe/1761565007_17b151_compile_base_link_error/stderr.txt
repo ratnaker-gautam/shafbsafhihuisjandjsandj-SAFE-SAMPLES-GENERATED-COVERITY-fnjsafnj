@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/cc17r6pi.o: in function `main':
+__tmp_ef2c66e1.c:(.text.startup+0x134): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_ef2c66e1.c:(.text.startup+0x1a9): undefined reference to `fmod'
+/usr/bin/ld: __tmp_ef2c66e1.c:(.text.startup+0x398): undefined reference to `pow'
+/usr/bin/ld: __tmp_ef2c66e1.c:(.text.startup+0x412): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_2bd1f494.c: In function ‘lex’:
+./samples/SAFE/__tmp_2bd1f494.c:166:80: error: expected ‘)’ at end of input
+  166 |             tokens[lexer->token_count++] = create_token(TOKEN_DELIMITER, buffer
+      |                                                        ~                       ^
+      |                                                                                )
+./samples/SAFE/__tmp_2bd1f494.c:166:44: error: too few arguments to function ‘create_token’
+  166 |             tokens[lexer->token_count++] = create_token(TOKEN_DELIMITER, buffer
+      |                                            ^~~~~~~~~~~~
+./samples/SAFE/__tmp_2bd1f494.c:63:14: note: declared here
+   63 | struct Token create_token(enum TokenType type, const char *value, int line, int column) {
+      |              ^~~~~~~~~~~~
+./samples/SAFE/__tmp_2bd1f494.c:166:13: error: expected declaration or statement at end of input
+  166 |             tokens[lexer->token_count++] = create_token(TOKEN_DELIMITER, buffer
+      |             ^~~~~~
+./samples/SAFE/__tmp_2bd1f494.c:166:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2bd1f494.c:166:13: error: expected declaration or statement at end of input

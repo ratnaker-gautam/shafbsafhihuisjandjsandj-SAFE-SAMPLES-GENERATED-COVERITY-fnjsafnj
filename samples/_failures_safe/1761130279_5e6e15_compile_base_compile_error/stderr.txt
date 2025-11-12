@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5bf75f10.c: In function ‘is_valid_timestamp’:
+./samples/SAFE/__tmp_5bf75f10.c:132:5: error: expected expression at end of input
+  132 |     return
+      |     ^~~~~~
+./samples/SAFE/__tmp_5bf75f10.c:132:5: error: expected declaration or statement at end of input

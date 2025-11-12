@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1b8bf13d.c: In function ‘main’:
+./samples/SAFE/__tmp_1b8bf13d.c:156:5: error: expected declaration or statement at end of input
+  156 |     printf("1. Matrix Addition\n");
+      |     ^~~~~~

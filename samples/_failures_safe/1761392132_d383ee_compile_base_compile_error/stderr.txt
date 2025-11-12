@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_6f6d147b.c: In function ‘load_log_file’:
+./samples/SAFE/__tmp_6f6d147b.c:135:13: error: ‘update’ undeclared (first use in this function)
+  135 |             update
+      |             ^~~~~~
+./samples/SAFE/__tmp_6f6d147b.c:135:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6f6d147b.c:135:19: error: expected ‘;’ at end of input
+  135 |             update
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_6f6d147b.c:135:13: error: expected declaration or statement at end of input
+  135 |             update
+      |             ^~~~~~
+./samples/SAFE/__tmp_6f6d147b.c:135:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6f6d147b.c:135:13: error: expected declaration or statement at end of input

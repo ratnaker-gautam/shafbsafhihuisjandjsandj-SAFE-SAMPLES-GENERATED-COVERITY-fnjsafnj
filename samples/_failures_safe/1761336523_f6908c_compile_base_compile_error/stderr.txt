@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_6c06de59.c: In function ‘main’:
+./samples/SAFE/__tmp_6c06de59.c:151:34: error: expected ‘;’ at end of input
+  151 |                         found = 1
+      |                                  ^
+      |                                  ;
+./samples/SAFE/__tmp_6c06de59.c:151:25: error: expected declaration or statement at end of input
+  151 |                         found = 1
+      |                         ^~~~~
+./samples/SAFE/__tmp_6c06de59.c:151:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6c06de59.c:151:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6c06de59.c:151:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6c06de59.c:151:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6c06de59.c:151:25: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_9eeacae5.c: In function ‘main’:
+./samples/SAFE/__tmp_9eeacae5.c:165:41: error: expected ‘)’ at end of input
+  165 |     if (!allocate_matrix(&stack_matrices
+      |                         ~               ^
+      |                                         )
+./samples/SAFE/__tmp_9eeacae5.c:165:10: error: too few arguments to function ‘allocate_matrix’
+  165 |     if (!allocate_matrix(&stack_matrices
+      |          ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_9eeacae5.c:19:5: note: declared here
+   19 | int allocate_matrix(Matrix *mat, int rows, int cols) {
+      |     ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_9eeacae5.c:165:5: error: expected declaration or statement at end of input
+  165 |     if (!allocate_matrix(&stack_matrices
+      |     ^~

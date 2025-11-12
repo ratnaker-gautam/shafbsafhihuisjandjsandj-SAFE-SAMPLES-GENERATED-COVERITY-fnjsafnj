@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b4f230ce.c: In function ‘transpose_matrix’:
+./samples/SAFE/__tmp_b4f230ce.c:155:5: error: expected declaration or statement at end of input
+  155 |     }
+      |     ^

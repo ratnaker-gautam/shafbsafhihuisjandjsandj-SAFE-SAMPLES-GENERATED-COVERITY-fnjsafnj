@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_ba1fcf8a.c: In function ‘transform_bounding_box’:
+./samples/SAFE/__tmp_ba1fcf8a.c:130:51: error: exponent has no digits
+  130 |     result.max.x = result.max.y = result.max.z = -1e
+      |                                                   ^~
+./samples/SAFE/__tmp_ba1fcf8a.c:130:53: error: expected ‘;’ at end of input
+  130 |     result.max.x = result.max.y = result.max.z = -1e
+      |                                                     ^
+      |                                                     ;
+./samples/SAFE/__tmp_ba1fcf8a.c:130:5: error: expected declaration or statement at end of input
+  130 |     result.max.x = result.max.y = result.max.z = -1e
+      |     ^~~~~~

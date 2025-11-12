@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1d122bc2.c: In function ‘main’:
+./samples/SAFE/__tmp_1d122bc2.c:182:17: error: expected declaration or statement at end of input
+  182 |                 process_text(&sm);
+      |                 ^~~~~~~~~~~~
+./samples/SAFE/__tmp_1d122bc2.c:182:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1d122bc2.c:182:17: error: expected declaration or statement at end of input

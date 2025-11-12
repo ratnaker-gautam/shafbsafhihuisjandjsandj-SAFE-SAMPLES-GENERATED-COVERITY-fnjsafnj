@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_8d5f161d.c: In function ‘main’:
+./samples/SAFE/__tmp_8d5f161d.c:135:37: error: unterminated argument list invoking macro "MATRIX_IDX"
+  135 |                 MATRIX_IDX(result, j
+      |                                     ^
+./samples/SAFE/__tmp_8d5f161d.c:135:17: error: ‘MATRIX_IDX’ undeclared (first use in this function)
+  135 |                 MATRIX_IDX(result, j
+      |                 ^~~~~~~~~~
+./samples/SAFE/__tmp_8d5f161d.c:135:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8d5f161d.c:135:27: error: expected ‘;’ at end of input
+  135 |                 MATRIX_IDX(result, j
+      |                           ^
+      |                           ;
+./samples/SAFE/__tmp_8d5f161d.c:135:17: error: expected declaration or statement at end of input
+  135 |                 MATRIX_IDX(result, j
+      |                 ^~~~~~~~~~
+./samples/SAFE/__tmp_8d5f161d.c:135:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8d5f161d.c:135:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8d5f161d.c:135:17: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3a5368ca.c: In function ‘handle_done_state’:
+./samples/SAFE/__tmp_3a5368ca.c:162:31: error: expected ‘;’ at end of input
+  162 |             return STATE_ERROR
+      |                               ^
+      |                               ;
+./samples/SAFE/__tmp_3a5368ca.c:162:13: error: expected declaration or statement at end of input
+  162 |             return STATE_ERROR
+      |             ^~~~~~
+./samples/SAFE/__tmp_3a5368ca.c:162:13: error: expected declaration or statement at end of input

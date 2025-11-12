@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_d56a7af0.c: In function ‘main’:
+./samples/SAFE/__tmp_d56a7af0.c:171:59: error: ‘STATE’ undeclared (first use in this function)
+  171 |         if (new_state == STATE_PROCESSING && old_state != STATE
+      |                                                           ^~~~~
+./samples/SAFE/__tmp_d56a7af0.c:171:59: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d56a7af0.c:171:64: error: expected ‘)’ at end of input
+  171 |         if (new_state == STATE_PROCESSING && old_state != STATE
+      |            ~                                                   ^
+      |                                                                )
+./samples/SAFE/__tmp_d56a7af0.c:171:9: error: expected declaration or statement at end of input
+  171 |         if (new_state == STATE_PROCESSING && old_state != STATE
+      |         ^~
+./samples/SAFE/__tmp_d56a7af0.c:171:9: error: expected declaration or statement at end of input

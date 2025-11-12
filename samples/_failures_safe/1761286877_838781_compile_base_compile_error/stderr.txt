@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_196b4b48.c: In function ‘main’:
+./samples/SAFE/__tmp_196b4b48.c:135:70: error: expected ‘)’ at end of input
+  135 |     if (!read_size_t("Enter columns for matrix 1: ", &cols1) || cols1
+      |        ~                                                             ^
+      |                                                                      )
+./samples/SAFE/__tmp_196b4b48.c:135:5: error: expected declaration or statement at end of input
+  135 |     if (!read_size_t("Enter columns for matrix 1: ", &cols1) || cols1
+      |     ^~

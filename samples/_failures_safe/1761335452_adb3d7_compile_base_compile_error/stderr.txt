@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_58bbc053.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_58bbc053.c:127:35: error: ‘TIMESTAMP_L’ undeclared (first use in this function); did you mean ‘TIMESTAMP_LEN’?
+  127 |             stats->last_timestamp[TIMESTAMP_L
+      |                                   ^~~~~~~~~~~
+      |                                   TIMESTAMP_LEN
+./samples/SAFE/__tmp_58bbc053.c:127:35: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_58bbc053.c:127:46: error: expected ‘]’ at end of input
+  127 |             stats->last_timestamp[TIMESTAMP_L
+      |                                              ^
+      |                                              ]
+./samples/SAFE/__tmp_58bbc053.c:127:13: error: expected declaration or statement at end of input
+  127 |             stats->last_timestamp[TIMESTAMP_L
+      |             ^~~~~
+./samples/SAFE/__tmp_58bbc053.c:127:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_58bbc053.c:127:13: error: expected declaration or statement at end of input

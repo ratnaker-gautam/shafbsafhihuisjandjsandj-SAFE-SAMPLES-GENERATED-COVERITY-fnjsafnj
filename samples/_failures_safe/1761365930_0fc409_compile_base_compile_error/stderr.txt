@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1e33ea2c.c: In function ‘determinant_matrix’:
+./samples/SAFE/__tmp_1e33ea2c.c:128:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  128 |         double sub
+      |         ^~~~~~
+./samples/SAFE/__tmp_1e33ea2c.c:128:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1e33ea2c.c:128:9: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_69d1f09a.c: In function ‘main’:
+./samples/SAFE/__tmp_69d1f09a.c:149:9: error: ‘put’ undeclared (first use in this function); did you mean ‘puts’?
+  149 |         put
+      |         ^~~
+      |         puts
+./samples/SAFE/__tmp_69d1f09a.c:149:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_69d1f09a.c:149:12: error: expected ‘;’ at end of input
+  149 |         put
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_69d1f09a.c:149:9: error: expected declaration or statement at end of input
+  149 |         put
+      |         ^~~
+./samples/SAFE/__tmp_69d1f09a.c:149:9: error: expected declaration or statement at end of input

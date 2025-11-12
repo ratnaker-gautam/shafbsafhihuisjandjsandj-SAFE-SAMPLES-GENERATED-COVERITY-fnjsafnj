@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_591ca16f.c: In function ‘main’:
+./samples/SAFE/__tmp_591ca16f.c:169:5: error: expected declaration or statement at end of input
+  169 |     printf("Commands: r=read, p=process, w=write, i=idle, e=error, q=quit\n");
+      |     ^~~~~~

@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_a60992e7.c: In function ‘init_parser’:
+./samples/SAFE/__tmp_a60992e7.c:169: error: expected ‘{’ at end of input

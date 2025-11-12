@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_1494a1f9.c: In function ‘main’:
+./samples/SAFE/__tmp_1494a1f9.c:156:53: error: expected ‘)’ at end of input
+  156 |         if (from < 0 || from >= node_count || to < 0
+      |            ~                                        ^
+      |                                                     )
+./samples/SAFE/__tmp_1494a1f9.c:156:9: error: expected declaration or statement at end of input
+  156 |         if (from < 0 || from >= node_count || to < 0
+      |         ^~
+./samples/SAFE/__tmp_1494a1f9.c:156:9: error: expected declaration or statement at end of input

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_6c3b3c80.c: In function ‘main’:
+./samples/SAFE/__tmp_6c3b3c80.c:139:20: error: missing terminating " character
+  139 |             printf("Invalid timestamp format.
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6c3b3c80.c:139:13: error: expected expression at end of input
+  139 |             printf("Invalid timestamp format.
+      |             ^~~~~~
+./samples/SAFE/__tmp_6c3b3c80.c:139:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6c3b3c80.c:139:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6c3b3c80.c:139:13: error: expected declaration or statement at end of input

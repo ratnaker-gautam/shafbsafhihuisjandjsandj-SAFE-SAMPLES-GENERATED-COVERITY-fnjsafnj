@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_cc5a3db8.c: In function ‘main’:
+./samples/SAFE/__tmp_cc5a3db8.c:158:5: error: expected expression at end of input
+  158 |     if (cols2 == -1) return
+      |     ^~
+./samples/SAFE/__tmp_cc5a3db8.c:158:5: error: expected declaration or statement at end of input

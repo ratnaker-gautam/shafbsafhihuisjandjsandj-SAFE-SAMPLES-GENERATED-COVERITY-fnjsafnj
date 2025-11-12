@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b4116eb7.c: In function ‘main’:
+./samples/SAFE/__tmp_b4116eb7.c:123:65: error: expected ‘]’ at end of input
+  123 |            entries[entry_count-1].timestamp, entries[entry_count
+      |                                                                 ^
+      |                                                                 ]
+./samples/SAFE/__tmp_b4116eb7.c:123:12: error: expected declaration or statement at end of input
+  123 |            entries[entry_count-1].timestamp, entries[entry_count
+      |            ^~~~~~~

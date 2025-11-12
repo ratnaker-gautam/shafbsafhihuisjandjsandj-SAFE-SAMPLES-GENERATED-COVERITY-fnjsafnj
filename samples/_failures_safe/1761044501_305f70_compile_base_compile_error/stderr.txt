@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_d0fb94be.c: In function ‘main’:
+./samples/SAFE/__tmp_d0fb94be.c:149:10: error: ‘read’ undeclared (first use in this function); did you mean ‘fread’?
+  149 |     if (!read
+      |          ^~~~
+      |          fread
+./samples/SAFE/__tmp_d0fb94be.c:149:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d0fb94be.c:149:14: error: expected ‘)’ at end of input
+  149 |     if (!read
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_d0fb94be.c:149:5: error: expected declaration or statement at end of input
+  149 |     if (!read
+      |     ^~

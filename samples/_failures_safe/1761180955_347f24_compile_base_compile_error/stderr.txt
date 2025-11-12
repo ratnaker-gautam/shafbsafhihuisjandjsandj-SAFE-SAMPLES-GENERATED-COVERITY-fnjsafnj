@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_68b24f84.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_68b24f84.c:154:38: error: expected ‘)’ at end of input
+  154 |     if (input == NULL || strlen(input
+      |                                ~     ^
+      |                                      )
+./samples/SAFE/__tmp_68b24f84.c:154:5: error: expected declaration or statement at end of input
+  154 |     if (input == NULL || strlen(input
+      |     ^~

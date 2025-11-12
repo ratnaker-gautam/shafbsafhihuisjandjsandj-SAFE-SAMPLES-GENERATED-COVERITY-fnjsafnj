@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_dce0e6b6.c: In function ‘main’:
+./samples/SAFE/__tmp_dce0e6b6.c:152:51: error: expected ‘]’ at end of input
+  152 |             printf("Node %d: %d\n", i, distances[i
+      |                                                   ^
+      |                                                   ]
+./samples/SAFE/__tmp_dce0e6b6.c:152:13: error: expected declaration or statement at end of input
+  152 |             printf("Node %d: %d\n", i, distances[i
+      |             ^~~~~~
+./samples/SAFE/__tmp_dce0e6b6.c:152:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dce0e6b6.c:152:13: error: expected declaration or statement at end of input

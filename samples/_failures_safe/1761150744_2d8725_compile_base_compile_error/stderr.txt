@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e7de9c95.c: In function ‘main’:
+./samples/SAFE/__tmp_e7de9c95.c:153:9: error: expected declaration or statement at end of input
+  153 |         if (result.compressed_size > 0 && result.original_size > 0) {
+      |         ^~
+./samples/SAFE/__tmp_e7de9c95.c:153:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e7de9c95.c:153:9: error: expected declaration or statement at end of input

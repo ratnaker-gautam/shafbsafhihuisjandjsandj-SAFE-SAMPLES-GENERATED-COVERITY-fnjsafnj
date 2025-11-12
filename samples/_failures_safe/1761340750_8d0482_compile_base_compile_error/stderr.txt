@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_4f7cad45.c: In function ‘write_compressed_data’:
+./samples/SAFE/__tmp_4f7cad45.c:149:19: error: expected ‘;’ at end of input
+  149 |             fclose
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_4f7cad45.c:149:13: error: expected declaration or statement at end of input
+  149 |             fclose
+      |             ^~~~~~
+./samples/SAFE/__tmp_4f7cad45.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4f7cad45.c:149:13: error: expected declaration or statement at end of input

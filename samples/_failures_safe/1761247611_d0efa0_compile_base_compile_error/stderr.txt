@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_397395e4.c: In function ‘main’:
+./samples/SAFE/__tmp_397395e4.c:181:12: error: expected identifier or ‘(’ at end of input
+  181 |     struct Token
+      |            ^~~~~
+./samples/SAFE/__tmp_397395e4.c:181:12: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_cf98f3fb.c: In function ‘main’:
+./samples/SAFE/__tmp_cf98f3fb.c:160:9: error: expected expression at end of input
+  160 |         if (choice == 1 && rows == cols)
+      |         ^~
+./samples/SAFE/__tmp_cf98f3fb.c:160:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cf98f3fb.c:160:9: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_09b3de8a.c: In function ‘tokenize_next’:
+./samples/SAFE/__tmp_09b3de8a.c:175:16: error: expected ‘;’ at end of input
+  175 |     token->type
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_09b3de8a.c:175:5: error: expected declaration or statement at end of input
+  175 |     token->type
+      |     ^~~~~

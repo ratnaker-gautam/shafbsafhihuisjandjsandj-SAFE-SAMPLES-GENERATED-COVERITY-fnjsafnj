@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7d6dc59c.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_7d6dc59c.c:157:17: error: expected identifier at end of input
+  157 |                 queue_enqueue(queue, graph->edges[i]->
+      |                 ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_7d6dc59c.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7d6dc59c.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7d6dc59c.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7d6dc59c.c:157:17: error: expected declaration or statement at end of input

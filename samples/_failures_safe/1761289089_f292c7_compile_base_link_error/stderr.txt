@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cc7BIJjY.o: in function `main':
+__tmp_7f86a48c.c:(.text.startup+0x1b5): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_644d1595.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_644d1595.c:154:21: error: expected declaration or statement at end of input
+  154 |                     int new_dist = dist[min_index] + g->edges[i].weight;
+      |                     ^~~
+./samples/SAFE/__tmp_644d1595.c:154:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_644d1595.c:154:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_644d1595.c:154:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_644d1595.c:154:21: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_84c57d4f.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_84c57d4f.c:175:9: error: expected declaration or statement at end of input
+  175 |         if (token.type != TOKEN_EOF) {
+      |         ^~
+./samples/SAFE/__tmp_84c57d4f.c:175:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_84c57d4f.c:175:9: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_a2e45362.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_a2e45362.c:170:5: error: ‘P’ undeclared (first use in this function)
+  170 |     P
+      |     ^
+./samples/SAFE/__tmp_a2e45362.c:170:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a2e45362.c:170:6: error: expected ‘;’ at end of input
+  170 |     P
+      |      ^
+      |      ;
+./samples/SAFE/__tmp_a2e45362.c:170:5: error: expected declaration or statement at end of input
+  170 |     P
+      |     ^

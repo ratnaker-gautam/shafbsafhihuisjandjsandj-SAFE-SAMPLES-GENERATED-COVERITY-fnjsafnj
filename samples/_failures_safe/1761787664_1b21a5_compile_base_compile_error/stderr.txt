@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_4483b55c.c: In function ‘graph_print_distances’:
+./samples/SAFE/__tmp_4483b55c.c:162:13: error: expected identifier at end of input
+  162 |             printf("Node %s: distance %d\n", g->
+      |             ^~~~~~
+./samples/SAFE/__tmp_4483b55c.c:162:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4483b55c.c:162:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4483b55c.c:162:13: error: expected declaration or statement at end of input

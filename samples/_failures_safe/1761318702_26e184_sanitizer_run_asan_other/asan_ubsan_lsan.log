@@ -1,0 +1,15 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==29686==ERROR: AddressSanitizer: SEGV on unknown address 0x000000000010 (pc 0x5a0c3166f7ae bp 0x7ffddbbda100 sp 0x7ffddbbd9fe0 T0)
+==29686==The signal is caused by a READ memory access.
+==29686==Hint: address points to the zero page.
+    #0 0x5a0c3166f7ae in tokenize samples/SAFE/__tmp_1360e6d7.c:47
+    #1 0x5a0c316707cc in main samples/SAFE/__tmp_1360e6d7.c:109
+    #2 0x72e83362a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x72e83362a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x5a0c3166f3e4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_1360e6d7.c.san+0x43e4) (BuildId: df96e0a4367f47456fb9f0289a4515ef83914549)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV samples/SAFE/__tmp_1360e6d7.c:47 in tokenize
+==29686==ABORTING

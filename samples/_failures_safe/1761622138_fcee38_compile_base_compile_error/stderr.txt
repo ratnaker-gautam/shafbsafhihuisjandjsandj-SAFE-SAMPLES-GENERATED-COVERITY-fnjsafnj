@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_71af7813.c: In function ‘main’:
+./samples/SAFE/__tmp_71af7813.c:125:104: error: expected ‘)’ at end of input
+  125 |         if (!add_log_entry(logs, sample_logs[i].timestamp, sample_logs[i].level, sample_logs[i].message
+      |                           ~                                                                            ^
+      |                                                                                                        )
+./samples/SAFE/__tmp_71af7813.c:125:9: error: expected declaration or statement at end of input
+  125 |         if (!add_log_entry(logs, sample_logs[i].timestamp, sample_logs[i].level, sample_logs[i].message
+      |         ^~
+./samples/SAFE/__tmp_71af7813.c:125:9: error: expected declaration or statement at end of input

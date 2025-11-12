@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_2eb6170e.c: In function ‘main’:
+./samples/SAFE/__tmp_2eb6170e.c:150:24: error: ‘rows’ undeclared (first use in this function); did you mean ‘rows1’?
+  150 |     matrix_init(&matA, rows
+      |                        ^~~~
+      |                        rows1
+./samples/SAFE/__tmp_2eb6170e.c:150:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2eb6170e.c:150:28: error: expected ‘)’ at end of input
+  150 |     matrix_init(&matA, rows
+      |                ~           ^
+      |                            )
+./samples/SAFE/__tmp_2eb6170e.c:150:5: error: too few arguments to function ‘matrix_init’
+  150 |     matrix_init(&matA, rows
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_2eb6170e.c:45:6: note: declared here
+   45 | void matrix_init(Matrix* mat, int rows, int cols) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_2eb6170e.c:150:5: error: expected declaration or statement at end of input
+  150 |     matrix_init(&matA, rows
+      |     ^~~~~~~~~~~

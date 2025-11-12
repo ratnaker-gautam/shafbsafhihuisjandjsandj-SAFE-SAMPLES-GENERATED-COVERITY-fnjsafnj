@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e4745506.c: In function ‘state_machine_step’:
+./samples/SAFE/__tmp_e4745506.c:160:21: error: expected declaration or statement at end of input
+  160 |                     ctx->error_code = 0;
+      |                     ^~~
+./samples/SAFE/__tmp_e4745506.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e4745506.c:160:21: error: expected declaration or statement at end of input

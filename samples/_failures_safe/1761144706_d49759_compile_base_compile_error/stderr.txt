@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_cfb8f6f4.c: In function ‘tokenize_input’:
+./samples/SAFE/__tmp_cfb8f6f4.c:160:65: error: expected ‘)’ at end of input
+  160 |             snprintf(result->error_msg, sizeof(result->error_msg
+      |                                               ~                 ^
+      |                                                                 )
+./samples/SAFE/__tmp_cfb8f6f4.c:160:13: error: too few arguments to function ‘snprintf’
+  160 |             snprintf(result->error_msg, sizeof(result->error_msg
+      |             ^~~~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_cfb8f6f4.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:51:1: note: declared here
+   51 | __NTH (snprintf (char *__restrict __s, size_t __n,
+      | ^~~~~
+./samples/SAFE/__tmp_cfb8f6f4.c:160:13: error: expected declaration or statement at end of input
+  160 |             snprintf(result->error_msg, sizeof(result->error_msg
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_cfb8f6f4.c:160:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cfb8f6f4.c:160:13: error: expected declaration or statement at end of input

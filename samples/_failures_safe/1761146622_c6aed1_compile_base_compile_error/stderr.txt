@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_aa049d1a.c: In function ‘main’:
+./samples/SAFE/__tmp_aa049d1a.c:143:9: error: expected declaration or statement at end of input
+  143 |         if (compress_data(methods[i], &input_data, &output_data)) {
+      |         ^~
+./samples/SAFE/__tmp_aa049d1a.c:143:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_aa049d1a.c:143:9: error: expected declaration or statement at end of input

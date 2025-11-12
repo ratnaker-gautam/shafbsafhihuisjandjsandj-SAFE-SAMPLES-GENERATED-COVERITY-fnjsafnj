@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2243566e.c: In function ‘main’:
+./samples/SAFE/__tmp_2243566e.c:152:5: error: expected declaration or statement at end of input
+  152 |     printf("Processing time: %.6f seconds\n", cpu_time);
+      |     ^~~~~~

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_f661dcab.c: In function ‘main’:
+./samples/SAFE/__tmp_f661dcab.c:148:5: error: expected expression at end of input
+  148 |     execute_operation(&g, dijkstra_operation,
+      |     ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f661dcab.c:148:5: error: too few arguments to function ‘execute_operation’
+./samples/SAFE/__tmp_f661dcab.c:125:6: note: declared here
+  125 | void execute_operation(Graph *g, GraphOperation op, int source, int target) {
+      |      ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f661dcab.c:148:5: error: expected declaration or statement at end of input
+  148 |     execute_operation(&g, dijkstra_operation,
+      |     ^~~~~~~~~~~~~~~~~

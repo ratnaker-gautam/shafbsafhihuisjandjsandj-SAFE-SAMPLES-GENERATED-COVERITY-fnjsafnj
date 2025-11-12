@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_83ffe81f.c: In function ‘main’:
+./samples/SAFE/__tmp_83ffe81f.c:152:21: error: ‘compressed’ undeclared (first use in this function); did you mean ‘compressors’?
+  152 |     cleanup_buffer(&compressed
+      |                     ^~~~~~~~~~
+      |                     compressors
+./samples/SAFE/__tmp_83ffe81f.c:152:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_83ffe81f.c:152:31: error: expected ‘)’ at end of input
+  152 |     cleanup_buffer(&compressed
+      |                   ~           ^
+      |                               )
+./samples/SAFE/__tmp_83ffe81f.c:152:5: error: expected declaration or statement at end of input
+  152 |     cleanup_buffer(&compressed
+      |     ^~~~~~~~~~~~~~

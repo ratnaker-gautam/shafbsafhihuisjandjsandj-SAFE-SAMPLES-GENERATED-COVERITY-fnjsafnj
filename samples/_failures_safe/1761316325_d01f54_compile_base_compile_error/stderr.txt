@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_54dd4ec7.c: In function ‘dfs’:
+./samples/SAFE/__tmp_54dd4ec7.c:181:41: error: expected ‘)’ at end of input
+  181 |     struct Node* start = find_node(graph
+      |                                   ~     ^
+      |                                         )
+./samples/SAFE/__tmp_54dd4ec7.c:181:26: error: too few arguments to function ‘find_node’
+  181 |     struct Node* start = find_node(graph
+      |                          ^~~~~~~~~
+./samples/SAFE/__tmp_54dd4ec7.c:63:14: note: declared here
+   63 | struct Node* find_node(struct Graph* graph, int id) {
+      |              ^~~~~~~~~
+./samples/SAFE/__tmp_54dd4ec7.c:181:12: error: expected declaration or statement at end of input
+  181 |     struct Node* start = find_node(graph
+      |            ^~~~

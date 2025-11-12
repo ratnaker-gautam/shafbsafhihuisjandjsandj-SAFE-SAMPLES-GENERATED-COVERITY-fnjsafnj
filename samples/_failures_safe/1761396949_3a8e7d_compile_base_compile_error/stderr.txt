@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ed26bf4c.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_ed26bf4c.c:142:5: error: expected identifier at end of input
+  142 |     int limit = analyzer->word_count < 10 ? analyzer->
+      |     ^~~
+./samples/SAFE/__tmp_ed26bf4c.c:142:5: error: expected declaration or statement at end of input

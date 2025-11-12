@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_56703e50.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_56703e50.c:149:24: error: missing terminating " character
+  149 |                 printf("String: %s at line %d, column %
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_56703e50.c:149:17: error: expected expression at end of input
+  149 |                 printf("String: %s at line %d, column %
+      |                 ^~~~~~
+./samples/SAFE/__tmp_56703e50.c:149:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_56703e50.c:149:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_56703e50.c:149:17: error: expected declaration or statement at end of input

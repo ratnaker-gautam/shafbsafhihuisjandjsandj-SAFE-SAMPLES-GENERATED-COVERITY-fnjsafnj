@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a337ea81.c: In function ‘main’:
+./samples/SAFE/__tmp_a337ea81.c:139:16: error: missing terminating " character
+  139 |         printf("\nRecent errors (%d
+      |                ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a337ea81.c:139:9: error: expected expression at end of input
+  139 |         printf("\nRecent errors (%d
+      |         ^~~~~~
+./samples/SAFE/__tmp_a337ea81.c:139:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a337ea81.c:139:9: error: expected declaration or statement at end of input

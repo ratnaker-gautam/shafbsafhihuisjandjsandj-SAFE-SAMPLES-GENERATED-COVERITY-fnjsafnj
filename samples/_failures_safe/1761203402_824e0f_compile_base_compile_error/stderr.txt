@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_50766035.c: In function ‘main’:
+./samples/SAFE/__tmp_50766035.c:174:13: error: expected ‘,’ or ‘;’ at end of input
+  174 |             long num = strtol
+      |             ^~~~
+./samples/SAFE/__tmp_50766035.c:174:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_50766035.c:174:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_50766035.c:174:13: error: expected declaration or statement at end of input

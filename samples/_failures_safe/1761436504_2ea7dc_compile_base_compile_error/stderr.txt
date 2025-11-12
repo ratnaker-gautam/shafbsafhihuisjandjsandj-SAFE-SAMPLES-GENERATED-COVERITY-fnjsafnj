@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d894df15.c: In function ‘main’:
+./samples/SAFE/__tmp_d894df15.c:156:5: error: expected declaration or statement at end of input
+  156 |     printf("\nSelect operation (1-%d): ", num_operations);
+      |     ^~~~~~

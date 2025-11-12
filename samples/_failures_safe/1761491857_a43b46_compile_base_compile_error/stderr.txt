@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_b28fe217.c: In function ‘process_event’:
+./samples/SAFE/__tmp_b28fe217.c:189:20: error: ‘handle_’ undeclared (first use in this function); did you mean ‘handle_done’?
+  189 |             return handle_
+      |                    ^~~~~~~
+      |                    handle_done
+./samples/SAFE/__tmp_b28fe217.c:189:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b28fe217.c:189:27: error: expected ‘;’ at end of input
+  189 |             return handle_
+      |                           ^
+      |                           ;
+./samples/SAFE/__tmp_b28fe217.c:189:13: error: expected declaration or statement at end of input
+  189 |             return handle_
+      |             ^~~~~~
+./samples/SAFE/__tmp_b28fe217.c:189:13: error: expected declaration or statement at end of input

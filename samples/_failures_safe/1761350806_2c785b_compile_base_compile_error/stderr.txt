@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5d1715be.c: In function ‘main’:
+./samples/SAFE/__tmp_5d1715be.c:146:22: error: incompatible types when initializing type ‘double’ using type ‘double (*)(const Matrix *)’
+  146 |         double det = compute_determinant
+      |                      ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5d1715be.c:146:9: error: expected ‘,’ or ‘;’ at end of input
+  146 |         double det = compute_determinant
+      |         ^~~~~~
+./samples/SAFE/__tmp_5d1715be.c:146:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5d1715be.c:146:9: error: expected declaration or statement at end of input

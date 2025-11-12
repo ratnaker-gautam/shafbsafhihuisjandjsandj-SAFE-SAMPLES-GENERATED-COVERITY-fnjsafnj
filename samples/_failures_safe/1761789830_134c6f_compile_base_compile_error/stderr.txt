@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4775669a.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_4775669a.c:149:37: error: expected declaration or statement at end of input
+  149 | void parser_parse_expression(struct Parser *parser) {
+      |                                     ^~~~~~

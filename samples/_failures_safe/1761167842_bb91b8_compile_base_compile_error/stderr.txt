@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_bba9988f.c: In function ‘main’:
+./samples/SAFE/__tmp_bba9988f.c:136:5: error: ‘initialize_’ undeclared (first use in this function)
+  136 |     initialize_
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_bba9988f.c:136:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bba9988f.c:136:16: error: expected ‘;’ at end of input
+  136 |     initialize_
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_bba9988f.c:136:5: error: expected declaration or statement at end of input
+  136 |     initialize_
+      |     ^~~~~~~~~~~

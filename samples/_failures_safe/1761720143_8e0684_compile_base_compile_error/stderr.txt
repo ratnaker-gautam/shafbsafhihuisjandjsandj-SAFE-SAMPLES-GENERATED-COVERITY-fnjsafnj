@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fe541180.c: In function ‘main’:
+./samples/SAFE/__tmp_fe541180.c:137:24: error: expected ‘;’ at end of input
+  137 |     compressed.size = 0
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_fe541180.c:137:5: error: expected declaration or statement at end of input
+  137 |     compressed.size = 0
+      |     ^~~~~~~~~~

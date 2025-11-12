@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ce7701a2.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_ce7701a2.c:163:17: error: expected declaration or statement at end of input
+  163 |                 printf("  Found operator\n");
+      |                 ^~~~~~
+./samples/SAFE/__tmp_ce7701a2.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ce7701a2.c:163:17: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_96998e51.c: In function ‘next_token’:
+./samples/SAFE/__tmp_96998e51.c:165:25: error: ‘next’ undeclared (first use in this function); did you mean ‘next_c’?
+  165 |             buffer[1] = next
+      |                         ^~~~
+      |                         next_c
+./samples/SAFE/__tmp_96998e51.c:165:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_96998e51.c:165:29: error: expected ‘;’ at end of input
+  165 |             buffer[1] = next
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_96998e51.c:165:13: error: expected declaration or statement at end of input
+  165 |             buffer[1] = next
+      |             ^~~~~~
+./samples/SAFE/__tmp_96998e51.c:165:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_96998e51.c:165:13: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_990d073e.c: In function ‘executeAlgorithm’:
+./samples/SAFE/__tmp_990d073e.c:148:18: error: expected ‘;’ at end of input
+  148 |             break
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_990d073e.c:148:13: error: expected declaration or statement at end of input
+  148 |             break
+      |             ^~~~~
+./samples/SAFE/__tmp_990d073e.c:148:13: error: expected declaration or statement at end of input

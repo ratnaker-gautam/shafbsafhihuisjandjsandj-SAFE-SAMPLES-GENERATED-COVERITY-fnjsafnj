@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f24ca3b1.c: In function ‘stack_push’:
+./samples/SAFE/__tmp_f24ca3b1.c:177:5: error: expected declaration or statement at end of input
+  177 |     if (stack->top >= MAX_NODES - 1) {
+      |     ^~
+./samples/SAFE/__tmp_f24ca3b1.c:177:5: error: expected declaration or statement at end of input

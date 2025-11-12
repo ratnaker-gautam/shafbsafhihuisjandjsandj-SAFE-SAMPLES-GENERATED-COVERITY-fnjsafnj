@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_02642b5b.c: In function ‘main’:
+./samples/SAFE/__tmp_02642b5b.c:162:37: error: expected ‘;’ at end of input
+  162 |         case 3: comp_type = COMP_LZW
+      |                                     ^
+      |                                     ;
+./samples/SAFE/__tmp_02642b5b.c:162:9: error: expected declaration or statement at end of input
+  162 |         case 3: comp_type = COMP_LZW
+      |         ^~~~
+./samples/SAFE/__tmp_02642b5b.c:162:9: error: expected declaration or statement at end of input

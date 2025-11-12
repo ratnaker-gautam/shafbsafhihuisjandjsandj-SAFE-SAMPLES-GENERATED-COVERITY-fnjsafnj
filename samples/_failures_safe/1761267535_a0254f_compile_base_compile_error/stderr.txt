@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6b68ae6b.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_6b68ae6b.c:135:32: error: expected ‘;’ at end of input
+  135 |     for (int i = 0; i < m->rows
+      |                                ^
+      |                                ;
+./samples/SAFE/__tmp_6b68ae6b.c:135:5: error: expected declaration or statement at end of input
+  135 |     for (int i = 0; i < m->rows
+      |     ^~~

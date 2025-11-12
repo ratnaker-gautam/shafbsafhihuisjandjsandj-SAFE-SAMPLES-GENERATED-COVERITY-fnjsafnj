@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_433a18cd.c: In function ‘main’:
+./samples/SAFE/__tmp_433a18cd.c:153:9: error: expected expression at end of input
+  153 |         input_text[len -
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_433a18cd.c:153:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_433a18cd.c:153:9: error: expected declaration or statement at end of input

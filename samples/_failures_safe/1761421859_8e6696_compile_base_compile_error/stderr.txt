@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_c4c9c3ec.c: In function ‘read_string’:
+./samples/SAFE/__tmp_c4c9c3ec.c:159:13: error: expected expression at end of input
+  159 |             strncpy(token->value, lexer->input + start + 1,
+      |             ^~~~~~~
+./samples/SAFE/__tmp_c4c9c3ec.c:159:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c4c9c3ec.c:159:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c4c9c3ec.c:159:13: error: expected declaration or statement at end of input

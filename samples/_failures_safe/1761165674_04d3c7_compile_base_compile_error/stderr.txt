@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_244c75b6.c: In function ‘main’:
+./samples/SAFE/__tmp_244c75b6.c:158:5: error: expected declaration or statement at end of input
+  158 |     add_edge(&graph, 0, 1, 4);
+      |     ^~~~~~~~

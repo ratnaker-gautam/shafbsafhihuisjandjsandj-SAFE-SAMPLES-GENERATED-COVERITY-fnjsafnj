@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccTitR09.o: in function `main':
+__tmp_daf0391a.c:(.text.startup+0x1e2): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

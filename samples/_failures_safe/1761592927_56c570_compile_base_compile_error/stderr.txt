@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e20eae0c.c: In function ‘print_compression_info’:
+./samples/SAFE/__tmp_e20eae0c.c:164:16: error: expected identifier at end of input
+  164 |                i, block->block_offset, block->block_size, block->
+      |                ^
+./samples/SAFE/__tmp_e20eae0c.c:164:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e20eae0c.c:164:16: error: expected declaration or statement at end of input

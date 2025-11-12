@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_a5859636.c: In function ‘bfs_traversal’:
+./samples/SAFE/__tmp_a5859636.c:142:31: error: expected ‘]’ at end of input
+  142 |                     queue[rear
+      |                               ^
+      |                               ]
+./samples/SAFE/__tmp_a5859636.c:142:21: error: expected declaration or statement at end of input
+  142 |                     queue[rear
+      |                     ^~~~~
+./samples/SAFE/__tmp_a5859636.c:142:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a5859636.c:142:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a5859636.c:142:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a5859636.c:142:21: error: expected declaration or statement at end of input

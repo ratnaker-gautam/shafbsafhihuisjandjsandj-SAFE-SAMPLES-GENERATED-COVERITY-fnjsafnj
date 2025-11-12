@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c4eb302b.c: In function ‘main’:
+./samples/SAFE/__tmp_c4eb302b.c:133:5: error: expected declaration or statement at end of input
+  133 |     if (mat1.cols == mat2.rows) {
+      |     ^~
+./samples/SAFE/__tmp_c4eb302b.c:133:5: error: expected declaration or statement at end of input

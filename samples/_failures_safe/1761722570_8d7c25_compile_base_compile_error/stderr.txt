@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d470370e.c: In function ‘main’:
+./samples/SAFE/__tmp_d470370e.c:149:5: error: expected expression at end of input
+  149 |     int choice = read_int("Select operation (1-4): ", 1,
+      |     ^~~
+./samples/SAFE/__tmp_d470370e.c:149:5: error: expected declaration or statement at end of input

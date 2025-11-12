@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_52796310.c: In function ‘main’:
+./samples/SAFE/__tmp_52796310.c:172:26: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  172 |     print_tokens(tokens, token
+      |                          ^~~~~
+      |                          Token
+./samples/SAFE/__tmp_52796310.c:172:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_52796310.c:172:31: error: expected ‘)’ at end of input
+  172 |     print_tokens(tokens, token
+      |                 ~             ^
+      |                               )
+./samples/SAFE/__tmp_52796310.c:172:5: error: expected declaration or statement at end of input
+  172 |     print_tokens(tokens, token
+      |     ^~~~~~~~~~~~

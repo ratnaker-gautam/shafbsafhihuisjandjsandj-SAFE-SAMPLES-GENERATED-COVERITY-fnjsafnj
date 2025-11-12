@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_be03ec73.c: In function ‘main’:
+./samples/SAFE/__tmp_be03ec73.c:155:9: error: expected expression at end of input
+  155 |         if (sscanf(buffer, "%d %d %d", &src, &dest, &weight) != 3)
+      |         ^~
+./samples/SAFE/__tmp_be03ec73.c:155:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_be03ec73.c:155:9: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_a3f3fe0a.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_a3f3fe0a.c:129:21: error: ‘severity’ undeclared (first use in this function); did you mean ‘severity_name’?
+  129 |             case 1: severity
+      |                     ^~~~~~~~
+      |                     severity_name
+./samples/SAFE/__tmp_a3f3fe0a.c:129:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a3f3fe0a.c:129:29: error: expected ‘;’ at end of input
+  129 |             case 1: severity
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_a3f3fe0a.c:129:13: error: expected declaration or statement at end of input
+  129 |             case 1: severity
+      |             ^~~~
+./samples/SAFE/__tmp_a3f3fe0a.c:129:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a3f3fe0a.c:129:13: error: expected declaration or statement at end of input

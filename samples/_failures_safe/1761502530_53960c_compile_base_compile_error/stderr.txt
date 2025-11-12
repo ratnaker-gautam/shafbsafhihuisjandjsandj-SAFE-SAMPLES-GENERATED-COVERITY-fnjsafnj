@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_8de18c7d.c: In function ‘execute_operation’:
+./samples/SAFE/__tmp_8de18c7d.c:141:25: error: missing terminating " character
+  141 |         fprintf(stderr, "Invalid operation parameters\n
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8de18c7d.c:141:9: error: expected expression at end of input
+  141 |         fprintf(stderr, "Invalid operation parameters\n
+      |         ^~~~~~~
+./samples/SAFE/__tmp_8de18c7d.c:141:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8de18c7d.c:141:9: error: expected declaration or statement at end of input

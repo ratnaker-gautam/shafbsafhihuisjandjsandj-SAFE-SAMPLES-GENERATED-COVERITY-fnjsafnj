@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f0f37e48.c: In function ‘write_compressed_data’:
+./samples/SAFE/__tmp_f0f37e48.c:187:32: error: expected ‘;’ at end of input
+  187 |         current = current->next
+      |                                ^
+      |                                ;
+./samples/SAFE/__tmp_f0f37e48.c:187:9: error: expected declaration or statement at end of input
+  187 |         current = current->next
+      |         ^~~~~~~
+./samples/SAFE/__tmp_f0f37e48.c:187:9: error: expected declaration or statement at end of input

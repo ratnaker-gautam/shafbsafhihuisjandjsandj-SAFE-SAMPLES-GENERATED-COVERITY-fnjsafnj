@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7aa0e0e5.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_7aa0e0e5.c:158:29: error: expected ‘)’ at end of input
+  158 |         if (op == TOKEN_PLUS
+      |            ~                ^
+      |                             )
+./samples/SAFE/__tmp_7aa0e0e5.c:158:9: error: expected declaration or statement at end of input
+  158 |         if (op == TOKEN_PLUS
+      |         ^~
+./samples/SAFE/__tmp_7aa0e0e5.c:158:9: error: expected declaration or statement at end of input

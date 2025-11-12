@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f0581be6.c: In function ‘print_menu’:
+./samples/SAFE/__tmp_f0581be6.c:155:11: error: expected ‘;’ at end of input
+  155 |     printf
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_f0581be6.c:155:5: error: expected declaration or statement at end of input
+  155 |     printf
+      |     ^~~~~~

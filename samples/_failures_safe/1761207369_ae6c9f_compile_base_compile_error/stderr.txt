@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9d0bc3ae.c: In function ‘process_event’:
+./samples/SAFE/__tmp_9d0bc3ae.c:181:5: error: expected expression at end of input
+  181 |     if (sm->current_state < 0 || sm->current_state >=
+      |     ^~
+./samples/SAFE/__tmp_9d0bc3ae.c:181:5: error: expected declaration or statement at end of input

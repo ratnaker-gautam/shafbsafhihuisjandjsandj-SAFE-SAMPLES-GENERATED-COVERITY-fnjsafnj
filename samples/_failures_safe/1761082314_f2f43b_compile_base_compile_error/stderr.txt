@@ -1,0 +1,23 @@
+./samples/SAFE/__tmp_2e48bbb8.c: In function ‘main’:
+./samples/SAFE/__tmp_2e48bbb8.c:161:28: error: expected ‘)’ at end of input
+  161 |         memcmp(decompressed
+      |               ~            ^
+      |                            )
+./samples/SAFE/__tmp_2e48bbb8.c:161:16: error: incompatible type for argument 1 of ‘memcmp’
+  161 |         memcmp(decompressed
+      |                ^~~~~~~~~~~~
+      |                |
+      |                Buffer
+In file included from ./samples/SAFE/__tmp_2e48bbb8.c:4:
+/usr/include/string.h:64:32: note: expected ‘const void *’ but argument is of type ‘Buffer’
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |                    ~~~~~~~~~~~~^~~~
+./samples/SAFE/__tmp_2e48bbb8.c:161:9: error: too few arguments to function ‘memcmp’
+  161 |         memcmp(decompressed
+      |         ^~~~~~
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_2e48bbb8.c:161:9: error: expected declaration or statement at end of input
+  161 |         memcmp(decompressed
+      |         ^~~~~~

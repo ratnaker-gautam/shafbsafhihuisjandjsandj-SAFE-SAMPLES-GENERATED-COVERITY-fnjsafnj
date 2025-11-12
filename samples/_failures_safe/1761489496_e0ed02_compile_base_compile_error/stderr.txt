@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_1a2bfa75.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_1a2bfa75.c:155:57: error: expected ‘]’ at end of input
+  155 |                     long new_dist = (long)dist[min_index
+      |                                                         ^
+      |                                                         ]
+./samples/SAFE/__tmp_1a2bfa75.c:155:21: error: expected declaration or statement at end of input
+  155 |                     long new_dist = (long)dist[min_index
+      |                     ^~~~
+./samples/SAFE/__tmp_1a2bfa75.c:155:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1a2bfa75.c:155:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1a2bfa75.c:155:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1a2bfa75.c:155:21: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_9f5cefaa.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_9f5cefaa.c:169:45: error: expected ‘;’ at end of input
+  169 |         tokens[token_count].type = TOKEN_EOF
+      |                                             ^
+      |                                             ;
+./samples/SAFE/__tmp_9f5cefaa.c:169:9: error: expected declaration or statement at end of input
+  169 |         tokens[token_count].type = TOKEN_EOF
+      |         ^~~~~~
+./samples/SAFE/__tmp_9f5cefaa.c:169:9: error: expected declaration or statement at end of input

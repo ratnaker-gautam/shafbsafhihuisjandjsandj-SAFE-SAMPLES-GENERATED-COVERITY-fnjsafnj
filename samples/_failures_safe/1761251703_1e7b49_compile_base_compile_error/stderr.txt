@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_38f2e15d.c: In function ‘main’:
+./samples/SAFE/__tmp_38f2e15d.c:144:19: error: ‘mat’ undeclared (first use in this function); did you mean ‘matB’?
+  144 |     matrix_input(&mat
+      |                   ^~~
+      |                   matB
+./samples/SAFE/__tmp_38f2e15d.c:144:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_38f2e15d.c:144:22: error: expected ‘)’ at end of input
+  144 |     matrix_input(&mat
+      |                 ~    ^
+      |                      )
+./samples/SAFE/__tmp_38f2e15d.c:144:5: error: too few arguments to function ‘matrix_input’
+  144 |     matrix_input(&mat
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_38f2e15d.c:55:6: note: declared here
+   55 | void matrix_input(Matrix* mat, const char* name) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_38f2e15d.c:144:5: error: expected declaration or statement at end of input
+  144 |     matrix_input(&mat
+      |     ^~~~~~~~~~~~

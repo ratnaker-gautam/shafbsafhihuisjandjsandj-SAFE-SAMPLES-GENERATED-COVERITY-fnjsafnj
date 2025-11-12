@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1f5fcc1e.c: In function ‘rotation_matrix_z’:
+./samples/SAFE/__tmp_1f5fcc1e.c:115:5: error: expected declaration or statement at end of input
+  115 |     result.elements[1][0] = s;   result.elements[1][1] = c;   result.elements[1][2] = 0.0;
+      |     ^~~~~~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_bfa5e743.c: In function ‘read_input_data’:
+./samples/SAFE/__tmp_bfa5e743.c:135:28: error: expected declaration or statement at end of input
+  135 | int read_input_data(struct StateMachine *sm) {
+      |                            ^~~~~~~~~~~~

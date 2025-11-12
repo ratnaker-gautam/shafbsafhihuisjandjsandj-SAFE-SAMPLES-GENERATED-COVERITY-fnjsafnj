@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_fc750688.c: In function ‘tokenize_input’:
+./samples/SAFE/__tmp_fc750688.c:149:57: error: expected declaration or statement at end of input
+  149 | int tokenize_input(struct TokenizerState *state, struct Parser *parser) {
+      |                                                         ^~~~~~

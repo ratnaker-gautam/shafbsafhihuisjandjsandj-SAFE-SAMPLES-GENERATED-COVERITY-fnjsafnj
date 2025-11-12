@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_8150a5ab.c:169:1: error: expected ‘{’ at end of input
+  169 | void print_token_type(enum
+      | ^~~~

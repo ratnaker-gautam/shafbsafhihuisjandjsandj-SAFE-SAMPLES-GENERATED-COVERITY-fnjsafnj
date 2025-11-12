@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f072d351.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_f072d351.c:179:22: error: expected ‘;’ at end of input
+  179 |     init_parse_result
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_f072d351.c:179:5: error: expected declaration or statement at end of input
+  179 |     init_parse_result
+      |     ^~~~~~~~~~~~~~~~~

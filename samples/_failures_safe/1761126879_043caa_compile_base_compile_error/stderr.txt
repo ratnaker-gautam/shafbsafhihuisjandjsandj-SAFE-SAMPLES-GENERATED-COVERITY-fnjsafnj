@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_afa7425f.c: In function ‘main’:
+./samples/SAFE/__tmp_afa7425f.c:165:5: error: expected expression at end of input
+  165 |     graph.edges[
+      |     ^~~~~
+./samples/SAFE/__tmp_afa7425f.c:165:5: error: expected declaration or statement at end of input

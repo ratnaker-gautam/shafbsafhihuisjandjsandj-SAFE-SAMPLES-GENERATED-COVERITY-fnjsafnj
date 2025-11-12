@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_623e928f.c: In function ‘main’:
+./samples/SAFE/__tmp_623e928f.c:117:5: error: expected declaration or statement at end of input
+  117 |     printf("Enter 'END' on a separate line to finish input\n");
+      |     ^~~~~~

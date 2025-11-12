@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_54953ff1.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_54953ff1.c:161:28: error: expected ‘;’ at end of input
+  161 |     start_node->visited = 1
+      |                            ^
+      |                            ;
+./samples/SAFE/__tmp_54953ff1.c:161:5: error: expected declaration or statement at end of input
+  161 |     start_node->visited = 1
+      |     ^~~~~~~~~~

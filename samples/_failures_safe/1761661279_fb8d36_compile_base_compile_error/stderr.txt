@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_2f92ee6f.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_2f92ee6f.c:165: error: expected ‘{’ at end of input

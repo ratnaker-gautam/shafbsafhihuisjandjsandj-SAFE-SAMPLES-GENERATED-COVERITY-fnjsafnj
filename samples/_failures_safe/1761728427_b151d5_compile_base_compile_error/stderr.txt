@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_deece028.c: In function ‘main’:
+./samples/SAFE/__tmp_deece028.c:156:35: error: expected ‘)’ at end of input
+  156 |     if (!buffer_init(&decompressed
+      |                     ~             ^
+      |                                   )
+./samples/SAFE/__tmp_deece028.c:156:10: error: too few arguments to function ‘buffer_init’
+  156 |     if (!buffer_init(&decompressed
+      |          ^~~~~~~~~~~
+./samples/SAFE/__tmp_deece028.c:17:5: note: declared here
+   17 | int buffer_init(Buffer *buf, size_t initial_capacity) {
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_deece028.c:156:5: error: expected declaration or statement at end of input
+  156 |     if (!buffer_init(&decompressed
+      |     ^~

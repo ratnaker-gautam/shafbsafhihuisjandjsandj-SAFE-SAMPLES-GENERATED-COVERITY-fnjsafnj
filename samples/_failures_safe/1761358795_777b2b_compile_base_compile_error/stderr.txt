@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_c5dc11cd.c: In function ‘main’:
+./samples/SAFE/__tmp_c5dc11cd.c:126:54: error: ‘most’ undeclared (first use in this function)
+  126 |     find_most_frequent_message(entries, entry_count, most
+      |                                                      ^~~~
+./samples/SAFE/__tmp_c5dc11cd.c:126:54: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c5dc11cd.c:126:58: error: expected ‘)’ at end of input
+  126 |     find_most_frequent_message(entries, entry_count, most
+      |                               ~                          ^
+      |                                                          )
+./samples/SAFE/__tmp_c5dc11cd.c:126:5: error: too few arguments to function ‘find_most_frequent_message’
+  126 |     find_most_frequent_message(entries, entry_count, most
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c5dc11cd.c:56:6: note: declared here
+   56 | void find_most_frequent_message(struct LogEntry* entries, int count, char* most_freq_msg, int* max_count) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c5dc11cd.c:126:5: error: expected declaration or statement at end of input
+  126 |     find_most_frequent_message(entries, entry_count, most
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_bcc4049c.c: In function ‘main’:
+./samples/SAFE/__tmp_bcc4049c.c:150:43: error: ‘most_f’ undeclared (first use in this function)
+  150 |     printf("Most frequent message: %s\n", most_f
+      |                                           ^~~~~~
+./samples/SAFE/__tmp_bcc4049c.c:150:43: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bcc4049c.c:150:49: error: expected ‘)’ at end of input
+  150 |     printf("Most frequent message: %s\n", most_f
+      |           ~                                     ^
+      |                                                 )
+./samples/SAFE/__tmp_bcc4049c.c:150:5: error: expected declaration or statement at end of input
+  150 |     printf("Most frequent message: %s\n", most_f
+      |     ^~~~~~

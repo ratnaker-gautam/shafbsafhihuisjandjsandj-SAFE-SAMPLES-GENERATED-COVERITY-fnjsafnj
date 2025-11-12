@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_7708842c.c: In function ‘main’:
+./samples/SAFE/__tmp_7708842c.c:145:33: error: expected ‘)’ at end of input
+  145 |                 if (add_matrices
+      |                    ~            ^
+      |                                 )
+./samples/SAFE/__tmp_7708842c.c:145:17: error: expected declaration or statement at end of input
+  145 |                 if (add_matrices
+      |                 ^~
+./samples/SAFE/__tmp_7708842c.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7708842c.c:145:17: error: expected declaration or statement at end of input

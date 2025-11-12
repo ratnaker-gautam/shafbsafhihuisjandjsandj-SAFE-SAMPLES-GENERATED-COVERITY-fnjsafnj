@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_c5a720f8.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_c5a720f8.c:186:13: error: expected expression at end of input
+  186 |             if (graph->edges[i]->source == current && !
+      |             ^~
+./samples/SAFE/__tmp_c5a720f8.c:186:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c5a720f8.c:186:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c5a720f8.c:186:13: error: expected declaration or statement at end of input

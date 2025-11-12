@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_58b799d7.c: In function ‘main’:
+./samples/SAFE/__tmp_58b799d7.c:170:28: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  170 |     for (size_t i = 0; i < token
+      |                            ^~~~~
+      |                            Token
+./samples/SAFE/__tmp_58b799d7.c:170:28: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_58b799d7.c:170:33: error: expected ‘;’ at end of input
+  170 |     for (size_t i = 0; i < token
+      |                                 ^
+      |                                 ;
+./samples/SAFE/__tmp_58b799d7.c:170:5: error: expected declaration or statement at end of input
+  170 |     for (size_t i = 0; i < token
+      |     ^~~

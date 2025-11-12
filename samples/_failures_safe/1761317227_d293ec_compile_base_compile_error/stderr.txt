@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c9120cbf.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_c9120cbf.c:127:9: error: expected identifier at end of input
+  127 |         double error_percentage = (double)analyzer->
+      |         ^~~~~~
+./samples/SAFE/__tmp_c9120cbf.c:127:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c9120cbf.c:127:9: error: expected declaration or statement at end of input

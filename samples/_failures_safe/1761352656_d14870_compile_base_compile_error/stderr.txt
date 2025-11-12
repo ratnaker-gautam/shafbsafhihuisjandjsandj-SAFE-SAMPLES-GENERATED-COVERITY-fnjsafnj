@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_dcb39ca4.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_dcb39ca4.c:124:43: error: expected ‘)’ at end of input
+  124 |     printf("Errors: %u\n", analyzer->stats
+      |           ~                               ^
+      |                                           )
+./samples/SAFE/__tmp_dcb39ca4.c:124:5: error: expected declaration or statement at end of input
+  124 |     printf("Errors: %u\n", analyzer->stats
+      |     ^~~~~~

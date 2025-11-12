@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_59385f4c.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_59385f4c.c:158:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  158 |     MinHeap* heap
+      |     ^~~~~~~
+./samples/SAFE/__tmp_59385f4c.c:158:5: error: expected declaration or statement at end of input

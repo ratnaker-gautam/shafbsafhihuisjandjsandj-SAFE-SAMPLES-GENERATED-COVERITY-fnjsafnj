@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_e9e8bf0f.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_e9e8bf0f.c:178:20: error: ‘is’ undeclared (first use in this function)
+  178 |         } else if (is
+      |                    ^~
+./samples/SAFE/__tmp_e9e8bf0f.c:178:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e9e8bf0f.c:178:22: error: expected ‘)’ at end of input
+  178 |         } else if (is
+      |                   ~  ^
+      |                      )
+./samples/SAFE/__tmp_e9e8bf0f.c:178:9: error: expected declaration or statement at end of input
+  178 |         } else if (is
+      |         ^
+./samples/SAFE/__tmp_e9e8bf0f.c:178:9: error: expected declaration or statement at end of input

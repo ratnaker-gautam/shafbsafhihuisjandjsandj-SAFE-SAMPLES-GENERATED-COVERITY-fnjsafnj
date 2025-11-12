@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_550e18a8.c: In function ‘main’:
+./samples/SAFE/__tmp_550e18a8.c:192:5: error: expected declaration or statement at end of input
+  192 |     initialize_context(&ctx);
+      |     ^~~~~~~~~~~~~~~~~~

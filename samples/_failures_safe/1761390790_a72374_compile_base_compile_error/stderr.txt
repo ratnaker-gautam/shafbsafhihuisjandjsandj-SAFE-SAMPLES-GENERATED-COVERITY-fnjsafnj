@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_706181ec.c: In function ‘main’:
+./samples/SAFE/__tmp_706181ec.c:155:5: error: expected declaration or statement at end of input
+  155 |     add_transition(sm, state_ids[1], state_ids[2], event_ids[1]);
+      |     ^~~~~~~~~~~~~~

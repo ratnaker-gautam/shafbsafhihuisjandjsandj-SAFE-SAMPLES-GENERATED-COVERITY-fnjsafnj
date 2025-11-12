@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d214e706.c: In function ‘main’:
+./samples/SAFE/__tmp_d214e706.c:135:16: error: ‘MAT’ undeclared (first use in this function)
+  135 |     Matrix b = MAT
+      |                ^~~
+./samples/SAFE/__tmp_d214e706.c:135:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d214e706.c:135:5: error: expected ‘,’ or ‘;’ at end of input
+  135 |     Matrix b = MAT
+      |     ^~~~~~
+./samples/SAFE/__tmp_d214e706.c:135:5: error: expected declaration or statement at end of input

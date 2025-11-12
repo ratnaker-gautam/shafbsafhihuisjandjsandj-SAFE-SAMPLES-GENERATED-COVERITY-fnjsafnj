@@ -1,0 +1,15 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==205077==ERROR: AddressSanitizer: SEGV on unknown address 0x000096a58007 (pc 0x56693fcac492 bp 0x7ffd75094720 sp 0x7ffd750946c0 T0)
+==205077==The signal is caused by a READ memory access.
+    #0 0x56693fcac492 in dfs_traversal samples/SAFE/__tmp_ce512c41.c:41
+    #1 0x56693fcad8b0 in execute_operation samples/SAFE/__tmp_ce512c41.c:81
+    #2 0x56693fcadfe1 in main samples/SAFE/__tmp_ce512c41.c:138
+    #3 0x789cb742a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x789cb742a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x56693fcac304 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_ce512c41.c.san+0x4304) (BuildId: e9271ecad69ec8c1e718c38cf4874e9048b402c3)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV samples/SAFE/__tmp_ce512c41.c:41 in dfs_traversal
+==205077==ABORTING

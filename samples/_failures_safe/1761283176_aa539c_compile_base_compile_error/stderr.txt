@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_6788ef13.c: In function ‘main’:
+./samples/SAFE/__tmp_6788ef13.c:171:50: error: ‘STATE_P’ undeclared (first use in this function); did you mean ‘STATE_IDLE’?
+  171 |     if (sm.state == STATE_READING || sm.state == STATE_P
+      |                                                  ^~~~~~~
+      |                                                  STATE_IDLE
+./samples/SAFE/__tmp_6788ef13.c:171:50: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6788ef13.c:171:57: error: expected ‘)’ at end of input
+  171 |     if (sm.state == STATE_READING || sm.state == STATE_P
+      |        ~                                                ^
+      |                                                         )
+./samples/SAFE/__tmp_6788ef13.c:171:5: error: expected declaration or statement at end of input
+  171 |     if (sm.state == STATE_READING || sm.state == STATE_P
+      |     ^~

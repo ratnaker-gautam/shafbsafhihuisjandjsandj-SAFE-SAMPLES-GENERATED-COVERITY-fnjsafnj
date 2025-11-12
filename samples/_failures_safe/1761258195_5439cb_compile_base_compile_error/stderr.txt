@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e01dee89.c: In function ‘main’:
+./samples/SAFE/__tmp_e01dee89.c:143:5: error: expected declaration or statement at end of input
+  143 |     floyd_warshall(&g);
+      |     ^~~~~~~~~~~~~~

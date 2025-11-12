@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccPiTPOM.o: in function `create_rotation_matrix':
+__tmp_92f59b0d.c:(.text+0x35): undefined reference to `sincos'
+collect2: error: ld returned 1 exit status

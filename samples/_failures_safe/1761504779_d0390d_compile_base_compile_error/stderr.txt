@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_aafc0592.c: In function ‘main’:
+./samples/SAFE/__tmp_aafc0592.c:142:64: error: expected ‘)’ at end of input
+  142 |         if (filter_level == -1 || logs[i].level == filter_level
+      |            ~                                                   ^
+      |                                                                )
+./samples/SAFE/__tmp_aafc0592.c:142:9: error: expected declaration or statement at end of input
+  142 |         if (filter_level == -1 || logs[i].level == filter_level
+      |         ^~
+./samples/SAFE/__tmp_aafc0592.c:142:9: error: expected declaration or statement at end of input

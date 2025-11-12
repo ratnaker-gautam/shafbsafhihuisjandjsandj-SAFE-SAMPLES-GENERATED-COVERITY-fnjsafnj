@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f2702c7e.c:2:2: error: expected ‘;’ before ‘typedef’
+    2 | c
+      |  ^
+      |  ;
+./samples/SAFE/__tmp_f2702c7e.c: In function ‘main’:
+./samples/SAFE/__tmp_f2702c7e.c:159:9: error: expected expression at end of input
+  159 |         for (int node = 0; node < g.node_count && node < 3; node++)
+      |         ^~~
+./samples/SAFE/__tmp_f2702c7e.c:159:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f2702c7e.c:159:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2c95ba41.c: In function ‘main’:
+./samples/SAFE/__tmp_2c95ba41.c:162:5: error: expected expression at end of input
+  162 |     if (unique_count ==
+      |     ^~
+./samples/SAFE/__tmp_2c95ba41.c:162:5: error: expected declaration or statement at end of input

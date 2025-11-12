@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_5a9243e8.c: In function ‘print_token’:
+./samples/SAFE/__tmp_5a9243e8.c:170: error: expected ‘{’ at end of input

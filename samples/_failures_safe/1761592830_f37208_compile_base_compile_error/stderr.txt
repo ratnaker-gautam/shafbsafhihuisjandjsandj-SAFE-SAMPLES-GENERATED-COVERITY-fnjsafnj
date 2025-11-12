@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_30d1fca5.c: In function ‘read_matrix_from_input’:
+./samples/SAFE/__tmp_30d1fca5.c:139:36: error: expected ‘)’ at end of input
+  139 |             if (scanf("%lf", &value
+      |                      ~             ^
+      |                                    )
+./samples/SAFE/__tmp_30d1fca5.c:139:13: error: expected declaration or statement at end of input
+  139 |             if (scanf("%lf", &value
+      |             ^~
+./samples/SAFE/__tmp_30d1fca5.c:139:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_30d1fca5.c:139:13: error: expected declaration or statement at end of input

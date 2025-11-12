@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_6c840367.c: In function ‘main’:
+./samples/SAFE/__tmp_6c840367.c:180:34: error: ‘STATE_D’ undeclared (first use in this function); did you mean ‘STATE_DONE’?
+  180 |         if (ctx.current_state == STATE_D
+      |                                  ^~~~~~~
+      |                                  STATE_DONE
+./samples/SAFE/__tmp_6c840367.c:180:34: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6c840367.c:180:41: error: expected ‘)’ at end of input
+  180 |         if (ctx.current_state == STATE_D
+      |            ~                            ^
+      |                                         )
+./samples/SAFE/__tmp_6c840367.c:180:9: error: expected declaration or statement at end of input
+  180 |         if (ctx.current_state == STATE_D
+      |         ^~
+./samples/SAFE/__tmp_6c840367.c:180:9: error: expected declaration or statement at end of input

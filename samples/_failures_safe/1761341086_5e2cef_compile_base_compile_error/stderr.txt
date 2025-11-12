@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_469c6759.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_469c6759.c:180:49: error: expected ‘)’ at end of input
+  180 |             printf("Vertex %d: unreachable\n", i
+      |                   ~                             ^
+      |                                                 )
+./samples/SAFE/__tmp_469c6759.c:180:13: error: expected declaration or statement at end of input
+  180 |             printf("Vertex %d: unreachable\n", i
+      |             ^~~~~~
+./samples/SAFE/__tmp_469c6759.c:180:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_469c6759.c:180:13: error: expected declaration or statement at end of input

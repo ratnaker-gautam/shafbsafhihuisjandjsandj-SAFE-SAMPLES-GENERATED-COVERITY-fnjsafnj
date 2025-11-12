@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_b21d04ac.c: In function ‘read_matrix’:
+./samples/SAFE/__tmp_b21d04ac.c:137:13: error: expected expression at end of input
+  137 |             snprintf(prompt,
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_b21d04ac.c:137:13: error: too few arguments to function ‘snprintf’
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_b21d04ac.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:51:1: note: declared here
+   51 | __NTH (snprintf (char *__restrict __s, size_t __n,
+      | ^~~~~
+./samples/SAFE/__tmp_b21d04ac.c:137:13: error: expected declaration or statement at end of input
+  137 |             snprintf(prompt,
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_b21d04ac.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b21d04ac.c:137:13: error: expected declaration or statement at end of input

@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_795109b0.c: In function ‘main’:
+./samples/SAFE/__tmp_795109b0.c:179:37: error: expected ‘)’ at end of input
+  179 |                token_type_name(token
+      |                               ~     ^
+      |                                     )
+./samples/SAFE/__tmp_795109b0.c:179:32: error: incompatible type for argument 1 of ‘token_type_name’
+  179 |                token_type_name(token
+      |                                ^~~~~
+      |                                |
+      |                                struct Token
+./samples/SAFE/__tmp_795109b0.c:134:44: note: expected ‘enum TokenType’ but argument is of type ‘struct Token’
+  134 | const char* token_type_name(enum TokenType type) {
+      |                             ~~~~~~~~~~~~~~~^~~~
+./samples/SAFE/__tmp_795109b0.c:179:16: error: expected declaration or statement at end of input
+  179 |                token_type_name(token
+      |                ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_795109b0.c:179:16: error: expected declaration or statement at end of input

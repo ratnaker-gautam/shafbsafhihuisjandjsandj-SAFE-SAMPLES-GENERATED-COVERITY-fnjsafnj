@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9c7a6668.c: In function ‘main’:
+./samples/SAFE/__tmp_9c7a6668.c:145:17: error: expected declaration or statement at end of input
+  145 |                 printf("RLE");
+      |                 ^~~~~~
+./samples/SAFE/__tmp_9c7a6668.c:145:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9c7a6668.c:145:17: error: expected declaration or statement at end of input

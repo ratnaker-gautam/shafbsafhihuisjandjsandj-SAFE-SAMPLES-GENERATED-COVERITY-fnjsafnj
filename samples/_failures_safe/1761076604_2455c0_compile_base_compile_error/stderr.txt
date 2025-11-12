@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_33481904.c: In function ‘main’:
+./samples/SAFE/__tmp_33481904.c:142:24: error: expected ‘)’ at end of input
+  142 |         if (choice == 4
+      |            ~           ^
+      |                        )
+./samples/SAFE/__tmp_33481904.c:142:9: error: expected declaration or statement at end of input
+  142 |         if (choice == 4
+      |         ^~
+./samples/SAFE/__tmp_33481904.c:142:9: error: expected declaration or statement at end of input

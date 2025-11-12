@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_2d663010.c: In function ‘process_compression’:
+./samples/SAFE/__tmp_2d663010.c:178:16: error: missing terminating " character
+  178 |         printf("Decompression verified:
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2d663010.c:178:9: error: expected expression at end of input
+  178 |         printf("Decompression verified:
+      |         ^~~~~~
+./samples/SAFE/__tmp_2d663010.c:178:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2d663010.c:178:9: error: expected declaration or statement at end of input

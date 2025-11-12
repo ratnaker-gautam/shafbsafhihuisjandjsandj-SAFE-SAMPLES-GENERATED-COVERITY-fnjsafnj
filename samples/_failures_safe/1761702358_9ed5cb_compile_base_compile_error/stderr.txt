@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_aea449ce.c: In function ‘print_entries_by_level’:
+./samples/SAFE/__tmp_aea449ce.c:132:9: error: expected expression at end of input
+  132 |         if (strcmp(entry->level, level) == 0)
+      |         ^~
+./samples/SAFE/__tmp_aea449ce.c:132:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_aea449ce.c:132:9: error: expected declaration or statement at end of input

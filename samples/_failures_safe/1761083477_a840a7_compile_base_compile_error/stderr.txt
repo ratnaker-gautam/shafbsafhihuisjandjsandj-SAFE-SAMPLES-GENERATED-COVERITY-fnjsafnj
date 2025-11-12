@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_cb4565c8.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_cb4565c8.c:153:18: error: expected ‘)’ at end of input
+  153 |         if (lexer
+      |            ~     ^
+      |                  )
+./samples/SAFE/__tmp_cb4565c8.c:153:9: error: expected declaration or statement at end of input
+  153 |         if (lexer
+      |         ^~
+./samples/SAFE/__tmp_cb4565c8.c:153:9: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_cac64c99.c: In function ‘topologicalSortUtil’:
+./samples/SAFE/__tmp_cac64c99.c:141:36: error: expected ‘]’ at end of input
+  141 |         if (graph->matrix[vertex][i
+      |                                    ^
+      |                                    ]
+./samples/SAFE/__tmp_cac64c99.c:141:9: error: expected declaration or statement at end of input
+  141 |         if (graph->matrix[vertex][i
+      |         ^~
+./samples/SAFE/__tmp_cac64c99.c:141:9: error: expected declaration or statement at end of input

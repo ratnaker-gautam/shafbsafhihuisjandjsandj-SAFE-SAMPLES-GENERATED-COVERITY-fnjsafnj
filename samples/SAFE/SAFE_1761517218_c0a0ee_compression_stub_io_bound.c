@@ -1,0 +1,96 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: io_bound ; Variation: compression_stub
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_INPUT_SIZE 1048576
+#define CHUNK_SIZE 1024
+
+typedef struct {
+    uint8_t data[MAX_INPUT_SIZE];
+    size_t size;
+} Buffer;
+
+int read_input(Buffer *buf) {
+    size_t total_read = 0;
+    uint8_t chunk[CHUNK_SIZE];
+    
+    while (total_read < MAX_INPUT_SIZE) {
+        size_t bytes_read = fread(chunk, 1, CHUNK_SIZE, stdin);
+        if (bytes_read == 0) {
+            if (feof(stdin)) break;
+            return 0;
+        }
+        
+        if (total_read + bytes_read > MAX_INPUT_SIZE) {
+            return 0;
+        }
+        
+        memcpy(buf->data + total_read, chunk, bytes_read);
+        total_read += bytes_read;
+    }
+    
+    buf->size = total_read;
+    return 1;
+}
+
+int compress_rle(const Buffer *input, Buffer *output) {
+    if (input->size == 0) {
+        output->size = 0;
+        return 1;
+    }
+    
+    size_t out_idx = 0;
+    size_t in_idx = 0;
+    
+    while (in_idx < input->size && out_idx < MAX_INPUT_SIZE - 2) {
+        uint8_t current = input->data[in_idx];
+        size_t count = 1;
+        
+        while (in_idx + count < input->size && 
+               count < UINT8_MAX && 
+               input->data[in_idx + count] == current) {
+            count++;
+        }
+        
+        if (out_idx + 2 > MAX_INPUT_SIZE) {
+            return 0;
+        }
+        
+        output->data[out_idx++] = (uint8_t)count;
+        output->data[out_idx++] = current;
+        in_idx += count;
+    }
+    
+    output->size = out_idx;
+    return 1;
+}
+
+int main(void) {
+    Buffer input, output;
+    
+    if (!read_input(&input)) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    if (input.size == 0) {
+        fprintf(stderr, "No input data\n");
+        return 1;
+    }
+    
+    if (!compress_rle(&input, &output)) {
+        fprintf(stderr, "Compression failed\n");
+        return 1;
+    }
+    
+    size_t written = fwrite(output.data, 1, output.size, stdout);
+    if (written != output.size) {
+        fprintf(stderr, "Error writing output\n");
+        return 1;
+    }
+    
+    return 0;
+}

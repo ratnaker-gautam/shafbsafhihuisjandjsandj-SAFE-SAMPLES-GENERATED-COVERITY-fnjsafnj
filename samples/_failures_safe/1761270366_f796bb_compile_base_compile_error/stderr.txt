@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_281ba71c.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_281ba71c.c:129:5: error: expected expression at end of input
+  129 |     if (!matrix_init(result, a->cols, a->rows))
+      |     ^~
+./samples/SAFE/__tmp_281ba71c.c:129:5: error: expected declaration or statement at end of input

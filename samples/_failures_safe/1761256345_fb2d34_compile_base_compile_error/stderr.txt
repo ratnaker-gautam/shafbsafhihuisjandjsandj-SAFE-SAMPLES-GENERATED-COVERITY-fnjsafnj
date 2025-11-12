@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_51c418b5.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_51c418b5.c:152:5: error: expected declaration or statement at end of input
+  152 |     heap->size = V;
+      |     ^~~~

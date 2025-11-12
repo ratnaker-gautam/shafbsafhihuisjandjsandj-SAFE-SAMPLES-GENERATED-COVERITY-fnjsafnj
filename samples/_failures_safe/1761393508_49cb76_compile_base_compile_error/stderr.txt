@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9bf832a9.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_9bf832a9.c:149:5: error: expected declaration or statement at end of input
+  149 |     printf("Errors: %u\n", analyzer->stats.error_count);
+      |     ^~~~~~

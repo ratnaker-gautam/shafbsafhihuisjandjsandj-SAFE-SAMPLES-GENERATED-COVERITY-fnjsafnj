@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_b7d60dcc.c: In function ‘main’:
+./samples/SAFE/__tmp_b7d60dcc.c:159:9: error: ‘trans’ undeclared (first use in this function)
+  159 |     if (trans
+      |         ^~~~~
+./samples/SAFE/__tmp_b7d60dcc.c:159:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b7d60dcc.c:159:14: error: expected ‘)’ at end of input
+  159 |     if (trans
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_b7d60dcc.c:159:5: error: expected declaration or statement at end of input
+  159 |     if (trans
+      |     ^~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_cf363fdb.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_cf363fdb.c:174:20: error: expected ‘;’ at end of input
+  174 |             strncpy
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_cf363fdb.c:174:13: error: expected declaration or statement at end of input
+  174 |             strncpy
+      |             ^~~~~~~
+./samples/SAFE/__tmp_cf363fdb.c:174:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cf363fdb.c:174:13: error: expected declaration or statement at end of input

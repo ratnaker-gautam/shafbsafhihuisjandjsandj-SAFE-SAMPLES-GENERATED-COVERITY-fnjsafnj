@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_4b0868be.c: In function ‘main’:
+./samples/SAFE/__tmp_4b0868be.c:140:13: error: expected expression at end of input
+  140 |             if (!add_log_entry(&
+      |             ^~
+./samples/SAFE/__tmp_4b0868be.c:140:18: error: too few arguments to function ‘add_log_entry’
+  140 |             if (!add_log_entry(&
+      |                  ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_4b0868be.c:86:5: note: declared here
+   86 | int add_log_entry(LogCollection* collection, const LogEntry* entry) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_4b0868be.c:140:13: error: expected declaration or statement at end of input
+  140 |             if (!add_log_entry(&
+      |             ^~
+./samples/SAFE/__tmp_4b0868be.c:140:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4b0868be.c:140:13: error: expected declaration or statement at end of input

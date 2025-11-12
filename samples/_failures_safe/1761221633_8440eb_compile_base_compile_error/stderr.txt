@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_71c27b40.c: In function ‘main’:
+./samples/SAFE/__tmp_71c27b40.c:169:5: error: expected expression at end of input
+  169 |     add_edge(&graph, 4,
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_71c27b40.c:169:5: error: too few arguments to function ‘add_edge’
+./samples/SAFE/__tmp_71c27b40.c:35:6: note: declared here
+   35 | void add_edge(Graph* g, int from, int to, int weight) {
+      |      ^~~~~~~~
+./samples/SAFE/__tmp_71c27b40.c:169:5: error: expected declaration or statement at end of input
+  169 |     add_edge(&graph, 4,
+      |     ^~~~~~~~

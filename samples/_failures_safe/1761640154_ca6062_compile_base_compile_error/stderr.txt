@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b3aecf29.c: In function ‘main’:
+./samples/SAFE/__tmp_b3aecf29.c:168:21: error: expected ‘;’ at end of input
+  168 |     print_buffer_hex
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_b3aecf29.c:168:5: error: expected declaration or statement at end of input
+  168 |     print_buffer_hex
+      |     ^~~~~~~~~~~~~~~~

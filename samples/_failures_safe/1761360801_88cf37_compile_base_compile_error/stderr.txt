@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_408047ae.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_408047ae.c:160:16: error: expected declaration or statement at end of input
+  160 |         struct Token token;
+      |                ^~~~~
+./samples/SAFE/__tmp_408047ae.c:160:16: error: expected declaration or statement at end of input

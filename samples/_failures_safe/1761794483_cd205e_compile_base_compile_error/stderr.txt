@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_7dd9d184.c:90:1: error: expected expression at end of input
+   90 | const size_t num_transitions = sizeof
+      | ^~~~~

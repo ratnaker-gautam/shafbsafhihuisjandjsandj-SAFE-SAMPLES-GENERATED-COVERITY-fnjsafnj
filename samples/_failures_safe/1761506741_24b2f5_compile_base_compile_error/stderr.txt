@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1ccc4391.c: In function ‘main’:
+./samples/SAFE/__tmp_1ccc4391.c:120: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_1ccc4391.c:119:25: note: to match this ‘{’
+  119 |     Buffer compressed = {0
+      |                         ^
+./samples/SAFE/__tmp_1ccc4391.c:119:5: error: expected declaration or statement at end of input
+  119 |     Buffer compressed = {0
+      |     ^~~~~~

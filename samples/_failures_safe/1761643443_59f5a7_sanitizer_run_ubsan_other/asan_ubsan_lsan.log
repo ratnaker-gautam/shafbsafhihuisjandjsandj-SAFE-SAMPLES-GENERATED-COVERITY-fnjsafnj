@@ -1,0 +1,7 @@
+
+samples/SAFE/__tmp_5b089e43.c:68:17: runtime error: variable length array bound evaluates to non-positive value -1
+    #0 0x576f699c0de6 in main samples/SAFE/__tmp_5b089e43.c:68
+    #1 0x712025c2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #2 0x712025c2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x576f699c0364 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_5b089e43.c.san+0x5364) (BuildId: 8c2c948aa3a9c4e21187364688c25d12580981aa)
+

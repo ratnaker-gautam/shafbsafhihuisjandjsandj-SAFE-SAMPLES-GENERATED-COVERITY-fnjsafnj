@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9a2237e5.c: In function ‘main’:
+./samples/SAFE/__tmp_9a2237e5.c:129:35: error: ‘comp’ undeclared (first use in this function)
+  129 |     memset(&compressed, 0, sizeof(comp
+      |                                   ^~~~
+./samples/SAFE/__tmp_9a2237e5.c:129:35: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9a2237e5.c:129:39: error: expected ‘)’ at end of input
+  129 |     memset(&compressed, 0, sizeof(comp
+      |                                  ~    ^
+      |                                       )
+./samples/SAFE/__tmp_9a2237e5.c:129:5: error: expected declaration or statement at end of input
+  129 |     memset(&compressed, 0, sizeof(comp
+      |     ^~~~~~

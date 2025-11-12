@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_0f612dc3.c: In function ‘main’:
+./samples/SAFE/__tmp_0f612dc3.c:172:16: error: ‘state’ undeclared (first use in this function); did you mean ‘State’?
+  172 |                state
+      |                ^~~~~
+      |                State
+./samples/SAFE/__tmp_0f612dc3.c:172:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0f612dc3.c:172:21: error: expected ‘)’ at end of input
+  172 |                state
+      |                     ^
+      |                     )
+./samples/SAFE/__tmp_0f612dc3.c:171:15: note: to match this ‘(’
+  171 |         printf("Current state: %s, Processing event type: %d\n",
+      |               ^
+./samples/SAFE/__tmp_0f612dc3.c:172:16: error: expected declaration or statement at end of input
+  172 |                state
+      |                ^~~~~
+./samples/SAFE/__tmp_0f612dc3.c:172:16: error: expected declaration or statement at end of input

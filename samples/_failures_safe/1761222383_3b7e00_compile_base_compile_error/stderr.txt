@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_caaf859b.c: In function ‘main’:
+./samples/SAFE/__tmp_caaf859b.c:125:35: error: expected ‘)’ at end of input
+  125 |     if (!validate_input(temp_input
+      |                        ~          ^
+      |                                   )
+./samples/SAFE/__tmp_caaf859b.c:125:10: error: too few arguments to function ‘validate_input’
+  125 |     if (!validate_input(temp_input
+      |          ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_caaf859b.c:19:12: note: declared here
+   19 | static int validate_input(const char* input, size_t len) {
+      |            ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_caaf859b.c:125:5: error: expected declaration or statement at end of input
+  125 |     if (!validate_input(temp_input
+      |     ^~

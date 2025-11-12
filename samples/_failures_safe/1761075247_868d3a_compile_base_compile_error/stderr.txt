@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8d3223d6.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_8d3223d6.c:145:10: error: expected ‘)’ at end of input
+  145 |     if (a
+      |        ~ ^
+      |          )
+./samples/SAFE/__tmp_8d3223d6.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (a
+      |     ^~

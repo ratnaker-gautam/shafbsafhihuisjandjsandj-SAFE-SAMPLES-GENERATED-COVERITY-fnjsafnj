@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_49b1d36f.c: In function ‘main’:
+./samples/SAFE/__tmp_49b1d36f.c:131:19: error: expected ‘)’ at end of input
+  131 |     if (count == 0
+      |        ~          ^
+      |                   )
+./samples/SAFE/__tmp_49b1d36f.c:131:5: error: expected declaration or statement at end of input
+  131 |     if (count == 0
+      |     ^~

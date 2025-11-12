@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_66fa90cb.c: In function ‘main’:
+./samples/SAFE/__tmp_66fa90cb.c:168:9: error: expected declaration or statement at end of input
+  168 |         default: comp_type = COMP_NONE;
+      |         ^~~~~~~
+./samples/SAFE/__tmp_66fa90cb.c:168:9: error: expected declaration or statement at end of input

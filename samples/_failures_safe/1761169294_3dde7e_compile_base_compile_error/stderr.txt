@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_309332f6.c:170:1: error: expected declaration specifiers or ‘...’ at end of input
+  170 | void print_token_type(
+      | ^~~~

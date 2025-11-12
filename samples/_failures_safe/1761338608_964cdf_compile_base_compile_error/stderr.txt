@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_cab6a708.c: In function ‘main’:
+./samples/SAFE/__tmp_cab6a708.c:169: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_cab6a708.c:167:31: note: to match this ‘{’
+  167 |     TokenHandler handlers[] = {
+      |                               ^
+./samples/SAFE/__tmp_cab6a708.c:168:9: error: expected declaration or statement at end of input
+  168 |         handle_number
+      |         ^~~~~~~~~~~~~

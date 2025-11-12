@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8fd2f3e7.c: In function ‘get_user_event’:
+./samples/SAFE/__tmp_8fd2f3e7.c:170:5: error: expected expression at end of input
+  170 |     if (fgets(input, sizeof(input), stdin) ==
+      |     ^~
+./samples/SAFE/__tmp_8fd2f3e7.c:170:5: error: expected declaration or statement at end of input

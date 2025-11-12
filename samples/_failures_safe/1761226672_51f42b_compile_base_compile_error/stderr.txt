@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_b5dc6ef4.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_b5dc6ef4.c:177:28: error: ‘lex’ undeclared (first use in this function); did you mean ‘lexer’?
+  177 |         return read_string(lex
+      |                            ^~~
+      |                            lexer
+./samples/SAFE/__tmp_b5dc6ef4.c:177:28: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b5dc6ef4.c:177:31: error: expected ‘)’ at end of input
+  177 |         return read_string(lex
+      |                           ~   ^
+      |                               )
+./samples/SAFE/__tmp_b5dc6ef4.c:177:16: error: too few arguments to function ‘read_string’
+  177 |         return read_string(lex
+      |                ^~~~~~~~~~~
+./samples/SAFE/__tmp_b5dc6ef4.c:64:5: note: declared here
+   64 | int read_string(Lexer *lexer, Token *token) {
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_b5dc6ef4.c:177:9: error: expected declaration or statement at end of input
+  177 |         return read_string(lex
+      |         ^~~~~~
+./samples/SAFE/__tmp_b5dc6ef4.c:177:9: error: expected declaration or statement at end of input

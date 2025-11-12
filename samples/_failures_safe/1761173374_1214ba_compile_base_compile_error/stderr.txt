@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_d30f43fe.c: In function ‘main’:
+./samples/SAFE/__tmp_d30f43fe.c:157:61: error: expected ‘)’ at end of input
+  157 |                     filter_level < LOG_DEBUG || filter_level
+      |                                                             ^
+      |                                                             )
+./samples/SAFE/__tmp_d30f43fe.c:156:20: note: to match this ‘(’
+  156 |                 if (scanf("%d", (int*)&filter_level) != 1 ||
+      |                    ^
+./samples/SAFE/__tmp_d30f43fe.c:157:21: error: expected declaration or statement at end of input
+  157 |                     filter_level < LOG_DEBUG || filter_level
+      |                     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_d30f43fe.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d30f43fe.c:157:21: error: expected declaration or statement at end of input

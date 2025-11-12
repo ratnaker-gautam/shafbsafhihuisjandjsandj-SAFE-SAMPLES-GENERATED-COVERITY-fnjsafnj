@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_87dbdee3.c: In function ‘main’:
+./samples/SAFE/__tmp_87dbdee3.c:174:5: error: expected declaration or statement at end of input
+  174 |     free_matrix(result);
+      |     ^~~~~~~~~~~

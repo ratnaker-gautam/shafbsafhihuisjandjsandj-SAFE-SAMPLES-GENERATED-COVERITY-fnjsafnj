@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1c81ab89.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_1c81ab89.c:180:26: error: expected ‘)’ at end of input
+  180 |     graph_reset_visited(g
+      |                        ~ ^
+      |                          )
+./samples/SAFE/__tmp_1c81ab89.c:180:5: error: expected declaration or statement at end of input
+  180 |     graph_reset_visited(g
+      |     ^~~~~~~~~~~~~~~~~~~

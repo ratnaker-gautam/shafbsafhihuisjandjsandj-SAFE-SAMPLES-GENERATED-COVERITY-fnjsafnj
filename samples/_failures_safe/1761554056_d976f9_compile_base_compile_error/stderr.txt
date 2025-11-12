@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_466d0af7.c: In function ‘handle_error_state’:
+./samples/SAFE/__tmp_466d0af7.c:153:9: error: ‘initialize_m’ undeclared (first use in this function); did you mean ‘initialize_machine’?
+  153 |         initialize_m
+      |         ^~~~~~~~~~~~
+      |         initialize_machine
+./samples/SAFE/__tmp_466d0af7.c:153:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_466d0af7.c:153:21: error: expected ‘;’ at end of input
+  153 |         initialize_m
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_466d0af7.c:153:9: error: expected declaration or statement at end of input
+  153 |         initialize_m
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_466d0af7.c:153:9: error: expected declaration or statement at end of input

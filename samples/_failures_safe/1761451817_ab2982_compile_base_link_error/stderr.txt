@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cc45jEEE.o: in function `main':
+__tmp_33ebe93a.c:(.text.startup+0x168): undefined reference to `sin'
+collect2: error: ld returned 1 exit status

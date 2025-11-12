@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_4d5139ee.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_4d5139ee.c:185:41: error: expected ‘)’ at end of input
+  185 |             printf("Vertex %d: INF\n", i
+      |                   ~                     ^
+      |                                         )
+./samples/SAFE/__tmp_4d5139ee.c:185:13: error: expected declaration or statement at end of input
+  185 |             printf("Vertex %d: INF\n", i
+      |             ^~~~~~
+./samples/SAFE/__tmp_4d5139ee.c:185:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4d5139ee.c:185:13: error: expected declaration or statement at end of input

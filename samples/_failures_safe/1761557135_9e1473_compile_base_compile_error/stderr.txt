@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_edab63b6.c: In function ‘main’:
+./samples/SAFE/__tmp_edab63b6.c:148:9: error: expected declaration or statement at end of input
+  148 |         printf("\nHighest severity level found: %s\n", level_to_string(highest_level));
+      |         ^~~~~~
+./samples/SAFE/__tmp_edab63b6.c:148:9: error: expected declaration or statement at end of input

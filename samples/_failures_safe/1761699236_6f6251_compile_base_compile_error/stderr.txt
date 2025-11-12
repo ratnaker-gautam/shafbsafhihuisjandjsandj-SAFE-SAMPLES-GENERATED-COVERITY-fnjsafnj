@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_cc895a11.c: In function ‘handle_reading’:
+./samples/SAFE/__tmp_cc895a11.c:173:20: error: ‘STATE_READ’ undeclared (first use in this function); did you mean ‘STATE_READING’?
+  173 |             return STATE_READ
+      |                    ^~~~~~~~~~
+      |                    STATE_READING
+./samples/SAFE/__tmp_cc895a11.c:173:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cc895a11.c:173:30: error: expected ‘;’ at end of input
+  173 |             return STATE_READ
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_cc895a11.c:173:13: error: expected declaration or statement at end of input
+  173 |             return STATE_READ
+      |             ^~~~~~
+./samples/SAFE/__tmp_cc895a11.c:173:13: error: expected declaration or statement at end of input

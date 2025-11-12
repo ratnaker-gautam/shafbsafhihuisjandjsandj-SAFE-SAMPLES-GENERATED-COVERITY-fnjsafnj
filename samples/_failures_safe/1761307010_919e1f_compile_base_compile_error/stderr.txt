@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_240575fe.c: In function ‘main’:
+./samples/SAFE/__tmp_240575fe.c:171:5: error: expected expression at end of input
+  171 |     if (len > 0 &&
+      |     ^~
+./samples/SAFE/__tmp_240575fe.c:171:5: error: expected declaration or statement at end of input

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_6ea35d2a.c: In function ‘main’:
+./samples/SAFE/__tmp_6ea35d2a.c:127:69: error: expected ‘)’ at end of input
+  127 |                 matrix_subtract(rows, cols, matrix1, matrix2, result
+      |                                ~                                    ^
+      |                                                                     )
+./samples/SAFE/__tmp_6ea35d2a.c:127:17: error: expected declaration or statement at end of input
+  127 |                 matrix_subtract(rows, cols, matrix1, matrix2, result
+      |                 ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6ea35d2a.c:127:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6ea35d2a.c:127:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6ea35d2a.c:127:17: error: expected declaration or statement at end of input

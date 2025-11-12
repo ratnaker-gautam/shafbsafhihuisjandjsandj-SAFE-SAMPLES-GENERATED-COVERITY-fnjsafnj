@@ -1,0 +1,121 @@
+//DeepSeek-V3 SAFE v1.3 Category: Safe ; Style: io_bound ; Variation: string_processing
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdlib.h>
+
+#define MAX_INPUT_LEN 1024
+#define MAX_WORD_LEN 64
+
+int main() {
+    char input[MAX_INPUT_LEN + 1];
+    char words[MAX_INPUT_LEN / 2][MAX_WORD_LEN + 1];
+    int word_count = 0;
+    int i, j, k;
+    
+    printf("Enter text (max %d characters): ", MAX_INPUT_LEN);
+    
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    size_t len = strlen(input);
+    if (len > 0 && input[len - 1] == '\n') {
+        input[len - 1] = '\0';
+        len--;
+    }
+    
+    if (len == 0) {
+        printf("No input provided\n");
+        return 0;
+    }
+    
+    if (len > MAX_INPUT_LEN) {
+        fprintf(stderr, "Input too long\n");
+        return 1;
+    }
+    
+    i = 0;
+    while (i < len && word_count < (MAX_INPUT_LEN / 2)) {
+        while (i < len && isspace((unsigned char)input[i])) {
+            i++;
+        }
+        
+        if (i >= len) {
+            break;
+        }
+        
+        j = 0;
+        while (i < len && j < MAX_WORD_LEN && !isspace((unsigned char)input[i])) {
+            words[word_count][j] = input[i];
+            j++;
+            i++;
+        }
+        
+        if (j > 0) {
+            words[word_count][j] = '\0';
+            word_count++;
+        }
+    }
+    
+    printf("\nWords found (%d):\n", word_count);
+    for (i = 0; i < word_count; i++) {
+        printf("%d: %s\n", i + 1, words[i]);
+    }
+    
+    printf("\nProcessing words...\n");
+    for (i = 0; i < word_count; i++) {
+        size_t word_len = strlen(words[i]);
+        int vowel_count = 0;
+        int consonant_count = 0;
+        
+        for (j = 0; j < word_len; j++) {
+            char c = tolower((unsigned char)words[i][j]);
+            if (c >= 'a' && c <= 'z') {
+                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                    vowel_count++;
+                } else {
+                    consonant_count++;
+                }
+            }
+        }
+        
+        printf("Word '%s': %d vowels, %d consonants", words[i], vowel_count, consonant_count);
+        
+        if (word_len > 0) {
+            char temp[MAX_WORD_LEN + 1];
+            strncpy(temp, words[i], sizeof(temp) - 1);
+            temp[sizeof(temp) - 1] = '\0';
+            
+            for (j = 0, k = word_len - 1; j < k; j++, k--) {
+                char swap = temp[j];
+                temp[j] = temp[k];
+                temp[k] = swap;
+            }
+            printf(", reversed: %s", temp);
+        }
+        printf("\n");
+    }
+    
+    printf("\nWord frequency analysis:\n");
+    for (i = 0; i < word_count; i++) {
+        int count = 1;
+        if (words[i][0] == '\0') {
+            continue;
+        }
+        
+        for (j = i + 1; j < word_count; j++) {
+            if (strcmp(words[i], words[j]) == 0) {
+                count++;
+                words[j][0] = '\0';
+            }
+        }
+        
+        if (count > 0) {
+            printf("'%s' appears %d time(s)\n", words[i], count);
+        }
+    }
+    
+    return 0;
+}

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6122139a.c: In function ‘state_to_string’:
+./samples/SAFE/__tmp_6122139a.c:154:9: error: expected declaration or statement at end of input
+  154 |         default: return "UNKNOWN";
+      |         ^~~~~~~
+./samples/SAFE/__tmp_6122139a.c:154:9: error: expected declaration or statement at end of input

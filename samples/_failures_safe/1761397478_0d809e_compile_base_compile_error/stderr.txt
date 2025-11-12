@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccJb4Yxu.o: in function `main':
+__tmp_8c3201d7.c:(.text.startup+0x180): undefined reference to `atan'
+collect2: error: ld returned 1 exit status

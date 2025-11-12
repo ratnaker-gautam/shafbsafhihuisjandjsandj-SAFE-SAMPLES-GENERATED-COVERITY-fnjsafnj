@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccep4Fb9.o: in function `main':
+__tmp_783936d7.c:(.text.startup+0x1c7): undefined reference to `log'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d64146dd.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_d64146dd.c:167:9: error: expected ‘,’ or ‘;’ at end of input
+  167 |         int current_index = -1
+      |         ^~~
+./samples/SAFE/__tmp_d64146dd.c:167:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d64146dd.c:167:9: error: expected declaration or statement at end of input

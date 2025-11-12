@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_55c372ec.c: In function ‘main’:
+./samples/SAFE/__tmp_55c372ec.c:153:14: error: expected ‘)’ at end of input
+  153 |     if (scanf
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_55c372ec.c:153:5: error: expected declaration or statement at end of input
+  153 |     if (scanf
+      |     ^~

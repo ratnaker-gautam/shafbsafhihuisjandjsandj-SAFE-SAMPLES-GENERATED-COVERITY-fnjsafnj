@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1dc020cf.c: In function ‘main’:
+./samples/SAFE/__tmp_1dc020cf.c:151:5: error: expected declaration or statement at end of input
+  151 |     printf("ERROR: %d\n", level_counts[3]);
+      |     ^~~~~~

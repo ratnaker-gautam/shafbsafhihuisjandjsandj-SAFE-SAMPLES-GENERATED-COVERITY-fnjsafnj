@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2742f0cd.c: In function ‘main’:
+./samples/SAFE/__tmp_2742f0cd.c:153:9: error: expected declaration or statement at end of input
+  153 |         if (level_counts[level] > 0) {
+      |         ^~
+./samples/SAFE/__tmp_2742f0cd.c:153:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2742f0cd.c:153:9: error: expected declaration or statement at end of input

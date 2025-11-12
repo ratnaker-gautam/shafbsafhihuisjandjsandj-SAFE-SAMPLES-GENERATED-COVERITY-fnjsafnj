@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b6ed1779.c: In function ‘matrix_determinant_helper’:
+./samples/SAFE/__tmp_b6ed1779.c:147:5: error: expected declaration or statement at end of input
+  147 |     submat.cols = n - 1;
+      |     ^~~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c0f02aa1.c: In function ‘main’:
+./samples/SAFE/__tmp_c0f02aa1.c:142: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_c0f02aa1.c:141:5: error: expected declaration or statement at end of input
+  141 |     for
+      |     ^~~

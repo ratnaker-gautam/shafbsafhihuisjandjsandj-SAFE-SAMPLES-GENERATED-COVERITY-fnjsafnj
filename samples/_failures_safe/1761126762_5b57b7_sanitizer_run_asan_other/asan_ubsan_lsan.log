@@ -1,0 +1,16 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==7521==ERROR: AddressSanitizer: SEGV on unknown address (pc 0x5a6a270219a8 bp 0x7fffcd20fc60 sp 0x7fffcd20fb40 T0)
+==7521==The signal is caused by a READ memory access.
+==7521==Hint: this fault was caused by a dereference of a high value address (see register values below).  Disassemble the provided pc to learn which register was used.
+    #0 0x5a6a270219a8 in process_word samples/SAFE/__tmp_f031d29e.c:45
+    #1 0x5a6a27022556 in tokenize_and_count samples/SAFE/__tmp_f031d29e.c:82
+    #2 0x5a6a27022bda in main samples/SAFE/__tmp_f031d29e.c:119
+    #3 0x744189a2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x744189a2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x5a6a27021404 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_f031d29e.c.san+0x4404) (BuildId: a632bdf27f9d0430e2d64d15d56ec6aaf6c91c64)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV samples/SAFE/__tmp_f031d29e.c:45 in process_word
+==7521==ABORTING

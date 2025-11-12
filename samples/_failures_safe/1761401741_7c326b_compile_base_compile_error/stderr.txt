@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_309786d3.c: In function ‘execute_operation’:
+./samples/SAFE/__tmp_309786d3.c:144:19: error: ‘param’ undeclared (first use in this function); did you mean ‘param2’?
+  144 |     op(g, param1, param
+      |                   ^~~~~
+      |                   param2
+./samples/SAFE/__tmp_309786d3.c:144:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_309786d3.c:144:24: error: expected ‘)’ at end of input
+  144 |     op(g, param1, param
+      |       ~                ^
+      |                        )
+./samples/SAFE/__tmp_309786d3.c:144:5: error: expected declaration or statement at end of input
+  144 |     op(g, param1, param
+      |     ^~

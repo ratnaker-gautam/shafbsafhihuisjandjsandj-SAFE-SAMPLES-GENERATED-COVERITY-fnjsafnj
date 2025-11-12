@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d3f37abe.c: In function ‘main’:
+./samples/SAFE/__tmp_d3f37abe.c:137:37: error: expected ‘)’ at end of input
+  137 |         for (int i = 0; i < rows1; i
+      |             ~                       ^
+      |                                     )
+./samples/SAFE/__tmp_d3f37abe.c:137:9: error: expected declaration or statement at end of input
+  137 |         for (int i = 0; i < rows1; i
+      |         ^~~
+./samples/SAFE/__tmp_d3f37abe.c:137:9: error: expected declaration or statement at end of input

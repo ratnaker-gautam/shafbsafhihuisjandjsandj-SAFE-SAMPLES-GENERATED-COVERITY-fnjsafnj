@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccSYpEsX.o: in function `main':
+__tmp_94f07e73.c:(.text.startup+0x1db): undefined reference to `log'
+collect2: error: ld returned 1 exit status

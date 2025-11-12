@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9b860361.c: In function ‘main’:
+./samples/SAFE/__tmp_9b860361.c:135:15: error: ‘MAX_L’ undeclared (first use in this function)
+  135 |     char line[MAX_L
+      |               ^~~~~
+./samples/SAFE/__tmp_9b860361.c:135:15: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9b860361.c:135:20: error: expected ‘]’ at end of input
+  135 |     char line[MAX_L
+      |                    ^
+      |                    ]
+./samples/SAFE/__tmp_9b860361.c:135:5: error: expected declaration or statement at end of input
+  135 |     char line[MAX_L
+      |     ^~~~

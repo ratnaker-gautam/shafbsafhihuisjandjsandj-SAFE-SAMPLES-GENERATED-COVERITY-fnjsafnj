@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b50d07c6.c: In function ‘main’:
+./samples/SAFE/__tmp_b50d07c6.c:138:12: error: missing terminating " character
+  138 |     printf("\nOriginal
+      |            ^~~~~~~~~~~
+./samples/SAFE/__tmp_b50d07c6.c:138:5: error: expected expression at end of input
+  138 |     printf("\nOriginal
+      |     ^~~~~~
+./samples/SAFE/__tmp_b50d07c6.c:138:5: error: expected declaration or statement at end of input

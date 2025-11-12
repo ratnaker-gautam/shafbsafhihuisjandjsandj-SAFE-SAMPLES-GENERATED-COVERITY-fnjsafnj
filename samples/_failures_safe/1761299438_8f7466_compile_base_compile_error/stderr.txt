@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_383ea2df.c: In function ‘main’:
+./samples/SAFE/__tmp_383ea2df.c:166:5: error: expected declaration or statement at end of input
+  166 |     int node_e = add_node(&g, "E");
+      |     ^~~

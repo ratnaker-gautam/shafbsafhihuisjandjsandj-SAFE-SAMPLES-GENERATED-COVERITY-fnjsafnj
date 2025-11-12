@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_dd015eac.c: In function ‘freeGraph’:
+./samples/SAFE/__tmp_dd015eac.c:185:23: error: expected declaration or statement at end of input
+  185 | void freeGraph(struct Graph* graph) {
+      |                       ^~~~~

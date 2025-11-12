@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_e29dbac3.c: In function ‘main’:
+./samples/SAFE/__tmp_e29dbac3.c:156:15: error: ‘str’ undeclared (first use in this function)
+  156 |         input[str
+      |               ^~~
+./samples/SAFE/__tmp_e29dbac3.c:156:15: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e29dbac3.c:156:18: error: expected ‘]’ at end of input
+  156 |         input[str
+      |                  ^
+      |                  ]
+./samples/SAFE/__tmp_e29dbac3.c:156:9: error: expected declaration or statement at end of input
+  156 |         input[str
+      |         ^~~~~
+./samples/SAFE/__tmp_e29dbac3.c:156:9: error: expected declaration or statement at end of input

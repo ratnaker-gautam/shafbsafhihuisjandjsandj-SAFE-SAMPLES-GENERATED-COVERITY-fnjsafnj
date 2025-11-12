@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1609eb3e.c: In function ‘token_type_name’:
+./samples/SAFE/__tmp_1609eb3e.c:141:9: error: expected ‘:’ or ‘...’ at end of input
+  141 |         case TOKEN_EOF
+      |         ^~~~
+./samples/SAFE/__tmp_1609eb3e.c:141:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1609eb3e.c:141:9: error: expected declaration or statement at end of input

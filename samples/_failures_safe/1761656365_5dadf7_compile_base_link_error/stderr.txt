@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccPyKEWj.o: in function `compute_exponential':
+__tmp_a00204df.c:(.text+0x16d): undefined reference to `exp'
+/usr/bin/ld: /tmp/ccPyKEWj.o: in function `main':
+__tmp_a00204df.c:(.text.startup+0xea): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

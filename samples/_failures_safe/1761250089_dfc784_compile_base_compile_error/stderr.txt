@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_fd039630.c: In function ‘parse_input’:
+./samples/SAFE/__tmp_fd039630.c:162:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  162 |         Token token
+      |         ^~~~~
+./samples/SAFE/__tmp_fd039630.c:162:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fd039630.c:162:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5e0492fd.c: In function ‘main’:
+./samples/SAFE/__tmp_5e0492fd.c:176:5: error: expected expression at end of input
+  176 |     state_machine_init(&
+      |     ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5e0492fd.c:176:5: error: expected declaration or statement at end of input

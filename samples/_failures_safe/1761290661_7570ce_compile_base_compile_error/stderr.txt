@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_43c22a13.c:141:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  141 | void display_entries_by
+      | ^~~~

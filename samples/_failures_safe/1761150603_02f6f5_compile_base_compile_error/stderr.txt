@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_1868fda3.c: In function ‘main’:
+./samples/SAFE/__tmp_1868fda3.c:157:10: error: ‘append_to_comp’ undeclared (first use in this function)
+  157 |     if (!append_to_comp
+      |          ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1868fda3.c:157:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1868fda3.c:157:24: error: expected ‘)’ at end of input
+  157 |     if (!append_to_comp
+      |        ~               ^
+      |                        )
+./samples/SAFE/__tmp_1868fda3.c:157:5: error: expected declaration or statement at end of input
+  157 |     if (!append_to_comp
+      |     ^~

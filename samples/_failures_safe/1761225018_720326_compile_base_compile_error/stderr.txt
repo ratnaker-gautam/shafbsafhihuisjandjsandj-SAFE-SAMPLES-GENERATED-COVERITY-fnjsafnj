@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_81b72848.c: In function ‘main’:
+./samples/SAFE/__tmp_81b72848.c:173:5: error: expected ‘,’ or ‘;’ at end of input
+  173 |     int token_count = 0
+      |     ^~~
+./samples/SAFE/__tmp_81b72848.c:173:5: error: expected declaration or statement at end of input

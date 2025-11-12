@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_feecc61e.c: In function ‘main’:
+./samples/SAFE/__tmp_feecc61e.c:156:5: error: expected declaration or statement at end of input
+  156 |     printf("\nFiltered Log Entries:\n");
+      |     ^~~~~~

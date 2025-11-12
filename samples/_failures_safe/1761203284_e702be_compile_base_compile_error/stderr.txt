@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9e5a0840.c: In function ‘compute_bounds’:
+./samples/SAFE/__tmp_9e5a0840.c:114:29: error: expected ‘]’ at end of input
+  114 |         if (mesh->vertices[i
+      |                             ^
+      |                             ]
+./samples/SAFE/__tmp_9e5a0840.c:114:13: error: used struct type value where scalar is required
+  114 |         if (mesh->vertices[i
+      |             ^~~~
+./samples/SAFE/__tmp_9e5a0840.c:114:9: error: expected declaration or statement at end of input
+  114 |         if (mesh->vertices[i
+      |         ^~
+./samples/SAFE/__tmp_9e5a0840.c:114:9: error: expected declaration or statement at end of input

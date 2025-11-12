@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_25771785.c: In function ‘find_maximum_flow’:
+./samples/SAFE/__tmp_25771785.c:146:13: error: expected declaration or statement at end of input
+  146 |             for (int v = 0; v < g->node_count; v++) {
+      |             ^~~
+./samples/SAFE/__tmp_25771785.c:146:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_25771785.c:146:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_25771785.c:146:13: error: expected declaration or statement at end of input

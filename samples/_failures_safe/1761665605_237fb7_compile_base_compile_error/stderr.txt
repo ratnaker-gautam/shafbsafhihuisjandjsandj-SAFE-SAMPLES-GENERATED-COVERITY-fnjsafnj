@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_607de19e.c: In function ‘main’:
+./samples/SAFE/__tmp_607de19e.c:159:32: error: ‘Matrix’ has no member named ‘col’; did you mean ‘cols’?
+  159 |             result.cols = mat1.col
+      |                                ^~~
+      |                                cols
+./samples/SAFE/__tmp_607de19e.c:159:35: error: expected ‘;’ at end of input
+  159 |             result.cols = mat1.col
+      |                                   ^
+      |                                   ;
+./samples/SAFE/__tmp_607de19e.c:159:13: error: expected declaration or statement at end of input
+  159 |             result.cols = mat1.col
+      |             ^~~~~~
+./samples/SAFE/__tmp_607de19e.c:159:13: error: expected declaration or statement at end of input

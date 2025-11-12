@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_6a0d2a5f.c:2:2: error: expected ‘;’ before ‘typedef’
+    2 | c
+      |  ^
+      |  ;
+./samples/SAFE/__tmp_6a0d2a5f.c: In function ‘main’:
+./samples/SAFE/__tmp_6a0d2a5f.c:161:17: error: expected expression at end of input
+  161 |                 int status = add_matrices(&
+      |                 ^~~
+./samples/SAFE/__tmp_6a0d2a5f.c:161:30: error: too few arguments to function ‘add_matrices’
+  161 |                 int status = add_matrices(&
+      |                              ^~~~~~~~~~~~
+./samples/SAFE/__tmp_6a0d2a5f.c:103:5: note: declared here
+  103 | int add_matrices(const Matrix* a, const Matrix* b, Matrix* result) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_6a0d2a5f.c:161:17: error: expected declaration or statement at end of input
+  161 |                 int status = add_matrices(&
+      |                 ^~~
+./samples/SAFE/__tmp_6a0d2a5f.c:161:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6a0d2a5f.c:161:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6a0d2a5f.c:161:17: error: expected declaration or statement at end of input

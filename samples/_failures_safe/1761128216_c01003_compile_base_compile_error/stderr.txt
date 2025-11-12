@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a8649bc0.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_a8649bc0.c:143: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_a8649bc0.c:142:8: note: to match this ‘(’
+  142 |     if (analyzer == NULL
+      |        ^
+./samples/SAFE/__tmp_a8649bc0.c:142:5: error: expected declaration or statement at end of input
+  142 |     if (analyzer == NULL
+      |     ^~

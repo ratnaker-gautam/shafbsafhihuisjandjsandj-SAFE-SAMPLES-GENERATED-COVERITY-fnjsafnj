@@ -1,0 +1,110 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: io_bound ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+enum State {
+    INIT,
+    READ_COMMAND,
+    PROCESS_NUMBER,
+    DISPLAY_RESULT,
+    ERROR_STATE,
+    EXIT_STATE
+};
+
+struct Context {
+    enum State current_state;
+    int number;
+    int result;
+    char buffer[64];
+};
+
+void state_init(struct Context *ctx) {
+    ctx->current_state = READ_COMMAND;
+    ctx->number = 0;
+    ctx->result = 0;
+    memset(ctx->buffer, 0, sizeof(ctx->buffer));
+}
+
+void state_read_command(struct Context *ctx) {
+    printf("Enter command (number, reset, exit): ");
+    if (fgets(ctx->buffer, sizeof(ctx->buffer), stdin) == NULL) {
+        ctx->current_state = ERROR_STATE;
+        return;
+    }
+    
+    size_t len = strlen(ctx->buffer);
+    if (len > 0 && ctx->buffer[len - 1] == '\n') {
+        ctx->buffer[len - 1] = '\0';
+    }
+    
+    if (strcmp(ctx->buffer, "exit") == 0) {
+        ctx->current_state = EXIT_STATE;
+    } else if (strcmp(ctx->buffer, "reset") == 0) {
+        ctx->current_state = INIT;
+    } else {
+        ctx->current_state = PROCESS_NUMBER;
+    }
+}
+
+void state_process_number(struct Context *ctx) {
+    char *endptr;
+    long num = strtol(ctx->buffer, &endptr, 10);
+    
+    if (endptr == ctx->buffer || *endptr != '\0') {
+        printf("Invalid input: not a number\n");
+        ctx->current_state = ERROR_STATE;
+        return;
+    }
+    
+    if (num < -1000 || num > 1000) {
+        printf("Number out of range (-1000 to 1000)\n");
+        ctx->current_state = ERROR_STATE;
+        return;
+    }
+    
+    ctx->number = (int)num;
+    ctx->result = ctx->number * ctx->number;
+    ctx->current_state = DISPLAY_RESULT;
+}
+
+void state_display_result(struct Context *ctx) {
+    printf("Square of %d is %d\n", ctx->number, ctx->result);
+    ctx->current_state = READ_COMMAND;
+}
+
+void state_error(struct Context *ctx) {
+    printf("Error occurred. Resetting...\n");
+    ctx->current_state = INIT;
+}
+
+int main(void) {
+    struct Context ctx;
+    state_init(&ctx);
+    
+    while (ctx.current_state != EXIT_STATE) {
+        switch (ctx.current_state) {
+            case INIT:
+                state_init(&ctx);
+                break;
+            case READ_COMMAND:
+                state_read_command(&ctx);
+                break;
+            case PROCESS_NUMBER:
+                state_process_number(&ctx);
+                break;
+            case DISPLAY_RESULT:
+                state_display_result(&ctx);
+                break;
+            case ERROR_STATE:
+                state_error(&ctx);
+                break;
+            case EXIT_STATE:
+                break;
+        }
+    }
+    
+    printf("Goodbye!\n");
+    return 0;
+}

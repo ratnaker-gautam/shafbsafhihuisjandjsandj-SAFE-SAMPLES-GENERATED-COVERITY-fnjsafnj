@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_c8795343.c: In function ‘main’:
+./samples/SAFE/__tmp_c8795343.c:147:82: error: expected ‘)’ at end of input
+  147 |         if (is_error_level(entries[i].level) && is_error_level(entries[i-1].level
+      |                                                               ~                  ^
+      |                                                                                  )
+./samples/SAFE/__tmp_c8795343.c:147:9: error: expected declaration or statement at end of input
+  147 |         if (is_error_level(entries[i].level) && is_error_level(entries[i-1].level
+      |         ^~
+./samples/SAFE/__tmp_c8795343.c:147:9: error: expected declaration or statement at end of input

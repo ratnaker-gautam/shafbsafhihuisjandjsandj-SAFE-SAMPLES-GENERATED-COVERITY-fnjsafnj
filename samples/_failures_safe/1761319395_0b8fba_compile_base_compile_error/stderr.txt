@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_593abbd0.c: In function ‘main’:
+./samples/SAFE/__tmp_593abbd0.c:147:30: error: ‘uint8’ undeclared (first use in this function); did you mean ‘uint8_t’?
+  147 |             input_data[i] = (uint8
+      |                              ^~~~~
+      |                              uint8_t
+./samples/SAFE/__tmp_593abbd0.c:147:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_593abbd0.c:147:35: error: expected ‘)’ at end of input
+  147 |             input_data[i] = (uint8
+      |                             ~     ^
+      |                                   )
+./samples/SAFE/__tmp_593abbd0.c:147:13: error: expected declaration or statement at end of input
+  147 |             input_data[i] = (uint8
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_593abbd0.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_593abbd0.c:147:13: error: expected declaration or statement at end of input

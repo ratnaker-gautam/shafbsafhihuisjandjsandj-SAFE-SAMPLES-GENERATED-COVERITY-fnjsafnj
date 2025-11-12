@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_6e53a4a3.c: In function ‘main’:
+./samples/SAFE/__tmp_6e53a4a3.c:135:28: error: expected ‘)’ at end of input
+  135 |                     if (sum
+      |                        ~   ^
+      |                            )
+./samples/SAFE/__tmp_6e53a4a3.c:135:21: error: expected declaration or statement at end of input
+  135 |                     if (sum
+      |                     ^~
+./samples/SAFE/__tmp_6e53a4a3.c:135:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6e53a4a3.c:135:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6e53a4a3.c:135:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6e53a4a3.c:135:21: error: expected declaration or statement at end of input

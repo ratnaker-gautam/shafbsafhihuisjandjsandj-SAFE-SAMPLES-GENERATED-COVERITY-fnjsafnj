@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2a431e9e.c: In function ‘main’:
+./samples/SAFE/__tmp_2a431e9e.c:174:5: error: expected declaration or statement at end of input
+  174 |     free(decompressed.data);
+      |     ^~~~

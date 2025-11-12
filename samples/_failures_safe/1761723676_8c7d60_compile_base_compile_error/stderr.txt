@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7059ca00.c: In function ‘calculate_stats’:
+./samples/SAFE/__tmp_7059ca00.c:142:9: error: expected expression at end of input
+  142 |         } else if (strcmp(entry->level, "WARN") ==
+      |         ^
+./samples/SAFE/__tmp_7059ca00.c:142:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7059ca00.c:142:9: error: expected declaration or statement at end of input

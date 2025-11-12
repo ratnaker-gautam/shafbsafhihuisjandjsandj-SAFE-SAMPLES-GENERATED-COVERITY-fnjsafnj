@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3c0700fd.c: In function ‘main’:
+./samples/SAFE/__tmp_3c0700fd.c:138:85: error: expected ‘)’ at end of input
+  138 |         if (scanf("%d %d %d", &u, &v, &w) != 3 || u < 0 || u >= n || v < 0 || v >= n
+      |            ~                                                                        ^
+      |                                                                                     )
+./samples/SAFE/__tmp_3c0700fd.c:138:9: error: expected declaration or statement at end of input
+  138 |         if (scanf("%d %d %d", &u, &v, &w) != 3 || u < 0 || u >= n || v < 0 || v >= n
+      |         ^~
+./samples/SAFE/__tmp_3c0700fd.c:138:9: error: expected declaration or statement at end of input

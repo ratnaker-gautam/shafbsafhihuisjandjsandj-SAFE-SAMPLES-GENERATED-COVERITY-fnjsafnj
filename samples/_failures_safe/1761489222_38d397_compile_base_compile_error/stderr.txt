@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_a109151c.c: In function ‘main’:
+./samples/SAFE/__tmp_a109151c.c:141:71: error: expected ‘]’ at end of input
+  141 |                 int det = matrix1[0][0] * matrix1[1][1] - matrix1[0][1
+      |                                                                       ^
+      |                                                                       ]
+./samples/SAFE/__tmp_a109151c.c:141:17: error: expected declaration or statement at end of input
+  141 |                 int det = matrix1[0][0] * matrix1[1][1] - matrix1[0][1
+      |                 ^~~
+./samples/SAFE/__tmp_a109151c.c:141:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a109151c.c:141:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a109151c.c:141:17: error: expected declaration or statement at end of input

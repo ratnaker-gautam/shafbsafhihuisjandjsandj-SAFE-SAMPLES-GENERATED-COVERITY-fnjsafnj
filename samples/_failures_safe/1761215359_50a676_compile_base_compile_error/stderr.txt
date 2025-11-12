@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_17edab5e.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_17edab5e.c:170:16: error: expected declaration or statement at end of input
+  170 |         struct GraphEdge *edge = current->edges;
+      |                ^~~~~~~~~
+./samples/SAFE/__tmp_17edab5e.c:170:16: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_0aec24e1.c: In function ‘main’:
+./samples/SAFE/__tmp_0aec24e1.c:175:9: error: expected identifier at end of input
+  175 |         print_token_type(tokens[j].
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_0aec24e1.c:175:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0aec24e1.c:175:9: error: expected declaration or statement at end of input

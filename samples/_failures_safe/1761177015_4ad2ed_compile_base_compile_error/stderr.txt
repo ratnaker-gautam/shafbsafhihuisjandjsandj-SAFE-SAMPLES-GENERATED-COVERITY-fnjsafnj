@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_45147233.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_45147233.c:148:46: error: ‘TO’ undeclared (first use in this function)
+  148 |     } else if (parser->current_token.type == TO
+      |                                              ^~
+./samples/SAFE/__tmp_45147233.c:148:46: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_45147233.c:148:48: error: expected ‘)’ at end of input
+  148 |     } else if (parser->current_token.type == TO
+      |               ~                                ^
+      |                                                )
+./samples/SAFE/__tmp_45147233.c:148:5: error: expected declaration or statement at end of input
+  148 |     } else if (parser->current_token.type == TO
+      |     ^

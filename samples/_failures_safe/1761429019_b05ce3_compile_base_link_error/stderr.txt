@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/cczN0TdG.o: in function `main':
+__tmp_8c536744.c:(.text.startup+0x204): undefined reference to `sincos'
+/usr/bin/ld: __tmp_8c536744.c:(.text.startup+0x368): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

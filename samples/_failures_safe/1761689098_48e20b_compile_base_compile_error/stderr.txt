@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_56c260a5.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_56c260a5.c:148:16: error: expected identifier or ‘(’ at end of input
+  148 |         struct MinHeapNode*
+      |                ^~~~~~~~~~~
+./samples/SAFE/__tmp_56c260a5.c:148:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_56c260a5.c:148:16: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_09168b41.c: In function ‘main’:
+./samples/SAFE/__tmp_09168b41.c:150:64: error: expected ‘)’ at end of input
+  150 |     Buffer compressed = compress_data(compress_func, input_data
+      |                                      ~                         ^
+      |                                                                )
+./samples/SAFE/__tmp_09168b41.c:150:25: error: too few arguments to function ‘compress_data’
+  150 |     Buffer compressed = compress_data(compress_func, input_data
+      |                         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_09168b41.c:60:8: note: declared here
+   60 | Buffer compress_data(CompressFunc compress, const uint8_t *input, size_t input_size) {
+      |        ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_09168b41.c:150:5: error: expected declaration or statement at end of input
+  150 |     Buffer compressed = compress_data(compress_func, input_data
+      |     ^~~~~~

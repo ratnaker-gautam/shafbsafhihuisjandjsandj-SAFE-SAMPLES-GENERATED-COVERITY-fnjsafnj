@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_11f0735d.c: In function ‘main’:
+./samples/SAFE/__tmp_11f0735d.c:170:28: error: ‘comp’ undeclared (first use in this function)
+  170 |     double ratio = (double)comp
+      |                            ^~~~
+./samples/SAFE/__tmp_11f0735d.c:170:28: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_11f0735d.c:170:5: error: expected ‘,’ or ‘;’ at end of input
+  170 |     double ratio = (double)comp
+      |     ^~~~~~
+./samples/SAFE/__tmp_11f0735d.c:170:5: error: expected declaration or statement at end of input

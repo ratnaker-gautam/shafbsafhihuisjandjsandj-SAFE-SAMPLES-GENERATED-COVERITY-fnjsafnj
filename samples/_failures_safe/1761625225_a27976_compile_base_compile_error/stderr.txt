@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_592605e8.c: In function ‘main’:
+./samples/SAFE/__tmp_592605e8.c:137:44: error: expected ‘)’ at end of input
+  137 |         if (src < 0 || src >= nodes || dest
+      |            ~                               ^
+      |                                            )
+./samples/SAFE/__tmp_592605e8.c:137:9: error: expected declaration or statement at end of input
+  137 |         if (src < 0 || src >= nodes || dest
+      |         ^~
+./samples/SAFE/__tmp_592605e8.c:137:9: error: expected declaration or statement at end of input

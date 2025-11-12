@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_25e6801b.c: In function ‘print_errors’:
+./samples/SAFE/__tmp_25e6801b.c:121:13: error: expected identifier at end of input
+  121 |             printf("[%s] %s: %s\n", analyzer->
+      |             ^~~~~~
+./samples/SAFE/__tmp_25e6801b.c:121:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_25e6801b.c:121:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_25e6801b.c:121:13: error: expected declaration or statement at end of input

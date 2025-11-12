@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_07f3f6fc.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_07f3f6fc.c:133:31: error: expected ‘;’ at end of input
+  133 |         return a11 * a22 - a12
+      |                               ^
+      |                               ;
+./samples/SAFE/__tmp_07f3f6fc.c:133:9: error: expected declaration or statement at end of input
+  133 |         return a11 * a22 - a12
+      |         ^~~~~~
+./samples/SAFE/__tmp_07f3f6fc.c:133:9: error: expected declaration or statement at end of input

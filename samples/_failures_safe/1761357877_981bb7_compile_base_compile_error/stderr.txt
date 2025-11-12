@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9b47f495.c: In function ‘main’:
+./samples/SAFE/__tmp_9b47f495.c:164:15: error: ‘StateMachine’ has no member named ‘current’
+  164 |         if (sm.current
+      |               ^
+./samples/SAFE/__tmp_9b47f495.c:164:23: error: expected ‘)’ at end of input
+  164 |         if (sm.current
+      |            ~          ^
+      |                       )
+./samples/SAFE/__tmp_9b47f495.c:164:9: error: expected declaration or statement at end of input
+  164 |         if (sm.current
+      |         ^~
+./samples/SAFE/__tmp_9b47f495.c:164:9: error: expected declaration or statement at end of input

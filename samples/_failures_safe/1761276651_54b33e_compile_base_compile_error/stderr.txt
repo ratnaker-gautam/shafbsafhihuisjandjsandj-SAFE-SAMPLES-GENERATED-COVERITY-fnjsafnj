@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5adf46ef.c: In function ‘main’:
+./samples/SAFE/__tmp_5adf46ef.c:137:23: error: expected ‘)’ at end of input
+  137 |     if (word_count > 0
+      |        ~              ^
+      |                       )
+./samples/SAFE/__tmp_5adf46ef.c:137:5: error: expected declaration or statement at end of input
+  137 |     if (word_count > 0
+      |     ^~

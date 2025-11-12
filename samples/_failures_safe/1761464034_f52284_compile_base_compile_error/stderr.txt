@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_05448570.c: In function ‘process_event’:
+./samples/SAFE/__tmp_05448570.c:179:43: error: expected ‘)’ at end of input
+  179 |             return handle_start(ctx, event
+      |                                ~          ^
+      |                                           )
+./samples/SAFE/__tmp_05448570.c:179:13: error: expected declaration or statement at end of input
+  179 |             return handle_start(ctx, event
+      |             ^~~~~~
+./samples/SAFE/__tmp_05448570.c:179:13: error: expected declaration or statement at end of input

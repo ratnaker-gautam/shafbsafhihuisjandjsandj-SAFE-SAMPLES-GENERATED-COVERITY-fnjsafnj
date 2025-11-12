@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_8f0f8881.c:137:5: error: expected expression at end of input
+  137 |     {STATE_PROCESSING,
+      |     ^

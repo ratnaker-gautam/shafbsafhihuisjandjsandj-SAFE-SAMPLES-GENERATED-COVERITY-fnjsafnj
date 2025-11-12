@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_93f16831.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_93f16831.c:148:9: error: expected identifier at end of input
+  148 |         (*column) += strlen(token->
+      |         ^
+./samples/SAFE/__tmp_93f16831.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_93f16831.c:148:9: error: expected declaration or statement at end of input

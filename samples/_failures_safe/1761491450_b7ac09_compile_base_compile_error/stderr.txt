@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ee236cde.c: In function ‘main’:
+./samples/SAFE/__tmp_ee236cde.c:150:5: error: expected declaration or statement at end of input
+  150 |     int distances[MAX_NODES];
+      |     ^~~

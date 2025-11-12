@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_17b3f74c.c: In function ‘find_path_dfs’:
+./samples/SAFE/__tmp_17b3f74c.c:171:38: error: expected ‘]’ at end of input
+  171 |                 if (!visited[neighbor
+      |                                      ^
+      |                                      ]
+./samples/SAFE/__tmp_17b3f74c.c:171:17: error: expected declaration or statement at end of input
+  171 |                 if (!visited[neighbor
+      |                 ^~
+./samples/SAFE/__tmp_17b3f74c.c:171:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_17b3f74c.c:171:17: error: expected declaration or statement at end of input

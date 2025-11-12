@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_332398c0.c: In function ‘generate_sample_logs’:
+./samples/SAFE/__tmp_332398c0.c:131:28: error: ‘s’ undeclared (first use in this function)
+  131 |         if (parse_log_line(s
+      |                            ^
+./samples/SAFE/__tmp_332398c0.c:131:28: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_332398c0.c:131:29: error: expected ‘)’ at end of input
+  131 |         if (parse_log_line(s
+      |                           ~ ^
+      |                             )
+./samples/SAFE/__tmp_332398c0.c:131:13: error: too few arguments to function ‘parse_log_line’
+  131 |         if (parse_log_line(s
+      |             ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_332398c0.c:67:5: note: declared here
+   67 | int parse_log_line(const char *line, struct LogEntry *entry) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_332398c0.c:131:9: error: expected declaration or statement at end of input
+  131 |         if (parse_log_line(s
+      |         ^~
+./samples/SAFE/__tmp_332398c0.c:131:9: error: expected declaration or statement at end of input

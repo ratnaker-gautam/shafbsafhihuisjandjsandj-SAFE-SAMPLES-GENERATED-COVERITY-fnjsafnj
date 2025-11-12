@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8aa71e81.c: In function ‘main’:
+./samples/SAFE/__tmp_8aa71e81.c:157: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_8aa71e81.c:156:20: note: to match this ‘{’
+  156 |         {0, 1, 4}, {0
+      |                    ^
+./samples/SAFE/__tmp_8aa71e81.c:156:9: error: expected declaration or statement at end of input
+  156 |         {0, 1, 4}, {0
+      |         ^

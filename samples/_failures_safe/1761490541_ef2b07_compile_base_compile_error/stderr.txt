@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_16276ff9.c: In function ‘main’:
+./samples/SAFE/__tmp_16276ff9.c:138:33: error: expected ‘)’ at end of input
+  138 |                            level
+      |                                 ^
+      |                                 )
+./samples/SAFE/__tmp_16276ff9.c:137:27: note: to match this ‘(’
+  137 |                     printf("%s %s %s\n", entries[i].timestamp,
+      |                           ^
+./samples/SAFE/__tmp_16276ff9.c:138:28: error: expected declaration or statement at end of input
+  138 |                            level
+      |                            ^~~~~
+./samples/SAFE/__tmp_16276ff9.c:138:28: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_16276ff9.c:138:28: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_16276ff9.c:138:28: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_16276ff9.c:138:28: error: expected declaration or statement at end of input

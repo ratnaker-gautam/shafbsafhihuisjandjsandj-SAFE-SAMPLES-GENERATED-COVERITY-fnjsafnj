@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fd642215.c: In function ‘main’:
+./samples/SAFE/__tmp_fd642215.c:172:25: error: expected ‘)’ at end of input
+  172 |     if (sm.current_state
+      |        ~                ^
+      |                         )
+./samples/SAFE/__tmp_fd642215.c:172:5: error: expected declaration or statement at end of input
+  172 |     if (sm.current_state
+      |     ^~

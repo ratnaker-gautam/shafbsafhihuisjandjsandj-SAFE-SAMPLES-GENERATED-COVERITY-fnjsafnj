@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_3f2d979a.c: In function ‘determinant_matrix’:
+./samples/SAFE/__tmp_3f2d979a.c:150:13: error: expected declaration or statement at end of input
+  150 |             for (int j = 0; j < size; j++) {
+      |             ^~~
+./samples/SAFE/__tmp_3f2d979a.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3f2d979a.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3f2d979a.c:150:13: error: expected declaration or statement at end of input

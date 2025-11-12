@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9ceb4646.c: In function ‘main’:
+./samples/SAFE/__tmp_9ceb4646.c:155:9: error: expected declaration or statement at end of input
+  155 |         if (!state_machine_handle_event(&sm, EVENT_RESET)) {
+      |         ^~
+./samples/SAFE/__tmp_9ceb4646.c:155:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9ceb4646.c:155:9: error: expected declaration or statement at end of input

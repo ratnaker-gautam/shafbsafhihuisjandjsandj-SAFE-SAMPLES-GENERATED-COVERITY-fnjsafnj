@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_1b19d7e0.c: In function ‘graph_dijkstra’:
+./samples/SAFE/__tmp_1b19d7e0.c:164:9: error: expected identifier at end of input
+  164 |         for (int i = 0; i < g->
+      |         ^~~
+./samples/SAFE/__tmp_1b19d7e0.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1b19d7e0.c:164:9: error: expected declaration or statement at end of input

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_bfdc5e99.c: In function ‘main’:
+./samples/SAFE/__tmp_bfdc5e99.c:158:26: error: expected ‘)’ at end of input
+  158 |             dfs(&g, start
+      |                ~         ^
+      |                          )
+./samples/SAFE/__tmp_bfdc5e99.c:158:13: error: expected declaration or statement at end of input
+  158 |             dfs(&g, start
+      |             ^~~
+./samples/SAFE/__tmp_bfdc5e99.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bfdc5e99.c:158:13: error: expected declaration or statement at end of input

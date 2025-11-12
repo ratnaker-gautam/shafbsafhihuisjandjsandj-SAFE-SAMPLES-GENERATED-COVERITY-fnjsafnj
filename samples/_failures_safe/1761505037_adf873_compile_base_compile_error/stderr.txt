@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_eb0de6ea.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_eb0de6ea.c:170:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  170 |     int distances
+      |     ^~~
+./samples/SAFE/__tmp_eb0de6ea.c:170:5: error: expected declaration or statement at end of input

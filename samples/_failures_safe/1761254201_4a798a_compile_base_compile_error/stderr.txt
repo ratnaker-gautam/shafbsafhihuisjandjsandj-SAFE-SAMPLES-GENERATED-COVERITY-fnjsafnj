@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_9062ab35.c: In function ‘main’:
+./samples/SAFE/__tmp_9062ab35.c:159:33: error: expected ‘)’ at end of input
+  159 |                 if (target_level
+      |                    ~            ^
+      |                                 )
+./samples/SAFE/__tmp_9062ab35.c:159:17: error: expected declaration or statement at end of input
+  159 |                 if (target_level
+      |                 ^~
+./samples/SAFE/__tmp_9062ab35.c:159:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9062ab35.c:159:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9062ab35.c:159:17: error: expected declaration or statement at end of input

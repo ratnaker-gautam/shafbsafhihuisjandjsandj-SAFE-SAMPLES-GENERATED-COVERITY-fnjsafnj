@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_df5d749c.c: In function ‘main’:
+./samples/SAFE/__tmp_df5d749c.c:162:32: error: expected ‘)’ at end of input
+  162 |     if (scanf("%d", &startNode)
+      |        ~                       ^
+      |                                )
+./samples/SAFE/__tmp_df5d749c.c:162:5: error: expected declaration or statement at end of input
+  162 |     if (scanf("%d", &startNode)
+      |     ^~

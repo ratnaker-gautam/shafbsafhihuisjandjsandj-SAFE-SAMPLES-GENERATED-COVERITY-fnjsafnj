@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_4c396224.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_4c396224.c:147:13: error: expected expression at end of input
+  147 |             if (strcmp(analyzer->words[i].word,
+      |             ^~
+./samples/SAFE/__tmp_4c396224.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4c396224.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4c396224.c:147:13: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_34da926a.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_34da926a.c:178:9: error: ‘lex’ undeclared (first use in this function); did you mean ‘lexer’?
+  178 |     if (lex
+      |         ^~~
+      |         lexer
+./samples/SAFE/__tmp_34da926a.c:178:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_34da926a.c:178:12: error: expected ‘)’ at end of input
+  178 |     if (lex
+      |        ~   ^
+      |            )
+./samples/SAFE/__tmp_34da926a.c:178:5: error: expected declaration or statement at end of input
+  178 |     if (lex
+      |     ^~

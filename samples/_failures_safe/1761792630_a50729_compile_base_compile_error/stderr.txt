@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1fd39991.c: In function ‘print_token_type’:
+./samples/SAFE/__tmp_1fd39991.c:166:5: error: expected expression at end of input
+  166 |     const char *names[] = {"NUMBER", "IDENTIFIER", "OPERATOR", "STRING",
+      |     ^~~~~
+./samples/SAFE/__tmp_1fd39991.c:166:5: error: expected declaration or statement at end of input

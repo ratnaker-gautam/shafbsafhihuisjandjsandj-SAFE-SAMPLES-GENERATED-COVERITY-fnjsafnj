@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_62f50032.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_62f50032.c:145:5: error: expected declaration or statement at end of input
+  145 |     size_t value_pos = 0;
+      |     ^~~~~~

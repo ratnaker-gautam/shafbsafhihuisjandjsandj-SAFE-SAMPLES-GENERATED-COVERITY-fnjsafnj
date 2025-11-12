@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7fbde1c7.c: In function ‘main’:
+./samples/SAFE/__tmp_7fbde1c7.c:146:9: error: expected declaration or statement at end of input
+  146 |         if (strcmp(input, "ALL") == 0 || strcmp(input, level_to_string(logs[i].level)) == 0) {
+      |         ^~
+./samples/SAFE/__tmp_7fbde1c7.c:146:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7fbde1c7.c:146:9: error: expected declaration or statement at end of input

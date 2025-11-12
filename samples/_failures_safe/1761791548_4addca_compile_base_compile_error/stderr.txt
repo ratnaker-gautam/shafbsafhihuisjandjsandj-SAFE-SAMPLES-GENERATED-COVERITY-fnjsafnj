@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c7c8b6cc.c: In function ‘print_compression_stats’:
+./samples/SAFE/__tmp_c7c8b6cc.c:137:16: error: expected declaration or statement at end of input
+  137 |                i, ctx->blocks[i].block_size, ctx->blocks[i].checksum);
+      |                ^
+./samples/SAFE/__tmp_c7c8b6cc.c:137:16: error: expected declaration or statement at end of input

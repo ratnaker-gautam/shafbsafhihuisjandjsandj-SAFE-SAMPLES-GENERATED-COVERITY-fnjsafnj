@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a994f42b.c: In function ‘main’:
+./samples/SAFE/__tmp_a994f42b.c:181:35: error: expected ‘)’ at end of input
+  181 |     memset(sm.buffer, 0, sizeof(sm
+      |                                ~  ^
+      |                                   )
+./samples/SAFE/__tmp_a994f42b.c:181:5: error: expected declaration or statement at end of input
+  181 |     memset(sm.buffer, 0, sizeof(sm
+      |     ^~~~~~

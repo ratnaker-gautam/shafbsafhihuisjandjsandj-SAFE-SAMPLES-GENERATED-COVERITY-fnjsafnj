@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f3e273cd.c: In function ‘cleanup_compression_context’:
+./samples/SAFE/__tmp_f3e273cd.c:132:20: error: expected ‘;’ at end of input
+  132 |     ctx->input_size
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_f3e273cd.c:132:5: error: expected declaration or statement at end of input
+  132 |     ctx->input_size
+      |     ^~~

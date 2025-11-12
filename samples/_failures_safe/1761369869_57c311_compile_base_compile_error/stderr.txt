@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2fbf4581.c: In function ‘process_log_file’:
+./samples/SAFE/__tmp_2fbf4581.c:133: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_2fbf4581.c:132:9: error: expected declaration or statement at end of input
+  132 |         if
+      |         ^~
+./samples/SAFE/__tmp_2fbf4581.c:132:9: error: expected declaration or statement at end of input

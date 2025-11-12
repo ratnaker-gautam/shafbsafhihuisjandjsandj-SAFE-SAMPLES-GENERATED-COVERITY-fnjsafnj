@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_18c83636.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_18c83636.c:132:5: error: expected ‘,’ or ‘;’ at end of input
+  132 |     int sample_count = analyzer
+      |     ^~~
+./samples/SAFE/__tmp_18c83636.c:132:5: error: expected declaration or statement at end of input

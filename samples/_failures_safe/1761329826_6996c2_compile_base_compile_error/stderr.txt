@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_4b3081eb.c: In function ‘bfs’:
+./samples/SAFE/__tmp_4b3081eb.c:163:17: error: expected declaration or statement at end of input
+  163 |                 int neighbor = graph->edges[i].destination;
+      |                 ^~~
+./samples/SAFE/__tmp_4b3081eb.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4b3081eb.c:163:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4b3081eb.c:163:17: error: expected declaration or statement at end of input

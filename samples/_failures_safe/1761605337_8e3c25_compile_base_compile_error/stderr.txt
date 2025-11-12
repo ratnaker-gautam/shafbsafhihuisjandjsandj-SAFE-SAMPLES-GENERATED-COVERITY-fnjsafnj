@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e2a9e47c.c: In function ‘pointcloud_compute_bounds’:
+./samples/SAFE/__tmp_e2a9e47c.c:126:15: error: expected ‘;’ at end of input
+  126 |     bounds.min
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_e2a9e47c.c:126:5: error: expected declaration or statement at end of input
+  126 |     bounds.min
+      |     ^~~~~~

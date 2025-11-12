@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d582b4dc.c: In function ‘bfs’:
+./samples/SAFE/__tmp_d582b4dc.c:167:52: error: expected ‘;’ at end of input
+  167 |         for (int i = 0; i < current->neighbor_count
+      |                                                    ^
+      |                                                    ;
+./samples/SAFE/__tmp_d582b4dc.c:167:9: error: expected declaration or statement at end of input
+  167 |         for (int i = 0; i < current->neighbor_count
+      |         ^~~
+./samples/SAFE/__tmp_d582b4dc.c:167:9: error: expected declaration or statement at end of input

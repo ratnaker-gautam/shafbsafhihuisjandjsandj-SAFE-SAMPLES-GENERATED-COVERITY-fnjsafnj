@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_a4bd53ca.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_a4bd53ca.c:193:44: error: expected ‘)’ at end of input
+  193 |                 strncpy(token.value, buffer
+      |                        ~                   ^
+      |                                            )
+./samples/SAFE/__tmp_a4bd53ca.c:193:17: error: too few arguments to function ‘strncpy’
+  193 |                 strncpy(token.value, buffer
+      |                 ^~~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_a4bd53ca.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:92:1: note: declared here
+   92 | __NTH (strncpy (char *__restrict __dest, const char *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_a4bd53ca.c:193:17: error: expected declaration or statement at end of input
+  193 |                 strncpy(token.value, buffer
+      |                 ^~~~~~~
+./samples/SAFE/__tmp_a4bd53ca.c:193:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a4bd53ca.c:193:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a4bd53ca.c:193:17: error: expected declaration or statement at end of input

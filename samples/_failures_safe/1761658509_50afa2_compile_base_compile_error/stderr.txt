@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_87d4668e.c: In function ‘main’:
+./samples/SAFE/__tmp_87d4668e.c:162:41: error: ‘EVENT_PROCESS_D’ undeclared (first use in this function); did you mean ‘EVENT_PROCESS_DONE’?
+  162 |                 if (!process_event(&sm, EVENT_PROCESS_D
+      |                                         ^~~~~~~~~~~~~~~
+      |                                         EVENT_PROCESS_DONE
+./samples/SAFE/__tmp_87d4668e.c:162:41: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_87d4668e.c:162:56: error: expected ‘)’ at end of input
+  162 |                 if (!process_event(&sm, EVENT_PROCESS_D
+      |                                   ~                    ^
+      |                                                        )
+./samples/SAFE/__tmp_87d4668e.c:162:17: error: expected declaration or statement at end of input
+  162 |                 if (!process_event(&sm, EVENT_PROCESS_D
+      |                 ^~
+./samples/SAFE/__tmp_87d4668e.c:162:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_87d4668e.c:162:17: error: expected declaration or statement at end of input

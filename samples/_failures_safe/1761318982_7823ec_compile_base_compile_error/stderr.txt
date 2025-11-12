@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_3ceb129d.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_3ceb129d.c:169:24: error: ‘start’ undeclared (first use in this function); did you mean ‘start_id’?
+  169 |     if (enqueue(queue, start
+      |                        ^~~~~
+      |                        start_id
+./samples/SAFE/__tmp_3ceb129d.c:169:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3ceb129d.c:169:29: error: expected ‘)’ at end of input
+  169 |     if (enqueue(queue, start
+      |                ~            ^
+      |                             )
+./samples/SAFE/__tmp_3ceb129d.c:169:5: error: expected declaration or statement at end of input
+  169 |     if (enqueue(queue, start
+      |     ^~

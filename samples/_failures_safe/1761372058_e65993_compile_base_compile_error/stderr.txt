@@ -1,0 +1,22 @@
+./samples/SAFE/__tmp_915b914f.c: In function ‘main’:
+./samples/SAFE/__tmp_915b914f.c:159:64: error: expected ‘)’ at end of input
+  159 |     size_t decompressed_size = decompress_rle(compressed_buffer
+      |                                              ~                 ^
+      |                                                                )
+./samples/SAFE/__tmp_915b914f.c:159:47: error: incompatible type for argument 1 of ‘decompress_rle’
+  159 |     size_t decompressed_size = decompress_rle(compressed_buffer
+      |                                               ^~~~~~~~~~~~~~~~~
+      |                                               |
+      |                                               Buffer
+./samples/SAFE/__tmp_915b914f.c:51:38: note: expected ‘const uint8_t *’ {aka ‘const unsigned char *’} but argument is of type ‘Buffer’
+   51 | size_t decompress_rle(const uint8_t* input, size_t input_size, uint8_t* output, size_t output_size) {
+      |                       ~~~~~~~~~~~~~~~^~~~~
+./samples/SAFE/__tmp_915b914f.c:159:32: error: too few arguments to function ‘decompress_rle’
+  159 |     size_t decompressed_size = decompress_rle(compressed_buffer
+      |                                ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_915b914f.c:51:8: note: declared here
+   51 | size_t decompress_rle(const uint8_t* input, size_t input_size, uint8_t* output, size_t output_size) {
+      |        ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_915b914f.c:159:5: error: expected declaration or statement at end of input
+  159 |     size_t decompressed_size = decompress_rle(compressed_buffer
+      |     ^~~~~~

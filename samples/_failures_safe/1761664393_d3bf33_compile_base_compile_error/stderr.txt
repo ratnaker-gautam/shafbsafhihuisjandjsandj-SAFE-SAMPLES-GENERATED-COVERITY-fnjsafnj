@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ca4a8d89.c: In function ‘main’:
+./samples/SAFE/__tmp_ca4a8d89.c:168:55: error: expected ‘)’ at end of input
+  168 |     if (scanf("%d", &start) != 1 || start < 0 || start
+      |        ~                                              ^
+      |                                                       )
+./samples/SAFE/__tmp_ca4a8d89.c:168:5: error: expected declaration or statement at end of input
+  168 |     if (scanf("%d", &start) != 1 || start < 0 || start
+      |     ^~

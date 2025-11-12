@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a63fb3f2.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_a63fb3f2.c:172:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  172 |         struct GraphEdge *edge
+      |                ^~~~~~~~~
+./samples/SAFE/__tmp_a63fb3f2.c:172:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a63fb3f2.c:172:16: error: expected declaration or statement at end of input

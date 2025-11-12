@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_487b5b56.c: In function ‘main’:
+./samples/SAFE/__tmp_487b5b56.c:137:18: error: ‘mat’ undeclared (first use in this function); did you mean ‘mat2’?
+  137 |     read_matrix(&mat
+      |                  ^~~
+      |                  mat2
+./samples/SAFE/__tmp_487b5b56.c:137:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_487b5b56.c:137:21: error: expected ‘)’ at end of input
+  137 |     read_matrix(&mat
+      |                ~    ^
+      |                     )
+./samples/SAFE/__tmp_487b5b56.c:137:5: error: too few arguments to function ‘read_matrix’
+  137 |     read_matrix(&mat
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_487b5b56.c:40:6: note: declared here
+   40 | void read_matrix(Matrix* mat, const char* name) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_487b5b56.c:137:5: error: expected declaration or statement at end of input
+  137 |     read_matrix(&mat
+      |     ^~~~~~~~~~~

@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/cc7Y1Ofx.o: in function `initialize_matrix':
+__tmp_7486bfea.c:(.text+0x17e): undefined reference to `sin'
+/usr/bin/ld: __tmp_7486bfea.c:(.text+0x19a): undefined reference to `cos'
+/usr/bin/ld: /tmp/cc7Y1Ofx.o: in function `compute_matrix_norm':
+__tmp_7486bfea.c:(.text+0x24e): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

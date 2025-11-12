@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c7d2b9bb.c: In function ‘main’:
+./samples/SAFE/__tmp_c7d2b9bb.c:161:43: error: expected ‘)’ at end of input
+  161 |     header.filename[sizeof(header.filename
+      |                           ~               ^
+      |                                           )
+./samples/SAFE/__tmp_c7d2b9bb.c:161:5: error: expected declaration or statement at end of input
+  161 |     header.filename[sizeof(header.filename
+      |     ^~~~~~

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_b37103d4.c: In function ‘print_distances’:
+./samples/SAFE/__tmp_b37103d4.c:164:13: error: expected identifier at end of input
+  164 |             printf("Node %d: unreachable\n", graph->nodes[i].
+      |             ^~~~~~
+./samples/SAFE/__tmp_b37103d4.c:164:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b37103d4.c:164:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b37103d4.c:164:13: error: expected declaration or statement at end of input

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_2b35147d.c: In function ‘main’:
+./samples/SAFE/__tmp_2b35147d.c:134:9: error: incompatible types when assigning to type ‘struct Matrix’ from type ‘struct Matrix (*)(size_t,  size_t)’ {aka ‘struct Matrix (*)(long unsigned int,  long unsigned int)’}
+  134 |     a = create_matrix
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_2b35147d.c:134:22: error: expected ‘;’ at end of input
+  134 |     a = create_matrix
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_2b35147d.c:134:5: error: expected declaration or statement at end of input
+  134 |     a = create_matrix
+      |     ^

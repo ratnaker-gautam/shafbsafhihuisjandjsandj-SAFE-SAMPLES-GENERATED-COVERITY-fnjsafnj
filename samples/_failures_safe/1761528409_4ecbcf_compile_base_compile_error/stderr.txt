@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_32ceac49.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_32ceac49.c:159: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_32ceac49.c:158:13: error: expected declaration or statement at end of input
+  158 |             if
+      |             ^~
+./samples/SAFE/__tmp_32ceac49.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_32ceac49.c:158:13: error: expected declaration or statement at end of input

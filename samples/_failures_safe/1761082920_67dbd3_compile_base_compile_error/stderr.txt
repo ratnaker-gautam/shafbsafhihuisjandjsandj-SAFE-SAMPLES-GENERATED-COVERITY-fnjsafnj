@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_932b88c3.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_932b88c3.c:133:34: error: expected ‘]’ at end of input
+  133 |         det += sign * matrix[0][x
+      |                                  ^
+      |                                  ]
+./samples/SAFE/__tmp_932b88c3.c:133:9: error: expected declaration or statement at end of input
+  133 |         det += sign * matrix[0][x
+      |         ^~~
+./samples/SAFE/__tmp_932b88c3.c:133:9: error: expected declaration or statement at end of input

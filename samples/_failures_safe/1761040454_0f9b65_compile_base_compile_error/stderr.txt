@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c735bfd8.c: In function ‘main’:
+./samples/SAFE/__tmp_c735bfd8.c:147:64: error: expected ‘)’ at end of input
+  147 |     printf("\nMost severe level present: %s\n", level_to_string
+      |           ~                                                    ^
+      |                                                                )
+./samples/SAFE/__tmp_c735bfd8.c:147:5: error: expected declaration or statement at end of input
+  147 |     printf("\nMost severe level present: %s\n", level_to_string
+      |     ^~~~~~

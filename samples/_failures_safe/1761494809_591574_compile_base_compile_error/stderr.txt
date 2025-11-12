@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2fb53da2.c: In function ‘generate_report’:
+./samples/SAFE/__tmp_2fb53da2.c:144:12: error: missing terminating " character
+  144 |     printf("Errors
+      |            ^~~~~~~
+./samples/SAFE/__tmp_2fb53da2.c:144:5: error: expected expression at end of input
+  144 |     printf("Errors
+      |     ^~~~~~
+./samples/SAFE/__tmp_2fb53da2.c:144:5: error: expected declaration or statement at end of input

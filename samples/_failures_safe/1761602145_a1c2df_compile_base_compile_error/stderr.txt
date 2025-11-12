@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6af0c7a0.c: In function ‘main’:
+./samples/SAFE/__tmp_6af0c7a0.c:157:22: error: expected ‘;’ at end of input
+  157 |     print_frequencies
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_6af0c7a0.c:157:5: error: expected declaration or statement at end of input
+  157 |     print_frequencies
+      |     ^~~~~~~~~~~~~~~~~

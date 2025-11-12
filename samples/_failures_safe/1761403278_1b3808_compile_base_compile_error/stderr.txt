@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a3ee6040.c: In function ‘main’:
+./samples/SAFE/__tmp_a3ee6040.c:146:13: error: expected declaration or statement at end of input
+  146 |             fprintf(stderr, "Error: Invalid choice\n");
+      |             ^~~~~~~
+./samples/SAFE/__tmp_a3ee6040.c:146:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a3ee6040.c:146:13: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_debb0466.c:93: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_debb0466.c:92:5: note: to match this ‘{’
+   92 |     {STATE_READING_WORD
+      |     ^

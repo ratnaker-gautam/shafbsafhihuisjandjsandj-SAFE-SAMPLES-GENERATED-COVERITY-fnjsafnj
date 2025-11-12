@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_e38a0d1f.c: In function ‘main’:
+./samples/SAFE/__tmp_e38a0d1f.c:122:5: error: ‘generate’ undeclared (first use in this function)
+  122 |     generate
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_e38a0d1f.c:122:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e38a0d1f.c:122:13: error: expected ‘;’ at end of input
+  122 |     generate
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_e38a0d1f.c:122:5: error: expected declaration or statement at end of input
+  122 |     generate
+      |     ^~~~~~~~

@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_1b70b94a.c: In function ‘analyze_text’:
+./samples/SAFE/__tmp_1b70b94a.c:149:52: error: expected ‘]’ at end of input
+  149 |         int len = (int)strlen(ta->processor.words[i
+      |                                                    ^
+      |                                                    ]
+./samples/SAFE/__tmp_1b70b94a.c:149:50: error: incompatible type for argument 1 of ‘strlen’
+  149 |         int len = (int)strlen(ta->processor.words[i
+      |                               ~~~~~~~~~~~~~~~~~~~^~
+      |                                                  |
+      |                                                  struct WordStats
+In file included from ./samples/SAFE/__tmp_1b70b94a.c:4:
+/usr/include/string.h:407:35: note: expected ‘const char *’ but argument is of type ‘struct WordStats’
+  407 | extern size_t strlen (const char *__s)
+      |                       ~~~~~~~~~~~~^~~
+./samples/SAFE/__tmp_1b70b94a.c:149:9: error: expected declaration or statement at end of input
+  149 |         int len = (int)strlen(ta->processor.words[i
+      |         ^~~
+./samples/SAFE/__tmp_1b70b94a.c:149:9: error: expected declaration or statement at end of input

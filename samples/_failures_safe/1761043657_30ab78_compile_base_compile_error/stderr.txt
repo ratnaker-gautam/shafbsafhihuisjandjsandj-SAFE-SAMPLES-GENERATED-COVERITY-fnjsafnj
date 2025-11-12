@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_08775fc3.c: In function ‘read_input_data’:
+./samples/SAFE/__tmp_08775fc3.c:168:13: error: expected ‘;’ at end of input
+  168 |     return 1
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_08775fc3.c:168:5: error: expected declaration or statement at end of input
+  168 |     return 1
+      |     ^~~~~~

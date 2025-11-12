@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_732f496f.c: In function ‘main’:
+./samples/SAFE/__tmp_732f496f.c:146:22: error: ‘decompressed’ undeclared (first use in this function); did you mean ‘decompressed_buf’?
+  146 |         buffer_free(&decompressed
+      |                      ^~~~~~~~~~~~
+      |                      decompressed_buf
+./samples/SAFE/__tmp_732f496f.c:146:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_732f496f.c:146:34: error: expected ‘)’ at end of input
+  146 |         buffer_free(&decompressed
+      |                    ~             ^
+      |                                  )
+./samples/SAFE/__tmp_732f496f.c:146:9: error: expected declaration or statement at end of input
+  146 |         buffer_free(&decompressed
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_732f496f.c:146:9: error: expected declaration or statement at end of input

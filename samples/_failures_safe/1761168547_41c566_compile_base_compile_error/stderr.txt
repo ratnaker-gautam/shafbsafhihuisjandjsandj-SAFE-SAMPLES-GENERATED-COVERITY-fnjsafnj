@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e088e246.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_e088e246.c:163:5: error: expected declaration or statement at end of input
+  163 |     }
+      |     ^

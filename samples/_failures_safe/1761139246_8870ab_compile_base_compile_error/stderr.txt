@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_a7ed45f7.c: In function ‘main’:
+./samples/SAFE/__tmp_a7ed45f7.c:146:32: error: ‘decompressed’ undeclared (first use in this function); did you mean ‘decompress_data’?
+  146 |         for (size_t i = 0; i < decompressed
+      |                                ^~~~~~~~~~~~
+      |                                decompress_data
+./samples/SAFE/__tmp_a7ed45f7.c:146:32: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a7ed45f7.c:146:44: error: expected ‘;’ at end of input
+  146 |         for (size_t i = 0; i < decompressed
+      |                                            ^
+      |                                            ;
+./samples/SAFE/__tmp_a7ed45f7.c:146:9: error: expected declaration or statement at end of input
+  146 |         for (size_t i = 0; i < decompressed
+      |         ^~~
+./samples/SAFE/__tmp_a7ed45f7.c:146:9: error: expected declaration or statement at end of input

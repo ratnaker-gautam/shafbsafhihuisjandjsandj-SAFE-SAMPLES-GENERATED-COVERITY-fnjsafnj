@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_69df84ab.c: In function ‘main’:
+./samples/SAFE/__tmp_69df84ab.c:185:58: error: missing terminating ' character
+  185 |                     ctx.buffer[sizeof(ctx.buffer) - 1] = '\0
+      |                                                          ^~~
+./samples/SAFE/__tmp_69df84ab.c:185:21: error: expected expression at end of input
+  185 |                     ctx.buffer[sizeof(ctx.buffer) - 1] = '\0
+      |                     ^~~
+./samples/SAFE/__tmp_69df84ab.c:185:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_69df84ab.c:185:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_69df84ab.c:185:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_69df84ab.c:185:21: error: expected declaration or statement at end of input

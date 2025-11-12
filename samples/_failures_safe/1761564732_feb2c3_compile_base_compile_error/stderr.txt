@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a115df3c.c: In function ‘main’:
+./samples/SAFE/__tmp_a115df3c.c:156:5: error: expected declaration or statement at end of input
+  156 |     uint8_t test_data[] = "AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHIIIIJJJJKKKKLLLLMMMMNNNNOOOOPPPPQQQQRRRRSSSSTTTTUUUUVVVVWWWWXXXXYYYYZZZZ";
+      |     ^~~~~~~

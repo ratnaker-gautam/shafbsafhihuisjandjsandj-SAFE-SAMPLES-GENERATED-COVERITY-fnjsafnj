@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_133ba668.c: In function ‘main’:
+./samples/SAFE/__tmp_133ba668.c:164:5: error: expected declaration or statement at end of input
+  164 |     bfs(&graph, start_node);
+      |     ^~~

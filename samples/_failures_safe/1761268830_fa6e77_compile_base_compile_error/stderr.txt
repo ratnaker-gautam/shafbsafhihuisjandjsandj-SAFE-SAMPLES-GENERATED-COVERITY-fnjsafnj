@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_3cae3544.c:159:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  159 | void print_compression_menu
+      | ^~~~

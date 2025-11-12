@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_994db39f.c:153:1: error: expected declaration specifiers or ‘...’ at end of input
+  153 | int matrix_determinant(int **matrix,
+      | ^~~

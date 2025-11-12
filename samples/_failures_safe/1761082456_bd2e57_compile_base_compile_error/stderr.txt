@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d2c8ef04.c: In function ‘main’:
+./samples/SAFE/__tmp_d2c8ef04.c:169:13: error: expected declaration or statement at end of input
+  169 |             case STATE_COMPLETE:
+      |             ^~~~
+./samples/SAFE/__tmp_d2c8ef04.c:169:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d2c8ef04.c:169:13: error: expected declaration or statement at end of input

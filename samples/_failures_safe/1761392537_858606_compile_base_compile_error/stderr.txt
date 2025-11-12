@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_fada89e6.c: In function ‘main’:
+./samples/SAFE/__tmp_fada89e6.c:134:27: error: ‘MAX_ENT’ undeclared (first use in this function); did you mean ‘MAX_ENTRIES’?
+  134 |         if (line_number > MAX_ENT
+      |                           ^~~~~~~
+      |                           MAX_ENTRIES
+./samples/SAFE/__tmp_fada89e6.c:134:27: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fada89e6.c:134:34: error: expected ‘)’ at end of input
+  134 |         if (line_number > MAX_ENT
+      |            ~                     ^
+      |                                  )
+./samples/SAFE/__tmp_fada89e6.c:134:9: error: expected declaration or statement at end of input
+  134 |         if (line_number > MAX_ENT
+      |         ^~
+./samples/SAFE/__tmp_fada89e6.c:134:9: error: expected declaration or statement at end of input

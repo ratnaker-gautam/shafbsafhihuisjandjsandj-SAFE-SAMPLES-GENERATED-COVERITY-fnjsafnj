@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_970e2370.c: In function ‘main’:
+./samples/SAFE/__tmp_970e2370.c:186:57: error: expected ‘)’ at end of input
+  186 |                 memcpy(ctx.buffer, input, ctx.buffer_len
+      |                       ~                                 ^
+      |                                                         )
+./samples/SAFE/__tmp_970e2370.c:186:17: error: expected declaration or statement at end of input
+  186 |                 memcpy(ctx.buffer, input, ctx.buffer_len
+      |                 ^~~~~~
+./samples/SAFE/__tmp_970e2370.c:186:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_970e2370.c:186:17: error: expected declaration or statement at end of input

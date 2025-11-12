@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_441275e9.c: In function ‘main’:
+./samples/SAFE/__tmp_441275e9.c:139:62: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols2’?
+  139 |     if (!read_positive_size("Enter columns for matrix B: ", &cols
+      |                                                              ^~~~
+      |                                                              cols2
+./samples/SAFE/__tmp_441275e9.c:139:62: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_441275e9.c:139:66: error: expected ‘)’ at end of input
+  139 |     if (!read_positive_size("Enter columns for matrix B: ", &cols
+      |                            ~                                     ^
+      |                                                                  )
+./samples/SAFE/__tmp_441275e9.c:139:5: error: expected declaration or statement at end of input
+  139 |     if (!read_positive_size("Enter columns for matrix B: ", &cols
+      |     ^~

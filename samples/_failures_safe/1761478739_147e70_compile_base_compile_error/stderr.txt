@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_3896a5b6.c: In function ‘main’:
+./samples/SAFE/__tmp_3896a5b6.c:156:13: error: expected expression at end of input
+  156 |             char command =
+      |             ^~~~
+./samples/SAFE/__tmp_3896a5b6.c:156:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3896a5b6.c:156:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3896a5b6.c:156:13: error: expected declaration or statement at end of input

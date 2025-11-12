@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0e50942b.c: In function ‘main’:
+./samples/SAFE/__tmp_0e50942b.c:148:5: error: expected declaration or statement at end of input
+  148 |     input_matrix(&mat2, "B");
+      |     ^~~~~~~~~~~~

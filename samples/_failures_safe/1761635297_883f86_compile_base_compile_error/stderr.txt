@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_99b8e20f.c: In function ‘process_compression’:
+./samples/SAFE/__tmp_99b8e20f.c:169:79: error: expected ‘)’ at end of input
+  169 |     if (decompressed.size == len && memcmp(decompressed.data, input_text, len)
+      |        ~                                                                      ^
+      |                                                                               )
+./samples/SAFE/__tmp_99b8e20f.c:169:5: error: expected declaration or statement at end of input
+  169 |     if (decompressed.size == len && memcmp(decompressed.data, input_text, len)
+      |     ^~

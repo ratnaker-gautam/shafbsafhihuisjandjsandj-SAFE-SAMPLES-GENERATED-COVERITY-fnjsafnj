@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7cc5b0d3.c: In function ‘main’:
+./samples/SAFE/__tmp_7cc5b0d3.c:166:25: error: expected ‘)’ at end of input
+  166 |         free_matrix(mat1
+      |                    ~    ^
+      |                         )
+./samples/SAFE/__tmp_7cc5b0d3.c:166:9: error: expected declaration or statement at end of input
+  166 |         free_matrix(mat1
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_7cc5b0d3.c:166:9: error: expected declaration or statement at end of input

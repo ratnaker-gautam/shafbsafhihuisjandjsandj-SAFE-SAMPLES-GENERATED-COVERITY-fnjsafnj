@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccNDhcLE.o: in function `main':
+__tmp_0366be21.c:(.text.startup+0x1db): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_0366be21.c:(.text.startup+0x246): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

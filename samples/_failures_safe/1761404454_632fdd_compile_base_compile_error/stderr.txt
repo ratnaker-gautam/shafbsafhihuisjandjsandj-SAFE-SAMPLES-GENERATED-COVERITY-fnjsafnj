@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f53dabfa.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_f53dabfa.c:166:15: error: expected ‘;’ at end of input
+  166 |         (*col)
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_f53dabfa.c:166:9: error: expected declaration or statement at end of input
+  166 |         (*col)
+      |         ^
+./samples/SAFE/__tmp_f53dabfa.c:166:9: error: expected declaration or statement at end of input

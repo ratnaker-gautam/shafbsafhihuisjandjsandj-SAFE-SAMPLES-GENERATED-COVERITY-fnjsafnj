@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_8f338bef.c: In function ‘main’:
+./samples/SAFE/__tmp_8f338bef.c:173:5: error: expected declaration or statement at end of input
+  173 |     printf("Compression ratio: %.2f%%\n", (1.0 - (double)compressed.length / original.length) * 100.0);
+      |     ^~~~~~

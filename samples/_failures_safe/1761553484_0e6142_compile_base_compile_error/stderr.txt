@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_03259a3d.c: In function ‘main’:
+./samples/SAFE/__tmp_03259a3d.c:138:12: error: missing terminating " character
+  138 |     printf("Press Ctrl+D (Unix) or Ctrl+Z (Windows) to finish
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_03259a3d.c:138:5: error: expected expression at end of input
+  138 |     printf("Press Ctrl+D (Unix) or Ctrl+Z (Windows) to finish
+      |     ^~~~~~
+./samples/SAFE/__tmp_03259a3d.c:138:5: error: expected declaration or statement at end of input

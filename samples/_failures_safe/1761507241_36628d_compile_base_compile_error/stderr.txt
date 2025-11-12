@@ -1,0 +1,26 @@
+./samples/SAFE/__tmp_2c0ace4b.c: In function ‘main’:
+./samples/SAFE/__tmp_2c0ace4b.c:176:19: error: expected ‘)’ at end of input
+  176 |     memset(context
+      |           ~       ^
+      |                   )
+./samples/SAFE/__tmp_2c0ace4b.c:176:12: error: incompatible type for argument 1 of ‘memset’
+  176 |     memset(context
+      |            ^~~~~~~
+      |            |
+      |            Context
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_2c0ace4b.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:57:1: note: expected ‘void *’ but argument is of type ‘Context’
+   57 | __NTH (memset (void *__dest, int __ch, size_t __len))
+      | ^~~~~
+./samples/SAFE/__tmp_2c0ace4b.c:176:5: error: too few arguments to function ‘memset’
+  176 |     memset(context
+      |     ^~~~~~
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:57:1: note: declared here
+   57 | __NTH (memset (void *__dest, int __ch, size_t __len))
+      | ^~~~~
+./samples/SAFE/__tmp_2c0ace4b.c:176:5: error: expected declaration or statement at end of input
+  176 |     memset(context
+      |     ^~~~~~

@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccGitbCO.o: in function `main':
+__tmp_3897366f.c:(.text.startup+0x1d9): undefined reference to `log'
+/usr/bin/ld: __tmp_3897366f.c:(.text.startup+0x1f6): undefined reference to `log'
+/usr/bin/ld: __tmp_3897366f.c:(.text.startup+0x4da): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

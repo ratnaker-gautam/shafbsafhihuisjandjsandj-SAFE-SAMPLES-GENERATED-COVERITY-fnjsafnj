@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_93634e99.c: In function ‘main’:
+./samples/SAFE/__tmp_93634e99.c:148:9: error: expected ‘,’ or ‘;’ at end of input
+  148 |         double ratio = (double)output.size / input.size
+      |         ^~~~~~
+./samples/SAFE/__tmp_93634e99.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_93634e99.c:148:9: error: expected declaration or statement at end of input

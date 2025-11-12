@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_73d85149.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_73d85149.c:152:40: error: expected ‘;’ at end of input
+  152 |         heap->array[v] = newMinHeapNode
+      |                                        ^
+      |                                        ;
+./samples/SAFE/__tmp_73d85149.c:152:9: error: expected declaration or statement at end of input
+  152 |         heap->array[v] = newMinHeapNode
+      |         ^~~~
+./samples/SAFE/__tmp_73d85149.c:152:9: error: expected declaration or statement at end of input

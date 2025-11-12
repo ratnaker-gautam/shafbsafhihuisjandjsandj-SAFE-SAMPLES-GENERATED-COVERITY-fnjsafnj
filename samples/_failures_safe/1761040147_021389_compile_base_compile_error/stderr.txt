@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccituTbx.o: in function `main':
+__tmp_6cc55156.c:(.text.startup+0x78): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

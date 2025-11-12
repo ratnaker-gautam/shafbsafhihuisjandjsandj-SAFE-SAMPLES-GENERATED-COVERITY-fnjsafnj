@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ee626c0c.c: In function ‘handle_state_machine’:
+./samples/SAFE/__tmp_ee626c0c.c:171:17: error: expected declaration or statement at end of input
+  171 |                 case EVENT_RESET:
+      |                 ^~~~
+./samples/SAFE/__tmp_ee626c0c.c:171:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ee626c0c.c:171:17: error: expected declaration or statement at end of input

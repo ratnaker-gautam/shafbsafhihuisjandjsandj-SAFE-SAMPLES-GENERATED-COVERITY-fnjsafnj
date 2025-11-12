@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b5f8d0ac.c: In function ‘main’:
+./samples/SAFE/__tmp_b5f8d0ac.c:119:5: error: expected expression at end of input
+  119 |     printf("Enter text to compress (max %d characters): ",
+      |     ^~~~~~
+./samples/SAFE/__tmp_b5f8d0ac.c:119:5: error: expected declaration or statement at end of input

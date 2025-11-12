@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5c292f4d.c: In function ‘main’:
+./samples/SAFE/__tmp_5c292f4d.c:144:5: error: expected declaration or statement at end of input
+  144 |     printf("=====================\n");
+      |     ^~~~~~

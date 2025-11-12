@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_df89fc5f.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_df89fc5f.c:147:13: error: expected expression at end of input
+  147 |             if (parser->current_token.type == TOKEN_IDENTIFIER ||
+      |             ^~
+./samples/SAFE/__tmp_df89fc5f.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_df89fc5f.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_df89fc5f.c:147:13: error: expected declaration or statement at end of input

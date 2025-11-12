@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_3ebc6d04.c: In function ‘simulate_data_writing’:
+./samples/SAFE/__tmp_3ebc6d04.c:152:56: error: expected ‘)’ at end of input
+  152 |         size_t written = fwrite(sm->buffer, 1, to_write
+      |                                ~                       ^
+      |                                                        )
+./samples/SAFE/__tmp_3ebc6d04.c:152:26: error: too few arguments to function ‘fwrite’
+  152 |         size_t written = fwrite(sm->buffer, 1, to_write
+      |                          ^~~~~~
+In file included from ./samples/SAFE/__tmp_3ebc6d04.c:2:
+/usr/include/stdio.h:745:15: note: declared here
+  745 | extern size_t fwrite (const void *__restrict __ptr, size_t __size,
+      |               ^~~~~~
+./samples/SAFE/__tmp_3ebc6d04.c:152:9: error: expected declaration or statement at end of input
+  152 |         size_t written = fwrite(sm->buffer, 1, to_write
+      |         ^~~~~~
+./samples/SAFE/__tmp_3ebc6d04.c:152:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6e31bb85.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_6e31bb85.c:154: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_6e31bb85.c:153:5: error: expected declaration or statement at end of input
+  153 |     } else if
+      |     ^

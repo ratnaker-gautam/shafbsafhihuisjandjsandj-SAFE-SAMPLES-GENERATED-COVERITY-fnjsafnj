@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_59f80b50.c: In function ‘main’:
+./samples/SAFE/__tmp_59f80b50.c:145:54: error: ‘mat’ undeclared (first use in this function); did you mean ‘mat2’?
+  145 |     struct Matrix result = multiply_matrices(&mat1, &mat
+      |                                                      ^~~
+      |                                                      mat2
+./samples/SAFE/__tmp_59f80b50.c:145:54: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_59f80b50.c:145:57: error: expected ‘)’ at end of input
+  145 |     struct Matrix result = multiply_matrices(&mat1, &mat
+      |                                             ~           ^
+      |                                                         )
+./samples/SAFE/__tmp_59f80b50.c:145:12: error: expected declaration or statement at end of input
+  145 |     struct Matrix result = multiply_matrices(&mat1, &mat
+      |            ^~~~~~

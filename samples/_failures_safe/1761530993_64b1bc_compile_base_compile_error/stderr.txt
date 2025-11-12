@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_45f04efb.c: In function ‘main’:
+./samples/SAFE/__tmp_45f04efb.c:172:12: error: missing terminating " character
+  172 |     printf("Enter code to tokenize (max 1023 chars
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_45f04efb.c:172:5: error: expected expression at end of input
+  172 |     printf("Enter code to tokenize (max 1023 chars
+      |     ^~~~~~
+./samples/SAFE/__tmp_45f04efb.c:172:5: error: expected declaration or statement at end of input

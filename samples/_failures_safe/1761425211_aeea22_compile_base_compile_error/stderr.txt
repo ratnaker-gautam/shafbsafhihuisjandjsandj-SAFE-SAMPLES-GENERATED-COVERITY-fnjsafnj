@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_78a92b04.c: In function ‘main’:
+./samples/SAFE/__tmp_78a92b04.c:151:78: error: ‘MAX’ undeclared (first use in this function)
+  151 |         int cols2 = read_int("Enter columns for second matrix (1-100): ", 1, MAX
+      |                                                                              ^~~
+./samples/SAFE/__tmp_78a92b04.c:151:78: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_78a92b04.c:151:81: error: expected ‘)’ at end of input
+  151 |         int cols2 = read_int("Enter columns for second matrix (1-100): ", 1, MAX
+      |                             ~                                                   ^
+      |                                                                                 )
+./samples/SAFE/__tmp_78a92b04.c:151:9: error: expected declaration or statement at end of input
+  151 |         int cols2 = read_int("Enter columns for second matrix (1-100): ", 1, MAX
+      |         ^~~
+./samples/SAFE/__tmp_78a92b04.c:151:9: error: expected declaration or statement at end of input

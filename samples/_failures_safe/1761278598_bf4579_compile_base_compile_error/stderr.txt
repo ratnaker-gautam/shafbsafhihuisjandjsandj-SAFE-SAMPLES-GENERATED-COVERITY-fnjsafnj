@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f4e20f61.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_f4e20f61.c:175:14: error: ‘STATE_FIN’ undeclared (first use in this function)
+  175 |         case STATE_FIN
+      |              ^~~~~~~~~
+./samples/SAFE/__tmp_f4e20f61.c:175:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f4e20f61.c:175:9: error: expected ‘:’ or ‘...’ at end of input
+  175 |         case STATE_FIN
+      |         ^~~~
+./samples/SAFE/__tmp_f4e20f61.c:175:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f4e20f61.c:175:9: error: expected declaration or statement at end of input

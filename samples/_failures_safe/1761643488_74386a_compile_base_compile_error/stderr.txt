@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8d092578.c: In function ‘main’:
+./samples/SAFE/__tmp_8d092578.c:166:55: error: expected ‘)’ at end of input
+  166 |            (1.0 - (double)compressed.size / input.size
+      |            ~                                          ^
+      |                                                       )
+./samples/SAFE/__tmp_8d092578.c:166:12: error: expected declaration or statement at end of input
+  166 |            (1.0 - (double)compressed.size / input.size
+      |            ^

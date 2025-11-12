@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ebe94adb.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_ebe94adb.c:146:9: error: expected expression at end of input
+  146 |         token_init(&token, TOKEN_ERROR,
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_ebe94adb.c:146:9: error: too few arguments to function ‘token_init’
+./samples/SAFE/__tmp_ebe94adb.c:50:6: note: declared here
+   50 | void token_init(struct Token *token, enum TokenType type, const char *value, int line, int column) {
+      |      ^~~~~~~~~~
+./samples/SAFE/__tmp_ebe94adb.c:146:9: error: expected declaration or statement at end of input
+  146 |         token_init(&token, TOKEN_ERROR,
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_ebe94adb.c:146:9: error: expected declaration or statement at end of input

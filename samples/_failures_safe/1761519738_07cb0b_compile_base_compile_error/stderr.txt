@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_9838c62d.c: In function ‘main’:
+./samples/SAFE/__tmp_9838c62d.c:142:5: error: aggregate value used where a floating-point was expected
+  142 |     double ratio = (1.0 - (double)compressed_buf
+      |     ^~~~~~
+./samples/SAFE/__tmp_9838c62d.c:142:49: error: expected ‘)’ at end of input
+  142 |     double ratio = (1.0 - (double)compressed_buf
+      |                    ~                            ^
+      |                                                 )
+./samples/SAFE/__tmp_9838c62d.c:142:5: error: expected declaration or statement at end of input
+  142 |     double ratio = (1.0 - (double)compressed_buf
+      |     ^~~~~~

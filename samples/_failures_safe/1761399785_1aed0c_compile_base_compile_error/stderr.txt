@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f74f4572.c: In function ‘main’:
+./samples/SAFE/__tmp_f74f4572.c:154:5: error: expected declaration or statement at end of input
+  154 |     int paris = graph_add_node(&g, "Paris");
+      |     ^~~

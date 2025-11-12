@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_ae3a26e7.c: In function ‘main’:
+./samples/SAFE/__tmp_ae3a26e7.c:157:30: error: expected ‘;’ at end of input
+  157 |             a.cols = read_int
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_ae3a26e7.c:157:13: error: expected declaration or statement at end of input
+  157 |             a.cols = read_int
+      |             ^
+./samples/SAFE/__tmp_ae3a26e7.c:157:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ae3a26e7.c:157:13: error: expected declaration or statement at end of input

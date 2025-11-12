@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_dc5be24f.c: In function ‘main’:
+./samples/SAFE/__tmp_dc5be24f.c:147:43: error: expected ‘;’ at end of input
+  147 |                     result[i][j] = matrix1
+      |                                           ^
+      |                                           ;
+./samples/SAFE/__tmp_dc5be24f.c:147:21: error: expected declaration or statement at end of input
+  147 |                     result[i][j] = matrix1
+      |                     ^~~~~~
+./samples/SAFE/__tmp_dc5be24f.c:147:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dc5be24f.c:147:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dc5be24f.c:147:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dc5be24f.c:147:21: error: expected declaration or statement at end of input

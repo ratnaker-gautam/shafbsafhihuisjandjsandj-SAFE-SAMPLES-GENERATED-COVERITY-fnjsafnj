@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_1837a41e.c: In function ‘main’:
+./samples/SAFE/__tmp_1837a41e.c:128:17: error: ‘overflow_det’ undeclared (first use in this function); did you mean ‘overflow_detected’?
+  128 |                 overflow_det
+      |                 ^~~~~~~~~~~~
+      |                 overflow_detected
+./samples/SAFE/__tmp_1837a41e.c:128:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1837a41e.c:128:29: error: expected ‘;’ at end of input
+  128 |                 overflow_det
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_1837a41e.c:128:17: error: expected declaration or statement at end of input
+  128 |                 overflow_det
+      |                 ^~~~~~~~~~~~
+./samples/SAFE/__tmp_1837a41e.c:128:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1837a41e.c:128:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1837a41e.c:128:17: error: expected declaration or statement at end of input

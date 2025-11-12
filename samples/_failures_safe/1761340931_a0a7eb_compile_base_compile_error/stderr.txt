@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_d3520ede.c: In function ‘read_matrix’:
+./samples/SAFE/__tmp_d3520ede.c:130:13: error: ‘MATRIX_SET’ undeclared (first use in this function)
+  130 |             MATRIX_SET
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_d3520ede.c:130:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d3520ede.c:130:23: error: expected ‘;’ at end of input
+  130 |             MATRIX_SET
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_d3520ede.c:130:13: error: expected declaration or statement at end of input
+  130 |             MATRIX_SET
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_d3520ede.c:130:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d3520ede.c:130:13: error: expected declaration or statement at end of input

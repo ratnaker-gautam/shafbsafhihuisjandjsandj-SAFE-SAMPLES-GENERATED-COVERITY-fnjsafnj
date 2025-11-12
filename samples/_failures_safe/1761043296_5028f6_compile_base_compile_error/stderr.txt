@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_b72a2415.c: In function ‘statistics_compute’:
+./samples/SAFE/__tmp_b72a2415.c:127:19: error: invalid operands to binary / (have ‘double’ and ‘const struct PointCloud *’)
+  127 |     stats->mean_y /= pc
+      |     ~~~~~~~~~~~~~ ^~
+      |          |
+      |          double
+./samples/SAFE/__tmp_b72a2415.c:127:24: error: expected ‘;’ at end of input
+  127 |     stats->mean_y /= pc
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_b72a2415.c:127:5: error: expected declaration or statement at end of input
+  127 |     stats->mean_y /= pc
+      |     ^~~~~

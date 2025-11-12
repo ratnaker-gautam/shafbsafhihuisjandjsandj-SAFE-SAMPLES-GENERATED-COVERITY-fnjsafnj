@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_67288da1.c: In function ‘main’:
+./samples/SAFE/__tmp_67288da1.c:160:42: error: expected ‘)’ at end of input
+  160 |                     if (process_event(&sm
+      |                                      ~   ^
+      |                                          )
+./samples/SAFE/__tmp_67288da1.c:160:25: error: too few arguments to function ‘process_event’
+  160 |                     if (process_event(&sm
+      |                         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_67288da1.c:97:5: note: declared here
+   97 | int process_event(struct StateMachine* sm, enum Event event) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_67288da1.c:160:21: error: expected declaration or statement at end of input
+  160 |                     if (process_event(&sm
+      |                     ^~
+./samples/SAFE/__tmp_67288da1.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_67288da1.c:160:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_67288da1.c:160:21: error: expected declaration or statement at end of input

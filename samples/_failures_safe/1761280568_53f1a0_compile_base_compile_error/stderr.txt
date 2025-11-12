@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_93cc71bb.c: In function ‘main’:
+./samples/SAFE/__tmp_93cc71bb.c:153:5: error: ‘mat’ undeclared (first use in this function); did you mean ‘mat2’?
+  153 |     mat
+      |     ^~~
+      |     mat2
+./samples/SAFE/__tmp_93cc71bb.c:153:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_93cc71bb.c:153:8: error: expected ‘;’ at end of input
+  153 |     mat
+      |        ^
+      |        ;
+./samples/SAFE/__tmp_93cc71bb.c:153:5: error: expected declaration or statement at end of input
+  153 |     mat
+      |     ^~~

@@ -1,0 +1,150 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: struct_heavy ; Variation: parser_tokenizer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+enum TokenType {
+    TOKEN_IDENTIFIER,
+    TOKEN_NUMBER,
+    TOKEN_OPERATOR,
+    TOKEN_STRING,
+    TOKEN_EOF,
+    TOKEN_UNKNOWN
+};
+
+struct Token {
+    enum TokenType type;
+    char value[64];
+    int line;
+    int column;
+};
+
+struct Lexer {
+    const char *input;
+    int position;
+    int line;
+    int column;
+    int length;
+};
+
+struct Parser {
+    struct Lexer *lexer;
+    struct Token current_token;
+    int error_count;
+};
+
+void lexer_init(struct Lexer *lexer, const char *input) {
+    if (lexer == NULL || input == NULL) return;
+    lexer->input = input;
+    lexer->position = 0;
+    lexer->line = 1;
+    lexer->column = 1;
+    lexer->length = strlen(input);
+}
+
+int lexer_is_eof(struct Lexer *lexer) {
+    if (lexer == NULL) return 1;
+    return lexer->position >= lexer->length;
+}
+
+char lexer_peek(struct Lexer *lexer) {
+    if (lexer == NULL || lexer_is_eof(lexer)) return '\0';
+    return lexer->input[lexer->position];
+}
+
+char lexer_advance(struct Lexer *lexer) {
+    if (lexer == NULL || lexer_is_eof(lexer)) return '\0';
+    char c = lexer->input[lexer->position++];
+    if (c == '\n') {
+        lexer->line++;
+        lexer->column = 1;
+    } else {
+        lexer->column++;
+    }
+    return c;
+}
+
+void lexer_skip_whitespace(struct Lexer *lexer) {
+    if (lexer == NULL) return;
+    while (!lexer_is_eof(lexer) && isspace(lexer_peek(lexer))) {
+        lexer_advance(lexer);
+    }
+}
+
+int is_operator_char(char c) {
+    return strchr("+-*/=<>!&|", c) != NULL;
+}
+
+void token_init(struct Token *token, enum TokenType type, const char *value, int line, int column) {
+    if (token == NULL || value == NULL) return;
+    token->type = type;
+    strncpy(token->value, value, sizeof(token->value) - 1);
+    token->value[sizeof(token->value) - 1] = '\0';
+    token->line = line;
+    token->column = column;
+}
+
+struct Token lexer_next_token(struct Lexer *lexer) {
+    struct Token token;
+    token_init(&token, TOKEN_UNKNOWN, "", lexer->line, lexer->column);
+    
+    if (lexer == NULL) return token;
+    
+    lexer_skip_whitespace(lexer);
+    if (lexer_is_eof(lexer)) {
+        token_init(&token, TOKEN_EOF, "", lexer->line, lexer->column);
+        return token;
+    }
+    
+    char c = lexer_peek(lexer);
+    int start_line = lexer->line;
+    int start_column = lexer->column;
+    
+    if (isalpha(c) || c == '_') {
+        char buffer[64] = {0};
+        int i = 0;
+        while (!lexer_is_eof(lexer) && (isalnum(c) || c == '_')) {
+            if (i < sizeof(buffer) - 1) {
+                buffer[i++] = c;
+            }
+            lexer_advance(lexer);
+            c = lexer_peek(lexer);
+        }
+        buffer[i] = '\0';
+        token_init(&token, TOKEN_IDENTIFIER, buffer, start_line, start_column);
+    } else if (isdigit(c)) {
+        char buffer[64] = {0};
+        int i = 0;
+        while (!lexer_is_eof(lexer) && (isdigit(c) || c == '.')) {
+            if (i < sizeof(buffer) - 1) {
+                buffer[i++] = c;
+            }
+            lexer_advance(lexer);
+            c = lexer_peek(lexer);
+        }
+        buffer[i] = '\0';
+        token_init(&token, TOKEN_NUMBER, buffer, start_line, start_column);
+    } else if (c == '"') {
+        char buffer[64] = {0};
+        int i = 0;
+        lexer_advance(lexer);
+        c = lexer_peek(lexer);
+        while (!lexer_is_eof(lexer) && c != '"') {
+            if (i < sizeof(buffer) - 1) {
+                buffer[i++] = c;
+            }
+            lexer_advance(lexer);
+            c = lexer_peek(lexer);
+        }
+        if (c == '"') {
+            lexer_advance(lexer);
+        }
+        buffer[i] = '\0';
+        token_init(&token, TOKEN_STRING, buffer, start_line, start_column);
+    } else if (is_operator_char(c)) {
+        char buffer[3] = {0};
+        buffer[0] = c;
+        lexer_advance(lexer);
+        c = lexer_peek(lexer);
+        if (is_operator_char

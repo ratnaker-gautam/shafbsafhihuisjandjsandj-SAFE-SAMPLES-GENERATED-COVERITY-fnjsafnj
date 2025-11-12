@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fece02ae.c: In function ‘main’:
+./samples/SAFE/__tmp_fece02ae.c:136:25: error: expected ‘;’ at end of input
+  136 |     mat2.cols = read_int
+      |                         ^
+      |                         ;
+./samples/SAFE/__tmp_fece02ae.c:136:5: error: expected declaration or statement at end of input
+  136 |     mat2.cols = read_int
+      |     ^~~~

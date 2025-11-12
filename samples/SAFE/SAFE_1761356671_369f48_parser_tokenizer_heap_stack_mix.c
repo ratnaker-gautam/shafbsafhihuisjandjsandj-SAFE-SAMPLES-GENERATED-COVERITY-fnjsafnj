@@ -1,0 +1,137 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: heap_stack_mix ; Variation: parser_tokenizer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_TOKENS 100
+#define MAX_TOKEN_LEN 50
+
+typedef enum {
+    TOKEN_NUMBER,
+    TOKEN_IDENTIFIER,
+    TOKEN_OPERATOR,
+    TOKEN_EOF
+} TokenType;
+
+typedef struct {
+    TokenType type;
+    char value[MAX_TOKEN_LEN];
+} Token;
+
+typedef struct {
+    Token tokens[MAX_TOKENS];
+    int count;
+} TokenList;
+
+TokenList* create_token_list() {
+    TokenList* list = malloc(sizeof(TokenList));
+    if (list == NULL) {
+        fprintf(stderr, "Memory allocation failed\n");
+        exit(1);
+    }
+    list->count = 0;
+    return list;
+}
+
+void free_token_list(TokenList* list) {
+    free(list);
+}
+
+int is_operator(char c) {
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '=';
+}
+
+void add_token(TokenList* list, TokenType type, const char* value) {
+    if (list->count >= MAX_TOKENS) {
+        fprintf(stderr, "Too many tokens\n");
+        return;
+    }
+    Token* token = &list->tokens[list->count];
+    token->type = type;
+    strncpy(token->value, value, MAX_TOKEN_LEN - 1);
+    token->value[MAX_TOKEN_LEN - 1] = '\0';
+    list->count++;
+}
+
+TokenList* tokenize(const char* input) {
+    TokenList* tokens = create_token_list();
+    int i = 0;
+    int len = strlen(input);
+    
+    while (i < len) {
+        if (isspace(input[i])) {
+            i++;
+            continue;
+        }
+        
+        if (isdigit(input[i])) {
+            char number[MAX_TOKEN_LEN] = {0};
+            int j = 0;
+            while (i < len && j < MAX_TOKEN_LEN - 1 && isdigit(input[i])) {
+                number[j++] = input[i++];
+            }
+            number[j] = '\0';
+            add_token(tokens, TOKEN_NUMBER, number);
+        }
+        else if (isalpha(input[i])) {
+            char identifier[MAX_TOKEN_LEN] = {0};
+            int j = 0;
+            while (i < len && j < MAX_TOKEN_LEN - 1 && (isalnum(input[i]) || input[i] == '_')) {
+                identifier[j++] = input[i++];
+            }
+            identifier[j] = '\0';
+            add_token(tokens, TOKEN_IDENTIFIER, identifier);
+        }
+        else if (is_operator(input[i])) {
+            char op[2] = {input[i++], '\0'};
+            add_token(tokens, TOKEN_OPERATOR, op);
+        }
+        else {
+            fprintf(stderr, "Invalid character: %c\n", input[i]);
+            i++;
+        }
+    }
+    
+    add_token(tokens, TOKEN_EOF, "");
+    return tokens;
+}
+
+void print_tokens(const TokenList* tokens) {
+    const char* type_names[] = {"NUMBER", "IDENTIFIER", "OPERATOR", "EOF"};
+    
+    for (int i = 0; i < tokens->count; i++) {
+        const Token* token = &tokens->tokens[i];
+        printf("Token %d: %s", i, type_names[token->type]);
+        if (token->type != TOKEN_EOF) {
+            printf(" (%s)", token->value);
+        }
+        printf("\n");
+    }
+}
+
+int main() {
+    char input[1024];
+    printf("Enter expression to tokenize: ");
+    
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Failed to read input\n");
+        return 1;
+    }
+    
+    size_t len = strlen(input);
+    if (len > 0 && input[len - 1] == '\n') {
+        input[len - 1] = '\0';
+    }
+    
+    if (strlen(input) == 0) {
+        fprintf(stderr, "Empty input\n");
+        return 1;
+    }
+    
+    TokenList* tokens = tokenize(input);
+    print_tokens(tokens);
+    free_token_list(tokens);
+    
+    return 0;
+}

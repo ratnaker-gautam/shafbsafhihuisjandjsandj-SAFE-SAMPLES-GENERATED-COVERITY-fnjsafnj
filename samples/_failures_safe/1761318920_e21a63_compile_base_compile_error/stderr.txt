@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_2c553399.c: In function ‘main’:
+./samples/SAFE/__tmp_2c553399.c:164:24: error: ‘MAX’ undeclared (first use in this function)
+  164 |     if (token_count >= MAX
+      |                        ^~~
+./samples/SAFE/__tmp_2c553399.c:164:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2c553399.c:164:27: error: expected ‘)’ at end of input
+  164 |     if (token_count >= MAX
+      |        ~                  ^
+      |                           )
+./samples/SAFE/__tmp_2c553399.c:164:5: error: expected declaration or statement at end of input
+  164 |     if (token_count >= MAX
+      |     ^~

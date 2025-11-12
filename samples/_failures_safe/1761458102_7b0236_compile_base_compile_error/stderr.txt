@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2bc04c8f.c: In function ‘main’:
+./samples/SAFE/__tmp_2bc04c8f.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (!compare_buffers(input_data, decompressed, input_len)) {
+      |     ^~
+./samples/SAFE/__tmp_2bc04c8f.c:151:5: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_e209dbdc.c: In function ‘write_data’:
+./samples/SAFE/__tmp_e209dbdc.c:144:10: error: ‘size’ undeclared (first use in this function); did you mean ‘size_t’?
+  144 |     for (size
+      |          ^~~~
+      |          size_t
+./samples/SAFE/__tmp_e209dbdc.c:144:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e209dbdc.c:144:14: error: expected ‘;’ at end of input
+  144 |     for (size
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_e209dbdc.c:144:5: error: expected declaration or statement at end of input
+  144 |     for (size
+      |     ^~~

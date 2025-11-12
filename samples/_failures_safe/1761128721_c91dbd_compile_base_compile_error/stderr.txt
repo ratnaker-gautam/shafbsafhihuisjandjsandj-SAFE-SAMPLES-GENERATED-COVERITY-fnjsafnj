@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a1393460.c: In function ‘main’:
+./samples/SAFE/__tmp_a1393460.c:130:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  130 |     struct Matrix mat1, mat2
+      |            ^~~~~~
+./samples/SAFE/__tmp_a1393460.c:130:12: error: expected declaration or statement at end of input

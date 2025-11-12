@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_d022936f.c: In function ‘main’:
+./samples/SAFE/__tmp_d022936f.c:166:24: error: expected ‘)’ at end of input
+  166 |     print_tokens(tokens
+      |                 ~      ^
+      |                        )
+./samples/SAFE/__tmp_d022936f.c:166:5: error: too few arguments to function ‘print_tokens’
+  166 |     print_tokens(tokens
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_d022936f.c:131:6: note: declared here
+  131 | void print_tokens(const struct Token *tokens, int count) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_d022936f.c:166:5: error: expected declaration or statement at end of input
+  166 |     print_tokens(tokens
+      |     ^~~~~~~~~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b8e18976.c: In function ‘main’:
+./samples/SAFE/__tmp_b8e18976.c:158:9: error: expected declaration or statement at end of input
+  158 |         printf("Graph is acyclic\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_b8e18976.c:158:9: error: expected declaration or statement at end of input

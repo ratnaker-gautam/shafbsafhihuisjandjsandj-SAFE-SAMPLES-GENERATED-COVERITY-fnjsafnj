@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_af51cb6a.c: In function ‘main’:
+./samples/SAFE/__tmp_af51cb6a.c:162:9: error: expected declaration or statement at end of input
+  162 |         printf("Input and output files cannot be the same\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_af51cb6a.c:162:9: error: expected declaration or statement at end of input

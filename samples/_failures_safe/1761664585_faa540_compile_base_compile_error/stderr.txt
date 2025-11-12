@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_cdeec47e.c: In function ‘main’:
+./samples/SAFE/__tmp_cdeec47e.c:160:17: error: expected expression at end of input
+  160 |                 memcmp(test_data,
+      |                 ^~~~~~
+./samples/SAFE/__tmp_cdeec47e.c:160:17: error: too few arguments to function ‘memcmp’
+In file included from ./samples/SAFE/__tmp_cdeec47e.c:4:
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_cdeec47e.c:160:17: error: expected declaration or statement at end of input
+  160 |                 memcmp(test_data,
+      |                 ^~~~~~
+./samples/SAFE/__tmp_cdeec47e.c:160:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cdeec47e.c:160:17: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_460ad33f.c: In function ‘main’:
+./samples/SAFE/__tmp_460ad33f.c:142:5: error: expected declaration or statement at end of input
+  142 |     printf("Generating %d sample log entries...\n", log_count);
+      |     ^~~~~~

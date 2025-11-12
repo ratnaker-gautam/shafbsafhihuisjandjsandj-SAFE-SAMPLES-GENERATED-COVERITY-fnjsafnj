@@ -1,0 +1,15 @@
+
+
+=================================================================
+==79272==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 1024 byte(s) in 1 object(s) allocated from:
+    #0 0x7f572b8fd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69
+    #1 0x558d04ffbe0f in get_user_input samples/SAFE/__tmp_2ace7544.c:90
+    #2 0x558d04ffbfc9 in process_compression samples/SAFE/__tmp_2ace7544.c:114
+    #3 0x558d04ffc1f7 in main samples/SAFE/__tmp_2ace7544.c:155
+    #4 0x7f572ac2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x7f572ac2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x558d04ffb2a4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_2ace7544.c.san+0x22a4) (BuildId: 07a0738e20e99660353380d1ea1dac1ddadc8509)
+
+SUMMARY: AddressSanitizer: 1024 byte(s) leaked in 1 allocation(s).

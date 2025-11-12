@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_1490a686.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_1490a686.c:124:25: error: expected expression at end of input
+  124 |                         if (val_b > INT_MIN / val_a || val_b < INT_MAX /
+      |                         ^~
+./samples/SAFE/__tmp_1490a686.c:124:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1490a686.c:124:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1490a686.c:124:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1490a686.c:124:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1490a686.c:124:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1490a686.c:124:25: error: expected declaration or statement at end of input

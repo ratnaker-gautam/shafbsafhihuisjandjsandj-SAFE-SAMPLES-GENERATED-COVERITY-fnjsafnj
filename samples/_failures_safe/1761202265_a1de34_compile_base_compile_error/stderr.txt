@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a809a0f6.c: In function ‘main’:
+./samples/SAFE/__tmp_a809a0f6.c:161:5: error: expected declaration or statement at end of input
+  161 |     bfs(&g, bfs_start);
+      |     ^~~

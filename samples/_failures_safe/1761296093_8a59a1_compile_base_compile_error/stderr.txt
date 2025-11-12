@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5e1bcf62.c: In function ‘main’:
+./samples/SAFE/__tmp_5e1bcf62.c:166:5: error: expected expression at end of input
+  166 |     if (node_a < 0 || node_b <
+      |     ^~
+./samples/SAFE/__tmp_5e1bcf62.c:166:5: error: expected declaration or statement at end of input

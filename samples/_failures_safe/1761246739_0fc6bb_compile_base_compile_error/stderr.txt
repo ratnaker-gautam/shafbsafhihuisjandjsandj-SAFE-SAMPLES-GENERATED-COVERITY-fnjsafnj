@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_039c9477.c: In function ‘main’:
+./samples/SAFE/__tmp_039c9477.c:161:21: error: ‘mult’ undeclared (first use in this function)
+  161 |                 if (mult
+      |                     ^~~~
+./samples/SAFE/__tmp_039c9477.c:161:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_039c9477.c:161:25: error: expected ‘)’ at end of input
+  161 |                 if (mult
+      |                    ~    ^
+      |                         )
+./samples/SAFE/__tmp_039c9477.c:161:17: error: expected declaration or statement at end of input
+  161 |                 if (mult
+      |                 ^~
+./samples/SAFE/__tmp_039c9477.c:161:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_039c9477.c:161:17: error: expected declaration or statement at end of input

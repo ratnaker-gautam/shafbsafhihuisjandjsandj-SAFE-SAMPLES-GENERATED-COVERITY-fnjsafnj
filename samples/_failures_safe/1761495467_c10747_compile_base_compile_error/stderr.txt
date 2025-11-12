@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3e3278ba.c: In function ‘boundingbox_from_vertices’:
+./samples/SAFE/__tmp_3e3278ba.c:138:41: error: expected ‘)’ at end of input
+  138 |         if (vertices[i].x < result.min.x
+      |            ~                            ^
+      |                                         )
+./samples/SAFE/__tmp_3e3278ba.c:138:9: error: expected declaration or statement at end of input
+  138 |         if (vertices[i].x < result.min.x
+      |         ^~
+./samples/SAFE/__tmp_3e3278ba.c:138:9: error: expected declaration or statement at end of input

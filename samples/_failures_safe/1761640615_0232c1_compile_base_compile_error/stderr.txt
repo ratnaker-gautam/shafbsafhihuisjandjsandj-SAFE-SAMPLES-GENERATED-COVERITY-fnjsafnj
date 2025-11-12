@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_3febabac.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_3febabac.c:140:34: error: expected ‘;’ at end of input
+  140 |             for (int k = 0; k < a
+      |                                  ^
+      |                                  ;
+./samples/SAFE/__tmp_3febabac.c:140:13: error: expected declaration or statement at end of input
+  140 |             for (int k = 0; k < a
+      |             ^~~
+./samples/SAFE/__tmp_3febabac.c:140:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3febabac.c:140:13: error: expected declaration or statement at end of input

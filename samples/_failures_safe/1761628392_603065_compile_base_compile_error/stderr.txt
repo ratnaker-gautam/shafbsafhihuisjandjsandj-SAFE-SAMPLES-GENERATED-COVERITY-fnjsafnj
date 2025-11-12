@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_c82cbe53.c: In function ‘main’:
+./samples/SAFE/__tmp_c82cbe53.c:155:30: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  155 |     if (decompressed.size != input
+      |                              ^~~~~
+      |                              int
+./samples/SAFE/__tmp_c82cbe53.c:155:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c82cbe53.c:155:35: error: expected ‘)’ at end of input
+  155 |     if (decompressed.size != input
+      |        ~                          ^
+      |                                   )
+./samples/SAFE/__tmp_c82cbe53.c:155:5: error: expected declaration or statement at end of input
+  155 |     if (decompressed.size != input
+      |     ^~

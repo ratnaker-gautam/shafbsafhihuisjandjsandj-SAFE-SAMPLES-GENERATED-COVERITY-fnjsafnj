@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_87bb85df.c: In function ‘main’:
+./samples/SAFE/__tmp_87bb85df.c:129:21: error: expected declaration or statement at end of input
+  129 |                     heap_add(&heap_logs, timestamp, level, message);
+      |                     ^~~~~~~~
+./samples/SAFE/__tmp_87bb85df.c:129:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_87bb85df.c:129:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_87bb85df.c:129:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_87bb85df.c:129:21: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_df6a54c2.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_df6a54c2.c:133:17: error: expected declaration or statement at end of input
+  133 |                 sum += product;
+      |                 ^~~
+./samples/SAFE/__tmp_df6a54c2.c:133:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_df6a54c2.c:133:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_df6a54c2.c:133:17: error: expected declaration or statement at end of input

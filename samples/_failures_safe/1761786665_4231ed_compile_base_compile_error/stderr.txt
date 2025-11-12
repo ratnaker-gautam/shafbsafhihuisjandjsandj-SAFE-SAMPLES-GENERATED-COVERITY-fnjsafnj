@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0f1d8e16.c: In function ‘main’:
+./samples/SAFE/__tmp_0f1d8e16.c:148:5: error: expected declaration or statement at end of input
+  148 |     execute_operation(&g, dijkstra_operation, 0, 5);
+      |     ^~~~~~~~~~~~~~~~~

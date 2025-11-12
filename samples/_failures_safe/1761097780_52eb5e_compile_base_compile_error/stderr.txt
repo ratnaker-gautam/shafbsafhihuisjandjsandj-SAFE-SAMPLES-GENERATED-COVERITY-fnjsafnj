@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8f03c56d.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_8f03c56d.c:155:24: error: expected ‘,’ or ‘;’ at end of input
+  155 |                 struct GraphNode *neighbor = g->edges
+      |                        ^~~~~~~~~
+./samples/SAFE/__tmp_8f03c56d.c:155:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8f03c56d.c:155:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8f03c56d.c:155:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8f03c56d.c:155:24: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d6659649.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_d6659649.c:152:13: error: expected declaration or statement at end of input
+  152 |             token_init(token, TOKEN_DELIMITER, buffer, lexer->line, start_col);
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_d6659649.c:152:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d6659649.c:152:13: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d25e4f2f.c: In function ‘main’:
+./samples/SAFE/__tmp_d25e4f2f.c:146:5: error: expected declaration or statement at end of input
+  146 |     operation = read_int("Select operation (1-4): ", 1, 4);
+      |     ^~~~~~~~~

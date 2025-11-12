@@ -1,0 +1,7 @@
+
+samples/SAFE/__tmp_c2dea302.c:131:13: runtime error: index 5 out of bounds for type '<unknown> *[4]'
+    #0 0x5634c0aaaf97 in main samples/SAFE/__tmp_c2dea302.c:131
+    #1 0x7ceeb982a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #2 0x7ceeb982a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x5634c0aa93a4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_c2dea302.c.san+0x53a4) (BuildId: 38796c7bbabb874773ba88141ba64ad0f35e0e1c)
+

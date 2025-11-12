@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a6c8397b.c: In function ‘matrix_determinant_recursive’:
+./samples/SAFE/__tmp_a6c8397b.c:130:9: error: expected expression at end of input
+  130 |         for (int i = 1;
+      |         ^~~
+./samples/SAFE/__tmp_a6c8397b.c:130:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a6c8397b.c:130:9: error: expected declaration or statement at end of input

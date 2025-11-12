@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e063d733.c: In function ‘queue_dequeue’:
+./samples/SAFE/__tmp_e063d733.c:184:15: error: expected ‘)’ at end of input
+  184 |     if (!queue
+      |        ~      ^
+      |               )
+./samples/SAFE/__tmp_e063d733.c:184:5: error: expected declaration or statement at end of input
+  184 |     if (!queue
+      |     ^~

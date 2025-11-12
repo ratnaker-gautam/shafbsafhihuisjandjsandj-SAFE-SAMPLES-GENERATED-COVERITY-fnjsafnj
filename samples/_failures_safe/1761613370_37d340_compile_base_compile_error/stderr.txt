@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5225ec8d.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_5225ec8d.c:172:25: error: expected ‘)’ at end of input
+  172 |         if (current_node
+      |            ~            ^
+      |                         )
+./samples/SAFE/__tmp_5225ec8d.c:172:9: error: expected declaration or statement at end of input
+  172 |         if (current_node
+      |         ^~
+./samples/SAFE/__tmp_5225ec8d.c:172:9: error: expected declaration or statement at end of input

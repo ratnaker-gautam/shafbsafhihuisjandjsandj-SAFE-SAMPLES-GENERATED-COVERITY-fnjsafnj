@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_1201b67f.c: In function ‘main’:
+./samples/SAFE/__tmp_1201b67f.c:132:62: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols2’?
+  132 |     if (scanf("%d %d", &rows1, &cols1) != 2 || rows1 <= 0 || cols
+      |                                                              ^~~~
+      |                                                              cols2
+./samples/SAFE/__tmp_1201b67f.c:132:62: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1201b67f.c:132:66: error: expected ‘)’ at end of input
+  132 |     if (scanf("%d %d", &rows1, &cols1) != 2 || rows1 <= 0 || cols
+      |        ~                                                         ^
+      |                                                                  )
+./samples/SAFE/__tmp_1201b67f.c:132:5: error: expected declaration or statement at end of input
+  132 |     if (scanf("%d %d", &rows1, &cols1) != 2 || rows1 <= 0 || cols
+      |     ^~

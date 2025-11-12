@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_35827658.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_35827658.c:159:5: error: expected expression at end of input
+  159 |     token->line =
+      |     ^~~~~
+./samples/SAFE/__tmp_35827658.c:159:5: error: expected declaration or statement at end of input

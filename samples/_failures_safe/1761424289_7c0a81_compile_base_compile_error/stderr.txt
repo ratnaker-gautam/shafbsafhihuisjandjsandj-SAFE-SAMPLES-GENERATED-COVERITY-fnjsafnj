@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_53cc07a5.c: In function ‘main’:
+./samples/SAFE/__tmp_53cc07a5.c:141:9: error: ‘buffer’ undeclared (first use in this function); did you mean ‘Buffer’?
+  141 |         buffer
+      |         ^~~~~~
+      |         Buffer
+./samples/SAFE/__tmp_53cc07a5.c:141:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_53cc07a5.c:141:15: error: expected ‘;’ at end of input
+  141 |         buffer
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_53cc07a5.c:141:9: error: expected declaration or statement at end of input
+  141 |         buffer
+      |         ^~~~~~
+./samples/SAFE/__tmp_53cc07a5.c:141:9: error: expected declaration or statement at end of input

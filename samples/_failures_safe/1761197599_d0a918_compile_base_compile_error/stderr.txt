@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_29f1d556.c: In function ‘main’:
+./samples/SAFE/__tmp_29f1d556.c:150:13: error: expected declaration or statement at end of input
+  150 |             mat1.cols = read_int("Enter columns for matrix 1: ", 1, MAX_SIZE);
+      |             ^~~~
+./samples/SAFE/__tmp_29f1d556.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_29f1d556.c:150:13: error: expected declaration or statement at end of input

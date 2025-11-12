@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_96361202.c: In function ‘matrix_input’:
+./samples/SAFE/__tmp_96361202.c:114:63: error: ‘MAX’ undeclared (first use in this function)
+  114 |     m->cols = read_int("Enter number of columns (1-10): ", 1, MAX
+      |                                                               ^~~
+./samples/SAFE/__tmp_96361202.c:114:63: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_96361202.c:114:66: error: expected ‘)’ at end of input
+  114 |     m->cols = read_int("Enter number of columns (1-10): ", 1, MAX
+      |                       ~                                          ^
+      |                                                                  )
+./samples/SAFE/__tmp_96361202.c:114:5: error: expected declaration or statement at end of input
+  114 |     m->cols = read_int("Enter number of columns (1-10): ", 1, MAX
+      |     ^

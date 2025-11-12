@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_317bebfb.c: In function ‘compress_data’:
+./samples/SAFE/__tmp_317bebfb.c:152:44: error: expected ‘;’ at end of input
+  152 |             compressed_size = compress_none
+      |                                            ^
+      |                                            ;
+./samples/SAFE/__tmp_317bebfb.c:152:13: error: expected declaration or statement at end of input
+  152 |             compressed_size = compress_none
+      |             ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_317bebfb.c:152:13: error: expected declaration or statement at end of input

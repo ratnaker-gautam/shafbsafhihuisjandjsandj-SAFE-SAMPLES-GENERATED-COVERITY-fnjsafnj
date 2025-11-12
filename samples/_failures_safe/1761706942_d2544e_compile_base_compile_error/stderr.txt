@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_cf9aff90.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_cf9aff90.c:114:29: error: expected declaration or statement at end of input
+  114 |                             if (val_b == INT_MIN) return 0;
+      |                             ^~
+./samples/SAFE/__tmp_cf9aff90.c:114:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cf9aff90.c:114:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cf9aff90.c:114:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cf9aff90.c:114:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cf9aff90.c:114:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cf9aff90.c:114:29: error: expected declaration or statement at end of input

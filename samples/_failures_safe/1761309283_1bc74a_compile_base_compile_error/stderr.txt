@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c0f248de.c: In function ‘main’:
+./samples/SAFE/__tmp_c0f248de.c:171:9: error: expected expression at end of input
+  171 |         if (add_node(&g, name) ==
+      |         ^~
+./samples/SAFE/__tmp_c0f248de.c:171:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c0f248de.c:171:9: error: expected declaration or statement at end of input

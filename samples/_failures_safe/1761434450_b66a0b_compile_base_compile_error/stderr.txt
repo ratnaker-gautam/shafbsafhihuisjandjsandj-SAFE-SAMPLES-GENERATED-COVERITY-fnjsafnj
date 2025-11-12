@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_cb76cea8.c: In function ‘print_token_type’:
+./samples/SAFE/__tmp_cb76cea8.c:165:9: error: expected declaration or statement at end of input
+  165 |         case TOKEN_OPERATOR:
+      |         ^~~~
+./samples/SAFE/__tmp_cb76cea8.c:165:9: error: expected declaration or statement at end of input

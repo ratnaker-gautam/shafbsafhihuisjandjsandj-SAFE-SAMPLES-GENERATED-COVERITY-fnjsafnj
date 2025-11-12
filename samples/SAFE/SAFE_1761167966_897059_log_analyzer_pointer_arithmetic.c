@@ -1,0 +1,125 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: pointer_arithmetic ; Variation: log_analyzer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <time.h>
+
+#define MAX_LINE_LEN 1024
+#define MAX_ENTRIES 1000
+
+struct LogEntry {
+    char timestamp[32];
+    char level[16];
+    char message[256];
+};
+
+int parse_timestamp(const char *str, struct tm *tm) {
+    return sscanf(str, "%d-%d-%d %d:%d:%d",
+                  &tm->tm_year, &tm->tm_mon, &tm->tm_mday,
+                  &tm->tm_hour, &tm->tm_min, &tm->tm_sec) == 6;
+}
+
+int is_valid_level(const char *level) {
+    const char *valid[] = {"INFO", "WARN", "ERROR", "DEBUG"};
+    for (size_t i = 0; i < 4; i++) {
+        if (strcmp(level, valid[i]) == 0) return 1;
+    }
+    return 0;
+}
+
+int read_log_entry(FILE *file, struct LogEntry *entry) {
+    char line[MAX_LINE_LEN];
+    if (fgets(line, sizeof(line), file) == NULL) return 0;
+    
+    char *ptr = line;
+    while (*ptr && isspace(*ptr)) ptr++;
+    if (!*ptr) return 0;
+    
+    char *timestamp_end = strchr(ptr, ' ');
+    if (!timestamp_end || (timestamp_end - ptr) >= 32) return 0;
+    strncpy(entry->timestamp, ptr, timestamp_end - ptr);
+    entry->timestamp[timestamp_end - ptr] = '\0';
+    
+    ptr = timestamp_end + 1;
+    while (*ptr && isspace(*ptr)) ptr++;
+    if (!*ptr) return 0;
+    
+    char *level_end = strchr(ptr, ' ');
+    if (!level_end || (level_end - ptr) >= 16) return 0;
+    strncpy(entry->level, ptr, level_end - ptr);
+    entry->level[level_end - ptr] = '\0';
+    if (!is_valid_level(entry->level)) return 0;
+    
+    ptr = level_end + 1;
+    while (*ptr && isspace(*ptr)) ptr++;
+    if (!*ptr) return 0;
+    
+    char *newline = strchr(ptr, '\n');
+    if (newline) *newline = '\0';
+    size_t msg_len = strlen(ptr);
+    if (msg_len >= 256) return 0;
+    strcpy(entry->message, ptr);
+    
+    return 1;
+}
+
+void analyze_logs(struct LogEntry *logs, size_t count) {
+    int level_counts[4] = {0};
+    const char *levels[] = {"INFO", "WARN", "ERROR", "DEBUG"};
+    
+    for (size_t i = 0; i < count; i++) {
+        for (int j = 0; j < 4; j++) {
+            if (strcmp(logs[i].level, levels[j]) == 0) {
+                level_counts[j]++;
+                break;
+            }
+        }
+    }
+    
+    printf("Log Analysis Results:\n");
+    printf("====================\n");
+    for (int i = 0; i < 4; i++) {
+        printf("%s: %d\n", levels[i], level_counts[i]);
+    }
+    printf("Total entries: %zu\n", count);
+}
+
+int main(void) {
+    struct LogEntry logs[MAX_ENTRIES];
+    size_t count = 0;
+    
+    printf("Enter log entries (format: YYYY-MM-DD HH:MM:SS LEVEL message)\n");
+    printf("Enter empty line to finish\n");
+    
+    while (count < MAX_ENTRIES) {
+        printf("Entry %zu: ", count + 1);
+        
+        struct LogEntry entry;
+        if (!read_log_entry(stdin, &entry)) {
+            char buffer[MAX_LINE_LEN];
+            if (fgets(buffer, sizeof(buffer), stdin)) {
+                if (buffer[0] == '\n') break;
+            }
+            printf("Invalid format. Use: YYYY-MM-DD HH:MM:SS LEVEL message\n");
+            continue;
+        }
+        
+        struct tm tm;
+        if (!parse_timestamp(entry.timestamp, &tm)) {
+            printf("Invalid timestamp format\n");
+            continue;
+        }
+        
+        logs[count] = entry;
+        count++;
+    }
+    
+    if (count > 0) {
+        analyze_logs(logs, count);
+    } else {
+        printf("No valid log entries provided\n");
+    }
+    
+    return 0;
+}

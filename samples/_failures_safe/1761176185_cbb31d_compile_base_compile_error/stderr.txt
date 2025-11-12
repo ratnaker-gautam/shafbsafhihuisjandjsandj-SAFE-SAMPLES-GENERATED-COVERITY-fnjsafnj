@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c408d68b.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_c408d68b.c:159:27: error: ‘TO’ undeclared (first use in this function)
+  159 |             token->type = TO
+      |                           ^~
+./samples/SAFE/__tmp_c408d68b.c:159:27: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c408d68b.c:159:29: error: expected ‘;’ at end of input
+  159 |             token->type = TO
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_c408d68b.c:159:13: error: expected declaration or statement at end of input
+  159 |             token->type = TO
+      |             ^~~~~
+./samples/SAFE/__tmp_c408d68b.c:159:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c408d68b.c:159:13: error: expected declaration or statement at end of input

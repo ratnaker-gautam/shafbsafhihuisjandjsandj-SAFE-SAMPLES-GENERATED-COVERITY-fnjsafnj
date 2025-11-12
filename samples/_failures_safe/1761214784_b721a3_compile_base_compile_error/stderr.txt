@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_6e1c31e1.c: In function ‘main’:
+./samples/SAFE/__tmp_6e1c31e1.c:154:5: error: expected expression at end of input
+  154 |     add_transition(sm, paused,
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6e1c31e1.c:154:5: error: too few arguments to function ‘add_transition’
+./samples/SAFE/__tmp_6e1c31e1.c:97:5: note: declared here
+   97 | int add_transition(StateMachine *sm, int from_state, int to_state, int event_id) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6e1c31e1.c:154:5: error: expected declaration or statement at end of input
+  154 |     add_transition(sm, paused,
+      |     ^~~~~~~~~~~~~~

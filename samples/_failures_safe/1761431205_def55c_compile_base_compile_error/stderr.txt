@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_19318dcc.c: In function ‘token_type_name’:
+./samples/SAFE/__tmp_19318dcc.c:151:16: error: expected ‘:’ at end of input
+  151 |         default
+      |                ^
+      |                :
+./samples/SAFE/__tmp_19318dcc.c:151:9: error: expected declaration or statement at end of input
+  151 |         default
+      |         ^~~~~~~
+./samples/SAFE/__tmp_19318dcc.c:151:9: error: expected declaration or statement at end of input

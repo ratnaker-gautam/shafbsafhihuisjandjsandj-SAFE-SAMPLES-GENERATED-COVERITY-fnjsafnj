@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c65da126.c: In function ‘main’:
+./samples/SAFE/__tmp_c65da126.c:160:97: error: expected ‘)’ at end of input
+  160 |     if (decompressed_len != (size_t)input_len || memcmp(input_data, decompressed_data, input_len
+      |                                                        ~                                        ^
+      |                                                                                                 )
+./samples/SAFE/__tmp_c65da126.c:160:5: error: expected declaration or statement at end of input
+  160 |     if (decompressed_len != (size_t)input_len || memcmp(input_data, decompressed_data, input_len
+      |     ^~

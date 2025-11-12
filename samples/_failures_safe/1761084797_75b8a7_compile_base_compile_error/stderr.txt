@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_f25c6f97.c: In function ‘bfs’:
+./samples/SAFE/__tmp_f25c6f97.c:180:21: error: ‘en’ undeclared (first use in this function)
+  180 |                     en
+      |                     ^~
+./samples/SAFE/__tmp_f25c6f97.c:180:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f25c6f97.c:180:23: error: expected ‘;’ at end of input
+  180 |                     en
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_f25c6f97.c:180:21: error: expected declaration or statement at end of input
+  180 |                     en
+      |                     ^~
+./samples/SAFE/__tmp_f25c6f97.c:180:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f25c6f97.c:180:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f25c6f97.c:180:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f25c6f97.c:180:21: error: expected declaration or statement at end of input

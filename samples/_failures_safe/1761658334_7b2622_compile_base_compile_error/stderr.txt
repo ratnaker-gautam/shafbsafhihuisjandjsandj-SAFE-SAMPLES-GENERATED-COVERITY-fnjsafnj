@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c3ecf444.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_c3ecf444.c:156:5: error: expected declaration or statement at end of input
+  156 |     printf("Shortest distances from node %d:\n", start);
+      |     ^~~~~~

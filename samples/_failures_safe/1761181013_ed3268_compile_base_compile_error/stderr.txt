@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_d08aae3a.c:175:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  175 | int main
+      | ^~~

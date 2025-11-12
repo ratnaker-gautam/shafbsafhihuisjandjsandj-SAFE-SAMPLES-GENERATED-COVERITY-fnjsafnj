@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0c154b29.c: In function ‘main’:
+./samples/SAFE/__tmp_0c154b29.c:154:17: error: expected expression at end of input
+  154 |                 return
+      |                 ^~~~~~
+./samples/SAFE/__tmp_0c154b29.c:154:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c154b29.c:154:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c154b29.c:154:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c154b29.c:154:17: error: expected declaration or statement at end of input

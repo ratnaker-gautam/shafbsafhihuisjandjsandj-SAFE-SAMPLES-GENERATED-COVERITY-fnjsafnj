@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0f4b70e4.c: In function ‘main’:
+./samples/SAFE/__tmp_0f4b70e4.c:180:12: error: missing terminating " character
+  180 |     printf("Available events:\
+      |            ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_0f4b70e4.c:180:5: error: expected expression at end of input
+  180 |     printf("Available events:\
+      |     ^~~~~~
+./samples/SAFE/__tmp_0f4b70e4.c:180:5: error: expected declaration or statement at end of input

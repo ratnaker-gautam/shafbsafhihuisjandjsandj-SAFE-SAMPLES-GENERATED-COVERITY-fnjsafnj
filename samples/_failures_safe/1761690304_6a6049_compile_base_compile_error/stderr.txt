@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_866eee36.c: In function ‘load_log_file’:
+./samples/SAFE/__tmp_866eee36.c:125:34: error: missing terminating " character
+  125 |     FILE *file = fopen(filename, "
+      |                                  ^
+./samples/SAFE/__tmp_866eee36.c:125:5: error: expected expression at end of input
+  125 |     FILE *file = fopen(filename, "
+      |     ^~~~
+./samples/SAFE/__tmp_866eee36.c:125:5: error: expected declaration or statement at end of input

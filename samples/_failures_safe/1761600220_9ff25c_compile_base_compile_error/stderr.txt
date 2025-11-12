@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_2fe14a36.c:180:1: error: expected ‘{’ at end of input
+  180 | void freeGraph(struct
+      | ^~~~

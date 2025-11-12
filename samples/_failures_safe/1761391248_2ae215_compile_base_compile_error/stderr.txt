@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_1e473372.c: In function ‘main’:
+./samples/SAFE/__tmp_1e473372.c:138:12: error: ‘create’ undeclared (first use in this function)
+  138 |     mat2 = create
+      |            ^~~~~~
+./samples/SAFE/__tmp_1e473372.c:138:12: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1e473372.c:138:18: error: expected ‘;’ at end of input
+  138 |     mat2 = create
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_1e473372.c:138:5: error: expected declaration or statement at end of input
+  138 |     mat2 = create
+      |     ^~~~

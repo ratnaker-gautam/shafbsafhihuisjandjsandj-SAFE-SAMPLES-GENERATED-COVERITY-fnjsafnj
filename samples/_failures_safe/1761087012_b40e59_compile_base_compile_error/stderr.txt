@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8223fc8e.c: In function ‘main’:
+./samples/SAFE/__tmp_8223fc8e.c:144:5: error: expected expression at end of input
+  144 |     char search_term[
+      |     ^~~~
+./samples/SAFE/__tmp_8223fc8e.c:144:5: error: expected declaration or statement at end of input

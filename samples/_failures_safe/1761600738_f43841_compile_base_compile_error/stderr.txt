@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_3b08b867.c: In function ‘main’:
+./samples/SAFE/__tmp_3b08b867.c:159:71: error: expected ‘)’ at end of input
+  159 |     printf("\nTotal work performed: %d iterations\n", total_iterations
+      |           ~                                                           ^
+      |                                                                       )
+./samples/SAFE/__tmp_3b08b867.c:159:5: error: expected declaration or statement at end of input
+  159 |     printf("\nTotal work performed: %d iterations\n", total_iterations
+      |     ^~~~~~

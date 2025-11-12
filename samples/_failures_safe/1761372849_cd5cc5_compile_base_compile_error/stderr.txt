@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_00a315fe.c: In function ‘main’:
+./samples/SAFE/__tmp_00a315fe.c:138:31: error: expected ‘)’ at end of input
+  138 |     if (scanf("%d", &min_level
+      |              ~                ^
+      |                               )
+./samples/SAFE/__tmp_00a315fe.c:138:5: error: expected declaration or statement at end of input
+  138 |     if (scanf("%d", &min_level
+      |     ^~

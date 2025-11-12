@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2e782f0c.c: In function ‘main’:
+./samples/SAFE/__tmp_2e782f0c.c:161:5: error: expected declaration or statement at end of input
+  161 |     sm.buffer_pos = 0;
+      |     ^~

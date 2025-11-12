@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_cfda1ec5.c: In function ‘main’:
+./samples/SAFE/__tmp_cfda1ec5.c:125:5: error: ‘generate’ undeclared (first use in this function)
+  125 |     generate
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_cfda1ec5.c:125:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cfda1ec5.c:125:13: error: expected ‘;’ at end of input
+  125 |     generate
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_cfda1ec5.c:125:5: error: expected declaration or statement at end of input
+  125 |     generate
+      |     ^~~~~~~~

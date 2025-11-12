@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_33a5f622.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_33a5f622.c:159:39: error: ‘INT’ undeclared (first use in this function)
+  159 |             if (right > 0 && result < INT
+      |                                       ^~~
+./samples/SAFE/__tmp_33a5f622.c:159:39: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_33a5f622.c:159:42: error: expected ‘)’ at end of input
+  159 |             if (right > 0 && result < INT
+      |                ~                         ^
+      |                                          )
+./samples/SAFE/__tmp_33a5f622.c:159:13: error: expected declaration or statement at end of input
+  159 |             if (right > 0 && result < INT
+      |             ^~
+./samples/SAFE/__tmp_33a5f622.c:159:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_33a5f622.c:159:13: error: expected declaration or statement at end of input

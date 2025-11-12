@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c797c712.c: In function ‘main’:
+./samples/SAFE/__tmp_c797c712.c:168:13: error: expected declaration or statement at end of input
+  168 |             printf("Processing complete. Use RESET to start over.\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_c797c712.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c797c712.c:168:13: error: expected declaration or statement at end of input

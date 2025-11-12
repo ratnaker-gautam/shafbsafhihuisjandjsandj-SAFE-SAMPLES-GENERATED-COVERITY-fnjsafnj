@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4cf9ec34.c: In function ‘matrix_mul’:
+./samples/SAFE/__tmp_4cf9ec34.c:139:17: error: expected expression at end of input
+  139 |                 long product = (long)a->data[i][k] *
+      |                 ^~~~
+./samples/SAFE/__tmp_4cf9ec34.c:139:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4cf9ec34.c:139:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4cf9ec34.c:139:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4cf9ec34.c:139:17: error: expected declaration or statement at end of input

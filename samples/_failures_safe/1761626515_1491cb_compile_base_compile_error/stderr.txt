@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_8ee79e59.c: In function ‘main’:
+./samples/SAFE/__tmp_8ee79e59.c:156:19: error: ‘MAX’ undeclared (first use in this function)
+  156 |     int distances[MAX
+      |                   ^~~
+./samples/SAFE/__tmp_8ee79e59.c:156:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8ee79e59.c:156:22: error: expected ‘]’ at end of input
+  156 |     int distances[MAX
+      |                      ^
+      |                      ]
+./samples/SAFE/__tmp_8ee79e59.c:156:5: error: expected declaration or statement at end of input
+  156 |     int distances[MAX
+      |     ^~~

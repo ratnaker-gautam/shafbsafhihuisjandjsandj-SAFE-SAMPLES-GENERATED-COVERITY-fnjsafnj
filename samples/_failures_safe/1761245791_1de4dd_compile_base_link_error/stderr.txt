@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccdKKqye.o: in function `main':
+__tmp_a2dbec8e.c:(.text.startup+0x19c): undefined reference to `pow'
+/usr/bin/ld: __tmp_a2dbec8e.c:(.text.startup+0x30e): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_a2dbec8e.c:(.text.startup+0x3b8): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

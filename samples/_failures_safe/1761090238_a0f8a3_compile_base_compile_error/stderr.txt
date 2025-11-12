@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_2d03e2ef.c: In function ‘hex_to_bytes’:
+./samples/SAFE/__tmp_2d03e2ef.c:116:17: error: expected ‘)’ at end of input
+  116 |         if (high
+      |            ~    ^
+      |                 )
+./samples/SAFE/__tmp_2d03e2ef.c:116:9: error: expected declaration or statement at end of input
+  116 |         if (high
+      |         ^~
+./samples/SAFE/__tmp_2d03e2ef.c:116:9: error: expected declaration or statement at end of input

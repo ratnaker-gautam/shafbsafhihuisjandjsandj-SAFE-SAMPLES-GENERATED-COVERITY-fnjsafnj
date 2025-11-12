@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_84b188c2.c: In function ‘main’:
+./samples/SAFE/__tmp_84b188c2.c:151:42: error: ‘UNDIR’ undeclared (first use in this function)
+  151 |     struct Graph* graph = createGraph(5, UNDIR
+      |                                          ^~~~~
+./samples/SAFE/__tmp_84b188c2.c:151:42: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_84b188c2.c:151:47: error: expected ‘)’ at end of input
+  151 |     struct Graph* graph = createGraph(5, UNDIR
+      |                                      ~        ^
+      |                                               )
+./samples/SAFE/__tmp_84b188c2.c:151:12: error: expected declaration or statement at end of input
+  151 |     struct Graph* graph = createGraph(5, UNDIR
+      |            ^~~~~

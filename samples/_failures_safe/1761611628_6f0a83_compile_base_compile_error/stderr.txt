@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_2dfd910e.c: In function ‘get_user_event’:
+./samples/SAFE/__tmp_2dfd910e.c:174:15: error: expected ‘;’ at end of input
+  174 |         printf
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_2dfd910e.c:174:9: error: expected declaration or statement at end of input
+  174 |         printf
+      |         ^~~~~~
+./samples/SAFE/__tmp_2dfd910e.c:174:9: error: expected declaration or statement at end of input

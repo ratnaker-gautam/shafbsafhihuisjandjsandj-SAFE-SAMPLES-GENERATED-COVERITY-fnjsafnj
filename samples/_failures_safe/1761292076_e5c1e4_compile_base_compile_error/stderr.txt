@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_6f3c13e0.c: In function ‘main’:
+./samples/SAFE/__tmp_6f3c13e0.c:176:29: error: ‘process’ undeclared (first use in this function)
+  176 |     printf("State C: %d\n", process
+      |                             ^~~~~~~
+./samples/SAFE/__tmp_6f3c13e0.c:176:29: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6f3c13e0.c:176:36: error: expected ‘)’ at end of input
+  176 |     printf("State C: %d\n", process
+      |           ~                        ^
+      |                                    )
+./samples/SAFE/__tmp_6f3c13e0.c:176:5: error: expected declaration or statement at end of input
+  176 |     printf("State C: %d\n", process
+      |     ^~~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6cd4e78b.c: In function ‘execute_operation’:
+./samples/SAFE/__tmp_6cd4e78b.c:147:5: error: expected expression at end of input
+  147 |     op(g,
+      |     ^~
+./samples/SAFE/__tmp_6cd4e78b.c:147:5: error: too few arguments to function ‘op’
+./samples/SAFE/__tmp_6cd4e78b.c:147:5: error: expected declaration or statement at end of input

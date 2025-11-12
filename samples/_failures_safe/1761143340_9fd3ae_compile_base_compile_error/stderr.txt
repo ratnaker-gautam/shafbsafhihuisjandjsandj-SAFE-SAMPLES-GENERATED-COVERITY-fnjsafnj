@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_473b6f8a.c: In function ‘main’:
+./samples/SAFE/__tmp_473b6f8a.c:144:51: error: expected ‘)’ at end of input
+  144 |     printf("Original size: %zu bytes\n", input_buf
+      |           ~                                       ^
+      |                                                   )
+./samples/SAFE/__tmp_473b6f8a.c:144:5: error: expected declaration or statement at end of input
+  144 |     printf("Original size: %zu bytes\n", input_buf
+      |     ^~~~~~

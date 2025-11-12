@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_4ef9c3d5.c: In function ‘main’:
+./samples/SAFE/__tmp_4ef9c3d5.c:171:20: error: ‘t’ undeclared (first use in this function)
+  171 |     process_tokens(t
+      |                    ^
+./samples/SAFE/__tmp_4ef9c3d5.c:171:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_4ef9c3d5.c:171:21: error: expected ‘)’ at end of input
+  171 |     process_tokens(t
+      |                   ~ ^
+      |                     )
+./samples/SAFE/__tmp_4ef9c3d5.c:171:5: error: too few arguments to function ‘process_tokens’
+  171 |     process_tokens(t
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4ef9c3d5.c:126:6: note: declared here
+  126 | void process_tokens(Token* tokens, int count, TokenHandler* handlers) {
+      |      ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4ef9c3d5.c:171:5: error: expected declaration or statement at end of input
+  171 |     process_tokens(t
+      |     ^~~~~~~~~~~~~~

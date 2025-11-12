@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ff1501bf.c: In function ‘main’:
+./samples/SAFE/__tmp_ff1501bf.c:162:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  162 |     struct Event ev
+      |            ^~~~~
+./samples/SAFE/__tmp_ff1501bf.c:162:12: error: expected declaration or statement at end of input

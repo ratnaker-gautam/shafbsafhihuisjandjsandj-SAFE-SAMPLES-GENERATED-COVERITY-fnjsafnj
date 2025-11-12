@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3f0379b8.c: In function ‘main’:
+./samples/SAFE/__tmp_3f0379b8.c:199:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  199 |     Token tokens
+      |     ^~~~~
+./samples/SAFE/__tmp_3f0379b8.c:199:5: error: expected declaration or statement at end of input

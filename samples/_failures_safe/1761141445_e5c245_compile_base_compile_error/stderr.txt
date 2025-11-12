@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_db17e805.c: In function ‘main’:
+./samples/SAFE/__tmp_db17e805.c:149:27: error: ‘MAX_TEXT_L’ undeclared (first use in this function); did you mean ‘MAX_TEXT_LEN’?
+  149 |     if (fgets(input_text, MAX_TEXT_L
+      |                           ^~~~~~~~~~
+      |                           MAX_TEXT_LEN
+./samples/SAFE/__tmp_db17e805.c:149:27: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_db17e805.c:149:37: error: expected ‘)’ at end of input
+  149 |     if (fgets(input_text, MAX_TEXT_L
+      |              ~                      ^
+      |                                     )
+./samples/SAFE/__tmp_db17e805.c:149:9: error: too few arguments to function ‘fgets’
+  149 |     if (fgets(input_text, MAX_TEXT_L
+      |         ^~~~~
+In file included from /usr/include/stdio.h:980,
+                 from ./samples/SAFE/__tmp_db17e805.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:196:1: note: declared here
+  196 | fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      | ^~~~~
+./samples/SAFE/__tmp_db17e805.c:149:5: error: expected declaration or statement at end of input
+  149 |     if (fgets(input_text, MAX_TEXT_L
+      |     ^~

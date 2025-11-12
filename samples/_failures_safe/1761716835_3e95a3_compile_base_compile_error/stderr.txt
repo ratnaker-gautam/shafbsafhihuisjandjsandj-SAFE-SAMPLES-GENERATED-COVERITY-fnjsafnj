@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_415b8d10.c: In function ‘main’:
+./samples/SAFE/__tmp_415b8d10.c:152:31: error: missing terminating " character
+  152 |             a.rows = read_int("
+      |                               ^
+./samples/SAFE/__tmp_415b8d10.c:152:13: error: expected expression at end of input
+  152 |             a.rows = read_int("
+      |             ^
+./samples/SAFE/__tmp_415b8d10.c:152:22: error: too few arguments to function ‘read_int’
+  152 |             a.rows = read_int("
+      |                      ^~~~~~~~
+./samples/SAFE/__tmp_415b8d10.c:16:5: note: declared here
+   16 | int read_int(const char* prompt, int min, int max) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_415b8d10.c:152:13: error: expected declaration or statement at end of input
+  152 |             a.rows = read_int("
+      |             ^
+./samples/SAFE/__tmp_415b8d10.c:152:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_415b8d10.c:152:13: error: expected declaration or statement at end of input

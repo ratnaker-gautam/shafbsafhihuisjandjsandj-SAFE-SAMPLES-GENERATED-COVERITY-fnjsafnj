@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_cd15c82c.c: In function ‘main’:
+./samples/SAFE/__tmp_cd15c82c.c:131:61: error: expected ‘)’ at end of input
+  131 |             if (!add_log_entry(&collection, timestamp, level
+      |                               ~                             ^
+      |                                                             )
+./samples/SAFE/__tmp_cd15c82c.c:131:18: error: too few arguments to function ‘add_log_entry’
+  131 |             if (!add_log_entry(&collection, timestamp, level
+      |                  ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_cd15c82c.c:39:5: note: declared here
+   39 | int add_log_entry(LogCollection* collection, const char* timestamp, const char* level, const char* message) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_cd15c82c.c:131:13: error: expected declaration or statement at end of input
+  131 |             if (!add_log_entry(&collection, timestamp, level
+      |             ^~
+./samples/SAFE/__tmp_cd15c82c.c:131:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cd15c82c.c:131:13: error: expected declaration or statement at end of input

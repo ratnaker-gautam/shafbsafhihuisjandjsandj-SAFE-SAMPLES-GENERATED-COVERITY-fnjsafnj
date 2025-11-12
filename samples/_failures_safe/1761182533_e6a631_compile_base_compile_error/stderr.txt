@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_1de71e22.c: In function ‘main’:
+./samples/SAFE/__tmp_1de71e22.c:166:58: error: ‘MAX_N’ undeclared (first use in this function)
+  166 |     if (scanf("%d", &nodes) != 1 || nodes < 1 || nodes > MAX_N
+      |                                                          ^~~~~
+./samples/SAFE/__tmp_1de71e22.c:166:58: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1de71e22.c:166:63: error: expected ‘)’ at end of input
+  166 |     if (scanf("%d", &nodes) != 1 || nodes < 1 || nodes > MAX_N
+      |        ~                                                      ^
+      |                                                               )
+./samples/SAFE/__tmp_1de71e22.c:166:5: error: expected declaration or statement at end of input
+  166 |     if (scanf("%d", &nodes) != 1 || nodes < 1 || nodes > MAX_N
+      |     ^~

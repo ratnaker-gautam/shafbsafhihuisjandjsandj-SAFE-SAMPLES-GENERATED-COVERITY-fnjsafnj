@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_43ff65ff.c: In function ‘graph_reset_visited’:
+./samples/SAFE/__tmp_43ff65ff.c:190:5: error: expected identifier or ‘(’ at end of input
+  190 |     for (int
+      |     ^~~
+./samples/SAFE/__tmp_43ff65ff.c:190:5: error: expected declaration or statement at end of input

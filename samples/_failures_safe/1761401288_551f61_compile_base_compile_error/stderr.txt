@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c4c0e832.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_c4c0e832.c:145:9: error: expected declaration or statement at end of input
+  145 |         lexer->column++;
+      |         ^~~~~
+./samples/SAFE/__tmp_c4c0e832.c:145:9: error: expected declaration or statement at end of input

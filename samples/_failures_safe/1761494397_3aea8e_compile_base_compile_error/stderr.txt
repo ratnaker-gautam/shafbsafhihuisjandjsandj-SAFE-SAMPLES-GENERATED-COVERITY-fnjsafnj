@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_03e6ad4b.c: In function ‘main’:
+./samples/SAFE/__tmp_03e6ad4b.c:165:5: error: expected declaration or statement at end of input
+  165 |     token_list_destroy(tokens);
+      |     ^~~~~~~~~~~~~~~~~~

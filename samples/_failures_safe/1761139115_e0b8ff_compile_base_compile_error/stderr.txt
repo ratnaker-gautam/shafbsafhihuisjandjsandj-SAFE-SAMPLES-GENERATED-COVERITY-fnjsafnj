@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d335a823.c: In function ‘main’:
+./samples/SAFE/__tmp_d335a823.c:176:5: error: expected declaration or statement at end of input
+  176 |     unsigned char *end_ptr = decompressed.data + decompressed.size;
+      |     ^~~~~~~~

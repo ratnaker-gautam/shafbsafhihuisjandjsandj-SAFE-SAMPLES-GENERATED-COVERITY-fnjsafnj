@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e4e1c179.c: In function ‘find_shortest_path’:
+./samples/SAFE/__tmp_e4e1c179.c:146:5: error: expected expression at end of input
+  146 |     printf(" (distance: %d)\n",
+      |     ^~~~~~
+./samples/SAFE/__tmp_e4e1c179.c:146:5: error: expected declaration or statement at end of input

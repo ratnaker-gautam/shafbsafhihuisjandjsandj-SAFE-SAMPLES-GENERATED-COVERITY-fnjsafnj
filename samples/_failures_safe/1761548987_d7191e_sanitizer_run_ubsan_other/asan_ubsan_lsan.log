@@ -1,0 +1,8 @@
+
+samples/SAFE/__tmp_b0ee4b39.c:33:37: runtime error: signed integer overflow: 1836311903 + 1134903170 cannot be represented in type 'int'
+    #0 0x5820c90977db in fill_fibonacci samples/SAFE/__tmp_b0ee4b39.c:33
+    #1 0x5820c9097c08 in main samples/SAFE/__tmp_b0ee4b39.c:54
+    #2 0x705b53a2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x705b53a2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x5820c9097384 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_b0ee4b39.c.san+0x3384) (BuildId: ea74b7b891af6dd8e69f06bfd8819e3b8ae2e0bf)
+

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_909d6b5d.c: In function ‘main’:
+./samples/SAFE/__tmp_909d6b5d.c:175:21: error: expected ‘]’ at end of input
+  175 |         if (tokens[k
+      |                     ^
+      |                     ]
+./samples/SAFE/__tmp_909d6b5d.c:175:13: error: used struct type value where scalar is required
+  175 |         if (tokens[k
+      |             ^~~~~~
+./samples/SAFE/__tmp_909d6b5d.c:175:9: error: expected declaration or statement at end of input
+  175 |         if (tokens[k
+      |         ^~
+./samples/SAFE/__tmp_909d6b5d.c:175:9: error: expected declaration or statement at end of input

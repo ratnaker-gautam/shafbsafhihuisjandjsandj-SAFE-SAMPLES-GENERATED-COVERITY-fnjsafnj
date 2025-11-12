@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_3da4fb4b.c: In function ‘process_state_machine’:
+./samples/SAFE/__tmp_3da4fb4b.c:177:9: error: expected declaration or statement at end of input
+  177 |         if (input[pos] != '\0') {
+      |         ^~
+./samples/SAFE/__tmp_3da4fb4b.c:177:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3da4fb4b.c:177:9: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_15de9fdd.c: In function ‘main’:
+./samples/SAFE/__tmp_15de9fdd.c:143: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_15de9fdd.c:142:30: note: to match this ‘{’
+  142 |     uint8_t sample_data1[] = {0x48, 0x65, 0x6C, 0x6C, 0
+      |                              ^
+./samples/SAFE/__tmp_15de9fdd.c:142:5: error: expected declaration or statement at end of input
+  142 |     uint8_t sample_data1[] = {0x48, 0x65, 0x6C, 0x6C, 0
+      |     ^~~~~~~

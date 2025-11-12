@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d312486c.c: In function ‘main’:
+./samples/SAFE/__tmp_d312486c.c:128:9: error: expected declaration or statement at end of input
+  128 |         multiply_matrices(matrix1, matrix2, result, rows1, cols2, cols1);
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_d312486c.c:128:9: error: expected declaration or statement at end of input

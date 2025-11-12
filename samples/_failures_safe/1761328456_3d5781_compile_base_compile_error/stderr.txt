@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f112a3cd.c: In function ‘main’:
+./samples/SAFE/__tmp_f112a3cd.c:141:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  141 |     uint8_t test_data3[]
+      |     ^~~~~~~
+./samples/SAFE/__tmp_f112a3cd.c:141:5: error: expected declaration or statement at end of input

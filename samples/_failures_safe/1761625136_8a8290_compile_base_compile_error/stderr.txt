@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4020b907.c: In function ‘main’:
+./samples/SAFE/__tmp_4020b907.c:151:5: error: expected declaration or statement at end of input
+  151 |     printf("State Machine Demo - Enter commands:\n");
+      |     ^~~~~~

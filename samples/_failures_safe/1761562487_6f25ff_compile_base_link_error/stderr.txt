@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccbDiOBi.o: in function `calculate_stddev':
+__tmp_2c75ad4f.c:(.text+0xb6): undefined reference to `sqrt'
+/usr/bin/ld: /tmp/ccbDiOBi.o: in function `main':
+__tmp_2c75ad4f.c:(.text.startup+0x190): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

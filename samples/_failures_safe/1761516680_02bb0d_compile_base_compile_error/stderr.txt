@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_36253795.c: In function ‘main’:
+./samples/SAFE/__tmp_36253795.c:156:14: error: ‘is’ undeclared (first use in this function); did you mean ‘i’?
+  156 |         if (!is
+      |              ^~
+      |              i
+./samples/SAFE/__tmp_36253795.c:156:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_36253795.c:156:16: error: expected ‘)’ at end of input
+  156 |         if (!is
+      |            ~   ^
+      |                )
+./samples/SAFE/__tmp_36253795.c:156:9: error: expected declaration or statement at end of input
+  156 |         if (!is
+      |         ^~
+./samples/SAFE/__tmp_36253795.c:156:9: error: expected declaration or statement at end of input

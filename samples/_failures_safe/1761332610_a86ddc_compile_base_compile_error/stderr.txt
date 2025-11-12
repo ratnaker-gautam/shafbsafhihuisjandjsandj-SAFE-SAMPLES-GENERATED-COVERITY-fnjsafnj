@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_19562505.c: In function ‘process_event’:
+./samples/SAFE/__tmp_19562505.c:171:43: error: expected ‘)’ at end of input
+  171 |             return handle_writing_state(sm
+      |                                        ~  ^
+      |                                           )
+./samples/SAFE/__tmp_19562505.c:171:20: error: too few arguments to function ‘handle_writing_state’
+  171 |             return handle_writing_state(sm
+      |                    ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_19562505.c:113:7: note: declared here
+  113 | State handle_writing_state(StateMachine *sm, Event event, const char *data) {
+      |       ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_19562505.c:171:13: error: expected declaration or statement at end of input
+  171 |             return handle_writing_state(sm
+      |             ^~~~~~
+./samples/SAFE/__tmp_19562505.c:171:13: error: expected declaration or statement at end of input

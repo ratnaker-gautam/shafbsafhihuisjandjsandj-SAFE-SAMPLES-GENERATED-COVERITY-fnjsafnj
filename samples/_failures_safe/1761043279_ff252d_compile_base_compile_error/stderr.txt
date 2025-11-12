@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_3212afe2.c: In function ‘get_operation’:
+./samples/SAFE/__tmp_3212afe2.c:130:27: error: expected ‘)’ at end of input
+  130 |     return (enum Operation
+      |            ~              ^
+      |                           )
+./samples/SAFE/__tmp_3212afe2.c:130:18: error: expected declaration or statement at end of input
+  130 |     return (enum Operation
+      |                  ^~~~~~~~~

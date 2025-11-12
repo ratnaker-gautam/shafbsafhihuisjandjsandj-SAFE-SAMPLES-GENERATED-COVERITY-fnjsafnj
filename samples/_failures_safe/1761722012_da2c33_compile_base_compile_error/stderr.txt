@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f1f805ce.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_f1f805ce.c:145:9: error: expected declaration or statement at end of input
+  145 |         if (lexer_peek(lexer) == '"') {
+      |         ^~
+./samples/SAFE/__tmp_f1f805ce.c:145:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f1f805ce.c:145:9: error: expected declaration or statement at end of input

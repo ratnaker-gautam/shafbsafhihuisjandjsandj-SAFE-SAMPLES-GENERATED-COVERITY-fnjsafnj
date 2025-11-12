@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_76953748.c: In function ‘main’:
+./samples/SAFE/__tmp_76953748.c:127:60: error: expected ‘)’ at end of input
+  127 |                           sample_logs[i].level, sample_logs
+      |                                                            ^
+      |                                                            )
+./samples/SAFE/__tmp_76953748.c:126:27: note: to match this ‘(’
+  126 |         if (!add_log_entry(collection, sample_logs[i].timestamp,
+      |                           ^
+./samples/SAFE/__tmp_76953748.c:127:27: error: expected declaration or statement at end of input
+  127 |                           sample_logs[i].level, sample_logs
+      |                           ^~~~~~~~~~~
+./samples/SAFE/__tmp_76953748.c:127:27: error: expected declaration or statement at end of input

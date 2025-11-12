@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_22795c98.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_22795c98.c:125:22: error: unterminated argument list invoking macro "isnan"
+  125 |         if (isnan(sub
+      |                      ^
+./samples/SAFE/__tmp_22795c98.c:125:13: error: ‘isnan’ undeclared (first use in this function); did you mean ‘nan’?
+  125 |         if (isnan(sub
+      |             ^~~~~
+      |             nan
+./samples/SAFE/__tmp_22795c98.c:125:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_22795c98.c:125:18: error: expected ‘)’ at end of input
+  125 |         if (isnan(sub
+      |            ~     ^
+      |                  )
+./samples/SAFE/__tmp_22795c98.c:125:9: error: expected declaration or statement at end of input
+  125 |         if (isnan(sub
+      |         ^~
+./samples/SAFE/__tmp_22795c98.c:125:9: error: expected declaration or statement at end of input

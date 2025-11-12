@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_12c3bc3d.c: In function ‘main’:
+./samples/SAFE/__tmp_12c3bc3d.c:164:16: error: expected expression at end of input
+  164 |                tokens[i].value,
+      |                ^~~~~~
+./samples/SAFE/__tmp_12c3bc3d.c:164:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_12c3bc3d.c:164:16: error: expected declaration or statement at end of input

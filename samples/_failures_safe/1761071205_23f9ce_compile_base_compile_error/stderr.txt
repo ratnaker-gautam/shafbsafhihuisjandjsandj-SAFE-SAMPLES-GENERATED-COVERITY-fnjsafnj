@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c2b590ba.c: In function ‘main’:
+./samples/SAFE/__tmp_c2b590ba.c:149:31: error: ‘s’ undeclared (first use in this function); did you mean ‘sm’?
+  149 |         cleanup_state_machine(s
+      |                               ^
+      |                               sm
+./samples/SAFE/__tmp_c2b590ba.c:149:31: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c2b590ba.c:149:32: error: expected ‘)’ at end of input
+  149 |         cleanup_state_machine(s
+      |                              ~ ^
+      |                                )
+./samples/SAFE/__tmp_c2b590ba.c:149:9: error: expected declaration or statement at end of input
+  149 |         cleanup_state_machine(s
+      |         ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c2b590ba.c:149:9: error: expected declaration or statement at end of input

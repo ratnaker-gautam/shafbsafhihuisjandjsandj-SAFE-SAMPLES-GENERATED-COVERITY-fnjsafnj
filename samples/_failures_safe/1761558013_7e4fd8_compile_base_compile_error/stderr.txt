@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c77243f8.c: In function ‘main’:
+./samples/SAFE/__tmp_c77243f8.c:152:5: error: expected declaration or statement at end of input
+  152 |     time_t earliest = logs[0].timestamp;
+      |     ^~~~~~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_77037514.c: In function ‘print_high_severity_entries’:
+./samples/SAFE/__tmp_77037514.c:126:49: error: ‘min_sever’ undeclared (first use in this function); did you mean ‘min_severity’?
+  126 |     printf("\nHigh severity entries (>=%d):\n", min_sever
+      |                                                 ^~~~~~~~~
+      |                                                 min_severity
+./samples/SAFE/__tmp_77037514.c:126:49: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_77037514.c:126:58: error: expected ‘)’ at end of input
+  126 |     printf("\nHigh severity entries (>=%d):\n", min_sever
+      |           ~                                              ^
+      |                                                          )
+./samples/SAFE/__tmp_77037514.c:126:5: error: expected declaration or statement at end of input
+  126 |     printf("\nHigh severity entries (>=%d):\n", min_sever
+      |     ^~~~~~

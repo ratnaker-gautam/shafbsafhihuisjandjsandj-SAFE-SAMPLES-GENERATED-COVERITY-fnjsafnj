@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_a8e9aac3.c: In function ‘main’:
+./samples/SAFE/__tmp_a8e9aac3.c:163:55: error: ‘al’ undeclared (first use in this function)
+  163 |     int algorithm_count = sizeof(algorithms) / sizeof(al
+      |                                                       ^~
+./samples/SAFE/__tmp_a8e9aac3.c:163:55: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a8e9aac3.c:163:57: error: expected ‘)’ at end of input
+  163 |     int algorithm_count = sizeof(algorithms) / sizeof(al
+      |                                                      ~  ^
+      |                                                         )
+./samples/SAFE/__tmp_a8e9aac3.c:163:5: error: expected declaration or statement at end of input
+  163 |     int algorithm_count = sizeof(algorithms) / sizeof(al
+      |     ^~~

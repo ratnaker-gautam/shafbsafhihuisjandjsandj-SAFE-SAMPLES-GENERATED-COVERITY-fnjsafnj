@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1300ab6a.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_1300ab6a.c:156:5: error: expected expression at end of input
+  156 |     for (
+      |     ^~~
+./samples/SAFE/__tmp_1300ab6a.c:156:5: error: expected declaration or statement at end of input

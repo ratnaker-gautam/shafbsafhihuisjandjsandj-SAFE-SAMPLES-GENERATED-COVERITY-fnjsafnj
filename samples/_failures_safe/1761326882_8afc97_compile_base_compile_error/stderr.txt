@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_84bf5ada.c: In function ‘main’:
+./samples/SAFE/__tmp_84bf5ada.c:136:51: error: expected ‘)’ at end of input
+  136 |     if (!compress_run_length(input_buf.data, input
+      |                             ~                     ^
+      |                                                   )
+./samples/SAFE/__tmp_84bf5ada.c:136:10: error: too few arguments to function ‘compress_run_length’
+  136 |     if (!compress_run_length(input_buf.data, input
+      |          ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_84bf5ada.c:58:5: note: declared here
+   58 | int compress_run_length(const unsigned char *input, size_t input_len, Buffer *output) {
+      |     ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_84bf5ada.c:136:5: error: expected declaration or statement at end of input
+  136 |     if (!compress_run_length(input_buf.data, input
+      |     ^~

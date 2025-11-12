@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fb48732f.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_fb48732f.c:154:57: error: expected ‘)’ at end of input
+  154 |     printf("Unique sources: %u\n", stats->unique_sources
+      |           ~                                             ^
+      |                                                         )
+./samples/SAFE/__tmp_fb48732f.c:154:5: error: expected declaration or statement at end of input
+  154 |     printf("Unique sources: %u\n", stats->unique_sources
+      |     ^~~~~~

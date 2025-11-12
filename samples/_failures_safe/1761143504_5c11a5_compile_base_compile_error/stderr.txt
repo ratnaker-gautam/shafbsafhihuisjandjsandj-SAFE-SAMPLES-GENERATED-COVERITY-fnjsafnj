@@ -1,0 +1,22 @@
+./samples/SAFE/__tmp_3ca40e45.c: In function ‘main’:
+./samples/SAFE/__tmp_3ca40e45.c:154:24: error: ‘test’ undeclared (first use in this function)
+  154 |     memcpy(input.data, test
+      |                        ^~~~
+./samples/SAFE/__tmp_3ca40e45.c:154:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3ca40e45.c:154:28: error: expected ‘)’ at end of input
+  154 |     memcpy(input.data, test
+      |           ~                ^
+      |                            )
+./samples/SAFE/__tmp_3ca40e45.c:154:5: error: too few arguments to function ‘memcpy’
+  154 |     memcpy(input.data, test
+      |     ^~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_3ca40e45.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:26:1: note: declared here
+   26 | __NTH (memcpy (void *__restrict __dest, const void *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_3ca40e45.c:154:5: error: expected declaration or statement at end of input
+  154 |     memcpy(input.data, test
+      |     ^~~~~~

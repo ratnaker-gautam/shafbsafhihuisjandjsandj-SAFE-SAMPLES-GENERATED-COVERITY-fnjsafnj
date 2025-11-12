@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7493181f.c: In function ‘main’:
+./samples/SAFE/__tmp_7493181f.c:182:63: error: expected ‘)’ at end of input
+  182 |     process_compression(compressors[choice - 1], decompressors
+      |                        ~                                      ^
+      |                                                               )
+./samples/SAFE/__tmp_7493181f.c:182:5: error: expected declaration or statement at end of input
+  182 |     process_compression(compressors[choice - 1], decompressors
+      |     ^~~~~~~~~~~~~~~~~~~

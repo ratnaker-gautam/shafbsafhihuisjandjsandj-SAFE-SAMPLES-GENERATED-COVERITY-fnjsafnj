@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_531273b0.c: In function ‘main’:
+./samples/SAFE/__tmp_531273b0.c:151:34: error: expected ‘)’ at end of input
+  151 |             strlen(message_buffer
+      |                   ~              ^
+      |                                  )
+./samples/SAFE/__tmp_531273b0.c:151:13: error: expected declaration or statement at end of input
+  151 |             strlen(message_buffer
+      |             ^~~~~~
+./samples/SAFE/__tmp_531273b0.c:151:13: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_2cbb29fc.c: In function ‘main’:
+./samples/SAFE/__tmp_2cbb29fc.c:144:22: error: ‘compressed_b’ undeclared (first use in this function); did you mean ‘compressed_buf’?
+  144 |         buffer_free(&compressed_b
+      |                      ^~~~~~~~~~~~
+      |                      compressed_buf
+./samples/SAFE/__tmp_2cbb29fc.c:144:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2cbb29fc.c:144:34: error: expected ‘)’ at end of input
+  144 |         buffer_free(&compressed_b
+      |                    ~             ^
+      |                                  )
+./samples/SAFE/__tmp_2cbb29fc.c:144:9: error: expected declaration or statement at end of input
+  144 |         buffer_free(&compressed_b
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_2cbb29fc.c:144:9: error: expected declaration or statement at end of input

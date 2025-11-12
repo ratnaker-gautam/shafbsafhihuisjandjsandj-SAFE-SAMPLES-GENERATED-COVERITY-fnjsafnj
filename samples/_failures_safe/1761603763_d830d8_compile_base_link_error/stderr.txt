@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccotnum2.o: in function `main':
+__tmp_38a54a7f.c:(.text.startup+0x3df): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

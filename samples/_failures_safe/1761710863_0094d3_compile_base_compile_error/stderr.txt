@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d8d9cd52.c: In function ‘main’:
+./samples/SAFE/__tmp_d8d9cd52.c:146:35: error: expected ‘)’ at end of input
+  146 |         process_log_entry(&entries
+      |                          ~        ^
+      |                                   )
+./samples/SAFE/__tmp_d8d9cd52.c:146:9: error: expected declaration or statement at end of input
+  146 |         process_log_entry(&entries
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_d8d9cd52.c:146:9: error: expected declaration or statement at end of input

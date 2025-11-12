@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_414df14b.c: In function ‘bfs’:
+./samples/SAFE/__tmp_414df14b.c:175:19: error: expected ‘;’ at end of input
+  175 |     start->visited
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_414df14b.c:175:5: error: expected declaration or statement at end of input
+  175 |     start->visited
+      |     ^~~~~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9cb72df2.c: In function ‘main’:
+./samples/SAFE/__tmp_9cb72df2.c:143:5: error: expected declaration or statement at end of input
+  143 |     printf("Magnitude of transformed vector: %.6f\n", result.magnitude);
+      |     ^~~~~~

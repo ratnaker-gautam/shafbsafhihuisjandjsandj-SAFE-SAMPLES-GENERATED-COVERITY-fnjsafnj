@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_4bd3bc38.c: In function ‘main’:
+./samples/SAFE/__tmp_4bd3bc38.c:171:21: error: invalid operands to binary + (have ‘double’ and ‘double *’)
+  171 |         sum_squares += numbers
+      |                     ^~ ~~~~~~~
+      |                        |
+      |                        double *
+./samples/SAFE/__tmp_4bd3bc38.c:171:31: error: expected ‘;’ at end of input
+  171 |         sum_squares += numbers
+      |                               ^
+      |                               ;
+./samples/SAFE/__tmp_4bd3bc38.c:171:9: error: expected declaration or statement at end of input
+  171 |         sum_squares += numbers
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_4bd3bc38.c:171:9: error: expected declaration or statement at end of input

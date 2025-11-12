@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_82766bf7.c: In function ‘calculate_stats’:
+./samples/SAFE/__tmp_82766bf7.c:138:31: error: expected ‘;’ at end of input
+  138 |     stats->max_level_count = 0
+      |                               ^
+      |                               ;
+./samples/SAFE/__tmp_82766bf7.c:138:5: error: expected declaration or statement at end of input
+  138 |     stats->max_level_count = 0
+      |     ^~~~~

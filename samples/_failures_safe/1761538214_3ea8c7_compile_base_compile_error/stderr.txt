@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_fe1f846b.c: In function ‘main’:
+./samples/SAFE/__tmp_fe1f846b.c:149:57: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  149 |     if (decompressed_size != input_len || !compare_data(input
+      |                                                         ^~~~~
+      |                                                         int
+./samples/SAFE/__tmp_fe1f846b.c:149:57: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fe1f846b.c:149:62: error: expected ‘)’ at end of input
+  149 |     if (decompressed_size != input_len || !compare_data(input
+      |                                                        ~     ^
+      |                                                              )
+./samples/SAFE/__tmp_fe1f846b.c:149:44: error: too few arguments to function ‘compare_data’
+  149 |     if (decompressed_size != input_len || !compare_data(input
+      |                                            ^~~~~~~~~~~~
+./samples/SAFE/__tmp_fe1f846b.c:86:5: note: declared here
+   86 | int compare_data(const uint8_t* data1, const uint8_t* data2, size_t len) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_fe1f846b.c:149:5: error: expected declaration or statement at end of input
+  149 |     if (decompressed_size != input_len || !compare_data(input
+      |     ^~

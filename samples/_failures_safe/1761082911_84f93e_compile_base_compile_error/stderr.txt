@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7deb4895.c: In function ‘handle_finished’:
+./samples/SAFE/__tmp_7deb4895.c:164:13: error: expected declaration or statement at end of input
+  164 |             printf("State machine reset\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_7deb4895.c:164:13: error: expected declaration or statement at end of input

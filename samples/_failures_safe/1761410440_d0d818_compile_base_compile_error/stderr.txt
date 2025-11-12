@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4ff0b479.c: In function ‘main’:
+./samples/SAFE/__tmp_4ff0b479.c:160:24: error: expected ‘]’ at end of input
+  160 |     transitions_stack[1
+      |                        ^
+      |                        ]
+./samples/SAFE/__tmp_4ff0b479.c:160:5: error: expected declaration or statement at end of input
+  160 |     transitions_stack[1
+      |     ^~~~~~~~~~~~~~~~~

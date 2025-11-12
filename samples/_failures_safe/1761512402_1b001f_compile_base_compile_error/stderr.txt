@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_8966223b.c: In function ‘main’:
+./samples/SAFE/__tmp_8966223b.c:154:29: error: expected ‘)’ at end of input
+  154 |         apply_operation(rows
+      |                        ~    ^
+      |                             )
+./samples/SAFE/__tmp_8966223b.c:154:9: error: too few arguments to function ‘apply_operation’
+  154 |         apply_operation(rows
+      |         ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8966223b.c:92:6: note: declared here
+   92 | void apply_operation(int rows, int cols, int matrix[MAX_SIZE][MAX_SIZE], MatrixOp op) {
+      |      ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8966223b.c:154:9: error: expected declaration or statement at end of input
+  154 |         apply_operation(rows
+      |         ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8966223b.c:154:9: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8436165f.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_8436165f.c:177:5: error: expected expression at end of input
+  177 |     dist[start_id] =
+      |     ^~~~
+./samples/SAFE/__tmp_8436165f.c:177:5: error: expected declaration or statement at end of input

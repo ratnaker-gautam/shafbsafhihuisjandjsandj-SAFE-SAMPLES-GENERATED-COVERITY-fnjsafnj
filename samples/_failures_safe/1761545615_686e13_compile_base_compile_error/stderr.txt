@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_9122a471.c: In function ‘handle_done_state’:
+./samples/SAFE/__tmp_9122a471.c:163:9: error: expected expression at end of input
+  163 |         return
+      |         ^~~~~~
+./samples/SAFE/__tmp_9122a471.c:163:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9122a471.c:163:9: error: expected declaration or statement at end of input

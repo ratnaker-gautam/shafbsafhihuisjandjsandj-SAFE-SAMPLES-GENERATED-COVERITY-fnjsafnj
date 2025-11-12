@@ -1,0 +1,125 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: io_bound ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+enum state {
+    INIT,
+    READING_NAME,
+    READING_AGE,
+    PROCESSING,
+    DONE,
+    ERROR
+};
+
+struct person {
+    char name[32];
+    int age;
+};
+
+int validate_name(const char *name) {
+    if (name == NULL) return 0;
+    if (strlen(name) == 0) return 0;
+    if (strlen(name) >= 32) return 0;
+    
+    for (size_t i = 0; i < strlen(name); i++) {
+        if (!isalpha(name[i]) && name[i] != ' ') return 0;
+    }
+    return 1;
+}
+
+int validate_age(int age) {
+    return age >= 0 && age <= 150;
+}
+
+int main(void) {
+    enum state current_state = INIT;
+    struct person p;
+    char input[64];
+    int temp_age;
+    
+    printf("Person Data Processor\n");
+    printf("Enter 'quit' at any time to exit\n\n");
+    
+    while (current_state != DONE && current_state != ERROR) {
+        switch (current_state) {
+            case INIT:
+                printf("Enter person's name: ");
+                if (fgets(input, sizeof(input), stdin) == NULL) {
+                    current_state = ERROR;
+                    break;
+                }
+                
+                input[strcspn(input, "\n")] = '\0';
+                
+                if (strcmp(input, "quit") == 0) {
+                    current_state = DONE;
+                    break;
+                }
+                
+                if (validate_name(input)) {
+                    strncpy(p.name, input, sizeof(p.name) - 1);
+                    p.name[sizeof(p.name) - 1] = '\0';
+                    current_state = READING_AGE;
+                } else {
+                    printf("Error: Invalid name. Use only letters and spaces.\n");
+                    current_state = INIT;
+                }
+                break;
+                
+            case READING_AGE:
+                printf("Enter person's age: ");
+                if (fgets(input, sizeof(input), stdin) == NULL) {
+                    current_state = ERROR;
+                    break;
+                }
+                
+                input[strcspn(input, "\n")] = '\0';
+                
+                if (strcmp(input, "quit") == 0) {
+                    current_state = DONE;
+                    break;
+                }
+                
+                if (sscanf(input, "%d", &temp_age) == 1 && validate_age(temp_age)) {
+                    p.age = temp_age;
+                    current_state = PROCESSING;
+                } else {
+                    printf("Error: Invalid age. Must be 0-150.\n");
+                    current_state = READING_AGE;
+                }
+                break;
+                
+            case PROCESSING:
+                printf("\nProcessing data...\n");
+                printf("Name: %s\n", p.name);
+                printf("Age: %d\n", p.age);
+                
+                if (p.age >= 18) {
+                    printf("Status: Adult\n");
+                } else {
+                    printf("Status: Minor\n");
+                }
+                
+                printf("\n");
+                current_state = INIT;
+                break;
+                
+            case ERROR:
+                printf("Fatal error occurred\n");
+                current_state = DONE;
+                break;
+                
+            case DONE:
+                break;
+                
+            default:
+                current_state = ERROR;
+                break;
+        }
+    }
+    
+    printf("Program terminated\n");
+    return current_state == ERROR ? 1 : 0;
+}

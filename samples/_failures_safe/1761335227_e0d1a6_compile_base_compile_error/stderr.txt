@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f1fff3d7.c: In function ‘get_determinant’:
+./samples/SAFE/__tmp_f1fff3d7.c:140:42: error: expected ‘;’ at end of input
+  140 |     if (size == 2) return determinant_2x2
+      |                                          ^
+      |                                          ;
+./samples/SAFE/__tmp_f1fff3d7.c:140:5: error: expected declaration or statement at end of input
+  140 |     if (size == 2) return determinant_2x2
+      |     ^~

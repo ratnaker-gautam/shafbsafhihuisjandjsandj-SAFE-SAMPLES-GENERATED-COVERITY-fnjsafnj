@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_42feea3c.c: In function ‘write_compressed_file’:
+./samples/SAFE/__tmp_42feea3c.c:142:13: error: expected ‘;’ at end of input
+  142 |     return 1
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_42feea3c.c:142:5: error: expected declaration or statement at end of input
+  142 |     return 1
+      |     ^~~~~~

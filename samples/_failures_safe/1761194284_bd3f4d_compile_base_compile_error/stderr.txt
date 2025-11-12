@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_66a40888.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_66a40888.c:181:17: error: expected identifier at end of input
+  181 |                 if (graph->
+      |                 ^~
+./samples/SAFE/__tmp_66a40888.c:181:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_66a40888.c:181:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_66a40888.c:181:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_66a40888.c:181:17: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccJyrZpZ.o: in function `safe_pow':
+__tmp_2a49f30e.c:(.text+0x92): undefined reference to `fmod'
+/usr/bin/ld: __tmp_2a49f30e.c:(.text+0x2d): undefined reference to `pow'
+/usr/bin/ld: __tmp_2a49f30e.c:(.text+0x7c): undefined reference to `pow'
+/usr/bin/ld: /tmp/ccJyrZpZ.o: in function `main':
+__tmp_2a49f30e.c:(.text.startup+0x182): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_c32a291d.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_c32a291d.c:160:25: error: ‘MAX_TOKEN_L’ undeclared (first use in this function); did you mean ‘MAX_TOKEN_LEN’?
+  160 |             token.value[MAX_TOKEN_L
+      |                         ^~~~~~~~~~~
+      |                         MAX_TOKEN_LEN
+./samples/SAFE/__tmp_c32a291d.c:160:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c32a291d.c:160:36: error: expected ‘]’ at end of input
+  160 |             token.value[MAX_TOKEN_L
+      |                                    ^
+      |                                    ]
+./samples/SAFE/__tmp_c32a291d.c:160:13: error: expected declaration or statement at end of input
+  160 |             token.value[MAX_TOKEN_L
+      |             ^~~~~
+./samples/SAFE/__tmp_c32a291d.c:160:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c32a291d.c:160:13: error: expected declaration or statement at end of input

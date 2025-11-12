@@ -1,0 +1,8 @@
+
+samples/SAFE/__tmp_c81c3d9a.c:70:46: runtime error: signed integer overflow: -2147483648 * -2147483648 cannot be represented in type 'int'
+    #0 0x6420afe61cc5 in multiply_matrices samples/SAFE/__tmp_c81c3d9a.c:70
+    #1 0x6420afe62284 in main samples/SAFE/__tmp_c81c3d9a.c:116
+    #2 0x78594ae2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x78594ae2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x6420afe61284 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_c81c3d9a.c.san+0x3284) (BuildId: d4c279ad7ced8a19d2b7520c4cc5829891c7f51b)
+

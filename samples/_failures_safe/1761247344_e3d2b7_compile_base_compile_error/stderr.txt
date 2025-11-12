@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_6ad50f6d.c: In function ‘print_graph_distances’:
+./samples/SAFE/__tmp_6ad50f6d.c:154:63: error: expected ‘)’ at end of input
+  154 |             printf("Node %d: distance %d\n", g->nodes[i].id, g
+      |                   ~                                           ^
+      |                                                               )
+./samples/SAFE/__tmp_6ad50f6d.c:154:13: error: expected declaration or statement at end of input
+  154 |             printf("Node %d: distance %d\n", g->nodes[i].id, g
+      |             ^~~~~~
+./samples/SAFE/__tmp_6ad50f6d.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6ad50f6d.c:154:13: error: expected declaration or statement at end of input

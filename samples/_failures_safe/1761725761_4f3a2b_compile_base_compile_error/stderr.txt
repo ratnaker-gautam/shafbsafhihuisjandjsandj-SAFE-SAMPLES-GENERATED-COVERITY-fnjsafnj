@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_8004b9e9.c: In function ‘main’:
+./samples/SAFE/__tmp_8004b9e9.c:144:12: error: expected declaration or statement at end of input
+  144 |     struct StateMachine sm;
+      |            ^~~~~~~~~~~~

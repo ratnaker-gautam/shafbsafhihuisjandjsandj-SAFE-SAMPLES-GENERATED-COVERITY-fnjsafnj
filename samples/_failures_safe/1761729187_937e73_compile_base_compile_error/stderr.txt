@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8281f5fa.c: In function ‘main’:
+./samples/SAFE/__tmp_8281f5fa.c:155:36: error: expected ‘;’ at end of input
+  155 |     transitions_stack[2].input_char
+      |                                    ^
+      |                                    ;
+./samples/SAFE/__tmp_8281f5fa.c:155:5: error: expected declaration or statement at end of input
+  155 |     transitions_stack[2].input_char
+      |     ^~~~~~~~~~~~~~~~~

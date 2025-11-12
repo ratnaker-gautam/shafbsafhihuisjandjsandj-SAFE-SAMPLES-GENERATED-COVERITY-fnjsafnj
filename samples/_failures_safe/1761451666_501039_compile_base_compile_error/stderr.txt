@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ee731334.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_ee731334.c:154:13: error: expected expression at end of input
+  154 |             parse_identifier(input, &pos,
+      |             ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ee731334.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ee731334.c:154:13: error: expected declaration or statement at end of input

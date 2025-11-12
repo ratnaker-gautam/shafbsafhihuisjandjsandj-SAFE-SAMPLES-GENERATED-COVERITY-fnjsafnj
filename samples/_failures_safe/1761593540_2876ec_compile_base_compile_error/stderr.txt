@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d6f50e6b.c: In function ‘main’:
+./samples/SAFE/__tmp_d6f50e6b.c:138:9: error: expected declaration or statement at end of input
+  138 |         printf("No valid words found in input.\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_d6f50e6b.c:138:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_18924589.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_18924589.c:143:16: error: expected expression at end of input
+  143 |                result->longest_word.word,
+      |                ^~~~~~
+./samples/SAFE/__tmp_18924589.c:143:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_18924589.c:143:16: error: expected declaration or statement at end of input

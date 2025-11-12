@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e2ee458c.c: In function ‘main’:
+./samples/SAFE/__tmp_e2ee458c.c:148:5: error: expected declaration or statement at end of input
+  148 |     init_matrix(&mat2);
+      |     ^~~~~~~~~~~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_254a3694.c: In function ‘print_compression_info’:
+./samples/SAFE/__tmp_254a3694.c:152:12: error: missing terminating " character
+  152 |     printf("Original size: %u
+      |            ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_254a3694.c:152:5: error: expected expression at end of input
+  152 |     printf("Original size: %u
+      |     ^~~~~~
+./samples/SAFE/__tmp_254a3694.c:152:5: error: expected declaration or statement at end of input

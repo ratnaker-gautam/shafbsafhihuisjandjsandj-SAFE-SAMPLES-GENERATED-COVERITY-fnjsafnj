@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_05890433.c: In function ‘main’:
+./samples/SAFE/__tmp_05890433.c:166:54: error: ‘MAX’ undeclared (first use in this function)
+  166 |     mat2.cols = read_int("Enter columns (1-8): ", 1, MAX
+      |                                                      ^~~
+./samples/SAFE/__tmp_05890433.c:166:54: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_05890433.c:166:57: error: expected ‘)’ at end of input
+  166 |     mat2.cols = read_int("Enter columns (1-8): ", 1, MAX
+      |                         ~                               ^
+      |                                                         )
+./samples/SAFE/__tmp_05890433.c:166:5: error: expected declaration or statement at end of input
+  166 |     mat2.cols = read_int("Enter columns (1-8): ", 1, MAX
+      |     ^~~~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_9298f06a.c: In function ‘main’:
+./samples/SAFE/__tmp_9298f06a.c:164:12: error: ‘std’ undeclared (first use in this function); did you mean ‘stdin’?
+  164 |     fflush(std
+      |            ^~~
+      |            stdin
+./samples/SAFE/__tmp_9298f06a.c:164:12: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9298f06a.c:164:15: error: expected ‘)’ at end of input
+  164 |     fflush(std
+      |           ~   ^
+      |               )
+./samples/SAFE/__tmp_9298f06a.c:164:5: error: expected declaration or statement at end of input
+  164 |     fflush(std
+      |     ^~~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_982b3180.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_982b3180.c:157:5: error: expected expression at end of input
+  157 |     if (list->count < MAX_TOKENS)
+      |     ^~
+./samples/SAFE/__tmp_982b3180.c:157:5: error: expected declaration or statement at end of input

@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_58185922.c: In function ‘main’:
+./samples/SAFE/__tmp_58185922.c:182:36: error: expected ‘)’ at end of input
+  182 |                         memset(&ctx
+      |                               ~    ^
+      |                                    )
+./samples/SAFE/__tmp_58185922.c:182:25: error: too few arguments to function ‘memset’
+  182 |                         memset(&ctx
+      |                         ^~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_58185922.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:57:1: note: declared here
+   57 | __NTH (memset (void *__dest, int __ch, size_t __len))
+      | ^~~~~
+./samples/SAFE/__tmp_58185922.c:182:25: error: expected declaration or statement at end of input
+  182 |                         memset(&ctx
+      |                         ^~~~~~
+./samples/SAFE/__tmp_58185922.c:182:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_58185922.c:182:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_58185922.c:182:25: error: expected declaration or statement at end of input

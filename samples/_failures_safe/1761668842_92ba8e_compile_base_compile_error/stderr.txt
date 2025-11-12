@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9243a374.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_9243a374.c:171:12: error: expected declaration or statement at end of input
+  171 |     struct Queue q = queue_create();
+      |            ^~~~~

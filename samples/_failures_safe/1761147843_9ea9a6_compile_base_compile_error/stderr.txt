@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_da014d9f.c: In function ‘main’:
+./samples/SAFE/__tmp_da014d9f.c:135:5: error: expected expression at end of input
+  135 |     printf("Enter values for matrix B (%dx%d):\n",
+      |     ^~~~~~
+./samples/SAFE/__tmp_da014d9f.c:135:5: error: expected declaration or statement at end of input

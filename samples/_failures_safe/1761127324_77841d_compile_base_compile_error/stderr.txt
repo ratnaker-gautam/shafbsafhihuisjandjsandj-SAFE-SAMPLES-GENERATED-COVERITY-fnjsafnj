@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e205351c.c: In function ‘main’:
+./samples/SAFE/__tmp_e205351c.c:162:9: error: expected declaration or statement at end of input
+  162 |         if (token.type == TOKEN_EOF || token.type == TOKEN_ERROR) {
+      |         ^~
+./samples/SAFE/__tmp_e205351c.c:162:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e205351c.c:162:9: error: expected declaration or statement at end of input

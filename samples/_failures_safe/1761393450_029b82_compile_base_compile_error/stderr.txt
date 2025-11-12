@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_94377c92.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_94377c92.c:149:17: error: expected declaration or statement at end of input
+  149 |                 token->value[1] = '\0';
+      |                 ^~~~~
+./samples/SAFE/__tmp_94377c92.c:149:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_94377c92.c:149:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_94377c92.c:149:17: error: expected declaration or statement at end of input

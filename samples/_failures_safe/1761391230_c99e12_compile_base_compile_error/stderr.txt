@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e111c7ad.c: In function ‘execute_graph_operation’:
+./samples/SAFE/__tmp_e111c7ad.c:165:9: error: expected expression at end of input
+  165 |         fprintf(stderr,
+      |         ^~~~~~~
+./samples/SAFE/__tmp_e111c7ad.c:165:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e111c7ad.c:165:9: error: expected declaration or statement at end of input

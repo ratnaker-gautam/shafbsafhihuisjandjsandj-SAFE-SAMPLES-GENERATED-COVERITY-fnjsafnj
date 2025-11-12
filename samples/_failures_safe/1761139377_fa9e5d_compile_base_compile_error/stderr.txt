@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a64ce235.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_a64ce235.c:158:17: error: expected ‘,’ or ‘;’ at end of input
+  158 |                 int new_distance = graph->nodes[current_node].distance
+      |                 ^~~
+./samples/SAFE/__tmp_a64ce235.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a64ce235.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a64ce235.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a64ce235.c:158:17: error: expected declaration or statement at end of input

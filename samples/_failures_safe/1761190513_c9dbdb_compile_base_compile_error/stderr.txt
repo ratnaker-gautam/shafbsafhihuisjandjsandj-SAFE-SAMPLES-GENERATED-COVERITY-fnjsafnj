@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_86d58213.c: In function ‘main’:
+./samples/SAFE/__tmp_86d58213.c:191:51: error: expected ‘)’ at end of input
+  191 |                 result = handle_selecting(&machine
+      |                                          ~        ^
+      |                                                   )
+./samples/SAFE/__tmp_86d58213.c:191:17: error: expected declaration or statement at end of input
+  191 |                 result = handle_selecting(&machine
+      |                 ^~~~~~
+./samples/SAFE/__tmp_86d58213.c:191:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_86d58213.c:191:17: error: expected declaration or statement at end of input

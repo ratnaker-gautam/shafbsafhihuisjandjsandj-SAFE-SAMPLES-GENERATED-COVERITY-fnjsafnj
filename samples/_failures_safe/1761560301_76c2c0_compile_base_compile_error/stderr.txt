@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4a7eee97.c: In function ‘main’:
+./samples/SAFE/__tmp_4a7eee97.c:176:9: error: expected declaration or statement at end of input
+  176 |         fflush(stdout);
+      |         ^~~~~~
+./samples/SAFE/__tmp_4a7eee97.c:176:9: error: expected declaration or statement at end of input

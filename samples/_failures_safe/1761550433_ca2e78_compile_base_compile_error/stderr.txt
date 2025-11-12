@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b247d9ec.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_b247d9ec.c:148:53: error: expected ‘)’ at end of input
+  148 |         printf("Average word length: %.2f\n", (float
+      |                                               ~     ^
+      |                                                     )
+./samples/SAFE/__tmp_b247d9ec.c:148:9: error: expected declaration or statement at end of input
+  148 |         printf("Average word length: %.2f\n", (float
+      |         ^~~~~~
+./samples/SAFE/__tmp_b247d9ec.c:148:9: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a0ec47e5.c: In function ‘simulate_data_read’:
+./samples/SAFE/__tmp_a0ec47e5.c:167:5: error: expected declaration or statement at end of input
+  167 |     rec->flags = (rec->id % 2) ? 0x01 : 0x02;
+      |     ^~~

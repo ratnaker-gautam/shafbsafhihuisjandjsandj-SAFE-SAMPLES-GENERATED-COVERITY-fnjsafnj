@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_055e67cf.c: In function ‘main’:
+./samples/SAFE/__tmp_055e67cf.c:173:38: error: ‘MAX_TO’ undeclared (first use in this function); did you mean ‘MAX_TOKENS’?
+  173 |     TokenStack* stack = create_stack(MAX_TO
+      |                                      ^~~~~~
+      |                                      MAX_TOKENS
+./samples/SAFE/__tmp_055e67cf.c:173:38: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_055e67cf.c:173:44: error: expected ‘)’ at end of input
+  173 |     TokenStack* stack = create_stack(MAX_TO
+      |                                     ~      ^
+      |                                            )
+./samples/SAFE/__tmp_055e67cf.c:173:5: error: expected declaration or statement at end of input
+  173 |     TokenStack* stack = create_stack(MAX_TO
+      |     ^~~~~~~~~~

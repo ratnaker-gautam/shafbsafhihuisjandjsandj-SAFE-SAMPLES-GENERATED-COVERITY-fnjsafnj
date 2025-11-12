@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_44978446.c: In function ‘main’:
+./samples/SAFE/__tmp_44978446.c:178:5: error: expected declaration or statement at end of input
+  178 |     char choice_str[10];
+      |     ^~~~

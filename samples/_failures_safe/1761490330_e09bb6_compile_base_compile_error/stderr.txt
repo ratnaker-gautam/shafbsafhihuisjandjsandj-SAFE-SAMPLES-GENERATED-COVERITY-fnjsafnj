@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_28541ffc.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_28541ffc.c:143: error: expected ‘{’ at end of input

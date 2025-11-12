@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_b514ea77.c: In function ‘read_matrix’:
+./samples/SAFE/__tmp_b514ea77.c:152:30: error: invalid operands to binary < (have ‘size_t’ {aka ‘long unsigned int’} and ‘struct Matrix’)
+  152 |         for (size_t j = 0; j < mat
+      |                              ^
+./samples/SAFE/__tmp_b514ea77.c:152:35: error: expected ‘;’ at end of input
+  152 |         for (size_t j = 0; j < mat
+      |                                   ^
+      |                                   ;
+./samples/SAFE/__tmp_b514ea77.c:152:9: error: expected declaration or statement at end of input
+  152 |         for (size_t j = 0; j < mat
+      |         ^~~
+./samples/SAFE/__tmp_b514ea77.c:152:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b44381dc.c: In function ‘main’:
+./samples/SAFE/__tmp_b44381dc.c:148:9: error: expected expression at end of input
+  148 |         double ratio = (double)
+      |         ^~~~~~
+./samples/SAFE/__tmp_b44381dc.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b44381dc.c:148:9: error: expected declaration or statement at end of input

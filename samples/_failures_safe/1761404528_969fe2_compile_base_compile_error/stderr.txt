@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5034ffca.c: In function ‘main’:
+./samples/SAFE/__tmp_5034ffca.c:143:13: error: expected declaration or statement at end of input
+  143 |             printf("Compressed: ");
+      |             ^~~~~~
+./samples/SAFE/__tmp_5034ffca.c:143:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5034ffca.c:143:13: error: expected declaration or statement at end of input

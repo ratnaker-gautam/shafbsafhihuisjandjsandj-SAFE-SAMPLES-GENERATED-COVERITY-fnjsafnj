@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_bf87370b.c: In function ‘main’:
+./samples/SAFE/__tmp_bf87370b.c:155:55: error: expected ‘)’ at end of input
+  155 |         success = decompress_run_length(input_buf.data
+      |                                        ~              ^
+      |                                                       )
+./samples/SAFE/__tmp_bf87370b.c:155:19: error: too few arguments to function ‘decompress_run_length’
+  155 |         success = decompress_run_length(input_buf.data
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_bf87370b.c:83:5: note: declared here
+   83 | int decompress_run_length(const uint8_t *input, size_t input_size, Buffer *output) {
+      |     ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_bf87370b.c:155:9: error: expected declaration or statement at end of input
+  155 |         success = decompress_run_length(input_buf.data
+      |         ^~~~~~~
+./samples/SAFE/__tmp_bf87370b.c:155:9: error: expected declaration or statement at end of input

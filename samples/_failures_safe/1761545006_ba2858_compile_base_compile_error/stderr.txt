@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7cea500a.c: In function ‘state_to_string’:
+./samples/SAFE/__tmp_7cea500a.c:147:9: error: expected declaration or statement at end of input
+  147 |         return names[state];
+      |         ^~~~~~
+./samples/SAFE/__tmp_7cea500a.c:147:9: error: expected declaration or statement at end of input

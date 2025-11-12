@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_b26df0f3.c: In function ‘main’:
+./samples/SAFE/__tmp_b26df0f3.c:142:20: error: ‘analy’ undeclared (first use in this function); did you mean ‘analyzer’?
+  142 |     init_analyzer(&analy
+      |                    ^~~~~
+      |                    analyzer
+./samples/SAFE/__tmp_b26df0f3.c:142:20: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b26df0f3.c:142:25: error: expected ‘)’ at end of input
+  142 |     init_analyzer(&analy
+      |                  ~      ^
+      |                         )
+./samples/SAFE/__tmp_b26df0f3.c:142:5: error: expected declaration or statement at end of input
+  142 |     init_analyzer(&analy
+      |     ^~~~~~~~~~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_eadce2bc.c: In function ‘graph_reset’:
+./samples/SAFE/__tmp_eadce2bc.c:167: error: expected ‘;’ at end of input
+./samples/SAFE/__tmp_eadce2bc.c:166:9: error: expected declaration or statement at end of input
+  166 |         graph->nodes[i]->distance = INT_MAX
+      |         ^~~~~
+./samples/SAFE/__tmp_eadce2bc.c:166:9: error: expected declaration or statement at end of input

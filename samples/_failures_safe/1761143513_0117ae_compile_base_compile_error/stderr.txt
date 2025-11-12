@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c54f756f.c: In function ‘main’:
+./samples/SAFE/__tmp_c54f756f.c:160:16: error: expected expression at end of input
+  160 |         struct Token token = get_next_token(&
+      |                ^~~~~
+./samples/SAFE/__tmp_c54f756f.c:160:30: error: too few arguments to function ‘get_next_token’
+  160 |         struct Token token = get_next_token(&
+      |                              ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c54f756f.c:41:14: note: declared here
+   41 | struct Token get_next_token(const char** input, int* line, int* column) {
+      |              ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c54f756f.c:160:16: error: expected declaration or statement at end of input
+  160 |         struct Token token = get_next_token(&
+      |                ^~~~~
+./samples/SAFE/__tmp_c54f756f.c:160:16: error: expected declaration or statement at end of input

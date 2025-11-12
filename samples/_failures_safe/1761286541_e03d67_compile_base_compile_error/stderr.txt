@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_41467721.c: In function ‘main’:
+./samples/SAFE/__tmp_41467721.c:157:21: error: expected ‘;’ at end of input
+  157 |     decompressed_buf
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_41467721.c:157:5: error: expected declaration or statement at end of input
+  157 |     decompressed_buf
+      |     ^~~~~~~~~~~~~~~~

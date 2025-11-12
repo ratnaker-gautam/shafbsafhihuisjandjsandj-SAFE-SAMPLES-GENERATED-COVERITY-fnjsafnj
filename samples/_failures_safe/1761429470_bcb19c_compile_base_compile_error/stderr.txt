@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_26f03b59.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_26f03b59.c:158: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_26f03b59.c:157:17: error: expected declaration or statement at end of input
+  157 |                 if
+      |                 ^~
+./samples/SAFE/__tmp_26f03b59.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_26f03b59.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_26f03b59.c:157:17: error: expected declaration or statement at end of input

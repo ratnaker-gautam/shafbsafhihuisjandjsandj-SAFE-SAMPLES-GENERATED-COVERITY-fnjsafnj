@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_b808ef33.c: In function ‘main’:
+./samples/SAFE/__tmp_b808ef33.c:141:46: error: expected ‘)’ at end of input
+  141 |         display_logs_recursive(entries, count
+      |                               ~              ^
+      |                                              )
+./samples/SAFE/__tmp_b808ef33.c:141:9: error: too few arguments to function ‘display_logs_recursive’
+  141 |         display_logs_recursive(entries, count
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b808ef33.c:56:6: note: declared here
+   56 | void display_logs_recursive(LogEntry* entries, int count, int index, const char* filter_level) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b808ef33.c:141:9: error: expected declaration or statement at end of input
+  141 |         display_logs_recursive(entries, count
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_b808ef33.c:141:9: error: expected declaration or statement at end of input

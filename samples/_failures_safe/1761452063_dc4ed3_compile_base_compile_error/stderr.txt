@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d17beea3.c: In function ‘read_delimiter’:
+./samples/SAFE/__tmp_d17beea3.c:146:27: error: missing terminating ' character
+  146 |         token->value[1] = '\0
+      |                           ^~~
+./samples/SAFE/__tmp_d17beea3.c:146:9: error: expected expression at end of input
+  146 |         token->value[1] = '\0
+      |         ^~~~~
+./samples/SAFE/__tmp_d17beea3.c:146:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d17beea3.c:146:9: error: expected declaration or statement at end of input

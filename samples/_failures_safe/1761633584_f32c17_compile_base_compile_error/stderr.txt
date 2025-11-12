@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_29cc0248.c: In function ‘main’:
+./samples/SAFE/__tmp_29cc0248.c:187:5: error: expected declaration or statement at end of input
+  187 |     printf("Commands: s-select, q-quit, b-back, c-cancel, 1-9 coins\n");
+      |     ^~~~~~

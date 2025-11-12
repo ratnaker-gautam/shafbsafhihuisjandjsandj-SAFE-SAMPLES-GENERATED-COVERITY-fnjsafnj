@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a68829ce.c: In function ‘compute_bounds’:
+./samples/SAFE/__tmp_a68829ce.c:141:71: error: expected ‘;’ at end of input
+  141 |         if (vertices[i].y > bounds.max.y) bounds.max.y = vertices[i].y
+      |                                                                       ^
+      |                                                                       ;
+./samples/SAFE/__tmp_a68829ce.c:141:9: error: expected declaration or statement at end of input
+  141 |         if (vertices[i].y > bounds.max.y) bounds.max.y = vertices[i].y
+      |         ^~
+./samples/SAFE/__tmp_a68829ce.c:141:9: error: expected declaration or statement at end of input

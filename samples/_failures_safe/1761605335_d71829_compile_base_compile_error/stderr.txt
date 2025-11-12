@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5a84a913.c: In function ‘main’:
+./samples/SAFE/__tmp_5a84a913.c:159:38: error: expected ‘;’ at end of input
+  159 |             comp_type = COMPRESS_NONE
+      |                                      ^
+      |                                      ;
+./samples/SAFE/__tmp_5a84a913.c:159:13: error: expected declaration or statement at end of input
+  159 |             comp_type = COMPRESS_NONE
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_5a84a913.c:159:13: error: expected declaration or statement at end of input

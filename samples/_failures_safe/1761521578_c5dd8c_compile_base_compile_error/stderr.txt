@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f8d1b702.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_f8d1b702.c:148:5: error: expected expression at end of input
+  148 |     if (lexer == NULL || tokens == NULL || max_tokens <=
+      |     ^~
+./samples/SAFE/__tmp_f8d1b702.c:148:5: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a2efcabb.c: In function ‘main’:
+./samples/SAFE/__tmp_a2efcabb.c:168:48: error: expected ‘)’ at end of input
+  168 |         for (size_t i = 0; i < display_count; i
+      |             ~                                  ^
+      |                                                )
+./samples/SAFE/__tmp_a2efcabb.c:168:9: error: expected declaration or statement at end of input
+  168 |         for (size_t i = 0; i < display_count; i
+      |         ^~~
+./samples/SAFE/__tmp_a2efcabb.c:168:9: error: expected declaration or statement at end of input

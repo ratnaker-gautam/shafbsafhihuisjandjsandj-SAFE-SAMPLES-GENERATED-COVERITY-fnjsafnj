@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_29406422.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_29406422.c:169:40: error: expected declaration or statement at end of input
+  169 | int tokenize(const char *input, struct Token tokens[], int max_tokens) {
+      |                                        ^~~~~

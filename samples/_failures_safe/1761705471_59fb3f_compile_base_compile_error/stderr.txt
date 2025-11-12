@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2326e5d6.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_2326e5d6.c:129:17: error: expected expression at end of input
+  129 |                 if (val_a != 0 &&
+      |                 ^~
+./samples/SAFE/__tmp_2326e5d6.c:129:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2326e5d6.c:129:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2326e5d6.c:129:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2326e5d6.c:129:17: error: expected declaration or statement at end of input

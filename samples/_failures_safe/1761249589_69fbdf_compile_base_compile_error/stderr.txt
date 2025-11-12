@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c2b95aca.c: In function ‘main’:
+./samples/SAFE/__tmp_c2b95aca.c:145:5: error: expected declaration or statement at end of input
+  145 |     if (fgets(line, sizeof(line), stdin) == NULL) return 1;
+      |     ^~

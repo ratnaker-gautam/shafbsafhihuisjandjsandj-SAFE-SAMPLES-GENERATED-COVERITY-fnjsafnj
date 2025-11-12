@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_c74643d2.c: In function ‘main’:
+./samples/SAFE/__tmp_c74643d2.c:148:42: error: expected ‘)’ at end of input
+  148 |     print_hex(compressed.data, compressed
+      |              ~                           ^
+      |                                          )
+./samples/SAFE/__tmp_c74643d2.c:148:32: error: incompatible type for argument 2 of ‘print_hex’
+  148 |     print_hex(compressed.data, compressed
+      |                                ^~~~~~~~~~
+      |                                |
+      |                                Buffer
+./samples/SAFE/__tmp_c74643d2.c:105:44: note: expected ‘size_t’ {aka ‘long unsigned int’} but argument is of type ‘Buffer’
+  105 | void print_hex(const uint8_t* data, size_t size) {
+      |                                     ~~~~~~~^~~~
+./samples/SAFE/__tmp_c74643d2.c:148:5: error: expected declaration or statement at end of input
+  148 |     print_hex(compressed.data, compressed
+      |     ^~~~~~~~~

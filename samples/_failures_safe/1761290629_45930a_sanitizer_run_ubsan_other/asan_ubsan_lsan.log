@@ -1,0 +1,7 @@
+
+samples/SAFE/__tmp_95cf6bc3.c:83:39: runtime error: index 18446744073709551615 out of bounds for type 'char [512]'
+    #0 0x5e1f03f15137 in main samples/SAFE/__tmp_95cf6bc3.c:83
+    #1 0x73a967a2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #2 0x73a967a2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x5e1f03f14344 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_95cf6bc3.c.san+0x3344) (BuildId: 8b4be86537907695c227614bbf7161bd2e0141e4)
+

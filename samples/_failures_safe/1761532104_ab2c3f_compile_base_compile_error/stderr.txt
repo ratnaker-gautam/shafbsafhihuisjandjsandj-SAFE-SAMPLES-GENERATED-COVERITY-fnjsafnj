@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_bb7bbef0.c: In function ‘parser_advance’:
+./samples/SAFE/__tmp_bb7bbef0.c:148:5: error: expected declaration or statement at end of input
+  148 |     parser->current_token = lexer_next_token(parser->lexer);
+      |     ^~~~~~

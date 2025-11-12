@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_aae08983.c: In function ‘main’:
+./samples/SAFE/__tmp_aae08983.c:141:13: error: expected expression at end of input
+  141 |             int rows2 = get_valid_int("Enter rows for second matrix: ",
+      |             ^~~
+./samples/SAFE/__tmp_aae08983.c:141:25: error: too few arguments to function ‘get_valid_int’
+  141 |             int rows2 = get_valid_int("Enter rows for second matrix: ",
+      |                         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_aae08983.c:24:5: note: declared here
+   24 | int get_valid_int(const char* prompt, int min_val, int max_val) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_aae08983.c:141:13: error: expected declaration or statement at end of input
+  141 |             int rows2 = get_valid_int("Enter rows for second matrix: ",
+      |             ^~~
+./samples/SAFE/__tmp_aae08983.c:141:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_aae08983.c:141:13: error: expected declaration or statement at end of input

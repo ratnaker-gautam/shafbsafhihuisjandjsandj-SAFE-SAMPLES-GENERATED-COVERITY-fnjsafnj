@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a9b42770.c: In function ‘main’:
+./samples/SAFE/__tmp_a9b42770.c:137:9: error: expected declaration or statement at end of input
+  137 |         analyze_logs(buffer);
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_a9b42770.c:137:9: error: expected declaration or statement at end of input

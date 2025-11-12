@@ -1,0 +1,133 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: function_pointers ; Variation: compression_stub
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+
+#define MAX_INPUT_SIZE 1024
+#define MAX_OUTPUT_SIZE 2048
+
+typedef struct {
+    uint8_t *data;
+    size_t size;
+} Buffer;
+
+typedef size_t (*CompressFunc)(const uint8_t *input, size_t input_size, uint8_t *output, size_t output_size);
+typedef size_t (*DecompressFunc)(const uint8_t *input, size_t input_size, uint8_t *output, size_t output_size);
+
+size_t run_length_encode(const uint8_t *input, size_t input_size, uint8_t *output, size_t output_size) {
+    if (input == NULL || output == NULL || input_size == 0) return 0;
+    
+    size_t out_idx = 0;
+    size_t i = 0;
+    
+    while (i < input_size && out_idx + 2 <= output_size) {
+        uint8_t current = input[i];
+        size_t count = 1;
+        
+        while (i + count < input_size && count < 255 && input[i + count] == current) {
+            count++;
+        }
+        
+        output[out_idx++] = count;
+        output[out_idx++] = current;
+        i += count;
+    }
+    
+    return out_idx;
+}
+
+size_t run_length_decode(const uint8_t *input, size_t input_size, uint8_t *output, size_t output_size) {
+    if (input == NULL || output == NULL || input_size == 0 || input_size % 2 != 0) return 0;
+    
+    size_t out_idx = 0;
+    size_t i = 0;
+    
+    while (i < input_size && out_idx < output_size) {
+        uint8_t count = input[i++];
+        uint8_t value = input[i++];
+        
+        if (out_idx + count > output_size) break;
+        
+        for (uint8_t j = 0; j < count; j++) {
+            output[out_idx++] = value;
+        }
+    }
+    
+    return out_idx;
+}
+
+Buffer read_input(void) {
+    Buffer buf = {NULL, 0};
+    char input[MAX_INPUT_SIZE];
+    
+    printf("Enter data to compress (max %d chars): ", MAX_INPUT_SIZE - 1);
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        return buf;
+    }
+    
+    size_t len = strlen(input);
+    if (len > 0 && input[len - 1] == '\n') {
+        input[len - 1] = '\0';
+        len--;
+    }
+    
+    if (len == 0) {
+        return buf;
+    }
+    
+    buf.data = malloc(len);
+    if (buf.data == NULL) {
+        return buf;
+    }
+    
+    memcpy(buf.data, input, len);
+    buf.size = len;
+    return buf;
+}
+
+void process_compression(CompressFunc compress, DecompressFunc decompress) {
+    Buffer input = read_input();
+    if (input.data == NULL || input.size == 0) {
+        printf("No valid input provided.\n");
+        return;
+    }
+    
+    uint8_t compressed[MAX_OUTPUT_SIZE];
+    size_t compressed_size = compress(input.data, input.size, compressed, sizeof(compressed));
+    
+    if (compressed_size == 0) {
+        printf("Compression failed.\n");
+        free(input.data);
+        return;
+    }
+    
+    printf("Compressed %zu bytes to %zu bytes\n", input.size, compressed_size);
+    
+    uint8_t decompressed[MAX_INPUT_SIZE];
+    size_t decompressed_size = decompress(compressed, compressed_size, decompressed, sizeof(decompressed));
+    
+    if (decompressed_size == 0 || decompressed_size != input.size) {
+        printf("Decompression failed.\n");
+        free(input.data);
+        return;
+    }
+    
+    if (memcmp(input.data, decompressed, input.size) == 0) {
+        printf("Round-trip successful. Data integrity verified.\n");
+    } else {
+        printf("Data corruption detected!\n");
+    }
+    
+    free(input.data);
+}
+
+int main(void) {
+    CompressFunc compress_func = run_length_encode;
+    DecompressFunc decompress_func = run_length_decode;
+    
+    printf("Simple Run-Length Encoding Compression Demo\n");
+    process_compression(compress_func, decompress_func);
+    
+    return 0;
+}

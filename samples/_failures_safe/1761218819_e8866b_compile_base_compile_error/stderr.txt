@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e4700372.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_e4700372.c:164: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_e4700372.c:163:5: error: expected declaration or statement at end of input
+  163 |     if
+      |     ^~

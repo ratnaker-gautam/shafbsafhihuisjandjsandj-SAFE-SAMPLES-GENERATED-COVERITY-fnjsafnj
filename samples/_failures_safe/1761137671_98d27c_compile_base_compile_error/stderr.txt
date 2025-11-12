@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_376440ee.c: In function ‘main’:
+./samples/SAFE/__tmp_376440ee.c:134:33: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols2’?
+  134 |             for (int j = 0; j < cols
+      |                                 ^~~~
+      |                                 cols2
+./samples/SAFE/__tmp_376440ee.c:134:33: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_376440ee.c:134:37: error: expected ‘;’ at end of input
+  134 |             for (int j = 0; j < cols
+      |                                     ^
+      |                                     ;
+./samples/SAFE/__tmp_376440ee.c:134:13: error: expected declaration or statement at end of input
+  134 |             for (int j = 0; j < cols
+      |             ^~~
+./samples/SAFE/__tmp_376440ee.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_376440ee.c:134:13: error: expected declaration or statement at end of input

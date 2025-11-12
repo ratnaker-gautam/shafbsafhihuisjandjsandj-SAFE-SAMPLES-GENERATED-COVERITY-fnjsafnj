@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1b63a28f.c: In function ‘main’:
+./samples/SAFE/__tmp_1b63a28f.c:174:5: error: expected declaration or statement at end of input
+  174 |     initialize_state_machine(&sm);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_faf8084f.c: In function ‘validate_transform’:
+./samples/SAFE/__tmp_faf8084f.c:125:5: error: expected expression at end of input
+  125 |     if (t.scale <= 0.0 ||
+      |     ^~
+./samples/SAFE/__tmp_faf8084f.c:125:5: error: expected declaration or statement at end of input

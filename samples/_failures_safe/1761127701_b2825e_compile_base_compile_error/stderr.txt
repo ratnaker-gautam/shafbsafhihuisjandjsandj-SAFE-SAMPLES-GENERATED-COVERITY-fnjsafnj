@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2ae07438.c: In function ‘main’:
+./samples/SAFE/__tmp_2ae07438.c:165:40: error: invalid initializer
+  165 |     struct compression_result result = compress_data
+      |                                        ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_2ae07438.c:165:12: error: expected ‘,’ or ‘;’ at end of input
+  165 |     struct compression_result result = compress_data
+      |            ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2ae07438.c:165:12: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c459288c.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_c459288c.c:191:5: error: expected expression at end of input
+  191 |     for (int i = 0; i <
+      |     ^~~
+./samples/SAFE/__tmp_c459288c.c:191:5: error: expected declaration or statement at end of input

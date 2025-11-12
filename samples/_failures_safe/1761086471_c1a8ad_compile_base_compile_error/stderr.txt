@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_f9254971.c: In function ‘mesh_contains_point’:
+./samples/SAFE/__tmp_f9254971.c:128:57: error: ‘struct Mesh’ has no member named ‘vertex’; did you mean ‘vertices’?
+  128 |     if (mesh == NULL || mesh->vertices == NULL || mesh->vertex
+      |                                                         ^~~~~~
+      |                                                         vertices
+./samples/SAFE/__tmp_f9254971.c:128:63: error: expected ‘)’ at end of input
+  128 |     if (mesh == NULL || mesh->vertices == NULL || mesh->vertex
+      |        ~                                                      ^
+      |                                                               )
+./samples/SAFE/__tmp_f9254971.c:128:5: error: expected declaration or statement at end of input
+  128 |     if (mesh == NULL || mesh->vertices == NULL || mesh->vertex
+      |     ^~

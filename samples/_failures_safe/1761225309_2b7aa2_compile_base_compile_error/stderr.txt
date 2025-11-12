@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_41451db2.c: In function ‘main’:
+./samples/SAFE/__tmp_41451db2.c:177:30: error: expected ‘)’ at end of input
+  177 |     size_t len = strlen(input
+      |                        ~     ^
+      |                              )
+./samples/SAFE/__tmp_41451db2.c:177:5: error: expected declaration or statement at end of input
+  177 |     size_t len = strlen(input
+      |     ^~~~~~

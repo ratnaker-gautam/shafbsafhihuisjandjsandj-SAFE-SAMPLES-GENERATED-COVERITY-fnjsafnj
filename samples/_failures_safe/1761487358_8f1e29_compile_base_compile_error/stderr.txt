@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_57296344.c: In function ‘main’:
+./samples/SAFE/__tmp_57296344.c:165:9: error: ‘run_state_m’ undeclared (first use in this function); did you mean ‘run_state_machine’?
+  165 |         run_state_m
+      |         ^~~~~~~~~~~
+      |         run_state_machine
+./samples/SAFE/__tmp_57296344.c:165:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_57296344.c:165:20: error: expected ‘;’ at end of input
+  165 |         run_state_m
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_57296344.c:165:9: error: expected declaration or statement at end of input
+  165 |         run_state_m
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_57296344.c:165:9: error: expected declaration or statement at end of input

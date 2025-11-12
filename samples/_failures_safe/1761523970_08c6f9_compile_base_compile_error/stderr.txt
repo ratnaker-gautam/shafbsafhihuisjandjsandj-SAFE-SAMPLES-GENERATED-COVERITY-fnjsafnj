@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_fd8c5335.c: In function ‘main’:
+./samples/SAFE/__tmp_fd8c5335.c:126:21: error: expected expression at end of input
+  126 |                     long sum = (
+      |                     ^~~~
+./samples/SAFE/__tmp_fd8c5335.c:126:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fd8c5335.c:126:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fd8c5335.c:126:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fd8c5335.c:126:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fd8c5335.c:126:21: error: expected declaration or statement at end of input

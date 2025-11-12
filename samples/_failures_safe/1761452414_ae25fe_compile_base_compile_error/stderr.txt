@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_50cb49e4.c: In function ‘main’:
+./samples/SAFE/__tmp_50cb49e4.c:131:20: error: expected ‘;’ at end of input
+  131 |             trace_a
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_50cb49e4.c:131:13: error: expected declaration or statement at end of input
+  131 |             trace_a
+      |             ^~~~~~~
+./samples/SAFE/__tmp_50cb49e4.c:131:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_50cb49e4.c:131:13: error: expected declaration or statement at end of input

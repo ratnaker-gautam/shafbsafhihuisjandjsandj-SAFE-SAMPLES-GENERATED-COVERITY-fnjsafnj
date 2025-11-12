@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_2c6c2a2b.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_2c6c2a2b.c:174:38: error: expected ‘;’ at end of input
+  174 |             neighbor = neighbor->next
+      |                                      ^
+      |                                      ;
+./samples/SAFE/__tmp_2c6c2a2b.c:174:13: error: expected declaration or statement at end of input
+  174 |             neighbor = neighbor->next
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_2c6c2a2b.c:174:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2c6c2a2b.c:174:13: error: expected declaration or statement at end of input

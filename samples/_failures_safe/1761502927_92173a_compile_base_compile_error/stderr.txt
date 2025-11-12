@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_25a7d113.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_25a7d113.c:125:5: error: expected expression at end of input
+  125 |     if (!allocate_matrix(result,
+      |     ^~
+./samples/SAFE/__tmp_25a7d113.c:125:10: error: too few arguments to function ‘allocate_matrix’
+  125 |     if (!allocate_matrix(result,
+      |          ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_25a7d113.c:28:5: note: declared here
+   28 | int allocate_matrix(struct Matrix *m, int rows, int cols) {
+      |     ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_25a7d113.c:125:5: error: expected declaration or statement at end of input
+  125 |     if (!allocate_matrix(result,
+      |     ^~

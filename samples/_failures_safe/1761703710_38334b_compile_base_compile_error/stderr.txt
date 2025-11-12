@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b62e0856.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_b62e0856.c:160:9: error: expected declaration or statement at end of input
+  160 |         tokens[token_count].column = col;
+      |         ^~~~~~
+./samples/SAFE/__tmp_b62e0856.c:160:9: error: expected declaration or statement at end of input

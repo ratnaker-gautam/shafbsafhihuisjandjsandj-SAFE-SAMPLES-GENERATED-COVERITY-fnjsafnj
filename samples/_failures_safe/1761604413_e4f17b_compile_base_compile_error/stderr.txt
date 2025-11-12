@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_99fa2bd4.c: In function ‘main’:
+./samples/SAFE/__tmp_99fa2bd4.c:178:33: error: expected ‘]’ at end of input
+  178 |     char input[MAX_INPUT_LEN + 2
+      |                                 ^
+      |                                 ]
+./samples/SAFE/__tmp_99fa2bd4.c:178:5: error: expected declaration or statement at end of input
+  178 |     char input[MAX_INPUT_LEN + 2
+      |     ^~~~

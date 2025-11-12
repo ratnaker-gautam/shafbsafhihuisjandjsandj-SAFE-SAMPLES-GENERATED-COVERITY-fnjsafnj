@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_a57d0819.c: In function ‘main’:
+./samples/SAFE/__tmp_a57d0819.c:192:5: error: ‘context’ undeclared (first use in this function); did you mean ‘context_t’?
+  192 |     context
+      |     ^~~~~~~
+      |     context_t
+./samples/SAFE/__tmp_a57d0819.c:192:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a57d0819.c:192:12: error: expected ‘;’ at end of input
+  192 |     context
+      |            ^
+      |            ;
+./samples/SAFE/__tmp_a57d0819.c:192:5: error: expected declaration or statement at end of input
+  192 |     context
+      |     ^~~~~~~

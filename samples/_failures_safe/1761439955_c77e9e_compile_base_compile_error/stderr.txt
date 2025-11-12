@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_dc1137e7.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_dc1137e7.c:136:5: error: expected declaration or statement at end of input
+  136 |     printf("Log Analysis Results:\n");
+      |     ^~~~~~

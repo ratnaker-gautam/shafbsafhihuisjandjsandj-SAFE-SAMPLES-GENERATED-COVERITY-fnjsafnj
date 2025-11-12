@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7b2ee4a7.c: In function ‘main’:
+./samples/SAFE/__tmp_7b2ee4a7.c:159:16: error: expected identifier at end of input
+  159 |                token.
+      |                ^~~~~
+./samples/SAFE/__tmp_7b2ee4a7.c:159:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7b2ee4a7.c:159:16: error: expected declaration or statement at end of input

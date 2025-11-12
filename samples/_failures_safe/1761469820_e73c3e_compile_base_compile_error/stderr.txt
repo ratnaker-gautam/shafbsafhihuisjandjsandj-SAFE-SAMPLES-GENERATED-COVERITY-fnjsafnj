@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_bf4a461d.c: In function ‘print_buffer_hex’:
+./samples/SAFE/__tmp_bf4a461d.c:158: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_bf4a461d.c:157:9: error: expected declaration or statement at end of input
+  157 |         if
+      |         ^~
+./samples/SAFE/__tmp_bf4a461d.c:157:9: error: expected declaration or statement at end of input

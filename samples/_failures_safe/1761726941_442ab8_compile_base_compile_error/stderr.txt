@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_207c230e.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_207c230e.c:158:9: error: ‘parser_adv’ undeclared (first use in this function); did you mean ‘parser’?
+  158 |         parser_adv
+      |         ^~~~~~~~~~
+      |         parser
+./samples/SAFE/__tmp_207c230e.c:158:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_207c230e.c:158:19: error: expected ‘;’ at end of input
+  158 |         parser_adv
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_207c230e.c:158:9: error: expected declaration or statement at end of input
+  158 |         parser_adv
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_207c230e.c:158:9: error: expected declaration or statement at end of input

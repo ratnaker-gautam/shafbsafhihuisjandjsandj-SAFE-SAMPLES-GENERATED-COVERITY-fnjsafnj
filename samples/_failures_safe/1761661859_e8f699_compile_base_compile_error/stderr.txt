@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_6687e366.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_6687e366.c:128:40: error: expected ‘;’ at end of input
+  128 |             for (int j = 0; j < m->cols
+      |                                        ^
+      |                                        ;
+./samples/SAFE/__tmp_6687e366.c:128:13: error: expected declaration or statement at end of input
+  128 |             for (int j = 0; j < m->cols
+      |             ^~~
+./samples/SAFE/__tmp_6687e366.c:128:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6687e366.c:128:13: error: expected declaration or statement at end of input

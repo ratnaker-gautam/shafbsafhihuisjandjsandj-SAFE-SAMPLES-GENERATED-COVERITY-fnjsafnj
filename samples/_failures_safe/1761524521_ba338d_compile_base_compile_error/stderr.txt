@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_52517174.c: In function ‘executeAlgorithm’:
+./samples/SAFE/__tmp_52517174.c:140:49: error: expected declaration or statement at end of input
+  140 | void executeAlgorithm(struct Graph *graph, enum Algorithm algo, int start) {
+      |                                                 ^~~~~~~~~

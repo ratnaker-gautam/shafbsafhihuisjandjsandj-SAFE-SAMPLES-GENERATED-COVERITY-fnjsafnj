@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_935fd4d9.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_935fd4d9.c:161:9: error: expected declaration or statement at end of input
+  161 |         } else if (is_operator_char(c)) {
+      |         ^
+./samples/SAFE/__tmp_935fd4d9.c:161:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_935fd4d9.c:161:9: error: expected declaration or statement at end of input

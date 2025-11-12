@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/cc03BBzS.o: in function `safe_power':
+__tmp_b9f5e70e.c:(.text+0xda): undefined reference to `pow'
+/usr/bin/ld: __tmp_b9f5e70e.c:(.text+0x11c): undefined reference to `fmod'
+/usr/bin/ld: /tmp/cc03BBzS.o: in function `main':
+__tmp_b9f5e70e.c:(.text.startup+0x1ac): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_b9f5e70e.c:(.text.startup+0x3f4): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

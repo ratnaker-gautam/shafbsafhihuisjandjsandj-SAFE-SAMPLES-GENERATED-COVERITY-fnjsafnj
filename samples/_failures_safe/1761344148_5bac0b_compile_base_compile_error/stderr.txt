@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_47603801.c: In function ‘main’:
+./samples/SAFE/__tmp_47603801.c:158:58: error: ‘EVENT’ undeclared (first use in this function)
+  158 |                 event = (cycle % 5 == 0) ? EVENT_ERROR : EVENT
+      |                                                          ^~~~~
+./samples/SAFE/__tmp_47603801.c:158:58: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_47603801.c:158:63: error: expected ‘;’ at end of input
+  158 |                 event = (cycle % 5 == 0) ? EVENT_ERROR : EVENT
+      |                                                               ^
+      |                                                               ;
+./samples/SAFE/__tmp_47603801.c:158:17: error: expected declaration or statement at end of input
+  158 |                 event = (cycle % 5 == 0) ? EVENT_ERROR : EVENT
+      |                 ^~~~~
+./samples/SAFE/__tmp_47603801.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_47603801.c:158:17: error: expected declaration or statement at end of input

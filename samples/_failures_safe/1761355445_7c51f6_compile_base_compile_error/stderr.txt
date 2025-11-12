@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c5b8d53b.c: In function ‘main’:
+./samples/SAFE/__tmp_c5b8d53b.c:151:5: error: expected expression at end of input
+  151 |     initialize_graph(&g,
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c5b8d53b.c:151:5: error: expected declaration or statement at end of input

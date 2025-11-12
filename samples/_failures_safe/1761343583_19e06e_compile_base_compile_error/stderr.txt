@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8858ba2c.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_8858ba2c.c:150:5: error: expected identifier at end of input
+  150 |     heap->
+      |     ^~~~
+./samples/SAFE/__tmp_8858ba2c.c:150:5: error: expected declaration or statement at end of input

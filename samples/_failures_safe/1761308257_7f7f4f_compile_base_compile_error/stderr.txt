@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_15ba4d99.c: In function ‘main’:
+./samples/SAFE/__tmp_15ba4d99.c:180:31: error: expected ‘)’ at end of input
+  180 |     if (state_machine_finalize
+      |        ~                      ^
+      |                               )
+./samples/SAFE/__tmp_15ba4d99.c:180:5: error: expected declaration or statement at end of input
+  180 |     if (state_machine_finalize
+      |     ^~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c5ab74b9.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_c5ab74b9.c:149:9: error: expected expression at end of input
+  149 |         printf("%2d. %-20s (count: %3d, length: %2d%s)\n",
+      |         ^~~~~~
+./samples/SAFE/__tmp_c5ab74b9.c:149:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c5ab74b9.c:149:9: error: expected declaration or statement at end of input

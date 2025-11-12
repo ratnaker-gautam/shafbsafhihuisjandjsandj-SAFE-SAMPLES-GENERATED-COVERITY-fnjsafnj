@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f4a28ca6.c: In function ‘get_user_data’:
+./samples/SAFE/__tmp_f4a28ca6.c:178:5: error: expected expression at end of input
+  178 |     if (buffer == NULL || buffer_size ==
+      |     ^~
+./samples/SAFE/__tmp_f4a28ca6.c:178:5: error: expected declaration or statement at end of input

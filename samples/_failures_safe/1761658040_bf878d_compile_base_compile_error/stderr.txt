@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f520dcab.c: In function ‘main’:
+./samples/SAFE/__tmp_f520dcab.c:156:13: error: expected declaration or statement at end of input
+  156 |             printf("%d\tUnreachable\n", i);
+      |             ^~~~~~
+./samples/SAFE/__tmp_f520dcab.c:156:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f520dcab.c:156:13: error: expected declaration or statement at end of input

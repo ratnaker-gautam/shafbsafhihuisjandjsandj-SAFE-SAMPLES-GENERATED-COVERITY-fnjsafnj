@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6ebcb328.c: In function ‘main’:
+./samples/SAFE/__tmp_6ebcb328.c:179:5: error: expected expression at end of input
+  179 |     for (size_t i = 0; i < tokens->count;
+      |     ^~~
+./samples/SAFE/__tmp_6ebcb328.c:179:5: error: expected declaration or statement at end of input

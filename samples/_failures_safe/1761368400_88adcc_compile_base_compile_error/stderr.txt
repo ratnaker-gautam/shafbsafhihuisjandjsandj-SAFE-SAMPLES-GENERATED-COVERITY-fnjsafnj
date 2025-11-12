@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_d6c1c2d5.c: In function ‘main’:
+./samples/SAFE/__tmp_d6c1c2d5.c:184:14: error: ‘struct ParserState’ has no member named ‘error’
+  184 |     if (state.error
+      |              ^
+./samples/SAFE/__tmp_d6c1c2d5.c:184:20: error: expected ‘)’ at end of input
+  184 |     if (state.error
+      |        ~           ^
+      |                    )
+./samples/SAFE/__tmp_d6c1c2d5.c:184:5: error: expected declaration or statement at end of input
+  184 |     if (state.error
+      |     ^~

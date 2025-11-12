@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d5c8f18b.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_d5c8f18b.c:163:9: error: expected declaration or statement at end of input
+  163 |         if (read_number(t, &token)) success = 1;
+      |         ^~
+./samples/SAFE/__tmp_d5c8f18b.c:163:9: error: expected declaration or statement at end of input

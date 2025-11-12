@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_40e48639.c: In function ‘main’:
+./samples/SAFE/__tmp_40e48639.c:136:5: error: expected declaration or statement at end of input
+  136 |     print_matrix(transpose_a, cols_a, rows_a);
+      |     ^~~~~~~~~~~~

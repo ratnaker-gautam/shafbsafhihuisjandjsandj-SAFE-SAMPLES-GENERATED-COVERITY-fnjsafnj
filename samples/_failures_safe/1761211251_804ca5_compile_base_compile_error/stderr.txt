@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_64d18e9c.c: In function ‘print_statistics’:
+./samples/SAFE/__tmp_64d18e9c.c:131:64: error: expected ‘)’ at end of input
+  131 |                level_to_string(i), stats->counts[i], percentage
+      |                                                                ^
+      |                                                                )
+./samples/SAFE/__tmp_64d18e9c.c:130:15: note: to match this ‘(’
+  130 |         printf("%-6s: %d (%.1f%%)\n",
+      |               ^
+./samples/SAFE/__tmp_64d18e9c.c:131:16: error: expected declaration or statement at end of input
+  131 |                level_to_string(i), stats->counts[i], percentage
+      |                ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_64d18e9c.c:131:16: error: expected declaration or statement at end of input

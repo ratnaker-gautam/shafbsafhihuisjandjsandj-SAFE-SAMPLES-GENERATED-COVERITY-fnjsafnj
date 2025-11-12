@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a6da9317.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_a6da9317.c:163:9: error: expected ‘:’ or ‘...’ at end of input
+  163 |         case STATE_PROCESSING
+      |         ^~~~
+./samples/SAFE/__tmp_a6da9317.c:163:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a6da9317.c:163:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_021d3da5.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_021d3da5.c:180:13: error: expected declaration or statement at end of input
+  180 |             printf("%d ", dist[i]);
+      |             ^~~~~~
+./samples/SAFE/__tmp_021d3da5.c:180:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_021d3da5.c:180:13: error: expected declaration or statement at end of input

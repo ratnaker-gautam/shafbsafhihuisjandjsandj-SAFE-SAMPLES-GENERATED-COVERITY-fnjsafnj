@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_825929c3.c: In function ‘print_menu’:
+./samples/SAFE/__tmp_825929c3.c:181:12: error: missing terminating " character
+  181 |     printf("
+      |            ^
+./samples/SAFE/__tmp_825929c3.c:181:5: error: expected expression at end of input
+  181 |     printf("
+      |     ^~~~~~
+./samples/SAFE/__tmp_825929c3.c:181:5: error: expected declaration or statement at end of input

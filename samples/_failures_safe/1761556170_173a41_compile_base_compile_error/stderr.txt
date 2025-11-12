@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2d927a5d.c: In function ‘main’:
+./samples/SAFE/__tmp_2d927a5d.c:139: error: expected ‘;’ at end of input
+./samples/SAFE/__tmp_2d927a5d.c:138:17: error: expected declaration or statement at end of input
+  138 |                 MATRIX_IDX(result, i, j, cols2)
+      |                 ^~~~~~~~~~
+./samples/SAFE/__tmp_2d927a5d.c:138:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2d927a5d.c:138:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2d927a5d.c:138:17: error: expected declaration or statement at end of input

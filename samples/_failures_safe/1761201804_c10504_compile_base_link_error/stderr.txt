@@ -1,0 +1,11 @@
+/usr/bin/ld: /tmp/cchdE1NE.o: in function `safe_pow':
+__tmp_57c1e685.c:(.text+0x92): undefined reference to `fmod'
+/usr/bin/ld: /tmp/cchdE1NE.o: in function `compute_function':
+__tmp_57c1e685.c:(.text+0x165): undefined reference to `pow'
+/usr/bin/ld: __tmp_57c1e685.c:(.text+0x184): undefined reference to `pow'
+/usr/bin/ld: __tmp_57c1e685.c:(.text+0x23b): undefined reference to `pow'
+/usr/bin/ld: __tmp_57c1e685.c:(.text+0x279): undefined reference to `fmod'
+/usr/bin/ld: /tmp/cchdE1NE.o: in function `safe_pow':
+__tmp_57c1e685.c:(.text+0x2d): undefined reference to `pow'
+/usr/bin/ld: __tmp_57c1e685.c:(.text+0x7c): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

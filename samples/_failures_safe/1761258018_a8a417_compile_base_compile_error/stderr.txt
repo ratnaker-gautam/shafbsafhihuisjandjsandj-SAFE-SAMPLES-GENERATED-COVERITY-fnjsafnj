@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5a0cce50.c: In function ‘next_token’:
+./samples/SAFE/__tmp_5a0cce50.c:138:5: error: expected declaration or statement at end of input
+  138 |     return token;
+      |     ^~~~~~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_92931288.c: In function ‘main’:
+./samples/SAFE/__tmp_92931288.c:149:37: error: expected ‘)’ at end of input
+  149 |             for (int j = 0; j < i; j
+      |                 ~                   ^
+      |                                     )
+./samples/SAFE/__tmp_92931288.c:149:13: error: expected declaration or statement at end of input
+  149 |             for (int j = 0; j < i; j
+      |             ^~~
+./samples/SAFE/__tmp_92931288.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_92931288.c:149:13: error: expected declaration or statement at end of input

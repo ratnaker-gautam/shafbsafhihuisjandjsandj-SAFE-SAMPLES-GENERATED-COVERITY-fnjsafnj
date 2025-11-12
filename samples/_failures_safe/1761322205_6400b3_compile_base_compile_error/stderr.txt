@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_16d1971e.c: In function ‘main’:
+./samples/SAFE/__tmp_16d1971e.c:156:5: error: expected declaration or statement at end of input
+  156 |     char filter_input[20];
+      |     ^~~~

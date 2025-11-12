@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ea06ad39.c: In function ‘determinant_matrix’:
+./samples/SAFE/__tmp_ea06ad39.c:148:1: error: expected declaration or statement at end of input
+  148 | int determinant_matrix(int **matrix, int n) {
+      | ^~~

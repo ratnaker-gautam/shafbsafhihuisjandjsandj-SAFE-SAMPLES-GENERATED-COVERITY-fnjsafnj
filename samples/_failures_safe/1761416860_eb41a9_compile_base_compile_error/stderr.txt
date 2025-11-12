@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ed3bf0e2.c: In function ‘main’:
+./samples/SAFE/__tmp_ed3bf0e2.c:149:24: error: ‘parse_log’ undeclared (first use in this function)
+  149 |         filter_level = parse_log
+      |                        ^~~~~~~~~
+./samples/SAFE/__tmp_ed3bf0e2.c:149:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ed3bf0e2.c:149:33: error: expected ‘;’ at end of input
+  149 |         filter_level = parse_log
+      |                                 ^
+      |                                 ;
+./samples/SAFE/__tmp_ed3bf0e2.c:149:9: error: expected declaration or statement at end of input
+  149 |         filter_level = parse_log
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_ed3bf0e2.c:149:9: error: expected declaration or statement at end of input

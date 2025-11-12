@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_23efb8fe.c: In function ‘main’:
+./samples/SAFE/__tmp_23efb8fe.c:148:9: error: expected declaration or statement at end of input
+  148 |         printf("No critical or error events found\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_23efb8fe.c:148:9: error: expected declaration or statement at end of input

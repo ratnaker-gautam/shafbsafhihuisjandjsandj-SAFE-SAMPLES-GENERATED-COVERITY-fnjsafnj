@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_672e5111.c: In function ‘main’:
+./samples/SAFE/__tmp_672e5111.c:151:29: error: missing terminating ' character
+  151 |         'a', 'm', ' ', 'f', '
+      |                             ^
+./samples/SAFE/__tmp_672e5111.c:151:9: error: expected expression at end of input
+  151 |         'a', 'm', ' ', 'f', '
+      |         ^~~
+./samples/SAFE/__tmp_672e5111.c:151:9: error: expected declaration or statement at end of input

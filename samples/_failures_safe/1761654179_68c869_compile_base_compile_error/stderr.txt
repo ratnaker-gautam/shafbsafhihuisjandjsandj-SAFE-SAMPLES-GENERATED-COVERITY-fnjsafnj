@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fcf0b21a.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_fcf0b21a.c:166: error: expected ‘]’ at end of input
+./samples/SAFE/__tmp_fcf0b21a.c:165:17: error: expected declaration or statement at end of input
+  165 |                 token.value[MAX_TOKEN_LEN
+      |                 ^~~~~
+./samples/SAFE/__tmp_fcf0b21a.c:165:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fcf0b21a.c:165:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fcf0b21a.c:165:17: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_90251729.c: In function ‘tokenize_next’:
+./samples/SAFE/__tmp_90251729.c:173:5: error: expected declaration or statement at end of input
+  173 |     token->value[1] = '\0';
+      |     ^~~~~

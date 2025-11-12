@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_fbb0ee47.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_fbb0ee47.c:124:5: error: expected declaration or statement at end of input
+  124 |     if (stats == NULL) return;
+      |     ^~

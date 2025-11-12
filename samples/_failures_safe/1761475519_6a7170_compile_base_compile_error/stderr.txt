@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_97f740f0.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_97f740f0.c:152:17: error: expected declaration or statement at end of input
+  152 |                 int v = graph->edges[i].dest;
+      |                 ^~~
+./samples/SAFE/__tmp_97f740f0.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_97f740f0.c:152:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_97f740f0.c:152:17: error: expected declaration or statement at end of input

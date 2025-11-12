@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5bd89f8e.c: In function ‘main’:
+./samples/SAFE/__tmp_5bd89f8e.c:174:19: error: ‘str’ undeclared (first use in this function)
+  174 |     long choice = str
+      |                   ^~~
+./samples/SAFE/__tmp_5bd89f8e.c:174:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5bd89f8e.c:174:5: error: expected ‘,’ or ‘;’ at end of input
+  174 |     long choice = str
+      |     ^~~~
+./samples/SAFE/__tmp_5bd89f8e.c:174:5: error: expected declaration or statement at end of input

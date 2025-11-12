@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_23c98063.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_23c98063.c:159:26: error: expected ‘]’ at end of input
+  159 |             char buffer[2
+      |                          ^
+      |                          ]
+./samples/SAFE/__tmp_23c98063.c:159:13: error: expected declaration or statement at end of input
+  159 |             char buffer[2
+      |             ^~~~
+./samples/SAFE/__tmp_23c98063.c:159:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_23c98063.c:159:13: error: expected declaration or statement at end of input

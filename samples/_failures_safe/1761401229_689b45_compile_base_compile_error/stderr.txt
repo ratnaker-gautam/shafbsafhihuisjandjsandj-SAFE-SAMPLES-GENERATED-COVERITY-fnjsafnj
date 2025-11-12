@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_748b3847.c: In function ‘hex_to_bytes’:
+./samples/SAFE/__tmp_748b3847.c:112:13: error: expected declaration or statement at end of input
+  112 |             return -1;
+      |             ^~~~~~
+./samples/SAFE/__tmp_748b3847.c:112:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_748b3847.c:112:13: error: expected declaration or statement at end of input

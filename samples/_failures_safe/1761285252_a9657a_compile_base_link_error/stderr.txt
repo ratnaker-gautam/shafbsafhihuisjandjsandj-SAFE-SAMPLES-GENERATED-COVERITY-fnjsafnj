@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/cc1kdtrx.o: in function `safe_pow':
+__tmp_4782793b.c:(.text+0x92): undefined reference to `fmod'
+/usr/bin/ld: __tmp_4782793b.c:(.text+0x2d): undefined reference to `pow'
+/usr/bin/ld: __tmp_4782793b.c:(.text+0x7c): undefined reference to `pow'
+/usr/bin/ld: /tmp/cc1kdtrx.o: in function `main':
+__tmp_4782793b.c:(.text.startup+0x196): undefined reference to `log1p'
+collect2: error: ld returned 1 exit status

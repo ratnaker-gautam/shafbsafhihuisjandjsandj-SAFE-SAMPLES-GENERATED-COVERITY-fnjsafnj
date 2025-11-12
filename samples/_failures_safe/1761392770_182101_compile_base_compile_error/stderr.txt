@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_dceb5906.c: In function ‘kruskal_mst’:
+./samples/SAFE/__tmp_dceb5906.c:139:25: error: ‘mst’ undeclared (first use in this function)
+  139 |     for (int i = 0; i < mst
+      |                         ^~~
+./samples/SAFE/__tmp_dceb5906.c:139:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_dceb5906.c:139:28: error: expected ‘;’ at end of input
+  139 |     for (int i = 0; i < mst
+      |                            ^
+      |                            ;
+./samples/SAFE/__tmp_dceb5906.c:139:5: error: expected declaration or statement at end of input
+  139 |     for (int i = 0; i < mst
+      |     ^~~

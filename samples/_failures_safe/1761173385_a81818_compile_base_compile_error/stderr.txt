@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_021b5612.c: In function ‘main’:
+./samples/SAFE/__tmp_021b5612.c:125:22: error: expected ‘]’ at end of input
+  125 |     char filename[256
+      |                      ^
+      |                      ]
+./samples/SAFE/__tmp_021b5612.c:125:5: error: expected declaration or statement at end of input
+  125 |     char filename[256
+      |     ^~~~

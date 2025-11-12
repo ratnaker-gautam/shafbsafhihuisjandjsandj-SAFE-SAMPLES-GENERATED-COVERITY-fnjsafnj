@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_2a65c2f2.c: In function ‘main’:
+./samples/SAFE/__tmp_2a65c2f2.c:149:13: error: expected declaration or statement at end of input
+  149 |             if (process_input(sm, input[i])) {
+      |             ^~
+./samples/SAFE/__tmp_2a65c2f2.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2a65c2f2.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2a65c2f2.c:149:13: error: expected declaration or statement at end of input

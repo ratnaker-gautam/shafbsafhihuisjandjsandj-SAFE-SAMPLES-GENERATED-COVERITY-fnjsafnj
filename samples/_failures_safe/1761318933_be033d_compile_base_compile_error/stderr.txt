@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_05921d1d.c: In function ‘main’:
+./samples/SAFE/__tmp_05921d1d.c:119:62: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols2’?
+  119 |     printf("Enter %d elements for second matrix:\n", rows2 * cols
+      |                                                              ^~~~
+      |                                                              cols2
+./samples/SAFE/__tmp_05921d1d.c:119:62: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_05921d1d.c:119:66: error: expected ‘)’ at end of input
+  119 |     printf("Enter %d elements for second matrix:\n", rows2 * cols
+      |           ~                                                      ^
+      |                                                                  )
+./samples/SAFE/__tmp_05921d1d.c:119:5: error: expected declaration or statement at end of input
+  119 |     printf("Enter %d elements for second matrix:\n", rows2 * cols
+      |     ^~~~~~

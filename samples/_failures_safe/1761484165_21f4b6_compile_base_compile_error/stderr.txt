@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_d40ab3f5.c: In function ‘analyze_results’:
+./samples/SAFE/__tmp_d40ab3f5.c:153:66: error: ‘struct TextAnalyzer’ has no member named ‘total’
+  153 |         result->avg_word_length = (double)total_length / analyzer->total
+      |                                                                  ^~
+./samples/SAFE/__tmp_d40ab3f5.c:153:73: error: expected ‘;’ at end of input
+  153 |         result->avg_word_length = (double)total_length / analyzer->total
+      |                                                                         ^
+      |                                                                         ;
+./samples/SAFE/__tmp_d40ab3f5.c:153:9: error: expected declaration or statement at end of input
+  153 |         result->avg_word_length = (double)total_length / analyzer->total
+      |         ^~~~~~
+./samples/SAFE/__tmp_d40ab3f5.c:153:9: error: expected declaration or statement at end of input

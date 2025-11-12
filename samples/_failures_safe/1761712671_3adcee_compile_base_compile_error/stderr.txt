@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3e7f12b1.c: In function ‘handle_processing’:
+./samples/SAFE/__tmp_3e7f12b1.c:163:9: error: expected declaration or statement at end of input
+  163 |         printf("Invalid coin amount\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_3e7f12b1.c:163:9: error: expected declaration or statement at end of input

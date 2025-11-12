@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_851d951c.c: In function ‘main’:
+./samples/SAFE/__tmp_851d951c.c:141:5: error: expected declaration or statement at end of input
+  141 |     if (rows2 == 0 || cols2 == 0) {
+      |     ^~
+./samples/SAFE/__tmp_851d951c.c:141:5: error: expected declaration or statement at end of input

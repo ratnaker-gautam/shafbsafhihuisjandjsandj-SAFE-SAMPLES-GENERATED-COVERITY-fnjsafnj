@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_15826d5c.c: In function ‘process_event’:
+./samples/SAFE/__tmp_15826d5c.c:177: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_15826d5c.c:170:62: note: to match this ‘{’
+  170 |     State (*handlers[])(StateMachine*, Event, const char*) = {
+      |                                                              ^
+./samples/SAFE/__tmp_15826d5c.c:176:9: error: expected declaration or statement at end of input
+  176 |         handle_done
+      |         ^~~~~~~~~~~

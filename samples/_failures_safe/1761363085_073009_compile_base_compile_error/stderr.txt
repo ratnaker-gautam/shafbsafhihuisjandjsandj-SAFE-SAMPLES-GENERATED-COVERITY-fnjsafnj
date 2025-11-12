@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e9c7ca33.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_e9c7ca33.c:126:12: error: missing terminating " character
+  126 |     printf("
+      |            ^
+./samples/SAFE/__tmp_e9c7ca33.c:126:5: error: expected expression at end of input
+  126 |     printf("
+      |     ^~~~~~
+./samples/SAFE/__tmp_e9c7ca33.c:126:5: error: expected declaration or statement at end of input

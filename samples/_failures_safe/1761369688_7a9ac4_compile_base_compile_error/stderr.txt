@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_77d94df4.c: In function ‘main’:
+./samples/SAFE/__tmp_77d94df4.c:156:5: error: expected expression at end of input
+  156 |     int unique_count = count_unique_words(words, word_count,
+      |     ^~~
+./samples/SAFE/__tmp_77d94df4.c:156:5: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_94e42ad8.c: In function ‘main’:
+./samples/SAFE/__tmp_94e42ad8.c:150:28: error: expected ‘)’ at end of input
+  150 |     cleanup_entries(entries
+      |                    ~       ^
+      |                            )
+./samples/SAFE/__tmp_94e42ad8.c:150:5: error: too few arguments to function ‘cleanup_entries’
+  150 |     cleanup_entries(entries
+      |     ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_94e42ad8.c:112:6: note: declared here
+  112 | void cleanup_entries(struct LogEntry** entries, int count) {
+      |      ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_94e42ad8.c:150:5: error: expected declaration or statement at end of input
+  150 |     cleanup_entries(entries
+      |     ^~~~~~~~~~~~~~~

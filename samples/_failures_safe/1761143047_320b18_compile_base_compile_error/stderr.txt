@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c9795fe9.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_c9795fe9.c:149:9: error: expected identifier at end of input
+  149 |         if (lexer->input[lexer->
+      |         ^~
+./samples/SAFE/__tmp_c9795fe9.c:149:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c9795fe9.c:149:9: error: expected declaration or statement at end of input

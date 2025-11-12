@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c1d97d92.c: In function ‘main’:
+./samples/SAFE/__tmp_c1d97d92.c:174:39: error: ‘STATE’ undeclared (first use in this function)
+  174 |             if (transition_state(&sm, STATE
+      |                                       ^~~~~
+./samples/SAFE/__tmp_c1d97d92.c:174:39: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c1d97d92.c:174:44: error: expected ‘)’ at end of input
+  174 |             if (transition_state(&sm, STATE
+      |                                 ~          ^
+      |                                            )
+./samples/SAFE/__tmp_c1d97d92.c:174:13: error: expected declaration or statement at end of input
+  174 |             if (transition_state(&sm, STATE
+      |             ^~
+./samples/SAFE/__tmp_c1d97d92.c:174:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c1d97d92.c:174:13: error: expected declaration or statement at end of input

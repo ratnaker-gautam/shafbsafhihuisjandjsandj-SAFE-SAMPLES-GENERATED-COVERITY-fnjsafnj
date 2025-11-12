@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_1805dc2a.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_1805dc2a.c:164:65: error: expected ‘)’ at end of input
+  164 |             printf("Found operator: %s\n", parser->current_token
+      |                   ~                                             ^
+      |                                                                 )
+./samples/SAFE/__tmp_1805dc2a.c:164:13: error: expected declaration or statement at end of input
+  164 |             printf("Found operator: %s\n", parser->current_token
+      |             ^~~~~~
+./samples/SAFE/__tmp_1805dc2a.c:164:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1805dc2a.c:164:13: error: expected declaration or statement at end of input

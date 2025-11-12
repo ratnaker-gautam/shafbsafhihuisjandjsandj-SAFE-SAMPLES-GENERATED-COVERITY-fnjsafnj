@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_31b22daf.c: In function ‘next_token’:
+./samples/SAFE/__tmp_31b22daf.c:167:41: error: expected ‘)’ at end of input
+  167 |         token.value[0] = next_char(lexer
+      |                                   ~     ^
+      |                                         )
+./samples/SAFE/__tmp_31b22daf.c:167:9: error: expected declaration or statement at end of input
+  167 |         token.value[0] = next_char(lexer
+      |         ^~~~~
+./samples/SAFE/__tmp_31b22daf.c:167:9: error: expected declaration or statement at end of input

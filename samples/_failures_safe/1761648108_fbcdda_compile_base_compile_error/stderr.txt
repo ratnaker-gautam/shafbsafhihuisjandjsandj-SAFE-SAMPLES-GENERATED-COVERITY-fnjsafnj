@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_035dd6fb.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_035dd6fb.c:180:26: error: ‘token_array’ undeclared (first use in this function); did you mean ‘TokenArray’?
+  180 |                     if (!token_array
+      |                          ^~~~~~~~~~~
+      |                          TokenArray
+./samples/SAFE/__tmp_035dd6fb.c:180:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_035dd6fb.c:180:37: error: expected ‘)’ at end of input
+  180 |                     if (!token_array
+      |                        ~            ^
+      |                                     )
+./samples/SAFE/__tmp_035dd6fb.c:180:21: error: expected declaration or statement at end of input
+  180 |                     if (!token_array
+      |                     ^~
+./samples/SAFE/__tmp_035dd6fb.c:180:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_035dd6fb.c:180:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_035dd6fb.c:180:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_035dd6fb.c:180:21: error: expected declaration or statement at end of input

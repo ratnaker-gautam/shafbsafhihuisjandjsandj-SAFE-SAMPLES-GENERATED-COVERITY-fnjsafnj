@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0700611d.c: In function ‘main’:
+./samples/SAFE/__tmp_0700611d.c:147:5: error: expected declaration or statement at end of input
+  147 |     buffer_append(&compressed_buf, compressed_data, compressed_size);
+      |     ^~~~~~~~~~~~~

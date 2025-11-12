@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccFRXPLv.o: in function `main':
+__tmp_cea95d29.c:(.text.startup+0x14a): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

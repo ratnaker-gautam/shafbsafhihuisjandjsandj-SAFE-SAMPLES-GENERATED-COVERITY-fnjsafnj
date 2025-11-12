@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_30b59cf0.c: In function ‘main’:
+./samples/SAFE/__tmp_30b59cf0.c:181:9: error: expected expression at end of input
+  181 |         EVENT_DATA_READY,
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_30b59cf0.c:181:9: error: expected declaration or statement at end of input

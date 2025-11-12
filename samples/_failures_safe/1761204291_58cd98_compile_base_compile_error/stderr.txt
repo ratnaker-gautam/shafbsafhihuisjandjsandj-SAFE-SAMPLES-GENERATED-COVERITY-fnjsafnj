@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_fd5e9eaf.c: In function ‘process_event’:
+./samples/SAFE/__tmp_fd5e9eaf.c:171:14: error: ‘StateMachine’ has no member named ‘current’
+  171 |     return sm->current
+      |              ^~
+./samples/SAFE/__tmp_fd5e9eaf.c:171:23: error: expected ‘;’ at end of input
+  171 |     return sm->current
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_fd5e9eaf.c:171:5: error: expected declaration or statement at end of input
+  171 |     return sm->current
+      |     ^~~~~~

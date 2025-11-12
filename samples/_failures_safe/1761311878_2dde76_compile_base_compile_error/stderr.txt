@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7bb2f443.c: In function ‘main’:
+./samples/SAFE/__tmp_7bb2f443.c:178:69: error: expected ‘)’ at end of input
+  178 |         struct Token token = get_next_token(input, &pos, &line, &col
+      |                                            ~                        ^
+      |                                                                     )
+./samples/SAFE/__tmp_7bb2f443.c:178:16: error: expected declaration or statement at end of input
+  178 |         struct Token token = get_next_token(input, &pos, &line, &col
+      |                ^~~~~
+./samples/SAFE/__tmp_7bb2f443.c:178:16: error: expected declaration or statement at end of input

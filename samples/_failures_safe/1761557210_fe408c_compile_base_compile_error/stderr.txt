@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_e499a59f.c: In function ‘main’:
+./samples/SAFE/__tmp_e499a59f.c:140:26: error: expected ‘]’ at end of input
+  140 |         char timestamp[32
+      |                          ^
+      |                          ]
+./samples/SAFE/__tmp_e499a59f.c:140:9: error: expected declaration or statement at end of input
+  140 |         char timestamp[32
+      |         ^~~~
+./samples/SAFE/__tmp_e499a59f.c:140:9: error: expected declaration or statement at end of input

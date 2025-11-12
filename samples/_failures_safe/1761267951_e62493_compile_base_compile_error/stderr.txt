@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_e97c43a3.c: In function ‘main’:
+./samples/SAFE/__tmp_e97c43a3.c:170:9: error: ‘f’ undeclared (first use in this function)
+  170 |     if (f
+      |         ^
+./samples/SAFE/__tmp_e97c43a3.c:170:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e97c43a3.c:170:10: error: expected ‘)’ at end of input
+  170 |     if (f
+      |        ~ ^
+      |          )
+./samples/SAFE/__tmp_e97c43a3.c:170:5: error: expected declaration or statement at end of input
+  170 |     if (f
+      |     ^~

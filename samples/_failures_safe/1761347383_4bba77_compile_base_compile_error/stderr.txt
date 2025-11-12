@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2823b5d1.c: In function ‘process_compression’:
+./samples/SAFE/__tmp_2823b5d1.c:144:5: error: expected declaration or statement at end of input
+  144 |     }
+      |     ^

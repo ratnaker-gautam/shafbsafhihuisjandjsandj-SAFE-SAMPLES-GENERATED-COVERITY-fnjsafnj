@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d4c9067a.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_d4c9067a.c:151:9: error: expected expression at end of input
+  151 |         if (isalpha(current) ||
+      |         ^~
+./samples/SAFE/__tmp_d4c9067a.c:151:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d4c9067a.c:151:9: error: expected declaration or statement at end of input

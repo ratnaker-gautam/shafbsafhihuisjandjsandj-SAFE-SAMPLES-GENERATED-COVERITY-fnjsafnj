@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0a013cee.c: In function ‘main’:
+./samples/SAFE/__tmp_0a013cee.c:141:40: error: expected ‘]’ at end of input
+  141 |     printf("INFO: %d\n", level_counts[2
+      |                                        ^
+      |                                        ]
+./samples/SAFE/__tmp_0a013cee.c:141:5: error: expected declaration or statement at end of input
+  141 |     printf("INFO: %d\n", level_counts[2
+      |     ^~~~~~

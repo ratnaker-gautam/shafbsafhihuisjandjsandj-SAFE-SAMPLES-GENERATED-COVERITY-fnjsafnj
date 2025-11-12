@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_d7a53214.c: In function ‘main’:
+./samples/SAFE/__tmp_d7a53214.c:154:14: error: ‘validate’ undeclared (first use in this function)
+  154 |         if (!validate
+      |              ^~~~~~~~
+./samples/SAFE/__tmp_d7a53214.c:154:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d7a53214.c:154:22: error: expected ‘)’ at end of input
+  154 |         if (!validate
+      |            ~         ^
+      |                      )
+./samples/SAFE/__tmp_d7a53214.c:154:9: error: expected declaration or statement at end of input
+  154 |         if (!validate
+      |         ^~
+./samples/SAFE/__tmp_d7a53214.c:154:9: error: expected declaration or statement at end of input

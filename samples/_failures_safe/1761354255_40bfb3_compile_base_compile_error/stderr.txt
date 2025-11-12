@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6f3d77d9.c: In function ‘main’:
+./samples/SAFE/__tmp_6f3d77d9.c:169: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_6f3d77d9.c:168:9: note: to match this ‘{’
+  168 |         {EVENT_DATA_READY
+      |         ^
+./samples/SAFE/__tmp_6f3d77d9.c:168:9: error: expected declaration or statement at end of input

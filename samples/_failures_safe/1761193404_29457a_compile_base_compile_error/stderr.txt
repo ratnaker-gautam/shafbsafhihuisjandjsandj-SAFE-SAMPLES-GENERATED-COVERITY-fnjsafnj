@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_1727df71.c: In function ‘get_operation’:
+./samples/SAFE/__tmp_1727df71.c:129:5: error: expected declaration or statement at end of input
+  129 |     if (scanf("%d", &choice) != 1) return OP_INVALID;
+      |     ^~

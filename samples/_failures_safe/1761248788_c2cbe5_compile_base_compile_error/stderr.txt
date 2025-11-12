@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_e25413da.c: In function ‘dfs’:
+./samples/SAFE/__tmp_e25413da.c:179:5: error: ‘reset_’ undeclared (first use in this function)
+  179 |     reset_
+      |     ^~~~~~
+./samples/SAFE/__tmp_e25413da.c:179:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e25413da.c:179:11: error: expected ‘;’ at end of input
+  179 |     reset_
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_e25413da.c:179:5: error: expected declaration or statement at end of input
+  179 |     reset_
+      |     ^~~~~~

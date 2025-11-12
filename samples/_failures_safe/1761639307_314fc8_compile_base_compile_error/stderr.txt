@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_4fe04f48.c: In function ‘main’:
+./samples/SAFE/__tmp_4fe04f48.c:148:38: error: ‘struct CompressionContext’ has no member named ‘total_’
+  148 |     printf("Total blocks: %zu\n", ctx.total_
+      |                                      ^
+./samples/SAFE/__tmp_4fe04f48.c:148:45: error: expected ‘)’ at end of input
+  148 |     printf("Total blocks: %zu\n", ctx.total_
+      |           ~                                 ^
+      |                                             )
+./samples/SAFE/__tmp_4fe04f48.c:148:5: error: expected declaration or statement at end of input
+  148 |     printf("Total blocks: %zu\n", ctx.total_
+      |     ^~~~~~

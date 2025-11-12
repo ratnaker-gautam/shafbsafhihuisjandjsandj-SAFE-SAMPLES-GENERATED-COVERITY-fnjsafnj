@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c3ccf6e0.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_c3ccf6e0.c:161:9: error: expected ‘,’ or ‘;’ at end of input
+  161 |         int right = parse_term
+      |         ^~~
+./samples/SAFE/__tmp_c3ccf6e0.c:161:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c3ccf6e0.c:161:9: error: expected declaration or statement at end of input

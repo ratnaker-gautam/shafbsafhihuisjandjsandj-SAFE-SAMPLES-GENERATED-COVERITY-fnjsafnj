@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f636286c.c: In function ‘main’:
+./samples/SAFE/__tmp_f636286c.c:158:5: error: expected declaration or statement at end of input
+  158 |     cleanup_buffer(&decompressed);
+      |     ^~~~~~~~~~~~~~

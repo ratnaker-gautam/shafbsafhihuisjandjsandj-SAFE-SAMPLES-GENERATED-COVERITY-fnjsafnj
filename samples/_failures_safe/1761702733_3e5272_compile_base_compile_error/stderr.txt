@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_181e4d7d.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_181e4d7d.c:155:5: error: expected declaration or statement at end of input
+  155 |     }
+      |     ^

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_caf30127.c: In function ‘main’:
+./samples/SAFE/__tmp_caf30127.c:155:17: error: ‘should_d’ undeclared (first use in this function)
+  155 |                 should_d
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_caf30127.c:155:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_caf30127.c:155:25: error: expected ‘;’ at end of input
+  155 |                 should_d
+      |                         ^
+      |                         ;
+./samples/SAFE/__tmp_caf30127.c:155:17: error: expected declaration or statement at end of input
+  155 |                 should_d
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_caf30127.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_caf30127.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_caf30127.c:155:17: error: expected declaration or statement at end of input

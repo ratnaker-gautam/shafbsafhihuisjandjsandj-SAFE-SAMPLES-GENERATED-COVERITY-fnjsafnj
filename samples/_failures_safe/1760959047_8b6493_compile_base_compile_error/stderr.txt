@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4b8f3168.c: In function ‘main’:
+./samples/SAFE/__tmp_4b8f3168.c:164:34: error: expected ‘)’ at end of input
+  164 |     if (!validate_input_data(&ctx
+      |                             ~    ^
+      |                                  )
+./samples/SAFE/__tmp_4b8f3168.c:164:5: error: expected declaration or statement at end of input
+  164 |     if (!validate_input_data(&ctx
+      |     ^~

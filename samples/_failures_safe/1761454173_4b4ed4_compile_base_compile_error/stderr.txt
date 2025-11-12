@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_3b117801.c: In function ‘parser_advance’:
+./samples/SAFE/__tmp_3b117801.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (parser == NULL || parser->lexer == NULL) return;
+      |     ^~

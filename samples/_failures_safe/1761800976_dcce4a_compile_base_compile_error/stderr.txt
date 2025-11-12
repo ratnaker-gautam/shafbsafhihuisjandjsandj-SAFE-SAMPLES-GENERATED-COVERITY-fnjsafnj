@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_9404b3f3.c: In function ‘main’:
+./samples/SAFE/__tmp_9404b3f3.c:149:12: error: expected expression at end of input
+  149 |     struct compression_result rle_result = perform_compression(COMP_RLE,
+      |            ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_9404b3f3.c:149:44: error: too few arguments to function ‘perform_compression’
+  149 |     struct compression_result rle_result = perform_compression(COMP_RLE,
+      |                                            ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_9404b3f3.c:68:27: note: declared here
+   68 | struct compression_result perform_compression(enum compression_type type,
+      |                           ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_9404b3f3.c:149:12: error: expected declaration or statement at end of input
+  149 |     struct compression_result rle_result = perform_compression(COMP_RLE,
+      |            ^~~~~~~~~~~~~~~~~~

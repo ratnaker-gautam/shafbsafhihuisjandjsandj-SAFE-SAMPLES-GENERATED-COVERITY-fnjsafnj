@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c6d41385.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_c6d41385.c:153:5: error: expected declaration or statement at end of input
+  153 |     token->type = TOKEN_STRING;
+      |     ^~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_86ec064f.c: In function ‘main’:
+./samples/SAFE/__tmp_86ec064f.c:135:5: error: expected declaration or statement at end of input
+  135 |     if (result == NULL) {
+      |     ^~
+./samples/SAFE/__tmp_86ec064f.c:135:5: error: expected declaration or statement at end of input

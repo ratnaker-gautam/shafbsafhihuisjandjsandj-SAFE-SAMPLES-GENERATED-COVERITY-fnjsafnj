@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_307ca221.c: In function ‘main’:
+./samples/SAFE/__tmp_307ca221.c:150:17: error: expected expression at end of input
+  150 |                 transpose_matrix(&
+      |                 ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_307ca221.c:150:17: error: too few arguments to function ‘transpose_matrix’
+./samples/SAFE/__tmp_307ca221.c:91:6: note: declared here
+   91 | void transpose_matrix(const Matrix* input, Matrix* result) {
+      |      ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_307ca221.c:150:17: error: expected declaration or statement at end of input
+  150 |                 transpose_matrix(&
+      |                 ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_307ca221.c:150:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_307ca221.c:150:17: error: expected declaration or statement at end of input

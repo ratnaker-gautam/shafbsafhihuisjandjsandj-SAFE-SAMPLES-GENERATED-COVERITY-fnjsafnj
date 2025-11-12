@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_28424245.c: In function ‘main’:
+./samples/SAFE/__tmp_28424245.c:144:16: error: ‘de’ undeclared (first use in this function)
+  144 |         memcmp(de
+      |                ^~
+./samples/SAFE/__tmp_28424245.c:144:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_28424245.c:144:18: error: expected ‘)’ at end of input
+  144 |         memcmp(de
+      |               ~  ^
+      |                  )
+./samples/SAFE/__tmp_28424245.c:144:9: error: too few arguments to function ‘memcmp’
+  144 |         memcmp(de
+      |         ^~~~~~
+In file included from ./samples/SAFE/__tmp_28424245.c:4:
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_28424245.c:144:9: error: expected declaration or statement at end of input
+  144 |         memcmp(de
+      |         ^~~~~~

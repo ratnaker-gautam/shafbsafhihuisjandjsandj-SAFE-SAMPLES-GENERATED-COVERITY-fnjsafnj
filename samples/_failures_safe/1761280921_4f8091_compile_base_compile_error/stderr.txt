@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_b3b87ad9.c: In function ‘main’:
+./samples/SAFE/__tmp_b3b87ad9.c:179:9: error: ‘str’ undeclared (first use in this function)
+  179 |     if (str
+      |         ^~~
+./samples/SAFE/__tmp_b3b87ad9.c:179:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b3b87ad9.c:179:12: error: expected ‘)’ at end of input
+  179 |     if (str
+      |        ~   ^
+      |            )
+./samples/SAFE/__tmp_b3b87ad9.c:179:5: error: expected declaration or statement at end of input
+  179 |     if (str
+      |     ^~

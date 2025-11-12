@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_4cade07a.c: In function ‘main’:
+./samples/SAFE/__tmp_4cade07a.c:160:11: error: expected ‘)’ at end of input
+  160 |     bfs(&g
+      |        ~  ^
+      |           )
+./samples/SAFE/__tmp_4cade07a.c:160:5: error: too few arguments to function ‘bfs’
+  160 |     bfs(&g
+      |     ^~~
+./samples/SAFE/__tmp_4cade07a.c:107:6: note: declared here
+  107 | void bfs(struct Graph* g, int start_id) {
+      |      ^~~
+./samples/SAFE/__tmp_4cade07a.c:160:5: error: expected declaration or statement at end of input
+  160 |     bfs(&g
+      |     ^~~

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_e2c5516a.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_e2c5516a.c:152:32: error: ‘lexer_’ undeclared (first use in this function); did you mean ‘lexer’?
+  152 |             token.value[i++] = lexer_
+      |                                ^~~~~~
+      |                                lexer
+./samples/SAFE/__tmp_e2c5516a.c:152:32: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e2c5516a.c:152:38: error: expected ‘;’ at end of input
+  152 |             token.value[i++] = lexer_
+      |                                      ^
+      |                                      ;
+./samples/SAFE/__tmp_e2c5516a.c:152:13: error: expected declaration or statement at end of input
+  152 |             token.value[i++] = lexer_
+      |             ^~~~~
+./samples/SAFE/__tmp_e2c5516a.c:152:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e2c5516a.c:152:13: error: expected declaration or statement at end of input

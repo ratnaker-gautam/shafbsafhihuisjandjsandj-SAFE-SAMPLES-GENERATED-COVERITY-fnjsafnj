@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_446c29a8.c: In function ‘main’:
+./samples/SAFE/__tmp_446c29a8.c:146:48: error: ‘MAX’ undeclared (first use in this function)
+  146 |     b.cols = read_int("  Columns (1-10): ", 1, MAX
+      |                                                ^~~
+./samples/SAFE/__tmp_446c29a8.c:146:48: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_446c29a8.c:146:51: error: expected ‘)’ at end of input
+  146 |     b.cols = read_int("  Columns (1-10): ", 1, MAX
+      |                      ~                            ^
+      |                                                   )
+./samples/SAFE/__tmp_446c29a8.c:146:5: error: expected declaration or statement at end of input
+  146 |     b.cols = read_int("  Columns (1-10): ", 1, MAX
+      |     ^

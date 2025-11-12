@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_9c8e5940.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_9c8e5940.c:159:14: error: expected ‘)’ at end of input
+  159 |         (*pos
+      |         ~    ^
+      |              )
+./samples/SAFE/__tmp_9c8e5940.c:159:9: error: expected declaration or statement at end of input
+  159 |         (*pos
+      |         ^
+./samples/SAFE/__tmp_9c8e5940.c:159:9: error: expected declaration or statement at end of input

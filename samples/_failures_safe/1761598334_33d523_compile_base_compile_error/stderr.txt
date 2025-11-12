@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_d06b0a85.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_d06b0a85.c:160:5: error: expected declaration or statement at end of input
+  160 |     size_t input_len = strlen(input);
+      |     ^~~~~~

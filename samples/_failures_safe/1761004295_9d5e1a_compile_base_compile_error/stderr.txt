@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_472db3a6.c: In function ‘main’:
+./samples/SAFE/__tmp_472db3a6.c:158:9: error: expected declaration or statement at end of input
+  158 |         printf("Failed to allocate matrices\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_472db3a6.c:158:9: error: expected declaration or statement at end of input

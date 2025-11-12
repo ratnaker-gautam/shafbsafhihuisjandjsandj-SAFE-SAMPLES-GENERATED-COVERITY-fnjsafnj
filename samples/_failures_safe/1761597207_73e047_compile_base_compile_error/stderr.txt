@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b3aacc95.c: In function ‘freeGraph’:
+./samples/SAFE/__tmp_b3aacc95.c:179:5: error: expected declaration or statement at end of input
+  179 |     if (!graph) return;
+      |     ^~

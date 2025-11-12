@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_e49cb557.c: In function ‘decompress_data’:
+./samples/SAFE/__tmp_e49cb557.c:174:74: error: ‘required’ undeclared (first use in this function)
+  174 |     return (computed_checksum == ctx->header.checksum && output->size == required
+      |                                                                          ^~~~~~~~
+./samples/SAFE/__tmp_e49cb557.c:174:74: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e49cb557.c:174:82: error: expected ‘)’ at end of input
+  174 |     return (computed_checksum == ctx->header.checksum && output->size == required
+      |            ~                                                                     ^
+      |                                                                                  )
+./samples/SAFE/__tmp_e49cb557.c:174:5: error: expected declaration or statement at end of input
+  174 |     return (computed_checksum == ctx->header.checksum && output->size == required
+      |     ^~~~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_503a3287.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_503a3287.c:127:20: error: expected declaration or statement at end of input
+  127 |                    analyzer->entries[i].level, analyzer->entries[i].message);
+      |                    ^~~~~~~~
+./samples/SAFE/__tmp_503a3287.c:127:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_503a3287.c:127:20: error: expected declaration or statement at end of input

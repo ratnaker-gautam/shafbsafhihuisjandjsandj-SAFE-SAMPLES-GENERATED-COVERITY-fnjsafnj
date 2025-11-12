@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_cfca8865.c: In function ‘transform_point_cloud’:
+./samples/SAFE/__tmp_cfca8865.c:142:15: error: ‘struct PointCloud’ has no member named ‘p’
+  142 |         result.p
+      |               ^
+./samples/SAFE/__tmp_cfca8865.c:142:17: error: expected ‘;’ at end of input
+  142 |         result.p
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_cfca8865.c:142:9: error: expected declaration or statement at end of input
+  142 |         result.p
+      |         ^~~~~~
+./samples/SAFE/__tmp_cfca8865.c:142:9: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_33f9277f.c: In function ‘main’:
+./samples/SAFE/__tmp_33f9277f.c:157:5: error: ‘sort_words_by_f’ undeclared (first use in this function); did you mean ‘sort_words_by_frequency’?
+  157 |     sort_words_by_f
+      |     ^~~~~~~~~~~~~~~
+      |     sort_words_by_frequency
+./samples/SAFE/__tmp_33f9277f.c:157:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_33f9277f.c:157:20: error: expected ‘;’ at end of input
+  157 |     sort_words_by_f
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_33f9277f.c:157:5: error: expected declaration or statement at end of input
+  157 |     sort_words_by_f
+      |     ^~~~~~~~~~~~~~~

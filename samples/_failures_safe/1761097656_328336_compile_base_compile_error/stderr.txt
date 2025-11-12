@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_12cc2bbb.c: In function ‘process_input’:
+./samples/SAFE/__tmp_12cc2bbb.c:136:9: error: expected expression at end of input
+  136 |         if (
+      |         ^~
+./samples/SAFE/__tmp_12cc2bbb.c:136:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_12cc2bbb.c:136:9: error: expected declaration or statement at end of input

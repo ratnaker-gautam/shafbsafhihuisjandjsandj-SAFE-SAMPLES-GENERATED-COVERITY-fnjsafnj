@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ec8a3d36.c: In function ‘pointcloud_compute_bounds’:
+./samples/SAFE/__tmp_ec8a3d36.c:124:5: error: expected declaration or statement at end of input
+  124 |     bounds.min.x = pc->points[0].x;
+      |     ^~~~~~

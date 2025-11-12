@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_199a7fca.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_199a7fca.c:162:9: error: expected expression at end of input
+  162 |         if (
+      |         ^~
+./samples/SAFE/__tmp_199a7fca.c:162:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_199a7fca.c:162:9: error: expected declaration or statement at end of input

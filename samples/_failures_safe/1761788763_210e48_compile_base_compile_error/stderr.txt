@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_f2ea55f9.c:162:8: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  162 | struct Token peek
+      |        ^~~~~

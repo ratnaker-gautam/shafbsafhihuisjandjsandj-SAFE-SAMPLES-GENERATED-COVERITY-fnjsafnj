@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_806b2658.c: In function ‘main’:
+./samples/SAFE/__tmp_806b2658.c:158:37: error: expected ‘]’ at end of input
+  158 |         vector_sum += stack_vector[i
+      |                                     ^
+      |                                     ]
+./samples/SAFE/__tmp_806b2658.c:158:9: error: expected declaration or statement at end of input
+  158 |         vector_sum += stack_vector[i
+      |         ^~~~~~~~~~
+./samples/SAFE/__tmp_806b2658.c:158:9: error: expected declaration or statement at end of input

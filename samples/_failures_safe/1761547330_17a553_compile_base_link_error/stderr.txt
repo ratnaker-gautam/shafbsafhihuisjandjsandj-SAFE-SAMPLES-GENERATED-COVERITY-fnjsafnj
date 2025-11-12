@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccjVCVVQ.o: in function `calculate_distances.part.0':
+__tmp_c9bd6ce9.c:(.text+0x2ed): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

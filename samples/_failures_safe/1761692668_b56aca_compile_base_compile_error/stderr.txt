@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_50deb461.c: In function ‘main’:
+./samples/SAFE/__tmp_50deb461.c:152:18: error: ‘de’ undeclared (first use in this function)
+  152 |     buffer_free(&de
+      |                  ^~
+./samples/SAFE/__tmp_50deb461.c:152:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_50deb461.c:152:20: error: expected ‘)’ at end of input
+  152 |     buffer_free(&de
+      |                ~   ^
+      |                    )
+./samples/SAFE/__tmp_50deb461.c:152:5: error: expected declaration or statement at end of input
+  152 |     buffer_free(&de
+      |     ^~~~~~~~~~~

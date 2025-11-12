@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_7cb993ad.c: In function ‘primMST’:
+./samples/SAFE/__tmp_7cb993ad.c:129:52: error: expected ‘;’ at end of input
+  129 |                     key[v] = graph->edges[i].weight
+      |                                                    ^
+      |                                                    ;
+./samples/SAFE/__tmp_7cb993ad.c:129:21: error: expected declaration or statement at end of input
+  129 |                     key[v] = graph->edges[i].weight
+      |                     ^~~
+./samples/SAFE/__tmp_7cb993ad.c:129:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7cb993ad.c:129:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7cb993ad.c:129:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7cb993ad.c:129:21: error: expected declaration or statement at end of input

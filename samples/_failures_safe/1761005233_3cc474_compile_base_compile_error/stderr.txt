@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ba48a170.c: In function ‘get_operation’:
+./samples/SAFE/__tmp_ba48a170.c:133:42: error: ‘OP_IN’ undeclared (first use in this function)
+  133 |     if (choice < 0 || choice > 3) return OP_IN
+      |                                          ^~~~~
+./samples/SAFE/__tmp_ba48a170.c:133:42: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ba48a170.c:133:47: error: expected ‘;’ at end of input
+  133 |     if (choice < 0 || choice > 3) return OP_IN
+      |                                               ^
+      |                                               ;
+./samples/SAFE/__tmp_ba48a170.c:133:5: error: expected declaration or statement at end of input
+  133 |     if (choice < 0 || choice > 3) return OP_IN
+      |     ^~

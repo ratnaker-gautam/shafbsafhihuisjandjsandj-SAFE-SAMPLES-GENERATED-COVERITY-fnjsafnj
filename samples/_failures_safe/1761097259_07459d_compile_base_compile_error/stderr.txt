@@ -1,0 +1,29 @@
+./samples/SAFE/__tmp_118b1c74.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_118b1c74.c:155:44: error: expected ‘]’ at end of input
+  155 |                 snprintf(tokens[token_count
+      |                                            ^
+      |                                            ]
+./samples/SAFE/__tmp_118b1c74.c:155:32: error: incompatible type for argument 1 of ‘snprintf’
+  155 |                 snprintf(tokens[token_count
+      |                          ~~~~~~^~~~~~~~~~~~
+      |                                |
+      |                                struct Token
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_118b1c74.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:51:1: note: expected ‘char * restrict’ but argument is of type ‘struct Token’
+   51 | __NTH (snprintf (char *__restrict __s, size_t __n,
+      | ^~~~~
+./samples/SAFE/__tmp_118b1c74.c:155:17: error: too few arguments to function ‘snprintf’
+  155 |                 snprintf(tokens[token_count
+      |                 ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:51:1: note: declared here
+   51 | __NTH (snprintf (char *__restrict __s, size_t __n,
+      | ^~~~~
+./samples/SAFE/__tmp_118b1c74.c:155:17: error: expected declaration or statement at end of input
+  155 |                 snprintf(tokens[token_count
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_118b1c74.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_118b1c74.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_118b1c74.c:155:17: error: expected declaration or statement at end of input

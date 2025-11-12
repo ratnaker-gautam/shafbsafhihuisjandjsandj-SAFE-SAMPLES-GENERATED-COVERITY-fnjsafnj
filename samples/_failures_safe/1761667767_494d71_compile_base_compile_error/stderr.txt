@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1598673c.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_1598673c.c:153:12: error: missing terminating " character
+  153 |     printf("Shortest distances from node %d
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1598673c.c:153:5: error: expected expression at end of input
+  153 |     printf("Shortest distances from node %d
+      |     ^~~~~~
+./samples/SAFE/__tmp_1598673c.c:153:5: error: expected declaration or statement at end of input

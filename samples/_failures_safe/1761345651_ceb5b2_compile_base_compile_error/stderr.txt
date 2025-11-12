@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_28e74eaa.c: In function ‘main’:
+./samples/SAFE/__tmp_28e74eaa.c:139:13: error: expected expression at end of input
+  139 |             print_matrix(rows1,
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_28e74eaa.c:139:13: error: too few arguments to function ‘print_matrix’
+./samples/SAFE/__tmp_28e74eaa.c:38:6: note: declared here
+   38 | void print_matrix(int rows, int cols, int matrix[MAX_DIM][MAX_DIM]) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_28e74eaa.c:139:13: error: expected declaration or statement at end of input
+  139 |             print_matrix(rows1,
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_28e74eaa.c:139:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_28e74eaa.c:139:13: error: expected declaration or statement at end of input

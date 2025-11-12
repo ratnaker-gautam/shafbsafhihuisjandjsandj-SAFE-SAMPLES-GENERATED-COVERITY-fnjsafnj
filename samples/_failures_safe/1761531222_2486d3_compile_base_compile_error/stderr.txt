@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_df24017f.c: In function ‘main’:
+./samples/SAFE/__tmp_df24017f.c:159:9: error: expected expression at end of input
+  159 |         if (!append_to_compression_block(&
+      |         ^~
+./samples/SAFE/__tmp_df24017f.c:159:14: error: too few arguments to function ‘append_to_compression_block’
+  159 |         if (!append_to_compression_block(&
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_df24017f.c:69:5: note: declared here
+   69 | int append_to_compression_block(struct CompressionBlock *block, const uint8_t *data, size_t data_size) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_df24017f.c:159:9: error: expected declaration or statement at end of input
+  159 |         if (!append_to_compression_block(&
+      |         ^~
+./samples/SAFE/__tmp_df24017f.c:159:9: error: expected declaration or statement at end of input

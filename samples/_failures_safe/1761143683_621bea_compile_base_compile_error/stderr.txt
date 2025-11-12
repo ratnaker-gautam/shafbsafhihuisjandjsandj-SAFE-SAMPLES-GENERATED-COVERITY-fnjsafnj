@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9d39cd4e.c: In function ‘main’:
+./samples/SAFE/__tmp_9d39cd4e.c:178:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  178 |     TokenHandler handlers
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_9d39cd4e.c:178:5: error: expected declaration or statement at end of input

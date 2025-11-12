@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_61371f89.c: In function ‘state_machine_execute_state’:
+./samples/SAFE/__tmp_61371f89.c:134:13: error: expected declaration or statement at end of input
+  134 |             sm->buffer[0] = '\0';
+      |             ^~
+./samples/SAFE/__tmp_61371f89.c:134:13: error: expected declaration or statement at end of input

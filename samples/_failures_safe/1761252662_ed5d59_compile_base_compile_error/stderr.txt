@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_255cc55e.c: In function ‘main’:
+./samples/SAFE/__tmp_255cc55e.c:163:9: error: expected declaration or statement at end of input
+  163 |         fprintf(stderr, "Invalid compression type\n");
+      |         ^~~~~~~
+./samples/SAFE/__tmp_255cc55e.c:163:9: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_06aaf460.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_06aaf460.c:158:13: error: expected expression at end of input
+  158 |             *column += (
+      |             ^
+./samples/SAFE/__tmp_06aaf460.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_06aaf460.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_06aaf460.c:158:13: error: expected declaration or statement at end of input

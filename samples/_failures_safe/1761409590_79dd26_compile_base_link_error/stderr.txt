@@ -1,0 +1,10 @@
+/usr/bin/ld: /tmp/ccl6uXBW.o: in function `safe_power':
+__tmp_a6b19b8a.c:(.text+0x150): undefined reference to `fmod'
+/usr/bin/ld: __tmp_a6b19b8a.c:(.text+0x11e): undefined reference to `pow'
+/usr/bin/ld: __tmp_a6b19b8a.c:(.text+0x131): undefined reference to `pow'
+/usr/bin/ld: /tmp/ccl6uXBW.o: in function `main':
+__tmp_a6b19b8a.c:(.text.startup+0x1e5): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_a6b19b8a.c:(.text.startup+0x3c9): undefined reference to `pow'
+/usr/bin/ld: __tmp_a6b19b8a.c:(.text.startup+0x534): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_a6b19b8a.c:(.text.startup+0x633): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

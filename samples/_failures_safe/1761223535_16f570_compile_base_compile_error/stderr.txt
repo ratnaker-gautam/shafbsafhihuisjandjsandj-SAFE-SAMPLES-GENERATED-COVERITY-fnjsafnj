@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a5b3dada.c: In function ‘main’:
+./samples/SAFE/__tmp_a5b3dada.c:128:9: error: expected declaration or statement at end of input
+  128 |         printf("Cannot multiply: dimension mismatch\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_a5b3dada.c:128:9: error: expected declaration or statement at end of input

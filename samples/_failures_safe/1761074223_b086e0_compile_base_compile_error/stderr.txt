@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_502c423d.c: In function ‘main’:
+./samples/SAFE/__tmp_502c423d.c:118:16: error: missing terminating " character
+  118 |         printf("Size mismatch
+      |                ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_502c423d.c:118:9: error: expected expression at end of input
+  118 |         printf("Size mismatch
+      |         ^~~~~~
+./samples/SAFE/__tmp_502c423d.c:118:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_502c423d.c:118:9: error: expected declaration or statement at end of input

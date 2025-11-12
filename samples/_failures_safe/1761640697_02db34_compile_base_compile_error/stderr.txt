@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_fd535635.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_fd535635.c:141:71: error: expected ‘)’ at end of input
+  141 |         long long det = (long long)matrix[0][0] * matrix[1][1] - (long
+      |                                                                  ~    ^
+      |                                                                       )
+./samples/SAFE/__tmp_fd535635.c:141:9: error: expected declaration or statement at end of input
+  141 |         long long det = (long long)matrix[0][0] * matrix[1][1] - (long
+      |         ^~~~
+./samples/SAFE/__tmp_fd535635.c:141:9: error: expected declaration or statement at end of input

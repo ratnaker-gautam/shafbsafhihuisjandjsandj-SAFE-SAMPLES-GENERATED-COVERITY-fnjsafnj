@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3dd94adb.c: In function ‘main’:
+./samples/SAFE/__tmp_3dd94adb.c:142:9: error: expected declaration or statement at end of input
+  142 |         fprintf(stderr, "Failed to add block 2\n");
+      |         ^~~~~~~
+./samples/SAFE/__tmp_3dd94adb.c:142:9: error: expected declaration or statement at end of input

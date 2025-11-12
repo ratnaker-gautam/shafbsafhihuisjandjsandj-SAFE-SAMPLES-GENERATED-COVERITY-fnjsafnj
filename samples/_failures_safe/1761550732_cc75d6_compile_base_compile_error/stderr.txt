@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_8e0975fb.c: In function ‘main’:
+./samples/SAFE/__tmp_8e0975fb.c:125:13: error: expected declaration or statement at end of input
+  125 |             for (int col = 0; col < 3; col++) {
+      |             ^~~
+./samples/SAFE/__tmp_8e0975fb.c:125:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8e0975fb.c:125:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8e0975fb.c:125:13: error: expected declaration or statement at end of input

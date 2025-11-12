@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_c604e138.c:151:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  151 | int tokenize_next
+      | ^~~

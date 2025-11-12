@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_48a28e7f.c: In function ‘main’:
+./samples/SAFE/__tmp_48a28e7f.c:142:52: error: ‘filter’ undeclared (first use in this function)
+  142 |         if (filter_level != -1 && logs[i].level != filter
+      |                                                    ^~~~~~
+./samples/SAFE/__tmp_48a28e7f.c:142:52: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_48a28e7f.c:142:58: error: expected ‘)’ at end of input
+  142 |         if (filter_level != -1 && logs[i].level != filter
+      |            ~                                             ^
+      |                                                          )
+./samples/SAFE/__tmp_48a28e7f.c:142:9: error: expected declaration or statement at end of input
+  142 |         if (filter_level != -1 && logs[i].level != filter
+      |         ^~
+./samples/SAFE/__tmp_48a28e7f.c:142:9: error: expected declaration or statement at end of input

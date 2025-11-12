@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_36d34d30.c: In function ‘main’:
+./samples/SAFE/__tmp_36d34d30.c:163:42: error: expected ‘)’ at end of input
+  163 |     for (size_t i = 0; i < token_count; i
+      |         ~                                ^
+      |                                          )
+./samples/SAFE/__tmp_36d34d30.c:163:5: error: expected declaration or statement at end of input
+  163 |     for (size_t i = 0; i < token_count; i
+      |     ^~~

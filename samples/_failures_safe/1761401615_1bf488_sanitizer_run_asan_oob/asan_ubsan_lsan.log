@@ -1,0 +1,57 @@
+
+=================================================================
+==37007==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x7ffd52ac561f at pc 0x7f0291491ad0 bp 0x7ffd52a87570 sp 0x7ffd52a86cf8
+WRITE of size 256 at 0x7ffd52ac561f thread T0
+    #0 0x7f0291491acf in scanf_common ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors_format.inc:342
+    #1 0x7f02914cd312 in __isoc99_vsscanf ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:1493
+    #2 0x7f02914cdeab in __isoc99_sscanf ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:1526
+    #3 0x582e7b617a92 in main samples/SAFE/__tmp_d33216a0.c:56
+    #4 0x7f029082a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x7f029082a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x582e7b617344 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_d33216a0.c.san+0x3344) (BuildId: 771ec341edd7a3e31158e449af44f9c7894153d1)
+
+Address 0x7ffd52ac561f is located in stack of thread T0 at offset 253727 in frame
+    #0 0x582e7b6177cd in main samples/SAFE/__tmp_d33216a0.c:35
+
+  This frame has 6 object(s):
+    [48, 104) 'time_struct' (line 63)
+    [144, 253144) 'entries' (line 36)
+    [253408, 253418) 'level' (line 53)
+    [253440, 253460) 'timestamp' (line 52)
+    [253504, 253727) 'message' (line 54)
+    [253792, 254048) 'line' (line 38) <== Memory access at offset 253727 partially underflows this variable
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors_format.inc:342 in scanf_common
+Shadow bytes around the buggy address:
+  0x7ffd52ac5380: 00 00 00 00 00 00 00 00 00 00 00 f2 f2 f2 f2 f2
+  0x7ffd52ac5400: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2
+  0x7ffd52ac5480: f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 00 02 f2 f2
+  0x7ffd52ac5500: 00 00 04 f2 f2 f2 f2 f2 00 00 00 00 00 00 00 00
+  0x7ffd52ac5580: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x7ffd52ac5600: 00 00 00[07]f2 f2 f2 f2 f2 f2 f2 f2 00 00 00 00
+  0x7ffd52ac5680: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffd52ac5700: 00 00 00 00 00 00 00 00 00 00 00 00 f3 f3 f3 f3
+  0x7ffd52ac5780: f3 f3 f3 f3 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffd52ac5800: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x7ffd52ac5880: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==37007==ABORTING

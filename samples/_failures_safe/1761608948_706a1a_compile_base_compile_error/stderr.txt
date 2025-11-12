@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d46aeedd.c: In function ‘parse_string’:
+./samples/SAFE/__tmp_d46aeedd.c:160:17: error: expected ‘{’ at end of input
+  160 |                 struct
+      |                 ^~~~~~
+./samples/SAFE/__tmp_d46aeedd.c:160:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d46aeedd.c:160:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d46aeedd.c:160:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d46aeedd.c:160:17: error: expected declaration or statement at end of input

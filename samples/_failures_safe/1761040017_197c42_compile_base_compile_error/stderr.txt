@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_4cb37092.c: In function ‘process_event’:
+./samples/SAFE/__tmp_4cb37092.c:176:31: error: expected ‘;’ at end of input
+  176 |                 handle_reading
+      |                               ^
+      |                               ;
+./samples/SAFE/__tmp_4cb37092.c:176:17: error: expected declaration or statement at end of input
+  176 |                 handle_reading
+      |                 ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4cb37092.c:176:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4cb37092.c:176:17: error: expected declaration or statement at end of input

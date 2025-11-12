@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_0f2fc78f.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_0f2fc78f.c:136:40: error: ‘new’ undeclared (first use in this function)
+  136 |                         dist[v] = (int)new
+      |                                        ^~~
+./samples/SAFE/__tmp_0f2fc78f.c:136:40: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0f2fc78f.c:136:43: error: expected ‘;’ at end of input
+  136 |                         dist[v] = (int)new
+      |                                           ^
+      |                                           ;
+./samples/SAFE/__tmp_0f2fc78f.c:136:25: error: expected declaration or statement at end of input
+  136 |                         dist[v] = (int)new
+      |                         ^~~~
+./samples/SAFE/__tmp_0f2fc78f.c:136:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0f2fc78f.c:136:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0f2fc78f.c:136:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0f2fc78f.c:136:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0f2fc78f.c:136:25: error: expected declaration or statement at end of input

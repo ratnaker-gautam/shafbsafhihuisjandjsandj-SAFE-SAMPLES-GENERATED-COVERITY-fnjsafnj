@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ee7063da.c: In function ‘main’:
+./samples/SAFE/__tmp_ee7063da.c:146:9: error: expected declaration or statement at end of input
+  146 |         printf("Addition not possible\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_ee7063da.c:146:9: error: expected declaration or statement at end of input

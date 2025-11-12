@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_7f6183d9.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_7f6183d9.c:164:46: error: ‘TOKEN_ID’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  164 |     } else if (parser->current_token.type == TOKEN_ID
+      |                                              ^~~~~~~~
+      |                                              TOKEN_EOF
+./samples/SAFE/__tmp_7f6183d9.c:164:46: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7f6183d9.c:164:54: error: expected ‘)’ at end of input
+  164 |     } else if (parser->current_token.type == TOKEN_ID
+      |               ~                                      ^
+      |                                                      )
+./samples/SAFE/__tmp_7f6183d9.c:164:5: error: expected declaration or statement at end of input
+  164 |     } else if (parser->current_token.type == TOKEN_ID
+      |     ^

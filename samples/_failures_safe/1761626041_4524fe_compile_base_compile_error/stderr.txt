@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_65f7bb07.c: In function ‘main’:
+./samples/SAFE/__tmp_65f7bb07.c:160:82: error: ‘stack’ undeclared (first use in this function)
+  160 |         printf("%s %s %s\n", stack_entries[i].timestamp, stack_entries[i].level, stack
+      |                                                                                  ^~~~~
+./samples/SAFE/__tmp_65f7bb07.c:160:82: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_65f7bb07.c:160:87: error: expected ‘)’ at end of input
+  160 |         printf("%s %s %s\n", stack_entries[i].timestamp, stack_entries[i].level, stack
+      |               ~                                                                       ^
+      |                                                                                       )
+./samples/SAFE/__tmp_65f7bb07.c:160:9: error: expected declaration or statement at end of input
+  160 |         printf("%s %s %s\n", stack_entries[i].timestamp, stack_entries[i].level, stack
+      |         ^~~~~~
+./samples/SAFE/__tmp_65f7bb07.c:160:9: error: expected declaration or statement at end of input

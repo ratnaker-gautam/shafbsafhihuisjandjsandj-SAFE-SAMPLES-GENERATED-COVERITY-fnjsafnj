@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_01f20e10.c: In function ‘main’:
+./samples/SAFE/__tmp_01f20e10.c:162:5: error: expected declaration or statement at end of input
+  162 |     if (word_count == 0) {
+      |     ^~
+./samples/SAFE/__tmp_01f20e10.c:162:5: error: expected declaration or statement at end of input

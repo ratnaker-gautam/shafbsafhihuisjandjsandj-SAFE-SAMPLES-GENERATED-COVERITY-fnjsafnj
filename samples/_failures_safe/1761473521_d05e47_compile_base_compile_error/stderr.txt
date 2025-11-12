@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a54c3a29.c: In function ‘main’:
+./samples/SAFE/__tmp_a54c3a29.c:152:16: error: expected ‘;’ at end of input
+  152 |     set_element
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_a54c3a29.c:152:5: error: expected declaration or statement at end of input
+  152 |     set_element
+      |     ^~~~~~~~~~~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_92da1ace.c: In function ‘get_matrix_dimensions’:
+./samples/SAFE/__tmp_92da1ace.c:128:31: error: expected ‘)’ at end of input
+  128 |     if (scanf("%d", cols) != 1
+      |        ~                      ^
+      |                               )
+./samples/SAFE/__tmp_92da1ace.c:128:5: error: expected declaration or statement at end of input
+  128 |     if (scanf("%d", cols) != 1
+      |     ^~

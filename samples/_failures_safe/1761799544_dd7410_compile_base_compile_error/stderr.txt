@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_39c62e2c.c: In function ‘main’:
+./samples/SAFE/__tmp_39c62e2c.c:144:5: error: expected declaration or statement at end of input
+  144 |     display_logs_recursive(entries, count, 0, filter_level);
+      |     ^~~~~~~~~~~~~~~~~~~~~~

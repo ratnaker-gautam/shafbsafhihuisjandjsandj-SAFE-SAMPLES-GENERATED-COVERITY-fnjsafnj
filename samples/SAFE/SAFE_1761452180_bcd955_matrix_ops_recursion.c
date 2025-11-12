@@ -1,0 +1,156 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: recursion ; Variation: matrix_ops
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_SIZE 8
+
+typedef struct {
+    int rows;
+    int cols;
+    int data[MAX_SIZE][MAX_SIZE];
+} Matrix;
+
+int validate_matrix_size(int rows, int cols) {
+    return (rows > 0 && rows <= MAX_SIZE && cols > 0 && cols <= MAX_SIZE);
+}
+
+void read_matrix(Matrix *m) {
+    printf("Enter matrix dimensions (rows cols, max %d): ", MAX_SIZE);
+    if (scanf("%d %d", &m->rows, &m->cols) != 2) {
+        printf("Invalid input\n");
+        exit(1);
+    }
+    
+    if (!validate_matrix_size(m->rows, m->cols)) {
+        printf("Invalid matrix size\n");
+        exit(1);
+    }
+    
+    printf("Enter matrix elements row by row:\n");
+    for (int i = 0; i < m->rows; i++) {
+        for (int j = 0; j < m->cols; j++) {
+            if (scanf("%d", &m->data[i][j]) != 1) {
+                printf("Invalid input\n");
+                exit(1);
+            }
+        }
+    }
+}
+
+void print_matrix(const Matrix *m) {
+    for (int i = 0; i < m->rows; i++) {
+        for (int j = 0; j < m->cols; j++) {
+            printf("%d ", m->data[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+int recursive_determinant(int n, int mat[MAX_SIZE][MAX_SIZE]) {
+    if (n == 1) {
+        return mat[0][0];
+    }
+    
+    if (n == 2) {
+        int64_t det = (int64_t)mat[0][0] * mat[1][1] - (int64_t)mat[0][1] * mat[1][0];
+        if (det > INT_MAX || det < INT_MIN) {
+            printf("Determinant overflow\n");
+            exit(1);
+        }
+        return (int)det;
+    }
+    
+    int det = 0;
+    int sign = 1;
+    int temp[MAX_SIZE][MAX_SIZE];
+    
+    for (int k = 0; k < n; k++) {
+        int sub_i = 0;
+        for (int i = 1; i < n; i++) {
+            int sub_j = 0;
+            for (int j = 0; j < n; j++) {
+                if (j == k) continue;
+                temp[sub_i][sub_j] = mat[i][j];
+                sub_j++;
+            }
+            sub_i++;
+        }
+        
+        int64_t term = (int64_t)sign * mat[0][k] * recursive_determinant(n - 1, temp);
+        if (term > INT_MAX || term < INT_MIN) {
+            printf("Determinant overflow\n");
+            exit(1);
+        }
+        
+        det += (int)term;
+        sign = -sign;
+    }
+    
+    return det;
+}
+
+int matrix_determinant(const Matrix *m) {
+    if (m->rows != m->cols) {
+        printf("Matrix must be square for determinant\n");
+        exit(1);
+    }
+    
+    if (m->rows > MAX_SIZE) {
+        printf("Matrix too large\n");
+        exit(1);
+    }
+    
+    return recursive_determinant(m->rows, m->data);
+}
+
+void recursive_transpose(int rows, int cols, int src[MAX_SIZE][MAX_SIZE], int dest[MAX_SIZE][MAX_SIZE], int i, int j) {
+    if (i >= rows) return;
+    
+    if (j >= cols) {
+        recursive_transpose(rows, cols, src, dest, i + 1, 0);
+        return;
+    }
+    
+    dest[j][i] = src[i][j];
+    recursive_transpose(rows, cols, src, dest, i, j + 1);
+}
+
+Matrix matrix_transpose(const Matrix *m) {
+    Matrix result;
+    result.rows = m->cols;
+    result.cols = m->rows;
+    
+    for (int i = 0; i < MAX_SIZE; i++) {
+        for (int j = 0; j < MAX_SIZE; j++) {
+            result.data[i][j] = 0;
+        }
+    }
+    
+    recursive_transpose(m->rows, m->cols, m->data, result.data, 0, 0);
+    return result;
+}
+
+int main() {
+    Matrix mat;
+    
+    printf("Matrix Operations Program\n");
+    read_matrix(&mat);
+    
+    printf("\nOriginal matrix:\n");
+    print_matrix(&mat);
+    
+    if (mat.rows == mat.cols) {
+        int det = matrix_determinant(&mat);
+        printf("\nDeterminant: %d\n", det);
+    } else {
+        printf("\nMatrix is not square, skipping determinant\n");
+    }
+    
+    Matrix transposed = matrix_transpose(&mat);
+    printf("\nTransposed matrix:\n");
+    print_matrix(&transposed);
+    
+    return 0;
+}

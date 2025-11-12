@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9896792f.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_9896792f.c:181:24: error: ‘TOKEN’ undeclared (first use in this function)
+  181 |     Token eof_token = {TOKEN
+      |                        ^~~~~
+./samples/SAFE/__tmp_9896792f.c:181:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9896792f.c:182: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_9896792f.c:181:23: note: to match this ‘{’
+  181 |     Token eof_token = {TOKEN
+      |                       ^
+./samples/SAFE/__tmp_9896792f.c:181:5: error: expected declaration or statement at end of input
+  181 |     Token eof_token = {TOKEN
+      |     ^~~~~

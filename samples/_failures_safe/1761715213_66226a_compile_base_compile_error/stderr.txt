@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e1e53908.c: In function ‘dfs_find_path’:
+./samples/SAFE/__tmp_e1e53908.c:156:9: error: expected ‘;’ at end of input
+  156 |     path
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_e1e53908.c:156:5: error: expected declaration or statement at end of input
+  156 |     path
+      |     ^~~~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_08c56227.c: In function ‘read_log_file’:
+./samples/SAFE/__tmp_08c56227.c:124:9: error: expected ‘{’ at end of input
+  124 |         struct
+      |         ^~~~~~
+./samples/SAFE/__tmp_08c56227.c:124:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_08c56227.c:124:9: error: expected declaration or statement at end of input

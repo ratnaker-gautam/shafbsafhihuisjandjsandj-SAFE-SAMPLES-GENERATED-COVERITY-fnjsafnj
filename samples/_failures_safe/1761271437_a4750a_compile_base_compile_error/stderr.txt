@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_0288bca0.c: In function ‘main’:
+./samples/SAFE/__tmp_0288bca0.c:180:47: error: ‘StateMachine’ has no member named ‘data’
+  180 |         printf(" | Data: %d | Error: %d\n", sm.data
+      |                                               ^
+./samples/SAFE/__tmp_0288bca0.c:180:52: error: expected ‘)’ at end of input
+  180 |         printf(" | Data: %d | Error: %d\n", sm.data
+      |               ~                                    ^
+      |                                                    )
+./samples/SAFE/__tmp_0288bca0.c:180:9: error: expected declaration or statement at end of input
+  180 |         printf(" | Data: %d | Error: %d\n", sm.data
+      |         ^~~~~~
+./samples/SAFE/__tmp_0288bca0.c:180:9: error: expected declaration or statement at end of input

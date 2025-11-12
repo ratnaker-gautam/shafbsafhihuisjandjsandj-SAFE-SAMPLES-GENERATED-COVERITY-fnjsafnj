@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f486d120.c: In function ‘calculate_mesh_volume’:
+./samples/SAFE/__tmp_f486d120.c:135:5: error: expected expression at end of input
+  135 |     double total_volume =
+      |     ^~~~~~
+./samples/SAFE/__tmp_f486d120.c:135:5: error: expected declaration or statement at end of input

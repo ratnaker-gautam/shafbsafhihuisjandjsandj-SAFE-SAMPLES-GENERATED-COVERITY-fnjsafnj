@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_387d7460.c: In function ‘main’:
+./samples/SAFE/__tmp_387d7460.c:146:18: error: ‘get’ undeclared (first use in this function); did you mean ‘getc’?
+  146 |     int source = get
+      |                  ^~~
+      |                  getc
+./samples/SAFE/__tmp_387d7460.c:146:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_387d7460.c:146:5: error: expected ‘,’ or ‘;’ at end of input
+  146 |     int source = get
+      |     ^~~
+./samples/SAFE/__tmp_387d7460.c:146:5: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1ec03968.c: In function ‘dijkstra_shortest_path’:
+./samples/SAFE/__tmp_1ec03968.c:159:5: error: expected declaration or statement at end of input
+  159 |     } else {
+      |     ^
+./samples/SAFE/__tmp_1ec03968.c:159:5: error: expected declaration or statement at end of input

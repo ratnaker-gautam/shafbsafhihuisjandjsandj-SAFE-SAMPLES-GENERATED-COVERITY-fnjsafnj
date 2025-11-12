@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_1a5153ee.c: In function ‘main’:
+./samples/SAFE/__tmp_1a5153ee.c:152:20: error: expected identifier at end of input
+  152 |                    level_to_string(logs[i].
+      |                    ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1a5153ee.c:152:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1a5153ee.c:152:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1a5153ee.c:152:20: error: expected declaration or statement at end of input

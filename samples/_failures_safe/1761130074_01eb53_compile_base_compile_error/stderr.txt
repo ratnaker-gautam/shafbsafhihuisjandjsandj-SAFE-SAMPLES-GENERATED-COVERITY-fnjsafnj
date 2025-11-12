@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_488ef1e7.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_488ef1e7.c:187:17: error: expected declaration or statement at end of input
+  187 |                 graph->edges[i]->target->visited = 1;
+      |                 ^~~~~
+./samples/SAFE/__tmp_488ef1e7.c:187:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_488ef1e7.c:187:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_488ef1e7.c:187:17: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_968be7f7.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_968be7f7.c:171:12: error: expected identifier at end of input
+  171 |            state_names[sm->current_state], sm->
+      |            ^~~~~~~~~~~
+./samples/SAFE/__tmp_968be7f7.c:171:12: error: expected declaration or statement at end of input

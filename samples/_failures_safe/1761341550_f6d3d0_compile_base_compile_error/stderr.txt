@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_432047ba.c: In function ‘determinant_matrix’:
+./samples/SAFE/__tmp_432047ba.c:125:9: error: expected expression at end of input
+  125 |         for (
+      |         ^~~
+./samples/SAFE/__tmp_432047ba.c:125:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_432047ba.c:125:9: error: expected declaration or statement at end of input

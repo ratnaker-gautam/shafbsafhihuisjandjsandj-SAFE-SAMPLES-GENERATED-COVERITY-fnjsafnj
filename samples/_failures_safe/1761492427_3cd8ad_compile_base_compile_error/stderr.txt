@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d7b6bb53.c: In function ‘main’:
+./samples/SAFE/__tmp_d7b6bb53.c:151:5: error: expected expression at end of input
+  151 |     print_buffer_hex(input_data,
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_d7b6bb53.c:151:5: error: expected declaration or statement at end of input

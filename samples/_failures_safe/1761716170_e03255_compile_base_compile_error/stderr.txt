@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_dcaf29d9.c: In function ‘main’:
+./samples/SAFE/__tmp_dcaf29d9.c:142:13: error: ‘free_ch’ undeclared (first use in this function); did you mean ‘free’?
+  142 |             free_ch
+      |             ^~~~~~~
+      |             free
+./samples/SAFE/__tmp_dcaf29d9.c:142:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_dcaf29d9.c:142:20: error: expected ‘;’ at end of input
+  142 |             free_ch
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_dcaf29d9.c:142:13: error: expected declaration or statement at end of input
+  142 |             free_ch
+      |             ^~~~~~~
+./samples/SAFE/__tmp_dcaf29d9.c:142:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dcaf29d9.c:142:13: error: expected declaration or statement at end of input

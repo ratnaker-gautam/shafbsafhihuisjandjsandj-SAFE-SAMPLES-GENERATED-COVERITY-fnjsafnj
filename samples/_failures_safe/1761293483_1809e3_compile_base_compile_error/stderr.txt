@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_611f1525.c: In function ‘main’:
+./samples/SAFE/__tmp_611f1525.c:163:47: error: expected ‘)’ at end of input
+  163 |         if (scanf("%d %d %d", &u, &v, &weight)
+      |            ~                                  ^
+      |                                               )
+./samples/SAFE/__tmp_611f1525.c:163:9: error: expected declaration or statement at end of input
+  163 |         if (scanf("%d %d %d", &u, &v, &weight)
+      |         ^~
+./samples/SAFE/__tmp_611f1525.c:163:9: error: expected declaration or statement at end of input

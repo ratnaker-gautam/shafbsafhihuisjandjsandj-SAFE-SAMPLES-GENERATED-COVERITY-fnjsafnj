@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_fab5e5cb.c: In function ‘main’:
+./samples/SAFE/__tmp_fab5e5cb.c:127:5: error: ‘MATRI’ undeclared (first use in this function)
+  127 |     MATRI
+      |     ^~~~~
+./samples/SAFE/__tmp_fab5e5cb.c:127:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fab5e5cb.c:127:10: error: expected ‘;’ at end of input
+  127 |     MATRI
+      |          ^
+      |          ;
+./samples/SAFE/__tmp_fab5e5cb.c:127:5: error: expected declaration or statement at end of input
+  127 |     MATRI
+      |     ^~~~~

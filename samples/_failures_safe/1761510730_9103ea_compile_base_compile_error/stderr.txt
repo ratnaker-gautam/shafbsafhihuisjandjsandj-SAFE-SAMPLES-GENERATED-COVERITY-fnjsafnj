@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f75f340e.c: In function ‘handle_error’:
+./samples/SAFE/__tmp_f75f340e.c:178:31: error: expected ‘;’ at end of input
+  178 |             initialize_context
+      |                               ^
+      |                               ;
+./samples/SAFE/__tmp_f75f340e.c:178:13: error: expected declaration or statement at end of input
+  178 |             initialize_context
+      |             ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f75f340e.c:178:13: error: expected declaration or statement at end of input

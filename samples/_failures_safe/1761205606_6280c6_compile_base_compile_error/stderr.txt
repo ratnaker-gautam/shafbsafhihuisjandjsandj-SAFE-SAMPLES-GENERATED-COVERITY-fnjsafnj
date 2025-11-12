@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_7bfac4ac.c: In function ‘determinant_matrix’:
+./samples/SAFE/__tmp_7bfac4ac.c:136:59: error: expected ‘]’ at end of input
+  136 |         long long det = (long long)matrix[0][0] * matrix[1
+      |                                                           ^
+      |                                                           ]
+./samples/SAFE/__tmp_7bfac4ac.c:136:49: error: invalid operands to binary * (have ‘long long int’ and ‘int *’)
+  136 |         long long det = (long long)matrix[0][0] * matrix[1
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~
+      |                         |                               |
+      |                         long long int                   int *
+./samples/SAFE/__tmp_7bfac4ac.c:136:9: error: expected declaration or statement at end of input
+  136 |         long long det = (long long)matrix[0][0] * matrix[1
+      |         ^~~~
+./samples/SAFE/__tmp_7bfac4ac.c:136:9: error: expected declaration or statement at end of input

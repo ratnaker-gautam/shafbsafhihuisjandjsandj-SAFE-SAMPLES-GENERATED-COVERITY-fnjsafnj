@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_78a938ef.c: In function ‘main’:
+./samples/SAFE/__tmp_78a938ef.c:134:40: error: expected ‘)’ at end of input
+  134 |         transpose_matrix(&mat1, &result
+      |                         ~              ^
+      |                                        )
+./samples/SAFE/__tmp_78a938ef.c:134:9: error: expected declaration or statement at end of input
+  134 |         transpose_matrix(&mat1, &result
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_78a938ef.c:134:9: error: expected declaration or statement at end of input

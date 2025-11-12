@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_599446ad.c: In function ‘main’:
+./samples/SAFE/__tmp_599446ad.c:168:19: error: expected ‘)’ at end of input
+  168 |     if (found == 0
+      |        ~          ^
+      |                   )
+./samples/SAFE/__tmp_599446ad.c:168:5: error: expected declaration or statement at end of input
+  168 |     if (found == 0
+      |     ^~

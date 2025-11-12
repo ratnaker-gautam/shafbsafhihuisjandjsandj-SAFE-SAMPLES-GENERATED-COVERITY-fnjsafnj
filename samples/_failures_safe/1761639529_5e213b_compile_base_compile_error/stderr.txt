@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_65b1c738.c: In function ‘matrix_mul’:
+./samples/SAFE/__tmp_65b1c738.c:111:5: error: expected expression at end of input
+  111 |     for (
+      |     ^~~
+./samples/SAFE/__tmp_65b1c738.c:111:5: error: expected declaration or statement at end of input

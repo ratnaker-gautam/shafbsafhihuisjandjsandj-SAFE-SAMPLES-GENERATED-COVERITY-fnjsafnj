@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_bdf94077.c: In function ‘main’:
+./samples/SAFE/__tmp_bdf94077.c:117:33: error: expected ‘)’ at end of input
+  117 |         fill_matrix(rows2, cols2
+      |                    ~            ^
+      |                                 )
+./samples/SAFE/__tmp_bdf94077.c:117:9: error: too few arguments to function ‘fill_matrix’
+  117 |         fill_matrix(rows2, cols2
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_bdf94077.c:25:6: note: declared here
+   25 | void fill_matrix(int rows, int cols, int matrix[MAX_DIM][MAX_DIM]) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_bdf94077.c:117:9: error: expected declaration or statement at end of input
+  117 |         fill_matrix(rows2, cols2
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_bdf94077.c:117:9: error: expected declaration or statement at end of input

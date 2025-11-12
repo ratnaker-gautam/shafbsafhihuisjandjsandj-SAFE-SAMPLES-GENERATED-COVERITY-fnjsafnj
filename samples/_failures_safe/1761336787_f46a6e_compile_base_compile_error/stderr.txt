@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_41058519.c: In function ‘main’:
+./samples/SAFE/__tmp_41058519.c:183:42: error: expected ‘)’ at end of input
+  183 |     if (!init_file_data(&output_data, 204
+      |                        ~                 ^
+      |                                          )
+./samples/SAFE/__tmp_41058519.c:183:5: error: expected declaration or statement at end of input
+  183 |     if (!init_file_data(&output_data, 204
+      |     ^~

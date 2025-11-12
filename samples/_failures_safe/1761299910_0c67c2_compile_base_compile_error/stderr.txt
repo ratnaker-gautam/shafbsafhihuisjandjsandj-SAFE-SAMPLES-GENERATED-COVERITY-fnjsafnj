@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7bacc067.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_7bacc067.c:152:21: error: expected identifier at end of input
+  152 |                     new_distance = graph->nodes[current].distance + graph->edges[i].
+      |                     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_7bacc067.c:152:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7bacc067.c:152:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7bacc067.c:152:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7bacc067.c:152:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7bacc067.c:152:21: error: expected declaration or statement at end of input

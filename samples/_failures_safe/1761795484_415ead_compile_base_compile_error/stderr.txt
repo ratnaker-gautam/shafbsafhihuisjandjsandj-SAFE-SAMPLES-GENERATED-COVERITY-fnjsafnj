@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fdb1222b.c: In function ‘main’:
+./samples/SAFE/__tmp_fdb1222b.c:137:9: error: expected declaration or statement at end of input
+  137 |         entries[entry_count].message[sizeof(entries[entry_count].message) - 1] = '\0';
+      |         ^~~~~~~
+./samples/SAFE/__tmp_fdb1222b.c:137:9: error: expected declaration or statement at end of input

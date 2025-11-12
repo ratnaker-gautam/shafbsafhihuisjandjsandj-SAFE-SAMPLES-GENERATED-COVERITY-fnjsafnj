@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_14bb0054.c: In function ‘main’:
+./samples/SAFE/__tmp_14bb0054.c:153:37: error: expected ‘;’ at end of input
+  153 |             result = allocate_matrix
+      |                                     ^
+      |                                     ;
+./samples/SAFE/__tmp_14bb0054.c:153:13: error: expected declaration or statement at end of input
+  153 |             result = allocate_matrix
+      |             ^~~~~~
+./samples/SAFE/__tmp_14bb0054.c:153:13: error: expected declaration or statement at end of input

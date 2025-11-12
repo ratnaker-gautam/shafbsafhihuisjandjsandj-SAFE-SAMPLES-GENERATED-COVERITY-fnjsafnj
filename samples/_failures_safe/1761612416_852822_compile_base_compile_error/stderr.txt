@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a0980eb4.c: In function ‘main’:
+./samples/SAFE/__tmp_a0980eb4.c:157:12: error: missing terminating " character
+  157 |     printf("Compressed data (hex
+      |            ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a0980eb4.c:157:5: error: expected expression at end of input
+  157 |     printf("Compressed data (hex
+      |     ^~~~~~
+./samples/SAFE/__tmp_a0980eb4.c:157:5: error: expected declaration or statement at end of input

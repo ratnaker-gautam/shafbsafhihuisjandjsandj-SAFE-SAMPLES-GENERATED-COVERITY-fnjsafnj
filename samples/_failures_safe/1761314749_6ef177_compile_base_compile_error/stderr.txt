@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_a39a6fe6.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_a39a6fe6.c:184:13: error: expected expression at end of input
+  184 |             printf("Vertex %d: %d\n",
+      |             ^~~~~~
+./samples/SAFE/__tmp_a39a6fe6.c:184:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a39a6fe6.c:184:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a39a6fe6.c:184:13: error: expected declaration or statement at end of input

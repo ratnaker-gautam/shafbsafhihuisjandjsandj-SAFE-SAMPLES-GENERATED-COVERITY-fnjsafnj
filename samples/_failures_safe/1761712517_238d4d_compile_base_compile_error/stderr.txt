@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_0f4fb455.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_0f4fb455.c:188:19: error: expected ‘]’ at end of input
+  188 |         if (dist[i
+      |                   ^
+      |                   ]
+./samples/SAFE/__tmp_0f4fb455.c:188:9: error: expected declaration or statement at end of input
+  188 |         if (dist[i
+      |         ^~
+./samples/SAFE/__tmp_0f4fb455.c:188:9: error: expected declaration or statement at end of input

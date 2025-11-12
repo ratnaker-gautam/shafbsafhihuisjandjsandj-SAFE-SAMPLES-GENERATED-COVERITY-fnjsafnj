@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_19e0c6bd.c: In function ‘main’:
+./samples/SAFE/__tmp_19e0c6bd.c:143:12: error: expected declaration or statement at end of input
+  143 |     struct Matrix product = matrix_multiply(&mat1, &mat2);
+      |            ^~~~~~

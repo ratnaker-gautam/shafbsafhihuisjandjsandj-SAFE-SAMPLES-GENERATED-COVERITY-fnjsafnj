@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c2c2f478.c: In function ‘main’:
+./samples/SAFE/__tmp_c2c2f478.c:153:21: error: expected declaration or statement at end of input
+  153 |                     printf("Matrix A + B:\n");
+      |                     ^~~~~~
+./samples/SAFE/__tmp_c2c2f478.c:153:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c2c2f478.c:153:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c2c2f478.c:153:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c2c2f478.c:153:21: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7401f00f.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_7401f00f.c:170:29: error: expected ‘;’ at end of input
+  170 |     dist[start_node->id] = 0
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_7401f00f.c:170:5: error: expected declaration or statement at end of input
+  170 |     dist[start_node->id] = 0
+      |     ^~~~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e17b3664.c: In function ‘main’:
+./samples/SAFE/__tmp_e17b3664.c:126:5: error: expected declaration or statement at end of input
+  126 |     printf("\nSecond matrix:\n");
+      |     ^~~~~~

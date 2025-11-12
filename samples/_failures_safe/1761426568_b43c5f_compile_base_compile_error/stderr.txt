@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_872b8c0d.c: In function ‘main’:
+./samples/SAFE/__tmp_872b8c0d.c:171:51: error: expected ‘)’ at end of input
+  171 |     printf("Input length: %zu characters\n\n", len
+      |           ~                                       ^
+      |                                                   )
+./samples/SAFE/__tmp_872b8c0d.c:171:5: error: expected declaration or statement at end of input
+  171 |     printf("Input length: %zu characters\n\n", len
+      |     ^~~~~~

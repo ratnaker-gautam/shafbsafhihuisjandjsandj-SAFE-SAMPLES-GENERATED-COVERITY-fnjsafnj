@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_61ad3cd0.c: In function ‘next_token’:
+./samples/SAFE/__tmp_61ad3cd0.c:179:13: error: expected identifier at end of input
+  179 |             if (token->
+      |             ^~
+./samples/SAFE/__tmp_61ad3cd0.c:179:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_61ad3cd0.c:179:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_61ad3cd0.c:179:13: error: expected declaration or statement at end of input

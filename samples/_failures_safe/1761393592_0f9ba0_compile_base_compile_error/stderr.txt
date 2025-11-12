@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_90eb9c85.c: In function ‘main’:
+./samples/SAFE/__tmp_90eb9c85.c:131:5: error: expected declaration or statement at end of input
+  131 |     printf("0: Add\n1: Subtract\n2: Multiply\n3: Transpose\n4: Determinant\n");
+      |     ^~~~~~

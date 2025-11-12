@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_a066f50e.c: In function ‘main’:
+./samples/SAFE/__tmp_a066f50e.c:141:24: error: expected ‘)’ at end of input
+  141 |                    logs
+      |                        ^
+      |                        )
+./samples/SAFE/__tmp_a066f50e.c:140:19: note: to match this ‘(’
+  140 |             printf("[%s] %s: %s\n",
+      |                   ^
+./samples/SAFE/__tmp_a066f50e.c:141:20: error: expected declaration or statement at end of input
+  141 |                    logs
+      |                    ^~~~
+./samples/SAFE/__tmp_a066f50e.c:141:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a066f50e.c:141:20: error: expected declaration or statement at end of input

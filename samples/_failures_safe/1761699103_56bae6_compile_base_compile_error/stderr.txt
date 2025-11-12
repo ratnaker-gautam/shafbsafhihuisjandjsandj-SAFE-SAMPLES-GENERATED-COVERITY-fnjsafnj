@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6ce77f72.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_6ce77f72.c:178:20: error: expected declaration or statement at end of input
+  178 |             struct Token invalid_token;
+      |                    ^~~~~
+./samples/SAFE/__tmp_6ce77f72.c:178:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6ce77f72.c:178:20: error: expected declaration or statement at end of input

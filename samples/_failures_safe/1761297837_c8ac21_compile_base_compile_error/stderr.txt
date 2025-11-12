@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_70b66dc4.c: In function ‘main’:
+./samples/SAFE/__tmp_70b66dc4.c:142:78: error: expected ‘)’ at end of input
+  142 |         printf("Added log entry: [%s] %s %s\n", timestamp, level_str, message
+      |               ~                                                              ^
+      |                                                                              )
+./samples/SAFE/__tmp_70b66dc4.c:142:9: error: expected declaration or statement at end of input
+  142 |         printf("Added log entry: [%s] %s %s\n", timestamp, level_str, message
+      |         ^~~~~~
+./samples/SAFE/__tmp_70b66dc4.c:142:9: error: expected declaration or statement at end of input

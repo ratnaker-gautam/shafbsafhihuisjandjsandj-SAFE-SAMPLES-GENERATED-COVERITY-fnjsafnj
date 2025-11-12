@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_eca46dd5.c: In function ‘main’:
+./samples/SAFE/__tmp_eca46dd5.c:141:50: error: expected ‘)’ at end of input
+  141 |     while (get_next_token(input, len, &pos, &line
+      |                          ~                       ^
+      |                                                  )
+./samples/SAFE/__tmp_eca46dd5.c:141:12: error: too few arguments to function ‘get_next_token’
+  141 |     while (get_next_token(input, len, &pos, &line
+      |            ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_eca46dd5.c:85:5: note: declared here
+   85 | int get_next_token(const char *input, int len, int *pos, int *line, int *column, struct Token *token) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_eca46dd5.c:141:5: error: expected declaration or statement at end of input
+  141 |     while (get_next_token(input, len, &pos, &line
+      |     ^~~~~

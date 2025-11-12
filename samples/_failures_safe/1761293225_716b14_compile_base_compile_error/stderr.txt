@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c578ed04.c: In function ‘main’:
+./samples/SAFE/__tmp_c578ed04.c:181:12: error: expected declaration or statement at end of input
+  181 |     struct Graph g;
+      |            ^~~~~

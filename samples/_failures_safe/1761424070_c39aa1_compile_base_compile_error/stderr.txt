@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_96cd3c2a.c: In function ‘main’:
+./samples/SAFE/__tmp_96cd3c2a.c:145:9: error: expected expression at end of input
+  145 |         if (scanf("%d %d %d", &u, &v, &w) != 3 || u < 0 || u >= n || v <
+      |         ^~
+./samples/SAFE/__tmp_96cd3c2a.c:145:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_96cd3c2a.c:145:9: error: expected declaration or statement at end of input

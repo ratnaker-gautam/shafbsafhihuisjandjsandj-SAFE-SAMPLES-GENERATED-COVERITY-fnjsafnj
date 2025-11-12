@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f7b22d72.c: In function ‘main’:
+./samples/SAFE/__tmp_f7b22d72.c:146:29: error: expected ‘;’ at end of input
+  146 |     event_ids[2] = add_event
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_f7b22d72.c:146:5: error: expected declaration or statement at end of input
+  146 |     event_ids[2] = add_event
+      |     ^~~~~~~~~

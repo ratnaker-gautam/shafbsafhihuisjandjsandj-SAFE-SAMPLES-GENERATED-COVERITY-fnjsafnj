@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b3a4986e.c: In function ‘main’:
+./samples/SAFE/__tmp_b3a4986e.c:139:36: error: expected ‘)’ at end of input
+  139 |         create_vector(0.0, 1.0, 0.0
+      |                      ~             ^
+      |                                    )
+./samples/SAFE/__tmp_b3a4986e.c:139:9: error: expected declaration or statement at end of input
+  139 |         create_vector(0.0, 1.0, 0.0
+      |         ^~~~~~~~~~~~~

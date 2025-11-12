@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_bc4bef24.c: In function ‘main’:
+./samples/SAFE/__tmp_bc4bef24.c:184:5: error: expected expression at end of input
+  184 |     char input[
+      |     ^~~~
+./samples/SAFE/__tmp_bc4bef24.c:184:5: error: expected declaration or statement at end of input

@@ -1,0 +1,30 @@
+./samples/SAFE/__tmp_558b43cc.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_558b43cc.c:56:26: error: ‘INT_MAX’ undeclared (first use in this function)
+   56 |             if (value > (INT_MAX - (p->input[p->pos] - '0')) / 10) {
+      |                          ^~~~~~~
+./samples/SAFE/__tmp_558b43cc.c:6:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    5 | #include <ctype.h>
+  +++ |+#include <limits.h>
+    6 | 
+./samples/SAFE/__tmp_558b43cc.c:56:26: note: each undeclared identifier is reported only once for each function it appears in
+   56 |             if (value > (INT_MAX - (p->input[p->pos] - '0')) / 10) {
+      |                          ^~~~~~~
+./samples/SAFE/__tmp_558b43cc.c: In function ‘parse_term’:
+./samples/SAFE/__tmp_558b43cc.c:118:40: error: ‘INT_MAX’ undeclared (first use in this function)
+  118 |             if (result != 0 && right > INT_MAX / result) {
+      |                                        ^~~~~~~
+./samples/SAFE/__tmp_558b43cc.c:118:40: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+./samples/SAFE/__tmp_558b43cc.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_558b43cc.c:142:26: error: ‘INT_MAX’ undeclared (first use in this function)
+  142 |             if (result > INT_MAX - right) {
+      |                          ^~~~~~~
+./samples/SAFE/__tmp_558b43cc.c:142:26: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+./samples/SAFE/__tmp_558b43cc.c:147:26: error: ‘INT_MIN’ undeclared (first use in this function)
+  147 |             if (result < INT_MIN + right) {
+      |                          ^~~~~~~
+./samples/SAFE/__tmp_558b43cc.c:147:26: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+./samples/SAFE/__tmp_558b43cc.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_558b43cc.c:162:5: error: expected expression at end of input
+  162 |     if (
+      |     ^~
+./samples/SAFE/__tmp_558b43cc.c:162:5: error: expected declaration or statement at end of input

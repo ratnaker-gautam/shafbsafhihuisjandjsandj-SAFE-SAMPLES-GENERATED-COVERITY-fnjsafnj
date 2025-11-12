@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_c049a4f1.c: In function ‘main’:
+./samples/SAFE/__tmp_c049a4f1.c:134:67: error: expected ‘)’ at end of input
+  134 |             printf("\nInvalid transition at position %zu\n", i + 1
+      |                   ~                                               ^
+      |                                                                   )
+./samples/SAFE/__tmp_c049a4f1.c:134:13: error: expected declaration or statement at end of input
+  134 |             printf("\nInvalid transition at position %zu\n", i + 1
+      |             ^~~~~~
+./samples/SAFE/__tmp_c049a4f1.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c049a4f1.c:134:13: error: expected declaration or statement at end of input

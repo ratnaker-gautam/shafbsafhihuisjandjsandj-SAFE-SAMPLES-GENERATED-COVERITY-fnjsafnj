@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_369201fc.c: In function ‘process_token’:
+./samples/SAFE/__tmp_369201fc.c:154:21: error: expected ‘;’ at end of input
+  154 |     ctx->float_value
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_369201fc.c:154:5: error: expected declaration or statement at end of input
+  154 |     ctx->float_value
+      |     ^~~

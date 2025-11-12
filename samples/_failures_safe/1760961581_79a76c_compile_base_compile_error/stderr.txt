@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_00100b4f.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_00100b4f.c:151:24: error: missing terminating " character
+  151 |                 printf("STRING: \"%s\"\n
+      |                        ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_00100b4f.c:151:17: error: expected expression at end of input
+  151 |                 printf("STRING: \"%s\"\n
+      |                 ^~~~~~
+./samples/SAFE/__tmp_00100b4f.c:151:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_00100b4f.c:151:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_00100b4f.c:151:17: error: expected declaration or statement at end of input

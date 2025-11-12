@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_8d7896f4.c: In function ‘main’:
+./samples/SAFE/__tmp_8d7896f4.c:146:5: error: expected declaration or statement at end of input
+  146 |     Token tokens[MAX_TOKENS];
+      |     ^~~~~

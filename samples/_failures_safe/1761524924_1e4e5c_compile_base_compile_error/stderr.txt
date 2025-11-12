@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_54df7b41.c: In function ‘main’:
+./samples/SAFE/__tmp_54df7b41.c:142:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  142 |                 long long sum
+      |                 ^~~~
+./samples/SAFE/__tmp_54df7b41.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_54df7b41.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_54df7b41.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_54df7b41.c:142:17: error: expected declaration or statement at end of input

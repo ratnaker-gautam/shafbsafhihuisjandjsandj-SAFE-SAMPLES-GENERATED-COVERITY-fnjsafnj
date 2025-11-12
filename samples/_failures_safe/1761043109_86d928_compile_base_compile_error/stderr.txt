@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b9c9e615.c: In function ‘main’:
+./samples/SAFE/__tmp_b9c9e615.c:139:5: error: expected declaration or statement at end of input
+  139 |     int start = (entry_count > 5) ? entry_count - 5 : 0;
+      |     ^~~

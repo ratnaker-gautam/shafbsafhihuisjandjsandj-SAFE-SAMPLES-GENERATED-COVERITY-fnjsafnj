@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_5f536038.c: In function ‘multiply_matrices’:
+./samples/SAFE/__tmp_5f536038.c:116: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_5f536038.c:115:20: note: to match this ‘(’
+  115 |                 if (product > 0 && sum > LONG_MAX
+      |                    ^
+./samples/SAFE/__tmp_5f536038.c:115:17: error: expected declaration or statement at end of input
+  115 |                 if (product > 0 && sum > LONG_MAX
+      |                 ^~
+./samples/SAFE/__tmp_5f536038.c:115:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5f536038.c:115:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5f536038.c:115:17: error: expected declaration or statement at end of input

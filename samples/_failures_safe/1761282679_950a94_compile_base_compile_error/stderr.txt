@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_1a596509.c: In function ‘main’:
+./samples/SAFE/__tmp_1a596509.c:178:31: error: ‘TOKEN_N’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  178 |         if (tokens[k].type == TOKEN_N
+      |                               ^~~~~~~
+      |                               TOKEN_EOF
+./samples/SAFE/__tmp_1a596509.c:178:31: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1a596509.c:178:38: error: expected ‘)’ at end of input
+  178 |         if (tokens[k].type == TOKEN_N
+      |            ~                         ^
+      |                                      )
+./samples/SAFE/__tmp_1a596509.c:178:9: error: expected declaration or statement at end of input
+  178 |         if (tokens[k].type == TOKEN_N
+      |         ^~
+./samples/SAFE/__tmp_1a596509.c:178:9: error: expected declaration or statement at end of input

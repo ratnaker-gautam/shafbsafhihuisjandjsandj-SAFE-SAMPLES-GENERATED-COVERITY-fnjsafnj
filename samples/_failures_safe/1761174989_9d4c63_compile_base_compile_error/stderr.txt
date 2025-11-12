@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2c7ebbee.c: In function ‘bounding_box_calculate’:
+./samples/SAFE/__tmp_2c7ebbee.c:130:5: error: expected declaration or statement at end of input
+  130 |     }
+      |     ^

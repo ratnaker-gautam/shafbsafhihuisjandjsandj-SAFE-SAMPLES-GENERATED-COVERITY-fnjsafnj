@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_a621de0b.c: In function ‘main’:
+./samples/SAFE/__tmp_a621de0b.c:149:73: error: ‘MAX_D’ undeclared (first use in this function); did you mean ‘MAX_DIM’?
+  149 |             a.cols = read_int("Enter columns for matrix A (1-10): ", 1, MAX_D
+      |                                                                         ^~~~~
+      |                                                                         MAX_DIM
+./samples/SAFE/__tmp_a621de0b.c:149:73: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a621de0b.c:149:78: error: expected ‘)’ at end of input
+  149 |             a.cols = read_int("Enter columns for matrix A (1-10): ", 1, MAX_D
+      |                              ~                                               ^
+      |                                                                              )
+./samples/SAFE/__tmp_a621de0b.c:149:13: error: expected declaration or statement at end of input
+  149 |             a.cols = read_int("Enter columns for matrix A (1-10): ", 1, MAX_D
+      |             ^
+./samples/SAFE/__tmp_a621de0b.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a621de0b.c:149:13: error: expected declaration or statement at end of input

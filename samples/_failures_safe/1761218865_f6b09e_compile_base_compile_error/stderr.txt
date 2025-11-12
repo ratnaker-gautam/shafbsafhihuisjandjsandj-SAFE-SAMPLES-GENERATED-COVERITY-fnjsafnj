@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fab41978.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_fab41978.c:165:5: error: expected identifier at end of input
+  165 |     token->
+      |     ^~~~~
+./samples/SAFE/__tmp_fab41978.c:165:5: error: expected declaration or statement at end of input

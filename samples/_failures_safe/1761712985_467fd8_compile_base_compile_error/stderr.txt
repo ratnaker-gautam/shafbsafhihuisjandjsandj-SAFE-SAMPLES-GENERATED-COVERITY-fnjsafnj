@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_675e69e5.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_675e69e5.c:159:14: error: expected ‘)’ at end of input
+  159 |     if (lexer
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_675e69e5.c:159:5: error: expected declaration or statement at end of input
+  159 |     if (lexer
+      |     ^~

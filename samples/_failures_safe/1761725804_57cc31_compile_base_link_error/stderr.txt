@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccpdJIN4.o: in function `calculate_polynomial':
+__tmp_53d1f8bb.c:(.text+0x47): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

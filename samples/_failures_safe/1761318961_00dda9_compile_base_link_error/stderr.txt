@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccXErgep.o: in function `create_rotation_matrix':
+__tmp_1f888264.c:(.text+0x35): undefined reference to `sincos'
+/usr/bin/ld: /tmp/ccXErgep.o: in function `perform_transform':
+__tmp_1f888264.c:(.text+0x2b5): undefined reference to `sincos'
+collect2: error: ld returned 1 exit status

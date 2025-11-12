@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e6aada28.c: In function ‘main’:
+./samples/SAFE/__tmp_e6aada28.c:130:9: error: expected expression at end of input
+  130 |         int matA[
+      |         ^~~
+./samples/SAFE/__tmp_e6aada28.c:130:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e6aada28.c:130:9: error: expected declaration or statement at end of input

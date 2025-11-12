@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f7ae4d6a.c: In function ‘main’:
+./samples/SAFE/__tmp_f7ae4d6a.c:138:5: error: expected declaration or statement at end of input
+  138 |     if (input_size == 0) {
+      |     ^~
+./samples/SAFE/__tmp_f7ae4d6a.c:138:5: error: expected declaration or statement at end of input

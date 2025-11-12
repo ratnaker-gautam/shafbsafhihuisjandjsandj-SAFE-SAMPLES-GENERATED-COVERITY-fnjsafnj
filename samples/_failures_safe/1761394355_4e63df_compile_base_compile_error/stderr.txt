@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_d4a74f93.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_d4a74f93.c:150:14: error: ‘STATE_ID’ undeclared (first use in this function); did you mean ‘STATE_IDLE’?
+  150 |         case STATE_ID
+      |              ^~~~~~~~
+      |              STATE_IDLE
+./samples/SAFE/__tmp_d4a74f93.c:150:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d4a74f93.c:150:9: error: expected ‘:’ or ‘...’ at end of input
+  150 |         case STATE_ID
+      |         ^~~~
+./samples/SAFE/__tmp_d4a74f93.c:150:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d4a74f93.c:150:9: error: expected declaration or statement at end of input

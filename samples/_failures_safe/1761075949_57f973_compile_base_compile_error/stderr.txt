@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_02bc0f64.c: In function ‘main’:
+./samples/SAFE/__tmp_02bc0f64.c:129:41: error: expected ‘)’ at end of input
+  129 |         cleanup_compression_context(&ctx
+      |                                    ~    ^
+      |                                         )
+./samples/SAFE/__tmp_02bc0f64.c:129:9: error: expected declaration or statement at end of input
+  129 |         cleanup_compression_context(&ctx
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_02bc0f64.c:129:9: error: expected declaration or statement at end of input

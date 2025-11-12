@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_4358d39f.c: In function ‘event_to_string’:
+./samples/SAFE/__tmp_4358d39f.c:176:36: error: missing terminating " character
+  176 |         case EVENT_SUCCESS: return "SUCCESS
+      |                                    ^~~~~~~~
+./samples/SAFE/__tmp_4358d39f.c:176:9: error: expected expression at end of input
+  176 |         case EVENT_SUCCESS: return "SUCCESS
+      |         ^~~~
+./samples/SAFE/__tmp_4358d39f.c:176:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4358d39f.c:176:9: error: expected declaration or statement at end of input

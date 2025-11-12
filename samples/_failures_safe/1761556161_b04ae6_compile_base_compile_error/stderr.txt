@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_392a3dba.c: In function ‘main’:
+./samples/SAFE/__tmp_392a3dba.c:150:9: error: expected declaration or statement at end of input
+  150 |         choice = read_int("Choose operation: ", 1, 5);
+      |         ^~~~~~
+./samples/SAFE/__tmp_392a3dba.c:150:9: error: expected declaration or statement at end of input

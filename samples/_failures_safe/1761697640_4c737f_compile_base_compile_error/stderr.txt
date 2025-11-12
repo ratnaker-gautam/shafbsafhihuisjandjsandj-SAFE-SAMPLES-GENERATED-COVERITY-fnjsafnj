@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_818e9b35.c: In function ‘main’:
+./samples/SAFE/__tmp_818e9b35.c:140:39: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols_b’?
+  140 |     recursive_matrix_multiply(rows_a, cols
+      |                                       ^~~~
+      |                                       cols_b
+./samples/SAFE/__tmp_818e9b35.c:140:39: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_818e9b35.c:140:43: error: expected ‘)’ at end of input
+  140 |     recursive_matrix_multiply(rows_a, cols
+      |                              ~            ^
+      |                                           )
+./samples/SAFE/__tmp_818e9b35.c:140:5: error: too few arguments to function ‘recursive_matrix_multiply’
+  140 |     recursive_matrix_multiply(rows_a, cols
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_818e9b35.c:33:6: note: declared here
+   33 | void recursive_matrix_multiply(int rows_a, int cols_a, int rows_b, int cols_b,
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_818e9b35.c:140:5: error: expected declaration or statement at end of input
+  140 |     recursive_matrix_multiply(rows_a, cols
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~

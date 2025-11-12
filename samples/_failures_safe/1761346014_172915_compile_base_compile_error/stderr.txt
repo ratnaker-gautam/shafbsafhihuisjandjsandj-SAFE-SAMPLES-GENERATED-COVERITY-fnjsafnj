@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_8635a90b.c:123:1: error: expected declaration specifiers or ‘...’ at end of input
+  123 | int transpose_matrix(const Matrix* m,
+      | ^~~

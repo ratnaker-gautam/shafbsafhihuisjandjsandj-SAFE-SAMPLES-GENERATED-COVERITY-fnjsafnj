@@ -1,0 +1,150 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: pointer_arithmetic ; Variation: compression_stub
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_INPUT_SIZE 1024
+#define MAX_OUTPUT_SIZE 2048
+
+typedef struct {
+    uint8_t *data;
+    size_t size;
+    size_t capacity;
+} Buffer;
+
+int buffer_init(Buffer *buf, size_t initial_capacity) {
+    if (buf == NULL || initial_capacity == 0) return 0;
+    if (initial_capacity > SIZE_MAX / sizeof(uint8_t)) return 0;
+    
+    buf->data = malloc(initial_capacity * sizeof(uint8_t));
+    if (buf->data == NULL) return 0;
+    
+    buf->size = 0;
+    buf->capacity = initial_capacity;
+    return 1;
+}
+
+void buffer_free(Buffer *buf) {
+    if (buf != NULL && buf->data != NULL) {
+        free(buf->data);
+        buf->data = NULL;
+        buf->size = 0;
+        buf->capacity = 0;
+    }
+}
+
+int buffer_append(Buffer *buf, const uint8_t *src, size_t len) {
+    if (buf == NULL || src == NULL) return 0;
+    if (len == 0) return 1;
+    
+    if (buf->size > SIZE_MAX - len) return 0;
+    size_t new_size = buf->size + len;
+    
+    if (new_size > buf->capacity) {
+        size_t new_capacity = buf->capacity * 2;
+        if (new_capacity < buf->capacity) return 0;
+        if (new_capacity < new_size) new_capacity = new_size;
+        if (new_capacity > SIZE_MAX / sizeof(uint8_t)) return 0;
+        
+        uint8_t *new_data = realloc(buf->data, new_capacity * sizeof(uint8_t));
+        if (new_data == NULL) return 0;
+        
+        buf->data = new_data;
+        buf->capacity = new_capacity;
+    }
+    
+    memcpy(buf->data + buf->size, src, len);
+    buf->size = new_size;
+    return 1;
+}
+
+size_t compress_rle(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_capacity) {
+    if (input == NULL || output == NULL || input_len == 0 || output_capacity == 0) return 0;
+    
+    const uint8_t *current = input;
+    const uint8_t *end = input + input_len;
+    uint8_t *out_ptr = output;
+    uint8_t *out_end = output + output_capacity;
+    
+    while (current < end) {
+        uint8_t value = *current;
+        size_t count = 1;
+        
+        const uint8_t *next = current + 1;
+        while (next < end && *next == value && count < 255) {
+            count++;
+            next++;
+        }
+        
+        if (out_ptr + 2 > out_end) return 0;
+        
+        *out_ptr++ = value;
+        *out_ptr++ = (uint8_t)count;
+        
+        current += count;
+    }
+    
+    return out_ptr - output;
+}
+
+size_t decompress_rle(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_capacity) {
+    if (input == NULL || output == NULL || input_len == 0 || output_capacity == 0) return 0;
+    if (input_len % 2 != 0) return 0;
+    
+    const uint8_t *current = input;
+    const uint8_t *end = input + input_len;
+    uint8_t *out_ptr = output;
+    uint8_t *out_end = output + output_capacity;
+    
+    while (current < end) {
+        uint8_t value = *current++;
+        uint8_t count = *current++;
+        
+        if (out_ptr + count > out_end) return 0;
+        
+        for (uint8_t i = 0; i < count; i++) {
+            *out_ptr++ = value;
+        }
+    }
+    
+    return out_ptr - output;
+}
+
+int main(void) {
+    Buffer input_buf, compressed_buf, decompressed_buf;
+    
+    if (!buffer_init(&input_buf, MAX_INPUT_SIZE) ||
+        !buffer_init(&compressed_buf, MAX_OUTPUT_SIZE) ||
+        !buffer_init(&decompressed_buf, MAX_INPUT_SIZE)) {
+        fprintf(stderr, "Memory allocation failed\n");
+        return 1;
+    }
+    
+    printf("Enter data to compress (max %zu bytes): ", MAX_INPUT_SIZE);
+    
+    char line[MAX_INPUT_SIZE * 2];
+    if (fgets(line, sizeof(line), stdin) == NULL) {
+        fprintf(stderr, "Input reading failed\n");
+        buffer_free(&input_buf);
+        buffer_free(&compressed_buf);
+        buffer_free(&decompressed_buf);
+        return 1;
+    }
+    
+    size_t input_len = strlen(line);
+    if (input_len > 0 && line[input_len - 1] == '\n') {
+        line[input_len - 1] = '\0';
+        input_len--;
+    }
+    
+    if (input_len == 0) {
+        printf("No input provided\n");
+        buffer_free(&input_buf);
+        buffer_free(&compressed_buf);
+        buffer_free(&decompressed_buf);
+        return 1;
+    }
+    
+    if (!buffer_append(&input_buf, (

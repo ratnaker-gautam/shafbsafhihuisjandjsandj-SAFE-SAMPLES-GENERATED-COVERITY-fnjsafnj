@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_041e605b.c: In function ‘main’:
+./samples/SAFE/__tmp_041e605b.c:155:66: error: expected ‘)’ at end of input
+  155 |     mat2.cols = read_int("Enter columns for matrix B (1-10): ", 1
+      |                         ~                                        ^
+      |                                                                  )
+./samples/SAFE/__tmp_041e605b.c:155:17: error: too few arguments to function ‘read_int’
+  155 |     mat2.cols = read_int("Enter columns for matrix B (1-10): ", 1
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_041e605b.c:20:5: note: declared here
+   20 | int read_int(const char* prompt, int min_val, int max_val) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_041e605b.c:155:5: error: expected declaration or statement at end of input
+  155 |     mat2.cols = read_int("Enter columns for matrix B (1-10): ", 1
+      |     ^~~~

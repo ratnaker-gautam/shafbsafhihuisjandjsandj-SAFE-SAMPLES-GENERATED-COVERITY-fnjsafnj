@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_360a675e.c: In function ‘update_object’:
+./samples/SAFE/__tmp_360a675e.c:126:38: error: ‘vector’ undeclared (first use in this function); did you mean ‘Vector3D’?
+  126 |     struct Vector3D position_delta = vector
+      |                                      ^~~~~~
+      |                                      Vector3D
+./samples/SAFE/__tmp_360a675e.c:126:38: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_360a675e.c:126:12: error: expected ‘,’ or ‘;’ at end of input
+  126 |     struct Vector3D position_delta = vector
+      |            ^~~~~~~~
+./samples/SAFE/__tmp_360a675e.c:126:12: error: expected declaration or statement at end of input

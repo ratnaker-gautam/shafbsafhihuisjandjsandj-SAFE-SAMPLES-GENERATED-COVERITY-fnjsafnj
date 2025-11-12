@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_91666964.c: In function ‘parser_advance’:
+./samples/SAFE/__tmp_91666964.c:153: error: expected ‘{’ at end of input

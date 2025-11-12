@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e92a7377.c: In function ‘dijkstra_shortest_path’:
+./samples/SAFE/__tmp_e92a7377.c:153:9: error: expected declaration or statement at end of input
+  153 |         current = previous[current];
+      |         ^~~~~~~
+./samples/SAFE/__tmp_e92a7377.c:153:9: error: expected declaration or statement at end of input

@@ -1,0 +1,160 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: heap_stack_mix ; Variation: parser_tokenizer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_TOKENS 100
+#define MAX_TOKEN_LEN 50
+
+typedef enum {
+    TOKEN_NUMBER,
+    TOKEN_IDENTIFIER,
+    TOKEN_OPERATOR,
+    TOKEN_STRING,
+    TOKEN_EOF
+} TokenType;
+
+typedef struct {
+    TokenType type;
+    char value[MAX_TOKEN_LEN];
+} Token;
+
+typedef struct {
+    Token* tokens;
+    size_t count;
+    size_t capacity;
+} TokenList;
+
+TokenList* token_list_create(void) {
+    TokenList* list = malloc(sizeof(TokenList));
+    if (!list) return NULL;
+    
+    list->capacity = 10;
+    list->count = 0;
+    list->tokens = malloc(list->capacity * sizeof(Token));
+    if (!list->tokens) {
+        free(list);
+        return NULL;
+    }
+    
+    return list;
+}
+
+void token_list_destroy(TokenList* list) {
+    if (list) {
+        free(list->tokens);
+        free(list);
+    }
+}
+
+int token_list_add(TokenList* list, Token token) {
+    if (!list || list->count >= MAX_TOKENS) return 0;
+    
+    if (list->count >= list->capacity) {
+        size_t new_capacity = list->capacity * 2;
+        if (new_capacity > MAX_TOKENS) new_capacity = MAX_TOKENS;
+        
+        Token* new_tokens = realloc(list->tokens, new_capacity * sizeof(Token));
+        if (!new_tokens) return 0;
+        
+        list->tokens = new_tokens;
+        list->capacity = new_capacity;
+    }
+    
+    if (list->count < list->capacity) {
+        list->tokens[list->count] = token;
+        list->count++;
+        return 1;
+    }
+    
+    return 0;
+}
+
+int is_operator(char c) {
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '=' || c == '<' || c == '>';
+}
+
+TokenType classify_token(const char* str) {
+    if (isdigit(str[0])) return TOKEN_NUMBER;
+    if (is_operator(str[0])) return TOKEN_OPERATOR;
+    if (str[0] == '"') return TOKEN_STRING;
+    if (isalpha(str[0])) return TOKEN_IDENTIFIER;
+    return TOKEN_IDENTIFIER;
+}
+
+int tokenize_string(const char* input, TokenList* token_list) {
+    if (!input || !token_list) return 0;
+    
+    size_t len = strlen(input);
+    if (len == 0) return 1;
+    
+    char buffer[MAX_TOKEN_LEN];
+    size_t buf_pos = 0;
+    
+    for (size_t i = 0; i < len; i++) {
+        if (isspace(input[i])) {
+            if (buf_pos > 0) {
+                buffer[buf_pos] = '\0';
+                Token token = {classify_token(buffer), ""};
+                strncpy(token.value, buffer, MAX_TOKEN_LEN - 1);
+                token.value[MAX_TOKEN_LEN - 1] = '\0';
+                if (!token_list_add(token_list, token)) return 0;
+                buf_pos = 0;
+            }
+            continue;
+        }
+        
+        if (is_operator(input[i])) {
+            if (buf_pos > 0) {
+                buffer[buf_pos] = '\0';
+                Token token = {classify_token(buffer), ""};
+                strncpy(token.value, buffer, MAX_TOKEN_LEN - 1);
+                token.value[MAX_TOKEN_LEN - 1] = '\0';
+                if (!token_list_add(token_list, token)) return 0;
+                buf_pos = 0;
+            }
+            
+            buffer[0] = input[i];
+            buffer[1] = '\0';
+            Token token = {TOKEN_OPERATOR, ""};
+            strncpy(token.value, buffer, MAX_TOKEN_LEN - 1);
+            token.value[MAX_TOKEN_LEN - 1] = '\0';
+            if (!token_list_add(token_list, token)) return 0;
+            continue;
+        }
+        
+        if (input[i] == '"') {
+            if (buf_pos > 0) {
+                buffer[buf_pos] = '\0';
+                Token token = {classify_token(buffer), ""};
+                strncpy(token.value, buffer, MAX_TOKEN_LEN - 1);
+                token.value[MAX_TOKEN_LEN - 1] = '\0';
+                if (!token_list_add(token_list, token)) return 0;
+                buf_pos = 0;
+            }
+            
+            buffer[0] = '"';
+            buf_pos = 1;
+            i++;
+            
+            while (i < len && input[i] != '"' && buf_pos < MAX_TOKEN_LEN - 1) {
+                buffer[buf_pos++] = input[i++];
+            }
+            
+            if (i < len && input[i] == '"') {
+                if (buf_pos < MAX_TOKEN_LEN - 1) {
+                    buffer[buf_pos++] = '"';
+                }
+            }
+            
+            buffer[buf_pos] = '\0';
+            Token token = {TOKEN_STRING, ""};
+            strncpy(token.value, buffer, MAX_TOKEN_LEN - 1);
+            token.value[MAX_TOKEN_LEN - 1] = '\0';
+            if (!token_list_add(token_list, token)) return 0;
+            buf_pos = 0;
+            continue;
+        }
+        
+        if (

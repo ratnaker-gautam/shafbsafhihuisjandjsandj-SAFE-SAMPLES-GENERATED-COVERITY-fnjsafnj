@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_cd91c630.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_cd91c630.c:164:27: error: ‘TO’ undeclared (first use in this function)
+  164 |             token->type = TO
+      |                           ^~
+./samples/SAFE/__tmp_cd91c630.c:164:27: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cd91c630.c:164:29: error: expected ‘;’ at end of input
+  164 |             token->type = TO
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_cd91c630.c:164:13: error: expected declaration or statement at end of input
+  164 |             token->type = TO
+      |             ^~~~~
+./samples/SAFE/__tmp_cd91c630.c:164:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cd91c630.c:164:13: error: expected declaration or statement at end of input

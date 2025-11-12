@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_2fd158fa.c: In function ‘main’:
+./samples/SAFE/__tmp_2fd158fa.c:153:16: error: ‘EXIT’ undeclared (first use in this function)
+  153 |         return EXIT
+      |                ^~~~
+./samples/SAFE/__tmp_2fd158fa.c:153:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2fd158fa.c:153:20: error: expected ‘;’ at end of input
+  153 |         return EXIT
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_2fd158fa.c:153:9: error: expected declaration or statement at end of input
+  153 |         return EXIT
+      |         ^~~~~~
+./samples/SAFE/__tmp_2fd158fa.c:153:9: error: expected declaration or statement at end of input

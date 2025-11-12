@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_30ac4134.c: In function ‘main’:
+./samples/SAFE/__tmp_30ac4134.c:145:5: error: expected expression at end of input
+  145 |     analyze_logs_recursive(
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_30ac4134.c:145:5: error: too few arguments to function ‘analyze_logs_recursive’
+./samples/SAFE/__tmp_30ac4134.c:50:6: note: declared here
+   50 | void analyze_logs_recursive(struct LogEntry *entries, int count, int index, int *error_count, int *warning_count, int *info_count) {
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_30ac4134.c:145:5: error: expected declaration or statement at end of input
+  145 |     analyze_logs_recursive(
+      |     ^~~~~~~~~~~~~~~~~~~~~~

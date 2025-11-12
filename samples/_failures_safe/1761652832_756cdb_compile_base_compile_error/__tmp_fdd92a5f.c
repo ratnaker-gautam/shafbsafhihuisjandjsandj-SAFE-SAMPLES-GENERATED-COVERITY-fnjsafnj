@@ -1,0 +1,171 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: heap_stack_mix ; Variation: matrix_ops
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_DIM 100
+
+struct Matrix {
+    int rows;
+    int cols;
+    int **data;
+};
+
+int validate_dimension(int dim) {
+    return dim > 0 && dim <= MAX_DIM;
+}
+
+struct Matrix* create_matrix(int rows, int cols) {
+    if (!validate_dimension(rows) || !validate_dimension(cols)) {
+        return NULL;
+    }
+    
+    struct Matrix *mat = malloc(sizeof(struct Matrix));
+    if (!mat) return NULL;
+    
+    mat->rows = rows;
+    mat->cols = cols;
+    
+    mat->data = malloc(rows * sizeof(int*));
+    if (!mat->data) {
+        free(mat);
+        return NULL;
+    }
+    
+    for (int i = 0; i < rows; i++) {
+        mat->data[i] = malloc(cols * sizeof(int));
+        if (!mat->data[i]) {
+            for (int j = 0; j < i; j++) {
+                free(mat->data[j]);
+            }
+            free(mat->data);
+            free(mat);
+            return NULL;
+        }
+    }
+    
+    return mat;
+}
+
+void free_matrix(struct Matrix *mat) {
+    if (!mat) return;
+    
+    for (int i = 0; i < mat->rows; i++) {
+        free(mat->data[i]);
+    }
+    free(mat->data);
+    free(mat);
+}
+
+int read_matrix(struct Matrix *mat) {
+    if (!mat) return 0;
+    
+    printf("Enter %d x %d matrix elements:\n", mat->rows, mat->cols);
+    for (int i = 0; i < mat->rows; i++) {
+        for (int j = 0; j < mat->cols; j++) {
+            if (scanf("%d", &mat->data[i][j]) != 1) {
+                return 0;
+            }
+        }
+    }
+    return 1;
+}
+
+void print_matrix(struct Matrix *mat) {
+    if (!mat) return;
+    
+    printf("Matrix %dx%d:\n", mat->rows, mat->cols);
+    for (int i = 0; i < mat->rows; i++) {
+        for (int j = 0; j < mat->cols; j++) {
+            printf("%d ", mat->data[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+struct Matrix* multiply_matrices(struct Matrix *a, struct Matrix *b) {
+    if (!a || !b || a->cols != b->rows) {
+        return NULL;
+    }
+    
+    struct Matrix *result = create_matrix(a->rows, b->cols);
+    if (!result) return NULL;
+    
+    for (int i = 0; i < a->rows; i++) {
+        for (int j = 0; j < b->cols; j++) {
+            int sum = 0;
+            for (int k = 0; k < a->cols; k++) {
+                if (a->data[i][k] > 0 && b->data[k][j] > 0) {
+                    if (a->data[i][k] > INT_MAX / b->data[k][j]) {
+                        free_matrix(result);
+                        return NULL;
+                    }
+                } else if (a->data[i][k] < 0 && b->data[k][j] < 0) {
+                    if (a->data[i][k] < INT_MIN / b->data[k][j]) {
+                        free_matrix(result);
+                        return NULL;
+                    }
+                }
+                long long product = (long long)a->data[i][k] * b->data[k][j];
+                if (product > INT_MAX || product < INT_MIN) {
+                    free_matrix(result);
+                    return NULL;
+                }
+                sum += (int)product;
+                if ((sum > 0 && product > INT_MAX - sum) || (sum < 0 && product < INT_MIN - sum)) {
+                    free_matrix(result);
+                    return NULL;
+                }
+            }
+            result->data[i][j] = sum;
+        }
+    }
+    
+    return result;
+}
+
+int main() {
+    int rows1, cols1, rows2, cols2;
+    
+    printf("Enter dimensions for first matrix (rows cols): ");
+    if (scanf("%d %d", &rows1, &cols1) != 2) {
+        printf("Invalid input\n");
+        return 1;
+    }
+    
+    if (!validate_dimension(rows1) || !validate_dimension(cols1)) {
+        printf("Invalid dimensions\n");
+        return 1;
+    }
+    
+    struct Matrix *mat1 = create_matrix(rows1, cols1);
+    if (!mat1) {
+        printf("Memory allocation failed\n");
+        return 1;
+    }
+    
+    if (!read_matrix(mat1)) {
+        printf("Failed to read matrix\n");
+        free_matrix(mat1);
+        return 1;
+    }
+    
+    printf("Enter dimensions for second matrix (rows cols): ");
+    if (scanf("%d %d", &rows2, &cols2) != 2) {
+        printf("Invalid input\n");
+        free_matrix(mat1);
+        return 1;
+    }
+    
+    if (!validate_dimension(rows2) || !validate_dimension(cols2)) {
+        printf("Invalid dimensions\n");
+        free_matrix(mat1);
+        return 1;
+    }
+    
+    struct Matrix *mat2 = create_matrix(rows2, cols2);
+    if (!mat2) {
+        printf("Memory allocation failed\n");
+        free

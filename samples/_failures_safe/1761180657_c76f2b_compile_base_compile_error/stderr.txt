@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_12e5243f.c: In function ‘main’:
+./samples/SAFE/__tmp_12e5243f.c:166:66: error: ‘SEEK_’ undeclared (first use in this function); did you mean ‘SEEK_CUR’?
+  166 |             if (fseek(result_file, -((long)sizeof(file_info_t)), SEEK_
+      |                                                                  ^~~~~
+      |                                                                  SEEK_CUR
+./samples/SAFE/__tmp_12e5243f.c:166:66: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_12e5243f.c:166:71: error: expected ‘)’ at end of input
+  166 |             if (fseek(result_file, -((long)sizeof(file_info_t)), SEEK_
+      |                      ~                                                ^
+      |                                                                       )
+./samples/SAFE/__tmp_12e5243f.c:166:13: error: expected declaration or statement at end of input
+  166 |             if (fseek(result_file, -((long)sizeof(file_info_t)), SEEK_
+      |             ^~
+./samples/SAFE/__tmp_12e5243f.c:166:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_12e5243f.c:166:13: error: expected declaration or statement at end of input

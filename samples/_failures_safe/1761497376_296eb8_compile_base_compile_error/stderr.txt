@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_1314bd3d.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_1314bd3d.c:171:17: error: expected declaration or statement at end of input
+  171 |                 break;
+      |                 ^~~~~
+./samples/SAFE/__tmp_1314bd3d.c:171:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1314bd3d.c:171:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1314bd3d.c:171:17: error: expected declaration or statement at end of input

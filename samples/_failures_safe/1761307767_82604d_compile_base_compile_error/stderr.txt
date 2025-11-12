@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_c9b6a0dd.c: In function ‘process_log_file’:
+./samples/SAFE/__tmp_c9b6a0dd.c:143:23: error: ‘struct LogAnalyzer’ has no member named ‘entry’; did you mean ‘entries’?
+  143 |         if (analyzer->entry
+      |                       ^~~~~
+      |                       entries
+./samples/SAFE/__tmp_c9b6a0dd.c:143:28: error: expected ‘)’ at end of input
+  143 |         if (analyzer->entry
+      |            ~               ^
+      |                            )
+./samples/SAFE/__tmp_c9b6a0dd.c:143:9: error: expected declaration or statement at end of input
+  143 |         if (analyzer->entry
+      |         ^~
+./samples/SAFE/__tmp_c9b6a0dd.c:143:9: error: expected declaration or statement at end of input

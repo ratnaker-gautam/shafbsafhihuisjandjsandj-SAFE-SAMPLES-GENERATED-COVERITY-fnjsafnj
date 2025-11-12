@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_53769743.c: In function ‘main’:
+./samples/SAFE/__tmp_53769743.c:163:36: error: expected ‘)’ at end of input
+  163 |     if (!process_file(argv[1], argv
+      |                      ~             ^
+      |                                    )
+./samples/SAFE/__tmp_53769743.c:163:5: error: expected declaration or statement at end of input
+  163 |     if (!process_file(argv[1], argv
+      |     ^~

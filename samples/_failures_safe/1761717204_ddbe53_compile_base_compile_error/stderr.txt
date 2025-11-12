@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_59fa9bfd.c: In function ‘main’:
+./samples/SAFE/__tmp_59fa9bfd.c:162:32: error: expected ‘;’ at end of input
+  162 |     cleanup_compression_context
+      |                                ^
+      |                                ;
+./samples/SAFE/__tmp_59fa9bfd.c:162:5: error: expected declaration or statement at end of input
+  162 |     cleanup_compression_context
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~

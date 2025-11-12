@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_78e63694.c: In function ‘queue_dequeue’:
+./samples/SAFE/__tmp_78e63694.c:187:20: error: expected ‘;’ at end of input
+  187 |         queue->rear
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_78e63694.c:187:9: error: expected declaration or statement at end of input
+  187 |         queue->rear
+      |         ^~~~~
+./samples/SAFE/__tmp_78e63694.c:187:9: error: expected declaration or statement at end of input

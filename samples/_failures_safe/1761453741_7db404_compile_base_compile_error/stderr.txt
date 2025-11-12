@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_87986891.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_87986891.c:175:5: error: expected expression at end of input
+  175 |     int line =
+      |     ^~~
+./samples/SAFE/__tmp_87986891.c:175:5: error: expected declaration or statement at end of input

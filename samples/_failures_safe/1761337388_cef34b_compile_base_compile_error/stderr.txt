@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_1281a8b2.c: In function ‘test_sample_data’:
+./samples/SAFE/__tmp_1281a8b2.c:165:9: error: ‘size’ undeclared (first use in this function); did you mean ‘size_t’?
+  165 |         size
+      |         ^~~~
+      |         size_t
+./samples/SAFE/__tmp_1281a8b2.c:165:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1281a8b2.c:165:13: error: expected ‘;’ at end of input
+  165 |         size
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_1281a8b2.c:165:9: error: expected declaration or statement at end of input
+  165 |         size
+      |         ^~~~
+./samples/SAFE/__tmp_1281a8b2.c:165:9: error: expected declaration or statement at end of input

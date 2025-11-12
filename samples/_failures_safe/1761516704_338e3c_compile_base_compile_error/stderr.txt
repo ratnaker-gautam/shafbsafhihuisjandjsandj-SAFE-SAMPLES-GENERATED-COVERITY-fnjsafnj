@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_6614b433.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_6614b433.c:175:32: error: expected ‘;’ at end of input
+  175 |                 min_dist = dist
+      |                                ^
+      |                                ;
+./samples/SAFE/__tmp_6614b433.c:175:17: error: expected declaration or statement at end of input
+  175 |                 min_dist = dist
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_6614b433.c:175:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6614b433.c:175:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6614b433.c:175:17: error: expected declaration or statement at end of input

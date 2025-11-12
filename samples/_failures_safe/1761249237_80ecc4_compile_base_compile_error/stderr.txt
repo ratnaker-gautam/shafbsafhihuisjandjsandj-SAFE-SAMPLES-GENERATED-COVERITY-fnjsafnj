@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c7ea776e.c: In function ‘main’:
+./samples/SAFE/__tmp_c7ea776e.c:160:9: error: expected expression at end of input
+  160 |         if (scanf("%d", &id) != 1 || id < 0 || id >=
+      |         ^~
+./samples/SAFE/__tmp_c7ea776e.c:160:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c7ea776e.c:160:9: error: expected declaration or statement at end of input

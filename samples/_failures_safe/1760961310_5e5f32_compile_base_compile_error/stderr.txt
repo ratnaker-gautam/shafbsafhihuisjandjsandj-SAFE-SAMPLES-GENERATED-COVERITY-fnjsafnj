@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/ccorZHJB.o: in function `main':
+__tmp_f6f73bdd.c:(.text.startup+0x1fc): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_f6f73bdd.c:(.text.startup+0x260): undefined reference to `fmod'
+/usr/bin/ld: __tmp_f6f73bdd.c:(.text.startup+0x396): undefined reference to `pow'
+/usr/bin/ld: __tmp_f6f73bdd.c:(.text.startup+0x48c): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9508ce83.c: In function ‘kruskal_mst’:
+./samples/SAFE/__tmp_9508ce83.c:171:57: error: expected declaration or statement at end of input
+  171 |     qsort(graph->edges, graph->num_edges, sizeof(struct Edge), compare_edges);
+      |                                                         ^~~~

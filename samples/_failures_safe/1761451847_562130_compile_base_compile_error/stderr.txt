@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_292feb43.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_292feb43.c:145:67: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  145 |     parser->token_count = token_count > MAX_TOKENS ? MAX_TOKENS : token
+      |                                                                   ^~~~~
+      |                                                                   Token
+./samples/SAFE/__tmp_292feb43.c:145:67: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_292feb43.c:145:72: error: expected ‘;’ at end of input
+  145 |     parser->token_count = token_count > MAX_TOKENS ? MAX_TOKENS : token
+      |                                                                        ^
+      |                                                                        ;
+./samples/SAFE/__tmp_292feb43.c:145:5: error: expected declaration or statement at end of input
+  145 |     parser->token_count = token_count > MAX_TOKENS ? MAX_TOKENS : token
+      |     ^~~~~~

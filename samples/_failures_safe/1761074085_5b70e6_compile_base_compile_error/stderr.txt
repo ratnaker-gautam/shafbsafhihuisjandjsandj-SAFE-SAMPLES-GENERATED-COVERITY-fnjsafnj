@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_0abb2bab.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_0abb2bab.c:178:5: error: ‘skip_’ undeclared (first use in this function)
+  178 |     skip_
+      |     ^~~~~
+./samples/SAFE/__tmp_0abb2bab.c:178:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0abb2bab.c:178:10: error: expected ‘;’ at end of input
+  178 |     skip_
+      |          ^
+      |          ;
+./samples/SAFE/__tmp_0abb2bab.c:178:5: error: expected declaration or statement at end of input
+  178 |     skip_
+      |     ^~~~~

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_1236a01b.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_1236a01b.c:186:31: error: expected ‘]’ at end of input
+  186 |                 graph->edges[i
+      |                               ^
+      |                               ]
+./samples/SAFE/__tmp_1236a01b.c:186:17: error: expected declaration or statement at end of input
+  186 |                 graph->edges[i
+      |                 ^~~~~
+./samples/SAFE/__tmp_1236a01b.c:186:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1236a01b.c:186:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1236a01b.c:186:17: error: expected declaration or statement at end of input

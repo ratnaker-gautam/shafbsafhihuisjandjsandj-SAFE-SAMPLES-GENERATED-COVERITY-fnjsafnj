@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_84203a8b.c: In function ‘main’:
+./samples/SAFE/__tmp_84203a8b.c:152:37: error: missing terminating " character
+  152 |     int rows_b = read_positive_size("
+      |                                     ^
+./samples/SAFE/__tmp_84203a8b.c:152:5: error: expected expression at end of input
+  152 |     int rows_b = read_positive_size("
+      |     ^~~
+./samples/SAFE/__tmp_84203a8b.c:152:5: error: expected declaration or statement at end of input

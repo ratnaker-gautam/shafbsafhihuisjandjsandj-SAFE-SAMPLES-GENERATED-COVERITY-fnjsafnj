@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_42c09551.c: In function ‘next_token’:
+./samples/SAFE/__tmp_42c09551.c:154:9: error: ‘is_’ undeclared (first use in this function)
+  154 |     if (is_
+      |         ^~~
+./samples/SAFE/__tmp_42c09551.c:154:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_42c09551.c:154:12: error: expected ‘)’ at end of input
+  154 |     if (is_
+      |        ~   ^
+      |            )
+./samples/SAFE/__tmp_42c09551.c:154:5: error: expected declaration or statement at end of input
+  154 |     if (is_
+      |     ^~

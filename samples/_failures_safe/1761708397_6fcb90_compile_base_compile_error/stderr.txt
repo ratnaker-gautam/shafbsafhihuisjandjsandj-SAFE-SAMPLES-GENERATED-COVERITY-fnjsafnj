@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_cffd03b1.c: In function ‘parse_operator’:
+./samples/SAFE/__tmp_cffd03b1.c:152:35: error: missing terminating ' character
+  152 |     op[lexer->position - start] = '\0
+      |                                   ^~~
+./samples/SAFE/__tmp_cffd03b1.c:152:5: error: expected expression at end of input
+  152 |     op[lexer->position - start] = '\0
+      |     ^~
+./samples/SAFE/__tmp_cffd03b1.c:152:5: error: expected declaration or statement at end of input

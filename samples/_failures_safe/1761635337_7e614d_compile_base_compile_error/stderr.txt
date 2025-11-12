@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_abe4bae3.c: In function ‘mesh_calculate_bounds’:
+./samples/SAFE/__tmp_abe4bae3.c:133:53: error: expected ‘)’ at end of input
+  133 |         if (mesh->vertices[i].x > mesh->bounds.max.x
+      |            ~                                        ^
+      |                                                     )
+./samples/SAFE/__tmp_abe4bae3.c:133:9: error: expected declaration or statement at end of input
+  133 |         if (mesh->vertices[i].x > mesh->bounds.max.x
+      |         ^~
+./samples/SAFE/__tmp_abe4bae3.c:133:9: error: expected declaration or statement at end of input

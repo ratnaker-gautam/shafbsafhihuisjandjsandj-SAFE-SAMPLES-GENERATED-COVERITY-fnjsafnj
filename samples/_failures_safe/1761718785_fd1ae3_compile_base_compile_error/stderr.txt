@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_68b4222d.c: In function ‘main’:
+./samples/SAFE/__tmp_68b4222d.c:135:23: error: expected ‘)’ at end of input
+  135 |     input_matrix(&mat2
+      |                 ~     ^
+      |                       )
+./samples/SAFE/__tmp_68b4222d.c:135:5: error: too few arguments to function ‘input_matrix’
+  135 |     input_matrix(&mat2
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_68b4222d.c:49:6: note: declared here
+   49 | void input_matrix(Matrix* mat, const char* name) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_68b4222d.c:135:5: error: expected declaration or statement at end of input
+  135 |     input_matrix(&mat2
+      |     ^~~~~~~~~~~~

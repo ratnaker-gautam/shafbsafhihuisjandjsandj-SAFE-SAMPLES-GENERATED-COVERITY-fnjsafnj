@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_31ed62b5.c: In function ‘main’:
+./samples/SAFE/__tmp_31ed62b5.c:145:5: error: expected declaration or statement at end of input
+  145 |     printf("\nCompressing...\n");
+      |     ^~~~~~

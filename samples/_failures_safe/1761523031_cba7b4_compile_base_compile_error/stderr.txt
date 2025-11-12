@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b0a2325b.c: In function ‘read_input_data’:
+./samples/SAFE/__tmp_b0a2325b.c:195:15: error: expected ‘;’ at end of input
+  195 |         packet
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_b0a2325b.c:195:9: error: expected declaration or statement at end of input
+  195 |         packet
+      |         ^~~~~~
+./samples/SAFE/__tmp_b0a2325b.c:195:9: error: expected declaration or statement at end of input

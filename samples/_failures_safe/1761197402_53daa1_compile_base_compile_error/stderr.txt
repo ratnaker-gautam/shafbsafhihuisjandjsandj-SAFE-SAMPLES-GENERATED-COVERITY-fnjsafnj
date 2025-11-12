@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_cd7f755d.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_cd7f755d.c:156:33: error: ‘TOKEN_IN’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  156 |             return create_token(TOKEN_IN
+      |                                 ^~~~~~~~
+      |                                 TOKEN_EOF
+./samples/SAFE/__tmp_cd7f755d.c:156:33: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cd7f755d.c:156:41: error: expected ‘)’ at end of input
+  156 |             return create_token(TOKEN_IN
+      |                                ~        ^
+      |                                         )
+./samples/SAFE/__tmp_cd7f755d.c:156:20: error: too few arguments to function ‘create_token’
+  156 |             return create_token(TOKEN_IN
+      |                    ^~~~~~~~~~~~
+./samples/SAFE/__tmp_cd7f755d.c:58:14: note: declared here
+   58 | struct Token create_token(enum TokenType type, const char *value, size_t line, size_t column) {
+      |              ^~~~~~~~~~~~
+./samples/SAFE/__tmp_cd7f755d.c:156:13: error: expected declaration or statement at end of input
+  156 |             return create_token(TOKEN_IN
+      |             ^~~~~~
+./samples/SAFE/__tmp_cd7f755d.c:156:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cd7f755d.c:156:13: error: expected declaration or statement at end of input

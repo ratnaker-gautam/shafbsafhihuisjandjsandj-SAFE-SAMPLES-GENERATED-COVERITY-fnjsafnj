@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b31b7791.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_b31b7791.c:182:5: error: expected declaration or statement at end of input
+  182 |     token.value[0] = input[*pos];
+      |     ^~~~~

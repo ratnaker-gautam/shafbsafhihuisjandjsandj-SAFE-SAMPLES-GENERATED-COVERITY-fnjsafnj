@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_56c7ae7d.c: In function ‘main’:
+./samples/SAFE/__tmp_56c7ae7d.c:172:51: error: expected ‘)’ at end of input
+  172 |     struct Token final = get_next_token(&tokenizer
+      |                                        ~          ^
+      |                                                   )
+./samples/SAFE/__tmp_56c7ae7d.c:172:12: error: expected declaration or statement at end of input
+  172 |     struct Token final = get_next_token(&tokenizer
+      |            ^~~~~

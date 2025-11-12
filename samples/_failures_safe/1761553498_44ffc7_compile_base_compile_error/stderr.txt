@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_0262e7b2.c: In function ‘main’:
+./samples/SAFE/__tmp_0262e7b2.c:168:9: error: ‘transpose’ undeclared (first use in this function)
+  168 |     if (transpose
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_0262e7b2.c:168:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0262e7b2.c:168:18: error: expected ‘)’ at end of input
+  168 |     if (transpose
+      |        ~         ^
+      |                  )
+./samples/SAFE/__tmp_0262e7b2.c:168:5: error: expected declaration or statement at end of input
+  168 |     if (transpose
+      |     ^~

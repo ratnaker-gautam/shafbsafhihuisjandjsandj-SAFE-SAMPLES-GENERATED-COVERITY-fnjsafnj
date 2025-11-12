@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_c6e714d6.c: In function ‘main’:
+./samples/SAFE/__tmp_c6e714d6.c:194:20: error: missing terminating " character
+  194 |             printf("Invalid event number. Must be 0-5 or
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_c6e714d6.c:194:13: error: expected expression at end of input
+  194 |             printf("Invalid event number. Must be 0-5 or
+      |             ^~~~~~
+./samples/SAFE/__tmp_c6e714d6.c:194:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c6e714d6.c:194:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c6e714d6.c:194:13: error: expected declaration or statement at end of input

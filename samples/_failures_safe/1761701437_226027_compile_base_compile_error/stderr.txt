@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_5eb9f389.c: In function ‘main’:
+./samples/SAFE/__tmp_5eb9f389.c:141:28: error: ‘rows’ undeclared (first use in this function); did you mean ‘rows_b’?
+  141 |     print_matrix(matrix_a, rows
+      |                            ^~~~
+      |                            rows_b
+./samples/SAFE/__tmp_5eb9f389.c:141:28: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5eb9f389.c:141:32: error: expected ‘)’ at end of input
+  141 |     print_matrix(matrix_a, rows
+      |                 ~              ^
+      |                                )
+./samples/SAFE/__tmp_5eb9f389.c:141:5: error: too few arguments to function ‘print_matrix’
+  141 |     print_matrix(matrix_a, rows
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_5eb9f389.c:15:6: note: declared here
+   15 | void print_matrix(int **matrix, int rows, int cols) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_5eb9f389.c:141:5: error: expected declaration or statement at end of input
+  141 |     print_matrix(matrix_a, rows
+      |     ^~~~~~~~~~~~

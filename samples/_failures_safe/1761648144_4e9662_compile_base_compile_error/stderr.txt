@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_dbf4c4d5.c: In function ‘print_token’:
+./samples/SAFE/__tmp_dbf4c4d5.c:162:12: error: expected expression at end of input
+  162 |            type_names[token.type],
+      |            ^~~~~~~~~~
+./samples/SAFE/__tmp_dbf4c4d5.c:162:12: error: expected declaration or statement at end of input

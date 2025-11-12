@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_34f9e03a.c: In function ‘main’:
+./samples/SAFE/__tmp_34f9e03a.c:152:28: error: missing terminating " character
+  152 |                     printf("Matrix addition failed: dimension mismatch
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_34f9e03a.c:152:21: error: expected expression at end of input
+  152 |                     printf("Matrix addition failed: dimension mismatch
+      |                     ^~~~~~
+./samples/SAFE/__tmp_34f9e03a.c:152:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_34f9e03a.c:152:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_34f9e03a.c:152:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_34f9e03a.c:152:21: error: expected declaration or statement at end of input

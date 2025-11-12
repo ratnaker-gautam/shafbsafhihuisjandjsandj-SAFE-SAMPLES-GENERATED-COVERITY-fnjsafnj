@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_cf8a954f.c: In function ‘main’:
+./samples/SAFE/__tmp_cf8a954f.c:154:9: error: ‘EVENT_PROC’ undeclared (first use in this function); did you mean ‘EVENT_ERROR’?
+  154 |         EVENT_PROC
+      |         ^~~~~~~~~~
+      |         EVENT_ERROR
+./samples/SAFE/__tmp_cf8a954f.c:154:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cf8a954f.c:155: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_cf8a954f.c:148:27: note: to match this ‘{’
+  148 |     enum Event events[] = {
+      |                           ^
+./samples/SAFE/__tmp_cf8a954f.c:154:9: error: expected declaration or statement at end of input
+  154 |         EVENT_PROC
+      |         ^~~~~~~~~~

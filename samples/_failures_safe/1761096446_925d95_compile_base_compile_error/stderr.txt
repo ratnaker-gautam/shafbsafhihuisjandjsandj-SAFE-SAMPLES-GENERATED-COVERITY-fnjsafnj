@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_eec299db.c: In function ‘main’:
+./samples/SAFE/__tmp_eec299db.c:133:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  133 |     for (int i
+      |     ^~~
+./samples/SAFE/__tmp_eec299db.c:133:5: error: expected declaration or statement at end of input

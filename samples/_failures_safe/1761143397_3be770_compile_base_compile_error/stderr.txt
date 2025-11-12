@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_aa4bb567.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_aa4bb567.c:121: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_aa4bb567.c:120:20: note: to match this ‘(’
+  120 |                 if (product > INT_MAX || product < INT_MIN
+      |                    ^
+./samples/SAFE/__tmp_aa4bb567.c:120:17: error: expected declaration or statement at end of input
+  120 |                 if (product > INT_MAX || product < INT_MIN
+      |                 ^~
+./samples/SAFE/__tmp_aa4bb567.c:120:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_aa4bb567.c:120:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_aa4bb567.c:120:17: error: expected declaration or statement at end of input

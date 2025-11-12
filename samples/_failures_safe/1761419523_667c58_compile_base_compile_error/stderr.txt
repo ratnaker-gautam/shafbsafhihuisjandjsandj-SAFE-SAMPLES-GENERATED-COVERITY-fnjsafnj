@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_c17f15c3.c: In function ‘main’:
+./samples/SAFE/__tmp_c17f15c3.c:130:5: error: ‘matrix’ undeclared (first use in this function); did you mean ‘Matrix’?
+  130 |     matrix
+      |     ^~~~~~
+      |     Matrix
+./samples/SAFE/__tmp_c17f15c3.c:130:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c17f15c3.c:130:11: error: expected ‘;’ at end of input
+  130 |     matrix
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_c17f15c3.c:130:5: error: expected declaration or statement at end of input
+  130 |     matrix
+      |     ^~~~~~

@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_d7210415.c: In function ‘print_state’:
+./samples/SAFE/__tmp_d7210415.c:155: error: expected ‘{’ at end of input

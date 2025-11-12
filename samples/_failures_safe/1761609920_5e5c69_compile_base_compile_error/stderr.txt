@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_9e7fada2.c: In function ‘main’:
+./samples/SAFE/__tmp_9e7fada2.c:154:15: error: missing terminating " character
+  154 |     if (scanf("%zu
+      |               ^~~~
+./samples/SAFE/__tmp_9e7fada2.c:154:5: error: expected expression at end of input
+  154 |     if (scanf("%zu
+      |     ^~
+./samples/SAFE/__tmp_9e7fada2.c:154:5: error: expected declaration or statement at end of input

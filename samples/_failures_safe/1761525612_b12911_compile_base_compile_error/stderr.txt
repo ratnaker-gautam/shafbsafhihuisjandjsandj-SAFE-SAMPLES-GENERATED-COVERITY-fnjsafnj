@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_872af168.c: In function ‘main’:
+./samples/SAFE/__tmp_872af168.c:141:32: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols2’?
+  141 |         matrix_init(&b, rows2, cols
+      |                                ^~~~
+      |                                cols2
+./samples/SAFE/__tmp_872af168.c:141:32: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_872af168.c:141:36: error: expected ‘)’ at end of input
+  141 |         matrix_init(&b, rows2, cols
+      |                    ~               ^
+      |                                    )
+./samples/SAFE/__tmp_872af168.c:141:9: error: expected declaration or statement at end of input
+  141 |         matrix_init(&b, rows2, cols
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_872af168.c:141:9: error: expected declaration or statement at end of input

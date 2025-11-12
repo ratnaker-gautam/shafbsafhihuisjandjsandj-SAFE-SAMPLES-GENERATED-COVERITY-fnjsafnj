@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_89aab48b.c: In function ‘main’:
+./samples/SAFE/__tmp_89aab48b.c:156:22: error: ‘unique’ undeclared (first use in this function)
+  156 |     sort_word_counts(unique
+      |                      ^~~~~~
+./samples/SAFE/__tmp_89aab48b.c:156:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_89aab48b.c:156:28: error: expected ‘)’ at end of input
+  156 |     sort_word_counts(unique
+      |                     ~      ^
+      |                            )
+./samples/SAFE/__tmp_89aab48b.c:156:5: error: too few arguments to function ‘sort_word_counts’
+  156 |     sort_word_counts(unique
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_89aab48b.c:98:6: note: declared here
+   98 | void sort_word_counts(WordCount *words, int count) {
+      |      ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_89aab48b.c:156:5: error: expected declaration or statement at end of input
+  156 |     sort_word_counts(unique
+      |     ^~~~~~~~~~~~~~~~

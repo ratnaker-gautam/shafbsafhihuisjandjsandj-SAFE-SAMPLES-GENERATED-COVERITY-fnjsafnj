@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0e301868.c: In function ‘main’:
+./samples/SAFE/__tmp_0e301868.c:154:5: error: expected declaration or statement at end of input
+  154 |     initialize_transition_table(&tt);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~

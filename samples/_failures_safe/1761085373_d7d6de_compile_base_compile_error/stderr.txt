@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_773990c4.c: In function ‘main’:
+./samples/SAFE/__tmp_773990c4.c:157:17: error: expected declaration or statement at end of input
+  157 |                 if (multiply_matrices(&a, &b, &result)) {
+      |                 ^~
+./samples/SAFE/__tmp_773990c4.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_773990c4.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_773990c4.c:157:17: error: expected declaration or statement at end of input

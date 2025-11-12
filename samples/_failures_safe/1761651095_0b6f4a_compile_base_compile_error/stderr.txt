@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_fec0a141.c: In function ‘print_compression_info’:
+./samples/SAFE/__tmp_fec0a141.c:135:9: error: expected expression at end of input
+  135 |         uint32_t sample_size = (ctx->input_size <
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_fec0a141.c:135:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fec0a141.c:135:9: error: expected declaration or statement at end of input

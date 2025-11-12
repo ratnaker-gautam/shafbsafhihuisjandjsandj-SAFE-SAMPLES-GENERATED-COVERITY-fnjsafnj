@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccagE8Kd.o: in function `fill_matrix':
+__tmp_b4a6567b.c:(.text+0x162): undefined reference to `sin'
+/usr/bin/ld: __tmp_b4a6567b.c:(.text+0x17a): undefined reference to `cos'
+collect2: error: ld returned 1 exit status

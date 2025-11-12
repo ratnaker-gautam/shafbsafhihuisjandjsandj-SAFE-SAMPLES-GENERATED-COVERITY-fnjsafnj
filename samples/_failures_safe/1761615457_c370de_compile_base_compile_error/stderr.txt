@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_816a2355.c: In function ‘main’:
+./samples/SAFE/__tmp_816a2355.c:163:12: error: ‘Event’ defined as wrong kind of tag
+  163 |     struct Event
+      |            ^~~~~
+./samples/SAFE/__tmp_816a2355.c:163:12: error: expected identifier or ‘(’ at end of input
+./samples/SAFE/__tmp_816a2355.c:163:12: error: expected declaration or statement at end of input

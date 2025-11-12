@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_59b4b59f.c: In function ‘main’:
+./samples/SAFE/__tmp_59b4b59f.c:149:86: error: ‘struct compression_result’ has no member named ‘compressed’; did you mean ‘compressed_size’?
+  149 |             printf("Compression ratio: %.2f\n", (float)result.original_size / result.compressed
+      |                                                                                      ^~~~~~~~~~
+      |                                                                                      compressed_size
+./samples/SAFE/__tmp_59b4b59f.c:149:96: error: expected ‘)’ at end of input
+  149 |             printf("Compression ratio: %.2f\n", (float)result.original_size / result.compressed
+      |                   ~                                                                            ^
+      |                                                                                                )
+./samples/SAFE/__tmp_59b4b59f.c:149:13: error: expected declaration or statement at end of input
+  149 |             printf("Compression ratio: %.2f\n", (float)result.original_size / result.compressed
+      |             ^~~~~~
+./samples/SAFE/__tmp_59b4b59f.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_59b4b59f.c:149:13: error: expected declaration or statement at end of input

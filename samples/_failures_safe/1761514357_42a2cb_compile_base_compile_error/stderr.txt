@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_788dcf02.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_788dcf02.c:191:35: error: ‘INT’ undeclared (first use in this function)
+  191 |                 dist[minIndex] != INT
+      |                                   ^~~
+./samples/SAFE/__tmp_788dcf02.c:191:35: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_788dcf02.c:191:38: error: expected ‘)’ at end of input
+  191 |                 dist[minIndex] != INT
+      |                                      ^
+      |                                      )
+./samples/SAFE/__tmp_788dcf02.c:190:16: note: to match this ‘(’
+  190 |             if (!visited[v] && graph->adjMatrix[minIndex][v] != 0 &&
+      |                ^
+./samples/SAFE/__tmp_788dcf02.c:191:17: error: expected declaration or statement at end of input
+  191 |                 dist[minIndex] != INT
+      |                 ^~~~
+./samples/SAFE/__tmp_788dcf02.c:191:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_788dcf02.c:191:17: error: expected declaration or statement at end of input

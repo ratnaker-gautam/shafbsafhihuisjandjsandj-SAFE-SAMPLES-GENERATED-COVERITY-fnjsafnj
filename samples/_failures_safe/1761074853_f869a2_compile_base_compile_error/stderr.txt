@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_a8872c1a.c: In function ‘main’:
+./samples/SAFE/__tmp_a8872c1a.c:157:28: error: missing terminating " character
+  157 |                     printf("Error: Integer overflow during addition.\n
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a8872c1a.c:157:21: error: expected expression at end of input
+  157 |                     printf("Error: Integer overflow during addition.\n
+      |                     ^~~~~~
+./samples/SAFE/__tmp_a8872c1a.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8872c1a.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8872c1a.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8872c1a.c:157:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8872c1a.c:157:21: error: expected declaration or statement at end of input

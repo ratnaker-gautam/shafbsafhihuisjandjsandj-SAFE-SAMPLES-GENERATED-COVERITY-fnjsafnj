@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_11bdebfb.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_11bdebfb.c:146:30: error: expected ‘;’ at end of input
+  146 |     if (n == 1) return matrix
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_11bdebfb.c:146:5: error: expected declaration or statement at end of input
+  146 |     if (n == 1) return matrix
+      |     ^~

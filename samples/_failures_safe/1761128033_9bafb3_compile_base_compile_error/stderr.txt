@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c96248c4.c: In function ‘state_writing_action’:
+./samples/SAFE/__tmp_c96248c4.c:144:5: error: expected declaration or statement at end of input
+  144 |     memset(ctx->input_buffer, 0, sizeof(ctx->input_buffer));
+      |     ^~~~~~

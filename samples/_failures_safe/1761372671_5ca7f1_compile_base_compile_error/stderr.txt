@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c48f175f.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_c48f175f.c:176:9: error: expected declaration or statement at end of input
+  176 |         Event event = get_next_event();
+      |         ^~~~~
+./samples/SAFE/__tmp_c48f175f.c:176:9: error: expected declaration or statement at end of input

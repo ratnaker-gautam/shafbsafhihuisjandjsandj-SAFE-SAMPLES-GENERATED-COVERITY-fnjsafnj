@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_d3b969a8.c: In function ‘create_parser_node’:
+./samples/SAFE/__tmp_d3b969a8.c:172:9: error: ‘struct ParserNode’ has no member named ‘node’
+  172 |     node->node
+      |         ^~
+./samples/SAFE/__tmp_d3b969a8.c:172:15: error: expected ‘;’ at end of input
+  172 |     node->node
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_d3b969a8.c:172:5: error: expected declaration or statement at end of input
+  172 |     node->node
+      |     ^~~~

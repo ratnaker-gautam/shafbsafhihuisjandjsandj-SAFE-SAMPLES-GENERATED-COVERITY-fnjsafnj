@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c79a9869.c: In function ‘handle_processing_state’:
+./samples/SAFE/__tmp_c79a9869.c:156:34: error: ‘get’ undeclared (first use in this function); did you mean ‘getc’?
+  156 |         machine->current_state = get
+      |                                  ^~~
+      |                                  getc
+./samples/SAFE/__tmp_c79a9869.c:156:34: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c79a9869.c:156:37: error: expected ‘;’ at end of input
+  156 |         machine->current_state = get
+      |                                     ^
+      |                                     ;
+./samples/SAFE/__tmp_c79a9869.c:156:9: error: expected declaration or statement at end of input
+  156 |         machine->current_state = get
+      |         ^~~~~~~
+./samples/SAFE/__tmp_c79a9869.c:156:9: error: expected declaration or statement at end of input

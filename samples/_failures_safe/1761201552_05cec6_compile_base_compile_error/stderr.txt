@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_54616507.c:146:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  146 | int matrix
+      | ^~~

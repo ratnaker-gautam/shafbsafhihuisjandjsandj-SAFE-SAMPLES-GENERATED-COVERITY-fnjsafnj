@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ad2c78e9.c: In function ‘read_token’:
+./samples/SAFE/__tmp_ad2c78e9.c:151:9: error: expected expression at end of input
+  151 |         token->value[
+      |         ^~~~~
+./samples/SAFE/__tmp_ad2c78e9.c:151:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ad2c78e9.c:151:9: error: expected declaration or statement at end of input

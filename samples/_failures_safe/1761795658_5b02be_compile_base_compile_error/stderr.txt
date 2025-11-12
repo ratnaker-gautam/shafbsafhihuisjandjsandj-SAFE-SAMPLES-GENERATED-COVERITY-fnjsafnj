@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_32c4a8ac.c: In function ‘main’:
+./samples/SAFE/__tmp_32c4a8ac.c:161:5: error: expected expression at end of input
+  161 |     printf("Maximum distance from centroid: %.2f\n",
+      |     ^~~~~~
+./samples/SAFE/__tmp_32c4a8ac.c:161:5: error: expected declaration or statement at end of input

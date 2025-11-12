@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_6d3a9227.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_6d3a9227.c:184:24: error: expected declaration or statement at end of input
+  184 |                 struct GraphNode* neighbor = graph->edges[i]->target;
+      |                        ^~~~~~~~~
+./samples/SAFE/__tmp_6d3a9227.c:184:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6d3a9227.c:184:24: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6d3a9227.c:184:24: error: expected declaration or statement at end of input

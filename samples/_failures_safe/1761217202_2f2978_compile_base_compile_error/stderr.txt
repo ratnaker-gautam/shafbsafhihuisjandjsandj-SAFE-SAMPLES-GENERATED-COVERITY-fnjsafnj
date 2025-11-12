@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_cd317160.c: In function ‘main’:
+./samples/SAFE/__tmp_cd317160.c:170:21: error: expected ‘)’ at end of input
+  170 |                token
+      |                     ^
+      |                     )
+./samples/SAFE/__tmp_cd317160.c:166:15: note: to match this ‘(’
+  166 |         printf("%-12s %-15s %-6d %-6d\n",
+      |               ^
+./samples/SAFE/__tmp_cd317160.c:170:16: error: expected declaration or statement at end of input
+  170 |                token
+      |                ^~~~~
+./samples/SAFE/__tmp_cd317160.c:170:16: error: expected declaration or statement at end of input

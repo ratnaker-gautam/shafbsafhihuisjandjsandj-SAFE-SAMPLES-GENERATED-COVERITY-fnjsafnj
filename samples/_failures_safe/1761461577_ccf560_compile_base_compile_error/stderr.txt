@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_40443860.c: In function ‘main’:
+./samples/SAFE/__tmp_40443860.c:141:5: error: expected declaration or statement at end of input
+  141 |     printf("Total log entries: %zu\n", logs.count);
+      |     ^~~~~~

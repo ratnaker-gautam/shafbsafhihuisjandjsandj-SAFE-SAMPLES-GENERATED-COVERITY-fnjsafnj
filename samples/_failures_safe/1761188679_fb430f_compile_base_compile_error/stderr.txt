@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8315ae0c.c: In function ‘main’:
+./samples/SAFE/__tmp_8315ae0c.c:142:9: error: expected declaration or statement at end of input
+  142 |         printf("%zu. %s\n", i + 1, names[i]);
+      |         ^~~~~~
+./samples/SAFE/__tmp_8315ae0c.c:142:9: error: expected declaration or statement at end of input

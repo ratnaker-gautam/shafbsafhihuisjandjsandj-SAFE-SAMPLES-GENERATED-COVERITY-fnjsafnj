@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_478f608e.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_478f608e.c:146:21: error: ‘lexer_adv’ undeclared (first use in this function)
+  146 |         buffer[0] = lexer_adv
+      |                     ^~~~~~~~~
+./samples/SAFE/__tmp_478f608e.c:146:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_478f608e.c:146:30: error: expected ‘;’ at end of input
+  146 |         buffer[0] = lexer_adv
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_478f608e.c:146:9: error: expected declaration or statement at end of input
+  146 |         buffer[0] = lexer_adv
+      |         ^~~~~~
+./samples/SAFE/__tmp_478f608e.c:146:9: error: expected declaration or statement at end of input

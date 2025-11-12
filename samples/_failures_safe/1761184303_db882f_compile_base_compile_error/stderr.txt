@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_8ac9fa2c.c: In function ‘main’:
+./samples/SAFE/__tmp_8ac9fa2c.c:153:34: error: expected ‘]’ at end of input
+  153 |             operations[choice - 1
+      |                                  ^
+      |                                  ]
+./samples/SAFE/__tmp_8ac9fa2c.c:153:13: error: expected declaration or statement at end of input
+  153 |             operations[choice - 1
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_8ac9fa2c.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8ac9fa2c.c:153:13: error: expected declaration or statement at end of input

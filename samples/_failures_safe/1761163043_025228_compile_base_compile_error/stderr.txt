@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1535ed6f.c: In function ‘process_state_transition’:
+./samples/SAFE/__tmp_1535ed6f.c:132:5: error: expected expression at end of input
+  132 |     sm->current_state = tt->next_state[old_state][
+      |     ^~
+./samples/SAFE/__tmp_1535ed6f.c:132:5: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_47276bcf.c: In function ‘main’:
+./samples/SAFE/__tmp_47276bcf.c:139:13: error: ‘rows’ undeclared (first use in this function); did you mean ‘rows2’?
+  139 |             rows
+      |             ^~~~
+      |             rows2
+./samples/SAFE/__tmp_47276bcf.c:139:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_47276bcf.c:139:17: error: expected ‘;’ at end of input
+  139 |             rows
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_47276bcf.c:139:13: error: expected declaration or statement at end of input
+  139 |             rows
+      |             ^~~~
+./samples/SAFE/__tmp_47276bcf.c:139:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_47276bcf.c:139:13: error: expected declaration or statement at end of input

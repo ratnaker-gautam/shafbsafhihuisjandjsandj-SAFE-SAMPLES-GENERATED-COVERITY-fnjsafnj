@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_76fdaca0.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_76fdaca0.c:183:70: error: expected ‘;’ at end of input
+  183 |                 graph->edges[i]->target->distance = current->distance
+      |                                                                      ^
+      |                                                                      ;
+./samples/SAFE/__tmp_76fdaca0.c:183:17: error: expected declaration or statement at end of input
+  183 |                 graph->edges[i]->target->distance = current->distance
+      |                 ^~~~~
+./samples/SAFE/__tmp_76fdaca0.c:183:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_76fdaca0.c:183:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_76fdaca0.c:183:17: error: expected declaration or statement at end of input

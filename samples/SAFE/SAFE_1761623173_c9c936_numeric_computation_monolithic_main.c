@@ -1,0 +1,94 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: monolithic_main ; Variation: numeric_computation
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <limits.h>
+
+int main() {
+    int n;
+    printf("Enter number of data points (2-100): ");
+    if (scanf("%d", &n) != 1) {
+        fprintf(stderr, "Error: Invalid input\n");
+        return 1;
+    }
+    
+    if (n < 2 || n > 100) {
+        fprintf(stderr, "Error: Number must be between 2 and 100\n");
+        return 1;
+    }
+    
+    double *x = malloc(n * sizeof(double));
+    double *y = malloc(n * sizeof(double));
+    if (x == NULL || y == NULL) {
+        fprintf(stderr, "Error: Memory allocation failed\n");
+        free(x);
+        free(y);
+        return 1;
+    }
+    
+    printf("Enter %d data points (x y):\n", n);
+    for (int i = 0; i < n; i++) {
+        if (scanf("%lf %lf", &x[i], &y[i]) != 2) {
+            fprintf(stderr, "Error: Invalid data point\n");
+            free(x);
+            free(y);
+            return 1;
+        }
+    }
+    
+    double sum_x = 0.0, sum_y = 0.0, sum_xy = 0.0, sum_x2 = 0.0;
+    for (int i = 0; i < n; i++) {
+        sum_x += x[i];
+        sum_y += y[i];
+        sum_xy += x[i] * y[i];
+        sum_x2 += x[i] * x[i];
+    }
+    
+    double denom = n * sum_x2 - sum_x * sum_x;
+    if (fabs(denom) < 1e-12) {
+        fprintf(stderr, "Error: Cannot compute linear regression\n");
+        free(x);
+        free(y);
+        return 1;
+    }
+    
+    double slope = (n * sum_xy - sum_x * sum_y) / denom;
+    double intercept = (sum_y - slope * sum_x) / n;
+    
+    double ss_res = 0.0, ss_tot = 0.0;
+    double mean_y = sum_y / n;
+    
+    for (int i = 0; i < n; i++) {
+        double y_pred = slope * x[i] + intercept;
+        ss_res += (y[i] - y_pred) * (y[i] - y_pred);
+        ss_tot += (y[i] - mean_y) * (y[i] - mean_y);
+    }
+    
+    double r_squared;
+    if (fabs(ss_tot) < 1e-12) {
+        r_squared = 1.0;
+    } else {
+        r_squared = 1.0 - (ss_res / ss_tot);
+    }
+    
+    printf("Linear regression results:\n");
+    printf("Slope: %.6f\n", slope);
+    printf("Intercept: %.6f\n", intercept);
+    printf("R-squared: %.6f\n", r_squared);
+    
+    printf("Enter x value for prediction: ");
+    double predict_x;
+    if (scanf("%lf", &predict_x) != 1) {
+        fprintf(stderr, "Error: Invalid prediction input\n");
+        free(x);
+        free(y);
+        return 1;
+    }
+    
+    double prediction = slope * predict_x + intercept;
+    printf("Predicted y for x=%.2f: %.6f\n", predict_x, prediction);
+    
+    free(x);
+    free(y);
+    return 0;
+}

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2943cba7.c: In function ‘main’:
+./samples/SAFE/__tmp_2943cba7.c:165:5: error: expected declaration or statement at end of input
+  165 |     printf("Enter edges as 'u v weight' (0-indexed): ");
+      |     ^~~~~~

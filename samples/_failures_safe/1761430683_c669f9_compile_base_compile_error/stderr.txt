@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_c87e44d7.c: In function ‘main’:
+./samples/SAFE/__tmp_c87e44d7.c:169:23: error: expected ‘)’ at end of input
+  169 |         if (token.type
+      |            ~          ^
+      |                       )
+./samples/SAFE/__tmp_c87e44d7.c:169:9: error: expected declaration or statement at end of input
+  169 |         if (token.type
+      |         ^~
+./samples/SAFE/__tmp_c87e44d7.c:169:9: error: expected declaration or statement at end of input

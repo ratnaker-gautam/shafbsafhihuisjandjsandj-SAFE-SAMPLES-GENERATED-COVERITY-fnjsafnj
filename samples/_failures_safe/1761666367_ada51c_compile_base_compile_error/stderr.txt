@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_8006d8ed.c: In function ‘read_int’:
+./samples/SAFE/__tmp_8006d8ed.c:127: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_8006d8ed.c:126:12: note: to match this ‘(’
+  126 |         if (fgets(buffer, sizeof(buffer), stdin) == NULL
+      |            ^
+./samples/SAFE/__tmp_8006d8ed.c:126:9: error: expected declaration or statement at end of input
+  126 |         if (fgets(buffer, sizeof(buffer), stdin) == NULL
+      |         ^~
+./samples/SAFE/__tmp_8006d8ed.c:126:9: error: expected declaration or statement at end of input

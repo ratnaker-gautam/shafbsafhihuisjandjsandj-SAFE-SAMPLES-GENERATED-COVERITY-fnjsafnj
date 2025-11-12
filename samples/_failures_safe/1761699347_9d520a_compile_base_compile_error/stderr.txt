@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_63de9c6f.c: In function ‘add_log_entry’:
+./samples/SAFE/__tmp_63de9c6f.c:109:5: error: expected expression at end of input
+  109 |     if (parse_log_line(line,
+      |     ^~
+./samples/SAFE/__tmp_63de9c6f.c:109:5: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a6ba573a.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_a6ba573a.c:176: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_a6ba573a.c:175:5: error: expected declaration or statement at end of input
+  175 |     if
+      |     ^~

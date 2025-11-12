@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_ae6e930e.c: In function ‘main’:
+./samples/SAFE/__tmp_ae6e930e.c:133:41: error: ‘transform_’ undeclared (first use in this function); did you mean ‘transform2’?
+  133 |     struct Vector3D transformed_point = transform_
+      |                                         ^~~~~~~~~~
+      |                                         transform2
+./samples/SAFE/__tmp_ae6e930e.c:133:41: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ae6e930e.c:133:12: error: expected ‘,’ or ‘;’ at end of input
+  133 |     struct Vector3D transformed_point = transform_
+      |            ^~~~~~~~
+./samples/SAFE/__tmp_ae6e930e.c:133:12: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7cb83121.c: In function ‘transition_state’:
+./samples/SAFE/__tmp_7cb83121.c:170:13: error: expected declaration or statement at end of input
+  170 |             return handle_error(sm, event, data);
+      |             ^~~~~~
+./samples/SAFE/__tmp_7cb83121.c:170:13: error: expected declaration or statement at end of input

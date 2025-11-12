@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7a661d2c.c: In function ‘print_errors’:
+./samples/SAFE/__tmp_7a661d2c.c:129:9: error: expected declaration or statement at end of input
+  129 |         if (strcmp(analyzer->entries[i].level, "ERROR") == 0) {
+      |         ^~
+./samples/SAFE/__tmp_7a661d2c.c:129:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7a661d2c.c:129:9: error: expected declaration or statement at end of input

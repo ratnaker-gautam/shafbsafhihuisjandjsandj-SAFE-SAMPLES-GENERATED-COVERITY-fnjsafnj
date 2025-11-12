@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8f4bac58.c: In function ‘main’:
+./samples/SAFE/__tmp_8f4bac58.c:153:31: error: expected ‘)’ at end of input
+  153 |     graph_add_edge(&g, a, c, 2
+      |                   ~           ^
+      |                               )
+./samples/SAFE/__tmp_8f4bac58.c:153:5: error: expected declaration or statement at end of input
+  153 |     graph_add_edge(&g, a, c, 2
+      |     ^~~~~~~~~~~~~~

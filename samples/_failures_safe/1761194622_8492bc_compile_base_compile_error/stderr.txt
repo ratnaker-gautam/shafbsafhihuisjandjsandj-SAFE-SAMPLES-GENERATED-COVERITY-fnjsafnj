@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_2d6f4321.c: In function ‘main’:
+./samples/SAFE/__tmp_2d6f4321.c:166:26: error: expected ‘]’ at end of input
+  166 |     uint8_t test_data[500
+      |                          ^
+      |                          ]
+./samples/SAFE/__tmp_2d6f4321.c:166:5: error: expected declaration or statement at end of input
+  166 |     uint8_t test_data[500
+      |     ^~~~~~~

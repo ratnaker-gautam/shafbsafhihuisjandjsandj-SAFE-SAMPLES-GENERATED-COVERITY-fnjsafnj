@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e965f0a9.c: In function ‘main’:
+./samples/SAFE/__tmp_e965f0a9.c:150:5: error: expected declaration or statement at end of input
+  150 |     printf("Testing Dijkstra's algorithm:\n");
+      |     ^~~~~~

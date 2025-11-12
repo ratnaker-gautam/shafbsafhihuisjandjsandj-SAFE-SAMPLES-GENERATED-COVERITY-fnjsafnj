@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_d4debb72.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_d4debb72.c:183:20: error: missing terminating " character
+  183 |             printf("Vertex %d
+      |                    ^~~~~~~~~~
+./samples/SAFE/__tmp_d4debb72.c:183:13: error: expected expression at end of input
+  183 |             printf("Vertex %d
+      |             ^~~~~~
+./samples/SAFE/__tmp_d4debb72.c:183:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d4debb72.c:183:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d4debb72.c:183:13: error: expected declaration or statement at end of input

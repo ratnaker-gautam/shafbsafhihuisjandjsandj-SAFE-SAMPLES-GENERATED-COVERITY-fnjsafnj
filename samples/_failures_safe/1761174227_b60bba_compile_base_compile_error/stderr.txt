@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_026e4ff7.c: In function ‘main’:
+./samples/SAFE/__tmp_026e4ff7.c:155:5: error: ‘transitions’ undeclared (first use in this function); did you mean ‘Transition’?
+  155 |     transitions
+      |     ^~~~~~~~~~~
+      |     Transition
+./samples/SAFE/__tmp_026e4ff7.c:155:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_026e4ff7.c:155:16: error: expected ‘;’ at end of input
+  155 |     transitions
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_026e4ff7.c:155:5: error: expected declaration or statement at end of input
+  155 |     transitions
+      |     ^~~~~~~~~~~

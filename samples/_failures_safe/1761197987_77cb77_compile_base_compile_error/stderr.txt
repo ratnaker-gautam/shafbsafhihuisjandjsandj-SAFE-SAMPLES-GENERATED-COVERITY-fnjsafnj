@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_006c77f4.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_006c77f4.c:174:10: error: ‘size’ undeclared (first use in this function); did you mean ‘size_t’?
+  174 |     for (size
+      |          ^~~~
+      |          size_t
+./samples/SAFE/__tmp_006c77f4.c:174:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_006c77f4.c:174:14: error: expected ‘;’ at end of input
+  174 |     for (size
+      |              ^
+      |              ;
+./samples/SAFE/__tmp_006c77f4.c:174:5: error: expected declaration or statement at end of input
+  174 |     for (size
+      |     ^~~

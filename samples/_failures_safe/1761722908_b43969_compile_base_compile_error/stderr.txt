@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_3a1da67b.c: In function ‘executeAlgorithm’:
+./samples/SAFE/__tmp_3a1da67b.c:142:17: error: expected ‘)’ at end of input
+  142 |     switch (algo
+      |            ~    ^
+      |                 )
+./samples/SAFE/__tmp_3a1da67b.c:142:5: error: expected declaration or statement at end of input
+  142 |     switch (algo
+      |     ^~~~~~

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_95d315f2.c: In function ‘token_type_name’:
+./samples/SAFE/__tmp_95d315f2.c:164:39: error: missing terminating " character
+  164 |         case TOKEN_IDENTIFIER: return "
+      |                                       ^
+./samples/SAFE/__tmp_95d315f2.c:164:9: error: expected expression at end of input
+  164 |         case TOKEN_IDENTIFIER: return "
+      |         ^~~~
+./samples/SAFE/__tmp_95d315f2.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_95d315f2.c:164:9: error: expected declaration or statement at end of input

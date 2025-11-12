@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_125c65d1.c: In function ‘graph_dfs_util’:
+./samples/SAFE/__tmp_125c65d1.c:171:12: error: expected declaration or statement at end of input
+  171 |     struct GraphEdge *edge = node->edges;
+      |            ^~~~~~~~~

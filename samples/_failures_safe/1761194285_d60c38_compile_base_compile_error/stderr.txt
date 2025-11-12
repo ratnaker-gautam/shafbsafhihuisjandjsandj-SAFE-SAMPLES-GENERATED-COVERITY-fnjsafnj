@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_f80864b8.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_f80864b8.c:169:13: error: expected declaration or statement at end of input
+  169 |             if (visited[v] == 0 && dist[v] <= min_dist) {
+      |             ^~
+./samples/SAFE/__tmp_f80864b8.c:169:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f80864b8.c:169:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f80864b8.c:169:13: error: expected declaration or statement at end of input

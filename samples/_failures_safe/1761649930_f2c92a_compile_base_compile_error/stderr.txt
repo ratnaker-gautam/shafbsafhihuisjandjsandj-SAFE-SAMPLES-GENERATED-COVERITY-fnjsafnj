@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3a8f5857.c: In function ‘main’:
+./samples/SAFE/__tmp_3a8f5857.c:186:77: error: expected ‘]’ at end of input
+  186 |         printf("%-12s\t%s\n", token_type_to_string(tokens[i].type), tokens[i
+      |                                                                             ^
+      |                                                                             ]
+./samples/SAFE/__tmp_3a8f5857.c:186:9: error: expected declaration or statement at end of input
+  186 |         printf("%-12s\t%s\n", token_type_to_string(tokens[i].type), tokens[i
+      |         ^~~~~~
+./samples/SAFE/__tmp_3a8f5857.c:186:9: error: expected declaration or statement at end of input

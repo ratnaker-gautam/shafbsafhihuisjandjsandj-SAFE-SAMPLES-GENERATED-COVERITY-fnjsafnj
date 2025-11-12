@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7f35d79a.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_7f35d79a.c:150:5: error: expected expression at end of input
+  150 |     int length = lexer->position -
+      |     ^~~
+./samples/SAFE/__tmp_7f35d79a.c:150:5: error: expected declaration or statement at end of input

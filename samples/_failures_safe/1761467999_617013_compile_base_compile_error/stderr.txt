@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_a4f6fbda.c: In function ‘main’:
+./samples/SAFE/__tmp_a4f6fbda.c:116:5: error: ‘print_buffer_’ undeclared (first use in this function); did you mean ‘print_buffer_hex’?
+  116 |     print_buffer_
+      |     ^~~~~~~~~~~~~
+      |     print_buffer_hex
+./samples/SAFE/__tmp_a4f6fbda.c:116:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a4f6fbda.c:116:18: error: expected ‘;’ at end of input
+  116 |     print_buffer_
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_a4f6fbda.c:116:5: error: expected declaration or statement at end of input
+  116 |     print_buffer_
+      |     ^~~~~~~~~~~~~

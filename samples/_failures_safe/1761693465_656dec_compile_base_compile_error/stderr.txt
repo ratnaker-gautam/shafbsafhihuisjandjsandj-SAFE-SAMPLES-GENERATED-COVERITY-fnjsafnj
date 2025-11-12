@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_0db48c66.c: In function ‘main’:
+./samples/SAFE/__tmp_0db48c66.c:158:23: error: ‘s’ undeclared (first use in this function); did you mean ‘sm’?
+  158 |     if (process_input(s
+      |                       ^
+      |                       sm
+./samples/SAFE/__tmp_0db48c66.c:158:23: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0db48c66.c:158:24: error: expected ‘)’ at end of input
+  158 |     if (process_input(s
+      |                      ~ ^
+      |                        )
+./samples/SAFE/__tmp_0db48c66.c:158:9: error: too few arguments to function ‘process_input’
+  158 |     if (process_input(s
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_0db48c66.c:65:5: note: declared here
+   65 | int process_input(StateMachine* sm, const char* input) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_0db48c66.c:158:5: error: expected declaration or statement at end of input
+  158 |     if (process_input(s
+      |     ^~

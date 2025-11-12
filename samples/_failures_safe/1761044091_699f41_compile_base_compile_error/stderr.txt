@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_d6bbd0d1.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_d6bbd0d1.c:132:28: error: expected ‘)’ at end of input
+  132 |     if (!matrix_init(result
+      |                     ~      ^
+      |                            )
+./samples/SAFE/__tmp_d6bbd0d1.c:132:10: error: too few arguments to function ‘matrix_init’
+  132 |     if (!matrix_init(result
+      |          ^~~~~~~~~~~
+./samples/SAFE/__tmp_d6bbd0d1.c:22:5: note: declared here
+   22 | int matrix_init(struct Matrix *m, int rows, int cols) {
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_d6bbd0d1.c:132:5: error: expected declaration or statement at end of input
+  132 |     if (!matrix_init(result
+      |     ^~

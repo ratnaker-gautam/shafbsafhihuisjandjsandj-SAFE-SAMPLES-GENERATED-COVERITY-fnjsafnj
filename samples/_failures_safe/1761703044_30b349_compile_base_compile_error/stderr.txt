@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b6198f08.c: In function ‘pointcloud_transform’:
+./samples/SAFE/__tmp_b6198f08.c:118:5: error: expected expression at end of input
+  118 |     for (size_t i = 0; i < input->count;
+      |     ^~~
+./samples/SAFE/__tmp_b6198f08.c:118:5: error: expected declaration or statement at end of input

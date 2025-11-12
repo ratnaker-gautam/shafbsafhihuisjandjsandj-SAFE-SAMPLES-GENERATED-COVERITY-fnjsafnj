@@ -1,0 +1,112 @@
+//DeepSeek-V3 SAFE v1.4 Category: Safe ; Style: function_pointers ; Variation: string_processing
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdint.h>
+
+typedef void (*string_operation_t)(char *str, size_t len);
+
+void to_uppercase(char *str, size_t len) {
+    if (str == NULL) return;
+    for (size_t i = 0; i < len && str[i] != '\0'; i++) {
+        str[i] = (char)toupper((unsigned char)str[i]);
+    }
+}
+
+void to_lowercase(char *str, size_t len) {
+    if (str == NULL) return;
+    for (size_t i = 0; i < len && str[i] != '\0'; i++) {
+        str[i] = (char)tolower((unsigned char)str[i]);
+    }
+}
+
+void reverse_string(char *str, size_t len) {
+    if (str == NULL || len == 0) return;
+    size_t i = 0;
+    size_t j = len - 1;
+    while (i < j) {
+        char temp = str[i];
+        str[i] = str[j];
+        str[j] = temp;
+        i++;
+        j--;
+    }
+}
+
+void remove_non_alnum(char *str, size_t len) {
+    if (str == NULL) return;
+    size_t write_pos = 0;
+    for (size_t i = 0; i < len && str[i] != '\0'; i++) {
+        if (isalnum((unsigned char)str[i])) {
+            str[write_pos++] = str[i];
+        }
+    }
+    if (write_pos < len) {
+        str[write_pos] = '\0';
+    }
+}
+
+int get_user_input(char *buffer, size_t buffer_size) {
+    if (buffer == NULL || buffer_size == 0) return 0;
+    printf("Enter a string (max %zu characters): ", buffer_size - 1);
+    if (fgets(buffer, (int)buffer_size, stdin) == NULL) return 0;
+    size_t len = strlen(buffer);
+    if (len > 0 && buffer[len - 1] == '\n') {
+        buffer[len - 1] = '\0';
+    }
+    return 1;
+}
+
+void apply_operation(string_operation_t operation, char *str, size_t len) {
+    if (operation == NULL || str == NULL) return;
+    operation(str, len);
+}
+
+int main(void) {
+    const size_t BUFFER_SIZE = 256;
+    char input_buffer[BUFFER_SIZE];
+    char work_buffer[BUFFER_SIZE];
+    
+    if (!get_user_input(input_buffer, BUFFER_SIZE)) {
+        printf("Error reading input.\n");
+        return 1;
+    }
+    
+    if (strlen(input_buffer) == 0) {
+        printf("Empty string provided.\n");
+        return 1;
+    }
+    
+    string_operation_t operations[] = {
+        to_uppercase,
+        to_lowercase,
+        reverse_string,
+        remove_non_alnum
+    };
+    
+    const char *operation_names[] = {
+        "Uppercase",
+        "Lowercase",
+        "Reversed",
+        "Alphanumeric only"
+    };
+    
+    const size_t num_operations = sizeof(operations) / sizeof(operations[0]);
+    
+    printf("\nOriginal string: %s\n", input_buffer);
+    printf("\nProcessing results:\n");
+    
+    for (size_t i = 0; i < num_operations; i++) {
+        strncpy(work_buffer, input_buffer, BUFFER_SIZE - 1);
+        work_buffer[BUFFER_SIZE - 1] = '\0';
+        
+        size_t len = strlen(work_buffer);
+        if (len >= BUFFER_SIZE) len = BUFFER_SIZE - 1;
+        
+        apply_operation(operations[i], work_buffer, len);
+        
+        printf("%s: %s\n", operation_names[i], work_buffer);
+    }
+    
+    return 0;
+}

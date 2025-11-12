@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c2870812.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_c2870812.c:164:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  164 |         struct GraphNode *current
+      |                ^~~~~~~~~
+./samples/SAFE/__tmp_c2870812.c:164:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c2870812.c:164:16: error: expected declaration or statement at end of input

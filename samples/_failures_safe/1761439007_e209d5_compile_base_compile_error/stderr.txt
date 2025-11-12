@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e126fc42.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_e126fc42.c:142:16: error: expected expression at end of input
+  142 |                analyzer->words[i].count,
+      |                ^~~~~~~~
+./samples/SAFE/__tmp_e126fc42.c:142:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e126fc42.c:142:16: error: expected declaration or statement at end of input

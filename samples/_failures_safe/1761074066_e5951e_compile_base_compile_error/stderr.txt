@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_84eb081d.c: In function ‘parse_statement’:
+./samples/SAFE/__tmp_84eb081d.c:170:20: error: missing terminating " character
+  170 |             printf("ERROR: Expected ';
+      |                    ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_84eb081d.c:170:13: error: expected expression at end of input
+  170 |             printf("ERROR: Expected ';
+      |             ^~~~~~
+./samples/SAFE/__tmp_84eb081d.c:170:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_84eb081d.c:170:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_84eb081d.c:170:13: error: expected declaration or statement at end of input

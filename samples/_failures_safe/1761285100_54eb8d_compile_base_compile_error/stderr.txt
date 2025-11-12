@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_e1912d9a.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_e1912d9a.c:158:16: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  158 |         tokens[token
+      |                ^~~~~
+      |                Token
+./samples/SAFE/__tmp_e1912d9a.c:158:16: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e1912d9a.c:158:21: error: expected ‘]’ at end of input
+  158 |         tokens[token
+      |                     ^
+      |                     ]
+./samples/SAFE/__tmp_e1912d9a.c:158:9: error: expected declaration or statement at end of input
+  158 |         tokens[token
+      |         ^~~~~~
+./samples/SAFE/__tmp_e1912d9a.c:158:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ae34f1cd.c: In function ‘print_compression_stats’:
+./samples/SAFE/__tmp_ae34f1cd.c:160:9: error: expected expression at end of input
+  160 |         printf("  Compression ratio: %.2f%%\n",
+      |         ^~~~~~
+./samples/SAFE/__tmp_ae34f1cd.c:160:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ae34f1cd.c:160:9: error: expected declaration or statement at end of input

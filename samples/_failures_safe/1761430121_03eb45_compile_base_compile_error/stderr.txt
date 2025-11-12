@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f7acf254.c: In function ‘main’:
+./samples/SAFE/__tmp_f7acf254.c:152:13: error: expected identifier at end of input
+  152 |             mat2.
+      |             ^~~~
+./samples/SAFE/__tmp_f7acf254.c:152:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f7acf254.c:152:13: error: expected declaration or statement at end of input

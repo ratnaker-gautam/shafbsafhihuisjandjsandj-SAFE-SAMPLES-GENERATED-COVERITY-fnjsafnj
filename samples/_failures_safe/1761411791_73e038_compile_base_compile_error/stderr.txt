@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_bf626c10.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_bf626c10.c:150:21: error: ‘lex’ undeclared (first use in this function); did you mean ‘lexer’?
+  150 |     parser->lexer = lex
+      |                     ^~~
+      |                     lexer
+./samples/SAFE/__tmp_bf626c10.c:150:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bf626c10.c:150:24: error: expected ‘;’ at end of input
+  150 |     parser->lexer = lex
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_bf626c10.c:150:5: error: expected declaration or statement at end of input
+  150 |     parser->lexer = lex
+      |     ^~~~~~

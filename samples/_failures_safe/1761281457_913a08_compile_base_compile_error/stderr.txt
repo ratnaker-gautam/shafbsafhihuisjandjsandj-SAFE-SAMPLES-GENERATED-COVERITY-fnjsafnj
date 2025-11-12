@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_23844126.c: In function ‘main’:
+./samples/SAFE/__tmp_23844126.c:139:77: error: expected declaration or statement at end of input
+  139 |             memcpy(stack_entries, heap_entries, entry_count * sizeof(struct LogEntry));
+      |                                                                             ^~~~~~~~
+./samples/SAFE/__tmp_23844126.c:139:77: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_23844126.c:139:77: error: expected declaration or statement at end of input

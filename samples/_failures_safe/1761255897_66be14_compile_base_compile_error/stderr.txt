@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_480bf2a5.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_480bf2a5.c:133:27: error: expected ‘)’ at end of input
+  133 |         if (i == count - 1
+      |            ~              ^
+      |                           )
+./samples/SAFE/__tmp_480bf2a5.c:133:9: error: expected declaration or statement at end of input
+  133 |         if (i == count - 1
+      |         ^~
+./samples/SAFE/__tmp_480bf2a5.c:133:9: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_c13fa32c.c: In function ‘main’:
+./samples/SAFE/__tmp_c13fa32c.c:161:13: error: expected ‘:’ or ‘...’ at end of input
+  161 |             case 1
+      |             ^~~~
+./samples/SAFE/__tmp_c13fa32c.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c13fa32c.c:161:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c13fa32c.c:161:13: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_7b9f557e.c: In function ‘main’:
+./samples/SAFE/__tmp_7b9f557e.c:152:50: error: ‘struct compression_result’ has no member named ‘compressed’; did you mean ‘compressed_size’?
+  152 |         if (result.compressed_size > 0 && result.compressed
+      |                                                  ^~~~~~~~~~
+      |                                                  compressed_size
+./samples/SAFE/__tmp_7b9f557e.c:152:60: error: expected ‘)’ at end of input
+  152 |         if (result.compressed_size > 0 && result.compressed
+      |            ~                                               ^
+      |                                                            )
+./samples/SAFE/__tmp_7b9f557e.c:152:9: error: expected declaration or statement at end of input
+  152 |         if (result.compressed_size > 0 && result.compressed
+      |         ^~
+./samples/SAFE/__tmp_7b9f557e.c:152:9: error: expected declaration or statement at end of input

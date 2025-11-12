@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_8db4a58a.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_8db4a58a.c:121:9: error: ‘analy’ undeclared (first use in this function); did you mean ‘analyzer’?
+  121 |     if (analy
+      |         ^~~~~
+      |         analyzer
+./samples/SAFE/__tmp_8db4a58a.c:121:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8db4a58a.c:121:14: error: expected ‘)’ at end of input
+  121 |     if (analy
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_8db4a58a.c:121:5: error: expected declaration or statement at end of input
+  121 |     if (analy
+      |     ^~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_6dd463a2.c: In function ‘main’:
+./samples/SAFE/__tmp_6dd463a2.c:137:5: error: expected declaration or statement at end of input
+  137 |     printf("Adding compression blocks...\n");
+      |     ^~~~~~

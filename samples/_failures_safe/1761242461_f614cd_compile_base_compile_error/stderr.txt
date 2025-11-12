@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_1eceb740.c: In function ‘main’:
+./samples/SAFE/__tmp_1eceb740.c:146:32: error: ‘decomp’ undeclared (first use in this function)
+  146 |     size_t decompressed_size = decomp
+      |                                ^~~~~~
+./samples/SAFE/__tmp_1eceb740.c:146:32: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1eceb740.c:146:5: error: expected ‘,’ or ‘;’ at end of input
+  146 |     size_t decompressed_size = decomp
+      |     ^~~~~~
+./samples/SAFE/__tmp_1eceb740.c:146:5: error: expected declaration or statement at end of input

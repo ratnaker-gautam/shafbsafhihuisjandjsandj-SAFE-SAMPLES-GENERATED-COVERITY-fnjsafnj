@@ -1,0 +1,8 @@
+/usr/bin/ld: /tmp/ccllcJNM.o: in function `compute_trigonometric':
+__tmp_4002165a.c:(.text+0x18f): undefined reference to `sin'
+/usr/bin/ld: __tmp_4002165a.c:(.text+0x1a7): undefined reference to `cos'
+/usr/bin/ld: /tmp/ccllcJNM.o: in function `compute_exponential':
+__tmp_4002165a.c:(.text+0x16d): undefined reference to `exp'
+/usr/bin/ld: /tmp/ccllcJNM.o: in function `main':
+__tmp_4002165a.c:(.text.startup+0xea): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

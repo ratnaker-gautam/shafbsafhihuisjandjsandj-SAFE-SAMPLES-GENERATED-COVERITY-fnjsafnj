@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ffcdcfb5.c: In function ‘parse_statement’:
+./samples/SAFE/__tmp_ffcdcfb5.c:179:5: error: expected declaration or statement at end of input
+  179 |     }
+      |     ^

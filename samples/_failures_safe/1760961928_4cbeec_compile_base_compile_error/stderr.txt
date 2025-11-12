@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_15248e42.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_15248e42.c:182:35: error: unterminated argument list invoking macro "isdigit"
+  182 |         if (isdigit((unsigned char
+      |                                   ^
+./samples/SAFE/__tmp_15248e42.c:182:20: error: expected ‘)’ at end of input
+  182 |         if (isdigit((unsigned char
+      |            ~       ^
+      |                    )
+./samples/SAFE/__tmp_15248e42.c:182:9: error: expected declaration or statement at end of input
+  182 |         if (isdigit((unsigned char
+      |         ^~
+./samples/SAFE/__tmp_15248e42.c:182:9: error: expected declaration or statement at end of input

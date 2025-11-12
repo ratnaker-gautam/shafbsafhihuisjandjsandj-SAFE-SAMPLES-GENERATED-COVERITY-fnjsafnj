@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_d83de23e.c: In function ‘main’:
+./samples/SAFE/__tmp_d83de23e.c:158:13: error: expected expression at end of input
+  158 |             a.rows =
+      |             ^
+./samples/SAFE/__tmp_d83de23e.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d83de23e.c:158:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d83de23e.c:158:13: error: expected declaration or statement at end of input

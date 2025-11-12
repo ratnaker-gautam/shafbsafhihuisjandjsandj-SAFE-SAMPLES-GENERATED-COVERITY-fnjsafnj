@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_b40eb41c.c:171:1: error: expected identifier or ‘(’ at end of input
+  171 | const
+      | ^~~~~

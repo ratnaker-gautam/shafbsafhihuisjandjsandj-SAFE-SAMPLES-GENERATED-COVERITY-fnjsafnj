@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_5a80fdbc.c: In function ‘matrix_print’:
+./samples/SAFE/__tmp_5a80fdbc.c:136:23: error: expected ‘;’ at end of input
+  136 |             matrix_get
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_5a80fdbc.c:136:13: error: expected declaration or statement at end of input
+  136 |             matrix_get
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_5a80fdbc.c:136:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5a80fdbc.c:136:13: error: expected declaration or statement at end of input

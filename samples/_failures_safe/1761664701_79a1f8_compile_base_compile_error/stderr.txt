@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_96d8c59b.c: In function ‘analyze_results’:
+./samples/SAFE/__tmp_96d8c59b.c:141:34: error: expected ‘)’ at end of input
+  141 |     if (analyzer->total_words > 0
+      |        ~                         ^
+      |                                  )
+./samples/SAFE/__tmp_96d8c59b.c:141:5: error: expected declaration or statement at end of input
+  141 |     if (analyzer->total_words > 0
+      |     ^~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_113bb357.c: In function ‘display_summary’:
+./samples/SAFE/__tmp_113bb357.c:134:5: error: expected expression at end of input
+  134 |     if (analyzer == NULL) return
+      |     ^~
+./samples/SAFE/__tmp_113bb357.c:134:5: error: expected declaration or statement at end of input

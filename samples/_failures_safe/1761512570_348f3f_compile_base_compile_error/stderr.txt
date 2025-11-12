@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c45db2ca.c: In function ‘main’:
+./samples/SAFE/__tmp_c45db2ca.c:126:53: error: expected ‘]’ at end of input
+  126 |     if (len > 0 && input[len-1] == '\n') input[len-1
+      |                                                     ^
+      |                                                     ]
+./samples/SAFE/__tmp_c45db2ca.c:126:5: error: expected declaration or statement at end of input
+  126 |     if (len > 0 && input[len-1] == '\n') input[len-1
+      |     ^~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c6c7ddcf.c: In function ‘main’:
+./samples/SAFE/__tmp_c6c7ddcf.c:140:9: error: expected identifier at end of input
+  140 |         printf("%-20s %d\n", words[i].word, words[i].
+      |         ^~~~~~
+./samples/SAFE/__tmp_c6c7ddcf.c:140:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c6c7ddcf.c:140:9: error: expected declaration or statement at end of input

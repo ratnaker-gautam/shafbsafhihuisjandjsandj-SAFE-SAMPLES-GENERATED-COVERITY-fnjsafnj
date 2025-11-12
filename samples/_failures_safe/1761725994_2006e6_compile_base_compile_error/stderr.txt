@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_d1ea8420.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_d1ea8420.c:186:31: error: expected ‘]’ at end of input
+  186 |                 graph->edges[i
+      |                               ^
+      |                               ]
+./samples/SAFE/__tmp_d1ea8420.c:186:17: error: expected declaration or statement at end of input
+  186 |                 graph->edges[i
+      |                 ^~~~~
+./samples/SAFE/__tmp_d1ea8420.c:186:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d1ea8420.c:186:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d1ea8420.c:186:17: error: expected declaration or statement at end of input

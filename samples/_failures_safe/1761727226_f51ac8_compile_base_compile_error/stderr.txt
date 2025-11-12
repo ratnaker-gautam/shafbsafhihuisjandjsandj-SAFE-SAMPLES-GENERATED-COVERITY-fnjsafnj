@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_89304a89.c: In function ‘main’:
+./samples/SAFE/__tmp_89304a89.c:137:5: error: expected expression at end of input
+  137 |     if (magnitude_change < 1e-10)
+      |     ^~
+./samples/SAFE/__tmp_89304a89.c:137:5: error: expected declaration or statement at end of input

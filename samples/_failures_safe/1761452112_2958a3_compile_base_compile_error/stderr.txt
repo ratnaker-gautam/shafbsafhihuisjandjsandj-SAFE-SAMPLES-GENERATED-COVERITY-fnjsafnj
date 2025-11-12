@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_7da30eed.c: In function ‘main’:
+./samples/SAFE/__tmp_7da30eed.c:174:5: error: expected expression at end of input
+  174 |     buffer_init(&
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_7da30eed.c:174:5: error: too few arguments to function ‘buffer_init’
+./samples/SAFE/__tmp_7da30eed.c:17:6: note: declared here
+   17 | void buffer_init(Buffer *buf, size_t initial_capacity) {
+      |      ^~~~~~~~~~~
+./samples/SAFE/__tmp_7da30eed.c:174:5: error: expected declaration or statement at end of input
+  174 |     buffer_init(&
+      |     ^~~~~~~~~~~

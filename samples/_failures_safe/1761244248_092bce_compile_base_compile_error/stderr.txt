@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_c889ce17.c: In function ‘main’:
+./samples/SAFE/__tmp_c889ce17.c:143:17: error: ‘read’ undeclared (first use in this function); did you mean ‘fread’?
+  143 |     mat2.cols = read
+      |                 ^~~~
+      |                 fread
+./samples/SAFE/__tmp_c889ce17.c:143:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c889ce17.c:143:21: error: expected ‘;’ at end of input
+  143 |     mat2.cols = read
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_c889ce17.c:143:5: error: expected declaration or statement at end of input
+  143 |     mat2.cols = read
+      |     ^~~~

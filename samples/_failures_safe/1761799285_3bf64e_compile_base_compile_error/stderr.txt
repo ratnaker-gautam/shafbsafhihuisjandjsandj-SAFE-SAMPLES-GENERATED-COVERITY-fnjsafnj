@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_6fdcb664.c: In function ‘main’:
+./samples/SAFE/__tmp_6fdcb664.c:164:19: error: missing terminating " character
+  164 |         if (scanf("%d
+      |                   ^~~
+./samples/SAFE/__tmp_6fdcb664.c:164:9: error: expected expression at end of input
+  164 |         if (scanf("%d
+      |         ^~
+./samples/SAFE/__tmp_6fdcb664.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6fdcb664.c:164:9: error: expected declaration or statement at end of input

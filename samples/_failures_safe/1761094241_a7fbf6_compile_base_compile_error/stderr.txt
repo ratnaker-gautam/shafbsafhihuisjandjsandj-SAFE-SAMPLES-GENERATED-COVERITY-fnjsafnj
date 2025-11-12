@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_8c4fe6e2.c: In function ‘freeGraph’:
+./samples/SAFE/__tmp_8c4fe6e2.c:182: error: expected ‘{’ at end of input

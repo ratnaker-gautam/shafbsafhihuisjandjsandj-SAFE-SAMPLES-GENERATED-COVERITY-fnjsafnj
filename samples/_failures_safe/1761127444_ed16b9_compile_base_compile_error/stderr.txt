@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_435833bc.c: In function ‘main’:
+./samples/SAFE/__tmp_435833bc.c:163:58: error: ‘max’ undeclared (first use in this function); did you mean ‘fmax’?
+  163 |         printf("Maximum distance from centroid: %.6f\n", max
+      |                                                          ^~~
+      |                                                          fmax
+./samples/SAFE/__tmp_435833bc.c:163:58: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_435833bc.c:163:61: error: expected ‘)’ at end of input
+  163 |         printf("Maximum distance from centroid: %.6f\n", max
+      |               ~                                             ^
+      |                                                             )
+./samples/SAFE/__tmp_435833bc.c:163:9: error: expected declaration or statement at end of input
+  163 |         printf("Maximum distance from centroid: %.6f\n", max
+      |         ^~~~~~
+./samples/SAFE/__tmp_435833bc.c:163:9: error: expected declaration or statement at end of input

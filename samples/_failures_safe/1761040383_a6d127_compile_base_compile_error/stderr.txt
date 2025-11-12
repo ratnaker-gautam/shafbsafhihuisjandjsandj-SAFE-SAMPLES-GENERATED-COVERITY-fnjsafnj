@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_39439e28.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_39439e28.c:140:5: error: expected expression at end of input
+  140 |     for (int i = 0; i < stack->count; i++)
+      |     ^~~
+./samples/SAFE/__tmp_39439e28.c:140:5: error: expected declaration or statement at end of input

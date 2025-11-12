@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_aa20535e.c: In function ‘main’:
+./samples/SAFE/__tmp_aa20535e.c:155:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  155 |     for (enum compression_type type
+      |               ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_aa20535e.c:155:15: error: expected declaration or statement at end of input

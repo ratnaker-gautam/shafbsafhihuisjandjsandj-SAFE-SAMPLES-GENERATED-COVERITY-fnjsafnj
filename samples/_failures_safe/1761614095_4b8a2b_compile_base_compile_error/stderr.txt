@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_decd623c.c: In function ‘main’:
+./samples/SAFE/__tmp_decd623c.c:150:58: error: expected ‘)’ at end of input
+  150 |     Buffer decompressed = decompress_data(compressed.data
+      |                                          ~               ^
+      |                                                          )
+./samples/SAFE/__tmp_decd623c.c:150:27: error: too few arguments to function ‘decompress_data’
+  150 |     Buffer decompressed = decompress_data(compressed.data
+      |                           ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_decd623c.c:78:8: note: declared here
+   78 | Buffer decompress_data(const uint8_t *input, size_t input_size, DecompressFunc decompress_func) {
+      |        ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_decd623c.c:150:5: error: expected declaration or statement at end of input
+  150 |     Buffer decompressed = decompress_data(compressed.data
+      |     ^~~~~~

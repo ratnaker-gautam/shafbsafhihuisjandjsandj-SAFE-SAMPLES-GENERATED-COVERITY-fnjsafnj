@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d93297cc.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_d93297cc.c:136:40: error: expected ‘;’ at end of input
+  136 |     for (int i = 0; i < analyzer->count
+      |                                        ^
+      |                                        ;
+./samples/SAFE/__tmp_d93297cc.c:136:5: error: expected declaration or statement at end of input
+  136 |     for (int i = 0; i < analyzer->count
+      |     ^~~

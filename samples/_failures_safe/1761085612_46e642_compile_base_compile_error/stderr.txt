@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_14c6e727.c: In function ‘tokenizer_next_token’:
+./samples/SAFE/__tmp_14c6e727.c:156:38: error: expected ‘)’ at end of input
+  156 |     if (tokenizer_read_operator(token
+      |                                ~     ^
+      |                                      )
+./samples/SAFE/__tmp_14c6e727.c:156:9: error: too few arguments to function ‘tokenizer_read_operator’
+  156 |     if (tokenizer_read_operator(token
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_14c6e727.c:111:5: note: declared here
+  111 | int tokenizer_read_operator(struct Tokenizer *tokenizer, struct Token *token) {
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_14c6e727.c:156:5: error: expected declaration or statement at end of input
+  156 |     if (tokenizer_read_operator(token
+      |     ^~

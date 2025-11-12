@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_e85554f3.c: In function ‘print_compression_stats’:
+./samples/SAFE/__tmp_e85554f3.c:162:16: error: missing terminating " character
+  162 |         printf("  Compression ratio:
+      |                ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e85554f3.c:162:9: error: expected expression at end of input
+  162 |         printf("  Compression ratio:
+      |         ^~~~~~
+./samples/SAFE/__tmp_e85554f3.c:162:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e85554f3.c:162:9: error: expected declaration or statement at end of input

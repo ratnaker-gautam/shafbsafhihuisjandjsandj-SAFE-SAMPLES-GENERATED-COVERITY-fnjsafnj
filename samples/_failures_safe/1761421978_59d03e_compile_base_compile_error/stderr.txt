@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6f65adb0.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_6f65adb0.c:174:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  174 |         int min
+      |         ^~~
+./samples/SAFE/__tmp_6f65adb0.c:174:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6f65adb0.c:174:9: error: expected declaration or statement at end of input

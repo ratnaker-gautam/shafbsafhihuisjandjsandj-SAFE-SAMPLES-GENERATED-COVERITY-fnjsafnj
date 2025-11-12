@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_5832d8fb.c: In function ‘main’:
+./samples/SAFE/__tmp_5832d8fb.c:151:27: error: expected ‘)’ at end of input
+  151 |     process_text(&analyzer
+      |                 ~         ^
+      |                           )
+./samples/SAFE/__tmp_5832d8fb.c:151:5: error: too few arguments to function ‘process_text’
+  151 |     process_text(&analyzer
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_5832d8fb.c:65:6: note: declared here
+   65 | void process_text(struct TextAnalyzer *analyzer, const char *text) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_5832d8fb.c:151:5: error: expected declaration or statement at end of input
+  151 |     process_text(&analyzer
+      |     ^~~~~~~~~~~~

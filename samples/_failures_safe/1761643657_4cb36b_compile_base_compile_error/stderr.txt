@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_34a82755.c: In function ‘main’:
+./samples/SAFE/__tmp_34a82755.c:137:5: error: expected declaration or statement at end of input
+  137 |     printf("Press Ctrl+D (Unix) or Ctrl+Z (Windows) to finish input.\n");
+      |     ^~~~~~

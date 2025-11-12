@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_e18b56ac.c: In function ‘main’:
+./samples/SAFE/__tmp_e18b56ac.c:137:20: error: missing terminating " character
+  137 |             printf("Error: First matrix columns must equal second
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e18b56ac.c:137:13: error: expected expression at end of input
+  137 |             printf("Error: First matrix columns must equal second
+      |             ^~~~~~
+./samples/SAFE/__tmp_e18b56ac.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e18b56ac.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e18b56ac.c:137:13: error: expected declaration or statement at end of input

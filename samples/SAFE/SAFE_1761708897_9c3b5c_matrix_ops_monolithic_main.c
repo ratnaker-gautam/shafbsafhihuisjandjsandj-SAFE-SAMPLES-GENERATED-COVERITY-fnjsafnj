@@ -1,0 +1,115 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: monolithic_main ; Variation: matrix_ops
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_DIM 10
+
+int read_int(const char* prompt, int min, int max) {
+    int value;
+    char buffer[100];
+    while (1) {
+        printf("%s", prompt);
+        if (fgets(buffer, sizeof(buffer), stdin) == NULL) {
+            return min;
+        }
+        if (sscanf(buffer, "%d", &value) == 1) {
+            if (value >= min && value <= max) {
+                return value;
+            }
+        }
+        printf("Invalid input. Enter a number between %d and %d.\n", min, max);
+    }
+}
+
+void fill_matrix(int rows, int cols, int matrix[MAX_DIM][MAX_DIM]) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            matrix[i][j] = read_int("Enter element: ", INT_MIN, INT_MAX);
+        }
+    }
+}
+
+void print_matrix(int rows, int cols, int matrix[MAX_DIM][MAX_DIM]) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            printf("%6d ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+void multiply_matrices(int rows1, int cols1, int matrix1[MAX_DIM][MAX_DIM],
+                      int rows2, int cols2, int matrix2[MAX_DIM][MAX_DIM],
+                      int result[MAX_DIM][MAX_DIM]) {
+    for (int i = 0; i < rows1; i++) {
+        for (int j = 0; j < cols2; j++) {
+            result[i][j] = 0;
+            for (int k = 0; k < cols1; k++) {
+                if (matrix1[i][k] > 0 && matrix2[k][j] > 0) {
+                    if (matrix1[i][k] > INT_MAX / matrix2[k][j]) {
+                        result[i][j] = INT_MAX;
+                    } else {
+                        result[i][j] += matrix1[i][k] * matrix2[k][j];
+                    }
+                } else if (matrix1[i][k] < 0 && matrix2[k][j] < 0) {
+                    if (matrix1[i][k] < INT_MIN / matrix2[k][j]) {
+                        result[i][j] = INT_MIN;
+                    } else {
+                        result[i][j] += matrix1[i][k] * matrix2[k][j];
+                    }
+                } else {
+                    long long temp = (long long)matrix1[i][k] * matrix2[k][j];
+                    if (temp > INT_MAX) {
+                        result[i][j] = INT_MAX;
+                    } else if (temp < INT_MIN) {
+                        result[i][j] = INT_MIN;
+                    } else {
+                        result[i][j] += (int)temp;
+                    }
+                }
+            }
+        }
+    }
+}
+
+int main() {
+    int rows1, cols1, rows2, cols2;
+    int matrix1[MAX_DIM][MAX_DIM];
+    int matrix2[MAX_DIM][MAX_DIM];
+    int result[MAX_DIM][MAX_DIM];
+    
+    printf("Matrix Multiplication Program\n");
+    
+    rows1 = read_int("Enter rows for matrix 1 (1-10): ", 1, MAX_DIM);
+    cols1 = read_int("Enter columns for matrix 1 (1-10): ", 1, MAX_DIM);
+    
+    printf("Enter elements for matrix 1:\n");
+    fill_matrix(rows1, cols1, matrix1);
+    
+    rows2 = read_int("Enter rows for matrix 2 (1-10): ", 1, MAX_DIM);
+    cols2 = read_int("Enter columns for matrix 2 (1-10): ", 1, MAX_DIM);
+    
+    if (cols1 != rows2) {
+        printf("Error: Matrix dimensions incompatible for multiplication.\n");
+        return 1;
+    }
+    
+    printf("Enter elements for matrix 2:\n");
+    fill_matrix(rows2, cols2, matrix2);
+    
+    printf("\nMatrix 1:\n");
+    print_matrix(rows1, cols1, matrix1);
+    
+    printf("\nMatrix 2:\n");
+    print_matrix(rows2, cols2, matrix2);
+    
+    multiply_matrices(rows1, cols1, matrix1, rows2, cols2, matrix2, result);
+    
+    printf("\nResult of multiplication:\n");
+    print_matrix(rows1, cols2, result);
+    
+    return 0;
+}

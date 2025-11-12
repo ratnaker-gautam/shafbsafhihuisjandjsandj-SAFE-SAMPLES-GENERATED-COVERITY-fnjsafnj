@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_1434217b.c: In function ‘main’:
+./samples/SAFE/__tmp_1434217b.c:203:18: error: ‘MAX_TOK’ undeclared (first use in this function); did you mean ‘MAX_TOKENS’?
+  203 |     Token tokens[MAX_TOK
+      |                  ^~~~~~~
+      |                  MAX_TOKENS
+./samples/SAFE/__tmp_1434217b.c:203:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1434217b.c:203:25: error: expected ‘]’ at end of input
+  203 |     Token tokens[MAX_TOK
+      |                         ^
+      |                         ]
+./samples/SAFE/__tmp_1434217b.c:203:5: error: expected declaration or statement at end of input
+  203 |     Token tokens[MAX_TOK
+      |     ^~~~~

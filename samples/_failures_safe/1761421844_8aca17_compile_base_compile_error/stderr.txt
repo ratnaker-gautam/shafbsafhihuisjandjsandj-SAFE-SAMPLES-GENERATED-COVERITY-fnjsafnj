@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b2e49deb.c: In function ‘print_word_stats’:
+./samples/SAFE/__tmp_b2e49deb.c:142:35: error: expected ‘;’ at end of input
+  142 |     for (int i = 0; i < word_count
+      |                                   ^
+      |                                   ;
+./samples/SAFE/__tmp_b2e49deb.c:142:5: error: expected declaration or statement at end of input
+  142 |     for (int i = 0; i < word_count
+      |     ^~~

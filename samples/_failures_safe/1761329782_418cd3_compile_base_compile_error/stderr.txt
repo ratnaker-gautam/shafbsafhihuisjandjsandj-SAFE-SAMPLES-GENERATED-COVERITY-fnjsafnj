@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ef07631d.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_ef07631d.c:181:5: error: expected declaration or statement at end of input
+  181 |     printf("Dijkstra distances from vertex %d:\n", start);
+      |     ^~~~~~

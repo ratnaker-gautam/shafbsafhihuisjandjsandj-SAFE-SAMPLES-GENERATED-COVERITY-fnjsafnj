@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ab1ff70d.c: In function ‘main’:
+./samples/SAFE/__tmp_ab1ff70d.c:137:28: error: expected ‘)’ at end of input
+  137 |     if (!input_matrix(&mat2
+      |                      ~     ^
+      |                            )
+./samples/SAFE/__tmp_ab1ff70d.c:137:5: error: expected declaration or statement at end of input
+  137 |     if (!input_matrix(&mat2
+      |     ^~

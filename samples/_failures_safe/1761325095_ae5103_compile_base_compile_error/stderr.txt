@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_f80e753b.c: In function ‘main’:
+./samples/SAFE/__tmp_f80e753b.c:142:29: error: expected declaration or statement at end of input
+  142 |                             result[i][j] += (int)product;
+      |                             ^~~~~~
+./samples/SAFE/__tmp_f80e753b.c:142:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f80e753b.c:142:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f80e753b.c:142:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f80e753b.c:142:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f80e753b.c:142:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f80e753b.c:142:29: error: expected declaration or statement at end of input

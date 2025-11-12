@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_92cd33ec.c: In function ‘main’:
+./samples/SAFE/__tmp_92cd33ec.c:197:23: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  197 |     int token_count = token
+      |                       ^~~~~
+      |                       Token
+./samples/SAFE/__tmp_92cd33ec.c:197:23: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_92cd33ec.c:197:5: error: expected ‘,’ or ‘;’ at end of input
+  197 |     int token_count = token
+      |     ^~~
+./samples/SAFE/__tmp_92cd33ec.c:197:5: error: expected declaration or statement at end of input

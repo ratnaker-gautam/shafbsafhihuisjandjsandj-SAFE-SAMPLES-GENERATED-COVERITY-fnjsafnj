@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/ccUHijES.o: in function `main':
+__tmp_3eebbb7b.c:(.text.startup+0x1f2): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_3eebbb7b.c:(.text.startup+0x231): undefined reference to `floor'
+/usr/bin/ld: __tmp_3eebbb7b.c:(.text.startup+0x31a): undefined reference to `pow'
+/usr/bin/ld: __tmp_3eebbb7b.c:(.text.startup+0x3d8): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

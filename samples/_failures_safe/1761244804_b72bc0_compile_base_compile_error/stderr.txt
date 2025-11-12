@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_cdef4d32.c: In function ‘main’:
+./samples/SAFE/__tmp_cdef4d32.c:164:9: error: expected ‘,’ or ‘;’ at end of input
+  164 |         int display_count = logs.count > 5
+      |         ^~~
+./samples/SAFE/__tmp_cdef4d32.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cdef4d32.c:164:9: error: expected declaration or statement at end of input

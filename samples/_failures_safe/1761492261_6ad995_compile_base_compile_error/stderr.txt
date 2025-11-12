@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_4735b498.c: In function ‘main’:
+./samples/SAFE/__tmp_4735b498.c:160:36: error: expected ‘)’ at end of input
+  160 |                i + 1, points.points
+      |                                    ^
+      |                                    )
+./samples/SAFE/__tmp_4735b498.c:159:15: note: to match this ‘(’
+  159 |         printf("Point %zu (%.2f, %.2f) -> Cluster %d\n",
+      |               ^
+./samples/SAFE/__tmp_4735b498.c:160:16: error: expected declaration or statement at end of input
+  160 |                i + 1, points.points
+      |                ^
+./samples/SAFE/__tmp_4735b498.c:160:16: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_604289da.c: In function ‘main’:
+./samples/SAFE/__tmp_604289da.c:160:13: error: expected declaration or statement at end of input
+  160 |             Matrix b;
+      |             ^~~~~~
+./samples/SAFE/__tmp_604289da.c:160:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_604289da.c:160:13: error: expected declaration or statement at end of input

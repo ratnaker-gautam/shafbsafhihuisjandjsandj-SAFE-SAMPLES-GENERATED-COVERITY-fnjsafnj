@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fbdd42fb.c: In function ‘main’:
+./samples/SAFE/__tmp_fbdd42fb.c:148:5: error: expected identifier or ‘(’ at end of input
+  148 |     const char
+      |     ^~~~~
+./samples/SAFE/__tmp_fbdd42fb.c:148:5: error: expected declaration or statement at end of input

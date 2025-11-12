@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_2ad30f21.c: In function ‘main’:
+./samples/SAFE/__tmp_2ad30f21.c:133:48: error: ‘LogEntry’ has no member named ‘t’
+  133 |             printf("Added: %s [%s] %s\n", entry.t
+      |                                                ^
+./samples/SAFE/__tmp_2ad30f21.c:133:50: error: expected ‘)’ at end of input
+  133 |             printf("Added: %s [%s] %s\n", entry.t
+      |                   ~                              ^
+      |                                                  )
+./samples/SAFE/__tmp_2ad30f21.c:133:13: error: expected declaration or statement at end of input
+  133 |             printf("Added: %s [%s] %s\n", entry.t
+      |             ^~~~~~
+./samples/SAFE/__tmp_2ad30f21.c:133:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2ad30f21.c:133:13: error: expected declaration or statement at end of input

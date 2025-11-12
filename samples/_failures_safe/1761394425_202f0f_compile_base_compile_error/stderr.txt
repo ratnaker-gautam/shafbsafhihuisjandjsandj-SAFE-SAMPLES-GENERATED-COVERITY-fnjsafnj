@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_910dd17b.c: In function ‘main’:
+./samples/SAFE/__tmp_910dd17b.c:151:5: error: ‘sort’ undeclared (first use in this function); did you mean ‘qsort’?
+  151 |     sort
+      |     ^~~~
+      |     qsort
+./samples/SAFE/__tmp_910dd17b.c:151:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_910dd17b.c:151:9: error: expected ‘;’ at end of input
+  151 |     sort
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_910dd17b.c:151:5: error: expected declaration or statement at end of input
+  151 |     sort
+      |     ^~~~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_76616675.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_76616675.c:167:48: error: expected ‘)’ at end of input
+  167 |             *column += (int)strlen(token->value
+      |                                   ~            ^
+      |                                                )
+./samples/SAFE/__tmp_76616675.c:167:13: error: expected declaration or statement at end of input
+  167 |             *column += (int)strlen(token->value
+      |             ^
+./samples/SAFE/__tmp_76616675.c:167:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_76616675.c:167:13: error: expected declaration or statement at end of input

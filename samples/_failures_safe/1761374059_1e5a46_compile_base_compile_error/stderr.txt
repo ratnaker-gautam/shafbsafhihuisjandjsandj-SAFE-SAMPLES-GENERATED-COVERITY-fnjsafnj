@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_1f98a0ed.c: In function ‘main’:
+./samples/SAFE/__tmp_1f98a0ed.c:148:30: error: ‘test’ undeclared (first use in this function)
+  148 |     if (!add_block_data(ctx, test
+      |                              ^~~~
+./samples/SAFE/__tmp_1f98a0ed.c:148:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1f98a0ed.c:148:34: error: expected ‘)’ at end of input
+  148 |     if (!add_block_data(ctx, test
+      |                        ~         ^
+      |                                  )
+./samples/SAFE/__tmp_1f98a0ed.c:148:10: error: too few arguments to function ‘add_block_data’
+  148 |     if (!add_block_data(ctx, test
+      |          ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1f98a0ed.c:85:5: note: declared here
+   85 | int add_block_data(struct CompressionContext *ctx, const uint8_t *data, size_t size) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1f98a0ed.c:148:5: error: expected declaration or statement at end of input
+  148 |     if (!add_block_data(ctx, test
+      |     ^~

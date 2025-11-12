@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_acb667ba.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_acb667ba.c:150:43: error: expected ‘;’ at end of input
+  150 |         token->value[len++] = state->input
+      |                                           ^
+      |                                           ;
+./samples/SAFE/__tmp_acb667ba.c:150:9: error: expected declaration or statement at end of input
+  150 |         token->value[len++] = state->input
+      |         ^~~~~
+./samples/SAFE/__tmp_acb667ba.c:150:9: error: expected declaration or statement at end of input

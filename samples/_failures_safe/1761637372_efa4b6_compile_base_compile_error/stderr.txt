@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e42bf601.c: In function ‘main’:
+./samples/SAFE/__tmp_e42bf601.c:147:12: error: expected ‘)’ at end of input
+  147 |     if (len
+      |        ~   ^
+      |            )
+./samples/SAFE/__tmp_e42bf601.c:147:5: error: expected declaration or statement at end of input
+  147 |     if (len
+      |     ^~

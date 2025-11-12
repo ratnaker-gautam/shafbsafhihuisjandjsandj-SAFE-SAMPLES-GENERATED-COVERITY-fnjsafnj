@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_8037dbae.c: In function ‘main’:
+./samples/SAFE/__tmp_8037dbae.c:174:25: error: missing terminating " character
+  174 |         fprintf(stderr, "Failed to tokenize
+      |                         ^~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_8037dbae.c:174:9: error: expected expression at end of input
+  174 |         fprintf(stderr, "Failed to tokenize
+      |         ^~~~~~~
+./samples/SAFE/__tmp_8037dbae.c:174:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8037dbae.c:174:9: error: expected declaration or statement at end of input

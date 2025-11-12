@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_506bd7d7.c: In function ‘main’:
+./samples/SAFE/__tmp_506bd7d7.c:136:69: error: unterminated argument list invoking macro "MATRIX_MULT"
+  136 |         MATRIX_MULT(result, matrix_a, matrix_b, rows_a, cols_a, cols
+      |                                                                     ^
+./samples/SAFE/__tmp_506bd7d7.c:136:9: error: ‘MATRIX_MULT’ undeclared (first use in this function)
+  136 |         MATRIX_MULT(result, matrix_a, matrix_b, rows_a, cols_a, cols
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_506bd7d7.c:136:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_506bd7d7.c:136:20: error: expected ‘;’ at end of input
+  136 |         MATRIX_MULT(result, matrix_a, matrix_b, rows_a, cols_a, cols
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_506bd7d7.c:136:9: error: expected declaration or statement at end of input
+  136 |         MATRIX_MULT(result, matrix_a, matrix_b, rows_a, cols_a, cols
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_506bd7d7.c:136:9: error: expected declaration or statement at end of input

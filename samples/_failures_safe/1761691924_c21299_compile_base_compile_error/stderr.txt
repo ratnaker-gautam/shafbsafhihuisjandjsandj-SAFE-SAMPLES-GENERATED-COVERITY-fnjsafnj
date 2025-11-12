@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_0831ba49.c: In function ‘tokenize_line’:
+./samples/SAFE/__tmp_0831ba49.c:155:32: error: expected ‘)’ at end of input
+  155 |         else if (parse_operator
+      |                 ~              ^
+      |                                )
+./samples/SAFE/__tmp_0831ba49.c:155:9: error: expected declaration or statement at end of input
+  155 |         else if (parse_operator
+      |         ^~~~
+./samples/SAFE/__tmp_0831ba49.c:155:9: error: expected declaration or statement at end of input

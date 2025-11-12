@@ -1,0 +1,150 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: struct_heavy ; Variation: log_analyzer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <ctype.h>
+
+#define MAX_LINE_LENGTH 1024
+#define MAX_ENTRIES 1000
+
+struct LogEntry {
+    char timestamp[20];
+    char level[10];
+    char message[MAX_LINE_LENGTH - 30];
+};
+
+struct LogStats {
+    int total_entries;
+    int error_count;
+    int warning_count;
+    int info_count;
+    char earliest[20];
+    char latest[20];
+};
+
+struct LogAnalyzer {
+    struct LogEntry entries[MAX_ENTRIES];
+    int entry_count;
+    struct LogStats stats;
+};
+
+void init_analyzer(struct LogAnalyzer *analyzer) {
+    analyzer->entry_count = 0;
+    analyzer->stats.total_entries = 0;
+    analyzer->stats.error_count = 0;
+    analyzer->stats.warning_count = 0;
+    analyzer->stats.info_count = 0;
+    memset(analyzer->stats.earliest, 0, sizeof(analyzer->stats.earliest));
+    memset(analyzer->stats.latest, 0, sizeof(analyzer->stats.latest));
+}
+
+int parse_timestamp(const char *str, struct tm *tm) {
+    return sscanf(str, "%4d-%2d-%2d %2d:%2d:%2d",
+                  &tm->tm_year, &tm->tm_mon, &tm->tm_mday,
+                  &tm->tm_hour, &tm->tm_min, &tm->tm_sec) == 6;
+}
+
+int validate_level(const char *level) {
+    return strcmp(level, "ERROR") == 0 ||
+           strcmp(level, "WARNING") == 0 ||
+           strcmp(level, "INFO") == 0;
+}
+
+int add_log_entry(struct LogAnalyzer *analyzer, const char *line) {
+    if (analyzer->entry_count >= MAX_ENTRIES) {
+        return 0;
+    }
+    
+    struct LogEntry *entry = &analyzer->entries[analyzer->entry_count];
+    struct tm tm;
+    
+    if (sscanf(line, "%19s %9s %[^\n]", 
+               entry->timestamp, entry->level, entry->message) != 3) {
+        return 0;
+    }
+    
+    if (!parse_timestamp(entry->timestamp, &tm)) {
+        return 0;
+    }
+    
+    if (!validate_level(entry->level)) {
+        return 0;
+    }
+    
+    if (strlen(entry->message) >= sizeof(entry->message)) {
+        return 0;
+    }
+    
+    analyzer->entry_count++;
+    return 1;
+}
+
+void update_stats(struct LogAnalyzer *analyzer) {
+    struct LogStats *stats = &analyzer->stats;
+    stats->total_entries = analyzer->entry_count;
+    stats->error_count = 0;
+    stats->warning_count = 0;
+    stats->info_count = 0;
+    
+    if (analyzer->entry_count == 0) {
+        return;
+    }
+    
+    strcpy(stats->earliest, analyzer->entries[0].timestamp);
+    strcpy(stats->latest, analyzer->entries[0].timestamp);
+    
+    for (int i = 0; i < analyzer->entry_count; i++) {
+        struct LogEntry *entry = &analyzer->entries[i];
+        
+        if (strcmp(entry->level, "ERROR") == 0) {
+            stats->error_count++;
+        } else if (strcmp(entry->level, "WARNING") == 0) {
+            stats->warning_count++;
+        } else if (strcmp(entry->level, "INFO") == 0) {
+            stats->info_count++;
+        }
+        
+        if (strcmp(entry->timestamp, stats->earliest) < 0) {
+            strcpy(stats->earliest, entry->timestamp);
+        }
+        if (strcmp(entry->timestamp, stats->latest) > 0) {
+            strcpy(stats->latest, entry->timestamp);
+        }
+    }
+}
+
+void print_stats(const struct LogStats *stats) {
+    printf("Log Analysis Results:\n");
+    printf("Total entries: %d\n", stats->total_entries);
+    printf("Errors: %d\n", stats->error_count);
+    printf("Warnings: %d\n", stats->warning_count);
+    printf("Info: %d\n", stats->info_count);
+    printf("Time range: %s to %s\n", stats->earliest, stats->latest);
+}
+
+void print_errors(const struct LogAnalyzer *analyzer) {
+    printf("\nError entries:\n");
+    for (int i = 0; i < analyzer->entry_count; i++) {
+        if (strcmp(analyzer->entries[i].level, "ERROR") == 0) {
+            printf("%s: %s\n", analyzer->entries[i].timestamp, 
+                   analyzer->entries[i].message);
+        }
+    }
+}
+
+int main(void) {
+    struct LogAnalyzer analyzer;
+    init_analyzer(&analyzer);
+    
+    char line[MAX_LINE_LENGTH];
+    int line_count = 0;
+    
+    printf("Enter log entries (format: YYYY-MM-DD HH:MM:SS LEVEL message)\n");
+    printf("Enter 'END' on a separate line to finish input\n");
+    
+    while (fgets(line, sizeof(line), stdin) != NULL) {
+        line_count++;
+        
+        if (line_count > MAX_ENTRIES) {
+            printf("

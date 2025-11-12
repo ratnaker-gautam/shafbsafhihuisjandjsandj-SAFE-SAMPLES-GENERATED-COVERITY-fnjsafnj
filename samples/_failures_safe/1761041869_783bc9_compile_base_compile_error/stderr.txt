@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ad7bcc2a.c: In function ‘main’:
+./samples/SAFE/__tmp_ad7bcc2a.c:164:5: error: expected declaration or statement at end of input
+  164 |     printf("Tokens found: %d\n", token_count);
+      |     ^~~~~~

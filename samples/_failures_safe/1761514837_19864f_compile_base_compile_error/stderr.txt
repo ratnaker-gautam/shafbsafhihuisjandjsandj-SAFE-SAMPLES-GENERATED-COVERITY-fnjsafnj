@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a267695b.c: In function ‘main’:
+./samples/SAFE/__tmp_a267695b.c:155:23: error: expected declaration or statement at end of input
+  155 |     comp_type = (enum compression_type)type_input;
+      |                       ^~~~~~~~~~~~~~~~

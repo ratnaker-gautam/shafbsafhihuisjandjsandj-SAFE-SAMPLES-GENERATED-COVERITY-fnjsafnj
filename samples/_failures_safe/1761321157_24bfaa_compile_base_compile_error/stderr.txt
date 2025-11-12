@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_d9701a94.c: In function ‘state_finalizing’:
+./samples/SAFE/__tmp_d9701a94.c:141:13: error: expected expression at end of input
+  141 |             ctx->data[6] = ctx->data[6] %
+      |             ^~~
+./samples/SAFE/__tmp_d9701a94.c:141:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d9701a94.c:141:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d9701a94.c:141:13: error: expected declaration or statement at end of input

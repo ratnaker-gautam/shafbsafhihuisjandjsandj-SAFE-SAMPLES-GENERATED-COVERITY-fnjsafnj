@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4b8c12bf.c: In function ‘dijkstra_shortest_path’:
+./samples/SAFE/__tmp_4b8c12bf.c:157:17: error: expected expression at end of input
+  157 |                 int new_dist = dist[min_index] +
+      |                 ^~~
+./samples/SAFE/__tmp_4b8c12bf.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4b8c12bf.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4b8c12bf.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4b8c12bf.c:157:17: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_444a7ffe.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_444a7ffe.c:164:5: error: expected declaration or statement at end of input
+  164 |     };
+      |     ^

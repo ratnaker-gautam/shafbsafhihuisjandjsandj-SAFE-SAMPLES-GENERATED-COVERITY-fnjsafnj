@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7c6b6dfa.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_7c6b6dfa.c:167:36: error: expected ‘)’ at end of input
+  167 |         if (state->position < state
+      |            ~                       ^
+      |                                    )
+./samples/SAFE/__tmp_7c6b6dfa.c:167:9: error: expected declaration or statement at end of input
+  167 |         if (state->position < state
+      |         ^~
+./samples/SAFE/__tmp_7c6b6dfa.c:167:9: error: expected declaration or statement at end of input

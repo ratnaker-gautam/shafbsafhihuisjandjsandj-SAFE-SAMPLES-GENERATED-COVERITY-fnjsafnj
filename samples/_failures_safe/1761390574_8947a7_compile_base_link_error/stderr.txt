@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccpgE4ic.o: in function `main':
+__tmp_ce0f748c.c:(.text.startup+0xd1): undefined reference to `sin'
+/usr/bin/ld: __tmp_ce0f748c.c:(.text.startup+0xeb): undefined reference to `cos'
+/usr/bin/ld: __tmp_ce0f748c.c:(.text.startup+0x247): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

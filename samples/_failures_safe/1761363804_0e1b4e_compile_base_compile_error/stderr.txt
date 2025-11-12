@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_99b2f7b3.c: In function ‘main’:
+./samples/SAFE/__tmp_99b2f7b3.c:143:30: error: expected ‘)’ at end of input
+  143 |     if (scanf("%d", &vertices
+      |              ~               ^
+      |                              )
+./samples/SAFE/__tmp_99b2f7b3.c:143:5: error: expected declaration or statement at end of input
+  143 |     if (scanf("%d", &vertices
+      |     ^~

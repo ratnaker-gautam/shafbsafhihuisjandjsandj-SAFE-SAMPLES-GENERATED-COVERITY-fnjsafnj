@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_33856cee.c: In function ‘main’:
+./samples/SAFE/__tmp_33856cee.c:151:52: error: expected ‘)’ at end of input
+  151 |     printf("Decompressed successfully: %s\n", (char
+      |                                               ~    ^
+      |                                                    )
+./samples/SAFE/__tmp_33856cee.c:151:5: error: expected declaration or statement at end of input
+  151 |     printf("Decompressed successfully: %s\n", (char
+      |     ^~~~~~

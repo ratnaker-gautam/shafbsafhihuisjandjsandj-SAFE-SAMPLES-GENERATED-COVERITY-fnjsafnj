@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_524cabe5.c: In function ‘main’:
+./samples/SAFE/__tmp_524cabe5.c:149:30: error: ‘MAX_ENTRI’ undeclared (first use in this function); did you mean ‘MAX_ENTRIES’?
+  149 |     struct log_entry entries[MAX_ENTRI
+      |                              ^~~~~~~~~
+      |                              MAX_ENTRIES
+./samples/SAFE/__tmp_524cabe5.c:149:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_524cabe5.c:149:39: error: expected ‘]’ at end of input
+  149 |     struct log_entry entries[MAX_ENTRI
+      |                                       ^
+      |                                       ]
+./samples/SAFE/__tmp_524cabe5.c:149:12: error: expected declaration or statement at end of input
+  149 |     struct log_entry entries[MAX_ENTRI
+      |            ^~~~~~~~~

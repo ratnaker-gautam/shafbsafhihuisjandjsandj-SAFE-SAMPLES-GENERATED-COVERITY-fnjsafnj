@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_6327b52d.c: In function ‘cleanup_graph’:
+./samples/SAFE/__tmp_6327b52d.c:182: error: expected ‘{’ at end of input

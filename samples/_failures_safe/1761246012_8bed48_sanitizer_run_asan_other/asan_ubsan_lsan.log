@@ -1,0 +1,31 @@
+
+=================================================================
+==28372==ERROR: AddressSanitizer: strncpy-param-overlap: memory ranges [0x7ffa6ed00040,0x7ffa6ed00042) and [0x7ffa6ed00040, 0x7ffa6ed00042) overlap
+    #0 0x7ffa716f7dc4 in strncpy ../../../../src/libsanitizer/asan/asan_interceptors.cpp:612
+    #1 0x5bb0651f257d in strncpy /usr/include/x86_64-linux-gnu/bits/string_fortified.h:95
+    #2 0x5bb0651f257d in count_unique_words samples/SAFE/__tmp_6b0f5698.c:83
+    #3 0x5bb0651f2c3a in main samples/SAFE/__tmp_6b0f5698.c:136
+    #4 0x7ffa70a2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x7ffa70a2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x5bb0651f13c4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_6b0f5698.c.san+0x43c4) (BuildId: 88e47c0b662768bcc35a36b5d229fc81471cece0)
+
+Address 0x7ffa6ed00040 is located in stack of thread T0 at offset 64 in frame
+    #0 0x5bb0651f29f2 in main samples/SAFE/__tmp_6b0f5698.c:114
+
+  This frame has 3 object(s):
+    [48, 52) 'unique_count' (line 117)
+    [64, 5664) 'words' (line 116) <== Memory access at offset 64 is inside this variable
+    [5920, 6944) 'input' (line 115)
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+Address 0x7ffa6ed00040 is located in stack of thread T0 at offset 64 in frame
+    #0 0x5bb0651f29f2 in main samples/SAFE/__tmp_6b0f5698.c:114
+
+  This frame has 3 object(s):
+    [48, 52) 'unique_count' (line 117)
+    [64, 5664) 'words' (line 116) <== Memory access at offset 64 is inside this variable
+    [5920, 6944) 'input' (line 115)
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: strncpy-param-overlap ../../../../src/libsanitizer/asan/asan_interceptors.cpp:612 in strncpy
+==28372==ABORTING

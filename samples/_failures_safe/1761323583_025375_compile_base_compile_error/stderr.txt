@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c37047bf.c: In function ‘state_machine_step’:
+./samples/SAFE/__tmp_c37047bf.c:161:42: error: ‘STATE’ undeclared (first use in this function)
+  161 |                     ctx->current_state = STATE
+      |                                          ^~~~~
+./samples/SAFE/__tmp_c37047bf.c:161:42: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c37047bf.c:161:47: error: expected ‘;’ at end of input
+  161 |                     ctx->current_state = STATE
+      |                                               ^
+      |                                               ;
+./samples/SAFE/__tmp_c37047bf.c:161:21: error: expected declaration or statement at end of input
+  161 |                     ctx->current_state = STATE
+      |                     ^~~
+./samples/SAFE/__tmp_c37047bf.c:161:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c37047bf.c:161:21: error: expected declaration or statement at end of input

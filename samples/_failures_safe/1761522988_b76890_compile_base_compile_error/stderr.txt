@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_caecbb8c.c: In function ‘read_string’:
+./samples/SAFE/__tmp_caecbb8c.c:176:5: error: expected expression at end of input
+  176 |     add_token(lexer,
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_caecbb8c.c:176:5: error: too few arguments to function ‘add_token’
+./samples/SAFE/__tmp_caecbb8c.c:51:6: note: declared here
+   51 | void add_token(Lexer* lexer, TokenType type, const char* value) {
+      |      ^~~~~~~~~
+./samples/SAFE/__tmp_caecbb8c.c:176:5: error: expected declaration or statement at end of input
+  176 |     add_token(lexer,
+      |     ^~~~~~~~~

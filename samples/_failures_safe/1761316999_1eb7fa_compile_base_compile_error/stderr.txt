@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4f6f561d.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_4f6f561d.c:127:5: error: expected declaration or statement at end of input
+  127 |     for (int x = 0; x < n; x++) {
+      |     ^~~
+./samples/SAFE/__tmp_4f6f561d.c:127:5: error: expected declaration or statement at end of input

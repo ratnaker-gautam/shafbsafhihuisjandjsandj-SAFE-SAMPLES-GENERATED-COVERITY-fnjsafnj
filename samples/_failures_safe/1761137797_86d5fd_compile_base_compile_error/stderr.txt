@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_e4d37775.c: In function ‘read_string’:
+./samples/SAFE/__tmp_e4d37775.c:158:24: error: expected ‘;’ at end of input
+  158 |     token->line = lexer
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_e4d37775.c:158:5: error: expected declaration or statement at end of input
+  158 |     token->line = lexer
+      |     ^~~~~

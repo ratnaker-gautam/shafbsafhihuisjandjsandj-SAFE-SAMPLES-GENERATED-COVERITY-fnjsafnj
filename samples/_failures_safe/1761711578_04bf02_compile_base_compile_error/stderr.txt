@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b64d3fa3.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_b64d3fa3.c:192:9: error: expected expression at end of input
+  192 |         tokens[
+      |         ^~~~~~
+./samples/SAFE/__tmp_b64d3fa3.c:192:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b64d3fa3.c:192:9: error: expected declaration or statement at end of input

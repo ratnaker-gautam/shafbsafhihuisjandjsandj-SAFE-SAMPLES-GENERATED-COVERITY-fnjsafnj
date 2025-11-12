@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_d5a39dac.c: In function ‘main’:
+./samples/SAFE/__tmp_d5a39dac.c:173:47: error: expected ‘)’ at end of input
+  173 |             if (decompressed.size == input_len
+      |                ~                              ^
+      |                                               )
+./samples/SAFE/__tmp_d5a39dac.c:173:13: error: expected declaration or statement at end of input
+  173 |             if (decompressed.size == input_len
+      |             ^~
+./samples/SAFE/__tmp_d5a39dac.c:173:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d5a39dac.c:173:13: error: expected declaration or statement at end of input

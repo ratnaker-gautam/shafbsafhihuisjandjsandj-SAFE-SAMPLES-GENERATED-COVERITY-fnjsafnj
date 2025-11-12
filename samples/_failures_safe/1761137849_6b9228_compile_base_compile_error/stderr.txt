@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_dc9b8450.c: In function ‘main’:
+./samples/SAFE/__tmp_dc9b8450.c:162:9: error: ‘handle’ undeclared (first use in this function); did you mean ‘handlers’?
+  162 |         handle
+      |         ^~~~~~
+      |         handlers
+./samples/SAFE/__tmp_dc9b8450.c:162:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_dc9b8450.c:163: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_dc9b8450.c:159:31: note: to match this ‘{’
+  159 |     TokenHandler handlers[] = {
+      |                               ^
+./samples/SAFE/__tmp_dc9b8450.c:162:9: error: expected declaration or statement at end of input
+  162 |         handle
+      |         ^~~~~~

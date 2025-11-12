@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_17a511dc.c: In function ‘state_to_string’:
+./samples/SAFE/__tmp_17a511dc.c:152:14: error: ‘STATE_COMPL’ undeclared (first use in this function); did you mean ‘STATE_COUNT’?
+  152 |         case STATE_COMPL
+      |              ^~~~~~~~~~~
+      |              STATE_COUNT
+./samples/SAFE/__tmp_17a511dc.c:152:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_17a511dc.c:152:9: error: expected ‘:’ or ‘...’ at end of input
+  152 |         case STATE_COMPL
+      |         ^~~~
+./samples/SAFE/__tmp_17a511dc.c:152:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_17a511dc.c:152:9: error: expected declaration or statement at end of input

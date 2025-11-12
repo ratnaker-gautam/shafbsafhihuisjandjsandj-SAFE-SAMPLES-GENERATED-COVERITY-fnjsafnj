@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6f8aebca.c: In function ‘compute_bounding_box’:
+./samples/SAFE/__tmp_6f8aebca.c:134:9: error: expected identifier at end of input
+  134 |         if (mesh->vertices[i].y > mesh->bounds.max.y) mesh->
+      |         ^~
+./samples/SAFE/__tmp_6f8aebca.c:134:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6f8aebca.c:134:9: error: expected declaration or statement at end of input

@@ -1,0 +1,37 @@
+./samples/SAFE/__tmp_ef3d9a8a.c: In function ‘lexer_next’:
+./samples/SAFE/__tmp_ef3d9a8a.c:55:26: error: ‘INT_MAX’ undeclared (first use in this function)
+   55 |             if (value > (INT_MAX - (lexer->input[lexer->pos] - '0')) / 10) {
+      |                          ^~~~~~~
+./samples/SAFE/__tmp_ef3d9a8a.c:6:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    5 | #include <ctype.h>
+  +++ |+#include <limits.h>
+    6 | 
+./samples/SAFE/__tmp_ef3d9a8a.c:55:26: note: each undeclared identifier is reported only once for each function it appears in
+   55 |             if (value > (INT_MAX - (lexer->input[lexer->pos] - '0')) / 10) {
+      |                          ^~~~~~~
+./samples/SAFE/__tmp_ef3d9a8a.c: In function ‘parser_parse_term’:
+./samples/SAFE/__tmp_ef3d9a8a.c:125:40: error: ‘INT_MAX’ undeclared (first use in this function)
+  125 |             if (result != 0 && right > INT_MAX / result) {
+      |                                        ^~~~~~~
+./samples/SAFE/__tmp_ef3d9a8a.c:125:40: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+./samples/SAFE/__tmp_ef3d9a8a.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_ef3d9a8a.c:150:39: error: ‘INT_MAX’ undeclared (first use in this function)
+  150 |             if (right > 0 && result > INT_MAX - right) {
+      |                                       ^~~~~~~
+./samples/SAFE/__tmp_ef3d9a8a.c:150:39: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+./samples/SAFE/__tmp_ef3d9a8a.c:153:39: error: ‘INT_MIN’ undeclared (first use in this function)
+  153 |             if (right < 0 && result < INT_MIN - right) {
+      |                                       ^~~~~~~
+./samples/SAFE/__tmp_ef3d9a8a.c:153:39: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+./samples/SAFE/__tmp_ef3d9a8a.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_ef3d9a8a.c:176:5: error: ‘Lex’ undeclared (first use in this function); did you mean ‘Lexer’?
+  176 |     Lex
+      |     ^~~
+      |     Lexer
+./samples/SAFE/__tmp_ef3d9a8a.c:176:8: error: expected ‘;’ at end of input
+  176 |     Lex
+      |        ^
+      |        ;
+./samples/SAFE/__tmp_ef3d9a8a.c:176:5: error: expected declaration or statement at end of input
+  176 |     Lex
+      |     ^~~

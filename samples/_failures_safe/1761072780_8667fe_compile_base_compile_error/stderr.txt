@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_208f8c3f.c: In function ‘main’:
+./samples/SAFE/__tmp_208f8c3f.c:156:43: error: ‘struct compression_result’ has no member named ‘original’; did you mean ‘original_size’?
+  156 |     printf("Original size: %zu\n", result.original
+      |                                           ^~~~~~~~
+      |                                           original_size
+./samples/SAFE/__tmp_208f8c3f.c:156:51: error: expected ‘)’ at end of input
+  156 |     printf("Original size: %zu\n", result.original
+      |           ~                                       ^
+      |                                                   )
+./samples/SAFE/__tmp_208f8c3f.c:156:5: error: expected declaration or statement at end of input
+  156 |     printf("Original size: %zu\n", result.original
+      |     ^~~~~~

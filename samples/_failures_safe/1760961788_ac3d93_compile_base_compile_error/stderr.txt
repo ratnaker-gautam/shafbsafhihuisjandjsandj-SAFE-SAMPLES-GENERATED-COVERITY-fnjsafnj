@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_ef2bcabf.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_ef2bcabf.c:159: error: expected ‘{’ at end of input

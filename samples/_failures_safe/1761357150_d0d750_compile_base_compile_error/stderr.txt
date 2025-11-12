@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_5100e46a.c: In function ‘main’:
+./samples/SAFE/__tmp_5100e46a.c:175:21: error: expected declaration or statement at end of input
+  175 |                     current_state = ERROR;
+      |                     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_5100e46a.c:175:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5100e46a.c:175:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5100e46a.c:175:21: error: expected declaration or statement at end of input

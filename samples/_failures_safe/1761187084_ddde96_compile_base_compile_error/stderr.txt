@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_1c86de32.c: In function ‘main’:
+./samples/SAFE/__tmp_1c86de32.c:146:5: error: expected expression at end of input
+  146 |     size_t decompressed_size =
+      |     ^~~~~~
+./samples/SAFE/__tmp_1c86de32.c:146:5: error: expected declaration or statement at end of input

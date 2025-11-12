@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_dd288982.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_dd288982.c:178:33: error: expected ‘;’ at end of input
+  178 |         token.value[0] = current
+      |                                 ^
+      |                                 ;
+./samples/SAFE/__tmp_dd288982.c:178:9: error: expected declaration or statement at end of input
+  178 |         token.value[0] = current
+      |         ^~~~~
+./samples/SAFE/__tmp_dd288982.c:178:9: error: expected declaration or statement at end of input

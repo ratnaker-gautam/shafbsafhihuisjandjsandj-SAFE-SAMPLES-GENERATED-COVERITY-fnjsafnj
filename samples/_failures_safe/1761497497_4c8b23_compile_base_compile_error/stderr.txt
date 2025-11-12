@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_6d195f4b.c: In function ‘main’:
+./samples/SAFE/__tmp_6d195f4b.c:155:46: error: expected ‘)’ at end of input
+  155 |         input_buffer[input_size++] = (uint8_t
+      |                                      ~       ^
+      |                                              )
+./samples/SAFE/__tmp_6d195f4b.c:155:9: error: expected declaration or statement at end of input
+  155 |         input_buffer[input_size++] = (uint8_t
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_6d195f4b.c:155:9: error: expected declaration or statement at end of input

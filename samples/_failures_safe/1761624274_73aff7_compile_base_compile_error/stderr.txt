@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f12e9ff6.c: In function ‘main’:
+./samples/SAFE/__tmp_f12e9ff6.c:173:38: error: ‘num_method’ undeclared (first use in this function); did you mean ‘num_methods’?
+  173 |     printf("Select method (1-%d): ", num_method
+      |                                      ^~~~~~~~~~
+      |                                      num_methods
+./samples/SAFE/__tmp_f12e9ff6.c:173:38: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f12e9ff6.c:173:48: error: expected ‘)’ at end of input
+  173 |     printf("Select method (1-%d): ", num_method
+      |           ~                                    ^
+      |                                                )
+./samples/SAFE/__tmp_f12e9ff6.c:173:5: error: expected declaration or statement at end of input
+  173 |     printf("Select method (1-%d): ", num_method
+      |     ^~~~~~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_1bb58919.c: In function ‘main’:
+./samples/SAFE/__tmp_1bb58919.c:136:53: error: ‘MAX_ENTRI’ undeclared (first use in this function); did you mean ‘MAX_ENTRIES’?
+  136 |     int heap_count = read_log_entries(heap_entries, MAX_ENTRI
+      |                                                     ^~~~~~~~~
+      |                                                     MAX_ENTRIES
+./samples/SAFE/__tmp_1bb58919.c:136:53: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1bb58919.c:136:62: error: expected ‘)’ at end of input
+  136 |     int heap_count = read_log_entries(heap_entries, MAX_ENTRI
+      |                                      ~                       ^
+      |                                                              )
+./samples/SAFE/__tmp_1bb58919.c:136:5: error: expected declaration or statement at end of input
+  136 |     int heap_count = read_log_entries(heap_entries, MAX_ENTRI
+      |     ^~~

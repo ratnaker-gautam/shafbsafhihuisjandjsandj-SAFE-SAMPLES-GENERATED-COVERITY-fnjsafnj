@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_6b773244.c: In function ‘main’:
+./samples/SAFE/__tmp_6b773244.c:146:27: error: ‘mat’ undeclared (first use in this function); did you mean ‘mat2’?
+  146 |             add_matrices(&mat
+      |                           ^~~
+      |                           mat2
+./samples/SAFE/__tmp_6b773244.c:146:27: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6b773244.c:146:30: error: expected ‘)’ at end of input
+  146 |             add_matrices(&mat
+      |                         ~    ^
+      |                              )
+./samples/SAFE/__tmp_6b773244.c:146:13: error: too few arguments to function ‘add_matrices’
+  146 |             add_matrices(&mat
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_6b773244.c:66:6: note: declared here
+   66 | void add_matrices(const Matrix* a, const Matrix* b, Matrix* result) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_6b773244.c:146:13: error: expected declaration or statement at end of input
+  146 |             add_matrices(&mat
+      |             ^~~~~~~~~~~~
+./samples/SAFE/__tmp_6b773244.c:146:13: error: expected declaration or statement at end of input

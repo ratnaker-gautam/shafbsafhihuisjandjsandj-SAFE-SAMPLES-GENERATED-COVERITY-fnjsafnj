@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2a3eb0e1.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_2a3eb0e1.c:160:13: error: expected declaration or statement at end of input
+  160 |             case TOKEN_EOF: type_str = "EOF";
+      |             ^~~~
+./samples/SAFE/__tmp_2a3eb0e1.c:160:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2a3eb0e1.c:160:13: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1a0a8298.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_1a0a8298.c:143:12: error: missing terminating " character
+  143 |     printf("Entries with level '%
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1a0a8298.c:143:5: error: expected expression at end of input
+  143 |     printf("Entries with level '%
+      |     ^~~~~~
+./samples/SAFE/__tmp_1a0a8298.c:143:5: error: expected declaration or statement at end of input

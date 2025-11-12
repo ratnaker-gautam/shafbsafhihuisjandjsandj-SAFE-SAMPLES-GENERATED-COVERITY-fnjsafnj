@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b2dac950.c: In function ‘matrix_determinant_helper’:
+./samples/SAFE/__tmp_b2dac950.c:145:9: error: expected ‘,’ or ‘;’ at end of input
+  145 |         long long det = (long long)a->data[0][0] * a->data[1][1]
+      |         ^~~~
+./samples/SAFE/__tmp_b2dac950.c:145:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b2dac950.c:145:9: error: expected declaration or statement at end of input

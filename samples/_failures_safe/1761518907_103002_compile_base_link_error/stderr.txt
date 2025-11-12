@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/cc500SHs.o: in function `main':
+__tmp_4ab9a1f2.c:(.text.startup+0x13a): undefined reference to `exp'
+/usr/bin/ld: __tmp_4ab9a1f2.c:(.text.startup+0x16b): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

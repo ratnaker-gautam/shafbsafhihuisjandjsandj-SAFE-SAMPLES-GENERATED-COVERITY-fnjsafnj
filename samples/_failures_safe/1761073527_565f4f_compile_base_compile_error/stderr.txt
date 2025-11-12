@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_707d5357.c: In function ‘pointcloud_free’:
+./samples/SAFE/__tmp_707d5357.c:122:5: error: expected declaration or statement at end of input
+  122 |     pc->points = NULL;
+      |     ^~

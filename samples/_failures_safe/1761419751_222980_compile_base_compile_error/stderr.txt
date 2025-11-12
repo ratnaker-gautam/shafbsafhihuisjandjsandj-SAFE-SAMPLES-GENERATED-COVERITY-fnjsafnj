@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d33ababa.c: In function ‘main’:
+./samples/SAFE/__tmp_d33ababa.c:135:9: error: expected expression at end of input
+  135 |         if (!add_edge(&g, src, dest, weight, i))
+      |         ^~
+./samples/SAFE/__tmp_d33ababa.c:135:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d33ababa.c:135:9: error: expected declaration or statement at end of input

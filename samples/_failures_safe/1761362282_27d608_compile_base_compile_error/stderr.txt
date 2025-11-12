@@ -1,0 +1,27 @@
+./samples/SAFE/__tmp_32e6a930.c: In function ‘calculate_frequent_level’:
+./samples/SAFE/__tmp_32e6a930.c:126:32: error: expected ‘)’ at end of input
+  126 |         strncpy(analyzer->stats
+      |                ~               ^
+      |                                )
+./samples/SAFE/__tmp_32e6a930.c:126:25: error: incompatible type for argument 1 of ‘strncpy’
+  126 |         strncpy(analyzer->stats
+      |                 ~~~~~~~~^~~~~~~
+      |                         |
+      |                         struct LogStats
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_32e6a930.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:92:1: note: expected ‘char * restrict’ but argument is of type ‘struct LogStats’
+   92 | __NTH (strncpy (char *__restrict __dest, const char *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_32e6a930.c:126:9: error: too few arguments to function ‘strncpy’
+  126 |         strncpy(analyzer->stats
+      |         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:92:1: note: declared here
+   92 | __NTH (strncpy (char *__restrict __dest, const char *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_32e6a930.c:126:9: error: expected declaration or statement at end of input
+  126 |         strncpy(analyzer->stats
+      |         ^~~~~~~
+./samples/SAFE/__tmp_32e6a930.c:126:9: error: expected declaration or statement at end of input

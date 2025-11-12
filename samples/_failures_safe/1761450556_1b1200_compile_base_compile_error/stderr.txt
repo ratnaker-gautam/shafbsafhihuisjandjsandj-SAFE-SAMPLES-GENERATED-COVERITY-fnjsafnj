@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_036b4def.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_036b4def.c:181:18: error: ‘parser_’ undeclared (first use in this function); did you mean ‘parser’?
+  181 |     int result = parser_
+      |                  ^~~~~~~
+      |                  parser
+./samples/SAFE/__tmp_036b4def.c:181:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_036b4def.c:181:5: error: expected ‘,’ or ‘;’ at end of input
+  181 |     int result = parser_
+      |     ^~~
+./samples/SAFE/__tmp_036b4def.c:181:5: error: expected declaration or statement at end of input

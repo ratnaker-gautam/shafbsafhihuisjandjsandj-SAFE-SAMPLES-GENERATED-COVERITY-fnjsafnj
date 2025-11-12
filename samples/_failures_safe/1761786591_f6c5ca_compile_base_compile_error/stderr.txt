@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_9cc79625.c: In function ‘print_high_severity_entries’:
+./samples/SAFE/__tmp_9cc79625.c:146:60: error: expected ‘]’ at end of input
+  146 |         const struct LogEntry *entry = &analyzer->entries[i
+      |                                                            ^
+      |                                                            ]
+./samples/SAFE/__tmp_9cc79625.c:146:22: error: expected declaration or statement at end of input
+  146 |         const struct LogEntry *entry = &analyzer->entries[i
+      |                      ^~~~~~~~
+./samples/SAFE/__tmp_9cc79625.c:146:22: error: expected declaration or statement at end of input

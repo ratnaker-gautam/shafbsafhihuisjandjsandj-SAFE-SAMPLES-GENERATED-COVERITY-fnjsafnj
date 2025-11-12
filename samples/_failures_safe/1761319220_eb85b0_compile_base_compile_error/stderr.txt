@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_70743bb4.c: In function ‘executeAlgorithm’:
+./samples/SAFE/__tmp_70743bb4.c:144:13: error: expected declaration or statement at end of input
+  144 |             dijkstra(graph, start);
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_70743bb4.c:144:13: error: expected declaration or statement at end of input

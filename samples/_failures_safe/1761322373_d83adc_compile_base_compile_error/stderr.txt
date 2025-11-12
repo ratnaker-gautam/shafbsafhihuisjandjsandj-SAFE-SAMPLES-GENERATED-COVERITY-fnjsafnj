@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_87b7790f.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_87b7790f.c:157:9: error: expected ‘,’ or ‘;’ at end of input
+  157 |         TokenType op = current->type
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_87b7790f.c:157:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_87b7790f.c:157:9: error: expected declaration or statement at end of input

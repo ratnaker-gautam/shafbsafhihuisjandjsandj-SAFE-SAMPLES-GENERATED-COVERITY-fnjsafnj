@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_6a6222c3.c: In function ‘main’:
+./samples/SAFE/__tmp_6a6222c3.c:145:109: error: expected ‘)’ at end of input
+  145 |         Buffer decompressed = process_input(compress_func, decompress_func, compressed.data, compressed.size
+      |                                            ~                                                                ^
+      |                                                                                                             )
+./samples/SAFE/__tmp_6a6222c3.c:145:31: error: too few arguments to function ‘process_input’
+  145 |         Buffer decompressed = process_input(compress_func, decompress_func, compressed.data, compressed.size
+      |                               ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_6a6222c3.c:58:8: note: declared here
+   58 | Buffer process_input(CompressFunc compress, DecompressFunc decompress, const uint8_t *input, size_t input_size, int mode) {
+      |        ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_6a6222c3.c:145:9: error: expected declaration or statement at end of input
+  145 |         Buffer decompressed = process_input(compress_func, decompress_func, compressed.data, compressed.size
+      |         ^~~~~~
+./samples/SAFE/__tmp_6a6222c3.c:145:9: error: expected declaration or statement at end of input

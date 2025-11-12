@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_ac4a23d0.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_ac4a23d0.c:167:5: error: expected declaration or statement at end of input
+  167 |     Parser parser;
+      |     ^~~~~~

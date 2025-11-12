@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_3f9cee42.c: In function ‘main’:
+./samples/SAFE/__tmp_3f9cee42.c:170:50: error: expected ‘)’ at end of input
+  170 |                 handle_event(&machine, EVENT_DATA
+      |                             ~                    ^
+      |                                                  )
+./samples/SAFE/__tmp_3f9cee42.c:170:17: error: too few arguments to function ‘handle_event’
+  170 |                 handle_event(&machine, EVENT_DATA
+      |                 ^~~~~~~~~~~~
+./samples/SAFE/__tmp_3f9cee42.c:83:5: note: declared here
+   83 | int handle_event(StateMachine *machine, Event event, const char *data) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_3f9cee42.c:170:17: error: expected declaration or statement at end of input
+  170 |                 handle_event(&machine, EVENT_DATA
+      |                 ^~~~~~~~~~~~
+./samples/SAFE/__tmp_3f9cee42.c:170:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3f9cee42.c:170:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3f9cee42.c:170:17: error: expected declaration or statement at end of input

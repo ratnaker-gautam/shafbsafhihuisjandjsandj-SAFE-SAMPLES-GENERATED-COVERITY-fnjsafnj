@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e26d0b1b.c: In function ‘main’:
+./samples/SAFE/__tmp_e26d0b1b.c:128:5: error: expected expression at end of input
+  128 |     int column =
+      |     ^~~
+./samples/SAFE/__tmp_e26d0b1b.c:128:5: error: expected declaration or statement at end of input

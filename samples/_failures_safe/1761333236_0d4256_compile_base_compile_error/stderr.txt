@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0809cd73.c: In function ‘validate_mesh’:
+./samples/SAFE/__tmp_0809cd73.c:135:33: error: expected ‘)’ at end of input
+  135 |     if (mesh->vertex_count > 100
+      |        ~                        ^
+      |                                 )
+./samples/SAFE/__tmp_0809cd73.c:135:5: error: expected declaration or statement at end of input
+  135 |     if (mesh->vertex_count > 100
+      |     ^~

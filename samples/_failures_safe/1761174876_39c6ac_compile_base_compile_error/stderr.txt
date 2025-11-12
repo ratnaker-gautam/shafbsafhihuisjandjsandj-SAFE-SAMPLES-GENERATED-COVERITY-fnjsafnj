@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_5576a59a.c: In function ‘main’:
+./samples/SAFE/__tmp_5576a59a.c:137:13: error: ‘strnc’ undeclared (first use in this function); did you mean ‘strncmp’?
+  137 |             strnc
+      |             ^~~~~
+      |             strncmp
+./samples/SAFE/__tmp_5576a59a.c:137:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5576a59a.c:137:18: error: expected ‘;’ at end of input
+  137 |             strnc
+      |                  ^
+      |                  ;
+./samples/SAFE/__tmp_5576a59a.c:137:13: error: expected declaration or statement at end of input
+  137 |             strnc
+      |             ^~~~~
+./samples/SAFE/__tmp_5576a59a.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5576a59a.c:137:13: error: expected declaration or statement at end of input

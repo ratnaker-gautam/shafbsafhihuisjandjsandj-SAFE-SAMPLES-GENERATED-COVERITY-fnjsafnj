@@ -1,0 +1,8 @@
+
+samples/SAFE/__tmp_ed96d138.c:108:20: runtime error: signed integer overflow: 84 + 2147483646 cannot be represented in type 'int'
+    #0 0x6125a3169c7c in run_computation samples/SAFE/__tmp_ed96d138.c:108
+    #1 0x6125a3169c7c in main samples/SAFE/__tmp_ed96d138.c:137
+    #2 0x78a646a2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x78a646a2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x6125a31692c4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_ed96d138.c.san+0x22c4) (BuildId: d908882ec83629bab1c623409306d39d6fd4d87e)
+

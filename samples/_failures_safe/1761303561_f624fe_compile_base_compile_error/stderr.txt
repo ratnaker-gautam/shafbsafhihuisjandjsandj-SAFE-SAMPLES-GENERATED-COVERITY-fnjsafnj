@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_947652f6.c: In function ‘main’:
+./samples/SAFE/__tmp_947652f6.c:134:5: error: expected expression at end of input
+  134 |     process_log_recursive(entries,
+      |     ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_947652f6.c:134:5: error: too few arguments to function ‘process_log_recursive’
+./samples/SAFE/__tmp_947652f6.c:33:6: note: declared here
+   33 | void process_log_recursive(struct LogEntry* entries, int start, int end, int current_level, int* index) {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_947652f6.c:134:5: error: expected declaration or statement at end of input
+  134 |     process_log_recursive(entries,
+      |     ^~~~~~~~~~~~~~~~~~~~~

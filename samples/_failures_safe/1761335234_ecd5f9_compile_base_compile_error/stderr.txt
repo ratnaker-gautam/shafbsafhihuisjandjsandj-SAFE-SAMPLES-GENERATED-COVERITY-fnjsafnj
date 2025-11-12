@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_105cf447.c: In function ‘main’:
+./samples/SAFE/__tmp_105cf447.c:154:5: error: expected expression at end of input
+  154 |     if (handle_event(&sm, &table, EVENT_START) != 0)
+      |     ^~
+./samples/SAFE/__tmp_105cf447.c:154:5: error: expected declaration or statement at end of input

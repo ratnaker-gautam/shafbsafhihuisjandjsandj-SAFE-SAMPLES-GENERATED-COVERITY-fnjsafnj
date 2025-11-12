@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4c4d8326.c: In function ‘main’:
+./samples/SAFE/__tmp_4c4d8326.c:158:58: error: expected ‘)’ at end of input
+  158 |     if (decompress_rle(&compressed_buf, &decompressed_buf
+      |                       ~                                  ^
+      |                                                          )
+./samples/SAFE/__tmp_4c4d8326.c:158:5: error: expected declaration or statement at end of input
+  158 |     if (decompress_rle(&compressed_buf, &decompressed_buf
+      |     ^~

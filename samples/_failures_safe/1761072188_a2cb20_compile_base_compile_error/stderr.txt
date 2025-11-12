@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_54fb322a.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_54fb322a.c:162:9: error: expected declaration or statement at end of input
+  162 |         if (parser->current_token.type == TOKEN_OPERATOR) {
+      |         ^~
+./samples/SAFE/__tmp_54fb322a.c:162:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_54fb322a.c:162:9: error: expected declaration or statement at end of input

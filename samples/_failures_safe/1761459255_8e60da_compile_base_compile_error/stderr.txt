@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_616c3cd4.c: In function ‘main’:
+./samples/SAFE/__tmp_616c3cd4.c:177:42: error: expected ‘)’ at end of input
+  177 |         token = tokenizer_next(&tokenizer
+      |                               ~          ^
+      |                                          )
+./samples/SAFE/__tmp_616c3cd4.c:177:9: error: expected declaration or statement at end of input
+  177 |         token = tokenizer_next(&tokenizer
+      |         ^~~~~
+./samples/SAFE/__tmp_616c3cd4.c:177:9: error: expected declaration or statement at end of input

@@ -1,0 +1,16 @@
+
+Compression processing failed
+
+=================================================================
+==197373==ERROR: LeakSanitizer: detected memory leaks
+
+Direct leak of 2048 byte(s) in 1 object(s) allocated from:
+    #0 0x7069b8cfd9c7 in malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cpp:69
+    #1 0x62db366b658f in create_buffer samples/SAFE/__tmp_abb6ac04.c:41
+    #2 0x62db366b68f8 in process_compression samples/SAFE/__tmp_abb6ac04.c:80
+    #3 0x62db366b6df0 in main samples/SAFE/__tmp_abb6ac04.c:130
+    #4 0x7069b802a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x7069b802a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x62db366b6304 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_abb6ac04.c.san+0x2304) (BuildId: 5c468866c4b178c41703733b3616cebfe4f695fa)
+
+SUMMARY: AddressSanitizer: 2048 byte(s) leaked in 1 allocation(s).

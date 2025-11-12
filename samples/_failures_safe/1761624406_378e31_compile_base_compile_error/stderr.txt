@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_93fa1606.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_93fa1606.c:147:13: error: expected declaration or statement at end of input
+  147 |             }
+      |             ^
+./samples/SAFE/__tmp_93fa1606.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_93fa1606.c:147:13: error: expected declaration or statement at end of input

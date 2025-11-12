@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_1e413b78.c: In function ‘main’:
+./samples/SAFE/__tmp_1e413b78.c:153:40: error: ‘LOG_’ undeclared (first use in this function)
+  153 |                 print_entries_by_level(LOG_
+      |                                        ^~~~
+./samples/SAFE/__tmp_1e413b78.c:153:40: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1e413b78.c:153:44: error: expected ‘)’ at end of input
+  153 |                 print_entries_by_level(LOG_
+      |                                       ~    ^
+      |                                            )
+./samples/SAFE/__tmp_1e413b78.c:153:17: error: expected declaration or statement at end of input
+  153 |                 print_entries_by_level(LOG_
+      |                 ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1e413b78.c:153:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1e413b78.c:153:17: error: expected declaration or statement at end of input

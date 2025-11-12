@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4546cdf9.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_4546cdf9.c:167:5: error: expected declaration or statement at end of input
+  167 |     free(graph);
+      |     ^~~~

@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_94ea072e.c: In function ‘main’:
+./samples/SAFE/__tmp_94ea072e.c:155:46: error: expected ‘)’ at end of input
+  155 |                 if (add_matrices(&mat1, &mat2
+      |                                 ~            ^
+      |                                              )
+./samples/SAFE/__tmp_94ea072e.c:155:21: error: too few arguments to function ‘add_matrices’
+  155 |                 if (add_matrices(&mat1, &mat2
+      |                     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_94ea072e.c:60:5: note: declared here
+   60 | int add_matrices(const struct Matrix* a, const struct Matrix* b, struct Matrix* result) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_94ea072e.c:155:17: error: expected declaration or statement at end of input
+  155 |                 if (add_matrices(&mat1, &mat2
+      |                 ^~
+./samples/SAFE/__tmp_94ea072e.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_94ea072e.c:155:17: error: expected declaration or statement at end of input

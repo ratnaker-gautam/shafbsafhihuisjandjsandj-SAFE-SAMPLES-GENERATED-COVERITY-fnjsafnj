@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_f2578293.c: In function ‘main’:
+./samples/SAFE/__tmp_f2578293.c:142:33: error: expected ‘)’ at end of input
+  142 |     if (parse_log_line(test_line
+      |                       ~         ^
+      |                                 )
+./samples/SAFE/__tmp_f2578293.c:142:9: error: too few arguments to function ‘parse_log_line’
+  142 |     if (parse_log_line(test_line
+      |         ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f2578293.c:18:5: note: declared here
+   18 | int parse_log_line(const char* line, LogEntry* entry) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f2578293.c:142:5: error: expected declaration or statement at end of input
+  142 |     if (parse_log_line(test_line
+      |     ^~

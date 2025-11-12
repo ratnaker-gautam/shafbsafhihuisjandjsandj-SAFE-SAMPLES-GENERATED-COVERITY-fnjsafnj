@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e5fa352f.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_e5fa352f.c:196:5: error: expected declaration or statement at end of input
+  196 |     }
+      |     ^

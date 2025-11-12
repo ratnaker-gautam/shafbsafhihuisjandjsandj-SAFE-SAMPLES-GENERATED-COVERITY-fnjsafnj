@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_cdf22fd5.c: In function ‘main’:
+./samples/SAFE/__tmp_cdf22fd5.c:138:22: error: expected ‘;’ at end of input
+  138 |     for (int i = 0; i
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_cdf22fd5.c:138:5: error: expected declaration or statement at end of input
+  138 |     for (int i = 0; i
+      |     ^~~

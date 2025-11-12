@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_0e265ed1.c: In function ‘main’:
+./samples/SAFE/__tmp_0e265ed1.c:146:27: error: missing terminating " character
+  146 |         choice = read_int("Select operation (1-5
+      |                           ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_0e265ed1.c:146:9: error: expected expression at end of input
+  146 |         choice = read_int("Select operation (1-5
+      |         ^~~~~~
+./samples/SAFE/__tmp_0e265ed1.c:146:18: error: too few arguments to function ‘read_int’
+  146 |         choice = read_int("Select operation (1-5
+      |                  ^~~~~~~~
+./samples/SAFE/__tmp_0e265ed1.c:16:5: note: declared here
+   16 | int read_int(const char* prompt, int min, int max) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_0e265ed1.c:146:9: error: expected declaration or statement at end of input
+  146 |         choice = read_int("Select operation (1-5
+      |         ^~~~~~
+./samples/SAFE/__tmp_0e265ed1.c:146:9: error: expected declaration or statement at end of input

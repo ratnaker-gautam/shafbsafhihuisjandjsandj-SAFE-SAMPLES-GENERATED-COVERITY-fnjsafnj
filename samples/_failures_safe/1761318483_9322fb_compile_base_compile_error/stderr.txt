@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_02b6fae2.c: In function ‘main’:
+./samples/SAFE/__tmp_02b6fae2.c:118:5: error: ‘compressed’ undeclared (first use in this function); did you mean ‘compress_data’?
+  118 |     compressed
+      |     ^~~~~~~~~~
+      |     compress_data
+./samples/SAFE/__tmp_02b6fae2.c:118:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_02b6fae2.c:118:15: error: expected ‘;’ at end of input
+  118 |     compressed
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_02b6fae2.c:118:5: error: expected declaration or statement at end of input
+  118 |     compressed
+      |     ^~~~~~~~~~

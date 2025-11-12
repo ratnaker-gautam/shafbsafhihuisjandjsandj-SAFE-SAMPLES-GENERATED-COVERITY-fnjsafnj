@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_46f83c5d.c: In function ‘main’:
+./samples/SAFE/__tmp_46f83c5d.c:147:40: error: expected ‘)’ at end of input
+  147 |         if (len > 0 && pattern[len - 1]
+      |            ~                           ^
+      |                                        )
+./samples/SAFE/__tmp_46f83c5d.c:147:9: error: expected declaration or statement at end of input
+  147 |         if (len > 0 && pattern[len - 1]
+      |         ^~
+./samples/SAFE/__tmp_46f83c5d.c:147:9: error: expected declaration or statement at end of input

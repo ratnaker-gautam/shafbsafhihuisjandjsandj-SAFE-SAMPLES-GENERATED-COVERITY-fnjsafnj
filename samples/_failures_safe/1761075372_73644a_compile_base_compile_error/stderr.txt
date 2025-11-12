@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_b4c6bacc.c: In function ‘main’:
+./samples/SAFE/__tmp_b4c6bacc.c:146:20: error: expected ‘)’ at end of input
+  146 |     matrix_input(&b
+      |                 ~  ^
+      |                    )
+./samples/SAFE/__tmp_b4c6bacc.c:146:5: error: expected declaration or statement at end of input
+  146 |     matrix_input(&b
+      |     ^~~~~~~~~~~~

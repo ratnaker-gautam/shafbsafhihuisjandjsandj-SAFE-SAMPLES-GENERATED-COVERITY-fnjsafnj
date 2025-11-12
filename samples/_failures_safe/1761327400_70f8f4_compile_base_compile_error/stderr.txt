@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7d216f49.c: In function ‘main’:
+./samples/SAFE/__tmp_7d216f49.c:136:34: error: expected ‘;’ at end of input
+  136 |         if (rows2 == -1) return 1
+      |                                  ^
+      |                                  ;
+./samples/SAFE/__tmp_7d216f49.c:136:9: error: expected declaration or statement at end of input
+  136 |         if (rows2 == -1) return 1
+      |         ^~
+./samples/SAFE/__tmp_7d216f49.c:136:9: error: expected declaration or statement at end of input

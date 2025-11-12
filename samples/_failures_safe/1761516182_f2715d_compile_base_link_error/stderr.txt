@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cch6Ds1n.o: in function `calculate_compound_interest':
+__tmp_f3c03114.c:(.text+0x7a): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

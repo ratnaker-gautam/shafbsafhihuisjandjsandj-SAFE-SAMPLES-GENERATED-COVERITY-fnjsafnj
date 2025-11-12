@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_c93e784c.c: In function ‘main’:
+./samples/SAFE/__tmp_c93e784c.c:165:9: error: expected declaration or statement at end of input
+  165 |         if (isnan(result)) {
+      |         ^~
+./samples/SAFE/__tmp_c93e784c.c:165:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_c93e784c.c:165:9: error: expected declaration or statement at end of input

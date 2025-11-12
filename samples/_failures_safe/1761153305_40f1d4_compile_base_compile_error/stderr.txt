@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_7911feec.c: In function ‘main’:
+./samples/SAFE/__tmp_7911feec.c:185:21: error: expected declaration or statement at end of input
+  185 |                     printf("Invalid input\n");
+      |                     ^~~~~~
+./samples/SAFE/__tmp_7911feec.c:185:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7911feec.c:185:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7911feec.c:185:21: error: expected declaration or statement at end of input

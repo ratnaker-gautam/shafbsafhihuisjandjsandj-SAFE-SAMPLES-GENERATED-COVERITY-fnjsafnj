@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_ba2740c6.c: In function ‘main’:
+./samples/SAFE/__tmp_ba2740c6.c:157:33: error: expected ‘)’ at end of input
+  157 |     if (multiply_matrices(&a, &b
+      |                          ~      ^
+      |                                 )
+./samples/SAFE/__tmp_ba2740c6.c:157:9: error: too few arguments to function ‘multiply_matrices’
+  157 |     if (multiply_matrices(&a, &b
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ba2740c6.c:69:5: note: declared here
+   69 | int multiply_matrices(const Matrix *a, const Matrix *b, Matrix *result) {
+      |     ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ba2740c6.c:157:5: error: expected declaration or statement at end of input
+  157 |     if (multiply_matrices(&a, &b
+      |     ^~

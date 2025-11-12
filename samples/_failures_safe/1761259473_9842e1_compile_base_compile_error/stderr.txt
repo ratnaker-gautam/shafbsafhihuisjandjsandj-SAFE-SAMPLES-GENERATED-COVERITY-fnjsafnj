@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_818e2b94.c: In function ‘main’:
+./samples/SAFE/__tmp_818e2b94.c:142:17: error: expected declaration or statement at end of input
+  142 |                 TRANSITION(process_writing_state(&ctx));
+      |                 ^~~~~~~~~~
+./samples/SAFE/__tmp_818e2b94.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_818e2b94.c:142:17: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_10c0b8c7.c: In function ‘main’:
+./samples/SAFE/__tmp_10c0b8c7.c:164:5: error: expected expression at end of input
+  164 |     TokenStack* stack =
+      |     ^~~~~~~~~~
+./samples/SAFE/__tmp_10c0b8c7.c:164:5: error: expected declaration or statement at end of input

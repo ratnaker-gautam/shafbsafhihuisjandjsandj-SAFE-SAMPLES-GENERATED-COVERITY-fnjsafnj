@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_a8e92f86.c: In function ‘main’:
+./samples/SAFE/__tmp_a8e92f86.c:155:57: error: expected ‘]’ at end of input
+  155 |                         sum += matrix1[i][k] * matrix2[k
+      |                                                         ^
+      |                                                         ]
+./samples/SAFE/__tmp_a8e92f86.c:155:46: error: invalid operands to binary * (have ‘int’ and ‘int *’)
+  155 |                         sum += matrix1[i][k] * matrix2[k
+      |                                ~~~~~~~~~~~~~ ^
+      |                                          |   |
+      |                                          int int *
+./samples/SAFE/__tmp_a8e92f86.c:155:25: error: expected declaration or statement at end of input
+  155 |                         sum += matrix1[i][k] * matrix2[k
+      |                         ^~~
+./samples/SAFE/__tmp_a8e92f86.c:155:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8e92f86.c:155:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8e92f86.c:155:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8e92f86.c:155:25: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a8e92f86.c:155:25: error: expected declaration or statement at end of input

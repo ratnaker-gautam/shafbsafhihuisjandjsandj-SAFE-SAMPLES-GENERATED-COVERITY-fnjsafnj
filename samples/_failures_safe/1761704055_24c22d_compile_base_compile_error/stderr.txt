@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_cc5434f7.c: In function ‘initialize_mesh’:
+./samples/SAFE/__tmp_cc5434f7.c:143:17: error: expected ‘;’ at end of input
+  143 |     mesh->bounds
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_cc5434f7.c:143:5: error: expected declaration or statement at end of input
+  143 |     mesh->bounds
+      |     ^~~~

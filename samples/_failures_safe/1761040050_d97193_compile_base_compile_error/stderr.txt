@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_65d39639.c: In function ‘main’:
+./samples/SAFE/__tmp_65d39639.c:165:17: error: expected expression at end of input
+  165 |                 matrix_transpose(&b,
+      |                 ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_65d39639.c:165:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_65d39639.c:165:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_65d39639.c:165:17: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_df0f46a2.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_df0f46a2.c:189:14: error: expected ‘)’ at end of input
+  189 |     free(dist
+      |         ~    ^
+      |              )
+./samples/SAFE/__tmp_df0f46a2.c:189:5: error: expected declaration or statement at end of input
+  189 |     free(dist
+      |     ^~~~

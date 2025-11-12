@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8bd5876c.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_8bd5876c.c:162:9: error: expected identifier at end of input
+  162 |         if (parser->current_token < parser->
+      |         ^~
+./samples/SAFE/__tmp_8bd5876c.c:162:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8bd5876c.c:162:9: error: expected declaration or statement at end of input

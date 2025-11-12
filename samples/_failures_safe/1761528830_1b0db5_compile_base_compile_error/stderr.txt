@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_2407ee09.c: In function ‘main’:
+./samples/SAFE/__tmp_2407ee09.c:133:12: error: expected expression at end of input
+  133 |     struct Vector3D transformed_point = transform_apply(
+      |            ^~~~~~~~
+./samples/SAFE/__tmp_2407ee09.c:133:41: error: too few arguments to function ‘transform_apply’
+  133 |     struct Vector3D transformed_point = transform_apply(
+      |                                         ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2407ee09.c:92:17: note: declared here
+   92 | struct Vector3D transform_apply(struct Transform t, struct Vector3D v) {
+      |                 ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2407ee09.c:133:12: error: expected declaration or statement at end of input
+  133 |     struct Vector3D transformed_point = transform_apply(
+      |            ^~~~~~~~

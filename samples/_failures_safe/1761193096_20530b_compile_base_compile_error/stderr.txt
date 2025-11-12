@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_006edceb.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_006edceb.c:120:50: error: ‘const struct LogStats’ has no member named ‘warning’
+  120 |     printf("Warning count: %d\n", analyzer->stats.warning
+      |                                                  ^
+./samples/SAFE/__tmp_006edceb.c:120:58: error: expected ‘)’ at end of input
+  120 |     printf("Warning count: %d\n", analyzer->stats.warning
+      |           ~                                              ^
+      |                                                          )
+./samples/SAFE/__tmp_006edceb.c:120:5: error: expected declaration or statement at end of input
+  120 |     printf("Warning count: %d\n", analyzer->stats.warning
+      |     ^~~~~~

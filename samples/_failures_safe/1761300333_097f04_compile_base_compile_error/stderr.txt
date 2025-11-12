@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7f4acb65.c: In function ‘process_graph’:
+./samples/SAFE/__tmp_7f4acb65.c:150:23: error: expected ‘)’ at end of input
+  150 |     traversal(g, start
+      |              ~        ^
+      |                       )
+./samples/SAFE/__tmp_7f4acb65.c:150:5: error: too few arguments to function ‘traversal’
+  150 |     traversal(g, start
+      |     ^~~~~~~~~
+./samples/SAFE/__tmp_7f4acb65.c:150:5: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_ae6b8428.c: In function ‘main’:
+./samples/SAFE/__tmp_ae6b8428.c:143:20: error: expected identifier at end of input
+  143 |                    entries[i].
+      |                    ^~~~~~~
+./samples/SAFE/__tmp_ae6b8428.c:143:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ae6b8428.c:143:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ae6b8428.c:143:20: error: expected declaration or statement at end of input

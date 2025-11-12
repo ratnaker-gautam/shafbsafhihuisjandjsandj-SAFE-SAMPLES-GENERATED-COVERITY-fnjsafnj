@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8a6b6033.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_8a6b6033.c:159:17: error: expected declaration or statement at end of input
+  159 |                 printf("IDENTIFIER: %s\n", token->value);
+      |                 ^~~~~~
+./samples/SAFE/__tmp_8a6b6033.c:159:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8a6b6033.c:159:17: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ff0123c2.c: In function ‘main’:
+./samples/SAFE/__tmp_ff0123c2.c:137: error: expected ‘;’ at end of input
+./samples/SAFE/__tmp_ff0123c2.c:136:9: error: expected declaration or statement at end of input
+  136 |         return EXIT_FAILURE
+      |         ^~~~~~
+./samples/SAFE/__tmp_ff0123c2.c:136:9: error: expected declaration or statement at end of input

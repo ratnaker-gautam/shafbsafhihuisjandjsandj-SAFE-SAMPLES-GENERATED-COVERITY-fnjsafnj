@@ -1,0 +1,16 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==410964==ERROR: AddressSanitizer: SEGV on unknown address (pc 0x631419b46991 bp 0x7ffd3a9c49b0 sp 0x7ffd3a9c4890 T0)
+==410964==The signal is caused by a READ memory access.
+==410964==Hint: this fault was caused by a dereference of a high value address (see register values below).  Disassemble the provided pc to learn which register was used.
+    #0 0x631419b46991 in process_word samples/SAFE/__tmp_b94c6862.c:46
+    #1 0x631419b47515 in tokenize_and_count samples/SAFE/__tmp_b94c6862.c:84
+    #2 0x631419b47bb7 in main samples/SAFE/__tmp_b94c6862.c:123
+    #3 0x7a67dea2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x7a67dea2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x631419b463e4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_b94c6862.c.san+0x43e4) (BuildId: 005f943b0681cdba4e872c606b7078d932012c43)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV samples/SAFE/__tmp_b94c6862.c:46 in process_word
+==410964==ABORTING

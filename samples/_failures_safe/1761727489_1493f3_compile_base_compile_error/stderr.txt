@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_6a38a54f.c: In function ‘main’:
+./samples/SAFE/__tmp_6a38a54f.c:142:25: error: expected ‘)’ at end of input
+  142 |         add_edge(&g, src
+      |                 ~       ^
+      |                         )
+./samples/SAFE/__tmp_6a38a54f.c:142:9: error: too few arguments to function ‘add_edge’
+  142 |         add_edge(&g, src
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_6a38a54f.c:30:6: note: declared here
+   30 | void add_edge(struct Graph *g, int src, int dest, int weight) {
+      |      ^~~~~~~~
+./samples/SAFE/__tmp_6a38a54f.c:142:9: error: expected declaration or statement at end of input
+  142 |         add_edge(&g, src
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_6a38a54f.c:142:9: error: expected declaration or statement at end of input

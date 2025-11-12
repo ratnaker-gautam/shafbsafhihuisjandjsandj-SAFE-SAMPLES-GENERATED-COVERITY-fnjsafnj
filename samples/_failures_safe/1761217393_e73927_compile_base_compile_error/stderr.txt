@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_3fb94147.c: In function ‘main’:
+./samples/SAFE/__tmp_3fb94147.c:141:86: error: ‘output’ undeclared (first use in this function)
+  141 |     int result = compress_data(comp_type, input_data, input_len, output_data, sizeof(output
+      |                                                                                      ^~~~~~
+./samples/SAFE/__tmp_3fb94147.c:141:86: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3fb94147.c:141:92: error: expected ‘)’ at end of input
+  141 |     int result = compress_data(comp_type, input_data, input_len, output_data, sizeof(output
+      |                                                                                     ~      ^
+      |                                                                                            )
+./samples/SAFE/__tmp_3fb94147.c:141:5: error: expected declaration or statement at end of input
+  141 |     int result = compress_data(comp_type, input_data, input_len, output_data, sizeof(output
+      |     ^~~

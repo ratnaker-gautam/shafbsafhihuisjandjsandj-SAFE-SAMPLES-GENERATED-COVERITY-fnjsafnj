@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccGGnWWE.o: in function `main':
+__tmp_94d5ccda.c:(.text.startup+0x168): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

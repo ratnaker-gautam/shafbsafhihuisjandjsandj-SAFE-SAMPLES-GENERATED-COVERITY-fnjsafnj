@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_38e7e4ee.c: In function ‘print_token’:
+./samples/SAFE/__tmp_38e7e4ee.c:160:5: error: expected identifier or ‘(’ at end of input
+  160 |     const char *
+      |     ^~~~~
+./samples/SAFE/__tmp_38e7e4ee.c:160:5: error: expected declaration or statement at end of input

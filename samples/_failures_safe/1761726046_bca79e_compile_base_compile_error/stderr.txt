@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_49b1df94.c: In function ‘update_stats’:
+./samples/SAFE/__tmp_49b1df94.c:123:9: error: expected identifier at end of input
+  123 |         strncpy(analyzer->stats.latest, entry->timestamp, sizeof(analyzer->
+      |         ^~~~~~~
+./samples/SAFE/__tmp_49b1df94.c:123:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_49b1df94.c:123:9: error: expected declaration or statement at end of input

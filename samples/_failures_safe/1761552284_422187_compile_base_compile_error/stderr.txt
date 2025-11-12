@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_092ba87c.c: In function ‘main’:
+./samples/SAFE/__tmp_092ba87c.c:134:30: error: missing terminating " character
+  134 |     add_log_entry(&analyzer, "2024-01-15 10
+      |                              ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_092ba87c.c:134:5: error: expected expression at end of input
+  134 |     add_log_entry(&analyzer, "2024-01-15 10
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_092ba87c.c:134:5: error: too few arguments to function ‘add_log_entry’
+./samples/SAFE/__tmp_092ba87c.c:51:5: note: declared here
+   51 | int add_log_entry(struct LogAnalyzer *analyzer, const char *timestamp, const char *level, const char *message) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_092ba87c.c:134:5: error: expected declaration or statement at end of input
+  134 |     add_log_entry(&analyzer, "2024-01-15 10
+      |     ^~~~~~~~~~~~~

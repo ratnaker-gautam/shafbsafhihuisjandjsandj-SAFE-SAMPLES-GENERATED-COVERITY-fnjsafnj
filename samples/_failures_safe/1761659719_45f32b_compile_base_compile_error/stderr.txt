@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_db2b7847.c: In function ‘main’:
+./samples/SAFE/__tmp_db2b7847.c:173:17: error: ‘st’ undeclared (first use in this function)
+  173 |         fprintf(st
+      |                 ^~
+./samples/SAFE/__tmp_db2b7847.c:173:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_db2b7847.c:173:19: error: expected ‘)’ at end of input
+  173 |         fprintf(st
+      |                ~  ^
+      |                   )
+./samples/SAFE/__tmp_db2b7847.c:173:9: error: too few arguments to function ‘fprintf’
+  173 |         fprintf(st
+      |         ^~~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from ./samples/SAFE/__tmp_db2b7847.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:77:1: note: declared here
+   77 | fprintf (FILE *__restrict __stream, const char *__restrict __fmt, ...)
+      | ^~~~~~~
+./samples/SAFE/__tmp_db2b7847.c:173:9: error: expected declaration or statement at end of input
+  173 |         fprintf(st
+      |         ^~~~~~~
+./samples/SAFE/__tmp_db2b7847.c:173:9: error: expected declaration or statement at end of input

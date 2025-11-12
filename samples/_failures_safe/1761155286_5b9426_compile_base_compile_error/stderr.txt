@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_faffad7f.c: In function ‘read_input_data’:
+./samples/SAFE/__tmp_faffad7f.c:148:5: error: expected declaration or statement at end of input
+  148 |     return 1;
+      |     ^~~~~~

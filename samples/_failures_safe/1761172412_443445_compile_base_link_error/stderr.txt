@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/cct1Jpyv.o: in function `main':
+__tmp_9a460ae8.c:(.text.startup+0x1a9): undefined reference to `exp'
+collect2: error: ld returned 1 exit status

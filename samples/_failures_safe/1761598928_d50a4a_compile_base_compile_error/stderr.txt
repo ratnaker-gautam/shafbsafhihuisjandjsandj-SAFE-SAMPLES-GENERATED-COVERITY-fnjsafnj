@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_22f3040b.c: In function ‘main’:
+./samples/SAFE/__tmp_22f3040b.c:153:64: error: ‘start’ undeclared (first use in this function)
+  153 |     if (scanf("%d", &start_vertex) != 1 || start_vertex < 0 || start
+      |                                                                ^~~~~
+./samples/SAFE/__tmp_22f3040b.c:153:64: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_22f3040b.c:153:69: error: expected ‘)’ at end of input
+  153 |     if (scanf("%d", &start_vertex) != 1 || start_vertex < 0 || start
+      |        ~                                                            ^
+      |                                                                     )
+./samples/SAFE/__tmp_22f3040b.c:153:5: error: expected declaration or statement at end of input
+  153 |     if (scanf("%d", &start_vertex) != 1 || start_vertex < 0 || start
+      |     ^~

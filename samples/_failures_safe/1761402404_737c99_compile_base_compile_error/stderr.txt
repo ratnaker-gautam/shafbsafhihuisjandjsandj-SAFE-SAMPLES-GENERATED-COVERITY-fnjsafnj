@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f2d2d0a4.c: In function ‘main’:
+./samples/SAFE/__tmp_f2d2d0a4.c:156: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_f2d2d0a4.c:155:25: note: to match this ‘(’
+  155 |     mat2.rows = read_int("Enter number of rows (1-10): ", 1, MAX_DIM
+      |                         ^
+./samples/SAFE/__tmp_f2d2d0a4.c:155:5: error: expected declaration or statement at end of input
+  155 |     mat2.rows = read_int("Enter number of rows (1-10): ", 1, MAX_DIM
+      |     ^~~~

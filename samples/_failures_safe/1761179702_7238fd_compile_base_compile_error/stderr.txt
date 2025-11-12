@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_1a2b7d55.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_1a2b7d55.c:136:39: error: expected ‘)’ at end of input
+  136 |         if (strcmp(entry->level, level
+      |                   ~                   ^
+      |                                       )
+./samples/SAFE/__tmp_1a2b7d55.c:136:9: error: expected declaration or statement at end of input
+  136 |         if (strcmp(entry->level, level
+      |         ^~
+./samples/SAFE/__tmp_1a2b7d55.c:136:9: error: expected declaration or statement at end of input

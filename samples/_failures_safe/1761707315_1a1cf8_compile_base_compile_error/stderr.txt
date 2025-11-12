@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_b872fc32.c: In function ‘main’:
+./samples/SAFE/__tmp_b872fc32.c:184:13: error: ‘current’ undeclared (first use in this function)
+  184 |             current
+      |             ^~~~~~~
+./samples/SAFE/__tmp_b872fc32.c:184:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b872fc32.c:184:20: error: expected ‘;’ at end of input
+  184 |             current
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_b872fc32.c:184:13: error: expected declaration or statement at end of input
+  184 |             current
+      |             ^~~~~~~
+./samples/SAFE/__tmp_b872fc32.c:184:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b872fc32.c:184:13: error: expected declaration or statement at end of input

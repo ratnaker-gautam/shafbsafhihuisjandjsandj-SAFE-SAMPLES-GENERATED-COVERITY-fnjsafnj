@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f9d8867d.c: In function ‘main’:
+./samples/SAFE/__tmp_f9d8867d.c:190:16: error: missing terminating " character
+  190 |         printf("\nRegistration complete! Thank you, %s, age %
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f9d8867d.c:190:9: error: expected expression at end of input
+  190 |         printf("\nRegistration complete! Thank you, %s, age %
+      |         ^~~~~~
+./samples/SAFE/__tmp_f9d8867d.c:190:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f9d8867d.c:190:9: error: expected declaration or statement at end of input

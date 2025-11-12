@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_be2f1b7c.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_be2f1b7c.c:125:10: error: ‘matrix’ undeclared (first use in this function); did you mean ‘Matrix’?
+  125 |     if (!matrix
+      |          ^~~~~~
+      |          Matrix
+./samples/SAFE/__tmp_be2f1b7c.c:125:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_be2f1b7c.c:125:16: error: expected ‘)’ at end of input
+  125 |     if (!matrix
+      |        ~       ^
+      |                )
+./samples/SAFE/__tmp_be2f1b7c.c:125:5: error: expected declaration or statement at end of input
+  125 |     if (!matrix
+      |     ^~

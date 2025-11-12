@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_f66ae8a0.c: In function ‘main’:
+./samples/SAFE/__tmp_f66ae8a0.c:151:15: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  151 |     if (fgets(input
+      |               ^~~~~
+      |               int
+./samples/SAFE/__tmp_f66ae8a0.c:151:15: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f66ae8a0.c:151:20: error: expected ‘)’ at end of input
+  151 |     if (fgets(input
+      |              ~     ^
+      |                    )
+./samples/SAFE/__tmp_f66ae8a0.c:151:9: error: too few arguments to function ‘fgets’
+  151 |     if (fgets(input
+      |         ^~~~~
+In file included from /usr/include/stdio.h:980,
+                 from ./samples/SAFE/__tmp_f66ae8a0.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:196:1: note: declared here
+  196 | fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      | ^~~~~
+./samples/SAFE/__tmp_f66ae8a0.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (fgets(input
+      |     ^~

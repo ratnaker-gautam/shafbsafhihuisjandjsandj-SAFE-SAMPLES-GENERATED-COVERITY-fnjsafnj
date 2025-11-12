@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_cc357fad.c: In function ‘main’:
+./samples/SAFE/__tmp_cc357fad.c:175:17: error: ‘MAX’ undeclared (first use in this function)
+  175 |         rows1 > MAX
+      |                 ^~~
+./samples/SAFE/__tmp_cc357fad.c:175:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cc357fad.c:175:20: error: expected ‘)’ at end of input
+  175 |         rows1 > MAX
+      |                    ^
+      |                    )
+./samples/SAFE/__tmp_cc357fad.c:174:8: note: to match this ‘(’
+  174 |     if (rows1 <= 0 || cols1 <= 0 || rows2 <= 0 || cols2 <= 0 ||
+      |        ^
+./samples/SAFE/__tmp_cc357fad.c:175:9: error: expected declaration or statement at end of input
+  175 |         rows1 > MAX
+      |         ^~~~~

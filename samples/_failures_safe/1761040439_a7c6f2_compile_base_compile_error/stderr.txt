@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_7ed2914b.c: In function ‘main’:
+./samples/SAFE/__tmp_7ed2914b.c:144:40: error: ‘perform_comp’ undeclared (first use in this function); did you mean ‘perform_compression’?
+  144 |     struct compression_result result = perform_comp
+      |                                        ^~~~~~~~~~~~
+      |                                        perform_compression
+./samples/SAFE/__tmp_7ed2914b.c:144:40: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7ed2914b.c:144:12: error: expected ‘,’ or ‘;’ at end of input
+  144 |     struct compression_result result = perform_comp
+      |            ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_7ed2914b.c:144:12: error: expected declaration or statement at end of input

@@ -1,0 +1,21 @@
+./samples/SAFE/__tmp_e75912e9.c: In function ‘main’:
+./samples/SAFE/__tmp_e75912e9.c:159:40: error: ‘node’ undeclared (first use in this function); did you mean ‘node2’?
+  159 |                 depth_first_search(&g, node
+      |                                        ^~~~
+      |                                        node2
+./samples/SAFE/__tmp_e75912e9.c:159:40: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e75912e9.c:159:44: error: expected ‘)’ at end of input
+  159 |                 depth_first_search(&g, node
+      |                                   ~        ^
+      |                                            )
+./samples/SAFE/__tmp_e75912e9.c:159:17: error: too few arguments to function ‘depth_first_search’
+  159 |                 depth_first_search(&g, node
+      |                 ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e75912e9.c:55:6: note: declared here
+   55 | void depth_first_search(struct Graph *g, int start, int visited[]) {
+      |      ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e75912e9.c:159:17: error: expected declaration or statement at end of input
+  159 |                 depth_first_search(&g, node
+      |                 ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e75912e9.c:159:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e75912e9.c:159:17: error: expected declaration or statement at end of input

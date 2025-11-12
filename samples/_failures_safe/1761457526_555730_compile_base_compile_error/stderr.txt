@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_b473cf21.c: In function ‘read_safe_double’:
+./samples/SAFE/__tmp_b473cf21.c:162:14: error: incompatible types when assigning to type ‘double’ from type ‘double (*)(const char * restrict,  char ** restrict)’
+  162 |     *value = strtod
+      |              ^~~~~~
+./samples/SAFE/__tmp_b473cf21.c:162:20: error: expected ‘;’ at end of input
+  162 |     *value = strtod
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_b473cf21.c:162:5: error: expected declaration or statement at end of input
+  162 |     *value = strtod
+      |     ^

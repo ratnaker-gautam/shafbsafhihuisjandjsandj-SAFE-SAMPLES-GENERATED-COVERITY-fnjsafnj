@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_52fded4c.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_52fded4c.c:179:36: error: expected ‘)’ at end of input
+  179 |         } else if (is_operator_char
+      |                   ~                ^
+      |                                    )
+./samples/SAFE/__tmp_52fded4c.c:179:9: error: expected declaration or statement at end of input
+  179 |         } else if (is_operator_char
+      |         ^
+./samples/SAFE/__tmp_52fded4c.c:179:9: error: expected declaration or statement at end of input

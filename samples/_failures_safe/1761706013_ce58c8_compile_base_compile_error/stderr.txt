@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_45ad81da.c: In function ‘process_input’:
+./samples/SAFE/__tmp_45ad81da.c:133:24: error: missing terminating " character
+  133 |                 printf("    Token: %s
+      |                        ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_45ad81da.c:133:17: error: expected expression at end of input
+  133 |                 printf("    Token: %s
+      |                 ^~~~~~
+./samples/SAFE/__tmp_45ad81da.c:133:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_45ad81da.c:133:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_45ad81da.c:133:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_45ad81da.c:133:17: error: expected declaration or statement at end of input

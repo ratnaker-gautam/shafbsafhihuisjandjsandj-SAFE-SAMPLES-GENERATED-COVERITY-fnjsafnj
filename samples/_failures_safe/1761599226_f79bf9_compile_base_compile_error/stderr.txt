@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_f46e6813.c: In function ‘main’:
+./samples/SAFE/__tmp_f46e6813.c:147:55: error: expected ‘)’ at end of input
+  147 |     if (scanf("%zu %zu", &rows2, &cols2) != 2 || rows2
+      |        ~                                              ^
+      |                                                       )
+./samples/SAFE/__tmp_f46e6813.c:147:5: error: expected declaration or statement at end of input
+  147 |     if (scanf("%zu %zu", &rows2, &cols2) != 2 || rows2
+      |     ^~

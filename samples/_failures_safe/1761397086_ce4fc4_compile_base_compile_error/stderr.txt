@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ce955cf3.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_ce955cf3.c:132:39: error: expected ‘;’ at end of input
+  132 |     if (a->rows != a->cols) return 0.0
+      |                                       ^
+      |                                       ;
+./samples/SAFE/__tmp_ce955cf3.c:132:5: error: expected declaration or statement at end of input
+  132 |     if (a->rows != a->cols) return 0.0
+      |     ^~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4bdc0cc3.c: In function ‘compare_word_count’:
+./samples/SAFE/__tmp_4bdc0cc3.c:146:48: error: expected expression at end of input
+  146 |     const struct WordStats *wa = (const struct WordStats *)
+      |                                                ^~~~~~~~~
+./samples/SAFE/__tmp_4bdc0cc3.c:146:48: error: expected declaration or statement at end of input

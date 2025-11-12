@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_a6df2d13.c: In function ‘main’:
+./samples/SAFE/__tmp_a6df2d13.c:151:47: error: ‘level_to’ undeclared (first use in this function)
+  151 |                     printf("\n%s entries:\n", level_to
+      |                                               ^~~~~~~~
+./samples/SAFE/__tmp_a6df2d13.c:151:47: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a6df2d13.c:151:55: error: expected ‘)’ at end of input
+  151 |                     printf("\n%s entries:\n", level_to
+      |                           ~                           ^
+      |                                                       )
+./samples/SAFE/__tmp_a6df2d13.c:151:21: error: expected declaration or statement at end of input
+  151 |                     printf("\n%s entries:\n", level_to
+      |                     ^~~~~~
+./samples/SAFE/__tmp_a6df2d13.c:151:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a6df2d13.c:151:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a6df2d13.c:151:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a6df2d13.c:151:21: error: expected declaration or statement at end of input

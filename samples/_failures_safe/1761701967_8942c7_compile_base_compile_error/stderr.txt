@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_09db388f.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_09db388f.c:159:62: error: expected ‘;’ at end of input
+  159 |                     dist[graph->edges[i].dest->id] = new_dist
+      |                                                              ^
+      |                                                              ;
+./samples/SAFE/__tmp_09db388f.c:159:21: error: expected declaration or statement at end of input
+  159 |                     dist[graph->edges[i].dest->id] = new_dist
+      |                     ^~~~
+./samples/SAFE/__tmp_09db388f.c:159:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_09db388f.c:159:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_09db388f.c:159:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_09db388f.c:159:21: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_15a13738.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_15a13738.c:136:13: error: expected ‘;’ at end of input
+  136 |     return 1
+      |             ^
+      |             ;
+./samples/SAFE/__tmp_15a13738.c:136:5: error: expected declaration or statement at end of input
+  136 |     return 1
+      |     ^~~~~~

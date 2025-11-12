@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_bd4f431d.c: In function ‘transpose_matrix’:
+./samples/SAFE/__tmp_bd4f431d.c:142:9: error: expected ‘,’ or ‘;’ at end of input
+  142 |         for (int j = 0
+      |         ^~~
+./samples/SAFE/__tmp_bd4f431d.c:142:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bd4f431d.c:142:9: error: expected declaration or statement at end of input

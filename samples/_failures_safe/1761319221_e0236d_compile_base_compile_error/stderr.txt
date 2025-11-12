@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_5358db4f.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_5358db4f.c:133:41: error: ‘const struct LogStats’ has no member named ‘info’
+  133 |     printf("Info: %u\n", analyzer->stats.info
+      |                                         ^
+./samples/SAFE/__tmp_5358db4f.c:133:46: error: expected ‘)’ at end of input
+  133 |     printf("Info: %u\n", analyzer->stats.info
+      |           ~                                  ^
+      |                                              )
+./samples/SAFE/__tmp_5358db4f.c:133:5: error: expected declaration or statement at end of input
+  133 |     printf("Info: %u\n", analyzer->stats.info
+      |     ^~~~~~

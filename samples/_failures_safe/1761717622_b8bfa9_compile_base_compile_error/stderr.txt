@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_ea82d20f.c: In function ‘perform_compression’:
+./samples/SAFE/__tmp_ea82d20f.c:170:13: error: expected expression at end of input
+  170 |             comp_status = compress_lzw(input, input_len, compressed,
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_ea82d20f.c:170:27: error: too few arguments to function ‘compress_lzw’
+  170 |             comp_status = compress_lzw(input, input_len, compressed,
+      |                           ^~~~~~~~~~~~
+./samples/SAFE/__tmp_ea82d20f.c:78:25: note: declared here
+   78 | static enum status_code compress_lzw(const char* input, size_t input_len,
+      |                         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_ea82d20f.c:170:13: error: expected declaration or statement at end of input
+  170 |             comp_status = compress_lzw(input, input_len, compressed,
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_ea82d20f.c:170:13: error: expected declaration or statement at end of input

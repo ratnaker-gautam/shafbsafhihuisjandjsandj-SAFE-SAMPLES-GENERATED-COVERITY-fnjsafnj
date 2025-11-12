@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_c68c2139.c: In function ‘main’:
+./samples/SAFE/__tmp_c68c2139.c:163:17: error: ‘multiply’ undeclared (first use in this function)
+  163 |             if (multiply
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_c68c2139.c:163:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c68c2139.c:163:25: error: expected ‘)’ at end of input
+  163 |             if (multiply
+      |                ~        ^
+      |                         )
+./samples/SAFE/__tmp_c68c2139.c:163:13: error: expected declaration or statement at end of input
+  163 |             if (multiply
+      |             ^~
+./samples/SAFE/__tmp_c68c2139.c:163:13: error: expected declaration or statement at end of input

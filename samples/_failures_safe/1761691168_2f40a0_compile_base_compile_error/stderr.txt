@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_68eb75d6.c: In function ‘main’:
+./samples/SAFE/__tmp_68eb75d6.c:148:35: error: expected ‘)’ at end of input
+  148 |     if (b.rows == b.cols && b.rows
+      |        ~                          ^
+      |                                   )
+./samples/SAFE/__tmp_68eb75d6.c:148:5: error: expected declaration or statement at end of input
+  148 |     if (b.rows == b.cols && b.rows
+      |     ^~

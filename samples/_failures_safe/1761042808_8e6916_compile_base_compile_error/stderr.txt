@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a4207d70.c: In function ‘get_operation’:
+./samples/SAFE/__tmp_a4207d70.c:151:5: error: expected expression at end of input
+  151 |     int choice =
+      |     ^~~
+./samples/SAFE/__tmp_a4207d70.c:151:5: error: expected declaration or statement at end of input

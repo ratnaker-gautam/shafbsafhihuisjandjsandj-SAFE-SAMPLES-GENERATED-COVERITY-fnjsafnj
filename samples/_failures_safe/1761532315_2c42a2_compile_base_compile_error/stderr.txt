@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_793396cd.c: In function ‘main’:
+./samples/SAFE/__tmp_793396cd.c:166:30: error: expected ‘]’ at end of input
+  166 |     if (len > 0 && buffer[len
+      |                              ^
+      |                              ]
+./samples/SAFE/__tmp_793396cd.c:166:5: error: expected declaration or statement at end of input
+  166 |     if (len > 0 && buffer[len
+      |     ^~

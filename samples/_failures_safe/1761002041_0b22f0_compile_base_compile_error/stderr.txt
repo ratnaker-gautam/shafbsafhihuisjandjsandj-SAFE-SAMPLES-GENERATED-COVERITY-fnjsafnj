@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9275e986.c: In function ‘main’:
+./samples/SAFE/__tmp_9275e986.c:146: error: expected ‘(’ at end of input
+./samples/SAFE/__tmp_9275e986.c:145:5: error: expected declaration or statement at end of input
+  145 |     switch
+      |     ^~~~~~

@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_69be269b.c: In function ‘execute_operation’:
+./samples/SAFE/__tmp_69be269b.c:146: error: expected ‘{’ at end of input

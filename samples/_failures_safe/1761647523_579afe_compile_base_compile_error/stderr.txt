@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ff49b8d7.c: In function ‘main’:
+./samples/SAFE/__tmp_ff49b8d7.c:157:30: error: ‘add_mat’ undeclared (first use in this function)
+  157 |                 int status = add_mat
+      |                              ^~~~~~~
+./samples/SAFE/__tmp_ff49b8d7.c:157:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ff49b8d7.c:157:17: error: expected ‘,’ or ‘;’ at end of input
+  157 |                 int status = add_mat
+      |                 ^~~
+./samples/SAFE/__tmp_ff49b8d7.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ff49b8d7.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ff49b8d7.c:157:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ff49b8d7.c:157:17: error: expected declaration or statement at end of input

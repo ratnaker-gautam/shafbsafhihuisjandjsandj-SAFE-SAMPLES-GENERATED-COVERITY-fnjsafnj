@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0f99bdfc.c: In function ‘main’:
+./samples/SAFE/__tmp_0f99bdfc.c:153:5: error: expected declaration or statement at end of input
+  153 |     initialize_state_machine(&sm);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~

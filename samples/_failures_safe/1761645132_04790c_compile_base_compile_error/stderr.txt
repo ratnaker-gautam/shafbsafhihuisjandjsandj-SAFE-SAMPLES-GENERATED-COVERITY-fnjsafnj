@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_8f5469cb.c: In function ‘main’:
+./samples/SAFE/__tmp_8f5469cb.c:151:54: error: ‘test’ undeclared (first use in this function)
+  151 |     if (process_compression(&ctx, test_data3, sizeof(test
+      |                                                      ^~~~
+./samples/SAFE/__tmp_8f5469cb.c:151:54: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8f5469cb.c:151:58: error: expected ‘)’ at end of input
+  151 |     if (process_compression(&ctx, test_data3, sizeof(test
+      |                                                     ~    ^
+      |                                                          )
+./samples/SAFE/__tmp_8f5469cb.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (process_compression(&ctx, test_data3, sizeof(test
+      |     ^~

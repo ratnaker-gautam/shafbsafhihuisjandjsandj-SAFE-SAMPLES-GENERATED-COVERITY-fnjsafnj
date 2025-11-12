@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a3833a88.c: In function ‘graph_operation’:
+./samples/SAFE/__tmp_a3833a88.c:174:21: error: expected declaration or statement at end of input
+  174 |                     g->adj_matrix[v1][v2] = 0;
+      |                     ^
+./samples/SAFE/__tmp_a3833a88.c:174:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a3833a88.c:174:21: error: expected declaration or statement at end of input

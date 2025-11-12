@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_641667ec.c: In function ‘main’:
+./samples/SAFE/__tmp_641667ec.c:156:13: error: ‘compress_r’ undeclared (first use in this function); did you mean ‘compress_rle’?
+  156 |             compress_r
+      |             ^~~~~~~~~~
+      |             compress_rle
+./samples/SAFE/__tmp_641667ec.c:156:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_641667ec.c:156:23: error: expected ‘;’ at end of input
+  156 |             compress_r
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_641667ec.c:156:13: error: expected declaration or statement at end of input
+  156 |             compress_r
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_641667ec.c:156:13: error: expected declaration or statement at end of input

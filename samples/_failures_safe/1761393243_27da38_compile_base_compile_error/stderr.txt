@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_e4badeed.c: In function ‘main’:
+./samples/SAFE/__tmp_e4badeed.c:153:35: error: expected ‘)’ at end of input
+  153 |             if (simulate_data_read
+      |                ~                  ^
+      |                                   )
+./samples/SAFE/__tmp_e4badeed.c:153:13: error: expected declaration or statement at end of input
+  153 |             if (simulate_data_read
+      |             ^~
+./samples/SAFE/__tmp_e4badeed.c:153:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e4badeed.c:153:13: error: expected declaration or statement at end of input

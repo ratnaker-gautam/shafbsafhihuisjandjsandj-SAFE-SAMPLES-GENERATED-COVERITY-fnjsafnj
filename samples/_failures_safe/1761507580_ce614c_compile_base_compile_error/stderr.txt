@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_4082657a.c: In function ‘main’:
+./samples/SAFE/__tmp_4082657a.c:150:5: error: expected declaration or statement at end of input
+  150 |     printf("Graph Algorithms Demo:\n");
+      |     ^~~~~~

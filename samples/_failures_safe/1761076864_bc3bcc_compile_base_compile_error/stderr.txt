@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_d4b811b4.c: In function ‘main’:
+./samples/SAFE/__tmp_d4b811b4.c:151:16: error: missing terminating " character
+  151 |         printf("Round-trip failed
+      |                ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_d4b811b4.c:151:9: error: expected expression at end of input
+  151 |         printf("Round-trip failed
+      |         ^~~~~~
+./samples/SAFE/__tmp_d4b811b4.c:151:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d4b811b4.c:151:9: error: expected declaration or statement at end of input

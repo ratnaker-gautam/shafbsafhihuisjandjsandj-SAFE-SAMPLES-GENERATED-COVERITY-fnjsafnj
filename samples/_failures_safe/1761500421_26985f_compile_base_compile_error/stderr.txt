@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_97c8fc55.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_97c8fc55.c:186:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  186 |         struct Node* next
+      |                ^~~~
+./samples/SAFE/__tmp_97c8fc55.c:186:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_97c8fc55.c:186:16: error: expected declaration or statement at end of input

@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_162ab7ad.c: In function ‘main’:
+./samples/SAFE/__tmp_162ab7ad.c:164:43: error: ‘input_b’ undeclared (first use in this function); did you mean ‘input_buf’?
+  164 |     size_t compressed_size = compress_rle(input_b
+      |                                           ^~~~~~~
+      |                                           input_buf
+./samples/SAFE/__tmp_162ab7ad.c:164:43: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_162ab7ad.c:164:50: error: expected ‘)’ at end of input
+  164 |     size_t compressed_size = compress_rle(input_b
+      |                                          ~       ^
+      |                                                  )
+./samples/SAFE/__tmp_162ab7ad.c:164:30: error: too few arguments to function ‘compress_rle’
+  164 |     size_t compressed_size = compress_rle(input_b
+      |                              ^~~~~~~~~~~~
+./samples/SAFE/__tmp_162ab7ad.c:62:8: note: declared here
+   62 | size_t compress_rle(const uint8_t *input, size_t input_len, uint8_t *output, size_t output_capacity) {
+      |        ^~~~~~~~~~~~
+./samples/SAFE/__tmp_162ab7ad.c:164:5: error: expected declaration or statement at end of input
+  164 |     size_t compressed_size = compress_rle(input_b
+      |     ^~~~~~

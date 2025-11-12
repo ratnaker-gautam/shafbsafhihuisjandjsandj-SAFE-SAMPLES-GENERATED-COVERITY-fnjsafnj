@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e22f8732.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_e22f8732.c:127:9: error: expected identifier at end of input
+  127 |         return m->
+      |         ^~~~~~
+./samples/SAFE/__tmp_e22f8732.c:127:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e22f8732.c:127:9: error: expected declaration or statement at end of input

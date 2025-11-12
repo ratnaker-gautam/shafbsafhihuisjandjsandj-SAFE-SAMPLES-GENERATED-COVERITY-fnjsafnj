@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_2c011e1a.c: In function ‘process_event’:
+./samples/SAFE/__tmp_2c011e1a.c:170:38: error: ‘s’ undeclared (first use in this function); did you mean ‘sm’?
+  170 |             return handle_idle_state(s
+      |                                      ^
+      |                                      sm
+./samples/SAFE/__tmp_2c011e1a.c:170:38: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2c011e1a.c:170:39: error: expected ‘)’ at end of input
+  170 |             return handle_idle_state(s
+      |                                     ~ ^
+      |                                       )
+./samples/SAFE/__tmp_2c011e1a.c:170:20: error: too few arguments to function ‘handle_idle_state’
+  170 |             return handle_idle_state(s
+      |                    ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2c011e1a.c:51:7: note: declared here
+   51 | State handle_idle_state(StateMachine *sm, Event event, const char *data) {
+      |       ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_2c011e1a.c:170:13: error: expected declaration or statement at end of input
+  170 |             return handle_idle_state(s
+      |             ^~~~~~
+./samples/SAFE/__tmp_2c011e1a.c:170:13: error: expected declaration or statement at end of input

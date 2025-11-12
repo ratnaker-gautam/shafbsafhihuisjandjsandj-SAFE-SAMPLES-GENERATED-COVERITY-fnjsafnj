@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4954cc20.c: In function ‘main’:
+./samples/SAFE/__tmp_4954cc20.c:162:5: error: expected expression at end of input
+  162 |     size_t len =
+      |     ^~~~~~
+./samples/SAFE/__tmp_4954cc20.c:162:5: error: expected declaration or statement at end of input

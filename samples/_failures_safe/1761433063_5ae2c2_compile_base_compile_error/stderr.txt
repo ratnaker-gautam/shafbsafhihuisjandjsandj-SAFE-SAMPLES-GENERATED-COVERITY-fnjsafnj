@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b9517f2a.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_b9517f2a.c:189:41: error: expected ‘)’ at end of input
+  189 |         if (graph->nodes[i]->id == start
+      |            ~                            ^
+      |                                         )
+./samples/SAFE/__tmp_b9517f2a.c:189:9: error: expected declaration or statement at end of input
+  189 |         if (graph->nodes[i]->id == start
+      |         ^~
+./samples/SAFE/__tmp_b9517f2a.c:189:9: error: expected declaration or statement at end of input

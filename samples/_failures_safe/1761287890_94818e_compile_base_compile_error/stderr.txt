@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_022746d5.c: In function ‘create_sample_graph’:
+./samples/SAFE/__tmp_022746d5.c:173:5: error: expected declaration or statement at end of input
+  173 |     Graph g;
+      |     ^~~~~

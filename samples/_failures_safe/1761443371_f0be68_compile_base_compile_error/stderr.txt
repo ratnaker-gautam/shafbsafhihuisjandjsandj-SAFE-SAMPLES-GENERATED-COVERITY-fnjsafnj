@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2e56d2bc.c: In function ‘main’:
+./samples/SAFE/__tmp_2e56d2bc.c:142:13: error: expected declaration or statement at end of input
+  142 |             int result[rows][cols];
+      |             ^~~
+./samples/SAFE/__tmp_2e56d2bc.c:142:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2e56d2bc.c:142:13: error: expected declaration or statement at end of input

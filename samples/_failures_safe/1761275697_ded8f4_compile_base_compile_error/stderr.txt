@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_15a07ddd.c: In function ‘graph_dijkstra’:
+./samples/SAFE/__tmp_15a07ddd.c:137:5: error: expected expression at end of input
+  137 |     while (node !=
+      |     ^~~~~
+./samples/SAFE/__tmp_15a07ddd.c:137:5: error: expected declaration or statement at end of input

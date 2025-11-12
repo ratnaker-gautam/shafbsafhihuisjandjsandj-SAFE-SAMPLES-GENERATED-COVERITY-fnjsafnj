@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_97510313.c: In function ‘main’:
+./samples/SAFE/__tmp_97510313.c:148:5: error: expected declaration or statement at end of input
+  148 |     printf("State Machine Demo - Commands: start, data, process, write, error, reset, quit\n");
+      |     ^~~~~~

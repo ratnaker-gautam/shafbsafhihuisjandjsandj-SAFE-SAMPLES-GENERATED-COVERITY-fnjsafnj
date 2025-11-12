@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f331f130.c: In function ‘pointcloud_compute_bounds’:
+./samples/SAFE/__tmp_f331f130.c:125:51: error: expected ‘;’ at end of input
+  125 |         if (pc->points[i].x < bounds.min.x) bounds
+      |                                                   ^
+      |                                                   ;
+./samples/SAFE/__tmp_f331f130.c:125:9: error: expected declaration or statement at end of input
+  125 |         if (pc->points[i].x < bounds.min.x) bounds
+      |         ^~
+./samples/SAFE/__tmp_f331f130.c:125:9: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_882baf04.c: In function ‘main’:
+./samples/SAFE/__tmp_882baf04.c:157:9: error: expected ‘;’ at end of input
+  157 |     mat1
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_882baf04.c:157:5: error: expected declaration or statement at end of input
+  157 |     mat1
+      |     ^~~~

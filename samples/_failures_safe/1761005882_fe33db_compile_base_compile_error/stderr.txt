@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d8be5863.c: In function ‘add_log_entry’:
+./samples/SAFE/__tmp_d8be5863.c:110:44: error: expected ‘]’ at end of input
+  110 |     analyzer->entries[analyzer->entry_count
+      |                                            ^
+      |                                            ]
+./samples/SAFE/__tmp_d8be5863.c:110:5: error: expected declaration or statement at end of input
+  110 |     analyzer->entries[analyzer->entry_count
+      |     ^~~~~~~~

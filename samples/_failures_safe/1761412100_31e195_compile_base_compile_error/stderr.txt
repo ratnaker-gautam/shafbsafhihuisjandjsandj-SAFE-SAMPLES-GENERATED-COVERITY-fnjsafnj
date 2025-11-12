@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_0cebca53.c: In function ‘main’:
+./samples/SAFE/__tmp_0cebca53.c:154:29: error: expected ‘)’ at end of input
+  154 |     graph_add_edge(&graph, 4
+      |                   ~         ^
+      |                             )
+./samples/SAFE/__tmp_0cebca53.c:154:5: error: too few arguments to function ‘graph_add_edge’
+  154 |     graph_add_edge(&graph, 4
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_0cebca53.c:90:6: note: declared here
+   90 | void graph_add_edge(Graph* graph, int from, int to, int weight) {
+      |      ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_0cebca53.c:154:5: error: expected declaration or statement at end of input
+  154 |     graph_add_edge(&graph, 4
+      |     ^~~~~~~~~~~~~~

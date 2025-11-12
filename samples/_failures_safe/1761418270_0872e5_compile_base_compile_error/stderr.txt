@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bd9bedfb.c: In function ‘main’:
+./samples/SAFE/__tmp_bd9bedfb.c:152:46: error: expected ‘)’ at end of input
+  152 |     printf("ERROR entries: %d\n", error_count
+      |           ~                                  ^
+      |                                              )
+./samples/SAFE/__tmp_bd9bedfb.c:152:5: error: expected declaration or statement at end of input
+  152 |     printf("ERROR entries: %d\n", error_count
+      |     ^~~~~~

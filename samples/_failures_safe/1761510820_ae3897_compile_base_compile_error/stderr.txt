@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_02734da6.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_02734da6.c:153:26: error: expected ‘)’ at end of input
+  153 |            sm->data_count
+      |                          ^
+      |                          )
+./samples/SAFE/__tmp_02734da6.c:152:11: note: to match this ‘(’
+  152 |     printf("Data Count: %u, Processed: %u, Errors: %u\n",
+      |           ^
+./samples/SAFE/__tmp_02734da6.c:153:12: error: expected declaration or statement at end of input
+  153 |            sm->data_count
+      |            ^~

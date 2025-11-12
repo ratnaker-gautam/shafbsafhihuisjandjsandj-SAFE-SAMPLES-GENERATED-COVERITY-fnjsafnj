@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_dbd4ab6f.c: In function ‘main’:
+./samples/SAFE/__tmp_dbd4ab6f.c:180:13: error: expected declaration or statement at end of input
+  180 |             if (can_undo(sm)) {
+      |             ^~
+./samples/SAFE/__tmp_dbd4ab6f.c:180:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dbd4ab6f.c:180:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dbd4ab6f.c:180:13: error: expected declaration or statement at end of input

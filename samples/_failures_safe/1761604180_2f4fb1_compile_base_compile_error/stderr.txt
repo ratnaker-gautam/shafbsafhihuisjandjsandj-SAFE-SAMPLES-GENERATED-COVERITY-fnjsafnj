@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_defd1940.c: In function ‘main’:
+./samples/SAFE/__tmp_defd1940.c:142:28: error: missing terminating " character
+  142 |                     printf("Matrix multiplication failed: dimension mismatch or overflow
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_defd1940.c:142:21: error: expected expression at end of input
+  142 |                     printf("Matrix multiplication failed: dimension mismatch or overflow
+      |                     ^~~~~~
+./samples/SAFE/__tmp_defd1940.c:142:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_defd1940.c:142:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_defd1940.c:142:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_defd1940.c:142:21: error: expected declaration or statement at end of input

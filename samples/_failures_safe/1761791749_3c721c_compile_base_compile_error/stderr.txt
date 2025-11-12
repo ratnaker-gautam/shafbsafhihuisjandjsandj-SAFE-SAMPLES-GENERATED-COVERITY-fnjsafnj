@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_b922887c.c:96: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_b922887c.c:27:28: note: to match this ‘{’
+   27 | Transition transitions[] = {
+      |                            ^

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_72ad9877.c: In function ‘main’:
+./samples/SAFE/__tmp_72ad9877.c:144:30: error: missing terminating " character
+  144 |     if (strcmp(filter_input, "
+      |                              ^
+./samples/SAFE/__tmp_72ad9877.c:144:5: error: expected expression at end of input
+  144 |     if (strcmp(filter_input, "
+      |     ^~
+./samples/SAFE/__tmp_72ad9877.c:144:5: error: expected declaration or statement at end of input

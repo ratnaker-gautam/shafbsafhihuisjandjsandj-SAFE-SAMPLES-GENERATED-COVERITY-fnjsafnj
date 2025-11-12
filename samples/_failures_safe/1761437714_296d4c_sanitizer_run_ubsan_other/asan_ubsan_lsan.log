@@ -1,0 +1,8 @@
+
+samples/SAFE/__tmp_0a67d6fd.c:48:5: runtime error: null pointer passed as argument 2, which is declared to never be null
+    #0 0x5cf7a7ffcac4 in buffer_append samples/SAFE/__tmp_0a67d6fd.c:48
+    #1 0x5cf7a7ffd486 in main samples/SAFE/__tmp_0a67d6fd.c:122
+    #2 0x7ec35bc2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x7ec35bc2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x5cf7a7ffc364 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_0a67d6fd.c.san+0x3364) (BuildId: 0761fae00b60e1cf51ab7ce9878037e2fdd6480b)
+

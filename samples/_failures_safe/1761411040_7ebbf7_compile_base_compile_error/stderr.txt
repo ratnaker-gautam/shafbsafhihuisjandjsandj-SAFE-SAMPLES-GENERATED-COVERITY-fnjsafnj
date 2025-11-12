@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9cee88bb.c: In function ‘main’:
+./samples/SAFE/__tmp_9cee88bb.c:165: error: expected ‘]’ at end of input
+./samples/SAFE/__tmp_9cee88bb.c:164:12: error: expected declaration or statement at end of input
+  164 |     struct Token tokens[MAX_TOKENS
+      |            ^~~~~

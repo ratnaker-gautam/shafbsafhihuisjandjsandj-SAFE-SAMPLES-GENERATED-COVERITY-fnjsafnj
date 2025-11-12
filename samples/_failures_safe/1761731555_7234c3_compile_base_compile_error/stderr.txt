@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_369af83d.c: In function ‘next_token’:
+./samples/SAFE/__tmp_369af83d.c:158:17: error: expected declaration or statement at end of input
+  158 |                 strncpy(token.value, lexer->input + start, length);
+      |                 ^~~~~~~
+./samples/SAFE/__tmp_369af83d.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_369af83d.c:158:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_369af83d.c:158:17: error: expected declaration or statement at end of input

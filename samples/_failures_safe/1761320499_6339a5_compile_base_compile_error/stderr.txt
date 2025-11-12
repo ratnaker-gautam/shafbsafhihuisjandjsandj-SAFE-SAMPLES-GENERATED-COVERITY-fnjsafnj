@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_63c1e558.c: In function ‘process_event’:
+./samples/SAFE/__tmp_63c1e558.c:168:5: error: expected declaration or statement at end of input
+  168 |     if (sm == NULL) return STATE_ERROR;
+      |     ^~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_93374ebd.c: In function ‘main’:
+./samples/SAFE/__tmp_93374ebd.c:154:9: error: expected declaration or statement at end of input
+  154 |         if (current->src < 0 || current->src >= nodes || current->dest < 0 || current->dest >= nodes) {
+      |         ^~
+./samples/SAFE/__tmp_93374ebd.c:154:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_93374ebd.c:154:9: error: expected declaration or statement at end of input

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_8e1ece1a.c: In function ‘main’:
+./samples/SAFE/__tmp_8e1ece1a.c:143:17: error: expected expression at end of input
+  143 |                 if (!read_matrix(&a))
+      |                 ^~
+./samples/SAFE/__tmp_8e1ece1a.c:143:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8e1ece1a.c:143:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8e1ece1a.c:143:17: error: expected declaration or statement at end of input

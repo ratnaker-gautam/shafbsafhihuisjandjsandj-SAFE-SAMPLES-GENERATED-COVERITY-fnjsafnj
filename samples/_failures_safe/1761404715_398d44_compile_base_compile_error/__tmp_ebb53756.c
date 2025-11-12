@@ -1,0 +1,165 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: modular_functions ; Variation: compression_stub
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <limits.h>
+
+#define MAX_INPUT_SIZE 1024
+#define MAX_OUTPUT_SIZE 2048
+
+typedef struct {
+    uint8_t data[MAX_OUTPUT_SIZE];
+    size_t size;
+} Buffer;
+
+int validate_input(const char* input, size_t len) {
+    if (input == NULL) return 0;
+    if (len == 0 || len > MAX_INPUT_SIZE) return 0;
+    return 1;
+}
+
+Buffer compress_rle(const char* input, size_t len) {
+    Buffer result = {0};
+    if (!validate_input(input, len)) return result;
+    
+    size_t out_idx = 0;
+    size_t i = 0;
+    
+    while (i < len && out_idx < MAX_OUTPUT_SIZE - 2) {
+        uint8_t current = input[i];
+        size_t count = 1;
+        
+        while (i + count < len && count < UINT8_MAX && input[i + count] == current) {
+            count++;
+        }
+        
+        if (out_idx + 2 >= MAX_OUTPUT_SIZE) break;
+        
+        result.data[out_idx++] = (uint8_t)count;
+        result.data[out_idx++] = current;
+        i += count;
+    }
+    
+    result.size = out_idx;
+    return result;
+}
+
+Buffer decompress_rle(const uint8_t* input, size_t len) {
+    Buffer result = {0};
+    if (input == NULL || len == 0 || len % 2 != 0) return result;
+    
+    size_t out_idx = 0;
+    size_t i = 0;
+    
+    while (i < len && out_idx < MAX_OUTPUT_SIZE) {
+        uint8_t count = input[i++];
+        uint8_t value = input[i++];
+        
+        if (out_idx + count > MAX_OUTPUT_SIZE) break;
+        
+        for (uint8_t j = 0; j < count && out_idx < MAX_OUTPUT_SIZE; j++) {
+            result.data[out_idx++] = value;
+        }
+    }
+    
+    result.size = out_idx;
+    return result;
+}
+
+void print_buffer_hex(const Buffer* buf) {
+    if (buf == NULL || buf->size == 0) return;
+    
+    for (size_t i = 0; i < buf->size; i++) {
+        printf("%02X", buf->data[i]);
+        if (i < buf->size - 1) printf(" ");
+    }
+    printf("\n");
+}
+
+void print_buffer_text(const Buffer* buf) {
+    if (buf == NULL || buf->size == 0) return;
+    
+    for (size_t i = 0; i < buf->size; i++) {
+        if (buf->data[i] >= 32 && buf->data[i] <= 126) {
+            printf("%c", buf->data[i]);
+        } else {
+            printf(".");
+        }
+    }
+    printf("\n");
+}
+
+void print_text_direct(const char* text, size_t len) {
+    if (text == NULL || len == 0) return;
+    
+    for (size_t i = 0; i < len; i++) {
+        if (text[i] >= 32 && text[i] <= 126) {
+            printf("%c", text[i]);
+        } else {
+            printf(".");
+        }
+    }
+    printf("\n");
+}
+
+int main(void) {
+    char input[MAX_INPUT_SIZE + 1] = {0};
+    printf("Enter text to compress (max %d chars): ", MAX_INPUT_SIZE);
+    
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        printf("Error reading input\n");
+        return 1;
+    }
+    
+    size_t len = strlen(input);
+    if (len > 0 && input[len - 1] == '\n') {
+        input[len - 1] = '\0';
+        len--;
+    }
+    
+    if (!validate_input(input, len)) {
+        printf("Invalid input\n");
+        return 1;
+    }
+    
+    printf("Original text: ");
+    print_text_direct(input, len);
+    printf("Original size: %zu bytes\n", len);
+    
+    Buffer compressed = compress_rle(input, len);
+    if (compressed.size == 0) {
+        printf("Compression failed\n");
+        return 1;
+    }
+    
+    printf("Compressed (hex): ");
+    print_buffer_hex(&compressed);
+    printf("Compressed size: %zu bytes\n", compressed.size);
+    
+    if (compressed.size < len) {
+        double ratio = (1.0 - (double)compressed.size / len) * 100;
+        if (ratio >= 0.0 && ratio <= 100.0) {
+            printf("Compression ratio: %.2f%%\n", ratio);
+        } else {
+            printf("Compression ratio calculation error\n");
+        }
+    } else {
+        printf("No compression achieved\n");
+    }
+    
+    Buffer decompressed = decompress_rle(compressed.data, compressed.size);
+    if (decompressed.size == 0) {
+        printf("Decompression failed\n");
+        return 1;
+    }
+    
+    printf("Decompressed text: ");
+    print_buffer_text(&decompressed);
+    
+    if (decompressed.size == len && memcmp(decompressed.data, input, len) == 0) {
+        printf("Verification: SUCCESS\n");
+    } else {
+        printf("Verification: FAILED\n");
+        return 1;
+    }

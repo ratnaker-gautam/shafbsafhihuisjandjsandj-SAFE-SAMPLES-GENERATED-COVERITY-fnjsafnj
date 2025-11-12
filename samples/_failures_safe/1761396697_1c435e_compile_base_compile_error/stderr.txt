@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_85f9086b.c: In function ‘main’:
+./samples/SAFE/__tmp_85f9086b.c:147:45: error: ‘Word’ undeclared (first use in this function)
+  147 |     qsort(words, (size_t)word_count, sizeof(Word
+      |                                             ^~~~
+./samples/SAFE/__tmp_85f9086b.c:147:45: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_85f9086b.c:147:49: error: expected ‘)’ at end of input
+  147 |     qsort(words, (size_t)word_count, sizeof(Word
+      |                                            ~    ^
+      |                                                 )
+./samples/SAFE/__tmp_85f9086b.c:147:5: error: too few arguments to function ‘qsort’
+  147 |     qsort(words, (size_t)word_count, sizeof(Word
+      |     ^~~~~
+In file included from ./samples/SAFE/__tmp_85f9086b.c:3:
+/usr/include/stdlib.h:970:13: note: declared here
+  970 | extern void qsort (void *__base, size_t __nmemb, size_t __size,
+      |             ^~~~~
+./samples/SAFE/__tmp_85f9086b.c:147:5: error: expected declaration or statement at end of input
+  147 |     qsort(words, (size_t)word_count, sizeof(Word
+      |     ^~~~~

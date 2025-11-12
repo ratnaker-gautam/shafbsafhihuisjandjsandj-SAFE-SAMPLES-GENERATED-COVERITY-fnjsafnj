@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5daf02aa.c: In function ‘main’:
+./samples/SAFE/__tmp_5daf02aa.c:180:9: error: expected declaration or statement at end of input
+  180 |         for (size_t j = 0; j < cols; j++) {
+      |         ^~~
+./samples/SAFE/__tmp_5daf02aa.c:180:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5daf02aa.c:180:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ad6c966d.c: In function ‘transform_bounding_box’:
+./samples/SAFE/__tmp_ad6c966d.c:122:9: error: expected expression at end of input
+  122 |         if (transformed.y >
+      |         ^~
+./samples/SAFE/__tmp_ad6c966d.c:122:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ad6c966d.c:122:9: error: expected declaration or statement at end of input

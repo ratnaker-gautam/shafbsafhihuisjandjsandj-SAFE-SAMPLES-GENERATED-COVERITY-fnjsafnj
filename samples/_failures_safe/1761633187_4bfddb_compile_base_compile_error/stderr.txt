@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_98336da8.c: In function ‘main’:
+./samples/SAFE/__tmp_98336da8.c:173:5: error: expected declaration or statement at end of input
+  173 |     executeAlgorithm(graph, BFS, 0);
+      |     ^~~~~~~~~~~~~~~~

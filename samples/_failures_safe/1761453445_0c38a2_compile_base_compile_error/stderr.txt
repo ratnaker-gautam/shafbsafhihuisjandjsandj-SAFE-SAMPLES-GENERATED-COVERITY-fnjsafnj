@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_a82d5a74.c: In function ‘process_input’:
+./samples/SAFE/__tmp_a82d5a74.c:164:5: error: ‘uint32’ undeclared (first use in this function); did you mean ‘uint32_t’?
+  164 |     uint32
+      |     ^~~~~~
+      |     uint32_t
+./samples/SAFE/__tmp_a82d5a74.c:164:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a82d5a74.c:164:11: error: expected ‘;’ at end of input
+  164 |     uint32
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_a82d5a74.c:164:5: error: expected declaration or statement at end of input
+  164 |     uint32
+      |     ^~~~~~

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_6dd0151d.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_6dd0151d.c:165:16: error: expected ‘]’ at end of input
+  165 |         graph[i
+      |                ^
+      |                ]
+./samples/SAFE/__tmp_6dd0151d.c:165:9: error: expected declaration or statement at end of input
+  165 |         graph[i
+      |         ^~~~~
+./samples/SAFE/__tmp_6dd0151d.c:165:9: error: expected declaration or statement at end of input

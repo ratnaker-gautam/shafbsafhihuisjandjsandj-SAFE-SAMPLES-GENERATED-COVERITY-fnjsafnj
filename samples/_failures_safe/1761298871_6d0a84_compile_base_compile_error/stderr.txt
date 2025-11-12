@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_e553b3f4.c: In function ‘main’:
+./samples/SAFE/__tmp_e553b3f4.c:182:15: error: ‘StateMachine’ has no member named ‘current’
+  182 |             sm.current
+      |               ^
+./samples/SAFE/__tmp_e553b3f4.c:182:23: error: expected ‘;’ at end of input
+  182 |             sm.current
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_e553b3f4.c:182:13: error: expected declaration or statement at end of input
+  182 |             sm.current
+      |             ^~
+./samples/SAFE/__tmp_e553b3f4.c:182:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e553b3f4.c:182:13: error: expected declaration or statement at end of input

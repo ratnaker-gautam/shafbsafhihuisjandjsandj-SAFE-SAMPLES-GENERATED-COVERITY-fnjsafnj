@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_9b609138.c: In function ‘main’:
+./samples/SAFE/__tmp_9b609138.c:142:30: error: expected ‘)’ at end of input
+  142 |     if (scanf("%d", &numEdges
+      |              ~               ^
+      |                              )
+./samples/SAFE/__tmp_9b609138.c:142:5: error: expected declaration or statement at end of input
+  142 |     if (scanf("%d", &numEdges
+      |     ^~

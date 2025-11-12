@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_8a13b846.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_8a13b846.c:188:26: error: ‘eof’ undeclared (first use in this function); did you mean ‘feof’?
+  188 |     token_list_add(list, eof
+      |                          ^~~
+      |                          feof
+./samples/SAFE/__tmp_8a13b846.c:188:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8a13b846.c:188:29: error: expected ‘)’ at end of input
+  188 |     token_list_add(list, eof
+      |                   ~         ^
+      |                             )
+./samples/SAFE/__tmp_8a13b846.c:188:5: error: expected declaration or statement at end of input
+  188 |     token_list_add(list, eof
+      |     ^~~~~~~~~~~~~~

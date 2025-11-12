@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5fc39e73.c: In function ‘main’:
+./samples/SAFE/__tmp_5fc39e73.c:144:9: error: expected identifier at end of input
+  144 |         printf("[%s] %s: %s\n", entries[i].timestamp, entries[i].
+      |         ^~~~~~
+./samples/SAFE/__tmp_5fc39e73.c:144:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5fc39e73.c:144:9: error: expected declaration or statement at end of input

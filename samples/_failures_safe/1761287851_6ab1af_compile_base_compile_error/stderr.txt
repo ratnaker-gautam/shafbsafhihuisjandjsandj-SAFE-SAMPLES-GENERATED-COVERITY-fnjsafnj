@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_cb678d52.c: In function ‘main’:
+./samples/SAFE/__tmp_cb678d52.c:163:68: error: ‘state’ undeclared (first use in this function); did you mean ‘State’?
+  163 |             printf("State transition successful. New state: %s\n", state
+      |                                                                    ^~~~~
+      |                                                                    State
+./samples/SAFE/__tmp_cb678d52.c:163:68: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cb678d52.c:163:73: error: expected ‘)’ at end of input
+  163 |             printf("State transition successful. New state: %s\n", state
+      |                   ~                                                     ^
+      |                                                                         )
+./samples/SAFE/__tmp_cb678d52.c:163:13: error: expected declaration or statement at end of input
+  163 |             printf("State transition successful. New state: %s\n", state
+      |             ^~~~~~
+./samples/SAFE/__tmp_cb678d52.c:163:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cb678d52.c:163:13: error: expected declaration or statement at end of input

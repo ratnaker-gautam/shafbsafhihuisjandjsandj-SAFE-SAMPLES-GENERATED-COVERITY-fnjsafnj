@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_af9350eb.c: In function ‘main’:
+./samples/SAFE/__tmp_af9350eb.c:161:42: error: expected ‘)’ at end of input
+  161 |                 state_display_result(&ctx
+      |                                     ~    ^
+      |                                          )
+./samples/SAFE/__tmp_af9350eb.c:161:17: error: expected declaration or statement at end of input
+  161 |                 state_display_result(&ctx
+      |                 ^~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_af9350eb.c:161:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_af9350eb.c:161:17: error: expected declaration or statement at end of input

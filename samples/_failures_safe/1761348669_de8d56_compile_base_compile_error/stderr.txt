@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_d3446ffc.c: In function ‘read_operator’:
+./samples/SAFE/__tmp_d3446ffc.c:158:31: error: ‘lex’ undeclared (first use in this function); did you mean ‘lexer’?
+  158 |          (buffer[0] == '=' && lex
+      |                               ^~~
+      |                               lexer
+./samples/SAFE/__tmp_d3446ffc.c:158:31: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d3446ffc.c:158:34: error: expected ‘)’ at end of input
+  158 |          (buffer[0] == '=' && lex
+      |          ~                       ^
+      |                                  )
+./samples/SAFE/__tmp_d3446ffc.c:158:10: error: expected declaration or statement at end of input
+  158 |          (buffer[0] == '=' && lex
+      |          ^

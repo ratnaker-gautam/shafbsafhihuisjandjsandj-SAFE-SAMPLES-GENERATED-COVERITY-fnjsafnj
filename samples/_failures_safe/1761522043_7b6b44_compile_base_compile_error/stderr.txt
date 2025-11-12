@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_91659d03.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_91659d03.c:152:26: error: expected ‘;’ at end of input
+  152 |     parser->current_token
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_91659d03.c:152:5: error: expected declaration or statement at end of input
+  152 |     parser->current_token
+      |     ^~~~~~

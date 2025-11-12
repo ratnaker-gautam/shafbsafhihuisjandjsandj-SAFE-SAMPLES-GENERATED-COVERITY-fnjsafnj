@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_8dba1de9.c: In function ‘transform_bounds’:
+./samples/SAFE/__tmp_8dba1de9.c:124:13: error: ‘trans’ undeclared (first use in this function)
+  124 |         if (trans
+      |             ^~~~~
+./samples/SAFE/__tmp_8dba1de9.c:124:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8dba1de9.c:124:18: error: expected ‘)’ at end of input
+  124 |         if (trans
+      |            ~     ^
+      |                  )
+./samples/SAFE/__tmp_8dba1de9.c:124:9: error: expected declaration or statement at end of input
+  124 |         if (trans
+      |         ^~
+./samples/SAFE/__tmp_8dba1de9.c:124:9: error: expected declaration or statement at end of input

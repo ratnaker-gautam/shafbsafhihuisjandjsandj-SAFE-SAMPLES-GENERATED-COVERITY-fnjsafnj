@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_16f9d51b.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_16f9d51b.c:151:13: error: expected declaration or statement at end of input
+  151 |             break;
+      |             ^~~~~
+./samples/SAFE/__tmp_16f9d51b.c:151:13: error: expected declaration or statement at end of input

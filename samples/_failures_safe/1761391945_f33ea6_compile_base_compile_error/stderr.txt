@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_98dd8d1f.c: In function ‘main’:
+./samples/SAFE/__tmp_98dd8d1f.c:173:5: error: expected expression at end of input
+  173 |     size_t index = (size_t)(choice -
+      |     ^~~~~~
+./samples/SAFE/__tmp_98dd8d1f.c:173:5: error: expected declaration or statement at end of input

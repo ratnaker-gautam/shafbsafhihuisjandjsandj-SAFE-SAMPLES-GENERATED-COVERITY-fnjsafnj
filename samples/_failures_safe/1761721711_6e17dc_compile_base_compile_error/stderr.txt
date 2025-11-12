@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ac2eeb3e.c: In function ‘process_tokens’:
+./samples/SAFE/__tmp_ac2eeb3e.c:166:5: error: expected expression at end of input
+  166 |     for (size_t i = 0;
+      |     ^~~
+./samples/SAFE/__tmp_ac2eeb3e.c:166:5: error: expected declaration or statement at end of input

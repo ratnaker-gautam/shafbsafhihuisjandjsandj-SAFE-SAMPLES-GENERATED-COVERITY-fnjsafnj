@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_d9cfb95b.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_d9cfb95b.c:172:19: error: expected ‘;’ at end of input
+  172 |             column
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_d9cfb95b.c:172:13: error: expected declaration or statement at end of input
+  172 |             column
+      |             ^~~~~~
+./samples/SAFE/__tmp_d9cfb95b.c:172:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d9cfb95b.c:172:13: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_c48006e5.c: In function ‘print_statistics’:
+./samples/SAFE/__tmp_c48006e5.c:117:54: error: expected ‘)’ at end of input
+  117 |         struct tm *tm_start_ptr = localtime(&analyzer
+      |                                            ~         ^
+      |                                                      )
+./samples/SAFE/__tmp_c48006e5.c:117:16: error: expected declaration or statement at end of input
+  117 |         struct tm *tm_start_ptr = localtime(&analyzer
+      |                ^~
+./samples/SAFE/__tmp_c48006e5.c:117:16: error: expected declaration or statement at end of input

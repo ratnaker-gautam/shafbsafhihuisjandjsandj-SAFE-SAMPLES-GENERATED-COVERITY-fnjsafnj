@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_125137d0.c: In function ‘main’:
+./samples/SAFE/__tmp_125137d0.c:168:9: error: expected expression at end of input
+  168 |         if (pos >= (int)strlen(input))
+      |         ^~
+./samples/SAFE/__tmp_125137d0.c:168:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_125137d0.c:168:9: error: expected declaration or statement at end of input

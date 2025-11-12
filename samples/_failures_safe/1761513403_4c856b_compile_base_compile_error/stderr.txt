@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c9ba1451.c: In function ‘main’:
+./samples/SAFE/__tmp_c9ba1451.c:179:17: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  179 |         if (k < token
+      |                 ^~~~~
+      |                 Token
+./samples/SAFE/__tmp_c9ba1451.c:179:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c9ba1451.c:179:22: error: expected ‘)’ at end of input
+  179 |         if (k < token
+      |            ~         ^
+      |                      )
+./samples/SAFE/__tmp_c9ba1451.c:179:9: error: expected declaration or statement at end of input
+  179 |         if (k < token
+      |         ^~
+./samples/SAFE/__tmp_c9ba1451.c:179:9: error: expected declaration or statement at end of input

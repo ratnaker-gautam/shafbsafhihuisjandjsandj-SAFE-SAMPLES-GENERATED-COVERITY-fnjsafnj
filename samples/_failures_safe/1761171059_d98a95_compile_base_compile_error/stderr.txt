@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_9c82b3cc.c: In function ‘main’:
+./samples/SAFE/__tmp_9c82b3cc.c:152:32: error: expected ‘)’ at end of input
+  152 |     fwrite(decompressed.data, 1
+      |           ~                    ^
+      |                                )
+./samples/SAFE/__tmp_9c82b3cc.c:152:5: error: too few arguments to function ‘fwrite’
+  152 |     fwrite(decompressed.data, 1
+      |     ^~~~~~
+In file included from ./samples/SAFE/__tmp_9c82b3cc.c:2:
+/usr/include/stdio.h:745:15: note: declared here
+  745 | extern size_t fwrite (const void *__restrict __ptr, size_t __size,
+      |               ^~~~~~
+./samples/SAFE/__tmp_9c82b3cc.c:152:5: error: expected declaration or statement at end of input
+  152 |     fwrite(decompressed.data, 1
+      |     ^~~~~~

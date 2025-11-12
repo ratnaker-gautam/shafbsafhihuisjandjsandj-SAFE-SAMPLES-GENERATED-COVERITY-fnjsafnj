@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccmc3uRE.o: in function `main':
+__tmp_e5c236bd.c:(.text.startup+0xe4): undefined reference to `sin'
+/usr/bin/ld: __tmp_e5c236bd.c:(.text.startup+0x105): undefined reference to `cos'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_b67f2cc6.c: In function ‘main’:
+./samples/SAFE/__tmp_b67f2cc6.c:165:42: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  165 |     printf("Original size: %zu bytes\n", input
+      |                                          ^~~~~
+      |                                          int
+./samples/SAFE/__tmp_b67f2cc6.c:165:42: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b67f2cc6.c:165:47: error: expected ‘)’ at end of input
+  165 |     printf("Original size: %zu bytes\n", input
+      |           ~                                   ^
+      |                                               )
+./samples/SAFE/__tmp_b67f2cc6.c:165:5: error: expected declaration or statement at end of input
+  165 |     printf("Original size: %zu bytes\n", input
+      |     ^~~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_09ed72e5.c: In function ‘main’:
+./samples/SAFE/__tmp_09ed72e5.c:156:5: error: expected declaration or statement at end of input
+  156 |     if (len > 0 && heap_buffer[len - 1] == '\n') {
+      |     ^~
+./samples/SAFE/__tmp_09ed72e5.c:156:5: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e7567891.c: In function ‘print_buffer’:
+./samples/SAFE/__tmp_e7567891.c:123:5: error: expected expression at end of input
+  123 |     if (buffer->size % 16 !=
+      |     ^~
+./samples/SAFE/__tmp_e7567891.c:123:5: error: expected declaration or statement at end of input

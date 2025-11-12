@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fa24792f.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_fa24792f.c:147:5: error: expected expression at end of input
+  147 |     if (max_index >=
+      |     ^~
+./samples/SAFE/__tmp_fa24792f.c:147:5: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ed71d5a8.c: In function ‘main’:
+./samples/SAFE/__tmp_ed71d5a8.c:150:5: error: ‘initialize_state_m’ undeclared (first use in this function); did you mean ‘initialize_state_machine’?
+  150 |     initialize_state_m
+      |     ^~~~~~~~~~~~~~~~~~
+      |     initialize_state_machine
+./samples/SAFE/__tmp_ed71d5a8.c:150:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ed71d5a8.c:150:23: error: expected ‘;’ at end of input
+  150 |     initialize_state_m
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_ed71d5a8.c:150:5: error: expected declaration or statement at end of input
+  150 |     initialize_state_m
+      |     ^~~~~~~~~~~~~~~~~~

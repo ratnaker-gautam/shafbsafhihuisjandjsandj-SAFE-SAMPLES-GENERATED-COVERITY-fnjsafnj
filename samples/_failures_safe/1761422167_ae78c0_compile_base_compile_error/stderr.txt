@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a92b131e.c: In function ‘main’:
+./samples/SAFE/__tmp_a92b131e.c:168:9: error: expected expression at end of input
+  168 |         input[len -
+      |         ^~~~~
+./samples/SAFE/__tmp_a92b131e.c:168:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a92b131e.c:168:9: error: expected declaration or statement at end of input

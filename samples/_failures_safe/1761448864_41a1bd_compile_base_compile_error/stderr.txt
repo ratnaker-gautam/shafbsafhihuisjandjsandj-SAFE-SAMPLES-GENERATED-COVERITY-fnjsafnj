@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_8346d953.c: In function ‘main’:
+./samples/SAFE/__tmp_8346d953.c:139:17: error: expected expression at end of input
+  139 |                 if ((matrix1[i][j] > 0 && matrix2[i][j] > INT_MAX - matrix1[i][j]) ||
+      |                 ^~
+./samples/SAFE/__tmp_8346d953.c:139:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8346d953.c:139:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8346d953.c:139:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8346d953.c:139:17: error: expected declaration or statement at end of input

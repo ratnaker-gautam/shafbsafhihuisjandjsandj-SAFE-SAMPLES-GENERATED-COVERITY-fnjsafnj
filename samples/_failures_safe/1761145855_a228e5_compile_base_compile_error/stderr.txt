@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_5d435cf7.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_5d435cf7.c:149:13: error: expected identifier at end of input
+  149 |             if (analyzer->words[i].
+      |             ^~
+./samples/SAFE/__tmp_5d435cf7.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5d435cf7.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5d435cf7.c:149:13: error: expected declaration or statement at end of input

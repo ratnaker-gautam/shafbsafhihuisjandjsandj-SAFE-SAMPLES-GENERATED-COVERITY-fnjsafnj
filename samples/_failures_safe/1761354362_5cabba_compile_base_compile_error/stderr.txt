@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_f0d08685.c: In function ‘main’:
+./samples/SAFE/__tmp_f0d08685.c:151:37: error: ‘STATE_READ’ undeclared (first use in this function); did you mean ‘STATE_READING’?
+  151 |             if (sm.current_state == STATE_READ
+      |                                     ^~~~~~~~~~
+      |                                     STATE_READING
+./samples/SAFE/__tmp_f0d08685.c:151:37: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f0d08685.c:151:47: error: expected ‘)’ at end of input
+  151 |             if (sm.current_state == STATE_READ
+      |                ~                              ^
+      |                                               )
+./samples/SAFE/__tmp_f0d08685.c:151:13: error: expected declaration or statement at end of input
+  151 |             if (sm.current_state == STATE_READ
+      |             ^~
+./samples/SAFE/__tmp_f0d08685.c:151:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0d08685.c:151:13: error: expected declaration or statement at end of input

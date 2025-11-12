@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_2a4bb8d9.c: In function ‘main’:
+./samples/SAFE/__tmp_2a4bb8d9.c:165:31: error: expected ‘]’ at end of input
+  165 |         char trigger = input[0
+      |                               ^
+      |                               ]
+./samples/SAFE/__tmp_2a4bb8d9.c:165:9: error: expected declaration or statement at end of input
+  165 |         char trigger = input[0
+      |         ^~~~
+./samples/SAFE/__tmp_2a4bb8d9.c:165:9: error: expected declaration or statement at end of input

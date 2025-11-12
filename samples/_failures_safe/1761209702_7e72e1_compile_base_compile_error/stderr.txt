@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_17fc7ec2.c: In function ‘main’:
+./samples/SAFE/__tmp_17fc7ec2.c:184:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  184 |         Event event
+      |         ^~~~~
+./samples/SAFE/__tmp_17fc7ec2.c:184:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_17fc7ec2.c:184:9: error: expected declaration or statement at end of input

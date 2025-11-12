@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_2dc95d20.c: In function ‘main’:
+./samples/SAFE/__tmp_2dc95d20.c:173:5: error: expected declaration or statement at end of input
+  173 |     int col = 1;
+      |     ^~~

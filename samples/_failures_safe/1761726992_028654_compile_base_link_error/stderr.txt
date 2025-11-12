@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccbaKjRu.o: in function `safe_pow':
+__tmp_e28c7049.c:(.text+0xda): undefined reference to `pow'
+/usr/bin/ld: __tmp_e28c7049.c:(.text+0x11c): undefined reference to `fmod'
+/usr/bin/ld: /tmp/ccbaKjRu.o: in function `main':
+__tmp_e28c7049.c:(.text.startup+0x1b4): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_e28c7049.c:(.text.startup+0x496): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

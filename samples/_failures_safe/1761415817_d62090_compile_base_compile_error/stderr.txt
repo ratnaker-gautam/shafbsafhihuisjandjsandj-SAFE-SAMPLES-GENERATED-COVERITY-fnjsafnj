@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_fc2e1e61.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_fc2e1e61.c:164:29: error: ‘STATE_ID’ undeclared (first use in this function); did you mean ‘STATE_IDLE’?
+  164 |             current_state = STATE_ID
+      |                             ^~~~~~~~
+      |                             STATE_IDLE
+./samples/SAFE/__tmp_fc2e1e61.c:164:29: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fc2e1e61.c:164:37: error: expected ‘;’ at end of input
+  164 |             current_state = STATE_ID
+      |                                     ^
+      |                                     ;
+./samples/SAFE/__tmp_fc2e1e61.c:164:13: error: expected declaration or statement at end of input
+  164 |             current_state = STATE_ID
+      |             ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_fc2e1e61.c:164:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fc2e1e61.c:164:13: error: expected declaration or statement at end of input

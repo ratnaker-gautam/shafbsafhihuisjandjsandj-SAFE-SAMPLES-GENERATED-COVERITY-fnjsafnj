@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_f92afcc2.c: In function ‘print_menu’:
+./samples/SAFE/__tmp_f92afcc2.c:149:15: error: expected ‘)’ at end of input
+  149 |     switch (sm
+      |            ~  ^
+      |               )
+./samples/SAFE/__tmp_f92afcc2.c:149:13: error: switch quantity not an integer
+  149 |     switch (sm
+      |             ^~
+./samples/SAFE/__tmp_f92afcc2.c:149:5: error: expected declaration or statement at end of input
+  149 |     switch (sm
+      |     ^~~~~~

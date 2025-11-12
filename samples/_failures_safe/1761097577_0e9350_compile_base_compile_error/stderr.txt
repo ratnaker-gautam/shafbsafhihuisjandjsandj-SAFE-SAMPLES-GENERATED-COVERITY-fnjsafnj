@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_30796112.c: In function ‘read_int’:
+./samples/SAFE/__tmp_30796112.c:135:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  135 |     char *endptr
+      |     ^~~~
+./samples/SAFE/__tmp_30796112.c:135:5: error: expected declaration or statement at end of input

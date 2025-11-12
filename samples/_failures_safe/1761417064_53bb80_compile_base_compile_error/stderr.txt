@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_97bd2ca3.c: In function ‘main’:
+./samples/SAFE/__tmp_97bd2ca3.c:157:35: error: ‘mat’ undeclared (first use in this function); did you mean ‘mat2’?
+  157 |     if (multiply_matrices(&mat1, &mat
+      |                                   ^~~
+      |                                   mat2
+./samples/SAFE/__tmp_97bd2ca3.c:157:35: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_97bd2ca3.c:157:38: error: expected ‘)’ at end of input
+  157 |     if (multiply_matrices(&mat1, &mat
+      |                          ~           ^
+      |                                      )
+./samples/SAFE/__tmp_97bd2ca3.c:157:9: error: too few arguments to function ‘multiply_matrices’
+  157 |     if (multiply_matrices(&mat1, &mat
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_97bd2ca3.c:74:5: note: declared here
+   74 | int multiply_matrices(const Matrix *a, const Matrix *b, Matrix *result) {
+      |     ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_97bd2ca3.c:157:5: error: expected declaration or statement at end of input
+  157 |     if (multiply_matrices(&mat1, &mat
+      |     ^~

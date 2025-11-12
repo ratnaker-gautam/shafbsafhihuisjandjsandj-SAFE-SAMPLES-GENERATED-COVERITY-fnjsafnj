@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_8950f58f.c: In function ‘main’:
+./samples/SAFE/__tmp_8950f58f.c:124:27: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  124 |     print_hex(input_data, input
+      |                           ^~~~~
+      |                           int
+./samples/SAFE/__tmp_8950f58f.c:124:27: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8950f58f.c:124:32: error: expected ‘)’ at end of input
+  124 |     print_hex(input_data, input
+      |              ~                 ^
+      |                                )
+./samples/SAFE/__tmp_8950f58f.c:124:5: error: expected declaration or statement at end of input
+  124 |     print_hex(input_data, input
+      |     ^~~~~~~~~

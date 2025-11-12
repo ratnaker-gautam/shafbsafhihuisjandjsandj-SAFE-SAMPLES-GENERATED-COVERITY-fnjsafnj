@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_cf848885.c: In function ‘lex_string’:
+./samples/SAFE/__tmp_cf848885.c:152:17: error: expected ‘;’ at end of input
+  152 |     return token
+      |                 ^
+      |                 ;
+./samples/SAFE/__tmp_cf848885.c:152:5: error: expected declaration or statement at end of input
+  152 |     return token
+      |     ^~~~~~

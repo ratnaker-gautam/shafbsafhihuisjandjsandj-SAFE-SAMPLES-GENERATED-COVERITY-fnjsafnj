@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_82fa165d.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_82fa165d.c:151:24: error: expected ‘;’ at end of input
+  151 |     parser->error_count
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_82fa165d.c:151:5: error: expected declaration or statement at end of input
+  151 |     parser->error_count
+      |     ^~~~~~

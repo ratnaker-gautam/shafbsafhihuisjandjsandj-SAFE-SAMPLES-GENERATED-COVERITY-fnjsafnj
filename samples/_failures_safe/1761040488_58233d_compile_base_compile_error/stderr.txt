@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_076c3815.c: In function ‘main’:
+./samples/SAFE/__tmp_076c3815.c:141:10: error: ‘init’ undeclared (first use in this function); did you mean ‘int’?
+  141 |     if (!init
+      |          ^~~~
+      |          int
+./samples/SAFE/__tmp_076c3815.c:141:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_076c3815.c:141:14: error: expected ‘)’ at end of input
+  141 |     if (!init
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_076c3815.c:141:5: error: expected declaration or statement at end of input
+  141 |     if (!init
+      |     ^~

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_0977dad8.c: In function ‘main’:
+./samples/SAFE/__tmp_0977dad8.c:140:9: error: expected identifier at end of input
+  140 |         printf("%s %s %s\n", heap_entries[i]->
+      |         ^~~~~~
+./samples/SAFE/__tmp_0977dad8.c:140:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0977dad8.c:140:9: error: expected declaration or statement at end of input

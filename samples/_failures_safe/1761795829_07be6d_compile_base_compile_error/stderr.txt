@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_fc572f22.c: In function ‘main’:
+./samples/SAFE/__tmp_fc572f22.c:156:5: error: expected declaration or statement at end of input
+  156 |     mat2.cols = read_int("Enter columns for matrix B: ", 1, MAX_DIM);
+      |     ^~~~

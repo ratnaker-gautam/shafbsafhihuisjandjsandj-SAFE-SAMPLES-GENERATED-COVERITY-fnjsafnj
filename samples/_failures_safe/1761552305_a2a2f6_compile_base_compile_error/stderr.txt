@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_62f8e538.c: In function ‘main’:
+./samples/SAFE/__tmp_62f8e538.c:160:5: error: expected expression at end of input
+  160 |     add_edge(&g2, 0,
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_62f8e538.c:160:5: error: expected declaration or statement at end of input

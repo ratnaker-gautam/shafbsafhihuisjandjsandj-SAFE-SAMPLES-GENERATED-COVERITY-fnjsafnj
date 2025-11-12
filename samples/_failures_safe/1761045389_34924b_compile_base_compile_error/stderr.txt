@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_5ef791a7.c: In function ‘main’:
+./samples/SAFE/__tmp_5ef791a7.c:148:25: error: expected ‘)’ at end of input
+  148 |         free(heap_points
+      |             ~           ^
+      |                         )
+./samples/SAFE/__tmp_5ef791a7.c:148:9: error: expected declaration or statement at end of input
+  148 |         free(heap_points
+      |         ^~~~
+./samples/SAFE/__tmp_5ef791a7.c:148:9: error: expected declaration or statement at end of input

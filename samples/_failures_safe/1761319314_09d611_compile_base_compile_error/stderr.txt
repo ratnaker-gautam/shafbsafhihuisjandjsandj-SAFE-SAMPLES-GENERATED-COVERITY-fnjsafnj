@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_ab61ed63.c: In function ‘main’:
+./samples/SAFE/__tmp_ab61ed63.c:146:22: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  146 |         buffer_free(&input
+      |                      ^~~~~
+      |                      int
+./samples/SAFE/__tmp_ab61ed63.c:146:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ab61ed63.c:146:27: error: expected ‘)’ at end of input
+  146 |         buffer_free(&input
+      |                    ~      ^
+      |                           )
+./samples/SAFE/__tmp_ab61ed63.c:146:9: error: expected declaration or statement at end of input
+  146 |         buffer_free(&input
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_ab61ed63.c:146:9: error: expected declaration or statement at end of input

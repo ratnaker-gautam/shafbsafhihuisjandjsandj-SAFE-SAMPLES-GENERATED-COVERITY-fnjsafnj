@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_da9e72f4.c: In function ‘main’:
+./samples/SAFE/__tmp_da9e72f4.c:139:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  139 |     struct LogAnalyzer analyzer
+      |            ^~~~~~~~~~~
+./samples/SAFE/__tmp_da9e72f4.c:139:12: error: expected declaration or statement at end of input

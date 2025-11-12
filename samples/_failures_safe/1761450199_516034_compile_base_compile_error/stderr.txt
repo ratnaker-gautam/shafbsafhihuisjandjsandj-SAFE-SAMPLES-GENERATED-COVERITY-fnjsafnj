@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_4643e143.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_4643e143.c:154:13: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  154 |             Token token
+      |             ^~~~~
+./samples/SAFE/__tmp_4643e143.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4643e143.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4643e143.c:154:13: error: expected declaration or statement at end of input

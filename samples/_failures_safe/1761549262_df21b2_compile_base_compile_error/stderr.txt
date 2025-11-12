@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccQjolRq.o: in function `create_rotation_matrix':
+__tmp_845f05eb.c:(.text+0x35): undefined reference to `sincos'
+/usr/bin/ld: /tmp/ccQjolRq.o: in function `compute_transform':
+__tmp_845f05eb.c:(.text+0x1e5): undefined reference to `sincos'
+/usr/bin/ld: /tmp/ccQjolRq.o: in function `main':
+__tmp_845f05eb.c:(.text.startup+0x262): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

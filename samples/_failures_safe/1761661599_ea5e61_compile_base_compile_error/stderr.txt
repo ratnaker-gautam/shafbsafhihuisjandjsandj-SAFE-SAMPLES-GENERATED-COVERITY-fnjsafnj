@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_39a118b9.c: In function ‘print_dijkstra’:
+./samples/SAFE/__tmp_39a118b9.c:138:1: error: expected declaration or statement at end of input
+  138 | void print_dijkstra(Graph *g, int start, int target) {
+      | ^~~~

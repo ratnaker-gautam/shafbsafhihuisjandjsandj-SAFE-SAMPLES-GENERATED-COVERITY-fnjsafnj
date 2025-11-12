@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_17375810.c: In function ‘main’:
+./samples/SAFE/__tmp_17375810.c:145:56: error: expected ‘)’ at end of input
+  145 |     size_t compressed_size = compress_rle(original_data
+      |                                          ~             ^
+      |                                                        )
+./samples/SAFE/__tmp_17375810.c:145:30: error: too few arguments to function ‘compress_rle’
+  145 |     size_t compressed_size = compress_rle(original_data
+      |                              ^~~~~~~~~~~~
+./samples/SAFE/__tmp_17375810.c:26:15: note: declared here
+   26 | static size_t compress_rle(const uint8_t* input, size_t input_size, Buffer* output) {
+      |               ^~~~~~~~~~~~
+./samples/SAFE/__tmp_17375810.c:145:5: error: expected declaration or statement at end of input
+  145 |     size_t compressed_size = compress_rle(original_data
+      |     ^~~~~~

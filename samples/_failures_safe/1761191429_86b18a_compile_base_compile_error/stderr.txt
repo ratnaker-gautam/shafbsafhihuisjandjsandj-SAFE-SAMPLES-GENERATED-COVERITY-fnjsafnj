@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_655675a2.c: In function ‘main’:
+./samples/SAFE/__tmp_655675a2.c:147:1: error: expected declaration or statement at end of input
+  147 | int main() {
+      | ^~~

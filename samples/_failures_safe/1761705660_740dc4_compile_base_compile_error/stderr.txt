@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_e91670e0.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_e91670e0.c:153:36: error: expected ‘)’ at end of input
+  153 |                 col += strlen(token
+      |                              ~     ^
+      |                                    )
+./samples/SAFE/__tmp_e91670e0.c:153:31: error: incompatible type for argument 1 of ‘strlen’
+  153 |                 col += strlen(token
+      |                               ^~~~~
+      |                               |
+      |                               struct Token
+In file included from ./samples/SAFE/__tmp_e91670e0.c:4:
+/usr/include/string.h:407:35: note: expected ‘const char *’ but argument is of type ‘struct Token’
+  407 | extern size_t strlen (const char *__s)
+      |                       ~~~~~~~~~~~~^~~
+./samples/SAFE/__tmp_e91670e0.c:153:17: error: expected declaration or statement at end of input
+  153 |                 col += strlen(token
+      |                 ^~~
+./samples/SAFE/__tmp_e91670e0.c:153:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e91670e0.c:153:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e91670e0.c:153:17: error: expected declaration or statement at end of input

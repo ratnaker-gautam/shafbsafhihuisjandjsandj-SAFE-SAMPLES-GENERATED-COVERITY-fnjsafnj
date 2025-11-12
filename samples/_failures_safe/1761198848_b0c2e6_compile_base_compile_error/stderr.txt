@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ffddae3a.c: In function ‘print_current_state’:
+./samples/SAFE/__tmp_ffddae3a.c:145:53: error: expected ‘]’ at end of input
+  145 |         printf("Current state: %s\n", state_names[sm
+      |                                                     ^
+      |                                                     ]
+./samples/SAFE/__tmp_ffddae3a.c:145:50: error: array subscript is not an integer
+  145 |         printf("Current state: %s\n", state_names[sm
+      |                                                  ^
+./samples/SAFE/__tmp_ffddae3a.c:145:9: error: expected declaration or statement at end of input
+  145 |         printf("Current state: %s\n", state_names[sm
+      |         ^~~~~~
+./samples/SAFE/__tmp_ffddae3a.c:145:9: error: expected declaration or statement at end of input

@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_3ad7805a.c:173:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  173 | const char* token_type_to_string
+      | ^~~~~

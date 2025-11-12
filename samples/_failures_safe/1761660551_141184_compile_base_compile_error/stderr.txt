@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f5fb5f36.c: In function ‘main’:
+./samples/SAFE/__tmp_f5fb5f36.c:167:50: error: expected ‘)’ at end of input
+  167 |         if (token.type == TOKEN_EOF || token.type
+      |            ~                                     ^
+      |                                                  )
+./samples/SAFE/__tmp_f5fb5f36.c:167:9: error: expected declaration or statement at end of input
+  167 |         if (token.type == TOKEN_EOF || token.type
+      |         ^~
+./samples/SAFE/__tmp_f5fb5f36.c:167:9: error: expected declaration or statement at end of input

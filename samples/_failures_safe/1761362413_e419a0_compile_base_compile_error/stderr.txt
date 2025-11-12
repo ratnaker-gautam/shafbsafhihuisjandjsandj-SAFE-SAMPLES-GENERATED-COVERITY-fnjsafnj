@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_f6229052.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_f6229052.c:166:9: error: ‘parser_’ undeclared (first use in this function); did you mean ‘parser’?
+  166 |         parser_
+      |         ^~~~~~~
+      |         parser
+./samples/SAFE/__tmp_f6229052.c:166:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f6229052.c:166:16: error: expected ‘;’ at end of input
+  166 |         parser_
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_f6229052.c:166:9: error: expected declaration or statement at end of input
+  166 |         parser_
+      |         ^~~~~~~
+./samples/SAFE/__tmp_f6229052.c:166:9: error: expected declaration or statement at end of input

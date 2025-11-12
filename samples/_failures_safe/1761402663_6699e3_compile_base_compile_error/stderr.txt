@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_8b1fcd84.c: In function ‘matrix_multiply’:
+./samples/SAFE/__tmp_8b1fcd84.c:123:21: error: expected expression at end of input
+  123 |                     if ((val_b > 0 && sum > INT_MAX - prod) || (val_b < 0 && sum < INT_MIN -
+      |                     ^~
+./samples/SAFE/__tmp_8b1fcd84.c:123:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8b1fcd84.c:123:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8b1fcd84.c:123:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8b1fcd84.c:123:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8b1fcd84.c:123:21: error: expected declaration or statement at end of input

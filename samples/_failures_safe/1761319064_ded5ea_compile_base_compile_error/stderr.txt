@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_05c3b4d1.c: In function ‘process_input’:
+./samples/SAFE/__tmp_05c3b4d1.c:130:40: error: expected ‘;’ at end of input
+  130 |             current_state = STATE_ERROR
+      |                                        ^
+      |                                        ;
+./samples/SAFE/__tmp_05c3b4d1.c:130:13: error: expected declaration or statement at end of input
+  130 |             current_state = STATE_ERROR
+      |             ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_05c3b4d1.c:130:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_05c3b4d1.c:130:13: error: expected declaration or statement at end of input

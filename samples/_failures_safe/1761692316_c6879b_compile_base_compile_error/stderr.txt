@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_92e12f6c.c: In function ‘main’:
+./samples/SAFE/__tmp_92e12f6c.c:198:5: error: expected declaration or statement at end of input
+  198 |     if (token_count >= MAX_TOKENS) {
+      |     ^~
+./samples/SAFE/__tmp_92e12f6c.c:198:5: error: expected declaration or statement at end of input

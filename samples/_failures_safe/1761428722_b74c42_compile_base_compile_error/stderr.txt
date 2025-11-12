@@ -1,0 +1,2 @@
+./samples/SAFE/__tmp_7e70c097.c: In function ‘matrix_print’:
+./samples/SAFE/__tmp_7e70c097.c:144: error: expected ‘{’ at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d6982aff.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_d6982aff.c:161:5: error: expected identifier at end of input
+  161 |     while (lexer->
+      |     ^~~~~
+./samples/SAFE/__tmp_d6982aff.c:161:5: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ce84de10.c: In function ‘main’:
+./samples/SAFE/__tmp_ce84de10.c:139:10: error: ‘compress’ undeclared (first use in this function); did you mean ‘compress_data’?
+  139 |     if (!compress
+      |          ^~~~~~~~
+      |          compress_data
+./samples/SAFE/__tmp_ce84de10.c:139:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ce84de10.c:139:18: error: expected ‘)’ at end of input
+  139 |     if (!compress
+      |        ~         ^
+      |                  )
+./samples/SAFE/__tmp_ce84de10.c:139:5: error: expected declaration or statement at end of input
+  139 |     if (!compress
+      |     ^~

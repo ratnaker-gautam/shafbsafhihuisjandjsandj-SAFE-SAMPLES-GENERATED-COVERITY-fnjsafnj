@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5d8d5b71.c: In function ‘transpose_matrix’:
+./samples/SAFE/__tmp_5d8d5b71.c:124:61: error: expected ‘;’ at end of input
+  124 |     if (!allocate_matrix(result, a->cols, a->rows)) return 0
+      |                                                             ^
+      |                                                             ;
+./samples/SAFE/__tmp_5d8d5b71.c:124:5: error: expected declaration or statement at end of input
+  124 |     if (!allocate_matrix(result, a->cols, a->rows)) return 0
+      |     ^~

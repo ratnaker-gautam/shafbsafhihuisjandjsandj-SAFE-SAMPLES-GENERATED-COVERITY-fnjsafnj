@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_3fdf45e1.c: In function ‘pointcloud_centroid_distance’:
+./samples/SAFE/__tmp_3fdf45e1.c:139:15: error: expected ‘;’ at end of input
+  139 |     centroid_a
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_3fdf45e1.c:139:5: error: expected declaration or statement at end of input
+  139 |     centroid_a
+      |     ^~~~~~~~~~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_048ed591.c: In function ‘main’:
+./samples/SAFE/__tmp_048ed591.c:144:29: error: expected ‘]’ at end of input
+  144 |                    entries[i
+      |                             ^
+      |                             ]
+./samples/SAFE/__tmp_048ed591.c:144:20: error: expected declaration or statement at end of input
+  144 |                    entries[i
+      |                    ^~~~~~~
+./samples/SAFE/__tmp_048ed591.c:144:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_048ed591.c:144:20: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_cee71845.c: In function ‘print_token’:
+./samples/SAFE/__tmp_cee71845.c:169:66: error: ‘type’ undeclared (first use in this function)
+  169 |     printf("Line %d, Column %d: %s", token->line, token->column, type
+      |                                                                  ^~~~
+./samples/SAFE/__tmp_cee71845.c:169:66: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cee71845.c:169:70: error: expected ‘)’ at end of input
+  169 |     printf("Line %d, Column %d: %s", token->line, token->column, type
+      |           ~                                                          ^
+      |                                                                      )
+./samples/SAFE/__tmp_cee71845.c:169:5: error: expected declaration or statement at end of input
+  169 |     printf("Line %d, Column %d: %s", token->line, token->column, type
+      |     ^~~~~~

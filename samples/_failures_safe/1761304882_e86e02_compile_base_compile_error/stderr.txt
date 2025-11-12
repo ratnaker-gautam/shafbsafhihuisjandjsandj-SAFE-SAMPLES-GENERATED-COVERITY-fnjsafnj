@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_19dd01fd.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_19dd01fd.c:131:16: error: expected declaration or statement at end of input
+  131 |                entry->level, entry->message);
+      |                ^~~~~
+./samples/SAFE/__tmp_19dd01fd.c:131:16: error: expected declaration or statement at end of input

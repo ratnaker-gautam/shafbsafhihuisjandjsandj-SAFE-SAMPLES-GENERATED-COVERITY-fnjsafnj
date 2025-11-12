@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_a56e9d08.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_a56e9d08.c:158:5: error: expected declaration or statement at end of input
+  158 |     MinHeap* heap = createMinHeap(graph->numNodes);
+      |     ^~~~~~~

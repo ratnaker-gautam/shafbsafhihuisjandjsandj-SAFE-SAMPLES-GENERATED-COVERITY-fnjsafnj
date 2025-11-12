@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0ba57486.c: In function ‘main’:
+./samples/SAFE/__tmp_0ba57486.c:148:29: error: ‘mat’ undeclared (first use in this function); did you mean ‘mat2’?
+  148 |     if (!validate_dimension(mat
+      |                             ^~~
+      |                             mat2
+./samples/SAFE/__tmp_0ba57486.c:148:29: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0ba57486.c:148:32: error: expected ‘)’ at end of input
+  148 |     if (!validate_dimension(mat
+      |                            ~   ^
+      |                                )
+./samples/SAFE/__tmp_0ba57486.c:148:5: error: expected declaration or statement at end of input
+  148 |     if (!validate_dimension(mat
+      |     ^~

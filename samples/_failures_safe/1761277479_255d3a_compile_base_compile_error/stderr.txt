@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_6670fc2a.c: In function ‘bfs_shortest_path’:
+./samples/SAFE/__tmp_6670fc2a.c:188:30: error: expected ‘)’ at end of input
+  188 |                 if (!neighbor
+      |                    ~         ^
+      |                              )
+./samples/SAFE/__tmp_6670fc2a.c:188:17: error: expected declaration or statement at end of input
+  188 |                 if (!neighbor
+      |                 ^~
+./samples/SAFE/__tmp_6670fc2a.c:188:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6670fc2a.c:188:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6670fc2a.c:188:17: error: expected declaration or statement at end of input

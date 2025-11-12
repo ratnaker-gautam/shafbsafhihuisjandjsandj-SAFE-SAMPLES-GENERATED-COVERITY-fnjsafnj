@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_38c4e287.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_38c4e287.c:124:46: error: invalid operands to binary - (have ‘double’ and ‘const struct matrix *’)
+  124 |         return m->data[0][0] * m->data[1][1] - m
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+      |                              |
+      |                              double
+./samples/SAFE/__tmp_38c4e287.c:124:49: error: expected ‘;’ at end of input
+  124 |         return m->data[0][0] * m->data[1][1] - m
+      |                                                 ^
+      |                                                 ;
+./samples/SAFE/__tmp_38c4e287.c:124:9: error: expected declaration or statement at end of input
+  124 |         return m->data[0][0] * m->data[1][1] - m
+      |         ^~~~~~
+./samples/SAFE/__tmp_38c4e287.c:124:9: error: expected declaration or statement at end of input

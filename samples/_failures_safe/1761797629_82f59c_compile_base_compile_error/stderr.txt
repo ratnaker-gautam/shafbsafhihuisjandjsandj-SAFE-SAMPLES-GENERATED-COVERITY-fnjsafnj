@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_0ae07fab.c: In function ‘main’:
+./samples/SAFE/__tmp_0ae07fab.c:151:9: error: expected declaration or statement at end of input
+  151 |         fprintf(stderr, "Failed to initialize log collection\n");
+      |         ^~~~~~~
+./samples/SAFE/__tmp_0ae07fab.c:151:9: error: expected declaration or statement at end of input

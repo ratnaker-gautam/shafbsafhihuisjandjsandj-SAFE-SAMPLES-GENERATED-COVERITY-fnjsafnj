@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_3d3c35a6.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_3d3c35a6.c:141:9: error: ‘max_sever’ undeclared (first use in this function); did you mean ‘max_severity’?
+  141 |     if (max_sever
+      |         ^~~~~~~~~
+      |         max_severity
+./samples/SAFE/__tmp_3d3c35a6.c:141:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3d3c35a6.c:141:18: error: expected ‘)’ at end of input
+  141 |     if (max_sever
+      |        ~         ^
+      |                  )
+./samples/SAFE/__tmp_3d3c35a6.c:141:5: error: expected declaration or statement at end of input
+  141 |     if (max_sever
+      |     ^~

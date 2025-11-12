@@ -1,0 +1,16 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==6836==ERROR: AddressSanitizer: SEGV on unknown address 0x00009d7d8006 (pc 0x60bdd6cb0a92 bp 0x7ffe54aae090 sp 0x7ffe54aae030 T0)
+==6836==The signal is caused by a READ memory access.
+    #0 0x60bdd6cb0a92 in dfs_traversal samples/SAFE/__tmp_d177f6b8.c:44
+    #1 0x60bdd6cb0dad in dfs_wrapper samples/SAFE/__tmp_d177f6b8.c:85
+    #2 0x60bdd6cb18b8 in perform_operation samples/SAFE/__tmp_d177f6b8.c:80
+    #3 0x60bdd6cb1d12 in main samples/SAFE/__tmp_d177f6b8.c:108
+    #4 0x7059ee02a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #5 0x7059ee02a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x60bdd6cb02e4 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_d177f6b8.c.san+0x42e4) (BuildId: f07b2459310e391f8059999736315c3329789745)
+
+AddressSanitizer can not provide additional info.
+SUMMARY: AddressSanitizer: SEGV samples/SAFE/__tmp_d177f6b8.c:44 in dfs_traversal
+==6836==ABORTING

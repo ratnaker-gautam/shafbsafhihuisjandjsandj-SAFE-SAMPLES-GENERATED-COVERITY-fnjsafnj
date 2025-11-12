@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5b8530a6.c: In function ‘print_menu’:
+./samples/SAFE/__tmp_5b8530a6.c:155:5: error: expected declaration or statement at end of input
+  155 |     printf("1: DATA_READY\n");
+      |     ^~~~~~

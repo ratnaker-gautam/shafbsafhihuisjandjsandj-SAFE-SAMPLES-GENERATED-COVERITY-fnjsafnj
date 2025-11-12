@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6ada173e.c: In function ‘main’:
+./samples/SAFE/__tmp_6ada173e.c:150:9: error: expected declaration or statement at end of input
+  150 |         printf("3. Display recent entries\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_6ada173e.c:150:9: error: expected declaration or statement at end of input

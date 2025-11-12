@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_276ab236.c: In function ‘cleanup_clusters’:
+./samples/SAFE/__tmp_276ab236.c:148:5: error: expected declaration or statement at end of input
+  148 |     for (int i = 0; i < k; i++) {
+      |     ^~~
+./samples/SAFE/__tmp_276ab236.c:148:5: error: expected declaration or statement at end of input

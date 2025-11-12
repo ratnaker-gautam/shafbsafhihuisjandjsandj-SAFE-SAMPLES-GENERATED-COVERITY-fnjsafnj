@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_08c5b81c.c: In function ‘main’:
+./samples/SAFE/__tmp_08c5b81c.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (choice < 1 || choice > num_processors) {
+      |     ^~
+./samples/SAFE/__tmp_08c5b81c.c:151:5: error: expected declaration or statement at end of input

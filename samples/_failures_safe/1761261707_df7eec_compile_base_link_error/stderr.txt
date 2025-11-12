@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccFSY7Zi.o: in function `compute_statistics.part.0':
+__tmp_aa006de1.c:(.text+0x101): undefined reference to `sqrt'
+/usr/bin/ld: /tmp/ccFSY7Zi.o: in function `fill_with_primes':
+__tmp_aa006de1.c:(.text+0x25d): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

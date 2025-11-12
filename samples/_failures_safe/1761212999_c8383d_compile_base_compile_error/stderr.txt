@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f0048c2b.c: In function ‘main’:
+./samples/SAFE/__tmp_f0048c2b.c:150:20: error: expected declaration or statement at end of input
+  150 |                    (double)result.compressed_size / result.original_size);
+      |                    ^
+./samples/SAFE/__tmp_f0048c2b.c:150:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0048c2b.c:150:20: error: expected declaration or statement at end of input

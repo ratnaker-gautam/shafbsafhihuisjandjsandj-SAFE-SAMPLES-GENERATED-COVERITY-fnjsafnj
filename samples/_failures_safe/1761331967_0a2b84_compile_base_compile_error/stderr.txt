@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fbf37a84.c: In function ‘main’:
+./samples/SAFE/__tmp_fbf37a84.c:139:5: error: expected expression at end of input
+  139 |     uint8_t sample_data2[] = {0x10,
+      |     ^~~~~~~
+./samples/SAFE/__tmp_fbf37a84.c:139:5: error: expected declaration or statement at end of input

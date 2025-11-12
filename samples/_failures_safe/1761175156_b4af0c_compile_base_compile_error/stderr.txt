@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_e9a029a0.c: In function ‘main’:
+./samples/SAFE/__tmp_e9a029a0.c:149:24: error: ‘parse’ undeclared (first use in this function)
+  149 |         filter_level = parse
+      |                        ^~~~~
+./samples/SAFE/__tmp_e9a029a0.c:149:24: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e9a029a0.c:149:29: error: expected ‘;’ at end of input
+  149 |         filter_level = parse
+      |                             ^
+      |                             ;
+./samples/SAFE/__tmp_e9a029a0.c:149:9: error: expected declaration or statement at end of input
+  149 |         filter_level = parse
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_e9a029a0.c:149:9: error: expected declaration or statement at end of input

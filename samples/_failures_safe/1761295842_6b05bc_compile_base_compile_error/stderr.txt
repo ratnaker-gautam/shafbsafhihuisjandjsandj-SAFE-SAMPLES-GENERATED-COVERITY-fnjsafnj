@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_103eebca.c: In function ‘main’:
+./samples/SAFE/__tmp_103eebca.c:151:9: error: expected declaration or statement at end of input
+  151 |         printf("Memory allocation failed\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_103eebca.c:151:9: error: expected declaration or statement at end of input

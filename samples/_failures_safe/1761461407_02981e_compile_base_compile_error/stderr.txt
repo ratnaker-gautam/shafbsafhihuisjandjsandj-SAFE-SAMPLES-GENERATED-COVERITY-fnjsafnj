@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_dbd4014f.c: In function ‘process_data’:
+./samples/SAFE/__tmp_dbd4014f.c:192:51: error: ‘MAX_INPUT’ undeclared (first use in this function); did you mean ‘MAX_INPUT_LEN’?
+  192 |     for (size_t i = 0; i < ctx->buffer_len && i < MAX_INPUT
+      |                                                   ^~~~~~~~~
+      |                                                   MAX_INPUT_LEN
+./samples/SAFE/__tmp_dbd4014f.c:192:51: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_dbd4014f.c:192:60: error: expected ‘;’ at end of input
+  192 |     for (size_t i = 0; i < ctx->buffer_len && i < MAX_INPUT
+      |                                                            ^
+      |                                                            ;
+./samples/SAFE/__tmp_dbd4014f.c:192:5: error: expected declaration or statement at end of input
+  192 |     for (size_t i = 0; i < ctx->buffer_len && i < MAX_INPUT
+      |     ^~~

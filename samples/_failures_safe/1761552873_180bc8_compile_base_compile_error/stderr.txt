@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_635d55e2.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_635d55e2.c:190:17: error: expected expression at end of input
+  190 |                 neighbor->distance = current->distance +
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_635d55e2.c:190:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_635d55e2.c:190:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_635d55e2.c:190:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_635d55e2.c:190:17: error: expected declaration or statement at end of input

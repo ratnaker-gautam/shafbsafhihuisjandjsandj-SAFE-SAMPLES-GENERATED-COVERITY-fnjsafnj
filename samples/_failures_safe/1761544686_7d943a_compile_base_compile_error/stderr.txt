@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_a7758490.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_a7758490.c:147:45: error: expected ‘)’ at end of input
+  147 |                    analyzer->words[i].length
+      |                                             ^
+      |                                             )
+./samples/SAFE/__tmp_a7758490.c:145:19: note: to match this ‘(’
+  145 |             printf("Word: %-15s Length: %2d Vowels: %d Consonants: %d\n",
+      |                   ^
+./samples/SAFE/__tmp_a7758490.c:147:20: error: expected declaration or statement at end of input
+  147 |                    analyzer->words[i].length
+      |                    ^~~~~~~~
+./samples/SAFE/__tmp_a7758490.c:147:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a7758490.c:147:20: error: expected declaration or statement at end of input

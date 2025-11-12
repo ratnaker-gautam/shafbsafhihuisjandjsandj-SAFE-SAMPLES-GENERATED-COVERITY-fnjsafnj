@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_f3694c4a.c: In function ‘main’:
+./samples/SAFE/__tmp_f3694c4a.c:149:72: error: unterminated argument list invoking macro "isspace"
+  149 |         if (!isprint((unsigned char)input_str[i]) && !isspace((unsigned
+      |                                                                        ^
+./samples/SAFE/__tmp_f3694c4a.c:149:62: error: expected ‘)’ at end of input
+  149 |         if (!isprint((unsigned char)input_str[i]) && !isspace((unsigned
+      |            ~                                                 ^
+      |                                                              )
+./samples/SAFE/__tmp_f3694c4a.c:149:9: error: expected declaration or statement at end of input
+  149 |         if (!isprint((unsigned char)input_str[i]) && !isspace((unsigned
+      |         ^~
+./samples/SAFE/__tmp_f3694c4a.c:149:9: error: expected declaration or statement at end of input

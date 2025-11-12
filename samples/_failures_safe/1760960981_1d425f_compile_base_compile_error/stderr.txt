@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_849c4b77.c: In function ‘process_event’:
+./samples/SAFE/__tmp_849c4b77.c:171:23: error: expected ‘;’ at end of input
+  171 |             next_state
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_849c4b77.c:171:13: error: expected declaration or statement at end of input
+  171 |             next_state
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_849c4b77.c:171:13: error: expected declaration or statement at end of input

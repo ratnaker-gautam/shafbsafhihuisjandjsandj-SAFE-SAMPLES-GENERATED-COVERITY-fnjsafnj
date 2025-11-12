@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0cc47fe0.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_0cc47fe0.c:166:5: error: ‘Lex’ undeclared (first use in this function); did you mean ‘Lexer’?
+  166 |     Lex
+      |     ^~~
+      |     Lexer
+./samples/SAFE/__tmp_0cc47fe0.c:166:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0cc47fe0.c:166:8: error: expected ‘;’ at end of input
+  166 |     Lex
+      |        ^
+      |        ;
+./samples/SAFE/__tmp_0cc47fe0.c:166:5: error: expected declaration or statement at end of input
+  166 |     Lex
+      |     ^~~

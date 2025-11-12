@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d44a74ab.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_d44a74ab.c:176:13: error: expected declaration or statement at end of input
+  176 |             int id = graph->vertices[i].id;
+      |             ^~~
+./samples/SAFE/__tmp_d44a74ab.c:176:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d44a74ab.c:176:13: error: expected declaration or statement at end of input

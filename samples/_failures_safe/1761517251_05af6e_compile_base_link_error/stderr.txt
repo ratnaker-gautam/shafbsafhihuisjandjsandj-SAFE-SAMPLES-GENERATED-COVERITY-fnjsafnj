@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccVhUB0S.o: in function `main':
+__tmp_54bbe07b.c:(.text.startup+0x16c): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_54bbe07b.c:(.text.startup+0x3bf): undefined reference to `fmod'
+/usr/bin/ld: __tmp_54bbe07b.c:(.text.startup+0x3f6): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

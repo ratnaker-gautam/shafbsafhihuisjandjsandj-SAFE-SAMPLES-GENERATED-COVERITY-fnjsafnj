@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_e28c2cbe.c: In function ‘main’:
+./samples/SAFE/__tmp_e28c2cbe.c:168:17: error: expected declaration or statement at end of input
+  168 |                 display_products(&machine);
+      |                 ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_e28c2cbe.c:168:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e28c2cbe.c:168:17: error: expected declaration or statement at end of input

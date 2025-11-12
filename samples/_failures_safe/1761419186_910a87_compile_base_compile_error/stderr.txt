@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_5e532229.c: In function ‘main’:
+./samples/SAFE/__tmp_5e532229.c:157:14: error: ‘compressed’ undeclared (first use in this function); did you mean ‘compress_data’?
+  157 |         free(compressed
+      |              ^~~~~~~~~~
+      |              compress_data
+./samples/SAFE/__tmp_5e532229.c:157:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5e532229.c:157:24: error: expected ‘)’ at end of input
+  157 |         free(compressed
+      |             ~          ^
+      |                        )
+./samples/SAFE/__tmp_5e532229.c:157:9: error: expected declaration or statement at end of input
+  157 |         free(compressed
+      |         ^~~~
+./samples/SAFE/__tmp_5e532229.c:157:9: error: expected declaration or statement at end of input

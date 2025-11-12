@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_e39d9b76.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_e39d9b76.c:161:69: error: expected ‘)’ at end of input
+  161 |         printf("Found string: \"%s\"\n", parser->current_token.value
+      |               ~                                                     ^
+      |                                                                     )
+./samples/SAFE/__tmp_e39d9b76.c:161:9: error: expected declaration or statement at end of input
+  161 |         printf("Found string: \"%s\"\n", parser->current_token.value
+      |         ^~~~~~
+./samples/SAFE/__tmp_e39d9b76.c:161:9: error: expected declaration or statement at end of input

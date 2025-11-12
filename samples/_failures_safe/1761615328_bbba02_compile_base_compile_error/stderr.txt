@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_bf440868.c: In function ‘main’:
+./samples/SAFE/__tmp_bf440868.c:167:10: error: ‘EVENT_WRITE’ undeclared (first use in this function)
+  167 |         {EVENT_WRITE
+      |          ^~~~~~~~~~~
+./samples/SAFE/__tmp_bf440868.c:167:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bf440868.c:168: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_bf440868.c:167:9: note: to match this ‘{’
+  167 |         {EVENT_WRITE
+      |         ^
+./samples/SAFE/__tmp_bf440868.c:167:9: error: expected declaration or statement at end of input

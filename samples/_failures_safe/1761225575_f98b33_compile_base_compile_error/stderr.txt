@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7377cfbe.c: In function ‘main’:
+./samples/SAFE/__tmp_7377cfbe.c:139:9: error: expected expression at end of input
+  139 |         if (endptr != hex_byte + 2 ||
+      |         ^~
+./samples/SAFE/__tmp_7377cfbe.c:139:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7377cfbe.c:139:9: error: expected declaration or statement at end of input

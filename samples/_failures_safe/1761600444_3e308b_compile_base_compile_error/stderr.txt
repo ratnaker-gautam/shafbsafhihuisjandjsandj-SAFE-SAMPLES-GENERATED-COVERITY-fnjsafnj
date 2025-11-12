@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_b88c35bd.c: In function ‘main’:
+./samples/SAFE/__tmp_b88c35bd.c:139:9: error: ‘word’ undeclared (first use in this function); did you mean ‘words’?
+  139 |     if (word
+      |         ^~~~
+      |         words
+./samples/SAFE/__tmp_b88c35bd.c:139:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b88c35bd.c:139:13: error: expected ‘)’ at end of input
+  139 |     if (word
+      |        ~    ^
+      |             )
+./samples/SAFE/__tmp_b88c35bd.c:139:5: error: expected declaration or statement at end of input
+  139 |     if (word
+      |     ^~

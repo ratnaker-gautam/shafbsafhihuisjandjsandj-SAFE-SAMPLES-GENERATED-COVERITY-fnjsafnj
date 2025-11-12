@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_3388ef7a.c: In function ‘main’:
+./samples/SAFE/__tmp_3388ef7a.c:142:24: error: expected ‘)’ at end of input
+  142 |         if (strcmp(line
+      |                   ~    ^
+      |                        )
+./samples/SAFE/__tmp_3388ef7a.c:142:13: error: too few arguments to function ‘strcmp’
+  142 |         if (strcmp(line
+      |             ^~~~~~
+In file included from ./samples/SAFE/__tmp_3388ef7a.c:4:
+/usr/include/string.h:156:12: note: declared here
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+      |            ^~~~~~
+./samples/SAFE/__tmp_3388ef7a.c:142:9: error: expected declaration or statement at end of input
+  142 |         if (strcmp(line
+      |         ^~
+./samples/SAFE/__tmp_3388ef7a.c:142:9: error: expected declaration or statement at end of input

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_7c8b4023.c: In function ‘main’:
+./samples/SAFE/__tmp_7c8b4023.c:146:49: error: ‘MAX_D’ undeclared (first use in this function); did you mean ‘MAX_DIM’?
+  146 |         int cols_b = read_int("  Columns: ", 1, MAX_D
+      |                                                 ^~~~~
+      |                                                 MAX_DIM
+./samples/SAFE/__tmp_7c8b4023.c:146:49: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7c8b4023.c:146:54: error: expected ‘)’ at end of input
+  146 |         int cols_b = read_int("  Columns: ", 1, MAX_D
+      |                              ~                       ^
+      |                                                      )
+./samples/SAFE/__tmp_7c8b4023.c:146:9: error: expected declaration or statement at end of input
+  146 |         int cols_b = read_int("  Columns: ", 1, MAX_D
+      |         ^~~
+./samples/SAFE/__tmp_7c8b4023.c:146:9: error: expected declaration or statement at end of input

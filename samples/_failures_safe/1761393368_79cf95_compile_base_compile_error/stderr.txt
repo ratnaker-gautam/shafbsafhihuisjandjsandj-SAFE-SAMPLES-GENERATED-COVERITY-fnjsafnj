@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_0b9425c1.c: In function ‘kmeans_clustering’:
+./samples/SAFE/__tmp_0b9425c1.c:154:13: error: expected ‘,’ or ‘;’ at end of input
+  154 |             double new_center_y = sum_y / clusters[i].count
+      |             ^~~~~~
+./samples/SAFE/__tmp_0b9425c1.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0b9425c1.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0b9425c1.c:154:13: error: expected declaration or statement at end of input

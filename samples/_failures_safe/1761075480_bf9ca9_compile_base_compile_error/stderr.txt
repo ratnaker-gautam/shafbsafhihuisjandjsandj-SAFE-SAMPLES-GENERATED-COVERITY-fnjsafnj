@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_80bc5c06.c: In function ‘parse_statement’:
+./samples/SAFE/__tmp_80bc5c06.c:167: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_80bc5c06.c:166:8: note: to match this ‘(’
+  166 |     if (state == NULL
+      |        ^
+./samples/SAFE/__tmp_80bc5c06.c:166:5: error: expected declaration or statement at end of input
+  166 |     if (state == NULL
+      |     ^~

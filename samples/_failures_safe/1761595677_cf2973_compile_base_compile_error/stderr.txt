@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_639fc8ed.c: In function ‘main’:
+./samples/SAFE/__tmp_639fc8ed.c:130:12: error: expected expression at end of input
+  130 |     struct LogEntry* entries = malloc(MAX_ENTRIES * sizeof
+      |            ^~~~~~~~
+./samples/SAFE/__tmp_639fc8ed.c:130:12: error: expected declaration or statement at end of input

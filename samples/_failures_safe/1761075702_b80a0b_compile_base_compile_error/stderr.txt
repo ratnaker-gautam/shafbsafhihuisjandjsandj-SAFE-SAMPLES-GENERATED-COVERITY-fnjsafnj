@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_35898f0b.c: In function ‘find_shortest_path’:
+./samples/SAFE/__tmp_35898f0b.c:158:12: error: missing terminating " character
+  158 |     printf("Shortest path from %s to %s: distance
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_35898f0b.c:158:5: error: expected expression at end of input
+  158 |     printf("Shortest path from %s to %s: distance
+      |     ^~~~~~
+./samples/SAFE/__tmp_35898f0b.c:158:5: error: expected declaration or statement at end of input

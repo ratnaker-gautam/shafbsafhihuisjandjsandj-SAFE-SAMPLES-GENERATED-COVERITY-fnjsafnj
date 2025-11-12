@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_3fde53f5.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_3fde53f5.c:145:13: error: expected declaration or statement at end of input
+  145 |             if (graph->edges[i].src == u) {
+      |             ^~
+./samples/SAFE/__tmp_3fde53f5.c:145:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3fde53f5.c:145:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3fde53f5.c:145:13: error: expected declaration or statement at end of input

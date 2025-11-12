@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_9f334d1f.c: In function ‘graph_reset_visited’:
+./samples/SAFE/__tmp_9f334d1f.c:165:11: error: expected ‘)’ at end of input
+  165 |     if (!g
+      |        ~  ^
+      |           )
+./samples/SAFE/__tmp_9f334d1f.c:165:5: error: expected declaration or statement at end of input
+  165 |     if (!g
+      |     ^~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ffdd88d2.c: In function ‘process_command’:
+./samples/SAFE/__tmp_ffdd88d2.c:157:13: error: expected declaration or statement at end of input
+  157 |             sm->current_state = INIT;
+      |             ^~
+./samples/SAFE/__tmp_ffdd88d2.c:157:13: error: expected declaration or statement at end of input

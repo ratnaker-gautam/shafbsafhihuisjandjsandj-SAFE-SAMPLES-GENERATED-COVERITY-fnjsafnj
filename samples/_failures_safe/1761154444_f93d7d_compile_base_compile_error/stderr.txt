@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_0c4b9095.c: In function ‘main’:
+./samples/SAFE/__tmp_0c4b9095.c:166:76: error: expected ‘)’ at end of input
+  166 |                (float)ctx.header.compressed_size / ctx.header.original_size
+      |                                                                            ^
+      |                                                                            )
+./samples/SAFE/__tmp_0c4b9095.c:165:15: note: to match this ‘(’
+  165 |         printf("Compression ratio: %.2f%%\n",
+      |               ^
+./samples/SAFE/__tmp_0c4b9095.c:166:16: error: expected declaration or statement at end of input
+  166 |                (float)ctx.header.compressed_size / ctx.header.original_size
+      |                ^
+./samples/SAFE/__tmp_0c4b9095.c:166:16: error: expected declaration or statement at end of input

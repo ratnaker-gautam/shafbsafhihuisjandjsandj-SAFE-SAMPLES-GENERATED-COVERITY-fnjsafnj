@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_50e3409e.c: In function ‘main’:
+./samples/SAFE/__tmp_50e3409e.c:170:9: error: expected expression at end of input
+  170 |         if (input[0] == 'u' && (input[1] ==
+      |         ^~
+./samples/SAFE/__tmp_50e3409e.c:170:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_50e3409e.c:170:9: error: expected declaration or statement at end of input

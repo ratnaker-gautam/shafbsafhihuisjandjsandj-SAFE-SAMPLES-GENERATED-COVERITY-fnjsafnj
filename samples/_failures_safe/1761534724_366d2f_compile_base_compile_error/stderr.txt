@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_7e8fbcc0.c: In function ‘main’:
+./samples/SAFE/__tmp_7e8fbcc0.c:159:21: error: ‘add_mat’ undeclared (first use in this function)
+  159 |                 if (add_mat
+      |                     ^~~~~~~
+./samples/SAFE/__tmp_7e8fbcc0.c:159:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7e8fbcc0.c:159:28: error: expected ‘)’ at end of input
+  159 |                 if (add_mat
+      |                    ~       ^
+      |                            )
+./samples/SAFE/__tmp_7e8fbcc0.c:159:17: error: expected declaration or statement at end of input
+  159 |                 if (add_mat
+      |                 ^~
+./samples/SAFE/__tmp_7e8fbcc0.c:159:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7e8fbcc0.c:159:17: error: expected declaration or statement at end of input

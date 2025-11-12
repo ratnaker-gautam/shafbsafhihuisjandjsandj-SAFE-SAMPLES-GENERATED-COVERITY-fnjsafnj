@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7a311bb0.c: In function ‘cycleCheckUtil’:
+./samples/SAFE/__tmp_7a311bb0.c:178:9: error: expected ‘,’ or ‘;’ at end of input
+  178 |         int **matrix = (int **)graph
+      |         ^~~
+./samples/SAFE/__tmp_7a311bb0.c:178:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7a311bb0.c:178:9: error: expected declaration or statement at end of input

@@ -1,0 +1,57 @@
+
+=================================================================
+==306264==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x701c3f4001bf at pc 0x701c42091ad0 bp 0x7ffe1977e950 sp 0x7ffe1977e0d8
+WRITE of size 256 at 0x701c3f4001bf thread T0
+    #0 0x701c42091acf in scanf_common ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors_format.inc:342
+    #1 0x701c420cd312 in __isoc99_vsscanf ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:1493
+    #2 0x701c420cdeab in __isoc99_sscanf ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors.inc:1526
+    #3 0x55bc3a3b89eb in read_log_entries samples/SAFE/__tmp_9c4ea154.c:46
+    #4 0x55bc3a3b94d6 in main samples/SAFE/__tmp_9c4ea154.c:95
+    #5 0x701c4142a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #6 0x701c4142a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #7 0x55bc3a3b8304 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_9c4ea154.c.san+0x3304) (BuildId: a2a4d1a934ba300abbcc8f683ab76ddefe229b11)
+
+Address 0x701c3f4001bf is located in stack of thread T0 at offset 447 in frame
+    #0 0x55bc3a3b871a in read_log_entries samples/SAFE/__tmp_9c4ea154.c:35
+
+  This frame has 5 object(s):
+    [32, 88) 'tm' (line 49)
+    [128, 138) 'level' (line 43)
+    [160, 180) 'timestamp' (line 42)
+    [224, 447) 'message' (line 44)
+    [512, 768) 'line' (line 36) <== Memory access at offset 447 partially underflows this variable
+HINT: this may be a false positive if your program uses some custom stack unwind mechanism, swapcontext or vfork
+      (longjmp and C++ exceptions *are* supported)
+SUMMARY: AddressSanitizer: stack-buffer-overflow ../../../../src/libsanitizer/sanitizer_common/sanitizer_common_interceptors_format.inc:342 in scanf_common
+Shadow bytes around the buggy address:
+  0x701c3f3fff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x701c3f3fff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x701c3f400000: f1 f1 f1 f1 00 00 00 00 00 00 00 f2 f2 f2 f2 f2
+  0x701c3f400080: 00 02 f2 f2 00 00 04 f2 f2 f2 f2 f2 00 00 00 00
+  0x701c3f400100: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+=>0x701c3f400180: 00 00 00 00 00 00 00[07]f2 f2 f2 f2 f2 f2 f2 f2
+  0x701c3f400200: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x701c3f400280: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x701c3f400300: f3 f3 f3 f3 f3 f3 f3 f3 00 00 00 00 00 00 00 00
+  0x701c3f400380: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x701c3f400400: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==306264==ABORTING

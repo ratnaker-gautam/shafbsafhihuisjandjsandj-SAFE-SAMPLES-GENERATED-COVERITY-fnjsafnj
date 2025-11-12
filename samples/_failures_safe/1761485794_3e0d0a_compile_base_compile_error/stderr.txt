@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f18d7129.c: In function ‘token_type_to_string’:
+./samples/SAFE/__tmp_f18d7129.c:170:9: error: expected expression at end of input
+  170 |         default: return
+      |         ^~~~~~~
+./samples/SAFE/__tmp_f18d7129.c:170:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f18d7129.c:170:9: error: expected declaration or statement at end of input

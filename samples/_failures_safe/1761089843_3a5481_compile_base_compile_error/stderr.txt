@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_41e6055c.c: In function ‘print_token’:
+./samples/SAFE/__tmp_41e6055c.c:166:5: error: expected declaration or statement at end of input
+  166 |     if (token->type >= TOKEN_NUMBER && token->type <= TOKEN_UNKNOWN) {
+      |     ^~
+./samples/SAFE/__tmp_41e6055c.c:166:5: error: expected declaration or statement at end of input

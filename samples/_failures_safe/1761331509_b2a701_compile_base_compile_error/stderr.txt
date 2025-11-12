@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_e22f37e0.c: In function ‘print_token_type’:
+./samples/SAFE/__tmp_e22f37e0.c:173:14: error: ‘TOKEN_IDENTIFI’ undeclared (first use in this function); did you mean ‘TOKEN_IDENTIFIER’?
+  173 |         case TOKEN_IDENTIFI
+      |              ^~~~~~~~~~~~~~
+      |              TOKEN_IDENTIFIER
+./samples/SAFE/__tmp_e22f37e0.c:173:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e22f37e0.c:173:9: error: expected ‘:’ or ‘...’ at end of input
+  173 |         case TOKEN_IDENTIFI
+      |         ^~~~
+./samples/SAFE/__tmp_e22f37e0.c:173:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e22f37e0.c:173:9: error: expected declaration or statement at end of input

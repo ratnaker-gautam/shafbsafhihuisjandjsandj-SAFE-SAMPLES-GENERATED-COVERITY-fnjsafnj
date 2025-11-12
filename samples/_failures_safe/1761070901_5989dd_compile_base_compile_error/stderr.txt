@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d440ed26.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_d440ed26.c:142:51: error: expected ‘)’ at end of input
+  142 |     int display_count = (analyzer->entry_count > 5
+      |                         ~                         ^
+      |                                                   )
+./samples/SAFE/__tmp_d440ed26.c:142:5: error: expected declaration or statement at end of input
+  142 |     int display_count = (analyzer->entry_count > 5
+      |     ^~~

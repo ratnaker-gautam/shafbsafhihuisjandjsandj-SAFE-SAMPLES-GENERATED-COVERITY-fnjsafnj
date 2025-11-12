@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_220999e1.c: In function ‘display_all_entries’:
+./samples/SAFE/__tmp_220999e1.c:122:5: error: expected declaration or statement at end of input
+  122 |     printf("================\n");
+      |     ^~~~~~

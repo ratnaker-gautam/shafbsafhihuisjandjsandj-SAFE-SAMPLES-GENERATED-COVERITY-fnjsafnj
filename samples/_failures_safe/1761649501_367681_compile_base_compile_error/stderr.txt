@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_a965bc7e.c: In function ‘executeAlgorithm’:
+./samples/SAFE/__tmp_a965bc7e.c:128:24: error: expected ‘;’ at end of input
+  128 |         default: printf
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_a965bc7e.c:128:9: error: expected declaration or statement at end of input
+  128 |         default: printf
+      |         ^~~~~~~
+./samples/SAFE/__tmp_a965bc7e.c:128:9: error: expected declaration or statement at end of input

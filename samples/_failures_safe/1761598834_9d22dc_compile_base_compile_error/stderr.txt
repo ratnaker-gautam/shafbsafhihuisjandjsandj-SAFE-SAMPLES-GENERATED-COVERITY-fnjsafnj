@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4619d86c.c: In function ‘main’:
+./samples/SAFE/__tmp_4619d86c.c:168:12: error: missing terminating " character
+  168 |     printf("Enter text (max %
+      |            ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4619d86c.c:168:5: error: expected expression at end of input
+  168 |     printf("Enter text (max %
+      |     ^~~~~~
+./samples/SAFE/__tmp_4619d86c.c:168:5: error: expected declaration or statement at end of input

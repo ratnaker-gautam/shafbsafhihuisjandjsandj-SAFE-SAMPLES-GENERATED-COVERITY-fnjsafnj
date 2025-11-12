@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_bf5bee15.c: In function ‘main’:
+./samples/SAFE/__tmp_bf5bee15.c:146:9: error: used struct type value where scalar is required
+  146 |     if (trans1
+      |         ^~~~~~
+./samples/SAFE/__tmp_bf5bee15.c:146:15: error: expected ‘)’ at end of input
+  146 |     if (trans1
+      |        ~      ^
+      |               )
+./samples/SAFE/__tmp_bf5bee15.c:146:5: error: expected declaration or statement at end of input
+  146 |     if (trans1
+      |     ^~

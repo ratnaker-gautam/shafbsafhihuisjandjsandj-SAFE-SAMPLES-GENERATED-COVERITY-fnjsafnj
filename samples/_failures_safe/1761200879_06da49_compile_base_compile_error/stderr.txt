@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5182f5b6.c: In function ‘main’:
+./samples/SAFE/__tmp_5182f5b6.c:152:5: error: expected expression at end of input
+  152 |     print_matrix(&
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_5182f5b6.c:152:5: error: expected declaration or statement at end of input

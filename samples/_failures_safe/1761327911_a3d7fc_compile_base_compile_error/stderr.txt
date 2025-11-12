@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d11fc112.c: In function ‘main’:
+./samples/SAFE/__tmp_d11fc112.c:168:37: error: expected ‘)’ at end of input
+  168 |     print_tokens(tokens, token_count
+      |                 ~                   ^
+      |                                     )
+./samples/SAFE/__tmp_d11fc112.c:168:5: error: expected declaration or statement at end of input
+  168 |     print_tokens(tokens, token_count
+      |     ^~~~~~~~~~~~

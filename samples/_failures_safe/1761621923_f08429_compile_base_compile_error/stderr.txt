@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_504886c8.c: In function ‘parser_advance’:
+./samples/SAFE/__tmp_504886c8.c:150:59: error: expected ‘)’ at end of input
+  150 |     parser->current_token = lexer_next_token(parser->lexer
+      |                                             ~             ^
+      |                                                           )
+./samples/SAFE/__tmp_504886c8.c:150:5: error: expected declaration or statement at end of input
+  150 |     parser->current_token = lexer_next_token(parser->lexer
+      |     ^~~~~~

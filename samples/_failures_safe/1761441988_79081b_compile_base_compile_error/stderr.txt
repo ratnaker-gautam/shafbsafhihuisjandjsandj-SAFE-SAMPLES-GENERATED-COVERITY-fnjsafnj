@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_879aa794.c: In function ‘main’:
+./samples/SAFE/__tmp_879aa794.c:169:17: error: expected expression at end of input
+  169 |                 analyze_log_level(entries,
+      |                 ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_879aa794.c:169:17: error: too few arguments to function ‘analyze_log_level’
+./samples/SAFE/__tmp_879aa794.c:63:6: note: declared here
+   63 | void analyze_log_level(struct LogEntry* entries, int count, enum LogLevel filter) {
+      |      ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_879aa794.c:169:17: error: expected declaration or statement at end of input
+  169 |                 analyze_log_level(entries,
+      |                 ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_879aa794.c:169:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_879aa794.c:169:17: error: expected declaration or statement at end of input

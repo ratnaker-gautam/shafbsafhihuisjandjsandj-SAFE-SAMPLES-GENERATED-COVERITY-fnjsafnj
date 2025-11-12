@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_7ebc8819.c: In function ‘event_to_string’:
+./samples/SAFE/__tmp_7ebc8819.c:136:5: error: expected declaration or statement at end of input
+  136 |     if (event < EVENT_COUNT) return names[event];
+      |     ^~

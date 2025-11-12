@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c2bbb6ee.c: In function ‘transform_geometry’:
+./samples/SAFE/__tmp_c2bbb6ee.c:131:5: error: expected expression at end of input
+  131 |     for (uint32_t i =
+      |     ^~~
+./samples/SAFE/__tmp_c2bbb6ee.c:131:5: error: expected declaration or statement at end of input

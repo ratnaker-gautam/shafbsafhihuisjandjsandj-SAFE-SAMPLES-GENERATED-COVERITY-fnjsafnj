@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_ae824707.c: In function ‘main’:
+./samples/SAFE/__tmp_ae824707.c:149:33: error: invalid operands to binary || (have ‘int’ and ‘Graph’)
+  149 |         if (g.edges[i].from < 0 || g
+      |             ~~~~~~~~~~~~~~~~~~~ ^~
+      |                             |
+      |                             int
+./samples/SAFE/__tmp_ae824707.c:149:37: error: expected ‘)’ at end of input
+  149 |         if (g.edges[i].from < 0 || g
+      |            ~                        ^
+      |                                     )
+./samples/SAFE/__tmp_ae824707.c:149:9: error: expected declaration or statement at end of input
+  149 |         if (g.edges[i].from < 0 || g
+      |         ^~
+./samples/SAFE/__tmp_ae824707.c:149:9: error: expected declaration or statement at end of input

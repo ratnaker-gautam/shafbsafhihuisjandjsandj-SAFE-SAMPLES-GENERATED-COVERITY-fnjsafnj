@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a998cf74.c: In function ‘main’:
+./samples/SAFE/__tmp_a998cf74.c:190:9: error: expected expression at end of input
+  190 |         if (choice == 1 && current_state ==
+      |         ^~
+./samples/SAFE/__tmp_a998cf74.c:190:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a998cf74.c:190:9: error: expected declaration or statement at end of input

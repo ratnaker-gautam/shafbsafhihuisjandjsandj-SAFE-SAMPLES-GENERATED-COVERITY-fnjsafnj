@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_6b53bd46.c: In function ‘main’:
+./samples/SAFE/__tmp_6b53bd46.c:156:32: error: expected ‘)’ at end of input
+  156 |         if (scanf("%d", &choice
+      |                  ~             ^
+      |                                )
+./samples/SAFE/__tmp_6b53bd46.c:156:9: error: expected declaration or statement at end of input
+  156 |         if (scanf("%d", &choice
+      |         ^~
+./samples/SAFE/__tmp_6b53bd46.c:156:9: error: expected declaration or statement at end of input

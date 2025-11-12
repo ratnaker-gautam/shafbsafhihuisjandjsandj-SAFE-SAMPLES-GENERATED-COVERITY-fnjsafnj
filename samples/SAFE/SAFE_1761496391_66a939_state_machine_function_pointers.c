@@ -1,0 +1,164 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: function_pointers ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef enum {
+    STATE_IDLE,
+    STATE_READING,
+    STATE_PROCESSING,
+    STATE_WRITING,
+    STATE_ERROR,
+    STATE_COUNT
+} State;
+
+typedef enum {
+    EVENT_START,
+    EVENT_DATA_READY,
+    EVENT_PROCESS_DONE,
+    EVENT_WRITE_DONE,
+    EVENT_ERROR,
+    EVENT_RESET,
+    EVENT_COUNT
+} Event;
+
+typedef State (*StateHandler)(Event);
+
+State handle_idle(Event evt);
+State handle_reading(Event evt);
+State handle_processing(Event evt);
+State handle_writing(Event evt);
+State handle_error(Event evt);
+
+StateHandler state_handlers[STATE_COUNT] = {
+    handle_idle,
+    handle_reading,
+    handle_processing,
+    handle_writing,
+    handle_error
+};
+
+char* state_names[STATE_COUNT] = {
+    "IDLE",
+    "READING",
+    "PROCESSING",
+    "WRITING",
+    "ERROR"
+};
+
+char* event_names[EVENT_COUNT] = {
+    "START",
+    "DATA_READY",
+    "PROCESS_DONE",
+    "WRITE_DONE",
+    "ERROR",
+    "RESET"
+};
+
+State current_state = STATE_IDLE;
+int data_buffer[10];
+size_t data_count = 0;
+
+State handle_idle(Event evt) {
+    if (evt == EVENT_START) {
+        printf("Starting data acquisition\n");
+        return STATE_READING;
+    }
+    return STATE_IDLE;
+}
+
+State handle_reading(Event evt) {
+    if (evt == EVENT_DATA_READY) {
+        if (data_count < 10) {
+            data_buffer[data_count] = data_count * 10;
+            data_count++;
+            printf("Read data: %d\n", data_buffer[data_count - 1]);
+        }
+        if (data_count >= 5) {
+            return STATE_PROCESSING;
+        }
+        return STATE_READING;
+    } else if (evt == EVENT_ERROR) {
+        return STATE_ERROR;
+    }
+    return STATE_READING;
+}
+
+State handle_processing(Event evt) {
+    if (evt == EVENT_PROCESS_DONE) {
+        printf("Processing complete\n");
+        return STATE_WRITING;
+    } else if (evt == EVENT_ERROR) {
+        return STATE_ERROR;
+    }
+    return STATE_PROCESSING;
+}
+
+State handle_writing(Event evt) {
+    if (evt == EVENT_WRITE_DONE) {
+        printf("Writing complete\n");
+        data_count = 0;
+        return STATE_IDLE;
+    } else if (evt == EVENT_ERROR) {
+        return STATE_ERROR;
+    }
+    return STATE_WRITING;
+}
+
+State handle_error(Event evt) {
+    if (evt == EVENT_RESET) {
+        printf("Resetting from error state\n");
+        data_count = 0;
+        return STATE_IDLE;
+    }
+    return STATE_ERROR;
+}
+
+void process_event(Event evt) {
+    if (evt < 0 || evt >= EVENT_COUNT) {
+        return;
+    }
+    State new_state = state_handlers[current_state](evt);
+    if (new_state < 0 || new_state >= STATE_COUNT) {
+        return;
+    }
+    if (new_state != current_state) {
+        printf("State transition: %s -> %s\n", 
+               state_names[current_state], state_names[new_state]);
+        current_state = new_state;
+    }
+}
+
+int main() {
+    printf("State Machine Demo - Enter commands:\n");
+    printf("0: START, 1: DATA_READY, 2: PROCESS_DONE, 3: WRITE_DONE\n");
+    printf("4: ERROR, 5: RESET, 6: EXIT\n");
+    
+    int running = 1;
+    while (running) {
+        printf("Current state: %s\n", state_names[current_state]);
+        printf("Enter event code: ");
+        
+        int input;
+        if (scanf("%d", &input) != 1) {
+            while (getchar() != '\n');
+            printf("Invalid input\n");
+            continue;
+        }
+        
+        if (input == 6) {
+            running = 0;
+            continue;
+        }
+        
+        if (input < 0 || input >= EVENT_COUNT) {
+            printf("Invalid event code\n");
+            continue;
+        }
+        
+        process_event((Event)input);
+    }
+    
+    printf("Exiting state machine demo\n");
+    return 0;
+}

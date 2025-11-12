@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6267821b.c: In function ‘main’:
+./samples/SAFE/__tmp_6267821b.c:153:5: error: expected expression at end of input
+  153 |     if (pair_count >
+      |     ^~
+./samples/SAFE/__tmp_6267821b.c:153:5: error: expected declaration or statement at end of input

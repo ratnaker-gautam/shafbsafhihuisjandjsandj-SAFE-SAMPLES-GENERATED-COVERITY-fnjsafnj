@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_1b681c3c.c: In function ‘main’:
+./samples/SAFE/__tmp_1b681c3c.c:149:13: error: expected expression at end of input
+  149 |             most_common =
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_1b681c3c.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1b681c3c.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1b681c3c.c:149:13: error: expected declaration or statement at end of input

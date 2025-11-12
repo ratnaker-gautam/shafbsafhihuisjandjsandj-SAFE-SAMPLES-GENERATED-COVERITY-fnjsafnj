@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_75484df9.c:130:6: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  130 | enum Operation get
+      |      ^~~~~~~~~

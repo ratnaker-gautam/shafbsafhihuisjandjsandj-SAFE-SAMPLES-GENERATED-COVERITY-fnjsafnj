@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7111abcd.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_7111abcd.c:179:31: error: expected ‘;’ at end of input
+  179 |         visited[min_index] = 1
+      |                               ^
+      |                               ;
+./samples/SAFE/__tmp_7111abcd.c:179:9: error: expected declaration or statement at end of input
+  179 |         visited[min_index] = 1
+      |         ^~~~~~~
+./samples/SAFE/__tmp_7111abcd.c:179:9: error: expected declaration or statement at end of input

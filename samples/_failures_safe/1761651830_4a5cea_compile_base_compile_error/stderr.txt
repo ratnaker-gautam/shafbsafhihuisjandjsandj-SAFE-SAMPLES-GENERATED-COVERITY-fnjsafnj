@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_3a40d06b.c: In function ‘read_log_file’:
+./samples/SAFE/__tmp_3a40d06b.c:128:9: error: expected declaration or statement at end of input
+  128 |         if (len > 0 && line[len-1] == '\n') {
+      |         ^~
+./samples/SAFE/__tmp_3a40d06b.c:128:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3a40d06b.c:128:9: error: expected declaration or statement at end of input

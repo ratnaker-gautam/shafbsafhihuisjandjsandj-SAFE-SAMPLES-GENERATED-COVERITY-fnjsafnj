@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_e5744535.c: In function ‘main’:
+./samples/SAFE/__tmp_e5744535.c:120:5: error: expected declaration or statement at end of input
+  120 |     printf("\nOriginal data (%d bytes):\n", input_size);
+      |     ^~~~~~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_d3decd2e.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_d3decd2e.c:128:43: error: expected ‘]’ at end of input
+  128 |             printf("%s %s %s\n", entries[i
+      |                                           ^
+      |                                           ]
+./samples/SAFE/__tmp_d3decd2e.c:128:13: error: expected declaration or statement at end of input
+  128 |             printf("%s %s %s\n", entries[i
+      |             ^~~~~~
+./samples/SAFE/__tmp_d3decd2e.c:128:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d3decd2e.c:128:13: error: expected declaration or statement at end of input

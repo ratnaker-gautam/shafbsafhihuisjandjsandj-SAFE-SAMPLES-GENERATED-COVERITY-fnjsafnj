@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_07a0b811.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_07a0b811.c:152:9: error: expected ‘{’ at end of input
+  152 |         struct
+      |         ^~~~~~
+./samples/SAFE/__tmp_07a0b811.c:152:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_07a0b811.c:152:9: error: expected declaration or statement at end of input

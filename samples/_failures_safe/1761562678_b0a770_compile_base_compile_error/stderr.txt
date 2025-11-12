@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_3c44e057.c: In function ‘main’:
+./samples/SAFE/__tmp_3c44e057.c:156:50: error: expected ‘]’ at end of input
+  156 |         printf("%s: %d\n", words[i].word, words[i
+      |                                                  ^
+      |                                                  ]
+./samples/SAFE/__tmp_3c44e057.c:156:9: error: expected declaration or statement at end of input
+  156 |         printf("%s: %d\n", words[i].word, words[i
+      |         ^~~~~~
+./samples/SAFE/__tmp_3c44e057.c:156:9: error: expected declaration or statement at end of input

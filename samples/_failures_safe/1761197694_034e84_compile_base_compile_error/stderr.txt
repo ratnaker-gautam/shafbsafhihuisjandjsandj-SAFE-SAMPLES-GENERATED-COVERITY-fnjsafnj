@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_07e5504a.c: In function ‘main’:
+./samples/SAFE/__tmp_07e5504a.c:159:16: error: missing terminating " character
+  159 |         printf("Error: Columns of A must
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_07e5504a.c:159:9: error: expected expression at end of input
+  159 |         printf("Error: Columns of A must
+      |         ^~~~~~
+./samples/SAFE/__tmp_07e5504a.c:159:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_07e5504a.c:159:9: error: expected declaration or statement at end of input

@@ -1,0 +1,24 @@
+./samples/SAFE/__tmp_f0496629.c: In function ‘update_stats’:
+./samples/SAFE/__tmp_f0496629.c:125:21: error: ‘st’ undeclared (first use in this function)
+  125 |             strncpy(st
+      |                     ^~
+./samples/SAFE/__tmp_f0496629.c:125:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f0496629.c:125:23: error: expected ‘)’ at end of input
+  125 |             strncpy(st
+      |                    ~  ^
+      |                       )
+./samples/SAFE/__tmp_f0496629.c:125:13: error: too few arguments to function ‘strncpy’
+  125 |             strncpy(st
+      |             ^~~~~~~
+In file included from /usr/include/features.h:502,
+                 from /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:33,
+                 from /usr/include/stdio.h:28,
+                 from ./samples/SAFE/__tmp_f0496629.c:2:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:92:1: note: declared here
+   92 | __NTH (strncpy (char *__restrict __dest, const char *__restrict __src,
+      | ^~~~~
+./samples/SAFE/__tmp_f0496629.c:125:13: error: expected declaration or statement at end of input
+  125 |             strncpy(st
+      |             ^~~~~~~
+./samples/SAFE/__tmp_f0496629.c:125:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0496629.c:125:13: error: expected declaration or statement at end of input

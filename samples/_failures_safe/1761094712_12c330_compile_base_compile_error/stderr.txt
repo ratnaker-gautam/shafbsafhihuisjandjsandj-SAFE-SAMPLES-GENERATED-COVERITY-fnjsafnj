@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_fb6ace6d.c: In function ‘handle_paying’:
+./samples/SAFE/__tmp_fb6ace6d.c:152:36: error: expected ‘;’ at end of input
+  152 |         machine->state = DISPENSING
+      |                                    ^
+      |                                    ;
+./samples/SAFE/__tmp_fb6ace6d.c:152:9: error: expected declaration or statement at end of input
+  152 |         machine->state = DISPENSING
+      |         ^~~~~~~
+./samples/SAFE/__tmp_fb6ace6d.c:152:9: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_13acfcb9.c: In function ‘bfs_traversal’:
+./samples/SAFE/__tmp_13acfcb9.c:172:19: error: expected ‘)’ at end of input
+  172 |     if (start_node
+      |        ~          ^
+      |                   )
+./samples/SAFE/__tmp_13acfcb9.c:172:5: error: expected declaration or statement at end of input
+  172 |     if (start_node
+      |     ^~

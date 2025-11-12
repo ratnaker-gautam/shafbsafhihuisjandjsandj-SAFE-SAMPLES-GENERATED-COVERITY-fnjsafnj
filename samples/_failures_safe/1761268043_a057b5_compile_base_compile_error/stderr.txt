@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_0cf27749.c: In function ‘main’:
+./samples/SAFE/__tmp_0cf27749.c:142:25: error: invalid operands to binary && (have ‘int’ and ‘Matrix’)
+  142 |     if (result.rows > 0 && result
+      |         ~~~~~~~~~~~~~~~ ^~
+      |                     |
+      |                     int
+./samples/SAFE/__tmp_0cf27749.c:142:34: error: expected ‘)’ at end of input
+  142 |     if (result.rows > 0 && result
+      |        ~                         ^
+      |                                  )
+./samples/SAFE/__tmp_0cf27749.c:142:5: error: expected declaration or statement at end of input
+  142 |     if (result.rows > 0 && result
+      |     ^~

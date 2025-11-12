@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_38edfa0a.c: In function ‘main’:
+./samples/SAFE/__tmp_38edfa0a.c:159:33: error: expected ‘;’ at end of input
+  159 |                 transpose_matrix
+      |                                 ^
+      |                                 ;
+./samples/SAFE/__tmp_38edfa0a.c:159:17: error: expected declaration or statement at end of input
+  159 |                 transpose_matrix
+      |                 ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_38edfa0a.c:159:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_38edfa0a.c:159:17: error: expected declaration or statement at end of input

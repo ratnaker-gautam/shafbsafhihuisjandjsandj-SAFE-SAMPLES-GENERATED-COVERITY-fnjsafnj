@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_742a2a9c.c: In function ‘main’:
+./samples/SAFE/__tmp_742a2a9c.c:148:5: error: expected declaration or statement at end of input
+  148 |     state_init(&ctx);
+      |     ^~~~~~~~~~

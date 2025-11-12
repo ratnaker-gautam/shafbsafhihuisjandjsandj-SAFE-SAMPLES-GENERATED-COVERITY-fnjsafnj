@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_9320d277.c: In function ‘main’:
+./samples/SAFE/__tmp_9320d277.c:136:18: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  136 |     input_buffer[input
+      |                  ^~~~~
+      |                  int
+./samples/SAFE/__tmp_9320d277.c:136:18: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9320d277.c:136:23: error: expected ‘]’ at end of input
+  136 |     input_buffer[input
+      |                       ^
+      |                       ]
+./samples/SAFE/__tmp_9320d277.c:136:5: error: expected declaration or statement at end of input
+  136 |     input_buffer[input
+      |     ^~~~~~~~~~~~

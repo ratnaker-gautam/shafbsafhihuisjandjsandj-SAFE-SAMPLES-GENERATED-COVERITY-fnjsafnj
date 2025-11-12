@@ -1,0 +1,8 @@
+
+samples/SAFE/__tmp_8368a69f.c:56:44: runtime error: index 100 out of bounds for type 'char [100]'
+    #0 0x58616ffacf14 in process_input samples/SAFE/__tmp_8368a69f.c:56
+    #1 0x58616ffadc82 in main samples/SAFE/__tmp_8368a69f.c:105
+    #2 0x7bd2ff02a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x7bd2ff02a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x58616ffac404 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_8368a69f.c.san+0x4404) (BuildId: 1f54063745a2f004c69fe311227703a7fb0cdfc6)
+

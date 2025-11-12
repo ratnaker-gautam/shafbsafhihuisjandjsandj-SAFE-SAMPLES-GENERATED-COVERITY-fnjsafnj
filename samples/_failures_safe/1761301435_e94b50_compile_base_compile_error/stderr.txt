@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_cea7c44d.c: In function ‘main’:
+./samples/SAFE/__tmp_cea7c44d.c:153:36: error: ‘filter’ undeclared (first use in this function)
+  153 |     if (fgets(filter_level, sizeof(filter
+      |                                    ^~~~~~
+./samples/SAFE/__tmp_cea7c44d.c:153:36: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cea7c44d.c:153:42: error: expected ‘)’ at end of input
+  153 |     if (fgets(filter_level, sizeof(filter
+      |                                   ~      ^
+      |                                          )
+./samples/SAFE/__tmp_cea7c44d.c:153:9: error: too few arguments to function ‘fgets’
+  153 |     if (fgets(filter_level, sizeof(filter
+      |         ^~~~~
+In file included from /usr/include/stdio.h:980,
+                 from ./samples/SAFE/__tmp_cea7c44d.c:2:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:196:1: note: declared here
+  196 | fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      | ^~~~~
+./samples/SAFE/__tmp_cea7c44d.c:153:5: error: expected declaration or statement at end of input
+  153 |     if (fgets(filter_level, sizeof(filter
+      |     ^~

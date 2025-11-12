@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_925a4fe8.c: In function ‘main’:
+./samples/SAFE/__tmp_925a4fe8.c:115:5: error: expected declaration or statement at end of input
+  115 |     printf("Total entries: %d\n", stack_count + heap_count);
+      |     ^~~~~~

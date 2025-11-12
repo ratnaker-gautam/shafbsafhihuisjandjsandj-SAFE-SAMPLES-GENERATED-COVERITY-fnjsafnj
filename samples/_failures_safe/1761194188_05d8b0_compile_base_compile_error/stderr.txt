@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_cb0e6f44.c: In function ‘matrix_mul’:
+./samples/SAFE/__tmp_cb0e6f44.c:124:31: error: ‘SAFE’ undeclared (first use in this function)
+  124 |                 int product = SAFE
+      |                               ^~~~
+./samples/SAFE/__tmp_cb0e6f44.c:124:31: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_cb0e6f44.c:124:17: error: expected ‘,’ or ‘;’ at end of input
+  124 |                 int product = SAFE
+      |                 ^~~
+./samples/SAFE/__tmp_cb0e6f44.c:124:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cb0e6f44.c:124:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cb0e6f44.c:124:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_cb0e6f44.c:124:17: error: expected declaration or statement at end of input

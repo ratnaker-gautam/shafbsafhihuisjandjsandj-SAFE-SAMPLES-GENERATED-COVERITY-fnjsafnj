@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_8bfcb05c.c: In function ‘main’:
+./samples/SAFE/__tmp_8bfcb05c.c:166:5: error: ‘perform_cpu_intensive’ undeclared (first use in this function); did you mean ‘perform_cpu_intensive_processing’?
+  166 |     perform_cpu_intensive
+      |     ^~~~~~~~~~~~~~~~~~~~~
+      |     perform_cpu_intensive_processing
+./samples/SAFE/__tmp_8bfcb05c.c:166:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8bfcb05c.c:166:26: error: expected ‘;’ at end of input
+  166 |     perform_cpu_intensive
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_8bfcb05c.c:166:5: error: expected declaration or statement at end of input
+  166 |     perform_cpu_intensive
+      |     ^~~~~~~~~~~~~~~~~~~~~

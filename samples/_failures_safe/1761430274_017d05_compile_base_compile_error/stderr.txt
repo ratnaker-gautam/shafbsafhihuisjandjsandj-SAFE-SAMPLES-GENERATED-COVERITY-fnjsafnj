@@ -1,0 +1,25 @@
+./samples/SAFE/__tmp_328b4e66.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_328b4e66.c:125:33: error: expected ‘]’ at end of input
+  125 |             if (strcmp(entries[i
+      |                                 ^
+      |                                 ]
+./samples/SAFE/__tmp_328b4e66.c:125:31: error: incompatible type for argument 1 of ‘strcmp’
+  125 |             if (strcmp(entries[i
+      |                        ~~~~~~~^~
+      |                               |
+      |                               struct log_entry
+In file included from ./samples/SAFE/__tmp_328b4e66.c:4:
+/usr/include/string.h:156:32: note: expected ‘const char *’ but argument is of type ‘struct log_entry’
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+      |                    ~~~~~~~~~~~~^~~~
+./samples/SAFE/__tmp_328b4e66.c:125:17: error: too few arguments to function ‘strcmp’
+  125 |             if (strcmp(entries[i
+      |                 ^~~~~~
+/usr/include/string.h:156:12: note: declared here
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+      |            ^~~~~~
+./samples/SAFE/__tmp_328b4e66.c:125:13: error: expected declaration or statement at end of input
+  125 |             if (strcmp(entries[i
+      |             ^~
+./samples/SAFE/__tmp_328b4e66.c:125:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_328b4e66.c:125:13: error: expected declaration or statement at end of input

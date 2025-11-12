@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_42411a1f.c: In function ‘main’:
+./samples/SAFE/__tmp_42411a1f.c:162:38: error: ‘MAX_TOK’ undeclared (first use in this function); did you mean ‘MAX_TOKENS’?
+  162 |     TokenStack* stack = create_stack(MAX_TOK
+      |                                      ^~~~~~~
+      |                                      MAX_TOKENS
+./samples/SAFE/__tmp_42411a1f.c:162:38: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_42411a1f.c:162:45: error: expected ‘)’ at end of input
+  162 |     TokenStack* stack = create_stack(MAX_TOK
+      |                                     ~       ^
+      |                                             )
+./samples/SAFE/__tmp_42411a1f.c:162:5: error: expected declaration or statement at end of input
+  162 |     TokenStack* stack = create_stack(MAX_TOK
+      |     ^~~~~~~~~~

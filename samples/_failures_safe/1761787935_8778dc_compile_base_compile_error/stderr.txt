@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_668829dd.c: In function ‘get_user_event’:
+./samples/SAFE/__tmp_668829dd.c:174:5: error: expected declaration or statement at end of input
+  174 |     char input[16];
+      |     ^~~~

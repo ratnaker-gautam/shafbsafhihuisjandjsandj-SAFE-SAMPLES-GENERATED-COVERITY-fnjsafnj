@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f108b117.c: In function ‘display_compression_info’:
+./samples/SAFE/__tmp_f108b117.c:162:16: error: expected identifier at end of input
+  162 |                i, ctx->blocks[i].offset, ctx->blocks[i].
+      |                ^
+./samples/SAFE/__tmp_f108b117.c:162:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f108b117.c:162:16: error: expected declaration or statement at end of input

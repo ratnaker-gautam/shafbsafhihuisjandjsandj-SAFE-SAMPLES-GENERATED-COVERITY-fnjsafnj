@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_0cdec9b6.c: In function ‘main’:
+./samples/SAFE/__tmp_0cdec9b6.c:141:9: error: expected expression at end of input
+  141 |         analyze_logs(
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_0cdec9b6.c:141:9: error: too few arguments to function ‘analyze_logs’
+./samples/SAFE/__tmp_0cdec9b6.c:45:6: note: declared here
+   45 | void analyze_logs(struct LogEntry* entries, int count) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_0cdec9b6.c:141:9: error: expected declaration or statement at end of input
+  141 |         analyze_logs(
+      |         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_0cdec9b6.c:141:9: error: expected declaration or statement at end of input

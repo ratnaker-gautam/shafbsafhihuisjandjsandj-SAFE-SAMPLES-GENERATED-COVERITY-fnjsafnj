@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f1919ea7.c: In function ‘parser_init’:
+./samples/SAFE/__tmp_f1919ea7.c:152:27: error: ‘lex’ undeclared (first use in this function); did you mean ‘lexer’?
+  152 |     if (parser == NULL || lex
+      |                           ^~~
+      |                           lexer
+./samples/SAFE/__tmp_f1919ea7.c:152:27: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f1919ea7.c:152:30: error: expected ‘)’ at end of input
+  152 |     if (parser == NULL || lex
+      |        ~                     ^
+      |                              )
+./samples/SAFE/__tmp_f1919ea7.c:152:5: error: expected declaration or statement at end of input
+  152 |     if (parser == NULL || lex
+      |     ^~

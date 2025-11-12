@@ -1,0 +1,20 @@
+./samples/SAFE/__tmp_625aa001.c: In function ‘main’:
+./samples/SAFE/__tmp_625aa001.c:157:21: error: ‘m’ undeclared (first use in this function)
+  157 |             strncmp(m
+      |                     ^
+./samples/SAFE/__tmp_625aa001.c:157:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_625aa001.c:157:22: error: expected ‘)’ at end of input
+  157 |             strncmp(m
+      |                    ~ ^
+      |                      )
+./samples/SAFE/__tmp_625aa001.c:157:13: error: too few arguments to function ‘strncmp’
+  157 |             strncmp(m
+      |             ^~~~~~~
+In file included from ./samples/SAFE/__tmp_625aa001.c:4:
+/usr/include/string.h:159:12: note: declared here
+  159 | extern int strncmp (const char *__s1, const char *__s2, size_t __n)
+      |            ^~~~~~~
+./samples/SAFE/__tmp_625aa001.c:157:13: error: expected declaration or statement at end of input
+  157 |             strncmp(m
+      |             ^~~~~~~
+./samples/SAFE/__tmp_625aa001.c:157:13: error: expected declaration or statement at end of input

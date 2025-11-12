@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_a6136618.c: In function ‘main’:
+./samples/SAFE/__tmp_a6136618.c:189:40: error: expected ‘)’ at end of input
+  189 |     executeAlgorithm(graph, currentAlgo
+      |                     ~                  ^
+      |                                        )
+./samples/SAFE/__tmp_a6136618.c:189:5: error: too few arguments to function ‘executeAlgorithm’
+  189 |     executeAlgorithm(graph, currentAlgo
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a6136618.c:152:6: note: declared here
+  152 | void executeAlgorithm(struct Graph* graph, enum Algorithm algo, int start) {
+      |      ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_a6136618.c:189:5: error: expected declaration or statement at end of input
+  189 |     executeAlgorithm(graph, currentAlgo
+      |     ^~~~~~~~~~~~~~~~

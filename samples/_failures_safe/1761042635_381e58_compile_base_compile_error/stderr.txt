@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_4ea34256.c: In function ‘parser_advance’:
+./samples/SAFE/__tmp_4ea34256.c:150:11: error: ‘struct Parser’ has no member named ‘current’
+  150 |     parser->current
+      |           ^~
+./samples/SAFE/__tmp_4ea34256.c:150:20: error: expected ‘;’ at end of input
+  150 |     parser->current
+      |                    ^
+      |                    ;
+./samples/SAFE/__tmp_4ea34256.c:150:5: error: expected declaration or statement at end of input
+  150 |     parser->current
+      |     ^~~~~~

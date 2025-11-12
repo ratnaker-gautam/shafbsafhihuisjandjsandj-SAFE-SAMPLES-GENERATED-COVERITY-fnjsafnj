@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_57e7845d.c:169:20: error: expected ‘)’ at end of input
+  169 | void print_tokens(T
+      |                    ^
+      |                    )

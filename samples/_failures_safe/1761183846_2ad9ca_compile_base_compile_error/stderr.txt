@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_429c8b69.c: In function ‘main’:
+./samples/SAFE/__tmp_429c8b69.c:131:45: error: missing terminating " character
+  131 |             case TOKEN_OPERATOR: type_str = "OPERATOR
+      |                                             ^~~~~~~~~
+./samples/SAFE/__tmp_429c8b69.c:131:13: error: expected expression at end of input
+  131 |             case TOKEN_OPERATOR: type_str = "OPERATOR
+      |             ^~~~
+./samples/SAFE/__tmp_429c8b69.c:131:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_429c8b69.c:131:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_429c8b69.c:131:13: error: expected declaration or statement at end of input

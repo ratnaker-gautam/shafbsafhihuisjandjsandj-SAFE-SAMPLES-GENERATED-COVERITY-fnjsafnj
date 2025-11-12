@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c4d4d200.c: In function ‘print_statistics’:
+./samples/SAFE/__tmp_c4d4d200.c:134:5: error: expected identifier at end of input
+  134 |     if (stats->
+      |     ^~
+./samples/SAFE/__tmp_c4d4d200.c:134:5: error: expected declaration or statement at end of input

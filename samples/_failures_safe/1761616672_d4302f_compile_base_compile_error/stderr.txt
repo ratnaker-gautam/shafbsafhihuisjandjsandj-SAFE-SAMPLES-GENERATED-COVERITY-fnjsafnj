@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_6127e34e.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_6127e34e.c:165:17: error: ‘MAX’ undeclared (first use in this function)
+  165 |     int visited[MAX
+      |                 ^~~
+./samples/SAFE/__tmp_6127e34e.c:165:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6127e34e.c:165:20: error: expected ‘]’ at end of input
+  165 |     int visited[MAX
+      |                    ^
+      |                    ]
+./samples/SAFE/__tmp_6127e34e.c:165:5: error: expected declaration or statement at end of input
+  165 |     int visited[MAX
+      |     ^~~

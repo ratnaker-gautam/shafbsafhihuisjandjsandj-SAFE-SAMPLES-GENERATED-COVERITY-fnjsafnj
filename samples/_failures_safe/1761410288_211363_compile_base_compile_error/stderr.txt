@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9d36c4c3.c:165:28: error: ‘Token’ defined as wrong kind of tag
+  165 | void print_token_type(enum Token
+      |                            ^~~~~
+./samples/SAFE/__tmp_9d36c4c3.c:166: error: expected ‘;’, ‘,’ or ‘)’ at end of input

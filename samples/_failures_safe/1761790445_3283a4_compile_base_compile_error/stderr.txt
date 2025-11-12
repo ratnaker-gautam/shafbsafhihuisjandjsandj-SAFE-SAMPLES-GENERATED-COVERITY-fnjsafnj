@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_9a1c4c09.c: In function ‘print_token’:
+./samples/SAFE/__tmp_9a1c4c09.c:170:25: error: expected declaration or statement at end of input
+  170 | void print_token(struct Token token) {
+      |                         ^~~~~

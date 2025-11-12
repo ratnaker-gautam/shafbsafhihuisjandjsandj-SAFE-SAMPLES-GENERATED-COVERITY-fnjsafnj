@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_dd94defc.c: In function ‘main’:
+./samples/SAFE/__tmp_dd94defc.c:150:9: error: expected expression at end of input
+  150 |         execute_operation(operations[choice -
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_dd94defc.c:150:9: error: too few arguments to function ‘execute_operation’
+./samples/SAFE/__tmp_dd94defc.c:85:6: note: declared here
+   85 | void execute_operation(MatrixOp op, int rows, int cols, int matrix[rows][cols]) {
+      |      ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_dd94defc.c:150:9: error: expected declaration or statement at end of input
+  150 |         execute_operation(operations[choice -
+      |         ^~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_dd94defc.c:150:9: error: expected declaration or statement at end of input

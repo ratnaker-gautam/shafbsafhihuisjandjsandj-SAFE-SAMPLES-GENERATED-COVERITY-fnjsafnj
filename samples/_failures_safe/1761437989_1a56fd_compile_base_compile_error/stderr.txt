@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_c97ca965.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_c97ca965.c:161:9: error: expected declaration or statement at end of input
+  161 |         queue_destroy(&q);
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_c97ca965.c:161:9: error: expected declaration or statement at end of input

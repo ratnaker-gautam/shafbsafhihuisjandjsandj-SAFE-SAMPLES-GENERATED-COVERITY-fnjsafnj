@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5355673f.c: In function ‘main’:
+./samples/SAFE/__tmp_5355673f.c:149:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  149 |         double det
+      |         ^~~~~~
+./samples/SAFE/__tmp_5355673f.c:149:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5355673f.c:149:9: error: expected declaration or statement at end of input

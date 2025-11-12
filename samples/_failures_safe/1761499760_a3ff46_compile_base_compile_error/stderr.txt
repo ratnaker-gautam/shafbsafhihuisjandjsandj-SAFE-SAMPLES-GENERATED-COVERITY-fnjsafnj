@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_ca5603a0.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_ca5603a0.c:152:9: error: expected declaration or statement at end of input
+  152 |         token_ptr++;
+      |         ^~~~~~~~~
+./samples/SAFE/__tmp_ca5603a0.c:152:9: error: expected declaration or statement at end of input

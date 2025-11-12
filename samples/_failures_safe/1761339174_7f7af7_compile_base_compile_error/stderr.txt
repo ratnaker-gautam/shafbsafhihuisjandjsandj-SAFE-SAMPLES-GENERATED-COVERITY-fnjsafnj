@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_57acd355.c: In function ‘main’:
+./samples/SAFE/__tmp_57acd355.c:155:5: error: expected identifier or ‘(’ at end of input
+  155 |     char
+      |     ^~~~
+./samples/SAFE/__tmp_57acd355.c:155:5: error: expected declaration or statement at end of input

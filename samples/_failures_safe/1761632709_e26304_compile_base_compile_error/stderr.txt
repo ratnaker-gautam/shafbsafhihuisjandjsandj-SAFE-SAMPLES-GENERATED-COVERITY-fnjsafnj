@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_6d4d4982.c: In function ‘main’:
+./samples/SAFE/__tmp_6d4d4982.c:149:5: error: ‘initialize_transition’ undeclared (first use in this function); did you mean ‘initialize_transition_table’?
+  149 |     initialize_transition
+      |     ^~~~~~~~~~~~~~~~~~~~~
+      |     initialize_transition_table
+./samples/SAFE/__tmp_6d4d4982.c:149:5: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_6d4d4982.c:149:26: error: expected ‘;’ at end of input
+  149 |     initialize_transition
+      |                          ^
+      |                          ;
+./samples/SAFE/__tmp_6d4d4982.c:149:5: error: expected declaration or statement at end of input
+  149 |     initialize_transition
+      |     ^~~~~~~~~~~~~~~~~~~~~

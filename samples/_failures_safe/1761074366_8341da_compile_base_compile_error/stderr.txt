@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_644af25e.c: In function ‘main’:
+./samples/SAFE/__tmp_644af25e.c:160:5: error: expected expression at end of input
+  160 |     if (ctx == NULL)
+      |     ^~
+./samples/SAFE/__tmp_644af25e.c:160:5: error: expected declaration or statement at end of input

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_7cedcc6b.c: In function ‘dfs’:
+./samples/SAFE/__tmp_7cedcc6b.c:178:17: error: expected declaration or statement at end of input
+  178 | void dfs(struct Graph* graph, int start_id) {
+      |                 ^~~~~

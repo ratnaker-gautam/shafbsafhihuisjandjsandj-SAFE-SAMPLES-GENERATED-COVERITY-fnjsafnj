@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7e2e1cfd.c: In function ‘main’:
+./samples/SAFE/__tmp_7e2e1cfd.c:166:5: error: expected declaration or statement at end of input
+  166 |     if (strlen(input) == 0) {
+      |     ^~
+./samples/SAFE/__tmp_7e2e1cfd.c:166:5: error: expected declaration or statement at end of input

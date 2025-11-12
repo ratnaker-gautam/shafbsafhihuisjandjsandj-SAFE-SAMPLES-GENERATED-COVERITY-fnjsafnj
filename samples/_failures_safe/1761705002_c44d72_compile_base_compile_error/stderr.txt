@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_183aff01.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_183aff01.c:131:9: error: expected ‘,’ or ‘;’ at end of input
+  131 |         int sign = (p % 2 == 0)
+      |         ^~~
+./samples/SAFE/__tmp_183aff01.c:131:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_183aff01.c:131:9: error: expected declaration or statement at end of input

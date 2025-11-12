@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_1f93efb2.c: In function ‘graph_destroy’:
+./samples/SAFE/__tmp_1f93efb2.c:170:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  170 |             struct GraphEdge *next_edge
+      |                    ^~~~~~~~~
+./samples/SAFE/__tmp_1f93efb2.c:170:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1f93efb2.c:170:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_1f93efb2.c:170:20: error: expected declaration or statement at end of input

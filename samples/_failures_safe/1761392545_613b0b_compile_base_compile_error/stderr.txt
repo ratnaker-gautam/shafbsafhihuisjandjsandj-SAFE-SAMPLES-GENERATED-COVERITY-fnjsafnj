@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_d77424bf.c: In function ‘main’:
+./samples/SAFE/__tmp_d77424bf.c:184:14: error: ‘hand’ undeclared (first use in this function); did you mean ‘rand’?
+  184 |         if (!hand
+      |              ^~~~
+      |              rand
+./samples/SAFE/__tmp_d77424bf.c:184:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_d77424bf.c:184:18: error: expected ‘)’ at end of input
+  184 |         if (!hand
+      |            ~     ^
+      |                  )
+./samples/SAFE/__tmp_d77424bf.c:184:9: error: expected declaration or statement at end of input
+  184 |         if (!hand
+      |         ^~
+./samples/SAFE/__tmp_d77424bf.c:184:9: error: expected declaration or statement at end of input

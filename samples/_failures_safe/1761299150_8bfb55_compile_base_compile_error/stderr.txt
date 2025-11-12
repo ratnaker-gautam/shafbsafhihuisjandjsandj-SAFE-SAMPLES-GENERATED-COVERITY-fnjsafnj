@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_c8818673.c: In function ‘main’:
+./samples/SAFE/__tmp_c8818673.c:146:9: error: expected expression at end of input
+  146 |         buffer_append(&decompressed,
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_c8818673.c:146:9: error: too few arguments to function ‘buffer_append’
+./samples/SAFE/__tmp_c8818673.c:29:6: note: declared here
+   29 | void buffer_append(Buffer *buf, const unsigned char *src, size_t len) {
+      |      ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_c8818673.c:146:9: error: expected declaration or statement at end of input
+  146 |         buffer_append(&decompressed,
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_c8818673.c:146:9: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_15aada9f.c: In function ‘perform_compression’:
+./samples/SAFE/__tmp_15aada9f.c:149:21: error: expected ‘;’ at end of input
+  149 |         result.ratio
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_15aada9f.c:149:9: error: expected declaration or statement at end of input
+  149 |         result.ratio
+      |         ^~~~~~
+./samples/SAFE/__tmp_15aada9f.c:149:9: error: expected declaration or statement at end of input

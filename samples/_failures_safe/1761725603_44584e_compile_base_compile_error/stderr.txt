@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a9892932.c: In function ‘main’:
+./samples/SAFE/__tmp_a9892932.c:148:9: error: expected expression at end of input
+  148 |         input[strcspn(input,
+      |         ^~~~~
+./samples/SAFE/__tmp_a9892932.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a9892932.c:148:9: error: expected declaration or statement at end of input

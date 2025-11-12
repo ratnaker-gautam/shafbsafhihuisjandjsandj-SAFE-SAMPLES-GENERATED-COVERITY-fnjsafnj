@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_26265072.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_26265072.c:130:9: error: expected expression at end of input
+  130 |         } else if ((consumed = parse_operator(p, p + MAX_TOKEN_LEN, token_value)) >
+      |         ^
+./samples/SAFE/__tmp_26265072.c:130:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_26265072.c:130:9: error: expected declaration or statement at end of input

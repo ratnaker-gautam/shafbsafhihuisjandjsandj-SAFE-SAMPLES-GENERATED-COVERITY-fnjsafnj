@@ -1,0 +1,156 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: enum_switch ; Variation: matrix_ops
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include <string.h>
+
+enum Operation {
+    OP_ADD,
+    OP_SUBTRACT,
+    OP_MULTIPLY,
+    OP_TRANSPOSE,
+    OP_INVALID
+};
+
+void print_matrix(int rows, int cols, int matrix[rows][cols]) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            printf("%d ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+int read_matrix(int rows, int cols, int matrix[rows][cols]) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            if (scanf("%d", &matrix[i][j]) != 1) {
+                return 0;
+            }
+        }
+    }
+    return 1;
+}
+
+int main(void) {
+    enum Operation op;
+    int choice;
+    int rows1, cols1, rows2, cols2;
+    
+    printf("Enter matrix operation (0=Add, 1=Subtract, 2=Multiply, 3=Transpose): ");
+    if (scanf("%d", &choice) != 1) {
+        printf("Invalid input\n");
+        return 1;
+    }
+    
+    if (choice < 0 || choice > 3) {
+        printf("Invalid operation\n");
+        return 1;
+    }
+    op = (enum Operation)choice;
+    
+    switch (op) {
+        case OP_ADD:
+        case OP_SUBTRACT:
+            printf("Enter rows and columns for both matrices: ");
+            if (scanf("%d %d", &rows1, &cols1) != 2) {
+                printf("Invalid dimensions\n");
+                return 1;
+            }
+            if (rows1 <= 0 || cols1 <= 0 || rows1 > 100 || cols1 > 100) {
+                printf("Invalid dimensions\n");
+                return 1;
+            }
+            rows2 = rows1;
+            cols2 = cols1;
+            break;
+            
+        case OP_MULTIPLY:
+            printf("Enter rows and columns for first matrix: ");
+            if (scanf("%d %d", &rows1, &cols1) != 2) {
+                printf("Invalid dimensions\n");
+                return 1;
+            }
+            if (rows1 <= 0 || cols1 <= 0 || rows1 > 100 || cols1 > 100) {
+                printf("Invalid dimensions\n");
+                return 1;
+            }
+            printf("Enter rows and columns for second matrix: ");
+            if (scanf("%d %d", &rows2, &cols2) != 2) {
+                printf("Invalid dimensions\n");
+                return 1;
+            }
+            if (rows2 <= 0 || cols2 <= 0 || rows2 > 100 || cols2 > 100) {
+                printf("Invalid dimensions\n");
+                return 1;
+            }
+            if (cols1 != rows2) {
+                printf("Dimension mismatch for multiplication\n");
+                return 1;
+            }
+            break;
+            
+        case OP_TRANSPOSE:
+            printf("Enter rows and columns for matrix: ");
+            if (scanf("%d %d", &rows1, &cols1) != 2) {
+                printf("Invalid dimensions\n");
+                return 1;
+            }
+            if (rows1 <= 0 || cols1 <= 0 || rows1 > 100 || cols1 > 100) {
+                printf("Invalid dimensions\n");
+                return 1;
+            }
+            rows2 = cols1;
+            cols2 = rows1;
+            break;
+            
+        default:
+            printf("Invalid operation\n");
+            return 1;
+    }
+    
+    int mat1[100][100];
+    int mat2[100][100];
+    int result[100][100];
+    
+    printf("Enter first matrix elements:\n");
+    if (!read_matrix(rows1, cols1, mat1)) {
+        printf("Invalid matrix input\n");
+        return 1;
+    }
+    
+    if (op != OP_TRANSPOSE) {
+        printf("Enter second matrix elements:\n");
+        if (!read_matrix(rows2, cols2, mat2)) {
+            printf("Invalid matrix input\n");
+            return 1;
+        }
+    }
+    
+    switch (op) {
+        case OP_ADD:
+            for (int i = 0; i < rows1; i++) {
+                for (int j = 0; j < cols1; j++) {
+                    result[i][j] = mat1[i][j] + mat2[i][j];
+                }
+            }
+            printf("Matrix addition result:\n");
+            print_matrix(rows1, cols1, result);
+            break;
+            
+        case OP_SUBTRACT:
+            for (int i = 0; i < rows1; i++) {
+                for (int j = 0; j < cols1; j++) {
+                    result[i][j] = mat1[i][j] - mat2[i][j];
+                }
+            }
+            printf("Matrix subtraction result:\n");
+            print_matrix(rows1, cols1, result);
+            break;
+            
+        case OP_MULTIPLY:
+            for (int i = 0; i < rows1; i++) {
+                for (int j = 0; j < cols2; j++) {
+                    result[i][j] = 0;
+                    for (int k = 0; k < cols1; k++) {
+                        result[i][j] += mat1

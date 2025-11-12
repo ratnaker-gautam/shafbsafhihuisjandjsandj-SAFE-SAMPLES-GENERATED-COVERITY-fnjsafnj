@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_ae19979f.c: In function ‘main’:
+./samples/SAFE/__tmp_ae19979f.c:132:31: error: expected ‘)’ at end of input
+  132 |         printf("%02X ", output
+      |               ~               ^
+      |                               )
+./samples/SAFE/__tmp_ae19979f.c:132:9: error: expected declaration or statement at end of input
+  132 |         printf("%02X ", output
+      |         ^~~~~~
+./samples/SAFE/__tmp_ae19979f.c:132:9: error: expected declaration or statement at end of input

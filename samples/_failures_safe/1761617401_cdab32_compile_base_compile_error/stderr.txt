@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_ccd35495.c: In function ‘main’:
+./samples/SAFE/__tmp_ccd35495.c:147:51: error: ‘de’ undeclared (first use in this function)
+  147 |     if (decompressed.size == input_size && memcmp(de
+      |                                                   ^~
+./samples/SAFE/__tmp_ccd35495.c:147:51: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ccd35495.c:147:53: error: expected ‘)’ at end of input
+  147 |     if (decompressed.size == input_size && memcmp(de
+      |                                                  ~  ^
+      |                                                     )
+./samples/SAFE/__tmp_ccd35495.c:147:44: error: too few arguments to function ‘memcmp’
+  147 |     if (decompressed.size == input_size && memcmp(de
+      |                                            ^~~~~~
+In file included from ./samples/SAFE/__tmp_ccd35495.c:4:
+/usr/include/string.h:64:12: note: declared here
+   64 | extern int memcmp (const void *__s1, const void *__s2, size_t __n)
+      |            ^~~~~~
+./samples/SAFE/__tmp_ccd35495.c:147:5: error: expected declaration or statement at end of input
+  147 |     if (decompressed.size == input_size && memcmp(de
+      |     ^~

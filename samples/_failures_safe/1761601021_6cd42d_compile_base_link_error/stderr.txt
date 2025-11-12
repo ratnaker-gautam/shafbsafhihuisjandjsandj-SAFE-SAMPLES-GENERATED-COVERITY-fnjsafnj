@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccuEuFai.o: in function `main':
+__tmp_6483ee74.c:(.text.startup+0x361): undefined reference to `log'
+/usr/bin/ld: __tmp_6483ee74.c:(.text.startup+0x386): undefined reference to `exp'
+/usr/bin/ld: __tmp_6483ee74.c:(.text.startup+0x407): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

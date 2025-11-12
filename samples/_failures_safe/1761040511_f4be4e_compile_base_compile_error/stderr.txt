@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_05a12617.c: In function ‘hex_to_bytes’:
+./samples/SAFE/__tmp_05a12617.c:116:43: error: expected ‘;’ at end of input
+  116 |     if (hex_len / 2 > max_bytes) return -1
+      |                                           ^
+      |                                           ;
+./samples/SAFE/__tmp_05a12617.c:116:5: error: expected declaration or statement at end of input
+  116 |     if (hex_len / 2 > max_bytes) return -1
+      |     ^~

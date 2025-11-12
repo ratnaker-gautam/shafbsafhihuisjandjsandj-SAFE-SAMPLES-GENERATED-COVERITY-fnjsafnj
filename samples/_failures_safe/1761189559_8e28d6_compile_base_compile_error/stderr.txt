@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_b930b219.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_b930b219.c:112:13: error: expected declaration or statement at end of input
+  112 |             found = 1;
+      |             ^~~~~
+./samples/SAFE/__tmp_b930b219.c:112:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b930b219.c:112:13: error: expected declaration or statement at end of input

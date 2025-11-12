@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_64690eb5.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_64690eb5.c:149:13: error: expected declaration or statement at end of input
+  149 |             case TOKEN_ERROR:
+      |             ^~~~
+./samples/SAFE/__tmp_64690eb5.c:149:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_64690eb5.c:149:13: error: expected declaration or statement at end of input

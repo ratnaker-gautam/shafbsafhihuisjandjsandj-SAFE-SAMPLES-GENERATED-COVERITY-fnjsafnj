@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_30b773a0.c: In function ‘main’:
+./samples/SAFE/__tmp_30b773a0.c:155:17: error: expected declaration or statement at end of input
+  155 |                 printf("WARNING: Potential issues that may need attention\n");
+      |                 ^~~~~~
+./samples/SAFE/__tmp_30b773a0.c:155:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_30b773a0.c:155:17: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_9d7614a0.c: In function ‘main’:
+./samples/SAFE/__tmp_9d7614a0.c:138:58: error: ‘MAX’ undeclared (first use in this function)
+  138 |     if (scanf("%d", &edges) != 1 || edges < 0 || edges > MAX
+      |                                                          ^~~
+./samples/SAFE/__tmp_9d7614a0.c:138:58: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9d7614a0.c:138:61: error: expected ‘)’ at end of input
+  138 |     if (scanf("%d", &edges) != 1 || edges < 0 || edges > MAX
+      |        ~                                                    ^
+      |                                                             )
+./samples/SAFE/__tmp_9d7614a0.c:138:5: error: expected declaration or statement at end of input
+  138 |     if (scanf("%d", &edges) != 1 || edges < 0 || edges > MAX
+      |     ^~

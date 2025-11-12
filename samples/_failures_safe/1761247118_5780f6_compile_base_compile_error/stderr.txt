@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1c976548.c: In function ‘determinant_2x2’:
+./samples/SAFE/__tmp_1c976548.c:143:12: error: expected ‘)’ at end of input
+  143 |     if (mat
+      |        ~   ^
+      |            )
+./samples/SAFE/__tmp_1c976548.c:143:5: error: expected declaration or statement at end of input
+  143 |     if (mat
+      |     ^~

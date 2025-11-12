@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_ebdd5209.c: In function ‘tokenize_next’:
+./samples/SAFE/__tmp_ebdd5209.c:164:24: error: expected ‘;’ at end of input
+  164 |         token->line = t
+      |                        ^
+      |                        ;
+./samples/SAFE/__tmp_ebdd5209.c:164:9: error: expected declaration or statement at end of input
+  164 |         token->line = t
+      |         ^~~~~
+./samples/SAFE/__tmp_ebdd5209.c:164:9: error: expected declaration or statement at end of input

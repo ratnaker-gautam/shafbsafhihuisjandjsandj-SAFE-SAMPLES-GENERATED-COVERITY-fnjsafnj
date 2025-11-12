@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d116be50.c: In function ‘main’:
+./samples/SAFE/__tmp_d116be50.c:136:13: error: expected declaration or statement at end of input
+  136 |             fprintf(stderr, "Invalid edge input\n");
+      |             ^~~~~~~
+./samples/SAFE/__tmp_d116be50.c:136:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d116be50.c:136:13: error: expected declaration or statement at end of input

@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_2170d5e0.c: In function ‘main’:
+./samples/SAFE/__tmp_2170d5e0.c:168:9: error: ‘mem’ undeclared (first use in this function)
+  168 |         mem
+      |         ^~~
+./samples/SAFE/__tmp_2170d5e0.c:168:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_2170d5e0.c:168:12: error: expected ‘)’ at end of input
+  168 |         mem
+      |            ^
+      |            )
+./samples/SAFE/__tmp_2170d5e0.c:167:8: note: to match this ‘(’
+  167 |     if (decompressed_buf.length == input_buf.length &&
+      |        ^
+./samples/SAFE/__tmp_2170d5e0.c:168:9: error: expected declaration or statement at end of input
+  168 |         mem
+      |         ^~~

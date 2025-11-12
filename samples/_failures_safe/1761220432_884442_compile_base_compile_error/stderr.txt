@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_397ef39c.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_397ef39c.c:167:13: error: expected expression at end of input
+  167 |             add_token(lexer, TOKEN_ERROR,
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_397ef39c.c:167:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_397ef39c.c:167:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_397ef39c.c:167:13: error: expected declaration or statement at end of input

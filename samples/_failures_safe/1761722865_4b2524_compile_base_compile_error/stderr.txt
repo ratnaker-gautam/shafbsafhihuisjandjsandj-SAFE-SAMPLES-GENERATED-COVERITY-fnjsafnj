@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e0955df9.c: In function ‘execute_state_action’:
+./samples/SAFE/__tmp_e0955df9.c:155:9: error: expected declaration or statement at end of input
+  155 |         case STATE_ERROR:
+      |         ^~~~
+./samples/SAFE/__tmp_e0955df9.c:155:9: error: expected declaration or statement at end of input

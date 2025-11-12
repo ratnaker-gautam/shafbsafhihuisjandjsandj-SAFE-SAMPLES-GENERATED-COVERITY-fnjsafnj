@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_baf1070e.c: In function ‘main’:
+./samples/SAFE/__tmp_baf1070e.c:150:92: error: expected ‘)’ at end of input
+  150 |     Buffer decompressed = decompress_data(compressed.data, compressed.size, decompress_func
+      |                                          ~                                                 ^
+      |                                                                                            )
+./samples/SAFE/__tmp_baf1070e.c:150:5: error: expected declaration or statement at end of input
+  150 |     Buffer decompressed = decompress_data(compressed.data, compressed.size, decompress_func
+      |     ^~~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a6a2564f.c: In function ‘main’:
+./samples/SAFE/__tmp_a6a2564f.c:150:5: error: expected expression at end of input
+  150 |     sm.data_count =
+      |     ^~
+./samples/SAFE/__tmp_a6a2564f.c:150:5: error: expected declaration or statement at end of input

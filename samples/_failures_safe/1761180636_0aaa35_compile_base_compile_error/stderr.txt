@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d025b56a.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_d025b56a.c:168:13: error: expected declaration or statement at end of input
+  168 |             col++;
+      |             ^~~
+./samples/SAFE/__tmp_d025b56a.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d025b56a.c:168:13: error: expected declaration or statement at end of input

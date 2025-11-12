@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6f44de03.c: In function ‘main’:
+./samples/SAFE/__tmp_6f44de03.c:144:5: error: expected declaration or statement at end of input
+  144 |     if (memcmp(input_data, decompressed_data, input_len) != 0) {
+      |     ^~
+./samples/SAFE/__tmp_6f44de03.c:144:5: error: expected declaration or statement at end of input

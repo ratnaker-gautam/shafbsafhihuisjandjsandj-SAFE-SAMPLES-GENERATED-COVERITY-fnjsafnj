@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_72be89f7.c: In function ‘decompress_file’:
+./samples/SAFE/__tmp_72be89f7.c:168:36: error: expected ‘)’ at end of input
+  168 |             if (i + 1 >= bytes_read
+      |                ~                   ^
+      |                                    )
+./samples/SAFE/__tmp_72be89f7.c:168:13: error: expected declaration or statement at end of input
+  168 |             if (i + 1 >= bytes_read
+      |             ^~
+./samples/SAFE/__tmp_72be89f7.c:168:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_72be89f7.c:168:13: error: expected declaration or statement at end of input

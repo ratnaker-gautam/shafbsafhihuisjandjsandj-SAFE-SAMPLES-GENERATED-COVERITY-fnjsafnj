@@ -1,0 +1,11 @@
+
+samples/SAFE/__tmp_e4c52fba.c:39:26: runtime error: store to address 0x502000000033 with insufficient space for an object of type 'char'
+0x502000000033: note: pointer points here
+ 00  32 20 33 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00
+              ^ 
+    #0 0x598e4c6d16fa in process_input samples/SAFE/__tmp_e4c52fba.c:39
+    #1 0x598e4c6d1c3c in main samples/SAFE/__tmp_e4c52fba.c:95
+    #2 0x7c934382a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x7c934382a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x598e4c6d1304 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_e4c52fba.c.san+0x2304) (BuildId: 4075336a259bc31d1188c4a4495a924f53e4a98d)
+

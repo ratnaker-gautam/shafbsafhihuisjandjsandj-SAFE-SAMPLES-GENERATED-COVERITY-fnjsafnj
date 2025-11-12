@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f439d8e5.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_f439d8e5.c:157:5: error: expected declaration or statement at end of input
+  157 |     token->column = *column;
+      |     ^~~~~

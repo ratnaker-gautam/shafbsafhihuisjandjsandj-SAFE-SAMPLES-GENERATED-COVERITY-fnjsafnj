@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_88bd1b88.c: In function ‘main’:
+./samples/SAFE/__tmp_88bd1b88.c:125:5: error: expected declaration or statement at end of input
+  125 |     set_element(&mat3, 0, 0, 1.0);
+      |     ^~~~~~~~~~~

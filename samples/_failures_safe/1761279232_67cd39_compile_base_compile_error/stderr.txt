@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c5b76ca1.c: In function ‘main’:
+./samples/SAFE/__tmp_c5b76ca1.c:163:22: error: expected ‘)’ at end of input
+  163 |     init_lexer(&lexer
+      |               ~      ^
+      |                      )
+./samples/SAFE/__tmp_c5b76ca1.c:163:5: error: too few arguments to function ‘init_lexer’
+  163 |     init_lexer(&lexer
+      |     ^~~~~~~~~~
+./samples/SAFE/__tmp_c5b76ca1.c:35:6: note: declared here
+   35 | void init_lexer(struct Lexer *lexer, const char *input) {
+      |      ^~~~~~~~~~
+./samples/SAFE/__tmp_c5b76ca1.c:163:5: error: expected declaration or statement at end of input
+  163 |     init_lexer(&lexer
+      |     ^~~~~~~~~~

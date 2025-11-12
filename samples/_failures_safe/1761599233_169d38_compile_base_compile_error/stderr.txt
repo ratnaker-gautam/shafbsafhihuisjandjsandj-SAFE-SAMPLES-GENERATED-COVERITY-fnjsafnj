@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_2db8ef54.c: In function ‘main’:
+./samples/SAFE/__tmp_2db8ef54.c:138:13: error: expected declaration or statement at end of input
+  138 |             }
+      |             ^
+./samples/SAFE/__tmp_2db8ef54.c:138:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2db8ef54.c:138:13: error: expected declaration or statement at end of input

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_5ba30c18.c: In function ‘main’:
+./samples/SAFE/__tmp_5ba30c18.c:195:5: error: expected declaration or statement at end of input
+  195 |     while (running) {
+      |     ^~~~~
+./samples/SAFE/__tmp_5ba30c18.c:195:5: error: expected declaration or statement at end of input

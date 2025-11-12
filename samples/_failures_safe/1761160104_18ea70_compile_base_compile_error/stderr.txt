@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_96f5f0ba.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_96f5f0ba.c:143:9: error: expected declaration or statement at end of input
+  143 |         }
+      |         ^
+./samples/SAFE/__tmp_96f5f0ba.c:143:9: error: expected declaration or statement at end of input

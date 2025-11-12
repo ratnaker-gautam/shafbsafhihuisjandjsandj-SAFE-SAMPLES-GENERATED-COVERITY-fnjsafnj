@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2785f2f4.c: In function ‘main’:
+./samples/SAFE/__tmp_2785f2f4.c:154:5: error: expected declaration or statement at end of input
+  154 |     for (size_t i = 0; i < original.size; i++) {
+      |     ^~~
+./samples/SAFE/__tmp_2785f2f4.c:154:5: error: expected declaration or statement at end of input

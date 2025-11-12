@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f4fc7345.c: In function ‘process_log_data’:
+./samples/SAFE/__tmp_f4fc7345.c:135:9: error: expected expression at end of input
+  135 |         "2024-01-15T10:35:30 DEBUG Processing request ID",
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_f4fc7345.c:135:9: error: expected declaration or statement at end of input

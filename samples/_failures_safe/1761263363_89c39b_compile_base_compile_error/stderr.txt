@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_3f2566b0.c: In function ‘main’:
+./samples/SAFE/__tmp_3f2566b0.c:157:30: error: ‘mat’ undeclared (first use in this function); did you mean ‘mat2’?
+  157 |             if (mat1.rows != mat
+      |                              ^~~
+      |                              mat2
+./samples/SAFE/__tmp_3f2566b0.c:157:30: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_3f2566b0.c:157:33: error: expected ‘)’ at end of input
+  157 |             if (mat1.rows != mat
+      |                ~                ^
+      |                                 )
+./samples/SAFE/__tmp_3f2566b0.c:157:13: error: expected declaration or statement at end of input
+  157 |             if (mat1.rows != mat
+      |             ^~
+./samples/SAFE/__tmp_3f2566b0.c:157:13: error: expected declaration or statement at end of input

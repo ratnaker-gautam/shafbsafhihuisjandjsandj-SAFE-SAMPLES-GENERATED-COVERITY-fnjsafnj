@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_5ec86e4a.c: In function ‘token_type_name’:
+./samples/SAFE/__tmp_5ec86e4a.c:131:14: error: ‘TOKEN_N’ undeclared (first use in this function); did you mean ‘TOKEN_EOF’?
+  131 |         case TOKEN_N
+      |              ^~~~~~~
+      |              TOKEN_EOF
+./samples/SAFE/__tmp_5ec86e4a.c:131:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_5ec86e4a.c:131:9: error: expected ‘:’ or ‘...’ at end of input
+  131 |         case TOKEN_N
+      |         ^~~~
+./samples/SAFE/__tmp_5ec86e4a.c:131:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5ec86e4a.c:131:9: error: expected declaration or statement at end of input

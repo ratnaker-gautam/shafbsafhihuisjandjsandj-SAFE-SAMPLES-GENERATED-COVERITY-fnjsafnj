@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_edb881ec.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_edb881ec.c:169:21: error: expected ‘;’ at end of input
+  169 |                 edge
+      |                     ^
+      |                     ;
+./samples/SAFE/__tmp_edb881ec.c:169:17: error: expected declaration or statement at end of input
+  169 |                 edge
+      |                 ^~~~
+./samples/SAFE/__tmp_edb881ec.c:169:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_edb881ec.c:169:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_edb881ec.c:169:17: error: expected declaration or statement at end of input

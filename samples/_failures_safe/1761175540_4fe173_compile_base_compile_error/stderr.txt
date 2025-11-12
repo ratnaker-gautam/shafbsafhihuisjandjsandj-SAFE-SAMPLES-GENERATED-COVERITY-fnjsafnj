@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ebeab6d9.c: In function ‘main’:
+./samples/SAFE/__tmp_ebeab6d9.c:176:25: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  176 |     for (int i = 0; i < token
+      |                         ^~~~~
+      |                         Token
+./samples/SAFE/__tmp_ebeab6d9.c:176:25: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ebeab6d9.c:176:30: error: expected ‘;’ at end of input
+  176 |     for (int i = 0; i < token
+      |                              ^
+      |                              ;
+./samples/SAFE/__tmp_ebeab6d9.c:176:5: error: expected declaration or statement at end of input
+  176 |     for (int i = 0; i < token
+      |     ^~~

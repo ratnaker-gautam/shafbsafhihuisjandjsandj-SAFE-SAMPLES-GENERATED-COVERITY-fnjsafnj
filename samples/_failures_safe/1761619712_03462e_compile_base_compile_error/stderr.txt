@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_9db86a88.c: In function ‘main’:
+./samples/SAFE/__tmp_9db86a88.c:147:19: error: ‘output’ undeclared (first use in this function)
+  147 |         putchar(*(output
+      |                   ^~~~~~
+./samples/SAFE/__tmp_9db86a88.c:147:19: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_9db86a88.c:147:25: error: expected ‘)’ at end of input
+  147 |         putchar(*(output
+      |                  ~      ^
+      |                         )
+./samples/SAFE/__tmp_9db86a88.c:147:9: error: expected declaration or statement at end of input
+  147 |         putchar(*(output
+      |         ^~~~~~~
+./samples/SAFE/__tmp_9db86a88.c:147:9: error: expected declaration or statement at end of input

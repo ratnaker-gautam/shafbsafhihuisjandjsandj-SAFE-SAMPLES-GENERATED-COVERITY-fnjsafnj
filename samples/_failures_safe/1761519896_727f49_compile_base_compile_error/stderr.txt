@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_7e4c3299.c: In function ‘execute_graph_operation’:
+./samples/SAFE/__tmp_7e4c3299.c:158:16: error: expected ‘;’ at end of input
+  158 |         fprintf
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_7e4c3299.c:158:9: error: expected declaration or statement at end of input
+  158 |         fprintf
+      |         ^~~~~~~
+./samples/SAFE/__tmp_7e4c3299.c:158:9: error: expected declaration or statement at end of input

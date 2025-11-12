@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_355fcc78.c: In function ‘print_analysis’:
+./samples/SAFE/__tmp_355fcc78.c:149:37: error: expected ‘]’ at end of input
+  149 |                    analyzer->words[i
+      |                                     ^
+      |                                     ]
+./samples/SAFE/__tmp_355fcc78.c:149:20: error: expected declaration or statement at end of input
+  149 |                    analyzer->words[i
+      |                    ^~~~~~~~
+./samples/SAFE/__tmp_355fcc78.c:149:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_355fcc78.c:149:20: error: expected declaration or statement at end of input

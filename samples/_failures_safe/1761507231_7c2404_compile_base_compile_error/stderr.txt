@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_8ba8d285.c: In function ‘calculate_volume’:
+./samples/SAFE/__tmp_8ba8d285.c:113:5: error: expected declaration or statement at end of input
+  113 |     double dz = box->max.z - box->min.z;
+      |     ^~~~~~

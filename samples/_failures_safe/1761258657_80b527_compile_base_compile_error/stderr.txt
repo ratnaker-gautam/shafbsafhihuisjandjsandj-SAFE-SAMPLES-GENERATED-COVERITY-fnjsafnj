@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_79ce49ca.c:189:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  189 | void freeGraph
+      | ^~~~

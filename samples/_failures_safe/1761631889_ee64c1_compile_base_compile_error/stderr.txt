@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_4c3eb25d.c: In function ‘token_type_name’:
+./samples/SAFE/__tmp_4c3eb25d.c:170:17: error: expected ‘)’ at end of input
+  170 |     switch (type
+      |            ~    ^
+      |                 )
+./samples/SAFE/__tmp_4c3eb25d.c:170:5: error: expected declaration or statement at end of input
+  170 |     switch (type
+      |     ^~~~~~

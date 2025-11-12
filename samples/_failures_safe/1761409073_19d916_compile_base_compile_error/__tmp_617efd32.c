@@ -1,0 +1,194 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: heap_stack_mix ; Variation: parser_tokenizer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_TOKENS 100
+#define MAX_TOKEN_LEN 50
+
+typedef enum {
+    TOKEN_NUMBER,
+    TOKEN_IDENTIFIER,
+    TOKEN_OPERATOR,
+    TOKEN_STRING,
+    TOKEN_EOF
+} TokenType;
+
+typedef struct {
+    TokenType type;
+    char value[MAX_TOKEN_LEN];
+} Token;
+
+typedef struct {
+    Token* tokens;
+    size_t count;
+    size_t capacity;
+} TokenStack;
+
+TokenStack* create_token_stack(size_t capacity) {
+    if (capacity == 0 || capacity > MAX_TOKENS) {
+        return NULL;
+    }
+    
+    TokenStack* stack = malloc(sizeof(TokenStack));
+    if (!stack) {
+        return NULL;
+    }
+    
+    stack->tokens = malloc(capacity * sizeof(Token));
+    if (!stack->tokens) {
+        free(stack);
+        return NULL;
+    }
+    
+    stack->count = 0;
+    stack->capacity = capacity;
+    return stack;
+}
+
+void destroy_token_stack(TokenStack* stack) {
+    if (stack) {
+        free(stack->tokens);
+        free(stack);
+    }
+}
+
+int push_token(TokenStack* stack, Token token) {
+    if (!stack || stack->count >= stack->capacity) {
+        return 0;
+    }
+    
+    if (strlen(token.value) >= MAX_TOKEN_LEN) {
+        return 0;
+    }
+    
+    stack->tokens[stack->count] = token;
+    stack->count++;
+    return 1;
+}
+
+int pop_token(TokenStack* stack, Token* token) {
+    if (!stack || !token || stack->count == 0) {
+        return 0;
+    }
+    
+    stack->count--;
+    *token = stack->tokens[stack->count];
+    return 1;
+}
+
+int is_operator(char c) {
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '=' || c == '<' || c == '>';
+}
+
+TokenType classify_token(const char* str) {
+    if (!str || strlen(str) == 0) {
+        return TOKEN_EOF;
+    }
+    
+    if (isdigit(str[0])) {
+        return TOKEN_NUMBER;
+    }
+    
+    if (str[0] == '"') {
+        return TOKEN_STRING;
+    }
+    
+    if (is_operator(str[0])) {
+        return TOKEN_OPERATOR;
+    }
+    
+    if (isalpha(str[0]) || str[0] == '_') {
+        return TOKEN_IDENTIFIER;
+    }
+    
+    return TOKEN_EOF;
+}
+
+int tokenize_string(const char* input, Token** tokens, size_t* token_count) {
+    if (!input || !tokens || !token_count) {
+        return 0;
+    }
+    
+    size_t len = strlen(input);
+    if (len == 0) {
+        return 0;
+    }
+    
+    *tokens = malloc(MAX_TOKENS * sizeof(Token));
+    if (!*tokens) {
+        return 0;
+    }
+    
+    *token_count = 0;
+    size_t i = 0;
+    
+    while (i < len && *token_count < MAX_TOKENS) {
+        while (i < len && isspace(input[i])) {
+            i++;
+        }
+        
+        if (i >= len) {
+            break;
+        }
+        
+        Token token;
+        size_t j = 0;
+        
+        if (input[i] == '"') {
+            token.type = TOKEN_STRING;
+            token.value[j++] = input[i++];
+            
+            while (i < len && input[i] != '"' && j < MAX_TOKEN_LEN - 1) {
+                token.value[j++] = input[i++];
+            }
+            
+            if (i < len && input[i] == '"') {
+                token.value[j++] = input[i++];
+            }
+        } else if (is_operator(input[i])) {
+            token.type = TOKEN_OPERATOR;
+            while (i < len && is_operator(input[i]) && j < MAX_TOKEN_LEN - 1) {
+                token.value[j++] = input[i++];
+            }
+        } else if (isdigit(input[i])) {
+            token.type = TOKEN_NUMBER;
+            while (i < len && (isdigit(input[i]) || input[i] == '.') && j < MAX_TOKEN_LEN - 1) {
+                token.value[j++] = input[i++];
+            }
+        } else if (isalpha(input[i]) || input[i] == '_') {
+            token.type = TOKEN_IDENTIFIER;
+            while (i < len && (isalnum(input[i]) || input[i] == '_') && j < MAX_TOKEN_LEN - 1) {
+                token.value[j++] = input[i++];
+            }
+        } else {
+            i++;
+            continue;
+        }
+        
+        if (j > 0) {
+            token.value[j] = '\0';
+            (*tokens)[*token_count] = token;
+            (*token_count)++;
+        }
+    }
+    
+    return 1;
+}
+
+void print_token_type(TokenType type) {
+    switch (type) {
+        case TOKEN_NUMBER:
+            printf("NUMBER");
+            break;
+        case TOKEN_IDENTIFIER:
+            printf("IDENTIFIER");
+            break;
+        case TOKEN_OPERATOR:
+            printf("OPERATOR");
+            break;
+        case TOKEN_STRING:
+            printf("STRING");
+            break;
+        case TOKEN_EOF:

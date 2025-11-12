@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_8d4cee32.c: In function ‘main’:
+./samples/SAFE/__tmp_8d4cee32.c:183:41: error: incompatible types when assigning to type ‘enum state’ from type ‘enum state (*)(struct context *, enum event)’
+  183 |                     ctx.current_state = handle_event
+      |                                         ^~~~~~~~~~~~
+./samples/SAFE/__tmp_8d4cee32.c:183:53: error: expected ‘;’ at end of input
+  183 |                     ctx.current_state = handle_event
+      |                                                     ^
+      |                                                     ;
+./samples/SAFE/__tmp_8d4cee32.c:183:21: error: expected declaration or statement at end of input
+  183 |                     ctx.current_state = handle_event
+      |                     ^~~
+./samples/SAFE/__tmp_8d4cee32.c:183:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8d4cee32.c:183:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8d4cee32.c:183:21: error: expected declaration or statement at end of input

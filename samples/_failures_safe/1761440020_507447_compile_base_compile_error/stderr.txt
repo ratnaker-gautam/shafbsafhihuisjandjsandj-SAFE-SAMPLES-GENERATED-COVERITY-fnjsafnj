@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_d9bbdd01.c: In function ‘main’:
+./samples/SAFE/__tmp_d9bbdd01.c:140:39: error: expected ‘)’ at end of input
+  140 |     if (mat1.data == NULL || mat2.data
+      |        ~                              ^
+      |                                       )
+./samples/SAFE/__tmp_d9bbdd01.c:140:5: error: expected declaration or statement at end of input
+  140 |     if (mat1.data == NULL || mat2.data
+      |     ^~

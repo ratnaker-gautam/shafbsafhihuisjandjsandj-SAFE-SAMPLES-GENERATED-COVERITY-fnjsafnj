@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_f6855c16.c: In function ‘update_stats’:
+./samples/SAFE/__tmp_f6855c16.c:115:9: error: expected identifier at end of input
+  115 |         strcmp(entry->timestamp, analyzer->
+      |         ^~~~~~
+./samples/SAFE/__tmp_f6855c16.c:115:9: error: expected declaration or statement at end of input

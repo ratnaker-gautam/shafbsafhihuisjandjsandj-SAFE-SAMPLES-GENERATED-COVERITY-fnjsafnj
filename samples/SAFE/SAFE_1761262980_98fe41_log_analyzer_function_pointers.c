@@ -1,0 +1,128 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: function_pointers ; Variation: log_analyzer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_LINE_LENGTH 1024
+#define MAX_LINES 1000
+
+typedef struct {
+    char line[MAX_LINE_LENGTH];
+    int length;
+} LogEntry;
+
+typedef void (*LogProcessor)(LogEntry*, int);
+
+void count_lines(LogEntry* entries, int count) {
+    printf("Total lines: %d\n", count);
+}
+
+void find_longest_line(LogEntry* entries, int count) {
+    int max_length = 0;
+    int max_index = -1;
+    
+    for (int i = 0; i < count; i++) {
+        if (entries[i].length > max_length) {
+            max_length = entries[i].length;
+            max_index = i;
+        }
+    }
+    
+    if (max_index != -1) {
+        printf("Longest line (%d chars): %s\n", max_length, entries[max_index].line);
+    }
+}
+
+void count_alphanumeric(LogEntry* entries, int count) {
+    int total_chars = 0;
+    int alpha_chars = 0;
+    
+    for (int i = 0; i < count; i++) {
+        for (int j = 0; j < entries[i].length; j++) {
+            if (isalnum((unsigned char)entries[i].line[j])) {
+                alpha_chars++;
+            }
+            total_chars++;
+        }
+    }
+    
+    if (total_chars > 0) {
+        float percentage = (float)alpha_chars / total_chars * 100;
+        printf("Alphanumeric characters: %d/%d (%.1f%%)\n", alpha_chars, total_chars, percentage);
+    }
+}
+
+void process_logs(LogEntry* entries, int count, LogProcessor processor) {
+    if (entries == NULL || count <= 0 || processor == NULL) {
+        return;
+    }
+    processor(entries, count);
+}
+
+int read_log_entries(LogEntry* entries, int max_count) {
+    char buffer[MAX_LINE_LENGTH];
+    int line_count = 0;
+    
+    printf("Enter log lines (empty line to finish):\n");
+    
+    while (line_count < max_count) {
+        if (fgets(buffer, sizeof(buffer), stdin) == NULL) {
+            break;
+        }
+        
+        size_t len = strlen(buffer);
+        if (len > 0 && buffer[len - 1] == '\n') {
+            buffer[len - 1] = '\0';
+            len--;
+        }
+        
+        if (len == 0) {
+            break;
+        }
+        
+        if (len >= MAX_LINE_LENGTH) {
+            printf("Line too long, skipping.\n");
+            continue;
+        }
+        
+        strncpy(entries[line_count].line, buffer, MAX_LINE_LENGTH - 1);
+        entries[line_count].line[MAX_LINE_LENGTH - 1] = '\0';
+        entries[line_count].length = (int)len;
+        line_count++;
+    }
+    
+    return line_count;
+}
+
+int main(void) {
+    LogEntry entries[MAX_LINES];
+    LogProcessor processors[] = {
+        count_lines,
+        find_longest_line,
+        count_alphanumeric
+    };
+    const char* processor_names[] = {
+        "Line Count",
+        "Longest Line",
+        "Alphanumeric Analysis"
+    };
+    int num_processors = sizeof(processors) / sizeof(processors[0]);
+    
+    int line_count = read_log_entries(entries, MAX_LINES);
+    
+    if (line_count == 0) {
+        printf("No log entries to analyze.\n");
+        return 1;
+    }
+    
+    printf("\nLog Analysis Results:\n");
+    printf("====================\n");
+    
+    for (int i = 0; i < num_processors; i++) {
+        printf("\n%s:\n", processor_names[i]);
+        process_logs(entries, line_count, processors[i]);
+    }
+    
+    return 0;
+}

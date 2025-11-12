@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_521da389.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_521da389.c:172:40: error: expected ‘)’ at end of input
+  172 |             success = read_number(state
+      |                                  ~     ^
+      |                                        )
+./samples/SAFE/__tmp_521da389.c:172:23: error: too few arguments to function ‘read_number’
+  172 |             success = read_number(state
+      |                       ^~~~~~~~~~~
+./samples/SAFE/__tmp_521da389.c:84:5: note: declared here
+   84 | int read_number(struct TokenizerState *state, struct Token *token) {
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_521da389.c:172:13: error: expected declaration or statement at end of input
+  172 |             success = read_number(state
+      |             ^~~~~~~
+./samples/SAFE/__tmp_521da389.c:172:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_521da389.c:172:13: error: expected declaration or statement at end of input

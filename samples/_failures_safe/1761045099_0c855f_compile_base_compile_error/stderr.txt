@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_d573476e.c: In function ‘simulate_step’:
+./samples/SAFE/__tmp_d573476e.c:116:20: error: expected expression at end of input
+  116 |             struct Vector3D force =
+      |                    ^~~~~~~~
+./samples/SAFE/__tmp_d573476e.c:116:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d573476e.c:116:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d573476e.c:116:20: error: expected declaration or statement at end of input

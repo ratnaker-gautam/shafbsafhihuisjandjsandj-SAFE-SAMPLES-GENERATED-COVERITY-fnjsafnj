@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_5d8d399b.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_5d8d399b.c:154:13: error: expected ‘,’ or ‘;’ at end of input
+  154 |             int start_col = lexer
+      |             ^~~
+./samples/SAFE/__tmp_5d8d399b.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5d8d399b.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5d8d399b.c:154:13: error: expected declaration or statement at end of input

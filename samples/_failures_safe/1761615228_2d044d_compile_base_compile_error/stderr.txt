@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_e4c7292b.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_e4c7292b.c:113:13: error: expected expression at end of input
+  113 |             matrix_set(result, j, i, matrix_get(a,
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_e4c7292b.c:113:38: error: too few arguments to function ‘matrix_get’
+  113 |             matrix_set(result, j, i, matrix_get(a,
+      |                                      ^~~~~~~~~~
+./samples/SAFE/__tmp_e4c7292b.c:39:5: note: declared here
+   39 | int matrix_get(struct matrix *m, int row, int col) {
+      |     ^~~~~~~~~~
+./samples/SAFE/__tmp_e4c7292b.c:113:13: error: expected declaration or statement at end of input
+  113 |             matrix_set(result, j, i, matrix_get(a,
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_e4c7292b.c:113:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e4c7292b.c:113:13: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_37cc3252.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_37cc3252.c:190:9: error: expected ‘;’ at end of input
+  190 |     free
+      |         ^
+      |         ;
+./samples/SAFE/__tmp_37cc3252.c:190:5: error: expected declaration or statement at end of input
+  190 |     free
+      |     ^~~~

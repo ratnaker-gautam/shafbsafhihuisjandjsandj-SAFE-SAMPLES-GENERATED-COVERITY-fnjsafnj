@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_75d459a0.c: In function ‘display_stats’:
+./samples/SAFE/__tmp_75d459a0.c:137:16: error: expected expression at end of input
+  137 |                (stats->warning_count * 100.0) /
+      |                ^
+./samples/SAFE/__tmp_75d459a0.c:137:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_75d459a0.c:137:16: error: expected declaration or statement at end of input

@@ -1,0 +1,174 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: function_pointers ; Variation: parser_tokenizer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+#define MAX_TOKENS 100
+#define MAX_TOKEN_LEN 50
+
+typedef enum {
+    TOKEN_NUMBER,
+    TOKEN_IDENTIFIER,
+    TOKEN_OPERATOR,
+    TOKEN_STRING,
+    TOKEN_EOF,
+    TOKEN_ERROR
+} TokenType;
+
+typedef struct {
+    TokenType type;
+    char value[MAX_TOKEN_LEN];
+} Token;
+
+typedef void (*TokenHandler)(Token*);
+
+void handle_number(Token* token) {
+    if (token == NULL) return;
+    printf("Number: %s\n", token->value);
+}
+
+void handle_identifier(Token* token) {
+    if (token == NULL) return;
+    printf("Identifier: %s\n", token->value);
+}
+
+void handle_operator(Token* token) {
+    if (token == NULL) return;
+    printf("Operator: %s\n", token->value);
+}
+
+void handle_string(Token* token) {
+    if (token == NULL) return;
+    printf("String: %s\n", token->value);
+}
+
+void handle_error(Token* token) {
+    if (token == NULL) return;
+    printf("Error: Invalid token '%s'\n", token->value);
+}
+
+int is_operator_char(char c) {
+    return strchr("+-*/=<>!&|", c) != NULL;
+}
+
+int tokenize(const char* input, Token* tokens, int max_tokens) {
+    if (input == NULL || tokens == NULL || max_tokens <= 0) return 0;
+    
+    int token_count = 0;
+    const char* pos = input;
+    
+    while (*pos != '\0' && token_count < max_tokens) {
+        while (isspace(*pos)) pos++;
+        
+        if (*pos == '\0') break;
+        
+        Token* current = &tokens[token_count];
+        
+        if (isdigit(*pos)) {
+            current->type = TOKEN_NUMBER;
+            int i = 0;
+            while (isdigit(*pos) && i < MAX_TOKEN_LEN - 1) {
+                current->value[i++] = *pos++;
+            }
+            current->value[i] = '\0';
+            token_count++;
+        }
+        else if (isalpha(*pos) || *pos == '_') {
+            current->type = TOKEN_IDENTIFIER;
+            int i = 0;
+            while ((isalnum(*pos) || *pos == '_') && i < MAX_TOKEN_LEN - 1) {
+                current->value[i++] = *pos++;
+            }
+            current->value[i] = '\0';
+            token_count++;
+        }
+        else if (*pos == '"') {
+            current->type = TOKEN_STRING;
+            int i = 0;
+            pos++;
+            while (*pos != '"' && *pos != '\0' && i < MAX_TOKEN_LEN - 1) {
+                current->value[i++] = *pos++;
+            }
+            current->value[i] = '\0';
+            if (*pos == '"') pos++;
+            else current->type = TOKEN_ERROR;
+            token_count++;
+        }
+        else if (is_operator_char(*pos)) {
+            current->type = TOKEN_OPERATOR;
+            int i = 0;
+            while (is_operator_char(*pos) && i < MAX_TOKEN_LEN - 1) {
+                current->value[i++] = *pos++;
+            }
+            current->value[i] = '\0';
+            token_count++;
+        }
+        else {
+            current->type = TOKEN_ERROR;
+            int i = 0;
+            current->value[i++] = *pos++;
+            current->value[i] = '\0';
+            token_count++;
+        }
+    }
+    
+    if (token_count < max_tokens) {
+        tokens[token_count].type = TOKEN_EOF;
+        tokens[token_count].value[0] = '\0';
+        token_count++;
+    }
+    
+    return token_count;
+}
+
+void process_tokens(Token* tokens, int count, TokenHandler* handlers) {
+    if (tokens == NULL || handlers == NULL || count <= 0) return;
+    
+    for (int i = 0; i < count; i++) {
+        TokenType type = tokens[i].type;
+        if (type >= 0 && type <= TOKEN_ERROR && handlers[type] != NULL) {
+            handlers[type](&tokens[i]);
+        }
+    }
+}
+
+int main(void) {
+    char input[1024];
+    printf("Enter expression to tokenize: ");
+    
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    size_t len = strlen(input);
+    if (len > 0 && input[len - 1] == '\n') {
+        input[len - 1] = '\0';
+    }
+    
+    if (strlen(input) == 0) {
+        printf("No input provided\n");
+        return 1;
+    }
+    
+    Token tokens[MAX_TOKENS];
+    int token_count = tokenize(input, tokens, MAX_TOKENS);
+    
+    if (token_count == 0) {
+        printf("No tokens found\n");
+        return 1;
+    }
+    
+    TokenHandler handlers[TOKEN_ERROR + 1] = {
+        handle_number,
+        handle_identifier,
+        handle_operator,
+        handle_string,
+        NULL,
+        handle_error
+    };
+    
+    printf("Tokens found:\n");
+    process_tokens(tokens, token_count, handlers);
+    return

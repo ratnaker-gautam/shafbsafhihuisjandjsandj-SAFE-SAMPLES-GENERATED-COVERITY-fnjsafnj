@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccrvJI4G.o: in function `main':
+__tmp_ebe256ed.c:(.text.startup+0x28b): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_f74a5cbd.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_f74a5cbd.c:150:14: error: ‘str’ undeclared (first use in this function)
+  150 |     else if (str
+      |              ^~~
+./samples/SAFE/__tmp_f74a5cbd.c:150:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f74a5cbd.c:150:17: error: expected ‘)’ at end of input
+  150 |     else if (str
+      |             ~   ^
+      |                 )
+./samples/SAFE/__tmp_f74a5cbd.c:150:5: error: expected declaration or statement at end of input
+  150 |     else if (str
+      |     ^~~~

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ca307973.c: In function ‘main’:
+./samples/SAFE/__tmp_ca307973.c:176:26: error: ‘t’ undeclared (first use in this function)
+  176 |         print_token_type(t
+      |                          ^
+./samples/SAFE/__tmp_ca307973.c:176:26: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ca307973.c:176:27: error: expected ‘)’ at end of input
+  176 |         print_token_type(t
+      |                         ~ ^
+      |                           )
+./samples/SAFE/__tmp_ca307973.c:176:9: error: expected declaration or statement at end of input
+  176 |         print_token_type(t
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ca307973.c:176:9: error: expected declaration or statement at end of input

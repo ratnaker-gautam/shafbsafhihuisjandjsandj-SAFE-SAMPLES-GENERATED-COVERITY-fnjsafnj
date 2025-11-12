@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b052033e.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_b052033e.c:179:9: error: expected declaration or statement at end of input
+  179 |         }
+      |         ^
+./samples/SAFE/__tmp_b052033e.c:179:9: error: expected declaration or statement at end of input

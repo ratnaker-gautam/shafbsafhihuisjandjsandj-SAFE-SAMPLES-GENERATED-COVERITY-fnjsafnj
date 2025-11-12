@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_f4efb7a6.c: In function ‘main’:
+./samples/SAFE/__tmp_f4efb7a6.c:168:9: error: ‘token’ undeclared (first use in this function); did you mean ‘Token’?
+  168 |     if (token
+      |         ^~~~~
+      |         Token
+./samples/SAFE/__tmp_f4efb7a6.c:168:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_f4efb7a6.c:168:14: error: expected ‘)’ at end of input
+  168 |     if (token
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_f4efb7a6.c:168:5: error: expected declaration or statement at end of input
+  168 |     if (token
+      |     ^~

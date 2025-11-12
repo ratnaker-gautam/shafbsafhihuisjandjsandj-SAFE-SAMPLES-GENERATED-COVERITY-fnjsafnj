@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_36772f77.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_36772f77.c:170:5: error: expected declaration or statement at end of input
+  170 |     while (*token_count < MAX_TOKENS - 1) {
+      |     ^~~~~
+./samples/SAFE/__tmp_36772f77.c:170:5: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_42395b55.c: In function ‘main’:
+./samples/SAFE/__tmp_42395b55.c:153:52: error: expected ‘)’ at end of input
+  153 |     if (!compress_block(&ctx, input_data, data_size
+      |                        ~                           ^
+      |                                                    )
+./samples/SAFE/__tmp_42395b55.c:153:5: error: expected declaration or statement at end of input
+  153 |     if (!compress_block(&ctx, input_data, data_size
+      |     ^~

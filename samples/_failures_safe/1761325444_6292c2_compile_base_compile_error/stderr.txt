@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_344b102e.c: In function ‘pointcloud_add_point’:
+./samples/SAFE/__tmp_344b102e.c:143: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_344b102e.c:142:12: note: to match this ‘(’
+  142 |         if (new_points == NULL
+      |            ^
+./samples/SAFE/__tmp_344b102e.c:142:9: error: expected declaration or statement at end of input
+  142 |         if (new_points == NULL
+      |         ^~
+./samples/SAFE/__tmp_344b102e.c:142:9: error: expected declaration or statement at end of input

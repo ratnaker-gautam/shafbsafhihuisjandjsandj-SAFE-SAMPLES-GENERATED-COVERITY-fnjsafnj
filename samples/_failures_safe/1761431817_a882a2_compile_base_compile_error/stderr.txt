@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_03fdf674.c:133:47: error: expected declaration specifiers or ‘...’ at end of input
+  133 | void print_high_severity_entries(const struct LogAnalyzer *analyzer,
+      |                                               ^~~~~~~~~~~

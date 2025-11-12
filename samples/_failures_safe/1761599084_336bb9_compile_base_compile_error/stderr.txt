@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_85cc8e18.c: In function ‘main’:
+./samples/SAFE/__tmp_85cc8e18.c:164:9: error: expected declaration or statement at end of input
+  164 |         if (choice < 0 || choice >= num_operations) {
+      |         ^~
+./samples/SAFE/__tmp_85cc8e18.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_85cc8e18.c:164:9: error: expected declaration or statement at end of input

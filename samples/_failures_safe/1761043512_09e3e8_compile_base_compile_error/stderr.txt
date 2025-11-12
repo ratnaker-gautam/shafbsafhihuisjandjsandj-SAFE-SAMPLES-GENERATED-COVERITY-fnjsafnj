@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_41c2a925.c: In function ‘main’:
+./samples/SAFE/__tmp_41c2a925.c:132:5: error: expected expression at end of input
+  132 |     if (matrix_transpose(&b,
+      |     ^~
+./samples/SAFE/__tmp_41c2a925.c:132:5: error: expected declaration or statement at end of input

@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_b4c81a59.c: In function ‘main’:
+./samples/SAFE/__tmp_b4c81a59.c:137:72: error: ‘MIN_D’ undeclared (first use in this function); did you mean ‘MIN_DIM’?
+  137 |     int rows2 = read_int("Enter number of rows for matrix 2 (1-10): ", MIN_D
+      |                                                                        ^~~~~
+      |                                                                        MIN_DIM
+./samples/SAFE/__tmp_b4c81a59.c:137:72: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b4c81a59.c:137:77: error: expected ‘)’ at end of input
+  137 |     int rows2 = read_int("Enter number of rows for matrix 2 (1-10): ", MIN_D
+      |                         ~                                                   ^
+      |                                                                             )
+./samples/SAFE/__tmp_b4c81a59.c:137:17: error: too few arguments to function ‘read_int’
+  137 |     int rows2 = read_int("Enter number of rows for matrix 2 (1-10): ", MIN_D
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_b4c81a59.c:83:5: note: declared here
+   83 | int read_int(const char* prompt, int min_val, int max_val) {
+      |     ^~~~~~~~
+./samples/SAFE/__tmp_b4c81a59.c:137:5: error: expected declaration or statement at end of input
+  137 |     int rows2 = read_int("Enter number of rows for matrix 2 (1-10): ", MIN_D
+      |     ^~~

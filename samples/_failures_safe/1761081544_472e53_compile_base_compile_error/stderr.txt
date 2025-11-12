@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_528bf494.c: In function ‘read_string’:
+./samples/SAFE/__tmp_528bf494.c:168:23: error: expected ‘)’ at end of input
+  168 |     while (peek(lexer)
+      |           ~           ^
+      |                       )
+./samples/SAFE/__tmp_528bf494.c:168:5: error: expected declaration or statement at end of input
+  168 |     while (peek(lexer)
+      |     ^~~~~

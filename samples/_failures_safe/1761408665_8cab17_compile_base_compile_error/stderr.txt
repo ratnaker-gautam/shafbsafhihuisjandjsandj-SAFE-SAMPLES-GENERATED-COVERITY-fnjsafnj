@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_aa2b34b8.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_aa2b34b8.c:169:13: error: expected declaration or statement at end of input
+  169 |             if (weight < 0) continue;
+      |             ^~
+./samples/SAFE/__tmp_aa2b34b8.c:169:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_aa2b34b8.c:169:13: error: expected declaration or statement at end of input

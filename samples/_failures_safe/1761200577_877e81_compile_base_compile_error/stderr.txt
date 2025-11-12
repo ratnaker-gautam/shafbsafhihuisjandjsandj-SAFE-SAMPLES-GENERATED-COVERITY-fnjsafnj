@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_c85bf8b5.c: In function ‘main’:
+./samples/SAFE/__tmp_c85bf8b5.c:154:39: error: expected ‘)’ at end of input
+  154 |     add_matrices(&mat1, &mat2, &result
+      |                 ~                     ^
+      |                                       )
+./samples/SAFE/__tmp_c85bf8b5.c:154:5: error: expected declaration or statement at end of input
+  154 |     add_matrices(&mat1, &mat2, &result
+      |     ^~~~~~~~~~~~

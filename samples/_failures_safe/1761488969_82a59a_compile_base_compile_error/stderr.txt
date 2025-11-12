@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_0067845e.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_0067845e.c:153:9: error: expected declaration or statement at end of input
+  153 |         current_token[1] = '\0';
+      |         ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_0067845e.c:153:9: error: expected declaration or statement at end of input

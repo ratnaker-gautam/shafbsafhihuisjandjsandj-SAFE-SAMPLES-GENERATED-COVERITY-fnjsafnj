@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_cbfa80c1.c: In function ‘main’:
+./samples/SAFE/__tmp_cbfa80c1.c:170:31: error: expected ‘)’ at end of input
+  170 |     size_t len = strlen(buffer
+      |                        ~      ^
+      |                               )
+./samples/SAFE/__tmp_cbfa80c1.c:170:5: error: expected declaration or statement at end of input
+  170 |     size_t len = strlen(buffer
+      |     ^~~~~~

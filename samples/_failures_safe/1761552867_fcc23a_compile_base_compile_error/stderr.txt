@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_aa82e396.c: In function ‘main’:
+./samples/SAFE/__tmp_aa82e396.c:192:9: error: expected declaration or statement at end of input
+  192 |         if (input == 6) {
+      |         ^~
+./samples/SAFE/__tmp_aa82e396.c:192:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_aa82e396.c:192:9: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_25a1acba.c: In function ‘tokenize_operator’:
+./samples/SAFE/__tmp_25a1acba.c:159:69: error: expected ‘)’ at end of input
+  159 |     if (state->position < state->input_len && is_operator_char(state
+      |                                                               ~     ^
+      |                                                                     )
+./samples/SAFE/__tmp_25a1acba.c:159:5: error: expected declaration or statement at end of input
+  159 |     if (state->position < state->input_len && is_operator_char(state
+      |     ^~

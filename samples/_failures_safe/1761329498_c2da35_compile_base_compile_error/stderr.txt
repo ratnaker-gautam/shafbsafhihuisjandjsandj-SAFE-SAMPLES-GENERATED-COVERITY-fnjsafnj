@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_68d60836.c: In function ‘main’:
+./samples/SAFE/__tmp_68d60836.c:163: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_68d60836.c:159:35: note: to match this ‘{’
+  159 |     GraphOperation operations[] = {
+      |                                   ^
+./samples/SAFE/__tmp_68d60836.c:162:9: error: expected declaration or statement at end of input
+  162 |         count_components
+      |         ^~~~~~~~~~~~~~~~

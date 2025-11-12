@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_1045b397.c: In function ‘print_stats’:
+./samples/SAFE/__tmp_1045b397.c:139:12: error: missing terminating " character
+  139 |     printf("Maximum severity:
+      |            ^~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_1045b397.c:139:5: error: expected expression at end of input
+  139 |     printf("Maximum severity:
+      |     ^~~~~~
+./samples/SAFE/__tmp_1045b397.c:139:5: error: expected declaration or statement at end of input

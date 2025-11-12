@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_596a6970.c: In function ‘main’:
+./samples/SAFE/__tmp_596a6970.c:164:5: error: expected expression at end of input
+  164 |     printGraph(&
+      |     ^~~~~~~~~~
+./samples/SAFE/__tmp_596a6970.c:164:5: error: expected declaration or statement at end of input

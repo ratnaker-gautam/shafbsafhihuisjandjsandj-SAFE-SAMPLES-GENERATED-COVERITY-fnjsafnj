@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f6eb4485.c: In function ‘generate_cube_points’:
+./samples/SAFE/__tmp_f6eb4485.c:142: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_f6eb4485.c:141:9: note: to match this ‘{’
+  141 |         {-half, half
+      |         ^
+./samples/SAFE/__tmp_f6eb4485.c:141:9: error: expected declaration or statement at end of input

@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_264523da.c: In function ‘remove_edge_list’:
+./samples/SAFE/__tmp_264523da.c:143:41: error: expected ‘;’ at end of input
+  143 |                 g->adj_list[dest][j] = g
+      |                                         ^
+      |                                         ;
+./samples/SAFE/__tmp_264523da.c:143:17: error: expected declaration or statement at end of input
+  143 |                 g->adj_list[dest][j] = g
+      |                 ^
+./samples/SAFE/__tmp_264523da.c:143:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_264523da.c:143:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_264523da.c:143:17: error: expected declaration or statement at end of input

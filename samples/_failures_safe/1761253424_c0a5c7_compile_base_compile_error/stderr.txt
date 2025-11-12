@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_5c3dadf1.c: In function ‘main’:
+./samples/SAFE/__tmp_5c3dadf1.c:146:29: error: expected expression at end of input
+  146 |                             current_state =
+      |                             ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_5c3dadf1.c:146:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5c3dadf1.c:146:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5c3dadf1.c:146:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5c3dadf1.c:146:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5c3dadf1.c:146:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5c3dadf1.c:146:29: error: expected declaration or statement at end of input

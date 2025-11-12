@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_bf8ad7ff.c: In function ‘main’:
+./samples/SAFE/__tmp_bf8ad7ff.c:158:5: error: expected expression at end of input
+  158 |     if (written != output_buf.size)
+      |     ^~
+./samples/SAFE/__tmp_bf8ad7ff.c:158:5: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6b85ac72.c: In function ‘print_high_severity_entries’:
+./samples/SAFE/__tmp_6b85ac72.c:135:9: error: expected identifier at end of input
+  135 |         if (analyzer->
+      |         ^~
+./samples/SAFE/__tmp_6b85ac72.c:135:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6b85ac72.c:135:9: error: expected declaration or statement at end of input

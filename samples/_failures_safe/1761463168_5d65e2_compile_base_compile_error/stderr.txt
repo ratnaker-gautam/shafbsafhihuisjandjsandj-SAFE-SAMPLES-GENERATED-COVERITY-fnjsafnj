@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_27ea8783.c: In function ‘main’:
+./samples/SAFE/__tmp_27ea8783.c:137:14: error: expected ‘)’ at end of input
+  137 |     if (fgets
+      |        ~     ^
+      |              )
+./samples/SAFE/__tmp_27ea8783.c:137:5: error: expected declaration or statement at end of input
+  137 |     if (fgets
+      |     ^~

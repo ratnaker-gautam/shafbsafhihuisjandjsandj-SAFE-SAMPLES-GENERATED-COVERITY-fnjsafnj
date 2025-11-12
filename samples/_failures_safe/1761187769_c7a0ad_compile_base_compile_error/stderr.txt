@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5aae3f42.c: In function ‘get_user_event’:
+./samples/SAFE/__tmp_5aae3f42.c:169:12: error: missing terminating " character
+  169 |     printf("Enter event (0=START,
+      |            ^~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5aae3f42.c:169:5: error: expected expression at end of input
+  169 |     printf("Enter event (0=START,
+      |     ^~~~~~
+./samples/SAFE/__tmp_5aae3f42.c:169:5: error: expected declaration or statement at end of input

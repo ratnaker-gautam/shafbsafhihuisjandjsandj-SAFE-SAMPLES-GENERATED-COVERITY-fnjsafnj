@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_fcb094e0.c: In function ‘main’:
+./samples/SAFE/__tmp_fcb094e0.c:121:17: error: expected expression at end of input
+  121 |                 MATRIX_ELEM(result, i, j, cols2) = (int)
+      |                 ^~~~~~~~~~~
+./samples/SAFE/__tmp_fcb094e0.c:121:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fcb094e0.c:121:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fcb094e0.c:121:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fcb094e0.c:121:17: error: expected declaration or statement at end of input

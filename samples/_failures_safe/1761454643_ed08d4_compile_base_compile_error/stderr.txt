@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_b6b7ae69.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_b6b7ae69.c:150:32: error: expected ‘)’ at end of input
+  150 |             if (!token_list_add
+      |                ~               ^
+      |                                )
+./samples/SAFE/__tmp_b6b7ae69.c:150:13: error: expected declaration or statement at end of input
+  150 |             if (!token_list_add
+      |             ^~
+./samples/SAFE/__tmp_b6b7ae69.c:150:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_b6b7ae69.c:150:13: error: expected declaration or statement at end of input

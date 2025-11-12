@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_6a1283d7.c: In function ‘main’:
+./samples/SAFE/__tmp_6a1283d7.c:121:9: error: expected expression at end of input
+  121 |         char timestamp[20], level[MAX_LEVEL_LENGTH], message[
+      |         ^~~~
+./samples/SAFE/__tmp_6a1283d7.c:121:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6a1283d7.c:121:9: error: expected declaration or statement at end of input

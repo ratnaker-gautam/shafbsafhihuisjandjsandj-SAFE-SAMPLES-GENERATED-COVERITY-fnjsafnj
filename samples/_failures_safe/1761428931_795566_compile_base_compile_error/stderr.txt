@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_21126bf1.c: In function ‘lexer_next_token’:
+./samples/SAFE/__tmp_21126bf1.c:164:9: error: expected expression at end of input
+  164 |         if (is_operator_char(c) && strlen(buffer) < sizeof(buffer) -
+      |         ^~
+./samples/SAFE/__tmp_21126bf1.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_21126bf1.c:164:9: error: expected declaration or statement at end of input

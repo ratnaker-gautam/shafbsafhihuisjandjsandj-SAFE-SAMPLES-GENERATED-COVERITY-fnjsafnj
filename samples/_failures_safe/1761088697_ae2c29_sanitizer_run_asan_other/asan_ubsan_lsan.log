@@ -1,0 +1,11 @@
+
+AddressSanitizer:DEADLYSIGNAL
+=================================================================
+==51860==ERROR: AddressSanitizer: stack-overflow on address 0x7fff9b1ebf48 (pc 0x636b2adaa7c2 bp 0x7fff9b9e8f70 sp 0x7fff9b1ebf48 T0)
+    #0 0x636b2adaa7c2 in main samples/SAFE/__tmp_7a33a73f.c:54
+    #1 0x7bbe7242a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #2 0x7bbe7242a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x636b2adaa264 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_7a33a73f.c.san+0x2264) (BuildId: 686f87b1e57e1f81935c6fd7fb30b66ac7bd553a)
+
+SUMMARY: AddressSanitizer: stack-overflow samples/SAFE/__tmp_7a33a73f.c:54 in main
+==51860==ABORTING

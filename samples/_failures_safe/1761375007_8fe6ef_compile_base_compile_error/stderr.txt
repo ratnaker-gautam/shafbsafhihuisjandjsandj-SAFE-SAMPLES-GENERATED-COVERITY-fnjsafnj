@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_7fa2b8c8.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_7fa2b8c8.c:159:9: error: expected identifier at end of input
+  159 |         char current = tokenizer->input[tokenizer->
+      |         ^~~~
+./samples/SAFE/__tmp_7fa2b8c8.c:159:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7fa2b8c8.c:159:9: error: expected declaration or statement at end of input

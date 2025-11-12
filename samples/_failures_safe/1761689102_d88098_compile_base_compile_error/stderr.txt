@@ -1,0 +1,18 @@
+./samples/SAFE/__tmp_eee3a302.c: In function ‘main’:
+./samples/SAFE/__tmp_eee3a302.c:140:76: error: expected ‘]’ at end of input
+  140 |                             result_mul[i][j] += mat1_mul[i][k] * mat2_mul[k
+      |                                                                            ^
+      |                                                                            ]
+./samples/SAFE/__tmp_eee3a302.c:140:64: error: invalid operands to binary * (have ‘int’ and ‘int *’)
+  140 |                             result_mul[i][j] += mat1_mul[i][k] * mat2_mul[k
+      |                                                 ~~~~~~~~~~~~~~ ^
+      |                                                            |   |
+      |                                                            int int *
+./samples/SAFE/__tmp_eee3a302.c:140:29: error: expected declaration or statement at end of input
+  140 |                             result_mul[i][j] += mat1_mul[i][k] * mat2_mul[k
+      |                             ^~~~~~~~~~
+./samples/SAFE/__tmp_eee3a302.c:140:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eee3a302.c:140:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eee3a302.c:140:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eee3a302.c:140:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_eee3a302.c:140:29: error: expected declaration or statement at end of input

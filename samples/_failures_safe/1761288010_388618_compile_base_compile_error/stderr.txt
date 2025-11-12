@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_348f5a48.c: In function ‘main’:
+./samples/SAFE/__tmp_348f5a48.c:149:5: error: expected declaration or statement at end of input
+  149 |     printf("Enter 'quit' to exit\n");
+      |     ^~~~~~

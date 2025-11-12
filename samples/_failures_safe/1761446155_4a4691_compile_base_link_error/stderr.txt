@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/ccplYJJv.o: in function `main':
+__tmp_93ab98f2.c:(.text.startup+0x180): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_93ab98f2.c:(.text.startup+0x1c7): undefined reference to `fmod'
+/usr/bin/ld: __tmp_93ab98f2.c:(.text.startup+0x2f7): undefined reference to `pow'
+/usr/bin/ld: __tmp_93ab98f2.c:(.text.startup+0x371): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

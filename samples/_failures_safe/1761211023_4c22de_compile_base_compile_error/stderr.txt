@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f7925c8d.c: In function ‘tokenize_line’:
+./samples/SAFE/__tmp_f7925c8d.c:158:69: error: expected ‘)’ at end of input
+  158 |         else if (parse_operator(line, &pos, &token, line_num, column
+      |                                ~                                    ^
+      |                                                                     )
+./samples/SAFE/__tmp_f7925c8d.c:158:9: error: expected declaration or statement at end of input
+  158 |         else if (parse_operator(line, &pos, &token, line_num, column
+      |         ^~~~
+./samples/SAFE/__tmp_f7925c8d.c:158:9: error: expected declaration or statement at end of input

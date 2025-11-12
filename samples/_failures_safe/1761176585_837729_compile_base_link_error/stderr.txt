@@ -1,0 +1,3 @@
+/usr/bin/ld: /tmp/ccRe2mNp.o: in function `calculate_frobenius_norm':
+__tmp_d9bbc485.c:(.text+0x458): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

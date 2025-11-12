@@ -1,0 +1,115 @@
+//DeepSeek-V3 SAFE v1.4 Category: Safe ; Style: io_bound ; Variation: log_analyzer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <time.h>
+
+#define MAX_LINE_LEN 1024
+#define MAX_ENTRIES 1000
+
+struct LogEntry {
+    char timestamp[32];
+    char level[16];
+    char message[MAX_LINE_LEN - 48];
+};
+
+int parse_log_line(const char* line, struct LogEntry* entry) {
+    if (line == NULL || entry == NULL) return 0;
+    
+    char temp[MAX_LINE_LEN];
+    if (strlen(line) >= MAX_LINE_LEN - 1) return 0;
+    strncpy(temp, line, MAX_LINE_LEN - 1);
+    temp[MAX_LINE_LEN - 1] = '\0';
+    
+    char* timestamp_end = strchr(temp, ' ');
+    if (timestamp_end == NULL) return 0;
+    *timestamp_end = '\0';
+    
+    if (strlen(temp) >= sizeof(entry->timestamp)) return 0;
+    strncpy(entry->timestamp, temp, sizeof(entry->timestamp) - 1);
+    entry->timestamp[sizeof(entry->timestamp) - 1] = '\0';
+    
+    char* level_start = timestamp_end + 1;
+    char* level_end = strchr(level_start, ' ');
+    if (level_end == NULL) return 0;
+    *level_end = '\0';
+    
+    if (strlen(level_start) >= sizeof(entry->level)) return 0;
+    strncpy(entry->level, level_start, sizeof(entry->level) - 1);
+    entry->level[sizeof(entry->level) - 1] = '\0';
+    
+    char* message_start = level_end + 1;
+    if (strlen(message_start) >= sizeof(entry->message)) return 0;
+    strncpy(entry->message, message_start, sizeof(entry->message) - 1);
+    entry->message[sizeof(entry->message) - 1] = '\0';
+    
+    return 1;
+}
+
+int main(void) {
+    struct LogEntry entries[MAX_ENTRIES];
+    int entry_count = 0;
+    char line[MAX_LINE_LEN];
+    
+    printf("Enter log entries (one per line, format: TIMESTAMP LEVEL MESSAGE):\n");
+    printf("Enter 'END' on a separate line to finish input.\n");
+    
+    while (entry_count < MAX_ENTRIES) {
+        if (fgets(line, sizeof(line), stdin) == NULL) {
+            break;
+        }
+        
+        line[strcspn(line, "\n")] = '\0';
+        
+        if (strcmp(line, "END") == 0) {
+            break;
+        }
+        
+        if (strlen(line) == 0) {
+            continue;
+        }
+        
+        if (parse_log_line(line, &entries[entry_count])) {
+            entry_count++;
+        } else {
+            printf("Invalid log format. Skipping line: %s\n", line);
+        }
+    }
+    
+    if (entry_count == 0) {
+        printf("No valid log entries to analyze.\n");
+        return 0;
+    }
+    
+    int error_count = 0;
+    int warning_count = 0;
+    int info_count = 0;
+    
+    for (int i = 0; i < entry_count; i++) {
+        if (strcmp(entries[i].level, "ERROR") == 0) {
+            error_count++;
+        } else if (strcmp(entries[i].level, "WARNING") == 0) {
+            warning_count++;
+        } else if (strcmp(entries[i].level, "INFO") == 0) {
+            info_count++;
+        }
+    }
+    
+    printf("\nLog Analysis Results:\n");
+    printf("Total entries: %d\n", entry_count);
+    printf("ERROR entries: %d\n", error_count);
+    printf("WARNING entries: %d\n", warning_count);
+    printf("INFO entries: %d\n", info_count);
+    
+    if (error_count > 0) {
+        printf("\nERROR entries:\n");
+        for (int i = 0; i < entry_count; i++) {
+            if (strcmp(entries[i].level, "ERROR") == 0) {
+                printf("%s %s %s\n", entries[i].timestamp, entries[i].level, entries[i].message);
+            }
+        }
+    }
+    
+    return 0;
+}

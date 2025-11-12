@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_34101bf4.c: In function ‘print_state_info’:
+./samples/SAFE/__tmp_34101bf4.c:143:30: error: expected ‘]’ at end of input
+  143 |                state_names[sm
+      |                              ^
+      |                              ]
+./samples/SAFE/__tmp_34101bf4.c:143:27: error: array subscript is not an integer
+  143 |                state_names[sm
+      |                           ^
+./samples/SAFE/__tmp_34101bf4.c:143:16: error: expected declaration or statement at end of input
+  143 |                state_names[sm
+      |                ^~~~~~~~~~~
+./samples/SAFE/__tmp_34101bf4.c:143:16: error: expected declaration or statement at end of input

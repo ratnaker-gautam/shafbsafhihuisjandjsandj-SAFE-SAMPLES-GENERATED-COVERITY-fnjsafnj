@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ce2f474c.c: In function ‘main’:
+./samples/SAFE/__tmp_ce2f474c.c:149:9: error: expected expression at end of input
+  149 |         if (entries[i].level == LOG_CRITICAL || entries[i].level ==
+      |         ^~
+./samples/SAFE/__tmp_ce2f474c.c:149:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ce2f474c.c:149:9: error: expected declaration or statement at end of input

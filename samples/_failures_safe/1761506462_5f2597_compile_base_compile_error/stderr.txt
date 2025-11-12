@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_86bf2d36.c: In function ‘main’:
+./samples/SAFE/__tmp_86bf2d36.c:123:22: error: ‘MAX_ENTRI’ undeclared (first use in this function); did you mean ‘MAX_ENTRIES’?
+  123 |     LogEntry entries[MAX_ENTRI
+      |                      ^~~~~~~~~
+      |                      MAX_ENTRIES
+./samples/SAFE/__tmp_86bf2d36.c:123:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_86bf2d36.c:123:31: error: expected ‘]’ at end of input
+  123 |     LogEntry entries[MAX_ENTRI
+      |                               ^
+      |                               ]
+./samples/SAFE/__tmp_86bf2d36.c:123:5: error: expected declaration or statement at end of input
+  123 |     LogEntry entries[MAX_ENTRI
+      |     ^~~~~~~~

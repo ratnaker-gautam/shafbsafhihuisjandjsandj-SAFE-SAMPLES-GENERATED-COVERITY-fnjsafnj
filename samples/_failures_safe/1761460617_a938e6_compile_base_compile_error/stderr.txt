@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_96206686.c: In function ‘main’:
+./samples/SAFE/__tmp_96206686.c:145:32: error: ‘operation’ undeclared (first use in this function); did you mean ‘operations’?
+  145 |             printf("%s: %d\n", operation
+      |                                ^~~~~~~~~
+      |                                operations
+./samples/SAFE/__tmp_96206686.c:145:32: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_96206686.c:145:41: error: expected ‘)’ at end of input
+  145 |             printf("%s: %d\n", operation
+      |                   ~                     ^
+      |                                         )
+./samples/SAFE/__tmp_96206686.c:145:13: error: expected declaration or statement at end of input
+  145 |             printf("%s: %d\n", operation
+      |             ^~~~~~
+./samples/SAFE/__tmp_96206686.c:145:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_96206686.c:145:13: error: expected declaration or statement at end of input

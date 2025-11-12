@@ -1,0 +1,6 @@
+/usr/bin/ld: /tmp/ccBRvMUD.o: in function `main':
+__tmp_b3f36a77.c:(.text.startup+0x1a7): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_b3f36a77.c:(.text.startup+0x21a): undefined reference to `fmod'
+/usr/bin/ld: __tmp_b3f36a77.c:(.text.startup+0x41c): undefined reference to `pow'
+/usr/bin/ld: __tmp_b3f36a77.c:(.text.startup+0x496): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

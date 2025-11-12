@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a582e72b.c: In function ‘main’:
+./samples/SAFE/__tmp_a582e72b.c:137:9: error: expected declaration or statement at end of input
+  137 |         printf("2. Search messages\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_a582e72b.c:137:9: error: expected declaration or statement at end of input

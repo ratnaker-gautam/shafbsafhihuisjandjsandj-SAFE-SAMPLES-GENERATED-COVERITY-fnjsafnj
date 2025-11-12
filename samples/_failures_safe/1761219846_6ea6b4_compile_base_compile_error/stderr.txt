@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_a0052a38.c: In function ‘simulate_step’:
+./samples/SAFE/__tmp_a0052a38.c:123:10: error: ‘isfinite’ undeclared (first use in this function)
+  123 |     if (!isfinite
+      |          ^~~~~~~~
+./samples/SAFE/__tmp_a0052a38.c:123:10: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_a0052a38.c:123:18: error: expected ‘)’ at end of input
+  123 |     if (!isfinite
+      |        ~         ^
+      |                  )
+./samples/SAFE/__tmp_a0052a38.c:123:5: error: expected declaration or statement at end of input
+  123 |     if (!isfinite
+      |     ^~

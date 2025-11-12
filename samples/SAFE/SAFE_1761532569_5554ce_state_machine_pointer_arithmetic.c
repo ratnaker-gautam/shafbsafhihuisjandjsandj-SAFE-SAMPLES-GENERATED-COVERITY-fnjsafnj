@@ -1,0 +1,147 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: pointer_arithmetic ; Variation: state_machine
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <limits.h>
+
+#define MAX_INPUT 256
+#define STATE_COUNT 5
+
+typedef enum {
+    START,
+    READING_NUMBER,
+    READING_WORD,
+    SKIPPING,
+    FINISHED
+} State;
+
+int is_valid_input(const char *input, size_t len) {
+    if (input == NULL || len == 0 || len >= MAX_INPUT) {
+        return 0;
+    }
+    for (size_t i = 0; i < len; i++) {
+        if (input[i] == '\0') {
+            return 0;
+        }
+    }
+    return 1;
+}
+
+void process_character(char c, State *state, int *number, char *word, size_t *word_len) {
+    switch (*state) {
+        case START:
+            if (isdigit(c)) {
+                *state = READING_NUMBER;
+                *number = c - '0';
+            } else if (isalpha(c)) {
+                *state = READING_WORD;
+                *word_len = 0;
+                *(word + *word_len) = c;
+                (*word_len)++;
+            } else {
+                *state = SKIPPING;
+            }
+            break;
+            
+        case READING_NUMBER:
+            if (isdigit(c)) {
+                if (*number <= (INT_MAX - (c - '0')) / 10) {
+                    *number = *number * 10 + (c - '0');
+                } else {
+                    *state = SKIPPING;
+                    *number = 0;
+                }
+            } else if (isalpha(c)) {
+                *state = READING_WORD;
+                *word_len = 0;
+                *(word + *word_len) = c;
+                (*word_len)++;
+                *number = 0;
+            } else {
+                *state = SKIPPING;
+                *number = 0;
+            }
+            break;
+            
+        case READING_WORD:
+            if (isalpha(c)) {
+                if (*word_len < MAX_INPUT - 1) {
+                    *(word + *word_len) = c;
+                    (*word_len)++;
+                } else {
+                    *state = SKIPPING;
+                    *word_len = 0;
+                }
+            } else if (isdigit(c)) {
+                *state = READING_NUMBER;
+                *number = c - '0';
+                *word_len = 0;
+            } else {
+                *state = SKIPPING;
+                *word_len = 0;
+            }
+            break;
+            
+        case SKIPPING:
+            if (isdigit(c)) {
+                *state = READING_NUMBER;
+                *number = c - '0';
+            } else if (isalpha(c)) {
+                *state = READING_WORD;
+                *word_len = 0;
+                *(word + *word_len) = c;
+                (*word_len)++;
+            }
+            break;
+            
+        case FINISHED:
+            break;
+    }
+}
+
+int main(void) {
+    char input[MAX_INPUT];
+    char *ptr = input;
+    
+    printf("Enter text: ");
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        return EXIT_FAILURE;
+    }
+    
+    size_t input_len = strlen(input);
+    if (input_len > 0 && *(ptr + input_len - 1) == '\n') {
+        *(ptr + input_len - 1) = '\0';
+        input_len--;
+    }
+    
+    if (!is_valid_input(input, input_len)) {
+        printf("Invalid input\n");
+        return EXIT_FAILURE;
+    }
+    
+    State current_state = START;
+    int current_number = 0;
+    char current_word[MAX_INPUT];
+    size_t word_length = 0;
+    
+    for (size_t i = 0; i < input_len; i++) {
+        char c = *(ptr + i);
+        process_character(c, &current_state, &current_number, current_word, &word_length);
+        
+        if (current_state == READING_NUMBER && (i == input_len - 1 || !isdigit(*(ptr + i + 1)))) {
+            printf("Found number: %d\n", current_number);
+            current_number = 0;
+            current_state = START;
+        } else if (current_state == READING_WORD && (i == input_len - 1 || !isalpha(*(ptr + i + 1)))) {
+            if (word_length < sizeof(current_word)) {
+                *(current_word + word_length) = '\0';
+                printf("Found word: %s\n", current_word);
+            }
+            word_length = 0;
+            current_state = START;
+        }
+    }
+    
+    return EXIT_SUCCESS;
+}

@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_3d372b5e.c: In function ‘main’:
+./samples/SAFE/__tmp_3d372b5e.c:142:21: error: expected declaration or statement at end of input
+  142 |                     printf("Result of multiplication:\n");
+      |                     ^~~~~~
+./samples/SAFE/__tmp_3d372b5e.c:142:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3d372b5e.c:142:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3d372b5e.c:142:21: error: expected declaration or statement at end of input

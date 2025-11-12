@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_ecfda66a.c: In function ‘main’:
+./samples/SAFE/__tmp_ecfda66a.c:145: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_ecfda66a.c:144:8: note: to match this ‘(’
+  144 |     if (b.data == NULL
+      |        ^
+./samples/SAFE/__tmp_ecfda66a.c:144:5: error: expected declaration or statement at end of input
+  144 |     if (b.data == NULL
+      |     ^~

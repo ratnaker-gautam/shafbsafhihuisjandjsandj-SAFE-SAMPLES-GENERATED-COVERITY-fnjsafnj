@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_c0779eaa.c: In function ‘main’:
+./samples/SAFE/__tmp_c0779eaa.c:151:29: error: expected ‘)’ at end of input
+  151 |     if (!extract_words(input
+      |                       ~     ^
+      |                             )
+./samples/SAFE/__tmp_c0779eaa.c:151:10: error: too few arguments to function ‘extract_words’
+  151 |     if (!extract_words(input
+      |          ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_c0779eaa.c:84:5: note: declared here
+   84 | int extract_words(const char *input, WordCount *words, int *word_count) {
+      |     ^~~~~~~~~~~~~
+./samples/SAFE/__tmp_c0779eaa.c:151:5: error: expected declaration or statement at end of input
+  151 |     if (!extract_words(input
+      |     ^~

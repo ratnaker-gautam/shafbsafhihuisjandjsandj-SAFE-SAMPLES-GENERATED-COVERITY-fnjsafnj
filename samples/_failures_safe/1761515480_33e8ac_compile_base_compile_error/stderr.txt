@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b895a1af.c: In function ‘main’:
+./samples/SAFE/__tmp_b895a1af.c:132:17: error: expected declaration or statement at end of input
+  132 |     for (struct LogEntry *ptr = entries; ptr < end; ptr++) {
+      |                 ^~~~~~~~
+./samples/SAFE/__tmp_b895a1af.c:132:17: error: expected declaration or statement at end of input

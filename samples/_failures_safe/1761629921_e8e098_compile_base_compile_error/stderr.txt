@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_f533d09c.c: In function ‘main’:
+./samples/SAFE/__tmp_f533d09c.c:187:13: error: expected declaration or statement at end of input
+  187 |             case STATE_READY: printf("READY"); break;
+      |             ^~~~
+./samples/SAFE/__tmp_f533d09c.c:187:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f533d09c.c:187:13: error: expected declaration or statement at end of input

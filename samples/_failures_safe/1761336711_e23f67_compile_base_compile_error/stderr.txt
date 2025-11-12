@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_bbc38820.c: In function ‘main’:
+./samples/SAFE/__tmp_bbc38820.c:146:17: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  146 |         putchar(input
+      |                 ^~~~~
+      |                 int
+./samples/SAFE/__tmp_bbc38820.c:146:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_bbc38820.c:146:22: error: expected ‘)’ at end of input
+  146 |         putchar(input
+      |                ~     ^
+      |                      )
+./samples/SAFE/__tmp_bbc38820.c:146:9: error: expected declaration or statement at end of input
+  146 |         putchar(input
+      |         ^~~~~~~
+./samples/SAFE/__tmp_bbc38820.c:146:9: error: expected declaration or statement at end of input

@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_c37192e6.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_c37192e6.c:183:32: error: ‘TO’ undeclared (first use in this function)
+  183 |     if (parser.current.type != TO
+      |                                ^~
+./samples/SAFE/__tmp_c37192e6.c:183:32: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_c37192e6.c:183:34: error: expected ‘)’ at end of input
+  183 |     if (parser.current.type != TO
+      |        ~                         ^
+      |                                  )
+./samples/SAFE/__tmp_c37192e6.c:183:5: error: expected declaration or statement at end of input
+  183 |     if (parser.current.type != TO
+      |     ^~

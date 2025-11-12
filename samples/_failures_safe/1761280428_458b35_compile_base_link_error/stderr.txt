@@ -1,0 +1,7 @@
+/usr/bin/ld: /tmp/ccoSpSTd.o: in function `power':
+__tmp_186ae32b.c:(.text+0xe9): undefined reference to `fmod'
+/usr/bin/ld: __tmp_186ae32b.c:(.text+0x8f): undefined reference to `pow'
+/usr/bin/ld: __tmp_186ae32b.c:(.text+0xdc): undefined reference to `pow'
+/usr/bin/ld: /tmp/ccoSpSTd.o: in function `main':
+__tmp_186ae32b.c:(.text.startup+0x1aa): undefined reference to `fmod'
+collect2: error: ld returned 1 exit status

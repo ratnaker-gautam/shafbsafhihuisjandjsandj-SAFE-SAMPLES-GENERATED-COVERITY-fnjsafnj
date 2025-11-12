@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_14c350de.c: In function ‘main’:
+./samples/SAFE/__tmp_14c350de.c:143:29: error: expected expression at end of input
+  143 |                             if (sum > INT_MAX ||
+      |                             ^~
+./samples/SAFE/__tmp_14c350de.c:143:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_14c350de.c:143:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_14c350de.c:143:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_14c350de.c:143:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_14c350de.c:143:29: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_14c350de.c:143:29: error: expected declaration or statement at end of input

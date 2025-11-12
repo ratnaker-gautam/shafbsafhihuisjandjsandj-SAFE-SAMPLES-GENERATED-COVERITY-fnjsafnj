@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3f1276a9.c: In function ‘free_graph’:
+./samples/SAFE/__tmp_3f1276a9.c:190:9: error: expected declaration or statement at end of input
+  190 |         current = next_node;
+      |         ^~~~~~~
+./samples/SAFE/__tmp_3f1276a9.c:190:9: error: expected declaration or statement at end of input

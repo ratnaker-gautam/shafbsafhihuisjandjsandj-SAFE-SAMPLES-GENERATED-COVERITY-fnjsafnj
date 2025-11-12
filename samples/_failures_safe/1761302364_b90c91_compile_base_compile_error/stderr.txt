@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_dae58354.c: In function ‘display_all_entries’:
+./samples/SAFE/__tmp_dae58354.c:121:22: error: expected ‘;’ at end of input
+  121 |     for (int i = 0; i
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_dae58354.c:121:5: error: expected declaration or statement at end of input
+  121 |     for (int i = 0; i
+      |     ^~~

@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_d1391933.c: In function ‘boundingbox_calculate’:
+./samples/SAFE/__tmp_d1391933.c:136:33: error: invalid operands to binary < (have ‘double’ and ‘struct Vector3D’)
+  136 |         if (mesh->vertices[i].x < box.min
+      |             ~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~
+      |                              |       |
+      |                              double  struct Vector3D
+./samples/SAFE/__tmp_d1391933.c:136:42: error: expected ‘)’ at end of input
+  136 |         if (mesh->vertices[i].x < box.min
+      |            ~                             ^
+      |                                          )
+./samples/SAFE/__tmp_d1391933.c:136:9: error: expected declaration or statement at end of input
+  136 |         if (mesh->vertices[i].x < box.min
+      |         ^~
+./samples/SAFE/__tmp_d1391933.c:136:9: error: expected declaration or statement at end of input

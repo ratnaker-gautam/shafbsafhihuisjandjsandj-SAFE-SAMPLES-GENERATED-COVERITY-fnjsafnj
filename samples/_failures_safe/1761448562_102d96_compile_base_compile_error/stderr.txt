@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_217b670e.c: In function ‘main’:
+./samples/SAFE/__tmp_217b670e.c:162:21: error: ‘decomp’ undeclared (first use in this function)
+  162 |     cleanup_buffer(&decomp
+      |                     ^~~~~~
+./samples/SAFE/__tmp_217b670e.c:162:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_217b670e.c:162:27: error: expected ‘)’ at end of input
+  162 |     cleanup_buffer(&decomp
+      |                   ~       ^
+      |                           )
+./samples/SAFE/__tmp_217b670e.c:162:5: error: expected declaration or statement at end of input
+  162 |     cleanup_buffer(&decomp
+      |     ^~~~~~~~~~~~~~

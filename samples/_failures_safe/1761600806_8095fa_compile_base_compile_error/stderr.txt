@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_6af58b1c.c: In function ‘main’:
+./samples/SAFE/__tmp_6af58b1c.c:137:13: error: expected expression at end of input
+  137 |             cols2 = read_int("Enter columns for second matrix (1-10): ", 1,
+      |             ^~~~~
+./samples/SAFE/__tmp_6af58b1c.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6af58b1c.c:137:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_6af58b1c.c:137:13: error: expected declaration or statement at end of input

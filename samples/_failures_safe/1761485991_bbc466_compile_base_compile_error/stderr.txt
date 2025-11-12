@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6e319c2c.c: In function ‘main’:
+./samples/SAFE/__tmp_6e319c2c.c:164:9: error: expected declaration or statement at end of input
+  164 |         printf("No valid log entries to analyze\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_6e319c2c.c:164:9: error: expected declaration or statement at end of input

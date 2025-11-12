@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/cc18iCK8.o: in function `main':
+__tmp_7e5beaf2.c:(.text.startup+0xc2): undefined reference to `sin'
+/usr/bin/ld: __tmp_7e5beaf2.c:(.text.startup+0x23d): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_7e5beaf2.c:(.text.startup+0x3d2): undefined reference to `pow'
+collect2: error: ld returned 1 exit status

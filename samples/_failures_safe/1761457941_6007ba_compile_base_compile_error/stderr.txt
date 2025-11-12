@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_25fc127d.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_25fc127d.c:125:9: error: expected declaration or statement at end of input
+  125 |         double sub_det = matrix_determinant(&sub);
+      |         ^~~~~~
+./samples/SAFE/__tmp_25fc127d.c:125:9: error: expected declaration or statement at end of input

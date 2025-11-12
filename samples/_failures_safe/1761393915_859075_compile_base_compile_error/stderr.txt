@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_4534a2df.c: In function ‘main’:
+./samples/SAFE/__tmp_4534a2df.c:133:20: error: expected identifier or ‘(’ at end of input
+  133 |             struct TransformResult
+      |                    ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4534a2df.c:133:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4534a2df.c:133:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4534a2df.c:133:20: error: expected declaration or statement at end of input

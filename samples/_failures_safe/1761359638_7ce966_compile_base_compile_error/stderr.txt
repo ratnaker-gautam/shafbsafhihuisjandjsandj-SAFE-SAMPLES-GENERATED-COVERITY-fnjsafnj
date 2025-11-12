@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_fbd7bf1f.c: In function ‘main’:
+./samples/SAFE/__tmp_fbd7bf1f.c:148:22: error: ‘compute_determ’ undeclared (first use in this function); did you mean ‘compute_determinant’?
+  148 |         double det = compute_determ
+      |                      ^~~~~~~~~~~~~~
+      |                      compute_determinant
+./samples/SAFE/__tmp_fbd7bf1f.c:148:22: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fbd7bf1f.c:148:9: error: expected ‘,’ or ‘;’ at end of input
+  148 |         double det = compute_determ
+      |         ^~~~~~
+./samples/SAFE/__tmp_fbd7bf1f.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fbd7bf1f.c:148:9: error: expected declaration or statement at end of input

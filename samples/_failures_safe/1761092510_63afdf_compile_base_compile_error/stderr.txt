@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_11dc3b86.c: In function ‘main’:
+./samples/SAFE/__tmp_11dc3b86.c:125:17: error: expected expression at end of input
+  125 |                 for (int j = 0; j < cols2;
+      |                 ^~~
+./samples/SAFE/__tmp_11dc3b86.c:125:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_11dc3b86.c:125:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_11dc3b86.c:125:17: error: expected declaration or statement at end of input

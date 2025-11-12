@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_bc7b98de.c: In function ‘main’:
+./samples/SAFE/__tmp_bc7b98de.c:150:15: error: expected ‘;’ at end of input
+  150 |     sort_words
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_bc7b98de.c:150:5: error: expected declaration or statement at end of input
+  150 |     sort_words
+      |     ^~~~~~~~~~

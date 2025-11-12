@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5626890a.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_5626890a.c:164:9: error: expected expression at end of input
+  164 |         printf("Found value: %s\n",
+      |         ^~~~~~
+./samples/SAFE/__tmp_5626890a.c:164:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5626890a.c:164:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_fd0b8a8f.c: In function ‘main’:
+./samples/SAFE/__tmp_fd0b8a8f.c:140:9: error: expected declaration or statement at end of input
+  140 |         if (is_error_level(entries[i].level) && is_error_level(entries[i + 1].level)) {
+      |         ^~
+./samples/SAFE/__tmp_fd0b8a8f.c:140:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fd0b8a8f.c:140:9: error: expected declaration or statement at end of input

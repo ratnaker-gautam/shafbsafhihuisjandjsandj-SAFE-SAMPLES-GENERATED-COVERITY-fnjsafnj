@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6bdb742e.c: In function ‘main’:
+./samples/SAFE/__tmp_6bdb742e.c:135:5: error: expected expression at end of input
+  135 |     read_matrix(&mat1,
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_6bdb742e.c:135:5: error: expected declaration or statement at end of input

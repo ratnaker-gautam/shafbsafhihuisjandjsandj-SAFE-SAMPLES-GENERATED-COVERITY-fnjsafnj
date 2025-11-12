@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_09325387.c: In function ‘analyze_logs’:
+./samples/SAFE/__tmp_09325387.c:133:9: error: expected declaration or statement at end of input
+  133 |         }
+      |         ^
+./samples/SAFE/__tmp_09325387.c:133:9: error: expected declaration or statement at end of input

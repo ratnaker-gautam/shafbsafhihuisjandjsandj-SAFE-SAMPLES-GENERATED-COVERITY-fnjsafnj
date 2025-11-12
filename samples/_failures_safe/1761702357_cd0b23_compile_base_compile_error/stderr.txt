@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c628cefa.c: In function ‘main’:
+./samples/SAFE/__tmp_c628cefa.c:162:5: error: expected declaration or statement at end of input
+  162 |     printf("Compression ratio: %.2f%%\n", (1.0 - (double)output_buf.size / input_buf.size) * 100.0);
+      |     ^~~~~~

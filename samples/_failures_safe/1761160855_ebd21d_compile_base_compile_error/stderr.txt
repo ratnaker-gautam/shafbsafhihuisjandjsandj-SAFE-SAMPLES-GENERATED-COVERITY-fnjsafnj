@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_0e2fe28f.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_0e2fe28f.c:130:9: error: expected declaration or statement at end of input
+  130 |         for (int j = 0; j < a->cols; j++) {
+      |         ^~~
+./samples/SAFE/__tmp_0e2fe28f.c:130:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0e2fe28f.c:130:9: error: expected declaration or statement at end of input

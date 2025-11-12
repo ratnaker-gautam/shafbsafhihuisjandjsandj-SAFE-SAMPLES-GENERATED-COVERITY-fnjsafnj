@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_28ee9694.c: In function ‘next_token’:
+./samples/SAFE/__tmp_28ee9694.c:166: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_28ee9694.c:165:21: note: to match this ‘{’
+  165 |         Token eof = {TOKEN_EOF, "", lexer
+      |                     ^
+./samples/SAFE/__tmp_28ee9694.c:165:9: error: expected declaration or statement at end of input
+  165 |         Token eof = {TOKEN_EOF, "", lexer
+      |         ^~~~~
+./samples/SAFE/__tmp_28ee9694.c:165:9: error: expected declaration or statement at end of input

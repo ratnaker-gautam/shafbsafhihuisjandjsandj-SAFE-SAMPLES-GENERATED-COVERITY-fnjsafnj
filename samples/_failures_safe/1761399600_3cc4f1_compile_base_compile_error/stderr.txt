@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_16f94211.c: In function ‘main’:
+./samples/SAFE/__tmp_16f94211.c:124:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  124 |     int matrix
+      |     ^~~
+./samples/SAFE/__tmp_16f94211.c:124:5: error: expected declaration or statement at end of input

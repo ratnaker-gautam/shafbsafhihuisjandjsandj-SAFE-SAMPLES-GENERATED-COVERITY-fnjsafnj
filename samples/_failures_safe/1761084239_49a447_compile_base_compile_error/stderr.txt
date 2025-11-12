@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_0d7f4bc8.c: In function ‘main’:
+./samples/SAFE/__tmp_0d7f4bc8.c:161:5: error: expected declaration or statement at end of input
+  161 |     uint32_t num_events = sizeof(events) / sizeof(events[0]);
+      |     ^~~~~~~~

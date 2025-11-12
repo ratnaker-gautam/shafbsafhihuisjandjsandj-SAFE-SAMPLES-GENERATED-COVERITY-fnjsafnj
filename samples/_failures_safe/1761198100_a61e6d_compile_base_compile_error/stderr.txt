@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_5d72bdf0.c: In function ‘main’:
+./samples/SAFE/__tmp_5d72bdf0.c:132:45: error: ‘struct TransformResult’ has no member named ‘magn’
+  132 |         printf("  Magnitude: %.3f\n", result.magn
+      |                                             ^
+./samples/SAFE/__tmp_5d72bdf0.c:132:50: error: expected ‘)’ at end of input
+  132 |         printf("  Magnitude: %.3f\n", result.magn
+      |               ~                                  ^
+      |                                                  )
+./samples/SAFE/__tmp_5d72bdf0.c:132:9: error: expected declaration or statement at end of input
+  132 |         printf("  Magnitude: %.3f\n", result.magn
+      |         ^~~~~~
+./samples/SAFE/__tmp_5d72bdf0.c:132:9: error: expected declaration or statement at end of input

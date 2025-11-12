@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ad6b66fe.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_ad6b66fe.c:163:5: error: expected expression at end of input
+  163 |     int result = parse_expression(&
+      |     ^~~
+./samples/SAFE/__tmp_ad6b66fe.c:163:18: error: too few arguments to function ‘parse_expression’
+  163 |     int result = parse_expression(&
+      |                  ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ad6b66fe.c:121:5: note: declared here
+  121 | int parse_expression(Lexer* lexer, Token* current) {
+      |     ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_ad6b66fe.c:163:5: error: expected declaration or statement at end of input
+  163 |     int result = parse_expression(&
+      |     ^~~

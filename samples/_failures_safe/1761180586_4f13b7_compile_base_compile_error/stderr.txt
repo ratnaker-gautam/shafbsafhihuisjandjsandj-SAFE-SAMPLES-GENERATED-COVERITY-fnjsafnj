@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_ad22b84e.c: In function ‘bfs’:
+./samples/SAFE/__tmp_ad22b84e.c:180:21: error: expected expression at end of input
+  180 |                     if (matrix[current * graph->vertices + i] != 0 && !
+      |                     ^~
+./samples/SAFE/__tmp_ad22b84e.c:180:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ad22b84e.c:180:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ad22b84e.c:180:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ad22b84e.c:180:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ad22b84e.c:180:21: error: expected declaration or statement at end of input

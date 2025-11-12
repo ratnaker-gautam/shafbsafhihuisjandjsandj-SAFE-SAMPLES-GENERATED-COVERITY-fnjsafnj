@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_82479d25.c: In function ‘main’:
+./samples/SAFE/__tmp_82479d25.c:162:21: error: expected declaration or statement at end of input
+  162 |                     state_machine_handle_event(&sm, EVENT_ERROR);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_82479d25.c:162:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_82479d25.c:162:21: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_82479d25.c:162:21: error: expected declaration or statement at end of input

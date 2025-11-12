@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_8fba0c2c.c: In function ‘tokenize_string’:
+./samples/SAFE/__tmp_8fba0c2c.c:171:17: error: expected declaration or statement at end of input
+  171 |                 return 0;
+      |                 ^~~~~~
+./samples/SAFE/__tmp_8fba0c2c.c:171:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8fba0c2c.c:171:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8fba0c2c.c:171:17: error: expected declaration or statement at end of input

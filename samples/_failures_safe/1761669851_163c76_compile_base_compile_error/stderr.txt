@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a11bc95a.c: In function ‘find_min_distance_node’:
+./samples/SAFE/__tmp_a11bc95a.c:154:13: error: expected declaration or statement at end of input
+  154 |             min_node = &g->nodes[i];
+      |             ^~~~~~~~
+./samples/SAFE/__tmp_a11bc95a.c:154:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a11bc95a.c:154:13: error: expected declaration or statement at end of input

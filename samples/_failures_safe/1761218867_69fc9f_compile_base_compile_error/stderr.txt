@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_f0452156.c: In function ‘main’:
+./samples/SAFE/__tmp_f0452156.c:152:13: error: expected expression at end of input
+  152 |             operations[choice - 1](rows, cols,
+      |             ^~~~~~~~~~
+./samples/SAFE/__tmp_f0452156.c:152:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0452156.c:152:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_f0452156.c:152:13: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_559ea8af.c: In function ‘matrix_transpose’:
+./samples/SAFE/__tmp_559ea8af.c:152:13: error: expected declaration or statement at end of input
+  152 |             result[i][j] = matrix[j][i];
+      |             ^~~~~~
+./samples/SAFE/__tmp_559ea8af.c:152:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_559ea8af.c:152:13: error: expected declaration or statement at end of input

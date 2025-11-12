@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_5cf86d7b.c: In function ‘main’:
+./samples/SAFE/__tmp_5cf86d7b.c:155:47: error: expected ‘)’ at end of input
+  155 |         memcmp(input, decompressed.data, input
+      |               ~                               ^
+      |                                               )
+./samples/SAFE/__tmp_5cf86d7b.c:155:9: error: expected declaration or statement at end of input
+  155 |         memcmp(input, decompressed.data, input
+      |         ^~~~~~

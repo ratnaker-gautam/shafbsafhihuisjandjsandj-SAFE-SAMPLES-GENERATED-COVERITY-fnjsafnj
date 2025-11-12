@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_8cf9381f.c: In function ‘main’:
+./samples/SAFE/__tmp_8cf9381f.c:125:44: error: expected ‘)’ at end of input
+  125 |             if (scanf("%d", &matrix2[i][j])
+      |                ~                           ^
+      |                                            )
+./samples/SAFE/__tmp_8cf9381f.c:125:13: error: expected declaration or statement at end of input
+  125 |             if (scanf("%d", &matrix2[i][j])
+      |             ^~
+./samples/SAFE/__tmp_8cf9381f.c:125:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8cf9381f.c:125:13: error: expected declaration or statement at end of input

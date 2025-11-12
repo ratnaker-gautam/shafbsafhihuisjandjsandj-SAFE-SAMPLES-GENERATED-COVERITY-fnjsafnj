@@ -1,0 +1,17 @@
+./samples/SAFE/__tmp_311fe47f.c: In function ‘main’:
+./samples/SAFE/__tmp_311fe47f.c:178:32: error: expected ‘)’ at end of input
+  178 |         print_token_type(tokens
+      |                         ~      ^
+      |                                )
+./samples/SAFE/__tmp_311fe47f.c:178:26: error: incompatible type for argument 1 of ‘print_token_type’
+  178 |         print_token_type(tokens
+      |                          ^~~~~~
+      |                          |
+      |                          struct Token *
+./samples/SAFE/__tmp_311fe47f.c:131:38: note: expected ‘enum TokenType’ but argument is of type ‘struct Token *’
+  131 | void print_token_type(enum TokenType type) {
+      |                       ~~~~~~~~~~~~~~~^~~~
+./samples/SAFE/__tmp_311fe47f.c:178:9: error: expected declaration or statement at end of input
+  178 |         print_token_type(tokens
+      |         ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_311fe47f.c:178:9: error: expected declaration or statement at end of input

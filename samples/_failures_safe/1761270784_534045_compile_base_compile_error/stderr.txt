@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_946e1014.c: In function ‘main’:
+./samples/SAFE/__tmp_946e1014.c:185: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_946e1014.c:184:31: note: to match this ‘(’
+  184 |     int token_count = tokenize(input, tokens, MAX_TOKENS
+      |                               ^
+./samples/SAFE/__tmp_946e1014.c:184:5: error: expected declaration or statement at end of input
+  184 |     int token_count = tokenize(input, tokens, MAX_TOKENS
+      |     ^~~

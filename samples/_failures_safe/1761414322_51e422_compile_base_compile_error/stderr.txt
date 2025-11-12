@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_2a24c8ad.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_2a24c8ad.c:141:25: error: expected ‘)’ at end of input
+  141 |         if (strcmp(entry
+      |                   ~     ^
+      |                         )
+./samples/SAFE/__tmp_2a24c8ad.c:141:13: error: too few arguments to function ‘strcmp’
+  141 |         if (strcmp(entry
+      |             ^~~~~~
+In file included from ./samples/SAFE/__tmp_2a24c8ad.c:4:
+/usr/include/string.h:156:12: note: declared here
+  156 | extern int strcmp (const char *__s1, const char *__s2)
+      |            ^~~~~~
+./samples/SAFE/__tmp_2a24c8ad.c:141:9: error: expected declaration or statement at end of input
+  141 |         if (strcmp(entry
+      |         ^~
+./samples/SAFE/__tmp_2a24c8ad.c:141:9: error: expected declaration or statement at end of input

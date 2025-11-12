@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2d975536.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_2d975536.c:165:5: error: expected expression at end of input
+  165 |     if (start == NULL) return
+      |     ^~
+./samples/SAFE/__tmp_2d975536.c:165:5: error: expected declaration or statement at end of input

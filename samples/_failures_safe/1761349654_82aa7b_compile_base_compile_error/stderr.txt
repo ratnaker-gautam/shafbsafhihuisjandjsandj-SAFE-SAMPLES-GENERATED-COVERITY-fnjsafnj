@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_44ac312b.c: In function ‘main’:
+./samples/SAFE/__tmp_44ac312b.c:136:9: error: expected expression at end of input
+  136 |         if (rows2 ==
+      |         ^~
+./samples/SAFE/__tmp_44ac312b.c:136:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_44ac312b.c:136:9: error: expected declaration or statement at end of input

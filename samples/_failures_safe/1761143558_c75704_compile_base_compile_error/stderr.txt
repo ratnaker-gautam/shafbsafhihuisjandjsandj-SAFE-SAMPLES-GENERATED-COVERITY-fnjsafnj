@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_dca55c70.c: In function ‘main’:
+./samples/SAFE/__tmp_dca55c70.c:163:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  163 |         for (size_t j
+      |         ^~~
+./samples/SAFE/__tmp_dca55c70.c:163:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_dca55c70.c:163:9: error: expected declaration or statement at end of input

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_d5f140e5.c: In function ‘main’:
+./samples/SAFE/__tmp_d5f140e5.c:142:35: error: expected ‘]’ at end of input
+  142 |             int matrix2[rows][cols
+      |                                   ^
+      |                                   ]
+./samples/SAFE/__tmp_d5f140e5.c:142:13: error: expected declaration or statement at end of input
+  142 |             int matrix2[rows][cols
+      |             ^~~
+./samples/SAFE/__tmp_d5f140e5.c:142:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d5f140e5.c:142:13: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b1128f2b.c: In function ‘main’:
+./samples/SAFE/__tmp_b1128f2b.c:136:36: error: expected ‘)’ at end of input
+  136 |         buffer_free(&compressed_buf
+      |                    ~               ^
+      |                                    )
+./samples/SAFE/__tmp_b1128f2b.c:136:9: error: expected declaration or statement at end of input
+  136 |         buffer_free(&compressed_buf
+      |         ^~~~~~~~~~~
+./samples/SAFE/__tmp_b1128f2b.c:136:9: error: expected declaration or statement at end of input

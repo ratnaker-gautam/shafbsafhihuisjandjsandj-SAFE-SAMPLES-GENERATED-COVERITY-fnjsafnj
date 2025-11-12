@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_dc9a3093.c: In function ‘graph_reset_visited’:
+./samples/SAFE/__tmp_dc9a3093.c:186:23: error: expected ‘]’ at end of input
+  186 |         graph->nodes[i
+      |                       ^
+      |                       ]
+./samples/SAFE/__tmp_dc9a3093.c:186:9: error: expected declaration or statement at end of input
+  186 |         graph->nodes[i
+      |         ^~~~~
+./samples/SAFE/__tmp_dc9a3093.c:186:9: error: expected declaration or statement at end of input

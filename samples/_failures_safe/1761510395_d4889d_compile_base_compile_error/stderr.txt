@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_723cf29c.c: In function ‘main’:
+./samples/SAFE/__tmp_723cf29c.c:148:9: error: expected declaration or statement at end of input
+  148 |         } else if (choice == 2) {
+      |         ^
+./samples/SAFE/__tmp_723cf29c.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_723cf29c.c:148:9: error: expected declaration or statement at end of input

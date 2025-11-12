@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_74749e3d.c: In function ‘main’:
+./samples/SAFE/__tmp_74749e3d.c:168:9: error: expected declaration or statement at end of input
+  168 |         if (command == 'q') {
+      |         ^~
+./samples/SAFE/__tmp_74749e3d.c:168:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_74749e3d.c:168:9: error: expected declaration or statement at end of input

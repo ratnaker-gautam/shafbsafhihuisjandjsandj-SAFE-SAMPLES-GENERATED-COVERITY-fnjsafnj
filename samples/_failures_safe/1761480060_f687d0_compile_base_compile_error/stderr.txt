@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e15cc814.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_e15cc814.c:156:5: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  156 |     Token eof_token
+      |     ^~~~~
+./samples/SAFE/__tmp_e15cc814.c:156:5: error: expected declaration or statement at end of input

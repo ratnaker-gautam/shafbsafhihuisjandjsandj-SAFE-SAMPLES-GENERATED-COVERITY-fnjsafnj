@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7d3c805f.c: In function ‘create_rotation_transform’:
+./samples/SAFE/__tmp_7d3c805f.c:141:71: error: expected ‘;’ at end of input
+  141 |     result.rotation.elements[0][2] = t * norm_axis.x * norm_axis.z + s
+      |                                                                       ^
+      |                                                                       ;
+./samples/SAFE/__tmp_7d3c805f.c:141:5: error: expected declaration or statement at end of input
+  141 |     result.rotation.elements[0][2] = t * norm_axis.x * norm_axis.z + s
+      |     ^~~~~~

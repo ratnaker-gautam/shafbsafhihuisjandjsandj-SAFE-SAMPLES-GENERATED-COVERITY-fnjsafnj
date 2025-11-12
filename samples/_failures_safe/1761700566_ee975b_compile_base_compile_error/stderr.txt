@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_406a2d82.c: In function ‘main’:
+./samples/SAFE/__tmp_406a2d82.c:149:57: error: expected ‘)’ at end of input
+  149 |     if (compress_rle(input.data, input.size, &compressed
+      |                     ~                                   ^
+      |                                                         )
+./samples/SAFE/__tmp_406a2d82.c:149:5: error: expected declaration or statement at end of input
+  149 |     if (compress_rle(input.data, input.size, &compressed
+      |     ^~

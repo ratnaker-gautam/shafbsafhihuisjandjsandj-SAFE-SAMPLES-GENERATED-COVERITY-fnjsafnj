@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_bfc80558.c: In function ‘main’:
+./samples/SAFE/__tmp_bfc80558.c:148:13: error: expected expression at end of input
+  148 |             if (user_input[i] != '0' && user_input[i] != '1')
+      |             ^~
+./samples/SAFE/__tmp_bfc80558.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bfc80558.c:148:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_bfc80558.c:148:13: error: expected declaration or statement at end of input

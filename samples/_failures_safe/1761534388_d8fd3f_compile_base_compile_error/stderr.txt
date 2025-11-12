@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_ec923a2b.c: In function ‘main’:
+./samples/SAFE/__tmp_ec923a2b.c:144:17: error: expected declaration or statement at end of input
+  144 |                 case 2: printf("WARNING"); break;
+      |                 ^~~~
+./samples/SAFE/__tmp_ec923a2b.c:144:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ec923a2b.c:144:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ec923a2b.c:144:17: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_671310ce.c:2:2: error: expected ‘;’ before ‘typedef’
+    2 | c
+      |  ^
+      |  ;
+./samples/SAFE/__tmp_671310ce.c: In function ‘calculate_ip_stats’:
+./samples/SAFE/__tmp_671310ce.c:143:16: error: expected ‘;’ at end of input
+  143 |         strncpy
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_671310ce.c:143:9: error: expected declaration or statement at end of input
+  143 |         strncpy
+      |         ^~~~~~~
+./samples/SAFE/__tmp_671310ce.c:143:9: error: expected declaration or statement at end of input

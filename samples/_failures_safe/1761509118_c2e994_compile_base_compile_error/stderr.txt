@@ -1,0 +1,3 @@
+./samples/SAFE/__tmp_fe80b80e.c:160:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  160 | void prim
+      | ^~~~

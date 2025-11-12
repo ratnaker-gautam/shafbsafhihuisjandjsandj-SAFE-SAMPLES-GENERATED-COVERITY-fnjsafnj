@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_7215665f.c: In function ‘main’:
+./samples/SAFE/__tmp_7215665f.c:151:29: error: expected ‘)’ at end of input
+  151 |     print_analysis(&analyzer
+      |                   ~         ^
+      |                             )
+./samples/SAFE/__tmp_7215665f.c:151:5: error: expected declaration or statement at end of input
+  151 |     print_analysis(&analyzer
+      |     ^~~~~~~~~~~~~~

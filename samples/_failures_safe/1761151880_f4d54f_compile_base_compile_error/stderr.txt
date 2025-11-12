@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_9b330ab2.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_9b330ab2.c:169:41: error: expected ‘)’ at end of input
+  169 |         HeapNode current = heap_pop(heap
+      |                                    ~    ^
+      |                                         )
+./samples/SAFE/__tmp_9b330ab2.c:169:9: error: expected declaration or statement at end of input
+  169 |         HeapNode current = heap_pop(heap
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_9b330ab2.c:169:9: error: expected declaration or statement at end of input

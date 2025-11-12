@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_ab93c7ff.c: In function ‘compute_bounds’:
+./samples/SAFE/__tmp_ab93c7ff.c:113:92: error: expected ‘]’ at end of input
+  113 |         if (mesh->vertices[i].x > mesh->bounds.max.x) mesh->bounds.max.x = mesh->vertices[i
+      |                                                                                            ^
+      |                                                                                            ]
+./samples/SAFE/__tmp_ab93c7ff.c:113:76: error: incompatible types when assigning to type ‘double’ from type ‘struct Vector3D’
+  113 |         if (mesh->vertices[i].x > mesh->bounds.max.x) mesh->bounds.max.x = mesh->vertices[i
+      |                                                                            ^~~~
+./samples/SAFE/__tmp_ab93c7ff.c:113:9: error: expected declaration or statement at end of input
+  113 |         if (mesh->vertices[i].x > mesh->bounds.max.x) mesh->bounds.max.x = mesh->vertices[i
+      |         ^~
+./samples/SAFE/__tmp_ab93c7ff.c:113:9: error: expected declaration or statement at end of input

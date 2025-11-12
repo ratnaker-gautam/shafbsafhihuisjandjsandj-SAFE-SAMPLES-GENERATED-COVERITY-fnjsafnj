@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_18dc3705.c: In function ‘main’:
+./samples/SAFE/__tmp_18dc3705.c:159:9: error: expected expression at end of input
+  159 |         case 2: comp_type =
+      |         ^~~~
+./samples/SAFE/__tmp_18dc3705.c:159:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_18dc3705.c:159:9: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_b7489f40.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_b7489f40.c:184:11: error: expected ‘;’ at end of input
+  184 |         sm
+      |           ^
+      |           ;
+./samples/SAFE/__tmp_b7489f40.c:184:9: error: expected declaration or statement at end of input
+  184 |         sm
+      |         ^~
+./samples/SAFE/__tmp_b7489f40.c:184:9: error: expected declaration or statement at end of input

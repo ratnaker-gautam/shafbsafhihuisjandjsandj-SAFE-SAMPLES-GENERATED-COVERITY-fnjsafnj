@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_20dcde03.c: In function ‘main’:
+./samples/SAFE/__tmp_20dcde03.c:157:13: error: expected declaration or statement at end of input
+  157 |             printf("Invalid input format. Please enter: source destination weight\n");
+      |             ^~~~~~
+./samples/SAFE/__tmp_20dcde03.c:157:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_20dcde03.c:157:13: error: expected declaration or statement at end of input

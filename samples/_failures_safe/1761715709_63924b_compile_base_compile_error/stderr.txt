@@ -1,0 +1,14 @@
+./samples/SAFE/__tmp_869e7a8f.c: In function ‘main’:
+./samples/SAFE/__tmp_869e7a8f.c:137:9: error: expected expression at end of input
+  137 |         if (!get_next_token(input, len, &
+      |         ^~
+./samples/SAFE/__tmp_869e7a8f.c:137:14: error: too few arguments to function ‘get_next_token’
+  137 |         if (!get_next_token(input, len, &
+      |              ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_869e7a8f.c:84:5: note: declared here
+   84 | int get_next_token(const char *input, int len, int *pos, int *line, int *column, struct Token *token) {
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_869e7a8f.c:137:9: error: expected declaration or statement at end of input
+  137 |         if (!get_next_token(input, len, &
+      |         ^~
+./samples/SAFE/__tmp_869e7a8f.c:137:9: error: expected declaration or statement at end of input

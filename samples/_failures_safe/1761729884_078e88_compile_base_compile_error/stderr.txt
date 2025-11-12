@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_745273a6.c: In function ‘main’:
+./samples/SAFE/__tmp_745273a6.c:147:51: error: expected ‘)’ at end of input
+  147 |     for (size_t i = 0; i < strlen(input_buffer); i
+      |         ~                                         ^
+      |                                                   )
+./samples/SAFE/__tmp_745273a6.c:147:5: error: expected declaration or statement at end of input
+  147 |     for (size_t i = 0; i < strlen(input_buffer); i
+      |     ^~~

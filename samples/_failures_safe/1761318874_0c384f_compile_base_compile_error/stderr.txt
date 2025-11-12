@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_a98b5768.c: In function ‘tokenize_operator’:
+./samples/SAFE/__tmp_a98b5768.c:161:33: error: expected ‘;’ at end of input
+  161 |     token->type = TOKEN_OPERATOR
+      |                                 ^
+      |                                 ;
+./samples/SAFE/__tmp_a98b5768.c:161:5: error: expected declaration or statement at end of input
+  161 |     token->type = TOKEN_OPERATOR
+      |     ^~~~~

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_0b1948f4.c: In function ‘main’:
+./samples/SAFE/__tmp_0b1948f4.c:147:25: error: expected ‘)’ at end of input
+  147 |     add_edge(&g, 4, 5, 3
+      |             ~           ^
+      |                         )
+./samples/SAFE/__tmp_0b1948f4.c:147:5: error: expected declaration or statement at end of input
+  147 |     add_edge(&g, 4, 5, 3
+      |     ^~~~~~~~

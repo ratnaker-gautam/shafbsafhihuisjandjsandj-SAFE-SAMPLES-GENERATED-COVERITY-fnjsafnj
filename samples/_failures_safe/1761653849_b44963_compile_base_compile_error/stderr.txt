@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_626d0cf2.c: In function ‘display_compression_info’:
+./samples/SAFE/__tmp_626d0cf2.c:158:9: error: expected identifier at end of input
+  158 |         float ratio = (float)ctx->header.compressed_size / ctx->
+      |         ^~~~~
+./samples/SAFE/__tmp_626d0cf2.c:158:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_626d0cf2.c:158:9: error: expected declaration or statement at end of input

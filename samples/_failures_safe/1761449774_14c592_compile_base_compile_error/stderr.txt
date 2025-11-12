@@ -1,0 +1,11 @@
+./samples/SAFE/__tmp_685f7557.c: In function ‘main’:
+./samples/SAFE/__tmp_685f7557.c:155:68: error: expected ‘)’ at end of input
+  155 |         memcmp(decompressed.data, input_data.data, input_data.size)
+      |                                                                    ^
+      |                                                                    )
+./samples/SAFE/__tmp_685f7557.c:154:8: note: to match this ‘(’
+  154 |     if (decompressed.size == input_data.size &&
+      |        ^
+./samples/SAFE/__tmp_685f7557.c:155:9: error: expected declaration or statement at end of input
+  155 |         memcmp(decompressed.data, input_data.data, input_data.size)
+      |         ^~~~~~

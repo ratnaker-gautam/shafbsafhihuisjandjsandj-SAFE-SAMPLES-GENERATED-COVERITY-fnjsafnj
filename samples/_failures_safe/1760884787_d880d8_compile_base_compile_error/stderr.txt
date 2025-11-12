@@ -1,0 +1,30 @@
+./samples/SAFE/__tmp_f668f15b.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_f668f15b.c:59:26: error: ‘INT_MAX’ undeclared (first use in this function)
+   59 |             if (value > (INT_MAX - (p->input[p->pos] - '0')) / 10) {
+      |                          ^~~~~~~
+./samples/SAFE/__tmp_f668f15b.c:6:1: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+    5 | #include <ctype.h>
+  +++ |+#include <limits.h>
+    6 | 
+./samples/SAFE/__tmp_f668f15b.c:59:26: note: each undeclared identifier is reported only once for each function it appears in
+   59 |             if (value > (INT_MAX - (p->input[p->pos] - '0')) / 10) {
+      |                          ^~~~~~~
+./samples/SAFE/__tmp_f668f15b.c: In function ‘parse_term’:
+./samples/SAFE/__tmp_f668f15b.c:114:53: error: ‘INT_MAX’ undeclared (first use in this function)
+  114 |             if (result > 0 && right > 0 && result > INT_MAX / right) {
+      |                                                     ^~~~~~~
+./samples/SAFE/__tmp_f668f15b.c:114:53: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+./samples/SAFE/__tmp_f668f15b.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_f668f15b.c:141:39: error: ‘INT_MAX’ undeclared (first use in this function)
+  141 |             if (result > 0 && right > INT_MAX - result) {
+      |                                       ^~~~~~~
+./samples/SAFE/__tmp_f668f15b.c:141:39: note: ‘INT_MAX’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+./samples/SAFE/__tmp_f668f15b.c:144:39: error: ‘INT_MIN’ undeclared (first use in this function)
+  144 |             if (result < 0 && right < INT_MIN - result) {
+      |                                       ^~~~~~~
+./samples/SAFE/__tmp_f668f15b.c:144:39: note: ‘INT_MIN’ is defined in header ‘<limits.h>’; did you forget to ‘#include <limits.h>’?
+./samples/SAFE/__tmp_f668f15b.c: In function ‘evaluate_expression’:
+./samples/SAFE/__tmp_f668f15b.c:163:12: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  163 |     struct Parser parser
+      |            ^~~~~~
+./samples/SAFE/__tmp_f668f15b.c:163:12: error: expected declaration or statement at end of input

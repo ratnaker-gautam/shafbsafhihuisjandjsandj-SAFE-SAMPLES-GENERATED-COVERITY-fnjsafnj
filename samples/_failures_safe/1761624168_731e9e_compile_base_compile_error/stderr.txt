@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_5cf3bf4f.c: In function ‘main’:
+./samples/SAFE/__tmp_5cf3bf4f.c:148:5: error: expected declaration or statement at end of input
+  148 |     printf("\nResult matrix:\n");
+      |     ^~~~~~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_528cee97.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_528cee97.c:134:60: error: expected ‘)’ at end of input
+  134 |             printf("[%s] %s: %s\n", entry->timestamp, entry
+      |                   ~                                        ^
+      |                                                            )
+./samples/SAFE/__tmp_528cee97.c:134:13: error: expected declaration or statement at end of input
+  134 |             printf("[%s] %s: %s\n", entry->timestamp, entry
+      |             ^~~~~~
+./samples/SAFE/__tmp_528cee97.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_528cee97.c:134:13: error: expected declaration or statement at end of input

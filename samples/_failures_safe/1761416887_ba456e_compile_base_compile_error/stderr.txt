@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_c7502a6b.c: In function ‘handle_error’:
+./samples/SAFE/__tmp_c7502a6b.c:167:5: error: expected declaration or statement at end of input
+  167 |     if (ctx == NULL) return STATE_ERROR;
+      |     ^~

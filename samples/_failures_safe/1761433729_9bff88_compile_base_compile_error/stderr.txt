@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_d333c243.c: In function ‘main’:
+./samples/SAFE/__tmp_d333c243.c:180:9: error: expected declaration or statement at end of input
+  180 |         if (sscanf(input, "%d", &choice) != 1) {
+      |         ^~
+./samples/SAFE/__tmp_d333c243.c:180:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_d333c243.c:180:9: error: expected declaration or statement at end of input

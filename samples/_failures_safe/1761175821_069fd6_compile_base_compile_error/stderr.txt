@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_8d872512.c: In function ‘mesh_init’:
+./samples/SAFE/__tmp_8d872512.c:135:5: error: expected expression at end of input
+  135 |     if (vertex_count == 0 || vertex_count > 1000000)
+      |     ^~
+./samples/SAFE/__tmp_8d872512.c:135:5: error: expected declaration or statement at end of input

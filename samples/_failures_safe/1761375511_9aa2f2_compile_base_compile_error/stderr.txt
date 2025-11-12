@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ca28c984.c: In function ‘process_compression’:
+./samples/SAFE/__tmp_ca28c984.c:146:9: error: expected expression at end of input
+  146 |         double ratio = (1.0 -
+      |         ^~~~~~
+./samples/SAFE/__tmp_ca28c984.c:146:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ca28c984.c:146:9: error: expected declaration or statement at end of input

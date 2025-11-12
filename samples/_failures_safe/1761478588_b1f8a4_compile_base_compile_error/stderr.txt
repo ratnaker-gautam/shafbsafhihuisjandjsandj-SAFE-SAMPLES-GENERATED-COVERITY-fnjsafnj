@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_4eb7394f.c: In function ‘main’:
+./samples/SAFE/__tmp_4eb7394f.c:139:73: error: expected ‘)’ at end of input
+  139 |                    (double)result.compressed_size / result.original_size
+      |                                                                         ^
+      |                                                                         )
+./samples/SAFE/__tmp_4eb7394f.c:135:19: note: to match this ‘(’
+  135 |             printf("%s compression: %zu -> %zu bytes (ratio: %.2f)\n",
+      |                   ^
+./samples/SAFE/__tmp_4eb7394f.c:139:20: error: expected declaration or statement at end of input
+  139 |                    (double)result.compressed_size / result.original_size
+      |                    ^
+./samples/SAFE/__tmp_4eb7394f.c:139:20: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4eb7394f.c:139:20: error: expected declaration or statement at end of input

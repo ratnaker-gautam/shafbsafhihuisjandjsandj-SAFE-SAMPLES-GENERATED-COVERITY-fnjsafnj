@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_5e21adfc.c: In function ‘main’:
+./samples/SAFE/__tmp_5e21adfc.c:151:9: error: expected expression at end of input
+  151 |         apply_operation(rows, cols, matrix, operations[choice -
+      |         ^~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_5e21adfc.c:151:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_5e21adfc.c:151:9: error: expected declaration or statement at end of input

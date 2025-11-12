@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_83f64f35.c: In function ‘event_to_string’:
+./samples/SAFE/__tmp_83f64f35.c:164:9: error: expected declaration or statement at end of input
+  164 |         case EVENT_RESET: return "RESET";
+      |         ^~~~
+./samples/SAFE/__tmp_83f64f35.c:164:9: error: expected declaration or statement at end of input

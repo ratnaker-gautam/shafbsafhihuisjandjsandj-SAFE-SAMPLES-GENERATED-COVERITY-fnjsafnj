@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_b783453c.c: In function ‘freeGraph’:
+./samples/SAFE/__tmp_b783453c.c:188:5: error: expected expression at end of input
+  188 |     for (int i =
+      |     ^~~
+./samples/SAFE/__tmp_b783453c.c:188:5: error: expected declaration or statement at end of input

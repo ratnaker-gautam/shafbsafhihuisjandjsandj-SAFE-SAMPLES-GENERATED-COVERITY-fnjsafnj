@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e0f6be93.c: In function ‘main’:
+./samples/SAFE/__tmp_e0f6be93.c:175:9: error: expected declaration or statement at end of input
+  175 |         printf("Invalid edge count\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_e0f6be93.c:175:9: error: expected declaration or statement at end of input

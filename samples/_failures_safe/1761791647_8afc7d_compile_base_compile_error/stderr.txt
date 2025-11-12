@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2d2d7f9d.c: In function ‘main’:
+./samples/SAFE/__tmp_2d2d7f9d.c:200:5: error: expected expression at end of input
+  200 |     int token_count =
+      |     ^~~
+./samples/SAFE/__tmp_2d2d7f9d.c:200:5: error: expected declaration or statement at end of input

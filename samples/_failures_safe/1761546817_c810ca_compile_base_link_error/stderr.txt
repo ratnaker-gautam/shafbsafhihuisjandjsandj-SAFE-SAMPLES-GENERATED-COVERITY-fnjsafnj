@@ -1,0 +1,4 @@
+/usr/bin/ld: /tmp/ccJ69Kzy.o: in function `main':
+__tmp_f8942a51.c:(.text.startup+0xda): undefined reference to `sin'
+/usr/bin/ld: __tmp_f8942a51.c:(.text.startup+0x212): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

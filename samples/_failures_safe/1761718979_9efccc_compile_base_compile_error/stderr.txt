@@ -1,0 +1,22 @@
+./samples/SAFE/__tmp_7cefaa62.c: In function ‘main’:
+./samples/SAFE/__tmp_7cefaa62.c:130:37: error: ‘cols’ undeclared (first use in this function); did you mean ‘cols2’?
+  130 |                 print_matrix(rows1, cols
+      |                                     ^~~~
+      |                                     cols2
+./samples/SAFE/__tmp_7cefaa62.c:130:37: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_7cefaa62.c:130:41: error: expected ‘)’ at end of input
+  130 |                 print_matrix(rows1, cols
+      |                             ~           ^
+      |                                         )
+./samples/SAFE/__tmp_7cefaa62.c:130:17: error: too few arguments to function ‘print_matrix’
+  130 |                 print_matrix(rows1, cols
+      |                 ^~~~~~~~~~~~
+./samples/SAFE/__tmp_7cefaa62.c:33:6: note: declared here
+   33 | void print_matrix(int rows, int cols, int matrix[MAX_DIM][MAX_DIM]) {
+      |      ^~~~~~~~~~~~
+./samples/SAFE/__tmp_7cefaa62.c:130:17: error: expected declaration or statement at end of input
+  130 |                 print_matrix(rows1, cols
+      |                 ^~~~~~~~~~~~
+./samples/SAFE/__tmp_7cefaa62.c:130:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7cefaa62.c:130:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_7cefaa62.c:130:17: error: expected declaration or statement at end of input

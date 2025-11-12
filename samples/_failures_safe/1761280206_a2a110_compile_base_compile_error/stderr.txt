@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_0c353447.c: In function ‘state_machine_step’:
+./samples/SAFE/__tmp_0c353447.c:148:14: error: ‘DISPLAY’ undeclared (first use in this function)
+  148 |         case DISPLAY
+      |              ^~~~~~~
+./samples/SAFE/__tmp_0c353447.c:148:14: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_0c353447.c:148:9: error: expected ‘:’ or ‘...’ at end of input
+  148 |         case DISPLAY
+      |         ^~~~
+./samples/SAFE/__tmp_0c353447.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_0c353447.c:148:9: error: expected declaration or statement at end of input

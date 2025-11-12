@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_6d6c7da3.c: In function ‘main’:
+./samples/SAFE/__tmp_6d6c7da3.c:142:5: error: expected expression at end of input
+  142 |     GraphOperation operations[] = {dijkstra_shortest_path,
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_6d6c7da3.c:142:5: error: expected declaration or statement at end of input

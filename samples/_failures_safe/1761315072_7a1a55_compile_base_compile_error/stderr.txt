@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_78e5d44b.c: In function ‘run_state_machine’:
+./samples/SAFE/__tmp_78e5d44b.c:187:57: error: expected ‘)’ at end of input
+  187 |                 next_state = handle_processing(sm, event
+      |                                               ~         ^
+      |                                                         )
+./samples/SAFE/__tmp_78e5d44b.c:187:17: error: expected declaration or statement at end of input
+  187 |                 next_state = handle_processing(sm, event
+      |                 ^~~~~~~~~~
+./samples/SAFE/__tmp_78e5d44b.c:187:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_78e5d44b.c:187:17: error: expected declaration or statement at end of input

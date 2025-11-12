@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_e12c1ed5.c: In function ‘parser_parse_expression’:
+./samples/SAFE/__tmp_e12c1ed5.c:165:23: error: ‘struct Parser’ has no member named ‘current’
+  165 |             if (parser->current
+      |                       ^~
+./samples/SAFE/__tmp_e12c1ed5.c:165:32: error: expected ‘)’ at end of input
+  165 |             if (parser->current
+      |                ~               ^
+      |                                )
+./samples/SAFE/__tmp_e12c1ed5.c:165:13: error: expected declaration or statement at end of input
+  165 |             if (parser->current
+      |             ^~
+./samples/SAFE/__tmp_e12c1ed5.c:165:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_e12c1ed5.c:165:13: error: expected declaration or statement at end of input

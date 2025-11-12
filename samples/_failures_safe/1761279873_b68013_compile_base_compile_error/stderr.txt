@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_9386c712.c: In function ‘read_matrix_interactive’:
+./samples/SAFE/__tmp_9386c712.c:153:5: error: expected expression at end of input
+  153 |     for (
+      |     ^~~
+./samples/SAFE/__tmp_9386c712.c:153:5: error: expected declaration or statement at end of input

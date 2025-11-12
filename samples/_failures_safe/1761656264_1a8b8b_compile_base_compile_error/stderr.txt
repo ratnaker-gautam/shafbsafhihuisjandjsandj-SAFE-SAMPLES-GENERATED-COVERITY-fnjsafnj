@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_13c13899.c: In function ‘main’:
+./samples/SAFE/__tmp_13c13899.c:144:5: error: expected declaration or statement at end of input
+  144 |     if (compressed_size == 0) {
+      |     ^~
+./samples/SAFE/__tmp_13c13899.c:144:5: error: expected declaration or statement at end of input

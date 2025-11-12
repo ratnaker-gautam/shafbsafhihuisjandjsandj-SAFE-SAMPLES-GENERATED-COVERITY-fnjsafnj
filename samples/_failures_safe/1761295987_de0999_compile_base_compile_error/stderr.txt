@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_253818e3.c: In function ‘main’:
+./samples/SAFE/__tmp_253818e3.c:145:5: error: expected declaration or statement at end of input
+  145 |     int entry_count = read_log_file(filename, entries, MAX_ENTRIES);
+      |     ^~~

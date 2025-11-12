@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8fa16ab7.c: In function ‘graph_bfs’:
+./samples/SAFE/__tmp_8fa16ab7.c:168:16: error: expected expression at end of input
+  168 |         struct GraphEdge *edge =
+      |                ^~~~~~~~~
+./samples/SAFE/__tmp_8fa16ab7.c:168:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8fa16ab7.c:168:16: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_548ed3d1.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_548ed3d1.c:147:13: error: expected expression at end of input
+  147 |             success =
+      |             ^~~~~~~
+./samples/SAFE/__tmp_548ed3d1.c:147:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_548ed3d1.c:147:13: error: expected declaration or statement at end of input

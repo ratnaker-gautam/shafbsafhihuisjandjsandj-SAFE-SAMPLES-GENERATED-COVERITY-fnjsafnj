@@ -1,0 +1,8 @@
+
+samples/SAFE/__tmp_784813f7.c:77:36: runtime error: signed integer overflow: 46341 * 46341 cannot be represented in type 'int'
+    #0 0x6198b5b20eae in simulate_machine samples/SAFE/__tmp_784813f7.c:77
+    #1 0x6198b5b21602 in main samples/SAFE/__tmp_784813f7.c:129
+    #2 0x734f3442a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x734f3442a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #4 0x6198b5b20304 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_784813f7.c.san+0x3304) (BuildId: 4b1acd714f1145929198cdd80fc8fbe3fefbbe47)
+

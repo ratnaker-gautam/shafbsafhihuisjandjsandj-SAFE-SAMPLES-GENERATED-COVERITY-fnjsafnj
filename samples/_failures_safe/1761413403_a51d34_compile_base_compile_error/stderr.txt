@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_fa5b7ead.c: In function ‘main’:
+./samples/SAFE/__tmp_fa5b7ead.c:141:13: error: ‘error_’ undeclared (first use in this function); did you mean ‘perror’?
+  141 |             error_
+      |             ^~~~~~
+      |             perror
+./samples/SAFE/__tmp_fa5b7ead.c:141:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_fa5b7ead.c:141:19: error: expected ‘;’ at end of input
+  141 |             error_
+      |                   ^
+      |                   ;
+./samples/SAFE/__tmp_fa5b7ead.c:141:13: error: expected declaration or statement at end of input
+  141 |             error_
+      |             ^~~~~~
+./samples/SAFE/__tmp_fa5b7ead.c:141:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fa5b7ead.c:141:13: error: expected declaration or statement at end of input

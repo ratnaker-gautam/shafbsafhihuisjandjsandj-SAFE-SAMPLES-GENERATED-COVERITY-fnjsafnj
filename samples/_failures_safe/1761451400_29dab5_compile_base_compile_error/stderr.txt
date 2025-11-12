@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a0b87db1.c: In function ‘calculate_stats’:
+./samples/SAFE/__tmp_a0b87db1.c:123:9: error: expected declaration or statement at end of input
+  123 |         default: strncpy(analyzer->stats.most_frequent_level, "UNKNOWN", sizeof(analyzer->stats.most_frequent_level) - 1);
+      |         ^~~~~~~
+./samples/SAFE/__tmp_a0b87db1.c:123:9: error: expected declaration or statement at end of input

@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_ecd7c61d.c: In function ‘pointcloud_add_point’:
+./samples/SAFE/__tmp_ecd7c61d.c:139:9: error: expected declaration or statement at end of input
+  139 |         if (new_points == NULL) {
+      |         ^~
+./samples/SAFE/__tmp_ecd7c61d.c:139:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ecd7c61d.c:139:9: error: expected declaration or statement at end of input

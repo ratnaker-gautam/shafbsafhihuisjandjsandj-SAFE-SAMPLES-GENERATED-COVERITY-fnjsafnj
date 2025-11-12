@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_663735a0.c: In function ‘matrix_determinant’:
+./samples/SAFE/__tmp_663735a0.c:133:15: error: expected ‘;’ at end of input
+  133 |     return 0.0
+      |               ^
+      |               ;
+./samples/SAFE/__tmp_663735a0.c:133:5: error: expected declaration or statement at end of input
+  133 |     return 0.0
+      |     ^~~~~~

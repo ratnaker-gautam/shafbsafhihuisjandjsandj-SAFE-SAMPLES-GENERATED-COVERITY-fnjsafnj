@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_e7cba964.c: In function ‘main’:
+./samples/SAFE/__tmp_e7cba964.c:159:52: error: ‘LOG’ undeclared (first use in this function)
+  159 |     for (enum LogLevel level = LOG_DEBUG; level <= LOG
+      |                                                    ^~~
+./samples/SAFE/__tmp_e7cba964.c:159:52: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e7cba964.c:159:55: error: expected ‘;’ at end of input
+  159 |     for (enum LogLevel level = LOG_DEBUG; level <= LOG
+      |                                                       ^
+      |                                                       ;
+./samples/SAFE/__tmp_e7cba964.c:159:15: error: expected declaration or statement at end of input
+  159 |     for (enum LogLevel level = LOG_DEBUG; level <= LOG
+      |               ^~~~~~~~

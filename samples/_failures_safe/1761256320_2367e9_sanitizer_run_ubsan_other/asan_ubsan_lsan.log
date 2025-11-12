@@ -1,0 +1,7 @@
+
+samples/SAFE/__tmp_edb3010d.c:67:34: runtime error: index 101 out of bounds for type 'char [101]'
+    #0 0x564057096927 in main samples/SAFE/__tmp_edb3010d.c:67
+    #1 0x7cbb2ae2a1c9  (/lib/x86_64-linux-gnu/libc.so.6+0x2a1c9) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #2 0x7cbb2ae2a28a in __libc_start_main (/lib/x86_64-linux-gnu/libc.so.6+0x2a28a) (BuildId: 274eec488d230825a136fa9c4d85370fed7a0a5e)
+    #3 0x564057096304 in _start (/home/r84388172/Generating SAFE samples/samples/SAFE/__tmp_edb3010d.c.san+0x3304) (BuildId: 2ab3c9bd3e2f89514a61193d604dd56d19a42d4b)
+

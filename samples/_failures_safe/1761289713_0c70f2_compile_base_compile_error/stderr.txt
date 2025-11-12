@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_ae8dfc2e.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_ae8dfc2e.c:170:13: error: ‘tokenize_’ undeclared (first use in this function); did you mean ‘tokenize’?
+  170 |             tokenize_
+      |             ^~~~~~~~~
+      |             tokenize
+./samples/SAFE/__tmp_ae8dfc2e.c:170:13: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ae8dfc2e.c:170:22: error: expected ‘;’ at end of input
+  170 |             tokenize_
+      |                      ^
+      |                      ;
+./samples/SAFE/__tmp_ae8dfc2e.c:170:13: error: expected declaration or statement at end of input
+  170 |             tokenize_
+      |             ^~~~~~~~~
+./samples/SAFE/__tmp_ae8dfc2e.c:170:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_ae8dfc2e.c:170:13: error: expected declaration or statement at end of input

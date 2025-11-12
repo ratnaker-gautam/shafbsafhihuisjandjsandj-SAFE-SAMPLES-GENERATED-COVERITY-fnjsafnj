@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_7fd48bbd.c: In function ‘main’:
+./samples/SAFE/__tmp_7fd48bbd.c:141:9: error: expected expression at end of input
+  141 |         'a', 'm', ' ', 'f', 'o', 'r', ' ',
+      |         ^~~
+./samples/SAFE/__tmp_7fd48bbd.c:141:9: error: expected declaration or statement at end of input

@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_8716ac09.c: In function ‘main’:
+./samples/SAFE/__tmp_8716ac09.c:156:9: error: ‘EVENT_WRITE_COMP’ undeclared (first use in this function); did you mean ‘EVENT_WRITE_COMPLETE’?
+  156 |         EVENT_WRITE_COMP
+      |         ^~~~~~~~~~~~~~~~
+      |         EVENT_WRITE_COMPLETE
+./samples/SAFE/__tmp_8716ac09.c:156:9: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_8716ac09.c:157: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_8716ac09.c:143:27: note: to match this ‘{’
+  143 |     enum Event events[] = {
+      |                           ^
+./samples/SAFE/__tmp_8716ac09.c:156:9: error: expected declaration or statement at end of input
+  156 |         EVENT_WRITE_COMP
+      |         ^~~~~~~~~~~~~~~~

@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_2f00d6b4.c: In function ‘main’:
+./samples/SAFE/__tmp_2f00d6b4.c:156:105: error: expected ‘)’ at end of input
+  156 |             printf("Invalid transition from state %s with input '%c'\n", get_current_state_name(sm), cmd
+      |                   ~                                                                                     ^
+      |                                                                                                         )
+./samples/SAFE/__tmp_2f00d6b4.c:156:13: error: expected declaration or statement at end of input
+  156 |             printf("Invalid transition from state %s with input '%c'\n", get_current_state_name(sm), cmd
+      |             ^~~~~~
+./samples/SAFE/__tmp_2f00d6b4.c:156:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_2f00d6b4.c:156:13: error: expected declaration or statement at end of input

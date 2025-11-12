@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a047a774.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_a047a774.c:182:9: error: expected declaration or statement at end of input
+  182 |         if (dist[i] == INT_MAX) {
+      |         ^~
+./samples/SAFE/__tmp_a047a774.c:182:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a047a774.c:182:9: error: expected declaration or statement at end of input

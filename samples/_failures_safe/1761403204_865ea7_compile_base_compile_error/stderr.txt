@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_b548e36d.c: In function ‘main’:
+./samples/SAFE/__tmp_b548e36d.c:141:21: error: ‘MAX_TEXT_L’ undeclared (first use in this function); did you mean ‘MAX_TEXT_LEN’?
+  141 |     char input_text[MAX_TEXT_L
+      |                     ^~~~~~~~~~
+      |                     MAX_TEXT_LEN
+./samples/SAFE/__tmp_b548e36d.c:141:21: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_b548e36d.c:141:31: error: expected ‘]’ at end of input
+  141 |     char input_text[MAX_TEXT_L
+      |                               ^
+      |                               ]
+./samples/SAFE/__tmp_b548e36d.c:141:5: error: expected declaration or statement at end of input
+  141 |     char input_text[MAX_TEXT_L
+      |     ^~~~

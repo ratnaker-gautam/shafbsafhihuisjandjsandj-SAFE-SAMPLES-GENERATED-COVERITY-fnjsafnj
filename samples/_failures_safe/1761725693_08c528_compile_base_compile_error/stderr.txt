@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_68a20eff.c: In function ‘main’:
+./samples/SAFE/__tmp_68a20eff.c:149:17: error: expected declaration or statement at end of input
+  149 |                 if (add_matrices(&mat1, &mat2, &result)) {
+      |                 ^~
+./samples/SAFE/__tmp_68a20eff.c:149:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_68a20eff.c:149:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_68a20eff.c:149:17: error: expected declaration or statement at end of input

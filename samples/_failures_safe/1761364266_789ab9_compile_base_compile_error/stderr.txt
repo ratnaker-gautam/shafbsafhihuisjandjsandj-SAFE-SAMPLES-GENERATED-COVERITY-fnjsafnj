@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2b0181b5.c: In function ‘peek_token’:
+./samples/SAFE/__tmp_2b0181b5.c:162:5: error: expected expression at end of input
+  162 |     if (parser == NULL || parser->tokens ==
+      |     ^~
+./samples/SAFE/__tmp_2b0181b5.c:162:5: error: expected declaration or statement at end of input

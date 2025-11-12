@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_583fc669.c: In function ‘process_log_file’:
+./samples/SAFE/__tmp_583fc669.c:142:17: error: ‘update’ undeclared (first use in this function)
+  142 |                 update
+      |                 ^~~~~~
+./samples/SAFE/__tmp_583fc669.c:142:17: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_583fc669.c:142:23: error: expected ‘;’ at end of input
+  142 |                 update
+      |                       ^
+      |                       ;
+./samples/SAFE/__tmp_583fc669.c:142:17: error: expected declaration or statement at end of input
+  142 |                 update
+      |                 ^~~~~~
+./samples/SAFE/__tmp_583fc669.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_583fc669.c:142:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_583fc669.c:142:17: error: expected declaration or statement at end of input

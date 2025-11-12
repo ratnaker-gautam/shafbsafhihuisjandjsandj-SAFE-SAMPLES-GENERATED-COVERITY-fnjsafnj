@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_fff9b33d.c: In function ‘display_sorted_logs’:
+./samples/SAFE/__tmp_fff9b33d.c:136:56: error: expected ‘)’ at end of input
+  136 |     qsort(sorted_entries, count, sizeof(struct LogEntry
+      |                                        ~               ^
+      |                                                        )
+./samples/SAFE/__tmp_fff9b33d.c:136:5: error: too few arguments to function ‘qsort’
+  136 |     qsort(sorted_entries, count, sizeof(struct LogEntry
+      |     ^~~~~
+In file included from ./samples/SAFE/__tmp_fff9b33d.c:3:
+/usr/include/stdlib.h:970:13: note: declared here
+  970 | extern void qsort (void *__base, size_t __nmemb, size_t __size,
+      |             ^~~~~
+./samples/SAFE/__tmp_fff9b33d.c:136:48: error: expected declaration or statement at end of input
+  136 |     qsort(sorted_entries, count, sizeof(struct LogEntry
+      |                                                ^~~~~~~~

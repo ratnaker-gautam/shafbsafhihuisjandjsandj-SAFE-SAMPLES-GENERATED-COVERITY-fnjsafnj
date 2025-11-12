@@ -1,0 +1,12 @@
+./samples/SAFE/__tmp_1fa48ee4.c: In function ‘main’:
+./samples/SAFE/__tmp_1fa48ee4.c:134:59: error: ‘sample’ undeclared (first use in this function)
+  134 |     if (!add_compression_block(&ctx, sample_data1, sizeof(sample
+      |                                                           ^~~~~~
+./samples/SAFE/__tmp_1fa48ee4.c:134:59: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_1fa48ee4.c:134:65: error: expected ‘)’ at end of input
+  134 |     if (!add_compression_block(&ctx, sample_data1, sizeof(sample
+      |                                                          ~      ^
+      |                                                                 )
+./samples/SAFE/__tmp_1fa48ee4.c:134:5: error: expected declaration or statement at end of input
+  134 |     if (!add_compression_block(&ctx, sample_data1, sizeof(sample
+      |     ^~

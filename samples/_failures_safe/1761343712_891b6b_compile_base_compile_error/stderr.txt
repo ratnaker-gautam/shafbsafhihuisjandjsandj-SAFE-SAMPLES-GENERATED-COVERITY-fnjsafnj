@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_625ef9aa.c: In function ‘get_user_event’:
+./samples/SAFE/__tmp_625ef9aa.c:165:5: error: expected declaration or statement at end of input
+  165 |     printf("Unknown event.\n");
+      |     ^~~~~~

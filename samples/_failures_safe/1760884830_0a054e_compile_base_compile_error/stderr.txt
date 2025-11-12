@@ -1,0 +1,16 @@
+./samples/SAFE/__tmp_98f9765a.c: In function ‘read_matrix’:
+./samples/SAFE/__tmp_98f9765a.c:115:34: error: expected ‘)’ at end of input
+  115 |             set_element(mat, i, j
+      |                        ~         ^
+      |                                  )
+./samples/SAFE/__tmp_98f9765a.c:115:13: error: too few arguments to function ‘set_element’
+  115 |             set_element(mat, i, j
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_98f9765a.c:41:5: note: declared here
+   41 | int set_element(struct Matrix *mat, size_t row, size_t col, double value) {
+      |     ^~~~~~~~~~~
+./samples/SAFE/__tmp_98f9765a.c:115:13: error: expected declaration or statement at end of input
+  115 |             set_element(mat, i, j
+      |             ^~~~~~~~~~~
+./samples/SAFE/__tmp_98f9765a.c:115:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_98f9765a.c:115:13: error: expected declaration or statement at end of input

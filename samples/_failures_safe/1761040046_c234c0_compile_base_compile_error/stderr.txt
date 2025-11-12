@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_a61dc19c.c: In function ‘tokenize’:
+./samples/SAFE/__tmp_a61dc19c.c:148:9: error: expected expression at end of input
+  148 |         if (isalpha(lexer->input[lexer->position]) || lexer->input[lexer->position] == '_')
+      |         ^~
+./samples/SAFE/__tmp_a61dc19c.c:148:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_a61dc19c.c:148:9: error: expected declaration or statement at end of input

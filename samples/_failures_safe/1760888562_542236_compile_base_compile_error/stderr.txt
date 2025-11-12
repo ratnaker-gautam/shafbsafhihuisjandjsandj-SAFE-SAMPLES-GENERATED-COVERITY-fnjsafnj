@@ -1,0 +1,1 @@
+./samples/SAFE/__tmp_8433934e.c:147: error: expected ‘;’, ‘,’ or ‘)’ at end of input

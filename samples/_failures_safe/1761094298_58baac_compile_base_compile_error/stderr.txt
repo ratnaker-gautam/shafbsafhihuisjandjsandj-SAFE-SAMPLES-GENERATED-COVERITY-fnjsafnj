@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_975c61c7.c: In function ‘calculate_stats’:
+./samples/SAFE/__tmp_975c61c7.c:133:14: error: expected ‘)’ at end of input
+  133 |         if (i
+      |            ~ ^
+      |              )
+./samples/SAFE/__tmp_975c61c7.c:133:9: error: expected declaration or statement at end of input
+  133 |         if (i
+      |         ^~
+./samples/SAFE/__tmp_975c61c7.c:133:9: error: expected declaration or statement at end of input

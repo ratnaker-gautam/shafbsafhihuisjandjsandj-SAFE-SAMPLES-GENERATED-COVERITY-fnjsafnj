@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f1fda125.c: In function ‘handle_event’:
+./samples/SAFE/__tmp_f1fda125.c:142:5: error: expected declaration or statement at end of input
+  142 |     if (sm == NULL || tt == NULL) return 0;
+      |     ^~

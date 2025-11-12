@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_8eaab68c.c: In function ‘print_token’:
+./samples/SAFE/__tmp_8eaab68c.c:163:5: error: expected declaration or statement at end of input
+  163 |     };
+      |     ^

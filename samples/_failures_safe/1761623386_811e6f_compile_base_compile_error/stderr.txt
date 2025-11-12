@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_e83ca39c.c: In function ‘main’:
+./samples/SAFE/__tmp_e83ca39c.c:147:29: error: ‘input’ undeclared (first use in this function); did you mean ‘int’?
+  147 |     process_text(&analyzer, input
+      |                             ^~~~~
+      |                             int
+./samples/SAFE/__tmp_e83ca39c.c:147:29: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_e83ca39c.c:147:34: error: expected ‘)’ at end of input
+  147 |     process_text(&analyzer, input
+      |                 ~                ^
+      |                                  )
+./samples/SAFE/__tmp_e83ca39c.c:147:5: error: expected declaration or statement at end of input
+  147 |     process_text(&analyzer, input
+      |     ^~~~~~~~~~~~

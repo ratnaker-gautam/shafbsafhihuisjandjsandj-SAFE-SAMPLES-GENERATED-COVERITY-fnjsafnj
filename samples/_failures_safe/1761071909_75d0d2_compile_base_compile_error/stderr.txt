@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_8dd11f65.c: In function ‘load_log_file’:
+./samples/SAFE/__tmp_8dd11f65.c:134:21: error: expected ‘]’ at end of input
+  134 |             line[len
+      |                     ^
+      |                     ]
+./samples/SAFE/__tmp_8dd11f65.c:134:13: error: expected declaration or statement at end of input
+  134 |             line[len
+      |             ^~~~
+./samples/SAFE/__tmp_8dd11f65.c:134:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8dd11f65.c:134:13: error: expected declaration or statement at end of input

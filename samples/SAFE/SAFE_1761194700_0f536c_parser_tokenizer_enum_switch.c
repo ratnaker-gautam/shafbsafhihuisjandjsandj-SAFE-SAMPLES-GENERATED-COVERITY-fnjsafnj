@@ -1,0 +1,157 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: enum_switch ; Variation: parser_tokenizer
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+
+enum TokenType {
+    TOKEN_NUMBER,
+    TOKEN_IDENTIFIER,
+    TOKEN_OPERATOR,
+    TOKEN_STRING,
+    TOKEN_EOF,
+    TOKEN_INVALID
+};
+
+struct Token {
+    enum TokenType type;
+    char value[32];
+    int line;
+    int column;
+};
+
+int is_operator_char(char c) {
+    return c == '+' || c == '-' || c == '*' || c == '/' || c == '=' || 
+           c == '<' || c == '>' || c == '!' || c == '&' || c == '|';
+}
+
+int get_next_token(const char *input, int *pos, int *line, int *column, struct Token *token) {
+    int start_pos = *pos;
+    int start_line = *line;
+    int start_column = *column;
+    
+    while (input[*pos] != '\0' && isspace(input[*pos])) {
+        if (input[*pos] == '\n') {
+            (*line)++;
+            *column = 1;
+        } else {
+            (*column)++;
+        }
+        (*pos)++;
+    }
+    
+    if (input[*pos] == '\0') {
+        token->type = TOKEN_EOF;
+        strcpy(token->value, "");
+        token->line = *line;
+        token->column = *column;
+        return 1;
+    }
+    
+    char current = input[*pos];
+    token->line = *line;
+    token->column = *column;
+    
+    if (isdigit(current)) {
+        token->type = TOKEN_NUMBER;
+        int i = 0;
+        while (input[*pos] != '\0' && i < 31 && isdigit(input[*pos])) {
+            token->value[i++] = input[*pos];
+            (*pos)++;
+            (*column)++;
+        }
+        token->value[i] = '\0';
+    } else if (isalpha(current) || current == '_') {
+        token->type = TOKEN_IDENTIFIER;
+        int i = 0;
+        while (input[*pos] != '\0' && i < 31 && (isalnum(input[*pos]) || input[*pos] == '_')) {
+            token->value[i++] = input[*pos];
+            (*pos)++;
+            (*column)++;
+        }
+        token->value[i] = '\0';
+    } else if (current == '"') {
+        token->type = TOKEN_STRING;
+        int i = 0;
+        (*pos)++;
+        (*column)++;
+        while (input[*pos] != '\0' && i < 31 && input[*pos] != '"') {
+            token->value[i++] = input[*pos];
+            (*pos)++;
+            (*column)++;
+        }
+        if (input[*pos] == '"') {
+            (*pos)++;
+            (*column)++;
+        }
+        token->value[i] = '\0';
+    } else if (is_operator_char(current)) {
+        token->type = TOKEN_OPERATOR;
+        int i = 0;
+        while (input[*pos] != '\0' && i < 31 && is_operator_char(input[*pos])) {
+            token->value[i++] = input[*pos];
+            (*pos)++;
+            (*column)++;
+        }
+        token->value[i] = '\0';
+    } else {
+        token->type = TOKEN_INVALID;
+        token->value[0] = input[*pos];
+        token->value[1] = '\0';
+        (*pos)++;
+        (*column)++;
+    }
+    
+    return 1;
+}
+
+void print_token(struct Token *token) {
+    const char *type_names[] = {
+        "NUMBER", "IDENTIFIER", "OPERATOR", "STRING", "EOF", "INVALID"
+    };
+    
+    printf("Line %d, Column %d: %s", token->line, token->column, type_names[token->type]);
+    
+    if (token->type != TOKEN_EOF) {
+        printf(" ('%s')", token->value);
+    }
+    printf("\n");
+}
+
+int main(void) {
+    char input[1024];
+    printf("Enter text to tokenize (max 1023 characters): ");
+    
+    if (fgets(input, sizeof(input), stdin) == NULL) {
+        fprintf(stderr, "Error reading input\n");
+        return 1;
+    }
+    
+    size_t len = strlen(input);
+    if (len > 0 && input[len - 1] == '\n') {
+        input[len - 1] = '\0';
+    }
+    
+    if (len == 0 || (len == 1 && input[0] == '\n')) {
+        printf("No input provided\n");
+        return 1;
+    }
+    
+    int pos = 0;
+    int line = 1;
+    int column = 1;
+    struct Token token;
+    
+    printf("\nTokens:\n");
+    printf("--------\n");
+    
+    while (get_next_token(input, &pos, &line, &column, &token)) {
+        print_token(&token);
+        
+        if (token.type == TOKEN_EOF) {
+            break;
+        }
+    }
+    
+    return 0;
+}

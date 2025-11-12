@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_788eeaf9.c: In function ‘queue_enqueue’:
+./samples/SAFE/__tmp_788eeaf9.c:188:16: error: expected ‘;’ at end of input
+  188 |     queue->size
+      |                ^
+      |                ;
+./samples/SAFE/__tmp_788eeaf9.c:188:5: error: expected declaration or statement at end of input
+  188 |     queue->size
+      |     ^~~~~

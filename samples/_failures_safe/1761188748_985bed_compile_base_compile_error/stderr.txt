@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_3f12f5b6.c: In function ‘main’:
+./samples/SAFE/__tmp_3f12f5b6.c:144:17: error: expected expression at end of input
+  144 |                 for (int j =
+      |                 ^~~
+./samples/SAFE/__tmp_3f12f5b6.c:144:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3f12f5b6.c:144:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3f12f5b6.c:144:17: error: expected declaration or statement at end of input

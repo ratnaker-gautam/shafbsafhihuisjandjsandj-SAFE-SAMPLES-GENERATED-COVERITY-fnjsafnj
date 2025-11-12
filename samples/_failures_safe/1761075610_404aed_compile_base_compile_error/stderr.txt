@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_60040483.c: In function ‘main’:
+./samples/SAFE/__tmp_60040483.c:133:9: error: expected declaration or statement at end of input
+  133 |         printf("Verification: FAILED\n");
+      |         ^~~~~~
+./samples/SAFE/__tmp_60040483.c:133:9: error: expected declaration or statement at end of input

@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_10bc0e23.c: In function ‘parse_string’:
+./samples/SAFE/__tmp_10bc0e23.c:179:22: error: expected ‘]’ at end of input
+  179 |     buffer[buffer_pos
+      |                      ^
+      |                      ]
+./samples/SAFE/__tmp_10bc0e23.c:179:5: error: expected declaration or statement at end of input
+  179 |     buffer[buffer_pos
+      |     ^~~~~~

@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_f9f184f4.c: In function ‘get_next_token’:
+./samples/SAFE/__tmp_f9f184f4.c:146:5: error: expected declaration or statement at end of input
+  146 |     token.value[token_len] = '\0';
+      |     ^~~~~

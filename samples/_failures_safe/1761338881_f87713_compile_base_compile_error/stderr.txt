@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_162750e9.c: In function ‘matrix_mul’:
+./samples/SAFE/__tmp_162750e9.c:129:13: error: expected identifier or ‘(’ at end of input
+  129 |             for (int
+      |             ^~~
+./samples/SAFE/__tmp_162750e9.c:129:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_162750e9.c:129:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_162750e9.c:129:13: error: expected declaration or statement at end of input

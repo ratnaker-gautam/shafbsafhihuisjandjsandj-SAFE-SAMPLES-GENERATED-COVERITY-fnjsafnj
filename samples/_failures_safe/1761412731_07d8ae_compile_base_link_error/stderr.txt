@@ -1,0 +1,5 @@
+/usr/bin/ld: /tmp/ccj23RAp.o: in function `main':
+__tmp_86599c80.c:(.text.startup+0x155): undefined reference to `log'
+/usr/bin/ld: __tmp_86599c80.c:(.text.startup+0x175): undefined reference to `log'
+/usr/bin/ld: __tmp_86599c80.c:(.text.startup+0x21c): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

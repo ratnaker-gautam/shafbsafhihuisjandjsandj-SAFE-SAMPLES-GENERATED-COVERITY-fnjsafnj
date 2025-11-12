@@ -1,0 +1,10 @@
+/usr/bin/ld: /tmp/cc85jCPV.o: in function `safe_power':
+__tmp_5b8934c2.c:(.text+0xda): undefined reference to `pow'
+/usr/bin/ld: __tmp_5b8934c2.c:(.text+0x11c): undefined reference to `fmod'
+/usr/bin/ld: /tmp/cc85jCPV.o: in function `main':
+__tmp_5b8934c2.c:(.text.startup+0x2d5): undefined reference to `sqrt'
+/usr/bin/ld: __tmp_5b8934c2.c:(.text.startup+0x48b): undefined reference to `pow'
+/usr/bin/ld: __tmp_5b8934c2.c:(.text.startup+0x4c8): undefined reference to `pow'
+/usr/bin/ld: __tmp_5b8934c2.c:(.text.startup+0x683): undefined reference to `pow'
+/usr/bin/ld: __tmp_5b8934c2.c:(.text.startup+0x729): undefined reference to `sqrt'
+collect2: error: ld returned 1 exit status

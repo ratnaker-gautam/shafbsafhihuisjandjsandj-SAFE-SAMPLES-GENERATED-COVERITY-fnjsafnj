@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a359ac0b.c: In function ‘main’:
+./samples/SAFE/__tmp_a359ac0b.c:170:5: error: expected ‘,’ or ‘;’ at end of input
+  170 |     int b = graph_add_node
+      |     ^~~
+./samples/SAFE/__tmp_a359ac0b.c:170:5: error: expected declaration or statement at end of input

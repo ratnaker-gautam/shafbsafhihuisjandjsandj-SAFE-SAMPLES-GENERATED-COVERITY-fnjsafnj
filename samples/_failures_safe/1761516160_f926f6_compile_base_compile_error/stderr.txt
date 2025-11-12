@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_3668547a.c: In function ‘main’:
+./samples/SAFE/__tmp_3668547a.c:166:17: error: expected declaration or statement at end of input
+  166 |                 if (strlen(data) == 0) {
+      |                 ^~
+./samples/SAFE/__tmp_3668547a.c:166:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3668547a.c:166:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3668547a.c:166:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_3668547a.c:166:17: error: expected declaration or statement at end of input

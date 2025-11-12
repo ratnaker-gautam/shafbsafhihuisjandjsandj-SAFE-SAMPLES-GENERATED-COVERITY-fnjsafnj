@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_18aa60df.c: In function ‘main’:
+./samples/SAFE/__tmp_18aa60df.c:159:5: error: expected expression at end of input
+  159 |     graph_add_node(&g,
+      |     ^~~~~~~~~~~~~~
+./samples/SAFE/__tmp_18aa60df.c:159:5: error: expected declaration or statement at end of input

@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_df3693f0.c: In function ‘parse_hex_input’:
+./samples/SAFE/__tmp_df3693f0.c:127:41: error: expected ‘)’ at end of input
+  127 |         output[i] = (uint8_t)((high << 4
+      |                               ~         ^
+      |                                         )
+./samples/SAFE/__tmp_df3693f0.c:127:9: error: expected declaration or statement at end of input
+  127 |         output[i] = (uint8_t)((high << 4
+      |         ^~~~~~
+./samples/SAFE/__tmp_df3693f0.c:127:9: error: expected declaration or statement at end of input

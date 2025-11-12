@@ -1,0 +1,15 @@
+./samples/SAFE/__tmp_4338513e.c: In function ‘main’:
+./samples/SAFE/__tmp_4338513e.c:162:17: error: expected expression at end of input
+  162 |                 operation_result = add_matrices(&a, &
+      |                 ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4338513e.c:162:36: error: too few arguments to function ‘add_matrices’
+  162 |                 operation_result = add_matrices(&a, &
+      |                                    ^~~~~~~~~~~~
+./samples/SAFE/__tmp_4338513e.c:96:5: note: declared here
+   96 | int add_matrices(const Matrix* a, const Matrix* b, Matrix* result) {
+      |     ^~~~~~~~~~~~
+./samples/SAFE/__tmp_4338513e.c:162:17: error: expected declaration or statement at end of input
+  162 |                 operation_result = add_matrices(&a, &
+      |                 ^~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_4338513e.c:162:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_4338513e.c:162:17: error: expected declaration or statement at end of input

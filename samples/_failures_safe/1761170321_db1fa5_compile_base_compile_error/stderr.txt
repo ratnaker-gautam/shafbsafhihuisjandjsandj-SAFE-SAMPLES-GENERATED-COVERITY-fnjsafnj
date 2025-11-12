@@ -1,0 +1,9 @@
+./samples/SAFE/__tmp_f28c15ed.c: In function ‘calculate_stats’:
+./samples/SAFE/__tmp_f28c15ed.c:115:87: error: expected ‘)’ at end of input
+  115 |         analyzer->stats.most_frequent_level[sizeof(analyzer->stats.most_frequent_level
+      |                                                   ~                                   ^
+      |                                                                                       )
+./samples/SAFE/__tmp_f28c15ed.c:115:9: error: expected declaration or statement at end of input
+  115 |         analyzer->stats.most_frequent_level[sizeof(analyzer->stats.most_frequent_level
+      |         ^~~~~~~~
+./samples/SAFE/__tmp_f28c15ed.c:115:9: error: expected declaration or statement at end of input

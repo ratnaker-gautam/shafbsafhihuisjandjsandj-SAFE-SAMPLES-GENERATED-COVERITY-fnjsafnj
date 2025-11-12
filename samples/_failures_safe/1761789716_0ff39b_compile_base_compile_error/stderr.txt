@@ -1,0 +1,10 @@
+./samples/SAFE/__tmp_fb075397.c: In function ‘print_tokens’:
+./samples/SAFE/__tmp_fb075397.c:178:45: error: missing terminating " character
+  178 |             case TOKEN_OPERATOR: type_str = "OPERATOR
+      |                                             ^~~~~~~~~
+./samples/SAFE/__tmp_fb075397.c:178:13: error: expected expression at end of input
+  178 |             case TOKEN_OPERATOR: type_str = "OPERATOR
+      |             ^~~~
+./samples/SAFE/__tmp_fb075397.c:178:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fb075397.c:178:13: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_fb075397.c:178:13: error: expected declaration or statement at end of input

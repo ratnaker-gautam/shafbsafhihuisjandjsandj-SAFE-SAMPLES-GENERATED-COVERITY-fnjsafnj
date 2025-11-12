@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_727cc094.c: In function ‘main’:
+./samples/SAFE/__tmp_727cc094.c:140:12: error: expected declaration or statement at end of input
+  140 |     struct TextProcessor processor;
+      |            ^~~~~~~~~~~~~

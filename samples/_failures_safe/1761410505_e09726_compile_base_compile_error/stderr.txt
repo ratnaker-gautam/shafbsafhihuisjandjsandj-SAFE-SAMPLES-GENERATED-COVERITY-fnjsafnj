@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_3b0f4089.c: In function ‘compute_geometry’:
+./samples/SAFE/__tmp_3b0f4089.c:112:5: error: expected expression at end of input
+  112 |     int idx =
+      |     ^~~
+./samples/SAFE/__tmp_3b0f4089.c:112:5: error: expected declaration or statement at end of input

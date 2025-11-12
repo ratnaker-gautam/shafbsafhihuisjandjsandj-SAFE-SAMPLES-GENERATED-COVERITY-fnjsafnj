@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_17fd0455.c: In function ‘main’:
+./samples/SAFE/__tmp_17fd0455.c:129:44: error: ‘compressed_b’ undeclared (first use in this function); did you mean ‘compressed_buf’?
+  129 |     printf("Compressed size: %zu bytes\n", compressed_b
+      |                                            ^~~~~~~~~~~~
+      |                                            compressed_buf
+./samples/SAFE/__tmp_17fd0455.c:129:44: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_17fd0455.c:129:56: error: expected ‘)’ at end of input
+  129 |     printf("Compressed size: %zu bytes\n", compressed_b
+      |           ~                                            ^
+      |                                                        )
+./samples/SAFE/__tmp_17fd0455.c:129:5: error: expected declaration or statement at end of input
+  129 |     printf("Compressed size: %zu bytes\n", compressed_b
+      |     ^~~~~~

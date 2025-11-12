@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_6fc4f4aa.c: In function ‘main’:
+./samples/SAFE/__tmp_6fc4f4aa.c:155: error: expected ‘}’ at end of input
+./samples/SAFE/__tmp_6fc4f4aa.c:154:23: note: to match this ‘{’
+  154 |     Buffer original = {test_data, sizeof(test_data)
+      |                       ^
+./samples/SAFE/__tmp_6fc4f4aa.c:154:5: error: expected declaration or statement at end of input
+  154 |     Buffer original = {test_data, sizeof(test_data)
+      |     ^~~~~~

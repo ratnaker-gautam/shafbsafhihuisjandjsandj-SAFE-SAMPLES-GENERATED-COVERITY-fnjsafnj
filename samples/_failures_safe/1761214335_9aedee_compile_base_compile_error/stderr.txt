@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_e890c9c3.c: In function ‘next_token’:
+./samples/SAFE/__tmp_e890c9c3.c:141:9: error: expected declaration or statement at end of input
+  141 |         token->value[1] = '\0';
+      |         ^~~~~
+./samples/SAFE/__tmp_e890c9c3.c:141:9: error: expected declaration or statement at end of input

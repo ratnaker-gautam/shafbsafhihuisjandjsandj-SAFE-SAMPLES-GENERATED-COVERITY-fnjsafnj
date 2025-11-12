@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_24a3311e.c: In function ‘process_log_file’:
+./samples/SAFE/__tmp_24a3311e.c:152:16: error: expected identifier or ‘(’ at end of input
+  152 |         struct Log
+      |                ^~~
+./samples/SAFE/__tmp_24a3311e.c:152:16: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_24a3311e.c:152:16: error: expected declaration or statement at end of input

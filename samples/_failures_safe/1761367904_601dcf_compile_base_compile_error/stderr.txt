@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_fb1868dd.c: In function ‘main’:
+./samples/SAFE/__tmp_fb1868dd.c:172:5: error: expected declaration or statement at end of input
+  172 |     print_tokens(tokens, token_count);
+      |     ^~~~~~~~~~~~

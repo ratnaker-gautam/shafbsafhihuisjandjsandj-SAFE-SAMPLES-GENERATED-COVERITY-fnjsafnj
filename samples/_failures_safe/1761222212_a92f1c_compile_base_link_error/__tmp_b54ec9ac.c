@@ -1,0 +1,93 @@
+//DeepSeek-V3 V2.5 Category: Safe ; Style: function_pointers ; Variation: numeric_computation
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <stdint.h>
+#include <limits.h>
+
+typedef double (*numeric_func)(double, double);
+
+double add(double a, double b) {
+    return a + b;
+}
+
+double subtract(double a, double b) {
+    return a - b;
+}
+
+double multiply(double a, double b) {
+    return a * b;
+}
+
+double divide(double a, double b) {
+    if (fabs(b) < 1e-15) {
+        return NAN;
+    }
+    return a / b;
+}
+
+double power(double a, double b) {
+    if (a < 0 && fmod(b, 1.0) != 0) {
+        return NAN;
+    }
+    return pow(a, b);
+}
+
+int main() {
+    numeric_func operations[] = {add, subtract, multiply, divide, power};
+    const char* operation_names[] = {"addition", "subtraction", "multiplication", "division", "exponentiation"};
+    const int num_operations = sizeof(operations) / sizeof(operations[0]);
+    
+    double a, b;
+    int choice;
+    
+    printf("Available operations:\n");
+    for (int i = 0; i < num_operations; i++) {
+        printf("%d. %s\n", i + 1, operation_names[i]);
+    }
+    
+    printf("Enter operation number (1-%d): ", num_operations);
+    if (scanf("%d", &choice) != 1) {
+        printf("Invalid input\n");
+        return 1;
+    }
+    
+    if (choice < 1 || choice > num_operations) {
+        printf("Invalid operation choice\n");
+        return 1;
+    }
+    
+    printf("Enter first number: ");
+    if (scanf("%lf", &a) != 1) {
+        printf("Invalid input\n");
+        return 1;
+    }
+    
+    printf("Enter second number: ");
+    if (scanf("%lf", &b) != 1) {
+        printf("Invalid input\n");
+        return 1;
+    }
+    
+    if (isnan(a) || isnan(b) || isinf(a) || isinf(b)) {
+        printf("Invalid numeric input\n");
+        return 1;
+    }
+    
+    numeric_func selected_func = operations[choice - 1];
+    double result = selected_func(a, b);
+    
+    if (isnan(result)) {
+        printf("Operation resulted in undefined value\n");
+        return 1;
+    }
+    
+    if (isinf(result)) {
+        printf("Operation resulted in overflow\n");
+        return 1;
+    }
+    
+    printf("Result of %s: %.6f\n", operation_names[choice - 1], result);
+    
+    return 0;
+}

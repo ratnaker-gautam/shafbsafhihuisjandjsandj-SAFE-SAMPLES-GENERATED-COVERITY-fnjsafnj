@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_fa04da58.c: In function ‘main’:
+./samples/SAFE/__tmp_fa04da58.c:155:9: error: expected declaration or statement at end of input
+  155 |         fprintf(stderr, "Decompression verification failed\n");
+      |         ^~~~~~~
+./samples/SAFE/__tmp_fa04da58.c:155:9: error: expected declaration or statement at end of input

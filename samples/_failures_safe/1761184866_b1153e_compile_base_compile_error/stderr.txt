@@ -1,0 +1,4 @@
+./samples/SAFE/__tmp_95e46f74.c: In function ‘parse_expression’:
+./samples/SAFE/__tmp_95e46f74.c:147:5: error: expected declaration or statement at end of input
+  147 |     }
+      |     ^

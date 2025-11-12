@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_4b01fe52.c: In function ‘main’:
+./samples/SAFE/__tmp_4b01fe52.c:162:5: error: expected declaration or statement at end of input
+  162 |     if (scanf("%d", &start) != 1 || start < 0 || start >= n) {
+      |     ^~
+./samples/SAFE/__tmp_4b01fe52.c:162:5: error: expected declaration or statement at end of input

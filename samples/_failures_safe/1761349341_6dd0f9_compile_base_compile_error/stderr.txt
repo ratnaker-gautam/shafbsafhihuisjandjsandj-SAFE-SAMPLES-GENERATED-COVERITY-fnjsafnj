@@ -1,0 +1,7 @@
+./samples/SAFE/__tmp_292ee588.c: In function ‘main’:
+./samples/SAFE/__tmp_292ee588.c:137:17: error: expected expression at end of input
+  137 |                 if (mat1.cols !=
+      |                 ^~
+./samples/SAFE/__tmp_292ee588.c:137:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_292ee588.c:137:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_292ee588.c:137:17: error: expected declaration or statement at end of input

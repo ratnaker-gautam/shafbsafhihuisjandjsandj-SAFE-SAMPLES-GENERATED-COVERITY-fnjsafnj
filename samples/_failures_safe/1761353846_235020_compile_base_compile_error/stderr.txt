@@ -1,0 +1,13 @@
+./samples/SAFE/__tmp_ae859b11.c: In function ‘main’:
+./samples/SAFE/__tmp_ae859b11.c:170:40: error: ‘STATE_COMPL’ undeclared (first use in this function); did you mean ‘STATE_COMPLETE’?
+  170 |     while (sm.context.current_state != STATE_COMPL
+      |                                        ^~~~~~~~~~~
+      |                                        STATE_COMPLETE
+./samples/SAFE/__tmp_ae859b11.c:170:40: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_ae859b11.c:170:51: error: expected ‘)’ at end of input
+  170 |     while (sm.context.current_state != STATE_COMPL
+      |           ~                                       ^
+      |                                                   )
+./samples/SAFE/__tmp_ae859b11.c:170:5: error: expected declaration or statement at end of input
+  170 |     while (sm.context.current_state != STATE_COMPL
+      |     ^~~~~

@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_d920d504.c: In function ‘main’:
+./samples/SAFE/__tmp_d920d504.c:150:5: error: expected expression at end of input
+  150 |     uint8_t sample_data3[] = {0x43, 0x6F, 0x6D, 0x70, 0x72, 0x65, 0x73, 0x73, 0x69, 0x6F, 0x6E,
+      |     ^~~~~~~
+./samples/SAFE/__tmp_d920d504.c:150:5: error: expected declaration or statement at end of input

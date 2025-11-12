@@ -1,0 +1,6 @@
+./samples/SAFE/__tmp_8bdd0221.c: In function ‘main’:
+./samples/SAFE/__tmp_8bdd0221.c:147:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ at end of input
+  147 |         double mat3_data[]
+      |         ^~~~~~
+./samples/SAFE/__tmp_8bdd0221.c:147:9: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_8bdd0221.c:147:9: error: expected declaration or statement at end of input

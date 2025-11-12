@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_34c00dbc.c: In function ‘main’:
+./samples/SAFE/__tmp_34c00dbc.c:193:12: error: expected ‘,’ or ‘;’ at end of input
+  193 |     struct Graph *graph = graph_create
+      |            ^~~~~
+./samples/SAFE/__tmp_34c00dbc.c:193:12: error: expected declaration or statement at end of input

@@ -1,0 +1,19 @@
+./samples/SAFE/__tmp_aca06fa6.c: In function ‘main’:
+./samples/SAFE/__tmp_aca06fa6.c:134:38: error: ‘test_data’ undeclared (first use in this function); did you mean ‘test_data3’?
+  134 |     if (!add_compression_block(&ctx, test_data
+      |                                      ^~~~~~~~~
+      |                                      test_data3
+./samples/SAFE/__tmp_aca06fa6.c:134:38: note: each undeclared identifier is reported only once for each function it appears in
+./samples/SAFE/__tmp_aca06fa6.c:134:47: error: expected ‘)’ at end of input
+  134 |     if (!add_compression_block(&ctx, test_data
+      |                               ~               ^
+      |                                               )
+./samples/SAFE/__tmp_aca06fa6.c:134:10: error: too few arguments to function ‘add_compression_block’
+  134 |     if (!add_compression_block(&ctx, test_data
+      |          ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_aca06fa6.c:59:5: note: declared here
+   59 | int add_compression_block(struct CompressionContext *ctx, const uint8_t *data, uint16_t length) {
+      |     ^~~~~~~~~~~~~~~~~~~~~
+./samples/SAFE/__tmp_aca06fa6.c:134:5: error: expected declaration or statement at end of input
+  134 |     if (!add_compression_block(&ctx, test_data
+      |     ^~

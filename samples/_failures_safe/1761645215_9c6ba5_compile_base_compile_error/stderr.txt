@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_2e581ced.c: In function ‘main’:
+./samples/SAFE/__tmp_2e581ced.c:134:5: error: expected expression at end of input
+  134 |     printf("Compression ratio: %.2f%%\n", (1.0 - (double)compressed_size / 256.0) *
+      |     ^~~~~~
+./samples/SAFE/__tmp_2e581ced.c:134:5: error: expected declaration or statement at end of input

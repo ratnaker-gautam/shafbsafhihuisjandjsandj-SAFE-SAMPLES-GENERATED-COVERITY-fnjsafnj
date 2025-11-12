@@ -1,0 +1,5 @@
+./samples/SAFE/__tmp_a63f6eb3.c: In function ‘display_entries_by_level’:
+./samples/SAFE/__tmp_a63f6eb3.c:142:9: error: expected declaration or statement at end of input
+  142 |         printf("No entries found with level %s\n", level);
+      |         ^~~~~~
+./samples/SAFE/__tmp_a63f6eb3.c:142:9: error: expected declaration or statement at end of input

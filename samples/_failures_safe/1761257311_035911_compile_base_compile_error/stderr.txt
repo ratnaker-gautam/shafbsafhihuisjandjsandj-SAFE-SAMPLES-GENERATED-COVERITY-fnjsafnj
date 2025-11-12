@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_874e7f68.c: In function ‘main’:
+./samples/SAFE/__tmp_874e7f68.c:154: error: expected ‘)’ at end of input
+./samples/SAFE/__tmp_874e7f68.c:153:8: note: to match this ‘(’
+  153 |     if (mat1.data == NULL || mat2.data == NULL
+      |        ^
+./samples/SAFE/__tmp_874e7f68.c:153:5: error: expected declaration or statement at end of input
+  153 |     if (mat1.data == NULL || mat2.data == NULL
+      |     ^~

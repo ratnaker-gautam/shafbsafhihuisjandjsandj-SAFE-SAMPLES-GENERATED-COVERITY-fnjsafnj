@@ -1,0 +1,8 @@
+./samples/SAFE/__tmp_9f8ab924.c: In function ‘dijkstra’:
+./samples/SAFE/__tmp_9f8ab924.c:148:17: error: expected expression at end of input
+  148 |                 if (new_dist < distances[v])
+      |                 ^~
+./samples/SAFE/__tmp_9f8ab924.c:148:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9f8ab924.c:148:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9f8ab924.c:148:17: error: expected declaration or statement at end of input
+./samples/SAFE/__tmp_9f8ab924.c:148:17: error: expected declaration or statement at end of input
